@@ -1,4 +1,4 @@
-# queries.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR sweeps (slices A–D). Every entry carries recheck: true until quotes are verified against live pages.
+# queries.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
 - text: SBIR STTR reauthorization 2026 public law signed
   engine: WebSearch
   hits: 9
@@ -737,3 +737,822 @@
   hits: 9
   date: '2026-10-03'
   slice: D
+- text: federalregister.gov "HUBZone Program Updates and Clarifications" December 17 2024 final rule recertification
+    effective January 17, 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SBA size standards inflation adjustment proposed rule 2025 2026 monetary-based size standards federalregister.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SBA 8(a) proposed rule June 11 2026 rebuttable presumption social disadvantage federalregister.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SBA 8(a) program suspensions 2026 audit firms suspended sba.gov press release
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: SBA news release June 2025 Loeffler orders full-scale audit of 8(a) business development program
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: SBA 8(a) February 2025 Loeffler memo small disadvantaged business goal 5% 8(a) admissions pause "Day One"
+    sba.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: SBA news release February 2026 8(a) Washington D.C. firms terminated 154 economic disadvantage suspended
+    sba.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: SBA 8(a) applications status 2026 new applications paused OR accepting certifications.sba.gov "8(a)" after
+    final rule September 10 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: Federal Acquisition Regulation inflation adjustment of acquisition-related thresholds final rule effective
+    October 1, 2025 8(a) sole source $5.5 million HUBZone $5 million federalregister.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SAM.gov entity registration free "no cost" renew every 365 days UEI CAGE code assigned gsa.gov OR fsd.gov
+    OR sam.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SAM.gov warning scam emails third-party fees registration "free" official GSA alert fraudulent solicitations
+    entity registration
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: 'SAM.gov notarized letter entity administrator requirement (domains: sam.gov, gsa.gov, fsd.gov)'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: 'GSA SAM.gov beware fraudulent emails phishing third party charge fee register free (domains: sam.gov, gsa.gov,
+    fsd.gov, gsaig.gov, ftc.gov)'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: gsa.gov "Unique Entity ID" SAM.gov April 4, 2022 DUNS transition 12-character
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SBA small business procurement scorecard FY2024 results government-wide 28.8% OR percent small business
+    prime contracting sba.gov news release 2025
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: 'SBA news release FY2024 small business procurement scorecard federal government awarded small business
+    contracting record (domains: sba.gov, legacy.sba.gov)'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: SBA FY2025 small business procurement scorecard released 2026 government-wide results sba.gov news release
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: 15 U.S.C. 644(g) government-wide goals 23 percent small business 5 percent service-disabled veterans 3 percent
+    HUBZone 5 percent women small disadvantaged uscode.house.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: 'SBA small disadvantaged business page self-certify SAM eligibility "small disadvantaged business" sba.gov
+    contracting assistance programs (domains: sba.gov, legacy.sba.gov)'
+  engine: WebSearch
+  hits: 7
+  date: '2026-10-03'
+  slice: SA
+- text: small disadvantaged business goal 15% to 5% 2025 executive order 14148 rescinded 13985 OMB memo M-22-03
+    SBA goaling FY2025
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SBA FY2026 goaling guidelines small business goals agencies SDB 5% sba.gov "goaling"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: Executive Order 14151 "Ending Radical and Wasteful Government DEI Programs and Preferencing" federalregister.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SBA 8(a) suspensions total 1,700 firms 2026 economic disadvantage suspensions March 2026 sba.gov news release
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: 'SBA news release December 5 2025 orders all 8(a) participants provide financial records three years deadline
+    January (domains: sba.gov, legacy.sba.gov)'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SBA 8(a) FAQ new social disadvantage rule pending applications returned 45 days September 2026 sba.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SBA final rule monetary-based industry size standards 2026 RIN 3245-AI12 final OR withdrawn "size standards"
+    263 industries
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SBA WOSB eligible NAICS codes list document "qualifying NAICS" women-owned small business federal contract
+    program effective 2022 sba.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: VA Vets First Contracting Program rule of two 38 U.S.C. 8127 SDVOSB VOSB priority va.gov OSDBU
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: federalregister.gov "Veteran-Owned Small Business and Service-Disabled Veteran-Owned Small Business-Certification"
+    final rule November 29 2022 SBA; 2024 rule ending SDVOSB self-certification
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: 'SBA VetCert veteran small business certification how to apply certification free three years self-certification
+    ended sba.gov (domains: sba.gov, legacy.sba.gov)'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SBA HUBZone map update 2026 qualified census tracts redesignated areas expire July 2026 sba.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: federalregister.gov SBA final rule September 2026 13 CFR part 127 OR part 128 OR part 126 amendment women-owned
+    veteran certification
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: Small Business Administration final rule Federal Register September 29, 2026 13 CFR parts 121 124 125 126
+    127 128
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: Federal Register FAR interim rule November 2024 "System for Award Management" registration clarify offeror
+    registered at time of offer and at award not continuous
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: GSA "notarized letter" SAM.gov entity administrator requirement process "Federal Service Desk" template
+    when required 2025 OR 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: gsa.gov SAM.gov "notarized letter" Entity Administrator appoint "free" register do not need to pay third
+    party
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: SBA 8(a) February 2025 halt OR paused OR freeze 8(a) program applications OR awards February 2025
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: '"90 FR 23609" SBA June 4, 2025 HUBZone technical amendments corrections 13 CFR 125.12 126.200'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SA
+- text: SBA direct final rule 2024 "Ending Self-Certification" service-disabled veteran-owned small business goaling
+    subcontracting December 22, 2024 federalregister.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SA
+- text: Revolutionary FAR Overhaul acquisition.gov status FAR Part 19 model deviation
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SB
+- text: FAR overhaul proposed rule Federal Register 2026 comment period small business programs Part 19
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: Executive Order 14275 Restoring Common Sense to Federal Procurement federalregister.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: FAR 1.109 regulatory sunset four years non-statutory small business rule of two
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: federalregister.gov "Federal Acquisition Regulation" "Revolutionary FAR Overhaul" proposed rule 2026 Part
+    19 small business FAR Case
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SB
+- text: 'federalregister.gov June 2026 "Revolutionary FAR Overhaul" proposed rule Parts 1 19 "sunset" FAR Case 2026
+    (domain: federalregister.gov)'
+  engine: WebSearch
+  hits: 2
+  date: '2026-10-03'
+  slice: SB
+- text: Federal Register "Inflation Adjustment of Acquisition-Related Thresholds" FAR Case 2024-001 final rule micro-purchase
+    threshold $15,000 simplified acquisition threshold $350,000
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: DoD Class Deviation 2026-O0037 Revolutionary FAR Overhaul Part 19 DFARS Part 219 effective February 1, 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: Revolutionary FAR Overhaul final rule published Federal Register 2026 "final rule" FAR Council third set
+    proposed rules Part 19
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SB
+- text: SBA FY2025 small business procurement scorecard released government-wide grade small business prime contracting
+    percent
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: 15 U.S.C. 644(g) government-wide goals 23 percent small business 5 percent service-disabled veteran 3 percent
+    HUBZone 5 percent women small disadvantaged
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: GAO bid protest FY2025 NDAA section 885 task order protest threshold $35 million DoD GAO proposal enhanced
+    pleading standard report
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: GAO Bid Protest Annual Report to Congress for Fiscal Year 2025 gao.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SB
+- text: GAO bid protest regulations final rule 2026 4 CFR Part 21 amendment pleading standard Federal Register
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: FY2026 NDAA bid protest provisions section GAO protest DoD "task order" threshold $35 million DFARS 216.505
+    class deviation
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: DoD Small Business Strategy 2023 media.defense.gov PDF Office of Small Business Programs three strategic
+    objectives
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: Department of War Office of Small Business Programs 2026 small business strategy new OR updated OR released
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: 8(a) Business Development program proposed rule June 2026 Federal Register SBA 13 CFR 124
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: SBA rule "rule of two" orders multiple-award contracts 13 CFR 125.2 proposed rule final rule status 2025
+    2026 federalregister.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: SBA withdraws proposed rule "Increasing Small Business Participation on Multiple Award Contracts" rule of
+    two orders withdrawn 2025
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: proposed FAR 1.109 "regulatory sunset" text proposed rule June 2026 "expire" "four years" OR "4 years" differs
+    from model deviation
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: VA Veterans First Contracting Program va.gov OSDBU SDVOSB VOSB priority 38 U.S.C. 8127 VAAR 819.7007 sole
+    source
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: 'GSA Advantage vendors how to sell gsa.gov micro-purchase purchase card holders MAS contract required (domains:
+    gsa.gov, smartpay.gsa.gov)'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SB
+- text: 'SBA small business contracting goals page agency goals statutory 23% SDB goal 5% fiscal year 2026 sba.gov
+    goaling (domain: sba.gov)'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SB
+- text: 'GAO bid protest decision 2026 "rule of two" small business set-aside sustained OR denied "task order" discretion
+    gao.gov (domain: gao.gov)'
+  engine: WebSearch
+  hits: 3
+  date: '2026-10-03'
+  slice: SB
+- text: DFARS class deviation task order protest threshold $35 million section 885 FY2025 NDAA 10 U.S.C. 3406(f)
+    DFARS Case 2025-D
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SB
+- text: FAR overhaul third set proposed rules October 2026 Part 19 small business proposed rule published
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SB
+- text: 'GSA Advantage "purchase card" federal buyers online shopping gsa.gov how vendors upload catalog MAS (domain:
+    gsa.gov)'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SB
+- text: 'Federal Register API: documents.json, term "Revolutionary Federal Acquisition Regulation Overhaul", newest
+    first'
+  engine: federalregister.gov API (via WebFetch)
+  hits: 8
+  date: '2026-10-03'
+  slice: SB
+- text: 'Federal Register API: documents.json, term "Revolutionary FAR Overhaul", published on or after 2026-07-01'
+  engine: federalregister.gov API (via WebFetch)
+  hits: 7
+  date: '2026-10-03'
+  slice: SB
+- text: GSA Multiple Award Schedule how to get on schedule roadmap readiness assessment Pathway to Success (gsa.gov
+    only)
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: Executive Order 14240 Eliminating Waste and Saving Taxpayer Dollars by Consolidating Procurement
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: OASIS+ on-ramp 2026 small business pools open solicitation gsa.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: Polaris GWAC small business pool awards 2026 status gsa.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: Alliant 3 GWAC award status 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: NASA SEWP VI award status 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: Polaris GWAC gsa.gov small business pool notice to proceed (gsa.gov only)
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: GSA ASTRO contract unmanned systems robotics pools gsa.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: GSA OneGov strategy agreements small business MAS gsa.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: NITAAC CIO-SP4 status 2026 award cancelled CIO-SP3 extension
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: nitaac.nih.gov CIO-SP4 cancellation notice solicitation cancelled
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: sewp.nasa.gov SEWP VI awards categories number of contract holders November 1 2026 fee
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: Polaris small business pool protest Court of Federal Claims 2025 2026 notice to proceed status
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: GSA MAS Refresh 31 transactional data reporting mandatory all SINs 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: GSA Startup Springboard MAS two years corporate experience gsa.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: GSA Industrial Funding Fee 0.75% MAS sales reporting gsa.gov vsc
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: acquisition.gov FAR overhaul Part 8 required sources of supplies and services Federal Supply Schedules moved
+    Part 38
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: NASA SEWP VI awards announced June 2026 nasa.gov contract release
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: gsa.gov set-asides Multiple Award Schedule orders small business set aside FAR 8.405-5 eBuy
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: VA T4NG2 Transformation Twenty-One Total Technology Next Generation 2 award status 2026 va.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: DHS FirstSource III status 2026 dhs.gov small business IT commodities contract
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: Navy SeaPort-NxG rolling admissions 2026 seaport.navy.mil
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: va.gov T4NG2 contract Technology Acquisition Center prime contractors list on-ramp
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: gsa.gov MAS consolidation 24 schedules into one single schedule phases history
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: gsa.gov eBuy GSA Advantage how buyers use MAS request for quote sellers (gsa.gov only)
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: GSA MAS solicitation 47QSMD20R0001 refresh 32 2026 planned changes
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: GSA news release transactional data reporting expansion 2025 MAS gsa.gov (gsa.gov only)
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: GSA procurement consolidation agencies transferred contracting GSA news release 2025 2026 OPM Education
+    HUD SBA
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: GSA Office of Centralized Acquisition Services OCAS agencies news release gsa.gov (gsa.gov only)
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: GSA small business procurement consolidation statement "small business" OneGov FAQ gsa.gov what it means
+    for small businesses
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: GSA news release agencies centralize procurement GSA OPM SBA HUD Education agreement gsa.gov newsroom (gsa.gov
+    only)
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: Army CHESS ITES-4S award status 2026 chess.army.mil
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: DISA SETI contract small business pool ordering period disa.mil
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: GSA Office of Small Business training events APEX Accelerators vendor support center "sell to government"
+    (gsa.gov, apexaccelerators.us only)
+  engine: WebSearch
+  hits: 1
+  date: '2026-10-03'
+  slice: SC
+- text: ITES-4S awards 2026 Army announces awardees protest status
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: GSA small business "Office of Small Business" OR OSDBU training events vendor "APEX Accelerators" gsa.gov
+    small-business-resources
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: VA T4NG2 court decision 2026 task orders begin awardees SDVOSB
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: chess.army.mil ITES-4S contract awarded OR "ITES-3S" ordering period ITES-SW2
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: DLA JETS 2.0 J6 Enterprise Technology Services small business status dla.mil
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: SEWP VI transition updates SEWP V end date fee 0.34% on-ramp sewp.nasa.gov FAQ
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: acquisition.gov GSAM 552.238-79 cancellation minimum sales $100,000 552.238-81 price reductions
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: OASIS+ fact sheet contract access fee 0.15% ordering period ten years no ceiling gsa.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: GSA Alliant 3 awards news release March 2026 gsa.gov number of awardees phase 1 phase 2
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: GSA news release centralized acquisition agreement agency "procurement" transfer GSA "Office of Personnel
+    Management" OR "Department of Education" OR "Small Business Administration" 2025
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: gsa.gov MAS ordering procedures RFO GSAM subpart 538.71 "ordering procedures"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: SeaPort-NxG Rolling Admissions II awards 2025 NAVSEA 1,023 ordering period 2029
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: VA "T4NG2" va.gov OSDBU OR "Technology Acquisition Center" contract holders SDVOSB (va.gov only)
+  engine: WebSearch
+  hits: 3
+  date: '2026-10-03'
+  slice: SC
+- text: GSA MAS readiness assessment prospective offerors vsc.gsa.gov "Pathways to Success" training eOffer FAS
+    ID
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SC
+- text: '"RFO-2025-FSS-GSAR 538" class deviation GSAR subpart 538.71 ordering procedures set-aside'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: DHS FirstSource III cancellation dhs.gov statement OR "PACTS III" cancelled SAM.gov notice text June 2025
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SC
+- text: SAM.gov contract opportunities notice types sources sought presolicitation combined synopsis/solicitation
+    special notice
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: FAR 5.101 synopsis $25,000 Governmentwide point of entry acquisition.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: CMMC final acquisition rule DFARS 252.204-7021 Federal Register phase 1 November 10, 2025
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: agency procurement forecast acquisition.gov procurement-forecasts
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: SAM.gov "interested vendors list" contract opportunities how to add yourself fsd.gov knowledge base
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: gsa.gov SAM.gov contract opportunities "notice types" "sources sought" "special notice" definition learning
+    center
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: SAM.gov contract opportunities data extract "ContractOpportunitiesFullCSV" data services
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: catalog.data.gov "Contract Opportunities" SAM.gov data extract CSV daily GSA
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: '"sources sought" "special notice" "presolicitation" notice type definitions SAM.gov site:gsa.gov OR site:sba.gov
+    OR site:dla.mil OR site:nih.gov'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: federalregister.gov "Assessing Contractor Implementation of Cybersecurity Requirements" DFARS Case 2019-D041
+    final rule September 10 2025
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: CMMC Phase 2 suspended July 13, 2026 DoD memo C3PAO certification requirement
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: war.gov OR defense.gov "CMMC" "Phase II" suspension "reform task force" July 2026 memorandum
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: Cyber AB CMMC marketplace C3PAO authorized list cyberab.org
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: gsa.gov SAM.gov entity registration free renew every 365 days unique entity ID April 4, 2022 DUNS
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: GSA SAM notarized letter requirement entity administrator 2018 fraud history removed
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: gsa.gov SAM.gov "notarized letter" entity administrator requirement current policy validate entity
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: dcaa.mil pre-award accounting system adequacy checklist SF 1408 small business information
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: pmddtc.state.gov registration fee tiers 2025 "Tier 1" $3,000 manufacturers exporters must register 22 CFR
+    122.1 DECCS
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: FAR inflation adjustment acquisition-related thresholds effective October 1, 2025 simplified acquisition
+    threshold $350,000 micro-purchase $15,000 Federal Register final rule
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: DFARS 215.506-70 additional requirements for postaward debriefings enhanced debriefings acquisition.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: Federal Register "Inflation Adjustment of Acquisition-Related Thresholds" FAR Case 2024-001 final rule August
+    2025 simplified acquisition threshold
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: EPA forecast of contracting opportunities OSDBU "forecast" epa.gov small business
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: SBA procurement forecast "forecast" sba.gov contracting opportunities with SBA acquisition forecast
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: OSDBU "capability statement" should include core competencies past performance differentiators UEI CAGE
+    NAICS site:.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: SBA.gov "forecast" SBA's own procurement opportunities "doing business with SBA" acquisition forecast
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: gsa.gov OSDBU "capability statement" guide what to include one page core competencies differentiators past
+    performance
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: SD
+- text: '"capability statement" small business what to include (restricted to 17 agency .gov domains)'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: OSDBU vendor outreach session capability statement requirements one-on-one small business specialist (restricted
+    to agency .gov domains)
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: SAM.gov "save search" "follow" contract opportunities email notifications workspace GSA quick start guide
+    interested vendors list (restricted to .gov domains)
+  engine: WebSearch
+  hits: 1
+  date: '2026-10-03'
+  slice: SD
+- text: CMMC reform task force recommendations September 2026 Phase II outcome announcement Department of War CIO
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: Federal Register June 2026 "Revolutionary Federal Acquisition Regulation Overhaul" proposed rule Part 15
+    Part 12 Part 13 Part 19 FAR Case 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD
+- text: Department of State OSDBU procurement forecast FY2026 state.gov small business "forecast"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: SD

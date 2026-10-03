@@ -1,4 +1,4 @@
-# programs.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR sweeps (slices A–D). Every entry carries recheck: true until quotes are verified against live pages.
+# programs.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
 - id: sbir-sttr-governmentwide
   name: SBIR/STTR (government-wide framework)
   family: sbir-sttr
@@ -4473,3 +4473,871 @@
   - 416
   - 472
   conflicts: []
+- id: gsa-mas
+  name: GSA Multiple Award Schedule (MAS)
+  family: setaside-vehicle
+  kind: vehicle
+  owner: U.S. General Services Administration, Federal Acquisition Service
+  agency: GSA
+  defense: false
+  what: 'MAS, also called schedules or Federal Supply Schedule, is where federal, state, local and tribal governments
+    and other eligible buyers get commercial products, services and other solutions [701]. It runs under one solicitation,
+    47QSMD20R0001, now at Refresh 32 (June 2026), formed when GSA consolidated its 24 schedules into a single solicitation
+    [707] [724]. GSA says a Schedule contract does not guarantee sales: the holder must market, respond to requests
+    for quotations, and maintain pricing and compliance [722].
+
+    '
+  status: 'Open to new offers: GSA publishes a seven-step roadmap that ends with submitting an offer in eOffer,
+    and Refresh 32 (June 2026) is the latest solicitation refresh listed, with no later refresh posted on 2026-10-03
+    [702] [708]'
+  funds_or_buys: procurement
+  eligibility:
+  - A minimum of two years of corporate experience is required unless the offer is submitted under Startup Springboard
+    [705]
+  - Financial statements for the previous two-year period, audited if available, with at least a balance sheet and
+    income statement [704]
+  - 'Past performance: three or more CPARS reports may be verified in eOffer; otherwise three customer references
+    and three completed Past Performance Questionnaires [705]'
+  - Startup Springboard is available exclusively to offers in the Information Technology category that are in a
+    FASt Lane initiative and are agency-sponsored [720]
+  - All proposed products and services must comply with the Trade Agreements Act [705]
+  - A subcontracting plan is required for large businesses unless exceptions apply [704]
+  - 'No small-business restriction on entry is stated; orders and BPAs may be set aside for small business at the
+    ordering contracting officer''s discretion under codified FAR 8.405-5 (authority: section 1331 of Public Law
+    111-240, 15 U.S.C. 644(r)), and the Part 19 preference programs are not mandatory under FAR subpart 8.4 [726]'
+  - An agency gets small business credit for an order only if the awardee meets the size standard for the order's
+    NAICS code [726]
+  - 'GSA''s advice to small firms before applying: minimum 2 years in business (Springboard exception), financial
+    stability, past performance, and a grasp of compliance requirements [722]'
+  cycle:
+    pattern: 'One standing solicitation, refreshed several times a year: Refresh 26 April 2025; Refresh 27/28 June/July
+      2025; Refresh 29 August 2025; Refresh 30 November 2025; Refresh 31 April 2026; Refresh 32 June 2026 [708]'
+    current_solicitations:
+    - id: 47QSMD20R0001 Refresh 32
+      opens: ''
+      closes: ''
+      note: Latest refresh listed, dated June 2026; GSA links the MAS solicitation on SAM.gov at https://sam.gov/opp/da6dacecb6b6481f85811f8fee9f733d/view,
+        a notice the fetch tool could not read [708] [703]
+  awards:
+  - phase: contract term
+    amount: ''
+    duration: 5 years from award unless extended (GSAR 552.238-116) or cancelled
+    cite:
+    - 707
+  - phase: programme size, as GSA states it
+    amount: more than 12 million commercial supplies and services; approximately $33 billion spent annually (2020
+      figure)
+    duration: ''
+    cite:
+    - 747
+    - 724
+  steps:
+  - 'Step 1: decide if MAS is right for the firm, and complete the mandatory Pathways to Success training (3–4 hours,
+    completed within the past year, acknowledged in eOffer) [702]'
+  - 'Step 2: complete the readiness assessment, done by the designated Authorized Negotiator, who must be a company
+    employee, within the past year [702]'
+  - 'Step 3: read the whole solicitation [702]'
+  - 'Step 4: work through the new offeror checklist [702]'
+  - 'Step 5: registrations; SAM.gov registration is required before accessing eOffer/eMod, and eOffer login uses
+    a FAS ID [702] [721]'
+  - 'Step 6: gather information, using GSA''s required templates (price proposal files, the pricing terms file required
+    for all submissions, the past performance questionnaire and others) [702] [704]'
+  - 'Step 7: finalize and submit in eOffer [702]'
+  obligations:
+  - 'Industrial Funding Fee: currently 0.75% unless otherwise stated in the solicitation [718]'
+  - Transactional Data Reporting (TDR) is mandatory for all MAS SINs effective with Refresh 31, released April 2,
+    2026; it does not apply to VA Schedule contracts [713] [714]
+  - The TDR expansion began with Refresh 27 (June 2025), which made TDR mandatory for all existing Product SINs
+    and the Cloud SIN (518210C) [709]
+  - Under TDR, sales are reported monthly, within 30 days after month-end, and the IFF is paid quarterly within
+    30 days (it may be paid monthly) [713]
+  - TDR grace and trial periods run July 1, 2026 through December 31, 2026, with no enforcement for good-faith data-entry
+    errors in that window [714]
+  - 'Sales criteria (clause I-FSS-639): the contracting officer may decline the first option if reported sales are
+    not expected to exceed $100,000 within the first 60 months after award, and later options if reported sales
+    did not exceed $125,000 in each 60-month period thereafter [707]'
+  - GSA reports that it eliminated approximately 1,600 MAS contracts in Fiscal Year 2025 and that contracts failing
+    sales thresholds were allowed to expire [744]
+  - Catalogue data goes to GSA Advantage within 30 calendar days of award and of any modification; price reductions
+    are reported to the contracting officer within 15 days of the effective date; the option notification letter
+    is answered 165 days before contract end [717]
+  - Either party may cancel the contract in whole or in part on written notice, effective 30 calendar days after
+    receipt (GSAM 552.238-79) [732]
+  ordering:
+  - Buyers use RFQs, not requests for proposals, for orders and BPAs; they seek competition from at least three
+    contractors, the rule of two does not apply, and set-asides are permitted but not mandatory [729]
+  - The minimum time for an RFQ in eBuy is 48 hours [729]
+  - In eBuy, contractors see requests created under the vehicles and categories for which they hold a contract [730]
+  - GSA tells buyers to state clearly in the request for quote that an order or BPA will be set aside for a particular
+    socioeconomic category [725]
+  - 'GSA-managed governmentwide BPAs built on MAS: 2GIT, laptops and desktops, governmentwide printer BPAs, emergency
+    lodging, SCRIPTS [731]'
+  - OneGov agreements are available through MAS and other established vehicles; OEMs must maintain a GSA Schedule
+    contract, and value added resellers can distribute OneGov agreements through MAS [742]
+  portal: https://www.eoffer.gsa.gov/
+  registrations:
+  - sam-registration-uei
+  gates:
+  - sam-registration-uei
+  - naics-size-at-offer
+  - buy-american-taa
+  - past-performance-cpars
+  situations:
+  - registered-no-award
+  - first-awards
+  modifiers:
+    rd: false
+    product: true
+    service: true
+  pending_changes:
+  - status: class-deviation
+    date: '2025-08-13'
+    text: GSA Class Deviation RFO-2025-FSS-GSAR 538 (issued August 13, 2025; effective November 3, 2025) relocates
+      FSS ordering procedures from FAR subpart 8.4 to GSAR subpart 538.71, retaining the requirement to seek at
+      least three quotes above the micro-purchase threshold and the consideration of small businesses; codified
+      FAR 8.405-5 remains the primary citation here [727] [728] [726]
+  - status: class-deviation
+    date: 2025-11
+    text: MAS Refresh 30 (November 2025) updated clauses and provisions to align with the FAR and GSAR deviations
+      from the Revolutionary FAR Overhaul and added a statement directing users to gsa.gov for MAS ordering procedures
+      under RFO GSAM subpart 538.71 [710]
+  - status: class-deviation
+    date: ''
+    text: 'FAR-overhaul Part 8 model deviation text: 8.104 requires use of "required use" governmentwide contracts
+      and 8.4 references GSAR subpart 538.71 for ordering procedures; the page was last updated 2026-09-28 and the
+      issuance date of the Part 8 text was not captured [746]'
+  - status: class-deviation
+    date: ''
+    text: GSA's buyer page cites the set-aside categories as FAR 19.000(a)(3) under "GSA CD RFO 2025-19" and cites
+      FAR 19.108-7(d) for the MAS 8(a) Pool; the date of that class deviation was not captured in this slice, and
+      whether 19.108-7(d) is codified or deviation numbering was not confirmed [725]
+  - status: class-deviation
+    date: '2026-04-20'
+    text: Refresh 32 (June 2026) implements Executive Order 14398 (March 26, 2026) through GSA class deviation RFO-2025-12
+      Supplement 26-02 dated April 20, 2026 [712]
+  - status: proposed
+    date: '2026-09-18'
+    text: FAR Case 2026-003 (91 FR 59406) would codify the overhaul of Part 8, requiring agencies to use existing
+      contracts designated "required use" or "best in class" before soliciting new ones, and would remove Part 38
+      from the FAR in its entirety; comments are due October 19, 2026 [745]
+  - status: final
+    date: '2026-04-02'
+    text: Refresh 31 made TDR mandatory for all SINs and eliminated non-TDR and CSP-1 references from the solicitation;
+      existing contractors accept mass modification A909 within 60 days, then the "Participate in TDR" modification
+      [711] [714]
+  distinctive: 'GSA''s own framing to sellers: "The GSA Schedule contract provides no guarantee of sales, but can
+    open doors to the federal market." [719]'
+  official_url: https://www.gsa.gov/buy-through-us/purchasing-programs/multiple-award-schedule
+  as_of: '2026-10-03'
+  sources:
+  - 701
+  - 702
+  - 703
+  - 704
+  - 705
+  - 706
+  - 707
+  - 708
+  - 709
+  - 710
+  - 711
+  - 712
+  - 713
+  - 714
+  - 717
+  - 718
+  - 719
+  - 720
+  - 721
+  - 722
+  - 724
+  - 725
+  - 726
+  - 727
+  - 728
+  - 729
+  - 730
+  - 731
+  - 732
+  - 742
+  - 743
+  - 744
+  - 745
+  - 746
+  - 747
+  conflicts:
+  - GSA's after-award page cites GSAR 552.238-79 for the $100,000 / $125,000 sales figures [717], but that clause's
+    text has no thresholds [732]; the figures are in solicitation clause I-FSS-639 [707]
+  - 'The operative text of GSAR subpart 538.71 was not read: only the cover memo content of the class deviation
+    was extracted, so thresholds and the set-aside wording under 538.71 are unverified [727]'
+  - GSA's buyer-tips page still cites FAR 8.4 section numbers [729] and the OneGov IT page says agencies must follow
+    FAR 8.4 ordering procedures [743], while GSA's ordering page puts the procedures in GSAR subpart 538.71 [728]
+  - The sweep's draft record calls MAS open "continuously"; no fetched page states that the solicitation has no
+    closing date, and the SAM.gov solicitation notice was not readable [703]
+  - 'Pathways to Success: 3–4 hours on the roadmap page [702] vs approximately four hours in the superseded June
+    2025 offer instructions [706]'
+- id: oasis-plus
+  name: OASIS+
+  family: setaside-vehicle
+  kind: vehicle
+  owner: U.S. General Services Administration
+  agency: GSA
+  defense: false
+  what: 'OASIS+ is GSA''s governmentwide multi-agency, multiple award, indefinite delivery, indefinite quantity
+    contract for non-IT services, made up of six separate contracts across 13 domains [750]. It has a five-year
+    base plus one five-year option, a cumulative 10-year ordering period, and no contract ceiling or cap on awards
+    [753]. It combines the scope of legacy OASIS, BMO and HCaTS with new service areas [753].
+
+    '
+  status: 'Open: as of January 12, 2026, all six solicitations are continuously open with no closing date, and awards
+    are made on a rolling basis [751]'
+  funds_or_buys: procurement
+  eligibility:
+  - 'Six contracts: Total Small Business, WOSB, SDVOSB, HUBZone, 8(a), Unrestricted [750]'
+  - '13 domains: Management & Advisory; Intelligence Services; Facilities; Research & Development; Technical & Engineering;
+    Environmental; Logistics; Enterprise Solutions; Business Administration; Financial Services; Human Capital;
+    Marketing and Public Relations; Social Services [750]'
+  - Qualification is by points on qualifying projects, which must meet per-domain average annual value thresholds
+    [752]
+  - 'Qualification threshold as extracted by the fetch: 36 points for small business and socioeconomic contracts;
+    42/45 points for Unrestricted (check per-domain values) [752]'
+  cycle:
+    pattern: Continuously open with rolling awards and no fixed award timeline; proposals are generally evaluated
+      in order received, subject to resources [751]
+    current_solicitations:
+    - id: OASIS+ (six solicitations)
+      opens: '2026-01-12'
+      closes: ''
+      note: No closing date; the first Phase II rolling apparent-awardee announcements were posted May 12, 2026;
+        SAM.gov notice https://sam.gov/opp/87f1563a959543d2b09d46f6f6f98b41/view [751] [750] [752]
+  awards:
+  - phase: master contract
+    amount: no contract ceiling or cap on awards
+    duration: base 5 years plus one 5-year option (cumulative 10-year ordering period); task orders may extend up
+      to five years and six months beyond the ordering term
+    cite:
+    - 753
+  - phase: minimum guarantee
+    amount: $2,500 per contract for the full term
+    duration: ''
+    cite:
+    - 752
+  steps:
+  - Show qualifying projects that meet the per-domain average annual value thresholds [752]
+  - Submit the proposal through the Symphony Procurement Suite (OASIS+ Submission Portal) [751]
+  obligations:
+  - 'Contract access fee: 0.15% against all costs, including ODCs, on each invoice [752]'
+  - Task orders are reported within 30 days of award; invoices monthly via the FAS Sales Reporting Portal; the contract
+    access fee is remitted quarterly [752]
+  - The contractor must reach $250,000 in awarded task orders before the end of the fifth year [752]
+  ordering:
+  - Task orders continue on eBuy [751]
+  - BPAs are permitted under OASIS+ [753]
+  portal: https://oasis.app.cloud.gov/
+  registrations: []
+  gates: []
+  situations:
+  - registered-no-award
+  - first-awards
+  modifiers:
+    rd: true
+    product: false
+    service: true
+  pending_changes:
+  - status: final
+    date: '2025-03-01'
+    text: 'Legacy OASIS is closed to new orders: the OASIS Small Business and OASIS 8(a) ordering periods ended
+      December 19, 2024, and the OASIS Unrestricted ordering period ended March 1, 2025 [755]'
+  distinctive: '"the solicitation for OASIS+ will remain continuously open, allowing potential industry partners
+    to obtain OASIS+ contracts at any time as long as they qualify" [753]'
+  official_url: https://www.gsa.gov/buy-through-us/products-and-services/professional-services/buy-services/oasis-plus
+  as_of: '2026-10-03'
+  sources:
+  - 750
+  - 751
+  - 752
+  - 753
+  - 754
+  - 755
+  conflicts:
+  - 'Award counts (about 4,100 awards before reopening: roughly 700 unrestricted, 3,400 small business) and the
+    statement that five new domains were finalized in December 2025 rest only on trade press; GSA''s pages do not
+    give them [754]'
+  - The qualification thresholds ("36" and "42/45") came from the fetch extractor; per-domain values were not confirmed
+    [752]
+- id: polaris
+  name: Polaris
+  family: setaside-vehicle
+  kind: vehicle
+  owner: U.S. General Services Administration
+  agency: GSA
+  defense: false
+  what: 'Polaris is a small business GWAC offering customized IT services and service-based solutions in four set-aside
+    pools: Small Business, WOSB, HUBZone and SDVOSB [756]. It has no ceiling and a five-year base with a five-year
+    option [756].
+
+    '
+  status: 'Three of four pools may issue task orders: HUBZone and SDVOSB (base period December 2, 2025 to December
+    1, 2030) and WOSB (base period March 9, 2026 to March 8, 2031); the Small Business pool shows no ordering period
+    [756]'
+  funds_or_buys: procurement
+  eligibility:
+  - 'Four set-aside pools: Small Business, WOSB, HUBZone, SDVOSB [756]'
+  - 102 small businesses were awarded to the Small Business pool on December 30, 2024 [757]
+  cycle:
+    pattern: GSA's Polaris page says nothing about open seasons [756]
+    current_solicitations: []
+  awards:
+  - phase: master contract
+    amount: no ceiling
+    duration: five-year base with a five-year option; HUBZone and SDVOSB base 12/2/25–12/1/30, option 12/2/30–12/1/35
+    cite:
+    - 756
+    - 749
+  steps: []
+  obligations:
+  - Contract access fee generally 0.75%, applied to the total paid on each invoice [749]
+  ordering:
+  - Orders are competed on eBuy with fair opportunity under FAR 16.5 [756]
+  - Orders may be set aside under section 1331 of Public Law 111-240, but there are no further set-asides on the
+    Polaris SDVOSB or HUBZone pools [749]
+  - Ordering offices need DPA training and a DPA certification form [748]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: false
+    product: false
+    service: true
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Fair opportunity is cited here at codified FAR 16.5 [756]; overhaul Part 16 was not read in slices SC
+      or SD, so its deviation numbering and date are not recorded; the deviation guide lists each part's model text
+      [798]
+  distinctive: '"Polaris is a small business GWAC offering customized IT services and service-based solutions in
+    four unique set aside pools." [756]'
+  official_url: https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/gwacs/polarisr
+  as_of: '2026-10-03'
+  sources:
+  - 748
+  - 749
+  - 756
+  - 757
+  - 758
+  - 759
+  - 798
+  conflicts:
+  - 'Small Business pool: GSA announced 102 awards on December 30, 2024 [757], but its programme page shows no ordering
+    period and says nothing about protests [756]. That the pool is held up by protests at the Court of Federal Claims,
+    and that a sealed September 10, 2026 decision bars new Polaris awards until evaluation errors are corrected,
+    rest only on trade press; which pools the bar covers is unconfirmed [758] [759]'
+  - Award counts by pool (WOSB 47 companies in Phase One from 293 proposals; HUBZone 30; SDVOSB 23) and the plan
+    for further selection phases rest only on trade press [758]
+  - The ordering guide read (November 2025 file) says the Small Business and WOSB pools were not yet available for
+    ordering [749] vs the programme page updated 2026-09-11, which shows the WOSB pool open [756]; a newer guide
+    dated 2026-08-19 was not fetched [749]
+- id: alliant-3
+  name: Alliant 3
+  family: setaside-vehicle
+  kind: vehicle
+  owner: U.S. General Services Administration
+  agency: GSA
+  defense: false
+  what: 'Alliant 3 is GSA''s next-generation Governmentwide Acquisition Contract for information technology services
+    [760]. It is unrestricted and has no ceiling [760]. Its predecessor, Alliant 2, remains open for ordering until
+    June 30, 2028, with a $90.75B ceiling [762].
+
+    '
+  status: 'Live: Notice to Proceed issued March 10, 2026; master contract March 10, 2026 to March 9, 2031, with
+    an option March 10, 2031 to March 9, 2036 [760]'
+  funds_or_buys: procurement
+  eligibility:
+  - Unrestricted; GSA's page does not address on-ramps [760]
+  cycle:
+    pattern: No on-ramp is addressed on GSA's Alliant 3 page [760]
+    current_solicitations: []
+  awards:
+  - phase: master contract
+    amount: no ceiling
+    duration: March 10, 2026 to March 9, 2031; option March 10, 2031 to March 9, 2036; task orders may run up to
+      five years beyond expiration (through March 9, 2041)
+    cite:
+    - 760
+  steps: []
+  obligations:
+  - Contract access fee 0.75% [760]
+  ordering:
+  - Orders go through eBuy or GSA Assisted Acquisition Services [760]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: false
+    product: false
+    service: true
+  pending_changes: []
+  distinctive: '"GSA''s next-generation Governmentwide Acquisition Contract for information technology services"
+    [760]'
+  official_url: https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/gwacs/alliant-3
+  as_of: '2026-10-03'
+  sources:
+  - 760
+  - 761
+  - 762
+  conflicts:
+  - The Phase 1 award count (43 companies selected February 20, 2026 from 133 proposals), the plan for further award
+    phases until 76 recipients are selected, and the $2,500 minimum guarantee rest only on trade press [761]; GSA's
+    page gives no awardee number [760]
+- id: stars-iii
+  name: 8(a) STARS III
+  family: setaside-vehicle
+  kind: vehicle
+  owner: U.S. General Services Administration
+  agency: GSA
+  defense: false
+  what: '8(a) STARS III is a small business set-aside GWAC that provides flexible access to customized IT solutions
+    from a large, diverse pool of 8(a) industry partners [763]. Its ceiling is $50 billion and its ordering period
+    runs July 2, 2021 to July 1, 2029 [763].
+
+    '
+  status: 'In its option period: base 7/2/21–7/1/26, option 7/2/26–7/1/29 [749]; a targeted re-read of GSA''s page
+    found no sentence about open seasons or new entrants [763]'
+  funds_or_buys: procurement
+  eligibility:
+  - '8(a) industry partners: the vehicle is a small business set-aside GWAC [763]'
+  - The industry partner list on the page is dated 09-17-2026 [763]
+  cycle:
+    pattern: No open season or on-ramp is stated on GSA's page [763]
+    current_solicitations: []
+  awards:
+  - phase: master contract
+    amount: $50 billion ceiling
+    duration: ordering July 2, 2021 to July 1, 2029; orders awarded before July 2, 2026 may run through July 1,
+      2031; those awarded July 2, 2026–July 1, 2029 through July 1, 2034
+    cite:
+    - 763
+  - phase: sole-source task order
+    amount: $5.5M over the life of a task order
+    duration: ''
+    cite:
+    - 763
+  steps: []
+  obligations:
+  - Contract access fee generally 0.75%, applied to the total paid on each invoice [749]
+  ordering:
+  - '"The current sole source threshold is $5.5M over the life of a task order."; fair opportunity under FAR 16.5
+    otherwise [763]'
+  - Competitive 8(a) STARS III requirements are competed among all holders in the scope area (13 CFR 124.503(i)(1)(ii));
+    the guide's sole-source section is marked under review [749]
+  - Higher sole-source thresholds for ANC, Native Hawaiian or tribally owned firms ($30M civilian, $150M defense)
+    are as extracted by the fetch and need re-checking [763]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: false
+    product: false
+    service: true
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Fair opportunity is cited here at codified FAR 16.5 [763]; overhaul Part 16 was not read in slices SC
+      or SD, so its deviation numbering and date are not recorded; the deviation guide lists each part's model text
+      [798]
+  distinctive: '"8(a) STARS III is a small business set-aside GWAC that provides flexible access to customized IT
+    solutions from a large, diverse pool of 8(a) industry partners." [763]'
+  official_url: https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/gwacs/8a-stars-iii
+  as_of: '2026-10-03'
+  sources:
+  - 749
+  - 763
+  - 798
+  conflicts:
+  - Whether STARS III will take new entrants is not stated either way on GSA's pages [763]; the newer ordering guide
+    dated 2026-08-19 was not fetched [749]
+- id: vets-2
+  name: VETS 2
+  family: setaside-vehicle
+  kind: vehicle
+  owner: U.S. General Services Administration
+  agency: GSA
+  defense: false
+  what: 'VETS 2 is GSA''s next generation service-disabled, veteran-owned, small business set-aside GWAC for total
+    IT solutions [764]. Its ceiling is $6.1 billion [764].
+
+    '
+  status: Ordering February 23, 2018 through February 22, 2028; task orders complete by February 22, 2033; no on-ramp
+    or successor is mentioned on the page [764]
+  funds_or_buys: procurement
+  eligibility:
+  - Service-disabled, veteran-owned small business set-aside [764]
+  cycle:
+    pattern: No on-ramp or successor is mentioned on GSA's page [764]
+    current_solicitations: []
+  awards:
+  - phase: master contract
+    amount: $6.1 billion ceiling
+    duration: base 2/23/18–2/22/23; option 2/23/23–2/22/28; task orders complete by February 22, 2033
+    cite:
+    - 764
+    - 749
+  steps: []
+  obligations:
+  - Contract access fee 0.75 percent [764]
+  ordering:
+  - Fair opportunity under FAR 16.5 [764]
+  - No further set-asides on VETS 2 [749]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: false
+    product: false
+    service: true
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Fair opportunity is cited here at codified FAR 16.5 [764]; overhaul Part 16 was not read in slices SC
+      or SD, so its deviation numbering and date are not recorded; the deviation guide lists each part's model text
+      [798]
+  distinctive: '"VETS 2 is GSA''s next generation service-disabled, veteran-owned, small business set-aside GWAC
+    for total IT solutions." [764]'
+  official_url: https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/gwacs/vets-2
+  as_of: '2026-10-03'
+  sources:
+  - 749
+  - 764
+  - 798
+  conflicts: []
+- id: astro
+  name: ASTRO
+  family: setaside-vehicle
+  kind: vehicle
+  owner: U.S. General Services Administration, Assisted Acquisition Services
+  agency: GSA
+  defense: false
+  what: 'ASTRO is a family of ten multiple-award IDIQs for services around manned, unmanned and optionally manned
+    platforms and robotics [765]. Its ten pools are Aviation; Data Operations; Development/Systems Integration;
+    Ground; Maritime; Mission Operations; Research; Space; Support; Training [765].
+
+    '
+  status: Ceiling, ordering period and on-ramp are not on the page read [765]
+  funds_or_buys: procurement
+  eligibility: []
+  cycle:
+    pattern: No on-ramp is stated on the page read [765]
+    current_solicitations: []
+  awards: []
+  steps: []
+  obligations: []
+  ordering:
+  - '"ASTRO orders may only be placed by authorized contracting officers (COs) within GSA''s AAS." [765]'
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: true
+    product: false
+    service: true
+  pending_changes: []
+  distinctive: Orders may be placed only by authorized contracting officers within GSA's Assisted Acquisition Services;
+    contact ASTRO@gsa.gov [765]
+  official_url: https://aas.gsa.gov/astro/
+  as_of: '2026-10-03'
+  sources:
+  - 765
+  conflicts: []
+- id: sewp-vi
+  name: NASA SEWP VI
+  family: setaside-vehicle
+  kind: vehicle
+  owner: NASA SEWP Program Office
+  agency: NASA
+  defense: false
+  what: 'SEWP is NASA''s GWAC for IT, communications and audio-visual products and services [766]. SEWP VI has three
+    categories, a five-year base and one five-year option running November 1, 2026 through October 31, 2036, and
+    a $20 billion contract limit per holder [767]. NASA holds the executive agent designation from OMB under the
+    Clinger-Cohen Act [766].
+
+    '
+  status: 'Awarded, with ordering still to start: SEWP VI''s period of performance is November 1, 2026 through October
+    31, 2036, November 1, 2026 is the anticipated start date for SEWP VI request submissions, and SEWP V contracts
+    are extended through January 31, 2027 [766] [768]'
+  funds_or_buys: procurement
+  eligibility:
+  - 'Category A: ITC/AV product solutions, large and small businesses [767]'
+  - 'Category B: enterprise-wide ITC/AV service solutions, large and small businesses [767]'
+  - 'Category C: mission-based ITC/AV service solutions, small businesses only [767]'
+  - Over 2,115 prime contract holders, including more than 1,300 small businesses [768]
+  - 'Users: NASA, all federal agencies including DoD, and approved support contractors; not state or local governments
+    [768]'
+  cycle:
+    pattern: No on-ramp terms were found on the NASA pages read [766] [768]
+    current_solicitations: []
+  awards:
+  - phase: master contract
+    amount: $20 billion contract limit per holder
+    duration: five-year base and one five-year option, November 1, 2026 through October 31, 2036
+    cite:
+    - 767
+  steps: []
+  obligations:
+  - SEWP surcharge 0.34% on all orders since October 1, 2020; it is included in pricing [768]
+  ordering:
+  - Fair opportunity to all holders in the group unless an exception exists; orders go through the Quote Request
+    Tool [768]
+  - BPAs are permitted under SEWP contracts [766]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: false
+    product: true
+    service: true
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-11-01'
+    text: '"November 1, 2026, is the anticipated start date for SEWP VI request submissions."; SEWP V contracts
+      are extended through January 31, 2027 [768] [766]'
+  - status: announced
+    date: '2025-03-20'
+    text: Executive Order 14240 (signed March 20, 2025) has OMB designate the GSA Administrator as executive agent
+      for all Government-wide acquisition contracts for information technology [733]; whether SEWP moves to GSA
+      is not stated on any page read [766]
+  distinctive: Category C, mission-based ITC/AV service solutions, is for small businesses only [767]
+  official_url: https://www.sewp.nasa.gov/
+  as_of: '2026-10-03'
+  sources:
+  - 733
+  - 766
+  - 767
+  - 768
+  - 769
+  conflicts:
+  - The award announcement date (June 23, 2026) and the per-category counts (364 Category A, 692 Category B, 1,059
+    Category C; 2,115 in total) rest only on trade press [769]
+  - The trade report's SEWP V dates differ from NASA's own page; NASA's are used [769] vs [766]
+- id: nitaac-cio-sp
+  name: NIH NITAAC CIO-SP4 / CIO-SP3
+  family: setaside-vehicle
+  kind: vehicle
+  owner: NIH Information Technology Acquisition and Assessment Center (NITAAC)
+  agency: HHS
+  defense: false
+  what: 'NITAAC''s home page carries a notice dated June 9, 2026 covering CIO-SP3, CIO-SP3 Small Business and CIO-CS,
+    issued "Following a strategic review aligned with Executive Order 14240 and OMB Memorandum M-25-31" [770]. The
+    CIO-SP3 contract page says the contract "has been additionally extended to 10/29/26, with an ordering period
+    of performance through 10/29/2031" [771].
+
+    '
+  status: ''
+  funds_or_buys: procurement
+  eligibility: []
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards: []
+  steps: []
+  obligations:
+  - NIH contract access fee 0.65% [771]
+  ordering: []
+  portal: ''
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: false
+    product: false
+    service: true
+  pending_changes:
+  - status: announced
+    date: '2026-06-09'
+    text: NITAAC home-page notice dated June 9, 2026 covering CIO-SP3, CIO-SP3 Small Business and CIO-CS; the full
+      notice (node/176771) could not be fetched, so its terms were not read on a primary page [770]
+  distinctive: ''
+  official_url: https://nitaac.nih.gov/
+  as_of: '2026-10-03'
+  sources:
+  - 770
+  - 771
+  - 772
+  - 773
+  conflicts:
+  - 'Status field left empty: that CIO-SP4 was cancelled (notified January 30, 2026 in a Court of Federal Claims
+    filing, citing EO 14240) rests only on trade press; no NITAAC page stating the cancellation was reachable [773]'
+  - The sunset terms (October 29, 2026 as the final day for new orders under any NITAAC GWAC; from June 8, 2026
+    no orders extending past December 31, 2028; all work concluding December 31, 2028) rest only on a secondary
+    report of the June 9 notice [772]; the primary page read gives only the notice's date, scope and opening words
+    [770]
+  - 'CIO-SP3 performance end date: 10/29/2031 on NITAAC''s contract page [771] vs December 31, 2028 in the reported
+    notice [772]'
+  - An earlier trade report said CIO-SP3 was extended to April 29, 2027 [773] vs the 10/29/26 extension on NITAAC's
+    page [771]
+- id: seaport-nxg
+  name: Navy SeaPort-NxG
+  family: setaside-vehicle
+  kind: vehicle
+  owner: U.S. Navy (NAVSEA)
+  agency: DoD
+  defense: true
+  what: 'SeaPort-NxG is the Navy''s electronic platform for acquiring support services in 23 functional areas [774].
+    It has 2400+ IDIQ multiple award contract holders, and its users are NAVSEA, NAVAIR, NAVWAR, NAVFAC, NAVSUP,
+    ONR, MSC and USMC [774].
+
+    '
+  status: The last rolling admissions solicitation named on the Navy's page, N00178-24-R-7000, was released on SAM.gov
+    April 9, 2024; the page lists 2400+ contract holders [774]
+  funds_or_buys: procurement
+  eligibility:
+  - 23 functional areas, including engineering, financial management and programme management [774]
+  cycle:
+    pattern: Entry by rolling admissions; solicitation N00178-24-R-7000 was released on SAM.gov April 9, 2024 [774]
+    current_solicitations: []
+  awards: []
+  steps: []
+  obligations: []
+  ordering:
+  - The Navy and Marine Corps commands named on the page compete work on the platform [774]
+  portal: https://www.seaport.navy.mil/
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: false
+    product: false
+    service: true
+  pending_changes: []
+  distinctive: '"The Navy''s electronic platform for acquiring support services in 23 functional areas" [774]'
+  official_url: https://www.seaport.navy.mil/
+  as_of: '2026-10-03'
+  sources:
+  - 774
+  - 775
+  conflicts:
+  - The result of Rolling Admissions II (1,023 companies selected from 1,106 proposals, announced January 8, 2025)
+    rests only on trade press drawn from the DoD contract announcement [775]
+  - Whether an admission is open now is not stated on the page read, and the SAM.gov rolling admissions notice was
+    not readable [774]
+- id: disa-seti
+  name: DISA SETI (Systems Engineering, Technology and Innovation)
+  family: setaside-vehicle
+  kind: vehicle
+  owner: Defense Information Systems Agency
+  agency: DoD
+  defense: true
+  what: 'SETI is DISA''s vehicle for "new, non-commodity, and innovative IT solutions for DISA''s mission partners",
+    in a Full & Open suite and a Small Business suite [776]. It totals $7.5 billion across both suites [776].
+
+    '
+  status: 'Full & Open suite: June 2018 to June 2028, 14 contractors; Small Business suite: June 2019 to June 2029,
+    17 contractors; a closed list of holders with no on-ramp or successor stated [776]'
+  funds_or_buys: procurement
+  eligibility:
+  - 'Small Business suite: 17 contractors; Full & Open suite: 14 contractors [776]'
+  cycle:
+    pattern: No on-ramp or successor is stated on DISA's page [776]
+    current_solicitations: []
+  awards:
+  - phase: both suites
+    amount: $7.5 billion total
+    duration: Full & Open June 2018 to June 2028; Small Business June 2019 to June 2029
+    cite:
+    - 776
+  steps: []
+  obligations: []
+  ordering: []
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: false
+    product: false
+    service: true
+  pending_changes: []
+  distinctive: '"new, non-commodity, and innovative IT solutions for DISA''s mission partners" [776]'
+  official_url: https://disa.mil/About/Small-Business/SETI
+  as_of: '2026-10-03'
+  sources:
+  - 776
+  conflicts: []
+- id: army-ites-3s
+  name: Army CHESS ITES-3S (with ITES-4S and ITES-SW2)
+  family: setaside-vehicle
+  kind: vehicle
+  owner: U.S. Army CHESS
+  agency: DoD
+  defense: true
+  what: 'The Army''s CHESS contract page describes ITES-3S as "The US Army''s mandatory source for the purchase
+    of a full range of services and solutions within CONUS and OCONUS" [780]. A February 2024 Army article says
+    ITES-3S runs through September 2027 and carries no contract administration fee, and that its follow-on, ITES-4S,
+    has a ceiling of approximately $12.1 billion and a planned 8(a) set-aside [779]. The Army''s software vehicle,
+    ITES-SW2, was awarded in 2020 to 31 awardees with a $13 billion firm-fixed-price ceiling [781].
+
+    '
+  status: ITES-3S is the current Army IT services vehicle and runs through September 2027, per a February 2024 Army
+    article; the CHESS page read carries no ITES-4S notice [779] [780]
+  funds_or_buys: procurement
+  eligibility:
+  - 'ITES-3S: 101 vendors listed, about 47 marked small business, as counted by the fetch extractor (recount before
+    use) [780]'
+  - 'ITES-SW2: 31 awardees from 32 bids across 14 product categories; users are Army, DoD and federal customers
+    [781]'
+  cycle:
+    pattern: An 8(a) set-aside was planned for ITES-4S as of February 2024; no ITES-4S solicitation was seen on
+      an official page [779] [780]
+    current_solicitations: []
+  awards:
+  - phase: ITES-4S (planned)
+    amount: ceiling approximately $12.1 billion
+    duration: ''
+    cite:
+    - 779
+  - phase: ITES-SW2
+    amount: $13 billion firm-fixed-price ceiling
+    duration: ''
+    cite:
+    - 781
+  steps: []
+  obligations:
+  - No contract administration fee on ITES-3S [779]
+  ordering: []
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: false
+    product: true
+    service: true
+  pending_changes: []
+  distinctive: '"The US Army''s mandatory source for the purchase of a full range of services and solutions within
+    CONUS and OCONUS" [780]'
+  official_url: https://chess.army.mil/Contract/Program?Name=ITES-3S
+  as_of: '2026-10-03'
+  sources:
+  - 779
+  - 780
+  - 781
+  - 782
+  conflicts:
+  - 'ITES-4S: its 2026 status rests only on a vendor blog (RFP expected October 2026; awards Q3 FY2027; pools for
+    8(a), small business and large business) that is internally inconsistent on dates; no official 2026 status was
+    found [782]'
+  - The schedule in the 2024 Army article (final RFP fall 2024) has slipped [779]

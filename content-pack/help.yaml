@@ -1,4 +1,4 @@
-# help.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR sweeps (slices A–D). Every entry carries recheck: true until quotes are verified against live pages.
+# help.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
 - id: apex-accelerators
   name: APEX Accelerators (formerly Procurement Technical Assistance Centers)
   what: 'APEX Accelerators (formerly known as Procurement Technical Assistance Centers) provide technical assistance

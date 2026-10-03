@@ -1,0 +1,810 @@
+# routes.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+- id: total-small-business-set-aside
+  name: Total small-business set-aside (the Rule of Two)
+  family: setaside-vehicle
+  governing_text: 15 U.S.C. 644(j)(1) (the band between the micro-purchase threshold and the simplified acquisition
+    threshold); FAR 19.502-2(a) and (b); FAR 13.003(b); FAR 19.203; 13 CFR 125.2(f)
+  what: The contracting officer restricts a purchase to small businesses when offers are reasonably expected from
+    two or more of them, the codified Rule of Two (FAR 19.502-2) [607]. Between the micro-purchase threshold and
+    the simplified acquisition threshold the purchase is set aside unless the contracting officer determines there
+    is no reasonable expectation of two competitive small-business offers, and that band is also reserved by statute
+    [607] [597]. Above the simplified acquisition threshold the acquisition is set aside when offers are expected
+    from at least two responsible small businesses and award will be at fair market prices [607].
+  who_for: Any firm that is small under the NAICS size standard on the solicitation; no certification is needed
+    for the general small-business set-aside.
+  how_it_works:
+  - 'Micro-purchase threshold (FAR 2.101): $15,000; $2,000 for construction; $2,500 for services; $25,000 (inside
+    the United States) / $40,000 (outside) for the emergency categories [641]'
+  - 'Simplified acquisition threshold: $350,000, raised from $250,000 on October 1, 2025 by FAR Case 2024-001 [640]
+    [563]'
+  - 'Above $15,000 and not over $350,000: set aside for small business unless the contracting officer determines
+    there is not a reasonable expectation of offers from two or more small businesses (FAR 19.502-2(a); FAR 13.003(b);
+    15 U.S.C. 644(j)(1)) [607] [661] [597]'
+  - 'Above $350,000: the contracting officer shall set the acquisition aside when there is a reasonable expectation
+    of offers from at least two responsible small businesses and award at fair market prices (FAR 19.502-2(b)) [607]'
+  - Above the simplified acquisition threshold, the 8(a), HUBZone, SDVOSB and WOSB programs are considered before
+    a general small-business set-aside, with no order of precedence among the four (FAR 19.203; 13 CFR 125.2(f))
+    [652] [654]. At or below it, the small-business set-aside does not preclude 8(a), HUBZone, SDVOSB or WOSB awards
+    (FAR 19.203(b)) [607]
+  - The contracting officer coordinates with the small business specialist no later than 30 days before a solicitation
+    (FAR 19.201) [651]; SBA's procurement center representative recommends set-asides within 15 days of receiving
+    an acquisition package and can appeal a rejected recommendation (FAR 19.402; 13 CFR 125.2(b)) [653] [654]
+  - 'DoD, codified DFARS 219.502-2: construction (including maintenance and repairs) under $3.5 million, dredging
+    under $2 million, and architect-engineer services for military construction or family housing under $1 million
+    are set aside [671]'
+  - The limitations on subcontracting apply to small-business set-asides above the simplified acquisition threshold
+    [645]
+  - Agencies advertise contracts over $25,000 on SAM.gov [666]
+  gates:
+  - sam-registration
+  - size-status-representation
+  - limitations-on-subcontracting
+  - nonmanufacturer-rule
+  situations:
+  - registered-no-award
+  - first-awards
+  official_url: https://www.acquisition.gov/far/19.502-2
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 states the rule
+      once, at 19.104-1, for everything above the micro-purchase threshold: the contracting officer must set aside
+      when two or more responsible small businesses are reasonably expected to offer at fair market prices, quality
+      and delivery [614]. RFO Part 13 (September 18, 2025) restates the small-business reservation at 13.102 [619],
+      and RFO Part 2 (October 28, 2025) carries the $15,000 and $350,000 thresholds [616]. GSA adopted RFO Part
+      19 by Class Deviation RFO-2025-19, effective November 3, 2025 [623]; DoD by Class Deviation 2026-O0037, effective
+      February 1, 2026, with a deviation DFARS Part 219 [625]. The codified FAR is unchanged at FAC 2026-01 [641].'
+  - status: class-deviation
+    date: '2025-05-02'
+    text: 'Sunset: model deviation FAR 1.109 says "All FAR sections that are not required by statute must expire
+      4 years after the effective date of the sections, unless renewed" [615]; Executive Order 14275 section 6 sets
+      the four-year expiry from the final rule''s effective date unless renewed by the FAR Council [609].'
+  - status: proposed
+    date: '2026-06-23'
+    text: 'FAR Case 2026-001 (91 FR 37550) proposes a sunset that works by review and rulemaking: "Sections, provisions
+      and clauses do not expire until removed from the Code of Federal Regulations through rulemaking"; comments
+      closed July 23, 2026 [626]. The regulatory text of proposed 1.109 was not read; only the preamble.'
+  - status: announced
+    date: '2026-10-03'
+    text: No Part 19 proposed rule had been published as of October 3, 2026; eight of twelve planned FAR-overhaul
+      proposed rules are out and none is final [630] [626] [632].
+  as_of: '2026-10-03'
+  sources:
+  - 563
+  - 597
+  - 602
+  - 607
+  - 608
+  - 609
+  - 614
+  - 615
+  - 616
+  - 619
+  - 623
+  - 625
+  - 626
+  - 630
+  - 632
+  - 634
+  - 635
+  - 636
+  - 640
+  - 641
+  - 645
+  - 651
+  - 652
+  - 653
+  - 654
+  - 661
+  - 666
+  - 671
+  conflicts:
+  - 'FAR 1.109 sunset: four-year automatic expiry in the model deviation text [615] vs no expiry until removed by
+    rulemaking in the proposed rule''s preamble [626], as two law firms also read it [635] [634], vs one law firm
+    that reads the proposed rule as keeping a four-year sunset [636]'
+  - Whether the Rule of Two above the simplified acquisition threshold is non-statutory, and so exposed to a sunset,
+    is asserted only by secondary sources [636] [602]; the band below the threshold is in statute [597]
+  - SBA's "Types of contracts" page says set-asides are automatic "under $150,000" [608] vs the $350,000 simplified
+    acquisition threshold [640]
+- id: partial-set-aside
+  name: Partial small-business set-aside
+  family: setaside-vehicle
+  governing_text: FAR 19.502-3 (contracts other than multiple-award; not read in this sweep); FAR 19.502-4 (multiple-award
+    contracts)
+  what: A portion of a requirement is set aside for small business when a total set-aside is not appropriate [642].
+    In the codified FAR, 19.502-4 is the partial set-aside of a multiple-award contract; it is discretionary [642].
+  who_for: Small firms that can perform a severable portion of a larger requirement.
+  how_it_works:
+  - Discretionary; needs a divisible requirement and two expected small-business offers on the portion [642]
+  - 'Under FAR 19.502-4: excludes construction and is not for simplified acquisition procedures; the solicitation
+    must identify the set-aside and non-set-aside portions [642]'
+  - 'Dollar thresholds: none stated in the text read'
+  gates:
+  - sam-registration
+  - size-status-representation
+  - limitations-on-subcontracting
+  situations:
+  - registered-no-award
+  - first-awards
+  official_url: https://www.acquisition.gov/far/19.502-4
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries partial
+      set-asides at 19.104-2, discretionary ("may, at their discretion") [614]. GSA adopted it effective November
+      3, 2025 [623]; DoD effective February 1, 2026 [625].'
+  as_of: '2026-10-03'
+  sources:
+  - 614
+  - 623
+  - 625
+  - 642
+  conflicts: []
+- id: order-set-aside-multiple-award
+  name: Set-aside of an order under a multiple-award contract
+  family: setaside-vehicle
+  governing_text: 15 U.S.C. 644(r)(2) (as cited in FAR 19.504; statute text not read); FAR 19.504; FAR 16.505(b)(2)(i)(F);
+    13 CFR 125.2(e)
+  what: Contracting officers may, at their discretion, set aside orders placed under multiple-award contracts for
+    small businesses (FAR 19.504) [643]. SBA's regulation likewise leaves the order set-aside to the contracting
+    officer's discretion (13 CFR 125.2(e)) [654].
+  who_for: Small firms that already hold the multiple-award contract.
+  how_it_works:
+  - Order set-asides are at the contracting officer's discretion, citing 15 U.S.C. 644(r)(2) (FAR 19.504(a)) [643]
+  - Above the simplified acquisition threshold ($350,000), the contracting officer first considers the socioeconomic
+    programs (FAR 19.504(a)(3)) [643] [640]
+  - Each contract holder gets a fair opportunity to be considered for each order exceeding the micro-purchase threshold
+    ($15,000); orders may be set aside for small business under FAR 16.505(b)(2)(i)(F) [644] [641]
+  - A firm small at contract award is small for each order, subject to the rerepresentation rules [650]; after a
+    disqualifying recertification it is ineligible for later set-aside or reserved orders [514]
+  - 'Protest of an order (FAR 16.505(a)(10)): only for an increase in scope, period or maximum value, or for orders
+    over $10 million (civilian agencies) or $25 million (DoD, NASA, Coast Guard), and only to GAO [644]. GAO reports
+    that section 885 of the FY2025 NDAA raised the DoD threshold to $35 million [692]'
+  - The agency head designates a task-order and delivery-order ombudsman (FAR 16.505(b)(8)) [644]
+  - 'DoD: a postaward debriefing is required for task orders and delivery orders valued at $15 million or more (DFARS
+    216.505) [672]'
+  gates:
+  - sam-registration
+  - size-status-representation
+  - recertification-size-status
+  - limitations-on-subcontracting
+  situations:
+  - first-awards
+  official_url: https://www.acquisition.gov/far/19.504
+  pending_changes:
+  - status: proposed
+    date: '2024-10-25'
+    text: SBA proposed rule 89 FR 85072 (RIN 3245-AH95) would apply the Rule of Two to orders under multiple-award
+      contracts, with exceptions for Federal Supply Schedule orders, fair-opportunity exceptions and agency-specific
+      exceptions; comments closed December 24, 2024; no final rule or withdrawal was found [695].
+  - status: proposed
+    date: '2026-09-18'
+    text: FAR Case 2026-006 would reorganise ordering into proposed 16.606 (all task- and delivery-order contracts),
+      16.607 (multiple-award contracts, tiered by dollar value) and 16.608 (protests of orders); for orders above
+      the simplified acquisition threshold up to $7.5 million, a brief explanation to unsuccessful offerors on written
+      request, and above $7.5 million, Part 15 debriefing procedures; comments due October 19, 2026 [629].
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries order
+      set-asides at 19.111-2 ("Contracting officers may set aside task orders or delivery orders") and reserves
+      at 19.112 [614]. GSA adopted it effective November 3, 2025 [623]; DoD effective February 1, 2026 [625].'
+  - status: class-deviation
+    date: '2025-09-30'
+    text: 'FAR-overhaul numbering: the RFO Part 16 model deviation text issued September 30, 2025 carries fair opportunity
+      above the micro-purchase threshold at 16.507-2(a)(1), the ombudsman at 16.507-2(b), and a cross-reference
+      to Part 19 at 16.500(c) [620]; DoD adopted it with DFARS 216 by Class Deviation 2026-O0045, dated 20 February
+      2026 [624]. The RFO order-protest section (16.508) was cut off in the extract.'
+  as_of: '2026-10-03'
+  sources:
+  - 514
+  - 614
+  - 620
+  - 623
+  - 624
+  - 625
+  - 629
+  - 637
+  - 640
+  - 641
+  - 643
+  - 644
+  - 650
+  - 654
+  - 672
+  - 692
+  - 695
+  conflicts:
+  - 'DoD order-protest threshold: $25 million in codified FAR 16.505(a)(10) [644] vs $35 million per GAO''s account
+    of section 885 of the FY2025 NDAA [692]; the DFARS 216.505 extract showed no order-protest threshold [672]'
+- id: 8a-sole-source-and-competition
+  name: 8(a) sole source and 8(a) competition
+  family: setaside-vehicle
+  governing_text: FAR 19.805-1; FAR 19.808-1; DFARS 219.8; 13 CFR 124.506 and 124.519
+  what: An agency can award a contract to a certified 8(a) participant without competition below a dollar line,
+    and competes the requirement among 8(a) firms above it (FAR 19.805-1) [561]. A sole-source 8(a) contract above
+    $30 million needs a written justification from the requesting agency (FAR 19.808-1) [562].
+  who_for: 'Certified 8(a) participants during their nine-year term (certifications.yaml: 8a-business-development).'
+  how_it_works:
+  - 'Codified FAR 19.805-1: competition among 8(a) firms is required above $8.5 million for acquisitions assigned
+    manufacturing NAICS codes and $5.5 million for all other acquisitions; below those values the award can be sole
+    source [561]'
+  - 13 CFR 124.506 as displayed prints $7,000,000 (manufacturing NAICS) / $4,500,000 (all other) [554]
+  - A requirement may not be split to stay under the threshold [561]
+  - SBA may accept a sole source above those values for a concern owned by an Indian tribe or Alaska Native Corporation
+    [561]
+  - 'Justification: SBA may not accept for negotiation a sole-source 8(a) contract that exceeds $30 million unless
+    the requesting agency has completed a FAR 6.303 justification (FAR 19.808-1) [562]; the threshold rose from
+    $25,000,000 to $30,000,000 on October 1, 2025 [640]. 13 CFR 124.506 as displayed prints $25,000,000, and $100,000,000
+    for a DoD agency [554]'
+  - 'DoD (DFARS 219.8): awards go direct to the participant under the DoD–SBA Partnership Agreement, and SBA may
+    not accept a DoD sole-source 8(a) contract exceeding $100 million without a FAR 6.303 justification [671]'
+  - 'Lifetime limit (13 CFR 124.519): no further sole-source 8(a) awards once a firm has received more than $168,500,000
+    in combined competitive and sole-source 8(a) contracts; firms owned by an Indian Tribe, ANC, NHO or CDC are
+    exempt [555]'
+  - A participant's eligibility for a sole-source or competitive 8(a) requirement may not be challenged by another
+    participant or any other party [560]
+  gates:
+  - sam-registration
+  - size-status-representation
+  - limitations-on-subcontracting
+  situations:
+  - registered-no-award
+  - first-awards
+  official_url: https://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-business-development-program
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries 8(a) at
+      19.108: competition required when two eligible participants are expected and the value exceeds $8.5 million
+      (manufacturing NAICS) or $5.5 million (other) at 19.108-7, and follow-on requirements stay in 8(a) unless
+      SBA releases them at 19.108-11(a) [614]. GSA adopted it effective November 3, 2025 [623]; DoD by Class Deviation
+      2026-O0037, effective February 1, 2026, under which contracts may be awarded directly to the 8(a) participant
+      without an SBA signature [625]. The $30 million justification line was not confirmed in the RFO text read.'
+  - status: final
+    date: '2026-08-11'
+    text: Final rule 91 FR 51568, effective September 10, 2026, removed the rebuttable presumption of social disadvantage
+      for individually owned 8(a) firms; entity-owned firms are not affected [537].
+  - status: announced
+    date: '2026-03-04'
+    text: 'SBA audit of the program: 1,091 contractors suspended in January 2026 after a December 2025 document
+      request to all 4,300 participants, and termination proceedings against 628 firms on March 4, 2026 [546].'
+  as_of: '2026-10-03'
+  sources:
+  - 533
+  - 537
+  - 546
+  - 554
+  - 555
+  - 560
+  - 561
+  - 562
+  - 614
+  - 623
+  - 625
+  - 637
+  - 640
+  - 671
+  conflicts:
+  - 'Sole-source ceiling: FAR 19.805-1 $8.5 million / $5.5 million [561] vs 13 CFR 124.506 $7,000,000 / $4,500,000
+    [554]'
+  - 'Justification threshold: FAR 19.808-1 $30 million [562] vs 13 CFR 124.506 $25,000,000 [554]'
+  - Law-firm reports of two RFO 8(a) changes (competitive 8(a) tried before sole source; automatic release of follow-ons
+    set aside under HUBZone, SDVOSB or WOSB) [637] were not confirmed in the RFO text read [614]
+- id: hubzone-sole-source-and-price-preference
+  name: HUBZone sole source and price evaluation preference
+  family: setaside-vehicle
+  governing_text: FAR 19.1306; FAR 19.1307; 13 CFR 126.612 and 126.613
+  what: 'A contracting officer can award to an SBA-certified HUBZone firm without competition below a dollar cap
+    when offers would not be received from two or more HUBZone firms (FAR 19.1306) [572]. In full and open competition,
+    HUBZone offers get a price evaluation preference: a factor of 10 percent is added to other offers (FAR 19.1307)
+    [656].'
+  who_for: 'SBA-certified HUBZone firms (certifications.yaml: hubzone).'
+  how_it_works:
+  - 'Sole source, codified FAR 19.1306: up to $8.5 million for manufacturing NAICS codes and $5.5 million for all
+    other, options included, only when two HUBZone offers are not expected and the requirement is not currently
+    in 8(a) [572]'
+  - 13 CFR 126.612 as displayed prints $7,000,000 (manufacturing) / $4,500,000 (all other) [570]
+  - 'Price evaluation preference, codified FAR 19.1307: a factor of 10 percent is added to all offers except those
+    of HUBZone firms and other small businesses; not used where price is not a selection factor, where all fair
+    and reasonable offers are accepted, or for the reserved portion of a multiple-award solicitation; the HUBZone
+    firm may waive it [656] [572]'
+  - '13 CFR 126.613: the HUBZone price is deemed lower if it is not more than 10% above the large-business low offer;
+    not applied where the low offeror is a small business [570]'
+  - HUBZone eligibility is tested on the date of the initial offer including price, not on the award date, except
+    for sole source [569]
+  - On a sole-source award only SBA or the contracting officer may protest HUBZone status [685]
+  gates:
+  - sam-registration
+  - size-status-representation
+  - limitations-on-subcontracting
+  situations:
+  - registered-no-award
+  - first-awards
+  official_url: https://www.acquisition.gov/far/19.1307
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries HUBZone
+      sole source at 19.105-3 with the same $8.5 million / $5.5 million caps [614]. GSA adopted it effective November
+      3, 2025 [623]; DoD effective February 1, 2026 [625]. The price-preference percentage in the RFO text (reported
+      as 19.207) was not confirmed.'
+  as_of: '2026-10-03'
+  sources:
+  - 569
+  - 570
+  - 572
+  - 614
+  - 623
+  - 625
+  - 656
+  - 685
+  conflicts:
+  - 'Sole-source ceiling: FAR 19.1306 $8.5 million / $5.5 million [572] vs 13 CFR 126.612 $7,000,000 / $4,500,000
+    [570]'
+- id: sdvosb-sole-source-and-va-veterans-first
+  name: SDVOSB sole source (government-wide) and VA Veterans First
+  family: setaside-vehicle
+  governing_text: 'FAR 19.1406; 13 CFR 128.404; in VA: sections 502 and 503 of Public Law 109-461, 38 U.S.C. 8127–8128,
+    and VAAR subpart 819.70'
+  what: A contracting officer in any agency can award to a certified service-disabled veteran-owned small business
+    without competition below a dollar cap (FAR 19.1406) [591]. Inside the Department of Veterans Affairs, the Veterans
+    First Contracting Program gives SDVOSBs and then VOSBs priority over the other small-business programs [592]
+    [657].
+  who_for: 'SBA-certified SDVOSBs; in VA, certified VOSBs as well (certifications.yaml: vosb-sdvosb-vetcert).'
+  how_it_works:
+  - 'Government-wide sole source, codified FAR 19.1406: up to $8.5 million for a requirement within the NAICS codes
+    for manufacturing and $5 million for a requirement within any other NAICS code, options included [591]'
+  - The firm must be designated in SAM as SBA-certified, or have represented SDVOSB status in SAM and applied to
+    SBA on or before December 31, 2023 [591]
+  - 'SDVOSB set-aside (13 CFR 128.404): a reasonable expectation of two responsible SDVOSB offers at fair market
+    price [586]'
+  - 'VA priority (VAAR 819.7005): SDVOSB, then VOSB, then 8(a)/HUBZone, then other small-business set-asides [592]'
+  - 'VA set-aside (VAAR 819.7006/819.7007): when two or more certified SDVOSBs (or VOSBs) are expected at a fair
+    and reasonable price [592]'
+  - 'VA sole source (VAAR 819.7008/819.7009): where the anticipated award price including options will not exceed
+    $5 million [592]'
+  - 'VA: the firm must be certified and listed in the SBA certification database (VAAR 819.7003(b)(3)) [592], and
+    the offeror must certify compliance with the limitations on subcontracting (819.7004(b)) [657]'
+  - SDVOSB status protests go to SBA's Office of Hearings and Appeals, whose decision is final (FAR 19.307) [686]
+  gates:
+  - sam-registration
+  - size-status-representation
+  - limitations-on-subcontracting
+  situations:
+  - registered-no-award
+  - first-awards
+  official_url: https://www.acquisition.gov/far/19.1406
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries SDVOSB
+      sole source at 19.106-3 with the same $8.5 million / $5 million caps [614]. GSA adopted it effective November
+      3, 2025 [623]; DoD effective February 1, 2026 [625]. Whether VA applies an RFO deviation to VAAR Part 819
+      was not verified.'
+  as_of: '2026-10-03'
+  sources:
+  - 586
+  - 591
+  - 592
+  - 614
+  - 623
+  - 625
+  - 657
+  - 686
+  conflicts:
+  - 'VAAR subpart 819.70 certification wording: "SBA certification database" on va.gov (page last updated September
+    16, 2024) [592] vs VA''s Vendor Information Pages on the acquisition.gov copy [657]'
+- id: wosb-edwosb-sole-source
+  name: WOSB / EDWOSB set-aside and sole source
+  family: setaside-vehicle
+  governing_text: FAR 19.1506; 13 CFR 127.503; 13 CFR 127.501 (eligible industries)
+  what: In industries SBA has designated by NAICS code, a contracting officer can restrict competition to certified
+    WOSBs or EDWOSBs, or award sole source below a dollar cap when two or more offers are not expected [578] [580].
+  who_for: 'SBA-certified WOSBs and EDWOSBs in the eligible NAICS codes (certifications.yaml: wosb-edwosb).'
+  how_it_works:
+  - 'Sole source, codified FAR 19.1506: up to $8.5 million for manufacturing NAICS codes and $5.5 million for a
+    requirement within any other NAICS codes, options included, at a fair and reasonable price [580]'
+  - 13 CFR 127.503 as displayed shows $7,000,000 / $4,500,000 [578]
+  - EDWOSB awards are for NAICS codes where WOSBs are underrepresented; WOSB awards for codes where they are substantially
+    underrepresented [580] [577]
+  - 'Set-aside (13 CFR 127.503): a reasonable expectation, based on market research, that two or more EDWOSBs (or
+    WOSBs) will offer, and a fair and reasonable price [578]'
+  - 'Eligible industries: 733 on the list effective October 1, 2022 (626 for all WOSBs, 107 for EDWOSBs only) [581]'
+  gates:
+  - sam-registration
+  - size-status-representation
+  - limitations-on-subcontracting
+  situations:
+  - registered-no-award
+  - first-awards
+  official_url: https://www.acquisition.gov/far/19.1506
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries WOSB/EDWOSB
+      sole source at 19.107-3 with the same $8.5 million / $5.5 million caps [614]. GSA adopted it effective November
+      3, 2025 [623]; DoD effective February 1, 2026 [625].'
+  as_of: '2026-10-03'
+  sources:
+  - 577
+  - 578
+  - 580
+  - 581
+  - 614
+  - 623
+  - 625
+  conflicts:
+  - 'Sole-source ceiling: FAR 19.1506 $8.5 million / $5.5 million [580] vs 13 CFR 127.503 $7,000,000 / $4,500,000
+    [578]'
+- id: simplified-acquisition-and-micro-purchase
+  name: Simplified acquisition and micro-purchase
+  family: setaside-vehicle
+  governing_text: FAR 13.003; FAR 13.201; FAR 13.301; FAR 2.101 (thresholds); 15 U.S.C. 644(j)(1)
+  what: Agencies use simplified acquisition procedures to the maximum extent practicable for purchases at or below
+    the simplified acquisition threshold (FAR 13.003(a)) [661]. Purchases between the micro-purchase threshold and
+    the simplified acquisition threshold are set aside for small business (FAR 13.003(b)) [661]. For micro-purchases
+    the Governmentwide commercial purchase card is the preferred method, and almost no clauses apply (FAR 13.201)
+    [663].
+  who_for: Any firm for micro-purchases; small businesses for purchases between the micro-purchase threshold and
+    the simplified acquisition threshold.
+  how_it_works:
+  - 'Micro-purchase threshold (FAR 2.101): $15,000; $2,000 for construction; $2,500 for services; $25,000 (inside
+    the United States) / $40,000 (outside) for the emergency categories [641]; raised from $10,000 on October 1,
+    2025 [640]'
+  - 'Simplified acquisition threshold: $350,000, raised from $250,000 on October 1, 2025 [640]'
+  - 'Above $15,000 and not over $350,000: reserved for small business unless two competitive small-business offers
+    cannot be obtained (FAR 13.003(b); 15 U.S.C. 644(j)(1)) [661] [597]'
+  - 'Micro-purchases: the purchase card is the preferred method to purchase and to pay (FAR 13.201(b)); no provisions
+    or clauses are required except as at 13.202 and 32.1110 (FAR 13.201(d)) [663]'
+  - The card may be used by contracting officers and other designated individuals, for micro-purchases, for orders
+    under existing contracts, and for payment (FAR 13.301) [664]
+  - Purchase-card micro-purchases are among the listed exceptions to the SAM registration requirement (FAR 4.1102)
+    [525]
+  - 'GSA tells cardholders to check sources in order: personal property, UNICOR (mandatory over $3,500 unless waived),
+    AbilityOne, then the commercial platforms, then open market [668]; eight commercial platforms support purchases
+    at or below the micro-purchase threshold [667]'
+  - 'Getting found: the SAM registration populates SBA''s Small Business Search; agencies advertise contracts over
+    $25,000 on SAM.gov; SubNet lists subcontracting opportunities posted by large primes [666]'
+  - Schedule contractors' catalogues are ordered through GSA Advantage, where federal buyers pay by purchase card
+    or activity address code [669]
+  gates:
+  - sam-registration
+  - size-status-representation
+  situations:
+  - not-registered
+  - registered-no-award
+  official_url: https://www.acquisition.gov/far/part-13
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-18'
+    text: 'FAR-overhaul numbering: the RFO Part 13 model deviation text issued September 18, 2025 is retitled "Simplified
+      Procedures for Noncommercial Acquisitions", restates the small-business reservation at 13.102 and sends micro-purchases
+      to subpart 12.4 (13.401) [619]; RFO Part 12 (August 14, 2025, updated April 20, 2026) holds micro-purchase
+      procedures at 12.4 [618]. DoD adopted Parts 12 and 13 by Class Deviations 2026-O0028 and 2026-O0029, both
+      dated 18 December 2025 [624].'
+  - status: proposed
+    date: '2026-09-18'
+    text: FAR Case 2026-003 would narrow Part 13 to noncommercial buys at or below the simplified acquisition threshold
+      and transfer micro-purchase procedures from FAR subpart 13.2 to subpart 12.4; comments due October 19, 2026
+      [628].
+  as_of: '2026-10-03'
+  sources:
+  - 523
+  - 525
+  - 532
+  - 597
+  - 608
+  - 618
+  - 619
+  - 624
+  - 628
+  - 640
+  - 641
+  - 661
+  - 663
+  - 664
+  - 666
+  - 667
+  - 668
+  - 669
+  - 670
+  conflicts:
+  - SBA's "Types of contracts" page says contracts under $150,000 are automatically set aside [608] vs the $350,000
+    simplified acquisition threshold [640]
+- id: commercial-product-or-service-buy
+  name: Commercial product or commercial service buy
+  family: setaside-vehicle
+  governing_text: FAR 12.101; FAR 13.500; FAR 13.003(c)
+  what: Agencies are to acquire commercial products, commercial services or nondevelopmental items when they are
+    available to meet the agency's needs (FAR 12.101) [665]. For commercial buys, simplified procedures may be used
+    above the simplified acquisition threshold up to $9 million (FAR 13.500) [662].
+  who_for: Firms selling products or services that are also sold commercially.
+  how_it_works:
+  - 'FAR 12.101 puts three duties on the agency: market research; acquiring commercial or nondevelopmental items
+    when available; and requiring primes and subcontractors to use them [665]'
+  - 'Codified FAR 13.500: simplified procedures in amounts greater than the simplified acquisition threshold ($350,000)
+    but not exceeding $9 million, or $15 million for acquisitions described in 13.500(c) (contingency, cyber/CBRN
+    defense, international disaster assistance, emergency or major disaster), including options [662] [661] [640]'
+  - The $9,000,000 ceiling rose from $7,500,000 on October 1, 2025 [640]
+  gates:
+  - sam-registration
+  situations:
+  - registered-no-award
+  - first-awards
+  - have-technology
+  official_url: https://www.acquisition.gov/far/part-12
+  pending_changes:
+  - status: class-deviation
+    date: '2025-08-14'
+    text: 'FAR-overhaul numbering: the RFO Part 12 model deviation text (issued August 14, 2025, updated April 20,
+      2026) absorbs the simplified commercial procedures that sat in subpart 13.5: at 12.201-1(a), an RFQ followed
+      by a purchase order for commercial acquisitions up to $9 million ($15 million for the emergency categories,
+      12.001(c)); 12.103 points to Part 19 for set-asides [618]. DoD adopted it with DFARS 212 by Class Deviation
+      2026-O0028, dated 18 December 2025 [624]. RFO Part 7 (September 4, 2025) puts commercial products and services
+      first (7.102(b)(1)) and existing contracts before new awards (7.102(b)(4)) [617].'
+  - status: proposed
+    date: '2026-09-18'
+    text: FAR Case 2026-003 would restructure Part 12 into three process subparts with simplified commercial procedures
+      up to $9 million ($15 million for specified emergencies), remove provisions 52.212-3 and 52.212-5, and add
+      "required use" and "Best in Class" designations for existing vehicles in Part 8; comments due October 19,
+      2026 [628].
+  - status: proposed
+    date: '2026-06-23'
+    text: FAR Case 2026-002 would move market research into subpart 7.2 and, at proposed 7.201(f), require agencies
+      to procure commercial products and services to the maximum extent practicable "by following a specified order
+      of available solutions"; comments closed July 23, 2026 [627].
+  as_of: '2026-10-03'
+  sources:
+  - 617
+  - 618
+  - 624
+  - 627
+  - 628
+  - 640
+  - 661
+  - 662
+  - 665
+  conflicts: []
+- id: subcontracting-under-prime-plan
+  name: Subcontracting under a prime's small business subcontracting plan
+  family: setaside-vehicle
+  governing_text: FAR 19.702; FAR 19.704; clause FAR 52.219-9 (Jan 2025); DFARS 219.702-70
+  what: A prime contractor that is not small must have a small business subcontracting plan on contracts above $900,000
+    ($2 million for construction) where subcontracting possibilities exist (FAR 19.702) [658]. The plan sets goals,
+    in dollars and percentages, for subcontracting to small, veteran-owned, service-disabled veteran-owned, HUBZone,
+    small disadvantaged and women-owned small businesses (FAR 52.219-9) [660].
+  who_for: Small firms selling to large primes; the plan's goals are a reason primes look for them.
+  how_it_works:
+  - Plan required above $900,000 ($2 million for construction); not required from small business concerns, for personal
+    services, or for work wholly outside the United States [658]
+  - The thresholds rose from $750,000 and $1,500,000 on October 1, 2025 [640]
+  - A plan carries separate percentage goals by category and a statement of the total dollars planned to be subcontracted
+    [659]
+  - 'Flowdown: subcontractors other than small with awards over $900,000 ($2 million for construction) adopt their
+    own plan [659]'
+  - 'Reporting: ISR semi-annually and SSR annually by October 30, through eSRS [659] [660]'
+  - Failure to comply in good faith is a material breach and carries liquidated damages [658]
+  - A firm may represent in good faith that it is a small disadvantaged business for federal subcontracting programs
+    [595]; SDVOSBs may no longer self-certify for subcontracts that count toward SDVOSB subcontracting goals [590]
+  - SubNet lists subcontracting opportunities posted by large primes [666]
+  - 'DoD (DFARS 219.702-70): the Test Program for Comprehensive Subcontracting Plans needs three DoD contracts in
+    the prior year totalling at least $100 million and expires December 31, 2027 [671]'
+  gates:
+  - sam-registration
+  - size-status-representation
+  situations:
+  - looking-for-partners
+  - registered-no-award
+  official_url: https://www.acquisition.gov/far/52.219-9
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries the subcontracting
+      plan at 19.109, required above $900,000 ($2 million for construction of any public facility), and names "Subcontracting
+      Plan Reporting (SPR)" at SAM.gov as the reporting system (19.001) [614]. GSA adopted it effective November
+      3, 2025 [623]; DoD effective February 1, 2026 [625].'
+  as_of: '2026-10-03'
+  sources:
+  - 590
+  - 595
+  - 614
+  - 623
+  - 625
+  - 640
+  - 658
+  - 659
+  - 660
+  - 666
+  - 671
+  conflicts:
+  - 'Reporting system: eSRS in the codified clause 52.219-9 [660] vs "Subcontracting Plan Reporting (SPR)" at SAM.gov
+    in the RFO text [614]'
+- id: size-protest
+  name: Size protest
+  family: setaside-vehicle
+  governing_text: FAR 19.302; 13 CFR 121.1001 and 121.1004; 13 CFR 134.304
+  what: An offeror, the contracting officer, SBA or another interested party may protest the small business representation
+    of an offeror (FAR 19.302) [681]. Private parties have five business days after bid opening or notice of the
+    apparent successful offeror [681] [517].
+  who_for: An offeror on a set-aside that believes the apparent winner is not small.
+  how_it_works:
+  - 'Who may file on a set-aside: any offeror not eliminated, the contracting officer, SBA area directors and other
+    interested parties; on competitive 8(a) awards: offerors, the contracting officer and the SBA District Director
+    or designee (13 CFR 121.1001) [516]'
+  - Filed with the contracting officer within 5 business days (excluding Saturdays, Sundays and legal holidays)
+    after bid opening or notice of the apparent successful offeror [681] [517]
+  - The contracting officer forwards it to the SBA Government Contracting Area Office for the challenged firm's
+    headquarters; SBA decides within 15 business days [681]
+  - Appeal to SBA's Office of Hearings and Appeals within 15 calendar days after receipt of the formal size determination;
+    an untimely appeal is dismissed (13 CFR 134.304) [683]
+  - Contracting officers and SBA are not bound by the time limit; premature and untimely protests are dismissed;
+    after agency corrective action in a bid protest a new five-business-day window opens [517] [682]
+  - '8(a): size can be protested on competitive awards but not on sole-source ones [560]'
+  - GAO does not decide size, NAICS or Certificate of Competency matters; they belong to SBA (4 CFR 21.5(b)) [690]
+  - 'Dollar thresholds and fees: none stated in the texts read'
+  gates: []
+  situations:
+  - registered-no-award
+  - first-awards
+  official_url: https://www.acquisition.gov/far/19.302
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 is reorganised
+      into 19.1 Presolicitation, 19.2 Evaluation and Award and 19.3 Postaward, with the NAICS appeal at 19.103(d)(1);
+      the size protest section and its deadlines were not confirmed in the RFO text read [614].'
+  as_of: '2026-10-03'
+  sources:
+  - 501
+  - 516
+  - 517
+  - 560
+  - 614
+  - 681
+  - 682
+  - 683
+  - 684
+  - 690
+  conflicts: []
+- id: status-protest
+  name: Status protest (HUBZone, SDVOSB, WOSB/EDWOSB)
+  family: setaside-vehicle
+  governing_text: FAR 19.306 (HUBZone); FAR 19.307 (SDVOSB); FAR 19.308 (EDWOSB/WOSB); 13 CFR 126.801, 127.603,
+    128.500; 13 CFR 124.517 (8(a))
+  what: An interested party may challenge the HUBZone, SDVOSB or WOSB/EDWOSB status of the apparent successful offeror
+    on a program award [685] [686] [687]. The deadline in each case is the fifth business day after bid opening
+    or the notice of the apparent successful offeror [685] [686] [687]. 8(a) eligibility cannot be challenged by
+    another participant or any other party [560].
+  who_for: An offeror on a HUBZone, SDVOSB or WOSB/EDWOSB award that believes the apparent winner does not hold
+    the status.
+  how_it_works:
+  - 'HUBZone (FAR 19.306): by the fifth business day; forwarded to SBA''s HUBZone Program Director (hzprotests@sba.gov);
+    decision in 15 business days; appeal to the AA/GC&BD within 5 business days; on a sole source only SBA or the
+    contracting officer may protest [685]. SBA and contracting officer protests are always timely, and specific
+    facts are required [571]'
+  - 'SDVOSB (FAR 19.307): by the fifth business day; VA or SBA may protest at any time; forwarded to SBA''s Office
+    of Hearings and Appeals (OHAfilings@sba.gov), whose decision is effective immediately and final [686] [588]'
+  - 'WOSB/EDWOSB (FAR 19.308): by the fifth business day; forwarded to SBA (wosbprotest@sba.gov); SBA decides within
+    15 business days; appeal to OHA within 10 business days [687]. A protest without specific facts or allegations
+    is insufficient [579], and only certified WOSBs or pending applicants may protest [583]'
+  - OHA decides size and NAICS appeals, VOSB/SDVOSB status protests and appeals, WOSB/EDWOSB appeals, and 8(a) eligibility,
+    suspension and termination appeals [684]
+  - 'Dollar thresholds and fees: none stated in the texts read'
+  gates: []
+  situations:
+  - registered-no-award
+  - first-awards
+  official_url: https://www.acquisition.gov/far/19.307
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the status protest sections and their deadlines were not confirmed in the RFO
+      Part 19 model deviation text (issued September 26, 2025) as read [614].'
+  as_of: '2026-10-03'
+  sources:
+  - 560
+  - 571
+  - 579
+  - 583
+  - 588
+  - 614
+  - 684
+  - 685
+  - 686
+  - 687
+  conflicts: []
+- id: agency-level-protest
+  name: Agency-level protest
+  family: setaside-vehicle
+  governing_text: FAR 33.103
+  what: An interested party can protest to the agency itself, filing with the contracting officer and, on request,
+    getting an independent review at a level above the contracting officer (FAR 33.103) [688]. Pursuing an agency
+    protest does not extend the time for obtaining a stay at GAO [688].
+  who_for: An offeror or prospective offeror objecting to a solicitation's terms or to an award.
+  how_it_works:
+  - 'Timing: protests of solicitation defects before bid opening or the closing date; other grounds within 10 days
+    of when the basis is known [688]'
+  - The agency aims to resolve the protest within 35 days [688]
+  - A protest within 10 days of award suspends performance [688]
+  - A later GAO protest must be filed within 10 days after adverse agency action on the agency protest (4 CFR 21.2)
+    [690]
+  - 'Fees: the sweep describes the agency-level protest as free [688]; no dollar threshold applies in the text read'
+  gates: []
+  situations:
+  - registered-no-award
+  - first-awards
+  official_url: https://www.acquisition.gov/far/33.103
+  pending_changes:
+  - status: proposed
+    date: '2026-06-23'
+    text: 'FAR Case 2026-001 (91 FR 37550) rewrites Part 33: contracting officers report agency protests to the
+      head of the contracting activity; protesters may ask for independent review above the contracting officer;
+      redacted technical evaluation and source-selection documents may be disclosed; comments closed July 23, 2026
+      [626]. The RFO model deviation text for Part 33 was not read in this sweep, so no deviation numbering is recorded.'
+  as_of: '2026-10-03'
+  sources:
+  - 626
+  - 688
+  - 690
+  conflicts: []
+- id: gao-bid-protest
+  name: GAO bid protest
+  family: setaside-vehicle
+  governing_text: 4 CFR part 21; FAR 33.104; FAR 16.505(a)(10)
+  what: An actual or prospective bidder or offeror whose direct economic interest would be affected by the award
+    of a contract can protest to the Government Accountability Office under 4 CFR part 21 [690]. GAO decides within
+    100 days of filing, or 65 days under the express option [689].
+  who_for: An offeror or prospective offeror with a direct economic interest in the award.
+  how_it_works:
+  - Filed through GAO's Electronic Protest Docketing System (4 CFR 21.1) [690]; the filing fee is $500 effective
+    October 1, 2024 ($350 before) [691]
+  - 'Timing (4 CFR 21.2): solicitation defects before bid opening or the proposal due date; otherwise 10 days after
+    the basis is known; 10 days after a required debriefing; 10 days after adverse agency action on an agency protest
+    [690]'
+  - Stay of award or performance when the agency is notified within 10 days after award or 5 days after a debriefing
+    date [689]
+  - The agency report is due within 30 days [689]
+  - The attorney fee cap of $150 per hour applies to firms other than small businesses [689]
+  - 'Outside GAO''s review: size, NAICS and Certificate of Competency matters belong to SBA (4 CFR 21.5(b)); orders
+    are outside GAO''s jurisdiction except as statute allows (21.5(l)) [690]'
+  - Orders under task- and delivery-order contracts can be protested only for an increase in scope, period or maximum
+    value, or above $10 million (civilian agencies) and, in the codified FAR, $25 million (DoD, NASA, Coast Guard)
+    (FAR 16.505(a)(10)) [644]; GAO reports that section 885 of the FY2025 NDAA raised the DoD figure to $35 million
+    [692]
+  - 'FY2025 figures: 1,688 cases filed, a 14% sustain rate and a 52% effectiveness rate [693]'
+  gates: []
+  situations:
+  - first-awards
+  official_url: https://www.gao.gov/legal/bid-protests/file-a-bid-protest
+  pending_changes:
+  - status: announced
+    date: '2025-07-14'
+    text: In its response to section 885 of the FY2025 NDAA, GAO proposed a clearer pleading standard ("protesters
+      must provide, at a minimum, credible allegations that are supported by evidence") and did not endorse fee
+      shifting [692]. The extract of 4 CFR part 21 as of September 28, 2026 showed no 2025–26 amendment [690].
+  - status: proposed
+    date: '2026-06-23'
+    text: FAR Case 2026-001 would replace the GAO procedure text in FAR Part 33 with a pointer to 4 CFR part 21;
+      comments closed July 23, 2026 [626]. The RFO model deviation text for Part 33 was not read in this sweep,
+      so no deviation numbering is recorded.
+  - status: announced
+    date: 2026-06
+    text: 'Pointer only, not verified in a primary source: a law-firm newsletter reports that section 875 of the
+      FY2026 NDAA lets DoD withhold up to 5% of payments from an incumbent that protests at GAO and keeps performing,
+      awaiting DFARS rulemaking [694].'
+  as_of: '2026-10-03'
+  sources:
+  - 620
+  - 626
+  - 644
+  - 672
+  - 689
+  - 690
+  - 691
+  - 692
+  - 693
+  - 694
+  conflicts:
+  - 'DoD task- and delivery-order protest threshold: $25 million in codified FAR 16.505(a)(10) [644] vs $35 million
+    per GAO''s account of section 885 of the FY2025 NDAA [692]; neither the DFARS nor the RFO text carrying $35
+    million was found [672] [620]'

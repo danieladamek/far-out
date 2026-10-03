@@ -1,0 +1,444 @@
+# buyers.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+- id: buyer-usda
+  agency: Department of Agriculture
+  office_name: Office of Small and Disadvantaged Business Utilization (OSDBU)
+  forecast_url: https://www.usda.gov/about-usda/general-information/staff-offices/departmental-administration/office-small-and-disadvantaged-business-utilization-osdbu/forecast-contract-opportunities
+  verified: true
+  sweep_status: verified
+  forecast_note: The forecast itself is on the GSA Acquisition Gateway (https://acquisitiongateway.gov/forecast);
+    it covers anticipated contracts above the simplified acquisition threshold [906]
+  what_else:
+  - Events calendar, subcontracting directory and new-entrant resources [906]
+  - Vendor outreach program, as listed in the sweep's buyer record (not among the page's extracted key facts) [906]
+  as_of: '2026-10-03'
+  sources:
+  - 813
+  - 906
+- id: buyer-commerce
+  agency: Department of Commerce
+  office_name: Office of Acquisition Management; OSDBU
+  forecast_url: https://www.commerce.gov/oam/vendors/procurement-forecasts
+  verified: true
+  sweep_status: verified
+  forecast_note: The current forecast is an Excel file; the fetch described it as a weekly file with quarterly updates
+    [907]
+  what_else:
+  - Links to the OSDBU and a bureau small business specialist directory [907]
+  as_of: '2026-10-03'
+  sources:
+  - 907
+- id: buyer-dod
+  agency: Department of Defense (Department of War)
+  office_name: Office of Small Business Programs
+  forecast_url: https://business.defense.gov/Archived-Pages/Acquisition-Forecasts/
+  verified: false
+  sweep_status: not verified
+  forecast_note: acquisition.gov's index points to this URL; the domain was blocked and the page was not fetched
+    [813]
+  what_else: []
+  as_of: '2026-10-03'
+  sources:
+  - 813
+- id: buyer-ed
+  agency: Department of Education
+  office_name: OSDBU
+  forecast_url: https://www.ed.gov/about/doing-business-ed/forecast-of-ed-contract-opportunities
+  verified: true
+  sweep_status: verified (FY 2026 forecast PDF dated January 7, 2026)
+  forecast_note: FY 2026 forecast as a PDF, dated January 7, 2026; acquisition.gov's www2.ed.gov link is superseded
+    by this URL [909]
+  what_else:
+  - OSDBU contact small.business@ed.gov [909]
+  - Pointers to SAM.gov and GSA eBuy, as listed in the sweep's buyer record (not among the page's extracted key
+    facts) [909]
+  as_of: '2026-10-03'
+  sources:
+  - 909
+- id: buyer-doe
+  agency: Department of Energy
+  office_name: Office of Small Business Programs (OSBP)
+  forecast_url: https://www.energy.gov/osdbu/acquisition-forecast
+  verified: true
+  sweep_status: verified
+  forecast_note: Forecast of contracting and subcontracting opportunities; DOE says "approximately 80% of DOE's
+    annual procurement base is allocated to the Agency's Management and Operating Contractors" [908]
+  what_else:
+  - Links to procurement pages of 50+ national laboratories and facility management contractors [908]
+  - Small Business Toolbox, mentor-protégé program, events [908]
+  as_of: '2026-10-03'
+  sources:
+  - 908
+- id: buyer-hhs
+  agency: Department of Health and Human Services
+  office_name: OSDBU
+  forecast_url: https://osdbu.hhs.gov/
+  verified: false
+  sweep_status: partial
+  forecast_note: acquisition.gov's index is the source for the HHS link; per the sweep's buyer record it lists https://mysbcx.hhs.gov/#search-opportunities,
+    which redirects to https://osdbu.hhs.gov/, a script-rendered site whose contents were not readable [813]
+  what_else:
+  - 'Vendor Engagement Sessions: pre-arranged 15-minute appointments with Small Business Specialists from each HHS
+    operating division, primes and other agencies; requires an SBCX profile and an uploaded capability statement
+    [827]'
+  - Capability statement guidance [824]
+  - Contact sbmail@hhs.gov, (202) 690-7300 [827]
+  as_of: '2026-10-03'
+  sources:
+  - 813
+  - 824
+  - 827
+- id: buyer-dhs
+  agency: Department of Homeland Security
+  office_name: OSDBU
+  forecast_url: https://apfs-cloud.dhs.gov/
+  verified: true
+  sweep_status: verified
+  forecast_note: 'Acquisition Planning Forecast System: shows anticipated contract actions over $350,000, with no
+    login needed to browse [910]'
+  what_else:
+  - Email alerts by NAICS code, vehicle, dollar range and small business program [910]
+  unverified_leads:
+  - Vendor outreach sessions page https://www.dhs.gov/osdbu/small-business-vendor-outreach-sessions (dhs.gov returned
+    403; not read)
+  as_of: '2026-10-03'
+  sources:
+  - 910
+- id: buyer-hud
+  agency: Department of Housing and Urban Development
+  office_name: Office of Small and Disadvantaged Business Utilization
+  forecast_url: https://www.hud.gov/program_offices/sdb/4cast
+  verified: false
+  sweep_status: partial (page loads; forecast content not returned)
+  forecast_note: The page loads, but the fetch returned only navigation; contents not verified [911]
+  what_else: []
+  as_of: '2026-10-03'
+  sources:
+  - 911
+- id: buyer-doi
+  agency: Department of the Interior
+  office_name: OSDBU
+  forecast_url: https://www.doi.gov/pmb/osdbu/forecast
+  verified: true
+  sweep_status: verified
+  forecast_note: The forecast is on the GSA Acquisition Gateway (https://acquisitiongateway.gov/forecast) and is
+    updated at the start of each fiscal year; the page refers to the FY 2025 forecast [914]
+  what_else:
+  - OSDBU events and small business specialists [914]
+  - Capability statement worksheet (https://www.doi.gov/sites/default/files/draft-capability-statement-worksheet-january-2011.pdf;
+    seen in search results, not fetched) [914]
+  - Vendor feedback forms, as listed in the sweep's buyer record (not among the page's extracted key facts) [914]
+  as_of: '2026-10-03'
+  sources:
+  - 914
+- id: buyer-doj
+  agency: Department of Justice
+  office_name: OSDBU
+  forecast_url: https://www.justice.gov/osdbu/find-contracting-opportunities
+  verified: true
+  sweep_status: verified (dashboard itself not opened)
+  forecast_note: Points to a forecast dashboard on the Office of Acquisition Management site, updated quarterly;
+    the dashboard itself was not opened; covers planned procurements for FY 2026 and beyond, above $250,000 (figure
+    as shown on the page) [912]
+  what_else:
+  - Lists component small business specialists [912]
+  as_of: '2026-10-03'
+  sources:
+  - 912
+- id: buyer-dol
+  agency: Department of Labor
+  office_name: OSDBU, within the Office of the Senior Procurement Executive
+  forecast_url: https://www.dol.gov/agencies/oasam/centers-offices/office-of-the-senior-procurement-executive/office-of-small-and-disadvantaged-business-utilization/procurement-forecast
+  verified: true
+  sweep_status: verified
+  forecast_note: The page is a contact table; the forecast is hosted at https://acquisitiongateway.gov/forecast;
+    acquisition.gov's older DOL URL differs from this one [913]
+  what_else:
+  - Forecast contacts for 15 DOL agencies [913]
+  - Vendor outreach sessions, linked from the OSDBU navigation [913]
+  as_of: '2026-10-03'
+  sources:
+  - 913
+- id: buyer-state
+  agency: Department of State
+  office_name: OSDBU
+  forecast_url: https://www.state.gov/procurement-forecast
+  verified: false
+  sweep_status: not verified
+  forecast_note: The URL returned 403 to the fetch tool; State is among the agencies in acquisition.gov's index
+    [813]
+  what_else: []
+  as_of: '2026-10-03'
+  sources:
+  - 813
+- id: buyer-dot
+  agency: Department of Transportation
+  office_name: OSDBU
+  forecast_url: https://www.transportation.gov/osdbu/procurement-forecast/summary
+  verified: true
+  sweep_status: verified
+  forecast_note: As of October 1, 2025, new DOT forecasts (FY26 onward) are posted on the GSA governmentwide forecast
+    tool; this page keeps history [916]
+  what_else:
+  - Searchable forecast table with CSV download and RSS [916]
+  as_of: '2026-10-03'
+  sources:
+  - 916
+- id: buyer-treasury
+  agency: Department of the Treasury
+  office_name: Small and Disadvantaged Business Utilization
+  forecast_url: https://home.treasury.gov/policy-issues/small-business-programs/small-and-disadvantaged-business-utilization/forecast-of-contract-opportunities
+  verified: true
+  sweep_status: verified
+  forecast_note: Dynamic forecast at https://osdbu.forecast.treasury.gov/; covers anticipated contract actions above
+    $250,000 (figure as shown on the page); an FY 2025 forecast is linked [915]
+  what_else:
+  - Small business events and bureau specialists [915]
+  - Vendor outreach session tip sheet, which tells firms to review the "Top 25 NAICS and Forecast of Contract Opportunities"
+    beforehand [826]
+  as_of: '2026-10-03'
+  sources:
+  - 826
+  - 915
+- id: buyer-va
+  agency: Department of Veterans Affairs
+  office_name: OSDBU
+  forecast_url: https://www.va.gov/osdbu/acquisition/
+  verified: false
+  sweep_status: partial
+  forecast_note: This is the page acquisition.gov lists for VA's forecast; it has a "View Contract Opportunities"
+    link, but the forecast URL itself was not returned [917]
+  what_else:
+  - VetBiz portal, Direct Access Program, an events calendar and the National Veterans Small Business Engagement,
+    December 8–9, 2026, Cleveland [917]
+  - Contact 1-866-584-2344, vetbiz@va.gov [917]
+  as_of: '2026-10-03'
+  sources:
+  - 917
+- id: buyer-epa
+  agency: Environmental Protection Agency
+  office_name: ''
+  forecast_url: https://ordspub.epa.gov/ords/forecast/f?p=122:1
+  verified: false
+  sweep_status: partial (link confirmed on EPA page; database not opened)
+  forecast_note: The forecast database is linked from EPA's "How to Do Business with EPA" page but is robots-disallowed
+    and was not fetched; it is searchable by region, NAICS and dollar range and covers opportunities over $150,000
+    (figure as shown on the page) [923]. The office is not named on the page fetched, and acquisition.gov's index
+    does not list EPA [923] [813]
+  what_else:
+  - Outreach events, current prime contractors and purchase card holders [923]
+  as_of: '2026-10-03'
+  sources:
+  - 813
+  - 923
+- id: buyer-gsa
+  agency: General Services Administration
+  office_name: OSDBU
+  forecast_url: https://www.gsa.gov/small-business/forecast-of-contracting-opportunities
+  verified: true
+  sweep_status: verified (page); the tool itself is script-rendered and was not readable
+  forecast_note: The governmentwide Forecast of Contracting Opportunities tool is at https://acquisitiongateway.gov/forecast;
+    registration is not required to search, and it can be searched by keyword or NAICS with filters for agency,
+    location, award date, acquisition strategy, contract type and small business set-aside [814]
+  what_else:
+  - Pre-award notice explainer on RFIs, sources sought, RFQs and RFPs [797]
+  - MAS guidance, subcontracting and teaming pages, as listed in the sweep's buyer record [814]
+  as_of: '2026-10-03'
+  sources:
+  - 797
+  - 814
+- id: buyer-nasa
+  agency: National Aeronautics and Space Administration
+  office_name: Office of Procurement (forecast); Office of Small Business Programs
+  forecast_url: https://www.hq.nasa.gov/office/procurement/forecast/index.html
+  verified: true
+  sweep_status: verified (agency-wide FY 2026 forecast updated August 4, 2026)
+  forecast_note: Organised by NASA center, with a consolidated agency-wide option; covers procurements above the
+    simplified acquisition threshold [918]
+  what_else:
+  - Forecasts by center; JPL has its own supplier pages [918]
+  as_of: '2026-10-03'
+  sources:
+  - 918
+- id: buyer-nsf
+  agency: National Science Foundation
+  office_name: OSDBU
+  forecast_url: https://www.nsf.gov/osdbu/nsf-acquisition-forecast
+  verified: true
+  sweep_status: verified (PDF)
+  forecast_note: The forecast is a PDF (430.63 KB); acquisition.gov's forecast.jsp link redirects here [919]
+  what_else:
+  - OSDBU office hours and events [919]
+  as_of: '2026-10-03'
+  sources:
+  - 919
+- id: buyer-nrc
+  agency: Nuclear Regulatory Commission
+  office_name: Small Business Program
+  forecast_url: https://www.nrc.gov/about-nrc/contracting/small-business/forecast
+  verified: true
+  sweep_status: verified
+  forecast_note: Posts the FY26 forecast on the GSA Acquisition Gateway and as a PDF; "updated annually, at the
+    beginning of the fiscal year" [920]
+  what_else:
+  - Contact smallbusiness@nrc.gov [920]
+  as_of: '2026-10-03'
+  sources:
+  - 920
+- id: buyer-opm
+  agency: Office of Personnel Management
+  office_name: Office of Procurement Operations
+  forecast_url: https://www.opm.gov/about-us/doing-business-with-opm/contracting-opportunities/
+  verified: true
+  sweep_status: verified
+  forecast_note: The page sends firms to the Forecast of Contracting Opportunities Tool; the office named is the
+    Office of Procurement Operations, not an OSDBU [921]
+  what_else:
+  - OPM clauses and a customer service guide [921]
+  as_of: '2026-10-03'
+  sources:
+  - 921
+- id: buyer-sba
+  agency: Small Business Administration
+  office_name: ''
+  forecast_url: ''
+  verified: false
+  sweep_status: not verified
+  forecast_note: No SBA forecast page was found; acquisition.gov's index does not list SBA [813], and a March 2023
+    GSA deck lists SBA among agencies using the GSA forecast tool [815]
+  what_else: []
+  as_of: '2026-10-03'
+  sources:
+  - 813
+  - 815
+- id: buyer-ssa
+  agency: Social Security Administration
+  office_name: OSDBU
+  forecast_url: https://www.ssa.gov/osdbu/contract-forecast-intro.html
+  verified: true
+  sweep_status: verified (FY26 Excel)
+  forecast_note: FY26 and FY25 forecasts in Excel (.xlsm); earlier years in Excel, CSV or PDF [922]
+  what_else:
+  - Subcontracting directory and FAQs [922]
+  as_of: '2026-10-03'
+  sources:
+  - 922
+- id: buyer-usaid
+  agency: U.S. Agency for International Development
+  office_name: ''
+  forecast_url: https://www.usaid.gov/business-forecast
+  verified: false
+  sweep_status: dead link
+  forecast_note: acquisition.gov still lists this URL [813]; the page was read and now shows only a notice dated
+    February 23, 2025 about administrative leave and a reduction in force, with no forecast posted [924]
+  what_else: []
+  as_of: '2026-10-03'
+  sources:
+  - 813
+  - 924
+- id: buyer-army
+  agency: Department of the Army
+  component_of: Department of Defense
+  office_name: Army Office of Small Business Programs
+  office_url: https://osbp.army.mil/
+  forecast_url: ''
+  verified: false
+  sweep_status: partial
+  forecast_note: No forecast link on the front page, which shows old items (an FY2022 award, a 2023 conference)
+    [925]
+  what_else:
+  - Lists small business offices at Army Materiel Command, Army Corps of Engineers, Army Medical Command, National
+    Guard Bureau and Army Futures Command [925]
+  as_of: '2026-10-03'
+  sources:
+  - 925
+- id: buyer-usace
+  agency: U.S. Army Corps of Engineers
+  component_of: Department of Defense
+  office_name: Office of Small Business Programs
+  office_url: https://www.usace.army.mil/Business-With-Us/Small-Business/
+  forecast_url: ''
+  verified: false
+  sweep_status: partial
+  forecast_note: No forecast link was returned from the page [928]
+  what_else:
+  - 'Lists local small business professionals by location; escalation path: local small business professional, division
+    or center assistant director, HQ USACE OSBP [928]'
+  as_of: '2026-10-03'
+  sources:
+  - 928
+- id: buyer-air-force
+  agency: Department of the Air Force
+  component_of: Department of Defense
+  office_name: Office of Small Business Programs
+  office_url: https://www.airforcesmallbiz.af.mil/
+  forecast_url: ''
+  verified: false
+  sweep_status: partial
+  forecast_note: No forecast link on the front page [926]
+  what_else:
+  - '"Locate a Small Business Professional" directory; mentions Project Spectrum (DoD cybersecurity help for contractors)
+    and the Mentor-Protégé Program [926]'
+  as_of: '2026-10-03'
+  sources:
+  - 926
+- id: buyer-dla
+  agency: Defense Logistics Agency
+  component_of: Department of Defense
+  office_name: Office of Small Business Programs
+  office_url: https://www.dla.mil/Small-Business/
+  forecast_url: ''
+  verified: false
+  sweep_status: partial
+  forecast_note: No forecast link was returned; page content partly loads by script [927]
+  what_else:
+  - New-vendor overviews and a "DLA 101" playlist [927]
+  as_of: '2026-10-03'
+  sources:
+  - 927
+- id: buyer-darpa
+  agency: DARPA
+  component_of: Department of Defense
+  office_name: Small Business Programs Office
+  office_url: https://www.darpa.mil/work-with-us/for-small-businesses
+  forecast_url: ''
+  verified: false
+  sweep_status: partial
+  forecast_note: No forecast; the page points to opportunities and SBIR/STTR [929]
+  what_else:
+  - DARPAConnect offers curriculum, proposal support, mentoring and one-on-one coaching [929]
+  as_of: '2026-10-03'
+  sources:
+  - 929
+- id: buyer-navy
+  agency: Department of the Navy
+  component_of: Department of Defense
+  office_name: ''
+  forecast_url: ''
+  verified: false
+  sweep_status: not verified (Navy page rejected the request)
+  forecast_note: ''
+  what_else: []
+  as_of: '2026-10-03'
+  sources: []
+- id: buyer-mda
+  agency: Missile Defense Agency
+  component_of: Department of Defense
+  office_name: ''
+  forecast_url: ''
+  verified: false
+  sweep_status: not verified (MDA certificate error)
+  forecast_note: ''
+  what_else: []
+  as_of: '2026-10-03'
+  sources: []
+- id: buyer-disa
+  agency: Defense Information Systems Agency (DISA)
+  component_of: Department of Defense
+  office_name: ''
+  forecast_url: ''
+  verified: false
+  sweep_status: not verified (DISA URL 404)
+  forecast_note: ''
+  what_else: []
+  as_of: '2026-10-03'
+  sources: []

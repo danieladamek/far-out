@@ -1,4 +1,4 @@
-# gates.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR sweeps (slices A–D). Every entry carries recheck: true until quotes are verified against live pages.
+# gates.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
 - id: sam-registration
   name: SAM.gov registration and Unique Entity ID (UEI)
   what: 'SAM registration provides the UEI and is one of the registrations that must be completed before an application
@@ -347,3 +347,1064 @@
   - 341
   - 342
   conflicts: []
+- id: sam-registration
+  name: SAM.gov registration, Unique Entity ID (UEI) and CAGE code
+  what: 'A SAM.gov registration allows an entity to bid on government contracts and apply for federal assistance,
+    and the Unique Entity ID is assigned as part of it [523]. The UEI is a 12-character alphanumeric value managed,
+    granted and owned by the government; it replaced the DUNS number on April 4, 2022 [528]. The CAGE code is a
+    separate identifier managed by the Defense Logistics Agency, assigned after submission if the entity has none
+    [528] [524]. SAM.gov is free: there is no charge to get a UEI, register an entity or maintain the registration
+    [524].'
+  applies_when: An offeror is required to be registered in SAM when submitting an offer or quotation and at time
+    of award (FAR 52.204-7; FAR 4.1102) [526] [525]. FAR 4.1102 lists seven exceptions, among them purchase-card
+    micro-purchases, classified contracts, deployed contracting officers, urgency, and foreign vendors at or below
+    $40,000 for overseas work where registration is impractical [525].
+  steps:
+  - 'Gather: legal business name, physical address (no PO box), date and state of incorporation, TIN, NAICS codes,
+    bank routing and account numbers [524]'
+  - A UEI alone needs only the legal business name and physical address [523]
+  - 'Complete the registration: "registered" means Core, Assertions, and Reps & Certs complete, the TIN validated
+    with the IRS, and the record marked "Active" [526]'
+  - A CAGE code is mandatory information in SAM [526]; it is assigned after submission if the entity has none [524]
+  - 'Timing: allow at least ten business days after submission [524]; SAM''s page says a registration can take up
+    to 10 business days to become active [523]'
+  - Renew every 365 days to keep the registration active [523] [524]
+  - 'Notarized letter: GSA now uses it only to establish an Entity Administrator for an existing entity whose previous
+    administrator is no longer on staff; it was previously required of all new entities [529]'
+  - 'Help: the Entity Registration Checklist and the Federal Service Desk (fsd.gov) [523]'
+  - 'Scam warnings from the government: SAM''s alert on phishing emails (February 4, 2025) [530]; GSA OIG''s alert
+    (October 1, 2026) on a fake "Vendor Credentialing Form" demanding an annual fee and a fake "Records Digitization
+    Non-Compliance" notice sent from look-alike domains such as e-gsa.us, reportable to the GSA OIG hotline and
+    FBI IC3 [531]; SBA''s notice that "Certify.us is not affiliated with SBA" [585]'
+  - The SAM record is used to populate SBA's Small Business Search (formerly Dynamic Small Business Search) [666]
+  - A joint venture must be registered in SAM under its own name [520]
+  official_url: https://sam.gov/content/entity-registration
+  pending_changes:
+  - status: final
+    date: '2024-11-12'
+    text: Interim rule 89 FR 89472 (FAR Case 2023-018), effective on publication November 12, 2024, removed the
+      requirement to "continue to be registered until time of award", leaving registration at offer and at award
+      [527]. It is an interim rule in force; search results point to a November 2025 finalization that was not fetched.
+  - status: proposed
+    date: '2026-06-23'
+    text: FAR Case 2026-001 (91 FR 37550) proposes rewritten FAR Parts 1, 2, 4, 33, 39, 40 and 53; comments closed
+      July 23, 2026 [626]. Its Part 4 changes were not read in this sweep, and neither was the RFO model deviation
+      text for Part 4, so no deviation numbering is recorded for FAR 4.1102 or 52.204-7.
+  as_of: '2026-10-03'
+  sources:
+  - 520
+  - 523
+  - 524
+  - 525
+  - 526
+  - 527
+  - 528
+  - 529
+  - 530
+  - 531
+  - 532
+  - 585
+  - 626
+  - 666
+  conflicts:
+  - 'Timing wording: "up to 10 business days" to become active [523] vs "allow at least ten business days" [524]'
+- id: size-status-representation
+  name: Representing size and socioeconomic status
+  what: An offeror is required to represent its size and socioeconomic status in writing to the contracting officer
+    at the time of initial offer (FAR 19.301-1) [650]. The representation is made in the provision FAR 52.219-1,
+    which includes the small disadvantaged business box by reference to 13 CFR 124.1001 [596]. Size is determined
+    as of the written self-certification with the initial offer including price (13 CFR 121.404) [513]. Bidding
+    on a set-aside, encouraging classification as small, or registering as small in a federal database is itself
+    deemed a certification of size [518] [519].
+  applies_when: Every offer in which the firm claims small or program status [650]. On a multiple-award contract,
+    a firm small at contract award is small for each order, subject to the rerepresentation rules [650]; a contract
+    holder that cannot recertify for one order when the contracting officer asks may still be small for other orders
+    where the contracting officer does not ask [513].
+  steps:
+  - 'Read the NAICS code on the solicitation: the contracting officer assigns one code by principal purpose, and
+    its size standard governs [648] [508]'
+  - 'Measure size against that standard: receipts averaged over five completed fiscal years [504]; employees averaged
+    over the preceding completed 24 calendar months [505]; affiliates included [520]'
+  - The certification must be signed by an authorized official [518]
+  - 'Know the penalties: a presumption of loss to the United States based on the total amount expended on the contract;
+    suspension or debarment; False Claims Act; criminal penalties under 15 U.S.C. 645(d); with a limitation for
+    unintentional errors, technical malfunctions and similar situations [518]. FAR 52.219-1 states fine, imprisonment
+    or both, suspension and debarment, and ineligibility for Small Business Act programs [596]'
+  - A competitor, the contracting officer or SBA can challenge the representation by size protest; private parties
+    have five business days [517]
+  official_url: https://www.acquisition.gov/far/19.301-1
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries NAICS
+      code and size standard assignment at 19.103 [614]; the RFO section corresponding to FAR 19.301-1 was not identified
+      in the text read. RFO Part 2 (October 28, 2025) defines a small business as one "qualified as a small business
+      under the criteria and size standards in 13 CFR part 121" [616].'
+  as_of: '2026-10-03'
+  sources:
+  - 504
+  - 505
+  - 508
+  - 513
+  - 517
+  - 518
+  - 519
+  - 520
+  - 596
+  - 614
+  - 616
+  - 648
+  - 650
+  conflicts: []
+- id: recertification-size-status
+  name: Recertification of size and program status (13 CFR 125.12)
+  what: 13 CFR 125.12 is the unified rule on re-representing size and 8(a), HUBZone, WOSB/EDWOSB and SDVOSB status
+    after certain events, and on what a disqualifying recertification costs the firm [514]. It was added by the
+    December 17, 2024 final rule and took effect January 17, 2026 [515]. A firm that is small at award otherwise
+    generally stays small for the life of the contract [513].
+  applies_when: 'Triggers: a merger, acquisition or sale that changes controlling interest (recertify within 30
+    calendar days); a contract longer than five years (no more than 120 days before the end of year five and before
+    each later option); a contracting officer''s request in a solicitation [514].'
+  steps:
+  - Recertify size and program status within 30 calendar days of a merger, acquisition or sale [514]
+  - A disqualifying recertification within 180 days after offer and before award makes the firm ineligible for that
+    set-aside award [514]
+  - On multiple-award contracts, a disqualifying recertification makes the firm ineligible for later set-aside or
+    reserved orders; it stays eligible for unrestricted awards [514]
+  - 'Exception: after a merger, acquisition or sale involving another small business, the firm stays eligible for
+    set-aside or reserved orders [514]'
+  - 'Paragraph (g): events before January 17, 2026 keep eligibility for existing orders and options, but agencies
+    cannot count them toward goals [514]'
+  official_url: https://www.ecfr.gov/current/title-13/chapter-I/part-125/section-125.12
+  pending_changes:
+  - status: final
+    date: '2024-12-17'
+    text: Created by 89 FR 102448, effective January 16, 2025, with the effective date of § 125.12 delayed to January
+      17, 2026 [515]; amended by 90 FR 23609 (June 4, 2025) [514]. No pending change was found.
+  as_of: '2026-10-03'
+  sources:
+  - 513
+  - 514
+  - 515
+  conflicts: []
+- id: limitations-on-subcontracting
+  name: Limitations on subcontracting and the similarly situated entity rule
+  what: On a set-aside or sole-source award, the small prime agrees it will not pay more than a set share of the
+    amount paid by the Government to subcontractors that are not similarly situated entities (FAR 19.505; clause
+    FAR 52.219-14) [645] [646]. A similarly situated entity is a first-tier subcontractor that has the same small
+    business program status as the prime and is small [646]. SBA's rule at 13 CFR 125.6 sets the same percentages
+    [647].
+  applies_when: Small-business set-asides above the simplified acquisition threshold, and awards under FAR subparts
+    19.8 (8(a)), 19.13 (HUBZone), 19.14 (SDVOSB) and 19.15 (WOSB) at any value [645].
+  steps:
+  - 'Services: no more than 50 percent of the amount paid by the Government to firms that are not similarly situated
+    [645] [646]'
+  - 'Supplies: 50 percent, excluding materials [645]'
+  - 'General construction: 85 percent, excluding materials; special trade construction: 75 percent, excluding materials
+    [645]'
+  - Work by a similarly situated subcontractor's own employees does not count against the limit, but what that subcontractor
+    passes on does; materials are not subcontracted work; certain direct costs (airline travel, cloud computing)
+    are excluded for services [647]
+  - Compliance is measured by the end of the base term and each option, or by the end of performance of each order
+    [646]
+  official_url: https://www.acquisition.gov/far/52.219-14
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the general limitations-on-subcontracting section was not confirmed in the RFO
+      Part 19 model deviation text read. The extract of RFO 19.108-8 (8(a)) gave performance-of-work percentages
+      in a different form ("at least 50 percent of the cost incurred for personnel") from clause 52.219-14 [614].'
+  as_of: '2026-10-03'
+  sources:
+  - 614
+  - 645
+  - 646
+  - 647
+  conflicts:
+  - 'Form of the test: percentage of the amount paid by the Government in FAR 52.219-14 [646] vs "at least 50 percent
+    of the cost incurred for personnel" in the RFO 19.108-8 extract [614]'
+- id: nonmanufacturer-rule
+  name: Nonmanufacturer rule (supply set-asides)
+  what: On a supply set-aside, a small firm that does not make the item supplies the end item of a U.S. small-business
+    manufacturer (FAR 19.505) [645]. SBA may grant individual or class waivers [645].
+  applies_when: A distributor, reseller or kit assembler offering on a small-business set-aside for supplies [645].
+  steps:
+  - The firm may not exceed 500 employees (150 for information technology value-added resellers) [645]
+  - It supplies the end item of a U.S. small-business manufacturer unless SBA has granted an individual or class
+    waiver [645]
+  - 'Kits: at least 50 percent of the component cost must be made in the United States [645]'
+  official_url: https://www.acquisition.gov/far/19.505
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries the nonmanufacturer
+      rule at 19.104-1(f), with the same 500-employee (150 for IT value-added resellers) limit and SBA individual
+      or class waivers [614].'
+  as_of: '2026-10-03'
+  sources:
+  - 614
+  - 645
+  conflicts: []
+- id: sam-registration-uei
+  name: SAM registration and Unique Entity ID
+  governing_text:
+  - FAR Subpart 4.11 [843]
+  - FAR 52.204-7 (Nov 2024) [842]
+  what: 'An active entity registration in SAM.gov is a condition of offering: "An Offeror is required to be registered
+    in SAM when submitting an offer or quotation and at time of award" [842]. Registered means the mandatory information
+    (UEI, EFT indicator) is entered; the Core, Assertions, Representations and Certifications, and Points of Contact
+    sections are complete; the Government has validated the data, including the TIN match with the IRS; and the
+    record is marked "Active" [842]. The Unique Entity ID is generated by SAM.gov; the transition from DUNS took
+    place on April 4, 2022 [844].
+
+    '
+  applies_when: Offerors and quoters must be registered when an offer or quotation is submitted, and again at award
+    [843] [842]. There are seven exceptions, including purchase-card micro-purchases, classified contracts, and
+    foreign vendor contracts of $40,000 or less performed outside the U.S.; for unusual and compelling urgency the
+    firm registers within 30 days after award or at least 3 days before the first invoice, whichever is first [843].
+  steps:
+  - Get a Unique Entity ID at SAM.gov; a UEI alone needs only legal business name and physical address and does
+    not allow applying directly for federal awards [840]
+  - Complete the Core, Assertions, Representations and Certifications, and Points of Contact sections [842]
+  - 'Wait for validation and Active status: "Registration can take up to 10 business days to become active." [840]'
+  - 'Renew every 365 days: "You must renew your registration every 365 days to keep it active." [840]'
+  cost_time: Up to 10 business days to become active; renewal every 365 days [840]. The text fetched from SAM.gov
+    carried no statement on cost, so "free" is unverified [840].
+  official_url: https://sam.gov/content/entity-registration
+  pending_changes:
+  - status: class-deviation
+    date: '2025-08-14'
+    text: Overhaul Part 4 (model deviation text issued August 14, 2025) puts the SAM requirements at 4.203 and keeps
+      registration "when they submit an offer or quotation, and at the time of award"; its clauses are 52.204-7
+      (registration), 52.204-13 (maintenance), 52.204-90 (offeror identification) and 52.204-91 (contractor identification)
+      [805]
+  - status: proposed
+    date: '2026-06-23'
+    text: FAR Case 2026-001 (91 FR 37550; comments were due July 23, 2026) would merge five identification provisions
+      (TIN, UEI, CAGE, ownership, predecessor) into a revised 52.204-7 [802]
+  as_of: '2026-10-03'
+  sources:
+  - 802
+  - 805
+  - 840
+  - 842
+  - 843
+  - 844
+  - 845
+  - 846
+  conflicts:
+  - 'Notarized letter: the 2018 requirement (an original, notarized letter naming the entity administrator, effective
+    March 22, 2018 for new registrants and April 27, 2018 for existing registrants) rests only on a law-firm account;
+    the GSA page it cites returns 404 and the current rule is unknown [846]'
+- id: naics-size-at-offer
+  name: NAICS code and size at the time of offer
+  governing_text:
+  - 13 CFR 121.404 [848]
+  - FAR 19.301-1 [847]
+  - FAR 52.204-8 (Mar 2026) [851]
+  what: 'The contracting officer inserts the NAICS code and size standard for the buy, and the offeror "is required
+    to represent in good faith" that it is small [851] [847]. Size is determined "as of the date the concern submits
+    a written self-certification that it is small to the procuring activity as part of its initial offer or response
+    which includes price" [848].
+
+    '
+  applies_when: The representation is made in writing at the time of initial offer [847]. On a multiple-award contract,
+    small at initial offer generally means small for each order, but for orders under basic ordering agreements
+    or BPAs size is tested at the time of award of the order [847]. On multiple-award contracts with several NAICS
+    codes, size is determined for each discrete category [848]. The provision notes a nonmanufacturer size standard
+    of 500 employees, or 150 for information technology value-added resellers [851].
+  steps:
+  - Read the NAICS code and size standard the contracting officer has inserted for the buy [851]
+  - Keep SAM representations entered or updated within the last 12 months, current, accurate and complete [851]
+  - Represent size in writing with the initial offer [847]
+  - SBA lists the NAICS code and size standard among the basics of getting started [845]
+  cost_time: None stated in the pages read.
+  official_url: https://www.ecfr.gov/current/title-13/chapter-I/part-121/subpart-A/subject-group-ECFR0fca5207262de47/section-121.404
+  pending_changes:
+  - status: final
+    date: '2024-12-17'
+    text: 13 CFR 121.404 was last amended December 17, 2024 (89 FR 102485); recertification rules are in 13 CFR
+      125.12, which was not read [848]
+  - status: class-deviation
+    date: ''
+    text: Overhaul Part 19 was not read in slices SC or SD, so the deviation number and date for the rule at codified
+      FAR 19.301-1 are not recorded [847]; the deviation guide lists each part's model text [798]
+  - status: proposed
+    date: '2026-06-23'
+    text: FAR Case 2026-001 would remove 52.204-8 in favour of entity-level SAM representations [802]
+  as_of: '2026-10-03'
+  sources:
+  - 798
+  - 802
+  - 845
+  - 847
+  - 848
+  - 851
+  conflicts: []
+- id: cage-ncage
+  name: CAGE and NCAGE codes
+  governing_text:
+  - FAR Subpart 4.18 [849]
+  - FAR 52.204-16 (Aug 2020) [850]
+  - FAR 2.101 [791]
+  what: 'A CAGE code is "an identifier assigned to entities located in the United States or its outlying areas by
+    the Defense Logistics Agency" [850]. CAGE codes are assigned by the DLA CAGE Branch for U.S. entities, and NATO
+    members assign NCAGE codes [791].
+
+    '
+  applies_when: A CAGE code is required "prior to the award of a contract action above the micro-purchase threshold,
+    when there is a requirement to be registered in the System for Award Management (SAM) or a requirement to have
+    a unique entity identifier in the solicitation" [849]. A CAGE code is also needed for a facility clearance [875].
+  steps:
+  - SAM registrants are assigned a CAGE code, which is part of the mandatory registration information [850] [842]
+  - U.S. entities not registering in SAM may request a code at https://cage.dla.mil [850]
+  - Foreign firms go to their NATO codification bureau or NSPA for an NCAGE code [850]
+  - Do not delay an offer while waiting for a CAGE code; it is needed before award [850]
+  cost_time: No cost or time statement was found in the pages read.
+  official_url: https://cage.dla.mil
+  pending_changes:
+  - status: class-deviation
+    date: '2025-08-14'
+    text: Overhaul Part 4 (model deviation text issued August 14, 2025) carries identification at 4.203 with clauses
+      52.204-90 (offeror identification) and 52.204-91 (contractor identification) [805]
+  - status: proposed
+    date: '2026-06-23'
+    text: FAR Case 2026-001 would merge the CAGE provision with four other identification provisions into a revised
+      52.204-7 [802]
+  as_of: '2026-10-03'
+  sources:
+  - 791
+  - 802
+  - 805
+  - 842
+  - 849
+  - 850
+  - 875
+  conflicts: []
+- id: reps-and-certs
+  name: Representations and certifications in SAM
+  governing_text:
+  - FAR 52.204-8 (Mar 2026) [851]
+  - FAR 52.212-3 (Oct 2025) [852]
+  - FAR 52.209-5 (Aug 2020) [896]
+  - FAR 52.209-11 (Feb 2016) [897]
+  what: 'FAR 52.204-8 lets a firm rely on its SAM representations instead of filling them in for every offer: by
+    submitting an offer the firm verifies that its SAM representations were entered or updated within the last 12
+    months and are current, accurate and complete [851]. For commercial buys, FAR 52.212-3 covers small business
+    and socioeconomic status, Buy American, trade agreements, responsibility matters, child labor, place of manufacture,
+    tax, and Section 889 telecommunications [852].
+
+    '
+  applies_when: Whenever a solicitation carries 52.204-8 or, for commercial buys, 52.212-3; an offeror with current
+    SAM representations completes only paragraph (b) of 52.212-3 [851] [852].
+  steps:
+  - Complete the Representations and Certifications section of the SAM registration [842]
+  - Keep the representations entered or updated within the last 12 months, current, accurate and complete [851]
+  - 'Responsibility certification: whether the firm is "presently debarred, suspended, proposed for debarment, or
+    declared ineligible", and convictions or civil judgments within a three-year period [896]'
+  - Corporations represent whether they have unpaid assessed federal tax or a federal felony conviction within the
+    preceding 24 months [897]
+  cost_time: None stated in the pages read.
+  official_url: https://www.acquisition.gov/far/52.204-8
+  pending_changes:
+  - status: proposed
+    date: '2026-06-23'
+    text: FAR Case 2026-001 would remove 52.204-8 in favour of entity-level SAM representations [802]
+  - status: class-deviation
+    date: '2025-08-14'
+    text: 'Overhaul Part 12 (model deviation text issued August 14, 2025; updated April 20, 2026): the fetch listed
+      52.212-1, 52.212-2 and 52.212-4 as retained and did not list 52.212-3 [806]'
+  as_of: '2026-10-03'
+  sources:
+  - 802
+  - 806
+  - 842
+  - 851
+  - 852
+  - 896
+  - 897
+  conflicts:
+  - 'Whether 52.212-3 survives in the overhaul Part 12 text is unresolved: the fetch listed 52.212-1, 52.212-2 and
+    52.212-4 only [806] vs the codified provision dated Oct 2025 [852]'
+- id: section-889-fascsa
+  name: Section 889 telecommunications prohibition and FASCSA orders
+  governing_text:
+  - FAR 52.204-25 (Nov 2021) [853]
+  - FAR 52.204-30 (Dec 2023) [854]
+  what: 'FAR 52.204-25, the Section 889 clause, bars delivering covered telecommunications and video surveillance
+    equipment to the government and bars the government from contracting with firms that use it; the named companies
+    are Huawei Technologies Company, ZTE Corporation, Hytera Communications Corporation, Hangzhou Hikvision Digital
+    Technology Company and Dahua Technology Company, and their subsidiaries and affiliates [853]. FAR 52.204-30
+    bars contractors from supplying or using articles or sources named in a FASCSA exclusion or removal order; orders
+    are issued by the Secretary of Homeland Security, the Secretary of Defense or the Director of National Intelligence
+    [854].
+
+    '
+  applies_when: Section 889(a)(1)(A) has been effective since August 13, 2019 and (a)(1)(B) since August 13, 2020
+    [853]. The FASCSA prohibition applies in contracts carrying 52.204-30 [854].
+  steps:
+  - 'Represent Section 889 status: 52.212-3 covers Section 889 telecommunications for commercial buys [852]'
+  - Search SAM.gov for the phrase "FASCSA order" [854]
+  - 'Section 889: report discovery within one business day, with a follow-up within 10 business days [853]'
+  - 'FASCSA: report within 3 business days, with a fuller report within 10 business days [854]'
+  - 52.204-25 flows down to all subcontracts, except paragraph (b)(2) [853]
+  cost_time: None stated in the pages read.
+  official_url: https://www.acquisition.gov/far/52.204-25
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Overhaul Part 40 gathers Section 889, FASCSA orders, Kaspersky, ByteDance and basic safeguarding, with
+      new clauses 52.240-90 (Security Prohibitions and Exclusions Representations and Certifications) and 52.240-91
+      (Security Prohibitions and Exclusions); the page did not map old clause numbers to new ones, and the issuance
+      date of the model text was not captured (page last updated 09/28/2026) [808]
+  - status: class-deviation
+    date: '2025-12-18'
+    text: DoD Class Deviation 2026-O0025, Revolutionary FAR Overhaul Part 40, DFARS Part 240, dated 18 December
+      2025 [809]
+  - status: proposed
+    date: '2026-06-23'
+    text: FAR Case 2026-001 covers Parts 1, 2, 4, 33, 39, 40 and 53, including the Part 40 security clauses [802]
+  as_of: '2026-10-03'
+  sources:
+  - 802
+  - 808
+  - 809
+  - 852
+  - 853
+  - 854
+  conflicts: []
+- id: basic-safeguarding-nist-800-171
+  name: Basic safeguarding and NIST SP 800-171
+  governing_text:
+  - FAR 52.204-21 (Nov 2021) [855]
+  - DFARS 252.204-7012 (MAY 2024) [856]
+  - DFARS 252.204-7019 (NOV 2023) [857]
+  - DFARS 252.204-7020 (NOV 2023) [858]
+  what: 'FAR 52.204-21 sets 15 basic safeguarding requirements for contractor systems holding Federal contract information
+    [855]. DFARS 252.204-7012 requires NIST SP 800-171 on systems holding covered defense information, and cyber
+    incident reporting "within 72 hours of discovery of any cyber incident" [856]. DFARS 252.204-7019 tells offerors
+    that a current NIST SP 800-171 assessment score in SPRS is needed to be considered for award [857].
+
+    '
+  applies_when: 52.204-21 flows down to subcontracts where the subcontractor may have Federal contract information,
+    and not to COTS items [855]. For DoD awards a current assessment is one "not more than 3 years old unless a
+    lesser time is specified in the solicitation" [857].
+  steps:
+  - Apply the 15 basic safeguarding requirements, which cover access control, identification and authentication,
+    media sanitisation, physical access, boundary protection, flaw remediation and malicious-code protection [855]
+  - 'DoD: complete at least a Basic NIST SP 800-171 DoD Assessment within the last 3 years [858]'
+  - A Basic Assessment posting includes CAGE codes, system security plan description, date, summary level score
+    (for example 95 out of 110) and the date a score of 110 is expected [857]
+  - Scores are held in SPRS, which vendors reach through PIEE [871]
+  - Report cyber incidents within 72 hours of discovery at https://dibnet.dod.mil; a DoD-approved medium assurance
+    certificate is needed to report [856]
+  - External cloud providers must meet requirements equivalent to the FedRAMP Moderate baseline [856]
+  - Preserve images of affected systems for at least 90 days [856]
+  - Give access for a Medium or High (government) assessment; 14 business days to rebut findings [858]
+  cost_time: None stated in the pages read.
+  official_url: https://www.acquisition.gov/dfars/252.204-7012-safeguarding-covered-defense-information-and-cyber-incident-reporting.
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Overhaul Part 40 carries basic safeguarding as clause 52.240-93, Basic Safeguarding of Covered Contractor
+      Information Systems, with 52.240-92 Security Requirements; the page did not map old clause numbers to new
+      ones and the issuance date of the model text was not captured (page last updated 09/28/2026) [808]
+  - status: class-deviation
+    date: '2025-12-18'
+    text: DoD Class Deviation 2026-O0025, Revolutionary FAR Overhaul Part 40, DFARS Part 240, dated 18 December
+      2025 [809]
+  as_of: '2026-10-03'
+  sources:
+  - 808
+  - 809
+  - 855
+  - 856
+  - 857
+  - 858
+  - 869
+  - 871
+  conflicts:
+  - That the DFARS assessment requirements now sit at DFARS 240.371 with clause 252.240-7997 rests only on a consultant
+    note and is not verified on a primary page [869]
+- id: cmmc
+  name: Cybersecurity Maturity Model Certification (CMMC)
+  governing_text:
+  - 32 CFR Part 170 [862]
+  - 32 CFR 170.3 (phases) [861]
+  - DFARS 252.204-7021 (NOV 2025) [859]
+  - DFARS 252.204-7025, Notice of CMMC Level Requirements, and the DFARS final rule at 90 FR 43560 (September 10,
+    2025) [860]
+  what: 'CMMC is the DoD program rule at 32 CFR Part 170 that sets cybersecurity levels, who assesses them and how
+    long a status lasts, and DFARS 252.204-7021 requires a current CMMC status at the stated level for the life
+    of the contract [862] [859]. On July 13, 2026 the Department announced the immediate suspension of the CMMC
+    Phase II requirements; implementation is paused in Phase 1 and all Phase I self-assessment requirements remain
+    in place [863]. The rule and the suspension are recorded separately below, and the parts that rest only on secondary
+    sources are listed under suspension.secondary_only.
+
+    '
+  rule:
+    basis: primary sources only (eCFR, DFARS text on acquisition.gov, Federal Register, DoD CIO page)
+    levels:
+    - 'Level 1: 15 requirements from 48 CFR 52.204-21(b)(1) [862]; annual self-assessment and annual affirmation,
+      and no plans of action permitted [863]'
+    - 'Level 2: 110 requirements from NIST SP 800-171 R2; conditional status at 88 of 110 with a plan of action
+      closed within 180 days [862]; Level 2 (self) is a self-assessment every three years with annual affirmation
+      [863]'
+    - 'Level 3: 24 requirements selected from NIST SP 800-172 (Feb 2021) [862]'
+    - A status is valid 3 years from issuance, with annual affirmation; C3PAOs must meet ISO/IEC 17020:2012(E) [862]
+    phases_in_32_cfr_170_3:
+    - 'Phase 1: Level 1 (Self) or Level 2 (Self); "Begins on the effective date of the complementary 48 CFR part
+      204 CMMC Acquisition final rule." [861]'
+    - 'Phase 2, "one calendar year following the start date of Phase 1": adds Level 2 (C3PAO) [861]'
+    - 'Phase 3, one year after Phase 2: adds Level 3 (DIBCAC) [861]'
+    - 'Phase 4, one year after Phase 3: full implementation [861]'
+    - 'Dates derived by the sweep from the rule''s arithmetic, not quoted: Phase 1 November 10, 2025; Phase 2 November
+      10, 2026; Phase 3 November 10, 2027; Phase 4 November 10, 2028 [861]'
+    acquisition_rule:
+    - DFARS final rule 90 FR 43560, effective November 10, 2025; clauses 252.204-7021 and 252.204-7025 (Notice of
+      CMMC Level Requirements) [860]
+    - Through November 9, 2028 CMMC applies where program managers and requiring activities decide to apply it;
+      on or after November 10, 2028 it applies wherever the contractor will process, store or transmit FCI or CUI
+      [860]
+    - Awards solely for COTS items are excluded; a conditional status is allowed for up to 180 days at Levels 2
+      and 3 [860]
+    - 'Contract clause: "Have and maintain for the duration of the contract a current CMMC status at the following
+      CMMC level, or higher"; annual affirmation of continuous compliance in SPRS; a 10-character CMMC unique identifier
+      per assessment; flows down where the subcontractor will process, store or transmit FCI or CUI [859]'
+  suspension:
+    announced: '2026-07-13'
+    primary:
+    - '"On July 13, 2026, the Department of War announced the immediate suspension of the Cybersecurity Maturity
+      Model Certification (CMMC) Phase II requirements, which was originally scheduled for November 10, 2026." [863]'
+    - '"All Phase I self-assessment requirements remain firmly in place." [863] [864]'
+    - '"The first phase of CMMC implementation began on November 10, 2025 and CMMC implementation is paused in Phase
+      1." [863]'
+    - 'Implementing memorandum "Implementing Suspension of CMMC Phase II" (document 26-P-1023; July 2026, date and
+      signer not legible in the fetch): suspends the phased schedule including the November 2026 Phase 2 transition,
+      and Level 2 (C3PAO) and Level 3 (DIBCAC) in new procurements [865]'
+    - Under the memorandum new procurements may ask only for Level 1 (Self) or Level 2 (Self), and open solicitations
+      are to be amended and existing contracts modified [865]
+    - NIST SP 800-171 Rev 2 and DFARS 252.204-7012 obligations remain; the memorandum refers to the CIO's 60-day
+      review [865]
+    - The Department of War CIO page links two memoranda, "Removing Barriers to DIB Expansion" and "Implementing
+      Suspension of CMMC Phase II", and an FAQ [864]
+    - The text of 32 CFR 170.3 is unchanged by the suspension, which was done by memorandum and class deviation
+      [861]
+    - The DARS class-deviation page fetched showed Class Deviation 2026-O0025 (overhaul Part 40, DFARS Part 240)
+      dated 18 December 2025, with no revisions [809]
+    secondary_only:
+    - Class Deviation 2026-O0025 Revision 2 (July 16, 2026) and Revision 3 (September 3, 2026, issued by Defense
+      Pricing, Contracting, and Acquisition Policy) [868] [869]
+    - That 252.204-7021 remains in the regulation, that removal from contracts is by modification, and that clauses
+      already in signed contracts bind until modified [869] [866]
+    - 'The reform RFI: posted July 13, 2026 with responses due August 14, 2026; closed with about 1,100 responses
+      [867] [868]'
+    - The 60-day review closed September 11, 2026 with no report released as of that date [868]
+    - The war.gov press release (Article 4542329) returned 403 to the fetch tool and is known only through a consultant
+      summary [866]
+    - DFARS Part 240 numbering for the assessment text (DFARS 240.371, clause 252.240-7997) [869]
+    - 'Assessment cost figures that the sweep attributes to a vendor log quoting SBA ($593,800 for third-party certification
+      against $388,600 for self-assessment): no primary source was fetched; do not use [868]'
+  applies_when: 'Under the DFARS rule, DoD contracts where the contractor will process, store or transmit FCI or
+    CUI, other than awards solely for COTS items: at the discretion of program managers and requiring activities
+    through November 9, 2028 [860]. Since July 13, 2026 implementation is paused in Phase 1 [863].'
+  steps:
+  - Read the required CMMC level in the solicitation notice (252.204-7025) [860]
+  - Self-assess at Level 1 or Level 2 (Self), the only levels new procurements may ask for under the suspension
+    memorandum [865]
+  - Enter results in SPRS [863]
+  - Affirm continuous compliance annually in SPRS (https://piee.eb.mil) [859]
+  - Flow the requirement down where the subcontractor will process, store or transmit FCI or CUI [859]
+  cost_time: A status is valid 3 years from issuance [862]; a conditional status may last up to 180 days [860].
+    No official cost figure was fetched.
+  ecosystem: The Cyber AB is the CMMC accreditation body; its marketplace is at https://cyberab.org/Catalog and
+    its home page carried no statement on the suspension [870]. SPRS holds NIST SP 800-171 assessments, CMMC status
+    and self-assessments [871].
+  official_url: https://dodcio.defense.gov/CMMC/About/
+  pending_changes:
+  - status: announced
+    date: '2026-07-13'
+    text: Phase II suspended; CMMC implementation is paused in Phase 1; Phase I self-assessment requirements remain
+      [863]
+  - status: announced
+    date: 2026-07
+    text: Implementing memorandum (26-P-1023) limits new procurements to Level 1 (Self) or Level 2 (Self); the day
+      and signer were not legible in the fetch [865]
+  - status: class-deviation
+    date: '2025-12-18'
+    text: DoD Class Deviation 2026-O0025 adopts overhaul Part 40 with DFARS Part 240, where CMMC now sits [809];
+      codified DFARS 252.204-7021 remains the primary citation here [859]
+  - status: class-deviation
+    date: '2026-07-16'
+    text: 'Class Deviation 2026-O0025 Revision 2: reported by a secondary source only [868]; the DARS page fetched
+      showed the deviation dated 18 December 2025 with no revisions [809]'
+  - status: class-deviation
+    date: '2026-09-03'
+    text: 'Class Deviation 2026-O0025 Revision 3, said to "remove or revise CMMC requirements in new and existing
+      solicitations and contracts": reported by secondary sources only [869] [868]; the DARS page fetched showed
+      no revisions [809]'
+  - status: pending-implementation
+    date: '2026-11-10'
+    text: Phase 2 (Level 2 C3PAO) start date as derived from 32 CFR 170.3 [861]; suspended by the July 13, 2026
+      announcement [863]
+  as_of: '2026-10-03'
+  sources:
+  - 809
+  - 845
+  - 859
+  - 860
+  - 861
+  - 862
+  - 863
+  - 864
+  - 865
+  - 866
+  - 867
+  - 868
+  - 869
+  - 870
+  - 871
+  conflicts:
+  - The DARS page shows Class Deviation 2026-O0025 dated 18 December 2025 with no revisions [809] vs Revisions 2
+    and 3 reported by secondary sources [868] [869]
+  - SBA's basic-requirements page (updated July 28, 2026) still lists CMMC as a requirement for DoD contracts without
+    the Phase II suspension [845] vs [863]
+  - Nothing after September 11, 2026 was found; the outcome of the reform task force is unknown, and that date itself
+    rests on a secondary source [868]
+- id: dcaa-accounting-system
+  name: Accounting system adequate for cost-type contracts
+  governing_text:
+  - FAR 16.301-3 [873]
+  - SF 1408 (form revision January 2014), prescribed by FAR (48 CFR) 53.209-1(f) [874]
+  - FAR 9.104-1 [894]
+  what: 'A cost-reimbursement contract may be used only when "the contractor''s accounting system is adequate for
+    determining costs applicable to the contract or order" [873]. In a pre-award survey before the first cost-type
+    contract award, the design of the accounting system is judged against the SF 1408 criteria [872]. DCAA says
+    of approval in advance: "There is no such thing as a DCAA approved government accounting system." [872]
+
+    '
+  applies_when: Cost-reimbursement contracts and orders [873]. The survey occurs prior to the first cost-type contract
+    award [872].
+  steps:
+  - 'A federal entity requests the survey: "DCAA does not perform audits requested by a contractor. DCAA only performs
+    these audits based on a request from a federal entity." [872]'
+  - The system design is judged against the SF 1408 criteria [872]
+  - 'The matching responsibility standard: "Have the necessary organization, experience, accounting and operational
+    controls, and technical skills, or the ability to obtain them" [894]'
+  cost_time: None stated in the pages read.
+  official_url: https://www.dcaa.mil/Portals/88/AccountingSystemRequirementsPreAwards.pdf
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Overhaul Part 16 was not read in slices SC or SD, so the deviation number and date for the rule at codified
+      FAR 16.301-3 are not recorded [873]; the deviation guide lists each part's model text [798]
+  - status: class-deviation
+    date: '2025-08-21'
+    text: Overhaul Part 9 was issued August 21, 2025 and updated April 20, 2026; it was not read, so the deviation
+      number for the standard at codified FAR 9.104-1 is not recorded [798]
+  as_of: '2026-10-03'
+  sources:
+  - 798
+  - 872
+  - 873
+  - 874
+  - 894
+  conflicts: []
+- id: facility-clearance
+  name: Facility security clearance (FCL)
+  governing_text:
+  - 32 CFR Part 117 (NISPOM), section 117.9 [877]
+  - Executive Order 12829, which established the National Industrial Security Program [876]
+  what: 'Under the National Industrial Security Program, DCSA oversees approximately 12,500 contractor facilities
+    that are cleared for access to classified information, on behalf of DoD and 35 other federal agencies [876].
+    32 CFR 117.9 sets entity eligibility: a legitimate need, a U.S. organisation, integrity, and foreign ownership,
+    control or influence that is absent or mitigated [877]. A firm cannot apply for itself: "Contractors cannot
+    sponsor themselves for an FCL." [875]
+
+    '
+  applies_when: When a government contracting activity or a cleared contractor sponsors the firm for access to classified
+    information [875].
+  steps:
+  - A government contracting activity or a cleared contractor submits the sponsorship through NISS (National Industrial
+    Security System) [875]
+  - Have a CAGE code (from SAM.gov or DLA) [875]
+  - Submit business documents and key management personnel information by Day 20 [875]
+  - Submit KMP investigation requests and fingerprints by Day 45 [875]
+  - Key management personnel must be identified and cleared as required [877]
+  cost_time: '"The government funds the processing of personnel clearances (PCL) and facility clearances (FCL) for
+    access to classified information." [875] Day 20 and Day 45 submission deadlines; no overall duration was found
+    [875].'
+  official_url: https://www.dcsa.mil/Industrial-Security/Entity-Vetting-Facility-Clearances-FOCI/Facility-Clearances/
+  pending_changes:
+  - status: final
+    date: '2026-08-17'
+    text: 32 CFR Part 117 was last amended August 17, 2026; that amendment was not examined [877]
+  as_of: '2026-10-03'
+  sources:
+  - 875
+  - 876
+  - 877
+  conflicts: []
+- id: export-controls
+  name: 'Export controls: ITAR registration and the EAR'
+  governing_text:
+  - 22 CFR Part 122 (ITAR registration) [878]
+  - 15 CFR Part 730 (EAR; only sections 730.3 and 730.7 were read) [880]
+  what: 'ITAR: "Any person who engages in the United States in the business of manufacturing or exporting or temporarily
+    importing defense articles, or furnishing defense services, is required to register." [878] A U.S. manufacturer
+    of defense articles must register with DDTC even if it never exports [878]. The EAR covers purely civilian items,
+    dual-use items, and military items not controlled under the ITAR, and "A relatively small percentage of exports
+    and reexports subject to the EAR require an application to BIS for a license." [880]
+
+    '
+  applies_when: 'ITAR: a single occasion of manufacturing or exporting a defense article triggers the registration
+    requirement [878]. EAR: exports and reexports of items subject to the EAR; no registration requirement was found
+    in the sections read [880].'
+  steps:
+  - 'ITAR: register with form DS-2032 through the DDTC website (www.pmddtc.state.gov) and renew annually [878]'
+  - 'EAR: classify the item; items not on the Commerce Control List are designated EAR99, and BIS points to its
+    order-of-review tool [881]'
+  - 'EAR: apply to BIS for a licence only where one is required [880]'
+  cost_time: 'DDTC registration: Tier 1 $3,000 per year; Tier 2 $4,000; Tier 3 $4,000 plus $1,100 per favourable
+    determination over five [878]. The fees took effect January 9, 2025 (Tier 1 $2,250 → $3,000; Tier 2 $2,750 →
+    $4,000), with a pilot $500 discount (fee $2,500) where the fee is 1% or more of annual revenue [879].'
+  official_url: https://www.pmddtc.state.gov
+  related_urls:
+  - https://www.bis.gov/regulations
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 878
+  - 879
+  - 880
+  - 881
+  conflicts:
+  - Whether the Tier 1 discount pilot, described as one year, continues is not verified [879]
+- id: bonding-insurance-construction
+  name: Bonds and insurance (construction), with SBA surety guarantees
+  governing_text:
+  - FAR 28.102-1 [882]
+  - FAR 28.307-2 [884]
+  what: 'FAR 28.102-1 "requires performance and payment bonds for any construction contract exceeding $150,000"
+    [882]. FAR 28.307-2 sets minimum liability insurance for cost-reimbursement contracts [884]. SBA''s Surety Bond
+    Guarantee program guarantees bonds issued by surety companies for small firms that cannot get them otherwise
+    [883].
+
+    '
+  applies_when: 'Construction contracts exceeding $150,000: performance and payment bonds; between $35,000 and $150,000
+    the contracting officer selects two or more payment protections (payment bond, irrevocable letter of credit,
+    tripartite escrow agreement, certificates of deposit, other approved security) [882]. The 2025 inflation adjustment
+    did not change the performance and payment bond thresholds [810].'
+  steps:
+  - Provide the bonds or payment protection the contract requires [882]
+  - A small firm that needs a guarantee applies through an SBA-authorized surety agent; questions go to suretybonds@sba.gov
+    [883]
+  - SBA guarantees bid, payment, performance and ancillary bonds [883]
+  cost_time: 'SBA guarantee fee: 0.6% of the contract price for performance and payment bonds, and no fee for bid
+    bond guarantees; SBA guarantees on contracts up to $9 million for non-federal work and up to $14 million for
+    federal work [883]. Insurance minimums: employer''s liability at least $100,000; general liability bodily injury
+    at least $500,000 per occurrence; automobile $200,000 per person, $500,000 per occurrence bodily injury and
+    $20,000 per occurrence property damage [884].'
+  official_url: https://www.sba.gov/funding-programs/surety-bonds
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Overhaul Part 28 was not read in slices SC or SD, so the deviation numbers and date for the rules at codified
+      FAR 28.102-1 and 28.307-2 are not recorded [882]; the deviation guide lists each part's model text [798]
+  as_of: '2026-10-03'
+  sources:
+  - 798
+  - 810
+  - 882
+  - 883
+  - 884
+  conflicts: []
+- id: e-verify
+  name: E-Verify
+  governing_text:
+  - FAR 52.222-54 (Jan 2025) [885]
+  - FAR 22.1803 [886]
+  what: 'FAR 52.222-54 is the E-Verify clause: it sets enrolment and verification deadlines and the subcontract
+    flowdown [885]. E-Verify''s own page says "a presidential Executive order and subsequent Federal Acquisition
+    Regulation (FAR) rule required federal contractors to use E-Verify", and that it applies to employees working
+    under covered federal contracts [887].
+
+    '
+  applies_when: The clause goes in all solicitations and contracts that exceed $150,000, except work only outside
+    the United States, a period of performance less than 120 days, or only COTS items (or near-COTS) and related
+    commercial services [886]. It flows down to subcontracts over $3,500 for services or construction performed
+    in the United States [885].
+  steps:
+  - Enroll within 30 calendar days of contract award [885]
+  - Begin verifying new hires within 90 calendar days of enrollment [885]
+  - Verify each new hire within 3 business days after the date of hire [885]
+  cost_time: The deadlines in the steps [885]. No cost statement was fetched.
+  official_url: https://www.e-verify.gov/employers/federal-contractors
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Overhaul Part 22 was not read in slices SC or SD, so the deviation numbers and date for the rules at codified
+      FAR 22.1803 and 52.222-54 are not recorded [886]; the model text for Part 22 was among those updated March
+      16, 2026 [804]
+  as_of: '2026-10-03'
+  sources:
+  - 804
+  - 810
+  - 885
+  - 886
+  - 887
+  conflicts:
+  - FAR 22.1803 reads $150,000 [886] while other thresholds moved on October 1, 2025 [810]; the sweep asks to confirm
+    this is current and not a missed update
+- id: service-contract-act
+  name: Service Contract Labor Standards (Service Contract Act)
+  governing_text:
+  - FAR Subpart 22.10; clause 52.222-41 [888]
+  what: 'FAR Subpart 22.10 applies Service Contract Labor Standards to contracts "the principal purpose of which
+    is to furnish services in the United States through the use of service employees" [888]. It applies to service
+    contracts over $2,500, with wage determinations from the Department of Labor [888].
+
+    '
+  applies_when: Service contracts over $2,500 [888]. The 2025 inflation adjustment did not change the Service Contract
+    Labor Standards threshold [810]. The micro-purchase threshold is $2,500 for services subject to Service Contract
+    Labor Standards [791].
+  steps:
+  - Follow the Department of Labor wage determination that applies under clause 52.222-41 [888]
+  cost_time: None stated in the pages read.
+  official_url: https://www.acquisition.gov/far/subpart-22.10
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Overhaul Part 22 was not read in slices SC or SD, so the deviation numbers and date for codified FAR Subpart
+      22.10 are not recorded [888]; the model text for Part 22 was among those updated March 16, 2026 [804]
+  as_of: '2026-10-03'
+  sources:
+  - 791
+  - 804
+  - 810
+  - 888
+  conflicts: []
+- id: davis-bacon
+  name: Construction Wage Rate Requirements (Davis-Bacon)
+  governing_text:
+  - FAR 22.403-1; clause 52.222-6; 40 U.S.C. chapter 31, subchapter IV [889]
+  what: 'The Construction Wage Rate Requirements statute covers "contracts in excess of $2,000 to which the United
+    States or the District of Columbia is a party for construction, alteration, or repair" [889]. Prevailing wages
+    are set by the Secretary of Labor [889].
+
+    '
+  applies_when: Construction contracts in excess of $2,000 [889]. The 2025 inflation adjustment did not change the
+    Construction Wage Rate Requirements threshold [810]. The micro-purchase threshold is $2,000 for construction
+    subject to wage rate requirements [791].
+  steps:
+  - Pay the prevailing wages set by the Secretary of Labor, under clause 52.222-6 [889]
+  cost_time: None stated in the pages read.
+  official_url: https://www.acquisition.gov/far/22.403-1
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Overhaul Part 22 was not read in slices SC or SD, so the deviation numbers and date for codified FAR 22.403-1
+      are not recorded [889]; the model text for Part 22 was among those updated March 16, 2026 [804]
+  as_of: '2026-10-03'
+  sources:
+  - 791
+  - 804
+  - 810
+  - 889
+  conflicts: []
+- id: buy-american-taa
+  name: Buy American and the Trade Agreements Act
+  governing_text:
+  - FAR Subpart 25.1 [890]
+  - FAR 25.402 [891]
+  what: 'Under FAR Subpart 25.1 a domestic end product "must be manufactured in the United States" and meet a domestic-content
+    share: over 60% through 2023, 65% for 2024–2028 and 75% starting 2029 [890]. Above the trade agreements thresholds,
+    eligible products from designated countries are treated like domestic ones [891].
+
+    '
+  applies_when: 'Trade agreements thresholds (WTO GPA): supplies $174,000; services $174,000; construction $6,683,000;
+    Israeli Trade Act $50,000 for supplies [891]. Buy American exceptions: public interest, nonavailability, unreasonable
+    cost, commissary resale, commercial information technology; the Buy American applicability threshold was not
+    fetched [890]. On the GSA Multiple Award Schedule, all proposed products and services must comply with the Trade
+    Agreements Act [705].'
+  steps:
+  - Represent Buy American and trade agreements status; 52.212-3 covers both for commercial buys [852]
+  - Check the product against the domestic-content test, including the iron and steel rule (foreign iron and steel
+    under 5%) [890]
+  cost_time: 'Price evaluation factor: 20% (large business low domestic offer), 30% (small business) [890].'
+  official_url: https://www.acquisition.gov/far/subpart-25.1
+  pending_changes:
+  - status: final
+    date: '2026-03-13'
+    text: FAR Case 2025-007, Trade Agreements Thresholds, final rule, effective March 13, 2026 [804]; the thresholds
+      above are from the codified page at FAC 2026-01 [891]
+  - status: class-deviation
+    date: '2026-03-16'
+    text: The overhaul model deviation text for Parts 1, 5, 10, 22, 25 and 52 was updated March 16, 2026 for the
+      trade agreements thresholds rule; overhaul Part 25 itself was not read, so its numbering is not recorded [804]
+  as_of: '2026-10-03'
+  sources:
+  - 705
+  - 804
+  - 852
+  - 890
+  - 891
+  conflicts: []
+- id: trafficking-compliance-plan
+  name: 'Combating trafficking in persons: compliance plan'
+  governing_text:
+  - FAR 52.222-50 [892]
+  what: 'Under FAR 52.222-50 the trafficking prohibitions apply to every contract, while a written compliance plan
+    and annual certification apply only to overseas work above a threshold [892].
+
+    '
+  applies_when: The compliance plan applies to the portion of a contract for non-COTS supplies acquired outside
+    the U.S., or services performed outside the U.S., with an estimated value exceeding $700,000 [892].
+  steps:
+  - 'Compliance plan contents: awareness program, reporting mechanism, recruitment and wage plan, housing plan,
+    subcontractor monitoring [892]'
+  cost_time: None stated in the pages read.
+  official_url: https://www.acquisition.gov/far/52.222-50
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Overhaul Parts 22 and 52 were not read in slices SC or SD, so the deviation number and date for the clause
+      at codified FAR 52.222-50 are not recorded [892]; the model text for Parts 22 and 52 was among those updated
+      March 16, 2026 [804]
+  as_of: '2026-10-03'
+  sources:
+  - 804
+  - 892
+  conflicts:
+  - The $700,000 figure is as shown on the clause page on 2026-10-03; the clause date was not returned and the prior
+    figure was not fetched [892]
+- id: tax-and-exclusion-checks
+  name: Responsibility, tax and exclusion checks
+  governing_text:
+  - FAR 9.104-1 [894]
+  - FAR 9.104-5 [895]
+  - FAR Subpart 9.4 [893]
+  - FAR 52.209-5 (Aug 2020) [896]
+  - FAR 52.209-11 (Feb 2016) [897]
+  what: 'Before award the contracting officer must find the firm responsible against seven standards: financial
+    resources; schedule; performance record; integrity and business ethics; organisation, experience, accounting
+    and operational controls; equipment and facilities; otherwise qualified and eligible [894]. Exclusion records
+    in SAM are checked after bids open or proposals arrive and again immediately before award [893]. The firm certifies
+    whether it is "presently debarred, suspended, proposed for debarment, or declared ineligible" [896], and the
+    disclosure threshold for tax is "Federal tax delinquency in an amount that exceeds $15,000." [895]
+
+    '
+  applies_when: Before award to any firm [894]. Subcontracts exceeding $45,000 with excluded parties need a compelling
+    reason and written notice to the contracting officer [893]. When a corporation discloses tax delinquency or
+    a felony conviction, award is blocked until a suspending and debarring official decides [895].
+  steps:
+  - 'Keep the responsibility certification true: it covers convictions or civil judgments within a three-year period
+    for fraud, antitrust, embezzlement, theft, forgery, bribery, false statements, tax evasion [896]'
+  - Corporations represent whether they have unpaid assessed federal tax or were "convicted of a felony criminal
+    violation under a Federal law within the preceding 24 months" [897]
+  - 'Primes: check subcontractors against SAM exclusions before subcontracting above $45,000 [893]'
+  - Registrations, exclusions and responsibility/qualification data (formerly FAPIIS.gov) sit together in SAM.gov
+    [841]
+  cost_time: 'Delinquent tax threshold: exceeds $15,000 [895]. "Generally, debarment should not exceed 3 years"
+    [893].'
+  official_url: https://sam.gov/content/entity-information
+  pending_changes:
+  - status: class-deviation
+    date: '2025-08-21'
+    text: Overhaul Part 9 was issued August 21, 2025 and updated April 20, 2026; it was not read, so the deviation
+      numbers for the rules at codified FAR 9.104-1, 9.104-5 and Subpart 9.4 are not recorded [798]
+  as_of: '2026-10-03'
+  sources:
+  - 798
+  - 841
+  - 893
+  - 894
+  - 895
+  - 896
+  - 897
+  conflicts: []
+- id: past-performance-cpars
+  name: Past performance and CPARS
+  governing_text:
+  - FAR 42.1502 [837]
+  - FAR 42.1503 [838]
+  - FAR Subpart 15.3 [830]
+  what: 'Past performance evaluations are prepared at least annually and at the time the work is completed, and
+    are entered into CPARS, the Governmentwide evaluation reporting tool [837]. The factors are technical (quality),
+    cost control, schedule/timeliness, management or business relations, small business subcontracting and other,
+    rated Exceptional, Very Good, Satisfactory, Marginal or Unsatisfactory [838]. In source selection a firm with
+    no record "may not be evaluated favorably or unfavorably on past performance" [830].
+
+    '
+  applies_when: Evaluations are required for contracts and orders exceeding the simplified acquisition threshold,
+    construction of $900,000 or more and architect-engineer contracts of $45,000 or more [837]. The simplified acquisition
+    threshold has been $350,000 since October 1, 2025 [810]. Past performance is evaluated in competitive acquisitions
+    expected to exceed the simplified acquisition threshold unless the contracting officer documents why not [830].
+  steps:
+  - 'CPARS roles named on the site: Focal Point, Assessing Official, Contractor Representative [839]'
+  - Comment, rebut or add information within 14 calendar days of notification that the evaluation is available [838]
+  - Evaluations become visible to source selection officials 14 days after notice whether or not the contractor
+    has commented [838]
+  cost_time: 14 calendar days to comment; past performance information is used within three years of completion,
+    six years for construction and architect-engineer contracts [838].
+  official_url: https://www.cpars.gov/
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-30'
+    text: Overhaul Part 15 (model deviation text issued September 30, 2025) renumbers the source-selection text
+      [807]; overhaul Part 42 was not read, so the deviation numbers for the rules at codified FAR 42.1502 and 42.1503
+      are not recorded [798]
+  as_of: '2026-10-03'
+  sources:
+  - 798
+  - 807
+  - 810
+  - 830
+  - 837
+  - 838
+  - 839
+  conflicts:
+  - The CPARS site returned only header metadata; its body and the guidance PDF did not render [839]
+- id: payment-systems
+  name: 'Payment systems: electronic invoicing (WAWF, IPP) and EFT details'
+  governing_text:
+  - DFARS 252.232-7003 (DEC 2018) [903]
+  - FAR 52.232-25 (Jan 2017) [898]
+  - FAR 52.204-7 (Nov 2024) [842]
+  what: 'DoD contractors must "submit payment requests and receiving reports in electronic form using Wide Area
+    WorkFlow (WAWF)" [903]. Treasury''s Invoice Processing Platform is the electronic invoicing system used by civilian
+    agencies, provided "at no cost to federal agencies and their vendors" [902]. A proper invoice includes TIN and
+    EFT details where required [898], and the EFT indicator is part of the mandatory SAM registration information
+    [842].
+
+    '
+  applies_when: DoD contracts carrying 252.232-7003, with exceptions for written approval of another method, purchase
+    card payments, and certain transportation and TRICARE systems [903]. IPP serves civilian agencies; which agencies
+    are enrolled was not checked [902].
+  steps:
+  - 'DoD: submit through WAWF by EDI, secure file transfer or direct web entry; information at https://wawf.eb.mil/
+    [903]'
+  - 'Civilian agencies on IPP: vendors can submit invoices, check status and see payment and offset details; enrolment
+    details are at ipp.gov [902]'
+  - 'Put on each invoice: name and address, invoice date and number, contract number, description and price, payment
+    address, and TIN and EFT details where required [898]'
+  cost_time: IPP is provided at no cost to vendors [902].
+  official_url: https://wawf.eb.mil/
+  related_urls:
+  - https://www.fiscal.treasury.gov/ipp/
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: Overhaul Parts 32 and 52 were not read in slices SC or SD, so deviation numbers for the codified FAR 52.232
+      clauses and for DFARS 252.232-7003 are not recorded; DoD's class deviations cover FAR Parts 1–52, each with
+      a matching DFARS part, and are dated December 2025 to March 2026 [809]
+  as_of: '2026-10-03'
+  sources:
+  - 809
+  - 842
+  - 898
+  - 902
+  - 903
+  conflicts:
+  - 'Assembly note: this gate is not among sweep D''s draft gate records; it was assembled from the sweep''s payment
+    findings because the brief lists payment systems, and the PIEE site itself was not readable [903]'

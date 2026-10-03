@@ -1,4 +1,4 @@
-# todo.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR sweeps (slices A–D). Every entry carries recheck: true until quotes are verified against live pages.
+# todo.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
 - id: t-A001
   kind: gap
   about: references/PL119-83
@@ -1344,4 +1344,1039 @@
   kind: conflict
   about: programs/dow-art
   text: Program id drafted in both slices; merge.
+  owner: builder
+- id: t-SA001
+  kind: conflict
+  about: brief/8a
+  text: 'Correction to the brief: the 8(a) social-disadvantage rule is no longer proposed. Final rule 91 FR 51568
+    was published August 11, 2026 and took effect September 10, 2026; eCFR 124.103 already carries the new text
+    [537] [535]. The June 11, 2026 proposed rule is superseded [536]. Records state the final rule; the requirements
+    doc''s field sketch still says "proposed rule June 11, 2026".'
+  owner: author
+- id: t-SA002
+  kind: conflict
+  about: brief/sdvosb-goal
+  text: 'Correction to the brief: the SDVOSB government-wide goal is 5%, not 3%, in the statute as shown on LII,
+    on SBA''s goaling page and in CRS, which reports P.L. 118-31 raised it from 3% to 5% [597] [598] [601]. The
+    statute was read on a mirror; re-verify at an official host.'
+  owner: author
+- id: t-SA003
+  kind: conflict
+  about: certifications/8a-business-development, certifications/hubzone, certifications/wosb-edwosb, routes/8a-sole-source-and-competition,
+    routes/hubzone-sole-source-and-price-preference, routes/wosb-edwosb-sole-source
+  text: '13 CFR vs FAR sole-source ceilings: 13 CFR 124.506, 126.612 and 127.503 print $7,000,000 / $4,500,000 [554]
+    [570] [578] while the codified FAR (FAC 2026-01) prints $8.5 million / $5.5 million, and $5 million for SDVOSB
+    non-manufacturing [561] [572] [580] [591]. 13 CFR 124.506 likewise prints $25,000,000 where FAR 19.808-1 prints
+    $30 million [562]. The sweep treats the FAR figures as the ones contracting officers apply and the 13 CFR text
+    as un-updated, but found no SBA conforming rule. Records give both; decide how the app words it. CRS''s table
+    matches the FAR [602].'
+  owner: author
+- id: t-SA004
+  kind: conflict
+  about: certifications/8a-business-development, routes/8a-sole-source-and-competition
+  text: 'Entities allowed 8(a) sole source above the competitive threshold: FAR 19.805-1 names Indian tribes and
+    ANCs [561]; 13 CFR 124.506 as read also names NHO-owned concerns [554]. Net-worth wording also differs: "$850
+    thousand or less" on SBA''s page [533] vs "less than $850,000" in 13 CFR 124.104 as read from the whole-part
+    fetch [534]. Read both sections directly.'
+  owner: builder
+- id: t-SA005
+  kind: unverified
+  about: brief/8a
+  text: '"February 2025 halt" of 8(a): no primary source found. February 2025 yields only the Day One memo of 2025-02-24
+    returning the SDB goal to 5% [540]; the only application pause found is the 2023 one after Ultima [538] [539].
+    Not stated in any record.'
+  owner: author
+- id: t-SA006
+  kind: unverified
+  about: brief/8a
+  text: '"1,700+ suspensions": not found in any SBA release. Verified figures are 1,091 suspended (2026-01-28) [544],
+    154 D.C. firms (2026-02-11) [545], 628 in termination (2026-03-04) and about 800 termination proceedings in
+    total [546].'
+  owner: author
+- id: t-SA007
+  kind: conflict
+  about: certifications/8a-business-development
+  text: 'Data-call deadline: the December 5, 2025 release says January 5, 2026 [542]; the January 28, 2026 release
+    says January 19 [544]. No extension notice was found. Admissions counts also differ: 2,100+ [543] [547] vs 2,200+
+    over the prior four years [544].'
+  owner: builder
+- id: t-SA008
+  kind: gap
+  about: certifications/8a-business-development
+  text: 'Whether new 8(a) applications are being accepted and decided today is not established: the September 10,
+    2026 release covers returned pending applications only [548]. Not read: the three 8(a) FAQ PDFs on certifications.sba.gov
+    [549] and the January 22, 2026 policy guidance PDF [543]. The FAQ contents are known only through a law-firm
+    blog [551], which carries no fact alone.'
+  owner: builder
+- id: t-SA009
+  kind: unverified
+  about: certifications/8a-business-development
+  text: 'Law-firm details left out of the record until verified: the ten prioritized NAICS codes by number [552]
+    (the SBA release names them by industry [548]); 30 days to respond to proposed termination and 45 days to appeal
+    a suspension [553], not verified in 13 CFR. The sweep''s draft record also named mentor-protégé and joint ventures
+    as 8(a) benefits citing SBA''s page; that is not among the page''s extracted key facts and was left out [533].'
+  owner: builder
+- id: t-SA010
+  kind: unverified
+  about: certifications/8a-business-development
+  text: Ultima Servs. Corp. v. U.S. Dep't of Agric. was read only as recited in the Federal Register and SBA's 2023
+    release, not from the opinion [537] [538].
+  owner: builder
+- id: t-SA011
+  kind: gap
+  about: certifications/size-standards
+  text: Outcome of the August 22, 2025 monetary size standards proposal (RIN 3245-AI12) not found (finalized, withdrawn
+    or superseded) [510]; the August 2026 proposal does not mention it [511].
+  owner: builder
+- id: t-SA012
+  kind: gap
+  about: certifications/size-standards
+  text: Individual NAICS values in 13 CFR 121.201 were not read (eCFR returned 503; only NAICS 236220 at $45.0 million
+    was seen on LII) [507]; read values from the SBA table file [502]. SBA's "Basic requirements" page still says
+    "$7.5 million" [532]; do not quote it.
+  owner: builder
+- id: t-SA013
+  kind: unverified
+  about: certifications/size-standards
+  text: 'Scale of the August 2026 size-standards proposal: the example jumps (computer programming services $34
+    million to $531 million; R&D in physical sciences 1,000 to 2,800 employees), "995 to 338", "208 of 338 employee-based"
+    and "37,002 firms" come from a law firm and were not verified in the Federal Register text [512] [511]. Counts
+    of current standards differ across sources (nearly 1,000; 995; 102 levels covering 978 industries and 18 subindustries
+    [510]).'
+  owner: builder
+- id: t-SA014
+  kind: conflict
+  about: certifications/hubzone
+  text: 'HUBZone decision time: 60 calendar days in 13 CFR 126.306 [567]; one fetch of SBA''s page returned "within
+    90 calendar days", a second (legacy copy) did not [564]. Check the live page.'
+  owner: builder
+- id: t-SA015
+  kind: unverified
+  about: certifications/hubzone
+  text: 'HUBZone map: Redesignated Areas were due to expire July 1, 2026 [573] and SBA''s page says the next update
+    comes "at some point in 2026" [564]; whether the map has been updated was not confirmed.'
+  owner: builder
+- id: t-SA016
+  kind: gap
+  about: certifications/hubzone, certifications/vosb-sdvosb-vetcert, certifications/wosb-edwosb
+  text: 'Not read in either sweep: the codified FAR section on HUBZone set-asides (so no HUBZone set-aside test
+    is recorded); any SDVOSB sole-source dollar figure in 13 CFR part 128 (so no FAR-versus-13 CFR comparison for
+    SDVOSB) [586]; fee amounts charged by the four WOSB third-party certifiers [574].'
+  owner: builder
+- id: t-SA017
+  kind: conflict
+  about: certifications/wosb-edwosb
+  text: 'WOSB eligible-industry count: 733 on the list page (effective 2022-10-01) [581] versus 759 in the March
+    2022 release [582].'
+  owner: builder
+- id: t-SA018
+  kind: gap
+  about: gates/sam-registration
+  text: No SAM.gov page stating the notarized-letter rule could be fetched (fsd.gov knowledge articles are blocked
+    by robots.txt). The Federal Register notice is the best primary source found [529].
+  owner: builder
+- id: t-SA019
+  kind: unverified
+  about: gates/sam-registration
+  text: 'Finalization of the SAM two-point registration rule: reported for November 2025, but the article returned
+    403. The gate records the interim rule of 2024-11-12 with status final, meaning in force, because the schema
+    has no interim status [527]. Timing wording also differs: "up to 10 business days" [523] vs "at least ten business
+    days" [524].'
+  owner: builder
+- id: t-SA020
+  kind: gap
+  about: references
+  text: eCFR shows Title 13 "last amended 9/29/2026"; the amending document was not identified (Federal Register
+    search and eCFR recent-changes pages are blocked by robots.txt) [534].
+  owner: builder
+- id: t-SA021
+  kind: unverified
+  about: brief/rule-of-two
+  text: 'Rule of Two "four-year sunset" above the simplified acquisition threshold: not seen in slice A. FAR 19.502-2
+    on acquisition.gov (FAC 2026-01) still states the rule [607]. See the slice B item on FAR 1.109.'
+  owner: author
+- id: t-SA022
+  kind: gap
+  about: certifications/sdb-self-representation
+  text: SBA's former SDB web page now redirects to the general contracting-assistance page; no current SBA plain-language
+    SDB page was found, so official_url is the eCFR section [595]. No SBA guidance was found on how the new 124.103
+    test bears on SDB self-representation [537].
+  owner: builder
+- id: t-SA023
+  kind: conflict
+  about: certifications/sdb-self-representation
+  text: 'Authority for the SDB goal reset to 5%: CRS and trade press tie it to E.O. 14151 of January 20, 2025 [600]
+    [603]; the order''s text does not name SDB goals [599], and no SBA document read cites it as the authority.
+    The primary statement is SBA''s February 24, 2025 memo [540]; the January 24, 2025 date rests on secondary sources.'
+  owner: author
+- id: t-SA024
+  kind: unverified
+  about: sections/being-small
+  text: 'Scorecard figures: FY2025 WOSB and HUBZone percentages come from CRS only [601]; SBA''s interactive scorecard
+    did not render [606]. FY2024 figures are the January 2025 preliminary release, not the final scorecard [604];
+    that release gives SDB 12.26% for FY2024 while the FY2025 release gives 12.27% for FY24 [605].'
+  owner: builder
+- id: t-SA025
+  kind: gap
+  about: certifications/vosb-sdvosb-vetcert
+  text: 'VetCert: no regulatory processing deadline found; the 12-day average is from a November 2025 press release
+    [594]. The VOSB/SDVOSB protest filing deadline sits in 13 CFR part 134, which was not read for it [588]; the
+    record takes the fifth-business-day deadline from FAR 19.307 [686].'
+  owner: builder
+- id: t-SA026
+  kind: conflict
+  about: certifications/vosb-sdvosb-vetcert, routes/sdvosb-sole-source-and-va-veterans-first
+  text: 'VAAR Subpart 819.70: the acquisition.gov copy shows "VIP-listed" wording [657]; va.gov shows "SBA certification
+    database" [592]. The sweep says cite va.gov. The VA OSDBU page returned 404 in slice B and a partial read in
+    slice A [593]; whether VA applies an RFO deviation to Part 819 is unverified.'
+  owner: builder
+- id: t-SA027
+  kind: gap
+  about: references
+  text: 'Not fetched in slice A (no reference entry): congress.gov CRS products (robots.txt; CRS items were read
+    on the everycrsreport.com mirror), uscode.house.gov (maintenance), the buy.gsa.gov Interact post (empty render),
+    the gsa.gov UEI page (404).'
+  owner: builder
+- id: t-SA028
+  kind: recheck
+  about: references
+  text: 'CFR and U.S. Code sections read on the Cornell LII mirror should be re-read on eCFR or an official host
+    before citation: [506] [507] [508] [519] [521] [522] [557] [558] [559] [560] [567] [568] [569] [571] [576] [578]
+    [579] [587] [588] [597].'
+  owner: builder
+- id: t-SA029
+  kind: recheck
+  about: references
+  text: 'Every fact in slice A comes from a page fetched on 2026-10-03 with WebSearch/WebFetch, which returns text
+    extracted by a small model; quotes are as the tool returned them. Spot-check each quote against the live page
+    before publishing (recheck: true on every entry).'
+  owner: builder
+- id: t-SB001
+  kind: conflict
+  about: routes/total-small-business-set-aside
+  text: 'FAR 1.109 sunset wording dispute. Three texts differ: E.O. 14275 section 6 (retained non-statutory provisions
+    expire 4 years after the final rule''s effective date unless renewed) [609]; model deviation FAR 1.109, in use
+    by class deviation (non-statutory sections "must expire 4 years after the effective date of the sections, unless
+    renewed") [615]; and the proposed rule of June 23, 2026, whose preamble says sections "do not expire until removed
+    from the Code of Federal Regulations through rulemaking" [626]. Two law firms read the proposed rule as dropping
+    automatic expiry [635] [634]; one reads it as keeping a four-year sunset [636]. The amendatory text of proposed
+    1.109 was not reached through three routes; read it directly before the record is final.'
+  owner: author
+- id: t-SB002
+  kind: conflict
+  about: routes/gao-bid-protest, routes/order-set-aside-multiple-award
+  text: 'GAO task-order protest threshold for DoD: codified FAR 16.505(a)(10) still shows $25 million [644]; GAO
+    B-423717 says section 885 of the FY2025 NDAA raised it to $35 million [692]. No DFARS or RFO text carrying $35
+    million was found (RFO 16.508 was cut off; DFARS 216.505 showed none) [620] [672]; the statute, 10 U.S.C. 3406(f),
+    was not fetched. Records give both figures.'
+  owner: builder
+- id: t-SB003
+  kind: gap
+  about: routes/total-small-business-set-aside
+  text: 'Which small-business provisions are non-statutory: no primary source read lists them. 15 U.S.C. 644(r)
+    was not reached in the statute extract [597], and CRS IF13046 is blocked by robots.txt (reference entry is read:
+    not-fetched, verified: false) [698]. The claim that the Rule of Two above the simplified acquisition threshold
+    is non-statutory rests on a law firm [636] and a CRS sentence read in slice A [602].'
+  owner: builder
+- id: t-SB004
+  kind: gap
+  about: routes/commercial-product-or-service-buy
+  text: 'Proposed FAR 7.201(f) tiers: only the preamble summary was read; the numbered order of solutions was not
+    visible [627].'
+  owner: builder
+- id: t-SB005
+  kind: gap
+  about: routes/total-small-business-set-aside
+  text: 'Remaining FAR-overhaul proposed rules: case numbers and timing for the four unpublished rules, including
+    Part 19, are unverified. The DoD "Open FAR Cases" PDF failed twice on robots.txt (reference entry is read: not-fetched,
+    verified: false) [697]. Trade press lists Part 19 among parts to follow, with no date [639].'
+  owner: builder
+- id: t-SB006
+  kind: recheck
+  about: references
+  text: 'Federal Register volume for the September 18, 2026 rules: the extract gave page 59406 and a volume of 90;
+    the June 23, 2026 rule is 91 FR 37550, so 91 is expected. Confirm the citation [628] [629]. The inflation-adjustment
+    final rule''s publication date is 2025-08-27, though one extract gave 2025-08-26 [640].'
+  owner: builder
+- id: t-SB007
+  kind: unverified
+  about: routes/gao-bid-protest
+  text: 'GAO process changes 2025–26: 4 CFR part 21 as of 2026-09-28 showed no amendment in a partial extract [690];
+    whether GAO adopted its proposed pleading standard is unverified [692]. FY2026 NDAA section 875 rests on a law-firm
+    newsletter; the public law text and enactment date were not fetched [694]. The record carries section 875 as
+    a pointer only.'
+  owner: builder
+- id: t-SB008
+  kind: gap
+  about: routes/order-set-aside-multiple-award
+  text: 'GAO decisions: gao.gov rate-limited the fetch proxy (HTTP 429) on B-410187.2 (Edmond Scientific), with
+    an instruction not to retry (reference entry is read: not-fetched, verified: false) [696]. No bid-protest decision
+    on the Rule of Two was read; the GAO FAQ page returned headings only.'
+  owner: builder
+- id: t-SB009
+  kind: gap
+  about: routes (FAR-overhaul numbering)
+  text: 'RFO Part 19 details not reached (long page, partial extracts) [614]: the general (non-8(a)) limitations-on-subcontracting
+    section; the HUBZone preference percentage (19.207); the size and status protest sections and deadlines; the
+    $30 million 8(a) justification line; and two 8(a) changes reported by a law firm (competitive first; automatic
+    release of follow-ons) [637]. The extract of RFO 19.108-8 gave performance-of-work percentages ("at least 50
+    percent of the cost incurred for personnel") that differ in form from 52.219-14 [646]; check which is current.'
+  owner: builder
+- id: t-SB010
+  kind: gap
+  about: routes/order-set-aside-multiple-award
+  text: RFO 16.507-6 (fair-opportunity exceptions) and 16.508 (order protests) were cut off in the model deviation
+    extract [620].
+  owner: builder
+- id: t-SB011
+  kind: conflict
+  about: sweep-B draft record DoD Mentor-Protégé Program (not placed)
+  text: 'DoD class deviation memo: the acq.osd.mil copy failed on robots.txt and the acquisition.gov copy was read
+    [625]. The extract''s line "Program expires December 31, 2027" under Mentor-Protégé conflicts with the statute
+    extract, which says the sunset was removed [674]; the same date is the expiry of the subcontracting test program
+    in DFARS 219.702-70 [671]. Unresolved. The memo''s date (2026-01-21) is taken from DoD''s index [624].'
+  owner: builder
+- id: t-SB012
+  kind: recheck
+  about: sweep-B draft record DoD Mentor-Protégé Program (not placed)
+  text: 'DFARS Appendix I participation term: the extract read "does not exceed 23 years", which looks like a rendering
+    artefact; 10 U.S.C. 4902 says three years [673] [674]. "Costs through September 30, 2026" for pre-December 23,
+    2022 agreements also needs a direct read.'
+  owner: builder
+- id: t-SB013
+  kind: unverified
+  about: sections/how-the-government-buys
+  text: 'DoD Small Business Strategy: January 2023 is the latest found; no 2025–26 successor could be confirmed
+    or ruled out (business.defense.gov was off limits; defense.gov and afrl.af.mil returned 403). Some detail in
+    the strategy extract looked unreliable and was left out [676]. DoD small-business outreach events are not covered:
+    no official page could be read.'
+  owner: builder
+- id: t-SB014
+  kind: unverified
+  about: routes/sdvosb-sole-source-and-va-veterans-first
+  text: 'VA Veterans First: VAAR 819.70 as read on acquisition.gov still cites VA''s Vendor Information Pages and
+    a $5 million sole-source cap [657]. Current certification route and whether VA applies an RFO deviation to Part
+    819 are unverified in slice B; slice A''s va.gov copy names the SBA certification database [592].'
+  owner: builder
+- id: t-SB015
+  kind: conflict
+  about: routes/total-small-business-set-aside, routes/simplified-acquisition-and-micro-purchase
+  text: 'Stale SBA figures: SBA''s "Types of contracts" page (updated August 5, 2025) says set-asides are automatic
+    "under $150,000"; the simplified acquisition threshold is $350,000 [608] [640]. SBA''s "Basic requirements"
+    page gives generic size figures (500 employees; $7.5 million) [532]. Do not quote either figure.'
+  owner: builder
+- id: t-SB016
+  kind: gap
+  about: sections/how-the-government-buys
+  text: 'Scorecard detail: FY2025 WOSB and HUBZone percentages and the subcontracting achievement were not in the
+    release extract [605]; the detail tool returned placeholders [606].'
+  owner: builder
+- id: t-SB017
+  kind: gap
+  about: routes/simplified-acquisition-and-micro-purchase
+  text: 'Purchase-card statistics: no count of cardholders or annual spend was found; the SmartPay "About" page
+    had none [670]. GSA''s "purchase card holders" MAS page returned 404 at three URLs, and the gsa.gov GSA Advantage
+    page returned 404 (the Vendor Support Center page was used) [669].'
+  owner: builder
+- id: t-SB018
+  kind: gap
+  about: references
+  text: 'Regulations.gov dockets FAR-2026-0003-0001 and FAR-2026-0010-0001 returned page scaffolding only; comment
+    counts not read (reference entry for FAR-2026-0003 is read: not-fetched, verified: false) [699].'
+  owner: builder
+- id: t-SB019
+  kind: recheck
+  about: references
+  text: 'Statute hosts: 15 U.S.C. 644, 10 U.S.C. 4902 and 10 U.S.C. 144 were read at Cornell LII because uscode.house.gov
+    was in maintenance; slice B labels them source_kind: secondary for the host [597] [674] [675]. Re-verify at
+    an official host.'
+  owner: builder
+- id: t-SB020
+  kind: gap
+  about: routes, gates
+  text: 'Not fetched (no reference entry): 13 CFR 121.406 (nonmanufacturer rule), FAR 4.11 (SAM), FAR 52.219-8,
+    FAR 19.705-7 and 52.219-16 (liquidated damages), FAR 19.502-3 (partial set-asides other than multiple-award),
+    15 U.S.C. 644(r), 10 U.S.C. 3406(f). Records name them in governing_text only where the sweep does.'
+  owner: builder
+- id: t-SB021
+  kind: unverified
+  about: routes/order-set-aside-multiple-award
+  text: 'SBA proposed rule on orders (2024): no withdrawal or final rule was found, but the Unified Agenda was not
+    checked [695].'
+  owner: builder
+- id: t-SB022
+  kind: conflict
+  about: routes/subcontracting-under-prime-plan
+  text: 'Subcontract reporting system: eSRS in the codified clause 52.219-9 [660] vs "Subcontracting Plan Reporting
+    (SPR)" at SAM.gov in the RFO Part 19 text [614]. Liquidated damages are cited to FAR 19.702 only; clause 52.219-16
+    was not fetched [658].'
+  owner: builder
+- id: t-SB023
+  kind: gap
+  about: references
+  text: The law-firm class-deviation tracker is stale for phase two (last updated 2026-04-17) and is not used for
+    any fact [638]. The RFO deviation guide extract returned Parts 1–15 only [612].
+  owner: builder
+- id: t-SB024
+  kind: gap
+  about: schema/standing-rule
+  text: 'Standing rule (codified FAR primary; overhaul numbering in pending_changes as class-deviation with its
+    date): applied wherever the sweeps give an RFO section. The class-deviation date used is the model deviation
+    text''s issue date (Part 19: 2025-09-26; Part 13: 2025-09-18; Part 12: 2025-08-14; Part 16: 2025-09-30; Part
+    1: 2025-05-02), with GSA''s and DoD''s adoption dates in the text. No deviation numbering could be recorded
+    for gates/sam-registration (Part 4), routes/agency-level-protest and routes/gao-bid-protest (Part 33), because
+    no RFO model text for those parts was read; and the entries for size-protest, status-protest, the HUBZone price
+    preference and limitations-on-subcontracting say the RFO section was not confirmed [614].'
+  owner: author
+- id: t-SB025
+  kind: gap
+  about: schema/unplaced-records
+  text: 'Sweep B draft records not written as routes, because they are not ways a firm gets a contract in the setaside-vehicle
+    family: "Which text governs FAR Part 19 today" (used in pending_changes and sections-notes), "Procurement Center
+    Representative review" (a help.yaml record; facts used in the total set-aside route) [653] [655], "DoD Mentor-Protégé
+    Program" [674] [673] and "Indian Incentive Program" [678] [679] (partnering family), and "Size representation
+    and NAICS assignment" (folded into gates/size-status-representation and certifications/size-standards). "Getting
+    found for small buys" is folded into the simplified-acquisition route. "Limitations on subcontracting" and "Nonmanufacturer
+    rule" were written as gates although the brief asked only for slice A gates. Sweep A''s "HUBZone price evaluation
+    preference" and "Size and status protests" mechanisms are folded into the routes.'
+  owner: author
+- id: t-SB026
+  kind: gap
+  about: schema
+  text: 'Schema fit: (1) gate id sam-registration is also used by the SBIR slices'' gates.yaml; the two records
+    need merging. (2) situations uses the tags the SBIR slices derived from the requirements doc (not-registered,
+    registered-no-award, first-awards, have-technology, looking-for-partners); only have-technology is in the schema.
+    (3) The protest records carry family: setaside-vehicle as instructed, though they are remedies. (4) certifications.yaml
+    uses the brief''s field list (eligibility, benefits, cost_and_time, recertification), wider than the schema''s
+    one-line field style; routes and gates carry a conflicts key. (5) who_for in routes is uncited prose. (6) The
+    interim SAM rule is given status final because the status list has no interim value.'
+  owner: author
+- id: t-SB027
+  kind: gap
+  about: references
+  text: 'Tier decisions under the schema rule: codified FAR/DFARS/VAAR, CFR and U.S. Code text and Federal Register
+    final, interim and direct final rules are seminal; proposed rules, notices, executive orders [599] [609], RFO
+    model deviation text and agency class-deviation memos are current; SBA news releases are background even where
+    a release is the only source of a figure [605] [548]; three pre-2024 items are classic [528] [581] [676]. published
+    is reduced to an ISO date (year-month where only that is known) and the sweep''s wording is kept in date_note.'
+  owner: author
+- id: t-SB028
+  kind: recheck
+  about: references
+  text: 'Dedupe was by identical URL only (17 merges). Three pairs point at the same text through different URLs
+    and stay separate: 13 CFR 121.1004 [517] and [682] (the eCFR subject-group id differs between the two URLs,
+    so one may be wrong); the FAR inflation final rule [563] and [640]; VAAR subpart 819.70 on va.gov [592] and
+    acquisition.gov [657]. Two DFARS URLs end in a full stop as the sweep gave them [672] [679]; check they resolve.'
+  owner: builder
+- id: t-SB029
+  kind: conflict
+  about: references
+  text: 'Merged entries where the two slices disagree: SAM Entity Registration was read: partial in slice A (503,
+    then a partial rendering) and full in slice B [523]; the 8(a) final rule was read: partial in A and full in
+    B [537]; the fuller read is recorded. 15 U.S.C. 644 on LII is source_kind primary in A and secondary in B; A''s
+    is recorded [597], while B''s other two LII statutes stay secondary [674] [675]. Decide one convention for mirror-hosted
+    statutes.'
+  owner: builder
+- id: t-SB030
+  kind: recheck
+  about: references
+  text: 'Quotes longer than the schema''s 25-word limit, carried verbatim from the sweeps: [517] (26 words); [520]
+    (26 words); [521] (28 words); [522] (26 words); [535] (27 words); [555] (26 words); [558] (28 words); [595]
+    (27 words). Trim against the live page.'
+  owner: builder
+- id: t-SC001
+  kind: recheck
+  about: references
+  text: 'Method caveat for slice SC: WebSearch and WebFetch only. WebFetch returns a model-made extraction of each
+    page, not raw HTML; where two fetched pages disagree both are recorded. Hit counts in queries.yaml are links
+    returned. Every quote in references 701–784 needs confirming against the live page before publication.'
+  owner: builder
+- id: t-SC002
+  kind: gap
+  about: references
+  text: 'SAM.gov notices are unreadable by the fetch tool (JavaScript shell only). Not verified at source: the MAS
+    solicitation notice [703], the OASIS+ notices [752], the Polaris and Alliant 3 award notices, the DHS FirstSource
+    III and PACTS III cancellations [778], the SeaPort rolling admissions notice [774] and T4NG2.'
+  owner: builder
+- id: t-SC003
+  kind: gap
+  about: references
+  text: 'GSA Interact (buy.gsa.gov) posts are unreadable for the same reason: the Refresh 31 advance notice and
+    the OCAS post. The OCAS pipeline reviews announced through Interact are known only from GSA''s support page
+    [736].'
+  owner: builder
+- id: t-SC004
+  kind: unverified
+  about: programs/nitaac-cio-sp
+  text: NITAAC sunset notice (nitaac.nih.gov/node/176771) failed twice. The sunset dates (October 29, 2026 last
+    new orders; December 31, 2028 all work ends) rest on a secondary report [772]; only the home page banner was
+    read [770]. The record's status field is left empty until the notice is read.
+  owner: builder
+- id: t-SC005
+  kind: conflict
+  about: programs/nitaac-cio-sp
+  text: NITAAC's CIO-SP3 page says the ordering period of performance runs through 10/29/2031 [771]; the reported
+    June 9, 2026 notice says all work ends December 31, 2028 [772]. An earlier trade report had CIO-SP3 extended
+    to April 29, 2027 [773].
+  owner: author
+- id: t-SC006
+  kind: unverified
+  about: programs/nitaac-cio-sp
+  text: 'CIO-SP4 cancellation: no primary page found; trade reports cite a January 30, 2026 Court of Federal Claims
+    filing [773] (the sweep notes MeriTalk, 2026-02-02, reports the same; not a reference). Status field left empty.'
+  owner: builder
+- id: t-SC007
+  kind: unverified
+  about: programs/polaris
+  text: 'Polaris Small Business pool: GSA''s page shows no ordering period and says nothing about the litigation
+    [756]. The September 10, 2026 Court of Federal Claims opinion is sealed and only a one-page judgment order is
+    public; the scope of the bar on new awards (which pools) is unconfirmed and rests on trade press [759]. Award
+    counts by pool and the phased-selection plan are trade press only [758].'
+  owner: builder
+- id: t-SC008
+  kind: gap
+  about: programs/polaris
+  text: 'Polaris and 8(a) STARS III open seasons: no statement either way on GSA''s pages [756] [763]. The newer
+    Small Business GWAC ordering guide (2026-08-19, .docx) linked from the GWAC pages was not fetched; the November
+    2025 edition read still says the Small Business and WOSB pools were not available for ordering [749].'
+  owner: builder
+- id: t-SC009
+  kind: unverified
+  about: programs/alliant-3
+  text: Alliant 3 awardee count (43 from 133 proposals), later award phases toward 76 and the $2,500 minimum guarantee
+    are only in trade press [761]; GSA's page gives no awardee number and does not address on-ramps [760].
+  owner: builder
+- id: t-SC010
+  kind: unverified
+  about: programs/sewp-vi
+  text: 'SEWP VI: the award date (June 23, 2026) and per-category counts are only in trade press [769]; no on-ramp
+    terms were found [768]; whether SEWP moves to GSA under EO 14240 is not stated on any page read [733] [766].'
+  owner: builder
+- id: t-SC011
+  kind: conflict
+  about: programs/sewp-vi
+  text: The Nextgov SEWP V dates conflict with NASA's own page (SEWP V extended through January 31, 2027); NASA's
+    are used [769] vs [766].
+  owner: author
+- id: t-SC012
+  kind: gap
+  about: sections/how-the-government-buys
+  text: 'Which agencies have moved contracting to GSA: no GSA page lists them [735] [737]. OPM, SBA, Education and
+    HUD are named only in trade reporting based on internal GSA emails [739] [740]. Do not name client agencies
+    without a primary source.'
+  owner: builder
+- id: t-SC013
+  kind: gap
+  about: sections/how-the-government-buys
+  text: 'GSA''s own statement of what consolidation means for small firms is limited to three items: OEM primes
+    under OneGov must show subcontracting and partnering with small businesses and resellers "remain essential"
+    [743]; small business credit follows the funding agency [737]; GSA''s small business office ran an OCAS briefing
+    on August 26, 2026 whose content is not on the page [738]. EO 14240 and OMB M-25-31 contain no small-business
+    language in the text fetched [733] [734].'
+  owner: builder
+- id: t-SC014
+  kind: conflict
+  about: programs/gsa-mas
+  text: 'MAS minimum sales citation: GSA''s after-award page cites GSAR 552.238-79 for the $100,000 / $125,000 figures
+    [717], but that clause''s text has no thresholds [732]; the figures are in solicitation clause I-FSS-639 [707].
+    The record cites I-FSS-639.'
+  owner: author
+- id: t-SC015
+  kind: gap
+  about: programs/gsa-mas
+  text: 'GSAR subpart 538.71 text: the acquisition.gov GSAM page shows the subpart as reserved; the operative text
+    is in the class deviation PDF, of which only the cover memo content was extracted [727]. Thresholds and the
+    set-aside wording under 538.71 were not read. FAR 8.405-5 remains the codified text and the primary citation
+    [726].'
+  owner: builder
+- id: t-SC016
+  kind: gap
+  about: programs/gsa-mas
+  text: 'Class-deviation dates missing for MAS pending_changes: the issuance date of the overhaul Part 8 model text
+    (page last updated 2026-09-28) [746], and the date of GSA class deviation "RFO 2025-19" under which GSA''s buyer
+    page cites FAR 19.000(a)(3) and FAR 19.108-7(d) [725]. Slice SB (FAR) may hold both; fill the empty date fields
+    at merge.'
+  owner: builder
+- id: t-SC017
+  kind: conflict
+  about: programs/gsa-mas
+  text: 'GSA pages disagree on where MAS ordering rules sit: the buyer-tips page still cites FAR 8.4 section numbers
+    [729] and the OneGov IT page says FAR 8.4 ordering procedures apply [743]; the ordering page and the class deviation
+    put them in GSAR subpart 538.71 [728] [727].'
+  owner: author
+- id: t-SC018
+  kind: unverified
+  about: programs/gsa-mas
+  text: The sweep's draft record says MAS is open "continuously". No fetched page states that solicitation 47QSMD20R0001
+    has no closing date, and the SAM.gov notice was not readable; the record's status is worded from the roadmap
+    and the refresh list instead [702] [708].
+  owner: builder
+- id: t-SC019
+  kind: gap
+  about: programs/gsa-mas
+  text: MAS evaluation timeline (days to award), the current count of MAS contractors and the small-business share
+    were not found on any page read. The only timing statement is "several weeks to months" on a step page not updated
+    since 2024 [723].
+  owner: builder
+- id: t-SC020
+  kind: gap
+  about: programs/gsa-mas
+  text: The Readiness Assessment page and the Vendor Support Center home (vsc.gsa.gov/vsc) are a JavaScript app
+    and returned no content; the readiness assessment facts come from the roadmap and the offer instructions [702]
+    [705].
+  owner: builder
+- id: t-SC021
+  kind: recheck
+  about: programs/gsa-mas
+  text: 'Pathways to Success: the only copy read is the December 2021 edition, which predates mandatory TDR; its
+    four-question test and its 0.75% fee statement should be confirmed against the current training [719]. Training
+    length is 3–4 hours on the roadmap page [702] and approximately four hours in the superseded June 2025 offer
+    instructions [706].'
+  owner: builder
+- id: t-SC022
+  kind: unverified
+  about: programs/oasis-plus
+  text: OASIS+ qualification thresholds ("36" and "42/45") came from the extractor; per-domain values and the five
+    domains added in December 2025 were not confirmed by name [752]. Award counts (about 4,100) are trade press
+    only [754].
+  owner: builder
+- id: t-SC023
+  kind: gap
+  about: references
+  text: 'APEX Accelerators: apexaccelerators.us (JavaScript), business.defense.gov (403) and napex.us (404) all
+    failed. No primary description, cost or locator was verified; APEX appears only as a pointer on GSA pages [702]
+    [784].'
+  owner: builder
+- id: t-SC024
+  kind: gap
+  about: programs
+  text: 'VA T4NG2: no record built, because no official VA page was read (no va.gov programme page found). The only
+    primary document is the Court of Federal Claims opinion, read from a copy hosted on a trade site; cite the court''s
+    own copy before use [777]. Ceiling not verified (the sweep notes trade press says about $60–61 billion).'
+  owner: builder
+- id: t-SC025
+  kind: gap
+  about: programs
+  text: 'DHS FirstSource III and PACTS III: no record built. Their June 2025 cancellation and the redirection of
+    buyers to OASIS+, MAS, other GSA contracts and NASA SEWP rest on trade press only; no dhs.gov statement was
+    read and no successor vehicle was identified [778].'
+  owner: builder
+- id: t-SC026
+  kind: unverified
+  about: programs/army-ites-3s
+  text: 'Army ITES-4S: no official 2026 status; eis.army.mil could not be reached; the one 2026 source is a vendor
+    blog with inconsistent dates [782]. The record''s status covers ITES-3S only, from a February 2024 Army article
+    [779]. The ITES-3S vendor counts (101; about 47 small) were counted by the extractor and need a recount [780].'
+  owner: builder
+- id: t-SC027
+  kind: gap
+  about: programs
+  text: 'Not covered or not verified in slice SC: DLA vehicles (JETS 2.0; dla.mil returned 403), Air Force vehicles,
+    HCaTS and GSA regional BPAs. No records built.'
+  owner: builder
+- id: t-SC028
+  kind: gap
+  about: programs/astro
+  text: 'ASTRO: ceiling, ordering period, fee and on-ramp are not on the page read [765].'
+  owner: builder
+- id: t-SC029
+  kind: unverified
+  about: programs/stars-iii
+  text: '8(a) STARS III: the higher sole-source thresholds for ANC, Native Hawaiian or tribally owned firms ($30M
+    civilian, $150M defense) are "as extracted" and need a direct read; the ordering guide marks its sole-source
+    section as under review [763] [749].'
+  owner: builder
+- id: t-SC030
+  kind: unverified
+  about: programs/seaport-nxg
+  text: 'SeaPort-NxG: the Rolling Admissions II result (1,023 firms) is trade press only [775]; whether an admission
+    is open now is not stated on the Navy page [774].'
+  owner: builder
+- id: t-SC031
+  kind: gap
+  about: programs
+  text: 'Class-deviation numbering for fair opportunity: Polaris, 8(a) STARS III and VETS 2 cite codified FAR 16.5
+    [756] [763] [764]; overhaul Part 16 was not read in slices SC or SD, so those pending_changes entries carry
+    an empty date and no deviation number.'
+  owner: builder
+- id: t-SC032
+  kind: gap
+  about: programs
+  text: registrations and gates are filled only for gsa-mas. For the other vehicles the sweeps give no cited registration
+    list, and the certification gates (8(a), SDVOSB, HUBZone, WOSB) live in slice SA; link their ids into polaris,
+    stars-iii, vets-2 and oasis-plus at merge.
+  owner: builder
+- id: t-SC033
+  kind: conflict
+  about: references/GsaSmallBusiness
+  text: GSA's small business office appears as "Office of Small Business" on its own pages and as the Office of
+    Small and Disadvantaged Business Utilization on an event page and in the forecast buyer record [784] [797].
+    Pick one name for buyers/buyer-gsa.
+  owner: author
+- id: t-SC034
+  kind: recheck
+  about: schema
+  text: 'programs.yaml carries three keys beyond the schema for vehicles: status (the brief asks for it), obligations
+    (fees, reporting, sales floors) and ordering (how orders are competed). awards holds ceilings, terms and minimum
+    guarantees. Confirm or rename before merge.'
+  owner: author
+- id: t-SC035
+  kind: recheck
+  about: schema
+  text: 'Tier rule applied strictly: Executive Order 14240 [733] and OMB M-25-31 [734] are tiered current because
+    the seminal list does not name executive orders or OMB memoranda; the Court of Federal Claims opinion [777]
+    is tiered current. Final rules in the Federal Register are tiered seminal. Confirm.'
+  owner: author
+- id: t-SC036
+  kind: recheck
+  about: references
+  text: 'Merge note: URLs were deduplicated only within slices SC and SD (none repeated). Fourteen references share
+    a URL with the parallel slice SA/SB assembly (assemble-SA, n 501–699 as it stood at 15:15 on 2026-10-03), given
+    here as this slice''s n = that assembly''s n: [791] = 641; [798] = 612; [799] = 610; [802] = 626; [803] = 631;
+    [806] = 618; [809] = 624; [810] = 563; [823] = 666; [828] = 607; [840] = 523; [842] = 526; [845] = 532; [847]
+    = 650. Keys SbaBasicRequirements and SbaHowToWin are identical in both assemblies. Merge the entries and remap
+    citations at pack level. The key for [925] is ArmyOsbpSite because ArmyOsbp is taken in the merged SBIR pack
+    by a different URL.'
+  owner: builder
+- id: t-SC037
+  kind: recheck
+  about: references
+  text: 'Quotes longer than the schema''s 25-word limit, carried verbatim from sweep C: [728] (29 words); [751]
+    (27 words); [763] (26 words). Trim or re-quote after checking the live page.'
+  owner: builder
+- id: t-SD001
+  kind: recheck
+  about: references
+  text: 'All quotes in references 785–929 passed through WebFetch''s summarising model. Treat each as a pointer
+    to re-verify on the live page. Quotes longer than the schema''s 25-word limit, carried verbatim from sweep D:
+    [791] (27 words); [803] (28 words); [805] (28 words); [822] (29 words); [838] (29 words); [848] (29 words);
+    [849] (39 words); [863] (30 words); [878] (28 words); [905] (27 words).'
+  owner: builder
+- id: t-SD002
+  kind: gap
+  about: mechanics/reading-sam-gov
+  text: SAM.gov help articles (fsd.gov knowledge base) are robots-disallowed. No primary page was read that defines
+    each notice type in prose, explains the interested vendors list step by step, or states what happens to a notice
+    after the response date; the API documentation was used instead [795] [792].
+  owner: builder
+- id: t-SD003
+  kind: unverified
+  about: mechanics/reading-sam-gov
+  text: That RFIs are posted as sources-sought or special notices is an inference from the notice-type code list;
+    no page fetched says it outright [792] [822]. The set-aside code glosses are the sweep's wording and need confirming
+    per code on the API page [792].
+  owner: builder
+- id: t-SD004
+  kind: gap
+  about: mechanics/reading-sam-gov
+  text: 'Contract Opportunities data extract: sam.gov/data-services renders by script. File names, format and update
+    frequency are not verified [796] [794]. The sweep notes the project''s own source test in far-out-status.md
+    may cover this.'
+  owner: builder
+- id: t-SD005
+  kind: unverified
+  about: gates/sam-registration-uei
+  text: 'SAM registration cost: no fetched text states that registration is free [840].'
+  owner: builder
+- id: t-SD006
+  kind: unverified
+  about: gates/sam-registration-uei
+  text: 'Notarized letter: the history is from one law-firm piece; the GSA page it cites is 404 and the current
+    rule is unknown [846]. Kept in conflicts only.'
+  owner: builder
+- id: t-SD007
+  kind: unverified
+  about: gates/cmmc
+  text: 'CMMC suspension, primary documents not fully read: the war.gov press release returned 403 (known only through
+    [866]); the "Removing Barriers to DIB Expansion" memo PDF was unreadable [864]; the implementing memo''s date
+    and signer were not legible [865].'
+  owner: builder
+- id: t-SD008
+  kind: conflict
+  about: gates/cmmc
+  text: Class Deviation 2026-O0025 revisions (July 16 and September 3, 2026) and the task-force status rest on secondary
+    sources [868] [869]; the DARS page fetched showed 2026-O0025 dated 18 December 2025 with no revisions noted
+    [809]. The gate lists these under suspension.secondary_only.
+  owner: author
+- id: t-SD009
+  kind: gap
+  about: gates/cmmc
+  text: 'CMMC: nothing after September 11, 2026 was found [868]; no primary cost figure for assessments (the $593,800
+    and $388,600 figures attributed to SBA come through a vendor log and must not be used); Cyber AB marketplace
+    contents were not read [870].'
+  owner: builder
+- id: t-SD010
+  kind: conflict
+  about: gates/cmmc
+  text: SBA's basic-requirements page (updated July 28, 2026) lists CMMC as a requirement for DoD contracts and
+    is not updated for the Phase II suspension [845] vs [863].
+  owner: author
+- id: t-SD011
+  kind: unverified
+  about: gates/basic-safeguarding-nist-800-171
+  text: DFARS Part 240 numbering (DFARS 240.371; clause 252.240-7997 for assessment requirements) is from a consultant
+    note only [869]; the DARS list confirms only that Class Deviation 2026-O0025 covers RFO Part 40 and DFARS Part
+    240 [809].
+  owner: builder
+- id: t-SD012
+  kind: gap
+  about: pending_changes
+  text: 'FAR overhaul: no page fetched states which agencies have adopted every part or which text governs a given
+    solicitation [798] [799]. The agency lists for Parts 5 and 12 are "as returned by the fetch; likely incomplete".'
+  owner: builder
+- id: t-SD013
+  kind: gap
+  about: pending_changes
+  text: 'Class-deviation entries with an empty date or no deviation number: overhaul Parts 9, 13, 16, 19, 22, 25,
+    28, 32, 42 and 52 were not read, Part 43 was not swept, and the Part 40 model text''s issuance date and its
+    old-to-new clause mapping were not captured [808] [798]. Affected records: gates/naics-size-at-offer, section-889-fascsa,
+    basic-safeguarding-nist-800-171, dcaa-accounting-system, bonding-insurance-construction, e-verify, service-contract-act,
+    davis-bacon, buy-american-taa, trafficking-compliance-plan, tax-and-exclusion-checks, past-performance-cpars,
+    payment-systems; mechanics/responding, market-research-firm-side, payment-and-performance. Slice SB (FAR) may
+    hold the missing numbers and dates.'
+  owner: builder
+- id: t-SD014
+  kind: recheck
+  about: mechanics/reading-sam-gov
+  text: The proposed change to notice thresholds in FAR Case 2026-005 ($25,000 → $45,000; award announcements $4.5
+    million → $5.5 million, as reported by the fetch) needs a direct read of the rule text [801].
+  owner: builder
+- id: t-SD015
+  kind: gap
+  about: references/Far2101
+  text: The simplified acquisition threshold definition in FAR 2.101 did not come through (page too long); $350,000
+    is from the Federal Register rule [791] [810]. The Buy American applicability threshold was not fetched [890].
+  owner: builder
+- id: t-SD016
+  kind: gap
+  about: gates/dcaa-accounting-system
+  text: DCAA's small business page returned 403; the SF 1408 criteria list inside the PDF was not opened [874] [872].
+  owner: builder
+- id: t-SD017
+  kind: gap
+  about: gates/facility-clearance
+  text: 'DCSA: no overall processing time found [875]. The August 17, 2026 amendment to 32 CFR Part 117 was not
+    examined [877]. A DD Form 441 security agreement step appears in the sweep''s draft record but in no fetched
+    key fact, so it is left out of the gate''s steps.'
+  owner: builder
+- id: t-SD018
+  kind: gap
+  about: gates/export-controls
+  text: 'DDTC''s site renders by script; registration facts are from the eCFR and the Federal Register [878] [879].
+    Whether the Tier 1 discount pilot continues is unknown. EAR: only 15 CFR 730.3 and 730.7 were read and the BIS
+    page is thin [880] [881].'
+  owner: builder
+- id: t-SD019
+  kind: gap
+  about: references
+  text: 'Sites that returned little or nothing: CPARS site and guidance PDF (header metadata only) [839]; PIEE;
+    USAspending.gov/about [820]; the Acquisition Gateway forecast tool [814]; HHS SBCX [827]; fpds.gov returned
+    binary.'
+  owner: builder
+- id: t-SD020
+  kind: gap
+  about: mechanics/responding
+  text: The DFARS 215.506-70 section page returned 404 (DFARS likely renumbered under the overhaul); enhanced debriefing
+    facts are from the 2022 final rule [834]. The current DFARS location is not recorded.
+  owner: builder
+- id: t-SD021
+  kind: unverified
+  about: buyers
+  text: 'Forecast pages not verified (verified: false): DoD (blocked domain), State (403), SBA (none found), HUD
+    (content not returned) [911], HHS (script-rendered), VA (exact URL not returned) [917], EPA database (robots-disallowed)
+    [923], and the DoD components Army [925], USACE [928], Air Force [926], DLA [927] and DARPA [929] (no forecast
+    link found). Navy, MDA and DISA have no source at all (page rejected the request; certificate error; URL 404).'
+  owner: builder
+- id: t-SD022
+  kind: conflict
+  about: buyers/buyer-usaid
+  text: acquisition.gov still lists usaid.gov/business-forecast [813]; the page now shows only a February 2025 administrative-leave
+    notice and no forecast [924].
+  owner: author
+- id: t-SD023
+  kind: unverified
+  about: buyers
+  text: 'Items carried from the sweep''s buyer records that are not among the extracted key facts of the cited page:
+    USDA vendor outreach program [906], Education pointers to SAM.gov and GSA eBuy [909], Interior vendor feedback
+    forms [914], GSA MAS guidance and teaming pages [814]. The DHS vendor outreach sessions page returned 403 and
+    Interior''s capability statement worksheet was seen in search results only.'
+  owner: builder
+- id: t-SD024
+  kind: recheck
+  about: buyers
+  text: 'Forecast dollar floors differ by agency and are "as shown on the page": DHS over $350,000 [910]; DOJ and
+    Treasury above $250,000 [912] [915]; EPA over $150,000 [923]; USDA and NASA above the simplified acquisition
+    threshold [906] [918]. Confirm before stating any as current.'
+  owner: builder
+- id: t-SD025
+  kind: recheck
+  about: gates/e-verify
+  text: 'E-Verify: e-verify.gov returned little and no cost statement [887]. FAR 22.1803 reads $150,000 while other
+    thresholds moved in October 2025; confirm this is current and not a missed update [886] [810].'
+  owner: builder
+- id: t-SD026
+  kind: gap
+  about: mechanics/market-research-firm-side
+  text: 'Industry days: no primary page describes how they are announced on SAM.gov; only the FAR 15.201 list of
+    techniques was read [822].'
+  owner: builder
+- id: t-SD027
+  kind: unverified
+  about: mechanics/market-research-firm-side
+  text: The OFPP forecast memo is from the archived prior-administration site; whether it remains in force was not
+    checked [812].
+  owner: builder
+- id: t-SD028
+  kind: recheck
+  about: references/Usc15637
+  text: 15 U.S.C. 637(a)(12)(C)–(D) was read on Cornell LII because uscode.house.gov was down, and the quoted sentence
+    is cut off; re-read on the official site [811].
+  owner: builder
+- id: t-SD029
+  kind: conflict
+  about: mechanics/reading-sam-gov
+  text: 'Contract award data floor: sam.gov/content/contract-data says actions of $10,000 or more [817]; sam.gov/fpds
+    says above the micro-purchase threshold [816].'
+  owner: author
+- id: t-SD030
+  kind: conflict
+  about: mechanics/market-research-firm-side
+  text: SBA's "How to win contracts" page (updated June 11, 2026) still recommends FPDS [823]; FPDS public functions
+    moved to SAM.gov on February 24, 2026 [816].
+  owner: author
+- id: t-SD031
+  kind: recheck
+  about: mechanics/responding
+  text: 'Agency capability statement pages are dated: the HHS page (last reviewed July 19, 2024) names the D-U-N-S
+    number and the NIH template says DUNS [824] [825]; the sweep''s own summary adds UEI to the company-data list,
+    which neither template states.'
+  owner: builder
+- id: t-SD032
+  kind: recheck
+  about: gates/naics-size-at-offer
+  text: 13 CFR 125.12 (recertification) was not read; 13 CFR 121.404 was last amended December 17, 2024 [848].
+  owner: builder
+- id: t-SD033
+  kind: recheck
+  about: gates/trafficking-compliance-plan
+  text: 'FAR 52.222-50: the clause date was not returned and the $700,000 figure is as shown on 2026-10-03; the
+    prior figure was not fetched [892].'
+  owner: builder
+- id: t-SD034
+  kind: recheck
+  about: gates/reps-and-certs
+  text: 'Overhaul Part 12: the fetch listed 52.212-1, 52.212-2 and 52.212-4 as retained and not 52.212-3 [806];
+    confirm whether the commercial representations provision survives before describing it as current [852].'
+  owner: builder
+- id: t-SD035
+  kind: gap
+  about: gates/service-contract-act
+  text: The statute cite 41 U.S.C. chapter 67 for the Service Contract Act appears only in the sweep's draft record,
+    not in a fetched key fact, so it is left out of governing_text [888].
+  owner: builder
+- id: t-SD036
+  kind: recheck
+  about: gates
+  text: 'Assembly note: sweep D''s draft has 18 gate records. All 18 are built (service-contract-act and davis-bacon
+    are the two labor-standards gates). payment-systems is a 19th, assembled from the payment findings because the
+    brief lists it [903] [902]; past-performance-cpars is in the draft but not in the brief''s list and is kept
+    [838].'
+  owner: builder
+- id: t-SD037
+  kind: conflict
+  about: gates/sam-registration-uei
+  text: 'Gate id overlap at pack level: the merged SBIR pack and the slice SA assembly each already have a gate
+    `sam-registration`, and slice SA has `size-status-representation`; this slice''s `sam-registration-uei` and
+    `naics-size-at-offer` cover the same ground from the FAR side [842] [847]. Merge or cross-link; programs/gsa-mas
+    points at this slice''s ids.'
+  owner: author
+- id: t-SD038
+  kind: recheck
+  about: schema
+  text: pending_changes status values are limited to the schema's five. The sweep's "memorandum" and "open" statuses
+    for CMMC are mapped to announced or moved to the gate's suspension block [865]. Entries with status class-deviation
+    and an empty date mean the deviation text or its date was not swept. Gates carry extra keys governing_text and
+    cost_time (and, for cmmc, rule, suspension and ecosystem); buyers carry sweep_status and forecast_note.
+  owner: author
+- id: t-SD039
+  kind: recheck
+  about: references/Far522048
+  text: One key_fact in [851] carries the sweep slug "fr-rfo-part1-4-proposed" in square brackets verbatim; it refers
+    to [802].
+  owner: builder
+- id: t-SD040
+  kind: recheck
+  about: sections
+  text: 'Naming: DoD pages now use the "Department of War" name (dowcio.war.gov, war.gov) while regulation text
+    still says DoD [864] [859]. The records use DoD except in quotations; decide the house style.'
+  owner: builder
+- id: t-M033
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [631, 803] — merge into one entry and repoint citations. https://advocacy.sba.gov/2026/06/25/newly-released-federal-acquisition-regulation-proposed-rules'
+  owner: builder
+- id: t-M034
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [523, 840] — merge into one entry and repoint citations. https://sam.gov/content/entity-registration'
+  owner: builder
+- id: t-M035
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [624, 809] — merge into one entry and repoint citations. https://www.acq.osd.mil/dpap/dars/dfars_far_overhaul_class_deviations.html'
+  owner: builder
+- id: t-M036
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [610, 799] — merge into one entry and repoint citations. https://www.acquisition.gov/far-overhaul'
+  owner: builder
+- id: t-M037
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [612, 798] — merge into one entry and repoint citations. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide'
+  owner: builder
+- id: t-M038
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [618, 806] — merge into one entry and repoint citations. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-12'
+  owner: builder
+- id: t-M039
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [650, 847] — merge into one entry and repoint citations. https://www.acquisition.gov/far/19.301-1'
+  owner: builder
+- id: t-M040
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [607, 828] — merge into one entry and repoint citations. https://www.acquisition.gov/far/19.502-2'
+  owner: builder
+- id: t-M041
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [641, 791] — merge into one entry and repoint citations. https://www.acquisition.gov/far/2.101'
+  owner: builder
+- id: t-M042
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [526, 842] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.204-7'
+  owner: builder
+- id: t-M043
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [563, 810] — merge into one entry and repoint citations. https://www.federalregister.gov/documents/2025/08/27/2025-16412/federal-acquisition-regulation-inflation-adjustment-of-acquisition-related-thresholds'
+  owner: builder
+- id: t-M044
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [626, 802] — merge into one entry and repoint citations. https://www.federalregister.gov/documents/2026/06/23/2026-12559/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-1-2-4-33'
+  owner: builder
+- id: t-M045
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [532, 845] — merge into one entry and repoint citations. https://www.sba.gov/federal-contracting/contracting-guide/basic-requirements'
+  owner: builder
+- id: t-M046
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [666, 823] — merge into one entry and repoint citations. https://www.sba.gov/federal-contracting/contracting-guide/how-win-contracts'
   owner: builder
