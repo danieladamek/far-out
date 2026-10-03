@@ -1,4 +1,4 @@
-# mechanics.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# mechanics.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
 - id: reading-sam-gov
   name: Reading SAM.gov contract opportunities
   what:
@@ -454,3 +454,60 @@
   - 904
   - 905
   conflicts: []
+- id: capability-statement
+  name: Capability statement
+  what:
+  - 'HHS defines it: "A capability statement is a concise, one-page overview of your business competencies." [1419]'
+  - 'NIH''s Small Business Program Office publishes an annotated template with four sections: Core Competencies;
+    Past Performance; Differentiators; Company Data [1417]'
+  - 'NIH, core competencies: "Short introduction statement relating the company''s core competencies to the agency''s
+    specific needs followed by key-word heavy bullet points" [1417]'
+  - 'NIH, past performance: prior clients with related work, federal first, with contract details and reference
+    contacts [1417]'
+  - 'NIH, differentiators: "Identify what makes you different from your competitors and how this benefits the targeted
+    agency" [1417]'
+  - 'NIH, company data: brief description plus DUNS, CAGE Code, NAICS (under 10), socio-economic certifications,
+    contract vehicles [1417]'
+  - 'NIH, format: save as PDF; make a separate document for each agency or opportunity [1417]'
+  - 'HHS''s element list: name and branding; summary description; core capabilities; major services; federal small
+    business certifications; contract vehicles; state certifications; local, quasi and non-government agencies served;
+    major clients; NAICS codes; partners and authorized resellers; staff clearances and certifications; company
+    details (registered name, DBA, incorporation year/state, corporation type, D-U-N-S Number, CAGE Code); contact
+    information [1418]'
+  - 'HHS, design: "Use bullets, simple tables, highlighted sections for readability."; have "someone from outside
+    your company read your statement and provide feedback" [1418]'
+  length:
+  - 'NIH: "Preferably, this Capability Statement is one page, one side"; "Go to two sides only if absolutely necessary"
+    [1417]'
+  - 'HHS, how-to page: "1 page (front and back)" [1418]'
+  - 'HHS, readiness page: "a concise, one-page overview" [1419]'
+  what_primes_ask:
+  - Peraton caps the capabilities statement upload at two pages (doc/pdf, max 50 MB) [1356]
+  - Northrop Grumman accepts up to 4 capability statements, line cards or overviews [1314]
+  - L3Harris's form has an "Upload Capabilities Statement" field [1324]
+  - 'CGI Federal: "upload your Capabilities Statement to our Registered Supplier Portal" [1363]'
+  - 'GDIT: "Upload capability documents that provide additional company information" and "Use accurate and descriptive
+    keywords to allow your company to stand out in searches" [1318]'
+  - NASA's profile of BAE Systems (Space & Mission Systems) says capability statements go to smallbiz.sms@baesystems.us
+    [1326]
+  - Amentum's 2023 tips sheet says to have a website, capability statement, product line card and NAICS codes [1359]
+  official_url: https://www.hhs.gov/grants-contracts/contracts/get-ready-to-do-business/write-a-capability-statement/index.html
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1314
+  - 1318
+  - 1324
+  - 1326
+  - 1356
+  - 1359
+  - 1363
+  - 1417
+  - 1418
+  - 1419
+  conflicts:
+  - 'Length: NIH prefers one page, one side, with two sides only if absolutely necessary [1417]; HHS''s how-to page
+    allows "1 page (front and back)" [1418]; HHS''s readiness page says "one-page" [1419].'
+  - 'Identifier: both the NIH template and the HHS how-to page still say DUNS / D-U-N-S, not UEI [1417] [1418].'
+  - The HHS sample capability statement (a sibling page) was not fetched [1418]; a search for SBA, GSA, DLA or VA
+    guidance returned only commercial results, none used.

@@ -1,4 +1,4 @@
-# gates.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# gates.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
 - id: sam-registration
   name: SAM.gov registration and Unique Entity ID (UEI)
   what: 'SAM registration provides the UEI and is one of the registrations that must be completed before an application
@@ -1408,3 +1408,1015 @@
   conflicts:
   - 'Assembly note: this gate is not among sweep D''s draft gate records; it was assembled from the sweep''s payment
     findings because the brief lists payment systems, and the PIEE site itself was not readable [903]'
+- id: subcontracting-plan-reporting-sam
+  name: Subcontracting plan reporting (ISR and SSR) in SAM.gov, formerly eSRS
+  what: A contractor with a subcontracting plan files Individual Subcontract Reports (ISR) and Summary Subcontract
+    Reports (SSR) showing its awards to small businesses (FAR 19.704(a)(10); 52.219-9(l)) [1002] [1003]. eSRS.gov
+    was decommissioned on February 20, 2026 and the filing moved to Subcontracting Plan Reporting (SPR) in SAM.gov;
+    www.esrs.gov now redirects to sam.gov/esrs [1039] [1038] [1015]. The codified FAR text still names eSRS at www.esrs.gov
+    [1003].
+  applies_when: The contract carries clause 52.219-9, used above $900,000 ($2 million for construction) [1001];
+    a subcontractor that is not small and holds its own plan reports too [1002]. Plans, and so these reports, are
+    not required from small business concerns [1001]. Each plan holder reports only its own first-tier awards [1028].
+  steps:
+  - 'ISR: semi-annually for the periods ending March 31 and September 30, and at contract completion; no ISR under
+    a commercial plan [1003]'
+  - 'SSR: annually by October 30 [1003]; under a commercial plan, one SSR a year within 30 days after the Government
+    fiscal year ends [1002]'
+  - 'Due date for the ISR: 30 days after the period closes in the codified FAR [1002] [1003]; 45 days in 13 CFR
+    125.3 and in the February 2026 deviation supplement [1021] [1013] [1014]'
+  - Filers need a SAM.gov "Administrator or Data Entry" role for Subcontracting Plan Reporting [1038]
+  - Second-tier and lower-tier subcontractor ISR reporting was deployed only in the pre-production environment [1038]
+  - '2026 transition: GSA "deployed updates to SAM.gov to resolve known issues with the Subcontracting Plan Reporting
+    system", and mid-year ISRs were due July 14, 2026 [1040]'
+  - 'DoD: ISRs go to the procuring contracting office and the consolidated SSR to "Department of Defense"; Alternate
+    I substitutes SF 294 for the ISR [1036]; Test Program participants file the SSR semiannually [1037]'
+  - Failure to submit timely subcontracting reports can be a material breach [1029]
+  - 'What the public sees: aggregate subcontract dollars by NAICS code in agency reports under Small Business Act
+    section 15(h)(3)(A)(ii) [1078]'
+  official_url: https://sam.gov/esrs
+  pending_changes:
+  - status: class-deviation
+    date: '2026-02-20'
+    text: The RFO Part 19 model deviation text was amended on February 20, 2026 to reflect the retirement of eSRS;
+      "Other agencies are expected to issue similar implementing deviations." [1015]. GSA's Supplement 1 to Class
+      Deviation RFO-2025-19 (February 20, 2026) extends the ISR due date "from 30 days after the reporting period
+      to 45 days to align the FAR to SBA's current regulations" and removes the prescriptive manual steps for acknowledging
+      or rejecting reports [1013]; NRC's Supplement 1 (March 5, 2026) makes the same changes [1014].
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: postaward subcontracting-plan compliance and reporting sit at 19.302 in the RFO
+      Part 19 model deviation text, where reports go to "Subcontracting Plan Reporting (SPR)" in SAM.gov; the codified
+      sections are FAR 19.704(a)(10) and 52.219-9(l) [1012] [1002] [1003].'
+  - status: announced
+    date: '2026-06-23'
+    text: The change is in force by class deviation only; the formal Part 19 proposed rule had not been published
+      in either FAR-overhaul package as of September 21, 2026 [1018] [1020].
+  - status: proposed
+    date: '2024-12-19'
+    text: SBA proposed that the SSR be due 45 days after the fiscal year end, a wider set of SSR signatories, and
+      commercial plans that may follow the Government fiscal year (89 FR 103709) [1032].
+  as_of: '2026-10-03'
+  sources:
+  - 1001
+  - 1002
+  - 1003
+  - 1012
+  - 1013
+  - 1014
+  - 1015
+  - 1018
+  - 1020
+  - 1021
+  - 1028
+  - 1029
+  - 1032
+  - 1036
+  - 1037
+  - 1038
+  - 1039
+  - 1040
+  - 1078
+  - 1151
+  conflicts:
+  - 'ISR due date: 30 days in codified FAR 19.704(a)(10) and 52.219-9(l) [1002] [1003] vs "within 45 days after
+    the report ending date" in 13 CFR 125.3 [1021] vs 45 days in the GSA and NRC deviation supplements [1013] [1014]'
+  - 'Reporting system: eSRS at www.esrs.gov in the codified clause [1003] and "the eSRS (or any successor system)"
+    in 13 CFR 125.3 [1021] vs Subcontracting Plan Reporting in SAM.gov since February 20, 2026 [1039] [1038]; HHS''s
+    mentor-protégé provision also still names eSRS [1151]'
+  - 'Filing threshold shown on sam.gov/esrs: first-tier subcontractor filers must have subcontracts "reported to
+    SAM.gov with a value above $550,000.00" [1038], which does not match the $900,000 ($2 million for construction)
+    at which a non-small subcontractor must adopt a plan [1002]'
+- id: ffata-subaward-reporting
+  name: FFATA first-tier subcontract (subaward) reporting in SAM.gov, formerly FSRS
+  what: Clause 52.204-10 makes a prime contractor report each first-tier subcontract at or above the threshold in
+    FAR 4.1403(a) by the end of the month following the month of award, and the reported information is made public
+    [1008]. FSRS.gov retired on March 8, 2025 and all subaward reporting is now done in SAM.gov [1042] [1043]. The
+    codified clause still names www.fsrs.gov [1008].
+  applies_when: FAR subpart 4.14 "applies to all contracts with a value of $40,000 or more" [1009]; USAspending's
+    documentation states the reporting threshold as $30,000 [1046]. A contractor with gross income under $300,000
+    in the previous tax year is exempt from reporting subcontract awards [1008], and classified information is not
+    disclosed [1009].
+  steps:
+  - Report by the end of the month following the month of award [1008]
+  - 'Reported: subcontractor name, amount, date, description, subcontract number, address, place of performance,
+    prime contract number, agency, NAICS and Treasury account symbol [1008]'
+  - Reporters request the Data Entry role for entity reporting in SAM.gov; the page covers sign-in with former FSRS
+    credentials and bulk upload [1043]
+  - Executive compensation reporting applies at 80 percent and $25,000,000 of annual gross revenues from Federal
+    sources [1008]
+  - 'Publication: data submitted one day is available to USAspending the next day and published the day after [1047]'
+  - 'Reading the records: federal users need no role to search subcontract reports; other users sign in [1044];
+    the public API serves published and deleted federal subcontract data, needs an API key, and gives non-federal
+    users without an entity role 10 requests a day [1045]'
+  - 'Quality: "Duplication of subaward records is common"; records are sometimes late, incomplete or inconsistent
+    and agency enforcement varies; the March 2025 migration added controls meant to prevent new duplication [1046]'
+  official_url: https://sam.gov/fsrs
+  pending_changes:
+  - status: final
+    date: '2025-03-08'
+    text: '"As of March 8th 2025, FSRS.gov has retired"; subaward reporting moved into SAM.gov as announced in advance
+      [1042] [1041]. The codified FAR subpart 4.14 and clause 52.204-10 (Jun 2020) have not been updated to say
+      so [1009] [1008].'
+  - status: proposed
+    date: '2026-06-23'
+    text: The first FAR-overhaul proposed rule (91 FR 37550; Parts 1, 2, 4, 33, 39, 40 and 53; comments were due
+      July 23, 2026) covers Part 4 but, as fetched, does not discuss subpart 4.14 or the subcontract-reporting threshold
+      [1018]. The RFO model deviation text for Part 4 was not read in these sweeps, so no class-deviation numbering
+      is recorded for FAR 4.14 or 52.204-10.
+  as_of: '2026-10-03'
+  sources:
+  - 1008
+  - 1009
+  - 1018
+  - 1041
+  - 1042
+  - 1043
+  - 1044
+  - 1045
+  - 1046
+  - 1047
+  conflicts:
+  - 'Threshold: "$40,000 or more" in FAR subpart 4.14 (FAC 2026-01) [1009] vs "greater than or equal to $30,000"
+    in USAspending''s About the Data (updated November 19, 2025) [1046]; the SAM.gov help pages fetched give no
+    figure [1044]'
+  - 'System named: FSRS in the codified FAR [1009] [1008] and in USAspending''s Data Sources document [1047] vs
+    SAM.gov since March 8, 2025 [1042] [1046]'
+- id: jv-agreement-requirements
+  name: Joint venture agreement requirements (13 CFR 125.8 and the program sections)
+  what: A joint venture agreement between firms that each qualify as small needs no specific form or conditions,
+    but every joint venture agreement between a protégé and its SBA-approved mentor for a set-aside must contain
+    twelve listed provisions (13 CFR 125.8(b)) [1098]. The 8(a), HUBZone, WOSB/EDWOSB and VOSB/SDVOSB sections carry
+    the same structure with the certified firm as managing venturer (13 CFR 124.513, 126.616, 127.506, 128.402)
+    [1099] [1101] [1103] [1104]. The regulation does not require SBA to approve the joint venture agreement itself,
+    and SBA approves an 8(a) joint venture only before a sole-source 8(a) award [1098] [1099].
+  applies_when: A joint venture between a protégé and its mentor offers on a procurement set aside or reserved for
+    small business, or a joint venture led by a certified firm offers on an 8(a), HUBZone, WOSB/EDWOSB or VOSB/SDVOSB
+    contract [1098] [1099] [1101] [1103] [1104]. Compliance with the agreement requirements is judged as of the
+    final proposal revision for negotiated acquisitions and the final bid for sealed bidding (13 CFR 121.404(f))
+    [1096].
+  steps:
+  - 'The twelve provisions of 13 CFR 125.8(b)(2): (1) purpose; (2) the small business as managing venturer with
+    a named Responsible Manager; (3) the small business owns at least 51% of a separate-legal-entity joint venture;
+    (4) profits commensurate with the work performed, or more; (5) a special bank account in the joint venture''s
+    name requiring the signature or consent of all parties; (6) itemised equipment, facilities and resources; (7)
+    responsibilities for negotiation, labour and performance; (8) all parties obligated to complete performance
+    despite a member''s withdrawal; (9) accounting records kept by the managing venturer; (10) final records retained
+    by the managing venturer; (11) annual performance statements to SBA not later than 45 days after each operating
+    year; (12) a project-end statement no later than 90 days after completion [1098]'
+  - Other partners may take part in commercially customary corporate-governance decisions; the Responsible Manager
+    need not be an employee of the small business at offer if there is a signed letter of intent to be employed
+    by it on award (13 CFR 125.8(b)(2)(ii)) [1098]
+  - 'Work share: the joint venture meets 13 CFR 125.6, and the protégé performs at least 40% of the work the joint
+    venture performs, more than administrative or ministerial functions; work of the mentor and its affiliates at
+    any subcontracting tier counts as the mentor''s, and work by a similarly situated subcontractor does not count
+    toward the protégé''s 40% (13 CFR 125.8(c)) [1098]'
+  - 'Before performance: a written certification signed by an authorised official of each partner to the contracting
+    officer and SBA (13 CFR 125.8(d)) [1098]'
+  - 'During and after: an annual performance-of-work report to the contracting officer and SBA and a completion
+    report at the end of the contract (13 CFR 125.8(h)); SBA and its Inspector General may inspect and copy the
+    joint venture''s records (13 CFR 125.8(g)) [1098]'
+  - 'Program joint ventures: the certified firm is managing venturer, owns at least 51% and performs at least 40%,
+    with quarterly financial statements not later than 45 days after each operating quarter and a project-end statement
+    no later than 90 days after completion [1099] [1101] [1103] [1104]; HUBZone and VOSB/SDVOSB joint ventures certify
+    at offer as well as before performance or award [1101] [1104]'
+  - 'The joint venture itself: in writing, under its own name, identified as a joint venture in SAM [1095]; with
+    its own UEI and CAGE code [1116]'
+  - 'Consequences: failing to have a compliant agreement, to perform to it or to the 40% rule, or to submit certifications
+    or allow inspection are grounds for suspension or debarment, and any person may report non-compliance to SBA
+    or its OIG (13 CFR 125.8(i)-(j)) [1098]; a HUBZone or VOSB/SDVOSB joint venture can be protested for failing
+    its section [1102] [1105]'
+  official_url: https://www.ecfr.gov/current/title-13/chapter-I/part-125/section-125.8
+  pending_changes:
+  - status: final
+    date: '2025-06-04'
+    text: Correction 90 FR 23609, effective June 4, 2025, changed the cross-reference in 13 CFR 125.8 from 121.103(h)(4)
+      to 121.103(b) [1111]. The citation lists of 13 CFR 124.513 and 127.506 show no amendment after April 27, 2023
+      [1099] [1103].
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text carries joint venture provisions at 19.105-1(c)
+      (HUBZone), 19.106-1(c) (SDVOSB) and 19.107-1(c) (WOSB); the codified FAR states joint venture qualification
+      at 19.301-1(a)(2) and the 40 percent language in clause 52.219-14 [1012] [1091] [1007]. The date is that of
+      GSA''s Class Deviation RFO-2025-19 [1013].'
+  - status: proposed
+    date: 2024-10
+    text: FAR Case 2023-015, Policy on Joint Ventures, was at proposed-rule stage in the Fall 2024 Unified Agenda;
+      no NPRM was located [1094].
+  as_of: '2026-10-03'
+  sources:
+  - 1007
+  - 1012
+  - 1013
+  - 1091
+  - 1094
+  - 1095
+  - 1096
+  - 1098
+  - 1099
+  - 1101
+  - 1102
+  - 1103
+  - 1104
+  - 1105
+  - 1111
+  - 1116
+  conflicts:
+  - 'Statements to SBA: annual, "not later than 45 days after each operating year", in 13 CFR 125.8 [1098] and on
+    SBA''s joint ventures page [1116] vs quarterly, 45 days after each operating quarter, in 13 CFR 124.513, 126.616,
+    127.506 and 128.402 [1099] [1101] [1103] [1104]'
+- id: ostensible-subcontractor-affiliation
+  name: Ostensible subcontractor rule and affiliation risk in teaming and joint ventures
+  what: An ostensible subcontractor is a subcontractor that is not a similarly situated entity and performs primary
+    and vital requirements of a contract or order, or is a subcontractor upon which the prime contractor is unusually
+    reliant (13 CFR 121.103(h)(3)(i)) [1024]. Such a relationship makes the offeror ineligible as a small business;
+    since final rule 89 FR 102448 (effective January 16, 2025) the offeror is ineligible rather than being treated
+    as a joint venture [1095] [1110]. Compliance is judged "as of the date of the final proposal revision for negotiated
+    acquisitions and final bid for sealed bidding" (13 CFR 121.404(f)) [1096].
+  applies_when: A small prime on a set-aside relies on a subcontractor that is not similarly situated, such as a
+    large or incumbent firm [1024]; and, for the wider affiliation rules, whenever firms team, joint venture or
+    share owners, managers or revenue [1095].
+  steps:
+  - 'Safe harbour for services, specialty trade construction and supplies: SBA will find no ostensible subcontractor
+    where the prime, together with similarly situated small business subcontractors, meets the limitations on subcontracting
+    in 13 CFR 125.6 (13 CFR 121.103(h)(3)(iii)) [1024] [1095]'
+  - 'General construction: "the primary and vital requirements of the contract are the management, supervision and
+    oversight of the project", not the construction work itself (13 CFR 121.103(h)(3)(iv)) [1024] [1095]'
+  - A prime may use a subcontractor's experience and past performance, including an incumbent's, and no single factor
+    is determinative [1024] [1109]
+  - 'Limitations on subcontracting: not more than 50% of the amount paid by the Government for services or supplies,
+    85% for general construction and 75% for special trade construction may go to firms that are not similarly situated;
+    work a similarly situated subcontractor performs with its own employees is excluded from the cap and from the
+    ostensible subcontractor rule; the penalty is the greater of $500,000 or the excess spent [1023] [1007]'
+  - Contracting officers may ask a small prime for information showing compliance with the limitations on subcontracting
+    [1029]
+  - 'Joint ventures: a joint venture is ineligible where the managing partner will not perform 40% of the joint
+    venture''s work (13 CFR 121.103(h)(3)(v)) [1024]; after two years from its first award the partners of a joint
+    venture are deemed affiliated for new offers, and each partner counts its proportionate share of the joint venture''s
+    receipts and employees [1095]'
+  - 'Identity of interest (13 CFR 121.103(f)): family members who do business with each other are presumed affiliated,
+    and economic dependence is presumed where a concern derived 70% or more of its receipts from another concern
+    over the previous three fiscal years; both presumptions are rebuttable [1095]'
+  - 'Newly organized concern (13 CFR 121.103(g)): former officers or key employees who start a firm in the same
+    or a related industry with assistance from the old firm; rebuttable by a clear line of fracture [1095]'
+  - 'Exceptions: an SBA-approved mentor-protégé agreement is not by itself a basis for affiliation (13 CFR 121.103(b)(6));
+    a Small Business Teaming Arrangement on a bundled or multiple-award contract above the substantial bundling
+    threshold carries no affiliation if each member is small (13 CFR 121.103(b)(9)) [1095]'
+  - 'Who can raise it: on a set-aside, any offeror not eliminated for reasons unrelated to size, the contracting
+    officer, or the SBA Government Contracting Area Director may file a size protest [1097]; VOSB/SDVOSB undue-reliance
+    protests need credible evidence [1105]'
+  - 'Pointer only, not regulation text: a law-firm explainer lists four reliance factors SBA''s Office of Hearings
+    and Appeals applies (the subcontractor is the ineligible incumbent; the prime plans to hire most of its workforce
+    from it; the prime''s managers previously worked for it on the incumbent contract; the prime lacks relevant
+    experience) and says a finding causes affiliation for that contract only [1085] [1024]'
+  official_url: https://www.ecfr.gov/current/title-13/chapter-I/part-121/subpart-A/subject-group-ECFRd133f03f6d8398b/section-121.103
+  pending_changes:
+  - status: final
+    date: '2024-12-17'
+    text: Final rule 89 FR 102448 (RIN 3245-AH68), effective January 16, 2025, rewrote the ostensible subcontractor
+      paragraph so that the offeror is ineligible rather than treated as a joint venture; SBA declined to adopt
+      proposed language that would have made a joint venture ineligible where a non-similarly-situated partner performs
+      primary and vital work [1110]. The eCFR timeline shows the last amendment of 13 CFR 121.103 on January 16,
+      2025 [1095].
+  - status: final
+    date: '2023-04-27'
+    text: Final rule 88 FR 26164 (RIN 3245-AH70), effective May 30, 2023, added the ostensible subcontractor factors
+      and the general-construction clarification [1109].
+  as_of: '2026-10-03'
+  sources:
+  - 1007
+  - 1023
+  - 1024
+  - 1029
+  - 1085
+  - 1095
+  - 1096
+  - 1097
+  - 1105
+  - 1109
+  - 1110
+  conflicts: []
+- id: recertification-size-status
+  name: Recertification of size and status after a merger, acquisition or sale (13 CFR 125.12)
+  what: 13 CFR 125.12 requires a firm to recertify its size and small business program status within 30 calendar
+    days of a merger, acquisition or sale that changes controlling interest [1107]. The FAR counterpart is rerepresentation
+    under clause 52.219-28, within 30 days after a novation agreement or a merger or acquisition that does not require
+    novation (FAR 19.301-2) [1092] [1091]. Section 125.12 was created by the December 17, 2024 final rule and replaces
+    recertification text formerly in 13 CFR 121.404(g), 124.108, 126.900, 127.400 and 128.400 [1110] [1096].
+  applies_when: A merger, acquisition or sale changes the controlling interest of a firm that holds or has offered
+    on a small-business contract [1107]; a contract runs longer than five years [1107] [1092]; or an order is set
+    aside under an unrestricted multiple-award contract, is further set aside for a socioeconomic category, or the
+    contracting officer requires rerepresentation [1092] [1108].
+  steps:
+  - Recertify within 30 calendar days of the merger, acquisition or sale (13 CFR 125.12(a)) [1107]
+  - 'Before award: a triggering event within 180 days of offer and before award makes the firm ineligible for that
+    single award; after 180 days the award may proceed (13 CFR 125.12(e)(2)(i)) [1107]'
+  - 'Multiple-award contracts: after a merger with or acquisition by a firm that is not small, the contractor is
+    ineligible for set-aside or reserved orders and options; after a merger between two small businesses it stays
+    eligible but the orders do not count toward goals (13 CFR 125.12(e)(2)(ii)(B)) [1107]'
+  - 'Long contracts: recertify no more than 120 days before the end of the fifth year and before each option thereafter
+    (13 CFR 125.12(b)) [1107]'
+  - 'Joint ventures: a joint venture may recertify as small where all parties are small at recertification, or the
+    protégé is small in a mentor-protégé joint venture (13 CFR 125.12(f)) [1107]; once the protégé is no longer
+    small for the contract''s NAICS code the joint venture cannot recertify as small [1112]'
+  - 'Transition: disqualifying recertifications from mergers, acquisitions or sales before January 17, 2026 leave
+    the firm eligible for orders under small-business multiple-award contracts, though agencies cannot count new
+    orders toward goals (13 CFR 125.12(g)) [1107]'
+  official_url: https://www.ecfr.gov/current/title-13/chapter-I/part-125/section-125.12
+  pending_changes:
+  - status: final
+    date: '2024-12-17'
+    text: Created by final rule 89 FR 102448 (RIN 3245-AH68), effective January 16, 2025 [1110]; the January 17,
+      2026 transition date in paragraph (g) has now passed [1107].
+  - status: final
+    date: '2025-06-04'
+    text: Correction 90 FR 23609 redesignated paragraphs (g)(i) and (ii) as (g)(1) and (2) [1111].
+  - status: class-deviation
+    date: '2025-09-26'
+    text: 'FAR-overhaul numbering: rerepresentation is at 19.301 ("Small business size rerepresentations") in the
+      RFO Part 19 model deviation text, and clause 52.219-28 is still present in it; the codified section is FAR
+      19.301-2 [1012] [1091]. The date is that of GSA''s Class Deviation RFO-2025-19 [1013].'
+  - status: proposed
+    date: 2024-10
+    text: FAR Case 2023-015 (Policy on Joint Ventures) would change joint venture recertification procedures; proposed-rule
+      stage in the Fall 2024 Unified Agenda, no NPRM located [1094].
+  as_of: '2026-10-03'
+  sources:
+  - 1012
+  - 1013
+  - 1091
+  - 1092
+  - 1094
+  - 1096
+  - 1107
+  - 1108
+  - 1110
+  - 1111
+  - 1112
+  conflicts:
+  - 'Five-year window: "no more than 120 days prior to the end of the fifth year" in 13 CFR 125.12(b) [1107] vs
+    "within 60 to 120 days prior to the end of the fifth year" in FAR 52.219-28 and 19.301-2 [1092] [1091]'
+- id: prompt-and-accelerated-payment
+  name: Prompt payment and accelerated payment (what reaches a subcontractor)
+  governing_text: 31 U.S.C. chapter 39 (including 31 U.S.C. 3903(a) and 3905); 10 U.S.C. 3801; FAR Subpart 32.9;
+    FAR 32.009-1; FAR 52.232-40 (Mar 2023); FAR 52.232-27 (Jan 2017); FAR 52.232-5 (May 2014); FAR 52.216-7 (Aug
+    2018); FAR 32.112-1
+  what: 'The Prompt Payment clock is the Government''s own deadline for paying its prime contractor, with interest
+    paid automatically when the Government is late [1427]. Treasury''s pages speak of agencies paying vendors and
+    do not address subcontractors [1432]. Two rules do reach a subcontractor. When the Government pays a prime on
+    an accelerated basis, the prime must pass the payment on to its small-business subcontractors within 15 days,
+    to the maximum extent practicable, without charging fees [1421]. On construction, every subcontract must carry
+    a 7-day payment clause and an interest clause, flowed to lower tiers [1428] [1430].
+
+    '
+  applies_when: 'Accelerated payment: small-business subcontractors under a prime that receives accelerated payments;
+    the substance of the clause flows to all subcontracts with small business concerns, including commercial products
+    and services [1421]. Seven-day rule: subcontractors on federal construction contracts, with the same clauses
+    in lower-tier subcontracts [1428] [1430].'
+  how_it_works:
+  - 'Government to prime: invoice payment is due on the later of the 30th day after the billing office receives
+    a proper invoice or the 30th day after Government acceptance (FAR 32.904(b)(1)) [1427]'
+  - 'Government to prime, construction: progress payments are due 14 days after receipt of a proper payment request
+    (FAR 32.904(d)(1)(i)) [1427]'
+  - '"The designated payment office will pay an interest penalty automatically, without request from the contractor"
+    (FAR 32.907) [1427]'
+  - 'Interest rate: "For the period beginning July 1, 2026, and ending on December 31, 2026, the prompt payment
+    interest rate is 4-3/4 per centum per annum." (91 FR 42594) [1431]; Treasury''s page gives the same figure as
+    4.75% [1432]'
+  - 'Accelerated payment policy: agencies "provide accelerated payments, to the fullest extent permitted by law,
+    with a goal of 15 days after receipt of a proper invoice"; it covers small business contractors and prime contractors
+    that subcontract with small business, if the prime agrees to pass payment on within 15 days [1422]'
+  - For civilian agencies the goal applies only when a specific payment date is not established by contract; DoD
+    has a parallel paragraph under separate statutory authority [1422] [1423]
+  - The prime pays small business subcontractors "within 15 days after receipt of accelerated payments from the
+    Government", "to the maximum extent practicable", after receipt of a proper invoice and all other required documentation
+    from the small business subcontractor [1421]
+  - No further consideration or fees may be charged to the subcontractor [1421]
+  - '"The acceleration of payments under this clause does not provide any new rights under the Prompt Payment Act."
+    [1421]'
+  - FAR 52.232-40 is on both commercial flow-down lists [1448] [1449]
+  - 'Construction: the prime pays subcontractors for satisfactory performance "not later than 7 days from receipt
+    of payment out of such amounts as are paid to the Contractor"; interest accrues from the day after the required
+    payment date, at the rate under 41 U.S.C. 7109 [1428]'
+  - 'Construction: the parties may agree retainage; withholding for documented deficiencies is permitted with prior
+    written notice; after a deficiency is corrected, payment is due within 7 days or interest accrues [1428]'
+  - 'Construction: each progress-payment request carries the prime''s certification that "All payments due to subcontractors
+    and suppliers from previous payments received under the contract have been made" [1429]'
+  - Interest a prime owes a subcontractor is not an obligation of the Government and cannot be claimed as a cost
+    [1428]; a payment dispute between a contractor and a subcontractor is not a dispute to which the United States
+    is a party [1430]
+  - 'Cost-reimbursement contracts: a prime may bill the Government for subcontract costs it has not yet paid only
+    if it pays "ordinarily within 30 days of the submission of the Contractor''s payment request to the Government"
+    [1433]'
+  - 'History: a DoD rule effective April 8, 2020 created DFARS 252.232-7017 (section 852, NDAA FY2019) [1425]; CAAC
+    Letter 2020-02 authorised a civilian class deviation in April 2020 (section 873, NDAA FY2020) [1424]; the FAR
+    final rule (88 FR 9730, FAR Case 2020-007) took effect March 16, 2023 [1423]; the DFARS page now reads "252.232-7017
+    Reserved." [1426]'
+  steps:
+  - 'Invoice properly: the prime''s 15-day duty runs after receipt of a proper invoice and all other required documentation
+    from the small business subcontractor [1421]'
+  - A subcontractor or supplier may tell the contracting officer it has not been paid; the officer may determine
+    whether the prime made payments in compliance with the subcontract, and may encourage timely payment or reduce
+    or suspend progress payments (FAR 32.112-1) [1439]
+  - If the prime's certification of payment was inaccurate, "the contracting officer shall initiate administrative
+    or other remedial action" [1439]
+  official_url: https://www.acquisition.gov/far/52.232-40
+  related:
+  - miller-act-bond-claim
+  - late-payment-reporting
+  - disputes-with-a-prime
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: FAR-overhaul numbering for Part 32 and the Part 52 payment clauses was not read in this slice. The codified
+      pages cited here show FAC 2026-01, effective 2026-03-13; only the Department of Labor's Part 44 deviation
+      was read [1493].
+  - status: announced
+    date: '2026-06-23'
+    text: Formal rulemaking on the FAR rewrite began with four proposed rules on June 23, 2026; per SBA Advocacy
+      the first batch does not include Parts 19, 32 or 44 [1494].
+  - status: announced
+    date: '2026-12-31'
+    text: The Prompt Payment interest rate is set half-yearly; the current notice covers July 1, 2026 through December
+      31, 2026 [1431].
+  as_of: '2026-10-03'
+  sources:
+  - 1421
+  - 1422
+  - 1423
+  - 1424
+  - 1425
+  - 1426
+  - 1427
+  - 1428
+  - 1429
+  - 1430
+  - 1431
+  - 1432
+  - 1433
+  - 1439
+  - 1448
+  - 1449
+  - 1493
+  - 1494
+  conflicts:
+  - No FAR text was found that sets a payment deadline for non-construction subcontracts other than FAR 52.232-40
+    and the 30-day billing condition in FAR 52.216-7 [1421] [1433]. The text of FAR 32.009-2 and 32.112-2 was not
+    returned [1422] [1439].
+- id: miller-act-bond-claim
+  name: Miller Act payment bond claim
+  governing_text: 40 U.S.C. 3131 and 3133; FAR 28.102-1 and 28.102-2; FAR 28.106-6
+  what: 'On federal construction above the threshold the prime furnishes a payment bond, which protects those supplying
+    labor and material [1434]. An unpaid subcontractor or supplier claims on the bond by suit in federal district
+    court, after a 90-day wait and within one year [1435].
+
+    '
+  applies_when: A person who furnished labor or material on a bonded federal construction contract and has not been
+    paid in full within 90 days after the last labor or material; a person with a direct contract with a subcontractor
+    but none with the prime must also give the prime written notice [1435].
+  how_it_works:
+  - 'Threshold in the FAR: it "requires performance and payment bonds for any construction contract exceeding $150,000"
+    [1436]'
+  - 'Threshold in the statute as read: "Before any contract of more than $100,000 is awarded for the construction,
+    alteration, or repair of any public building or public work" [1434]'
+  - 'Contracts over $35,000 and up to $150,000: the contracting officer selects two or more payment protections
+    (payment bond, irrevocable letter of credit, tripartite escrow agreement, certificates of deposit, other security)
+    [1436]'
+  - 'Amount: above $150,000 the payment bond is 100 percent of the original contract price plus 100 percent of any
+    increase, and "the amount of the payment bond must be no less than the amount of the performance bond" [1437];
+    the statute sets it at the total amount payable under the contract unless the contracting officer finds that
+    impractical in writing [1434]'
+  - The inflation adjustment effective October 1, 2025 excluded the performance and payment bond thresholds [1464]
+  - A civil action may be brought if the claimant is not paid in full within 90 days after the last labor or material
+    (40 U.S.C. 3133(b)(1)) [1435]
+  - 'Second tier: written notice to the prime within 90 days from the last labor or material, by any means that
+    provides written, third-party verification (40 U.S.C. 3133(b)(2)) [1435]'
+  - Suit is in the name of the United States for the use of the claimant, in the U.S. District Court for the district
+    where the contract was to be performed, and "must be brought no later than one year after the day on which the
+    last of the labor was performed or material was supplied" [1435]
+  - A waiver of the right to sue is void unless in writing, signed by the person waiving, and executed after the
+    labor or material was furnished [1435]
+  - 'Pay-when-paid: the Ninth Circuit held that a "pay when and if paid" clause did not bar the Miller Act payment
+    bond claim and that a waiver of Miller Act rights must be clear and explicit; one circuit only [1440]'
+  - 'Related: SBA guarantees bid, payment, performance and ancillary bonds for small contractors, on non-federal
+    contracts up to $9 million and federal contracts up to $14 million, with a guarantee fee of 0.6% of the contract
+    price for performance and payment bonds; the page does not say whether subcontracts qualify [1447]'
+  steps:
+  - Ask the contracting officer for the surety's name and address, the penal amount, and a copy of the payment bond;
+    a reasonable copying fee is allowed [1438]
+  - A certified copy of the bond and contract goes to anyone who files an affidavit of non-payment for labor or
+    material [1438] [1435]
+  - If second tier, give the prime written notice within 90 days from the last labor or material [1435]
+  - File suit in U.S. District Court after the 90 days and no later than one year after the last labor or material
+    [1435]
+  official_url: https://www.acquisition.gov/far/28.102-1
+  related:
+  - prompt-and-accelerated-payment
+  - disputes-with-a-prime
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: FAR-overhaul numbering for Part 28 was not read in this slice; the codified pages cited here show FAC
+      2026-01, effective 2026-03-13 [1436].
+  as_of: '2026-10-03'
+  sources:
+  - 1434
+  - 1435
+  - 1436
+  - 1437
+  - 1438
+  - 1440
+  - 1447
+  - 1464
+  conflicts:
+  - 'Bond threshold: FAR 28.102-1 says $150,000 [1436]; the text of 40 U.S.C. 3131 as read on Cornell LII says more
+    than $100,000 [1434]. Why the two differ was not traced to a primary source.'
+  - 40 U.S.C. 3132 and 3134 were not read; 13 CFR Part 115 (surety bond guarantee) was not read [1435] [1447].
+- id: flow-down-clauses
+  name: Flow-down clauses
+  governing_text: FAR 52.244-6 (Oct 2025); FAR 52.212-5(e) (Mar 2026); DFARS 252.244-7000 (NOV 2023); FAR 52.244-2
+    (Jun 2020); each clause's own subcontracts paragraph
+  what: 'A flow-down is a clause in the prime contract that the prime must repeat in its subcontracts. For a commercial
+    subcontract the FAR lists the clauses a prime must flow down and says "the Contractor may flow down to subcontracts
+    for commercial products or commercial services a minimal number of additional clauses necessary to satisfy its
+    contractual obligations" [1448]. Where the prime contract itself is commercial, "the Contractor is not required
+    to flow down any FAR clause, other than those in this paragraph (e)(1)" [1449].
+
+    '
+  applies_when: Any subcontract under a federal prime contract; the required lists apply to subcontracts for commercial
+    products and commercial services [1448] [1449], and each other clause sets its own trigger.
+  how_it_works:
+  - 'Commercial subcontract under a non-commercial prime contract, FAR 52.244-6(c)(1), 24 entries as returned: 52.203-13
+    (Nov 2021); 52.203-15 (Jun 2010); 52.203-17 (Nov 2023); 52.203-19 (Jan 2017); 52.204-21 (Nov 2021); 52.204-23
+    (Dec 2023); 52.204-25 (Nov 2021); 52.204-27 (Jun 2023); 52.204-30 (Dec 2023) and Alt I; 52.219-8 (Jan 2025);
+    52.222-21 (Apr 2015); 52.222-26 (Sept 2016); 52.222-35 (Jun 2020); 52.222-36 (Jun 2020); 52.222-37 (Jun 2020);
+    52.222-40 (Dec 2010); 52.222-50 (Oct 2025) and Alt I (Mar 2015); 52.222-55 (Jan 2022); 52.222-62 (Jan 2022);
+    52.224-3 (Jan 2017) and Alt I; 52.225-26 (Oct 2016); 52.232-40 (Mar 2023); 52.240-1 (Nov 2024); 52.247-64 (Nov
+    2021) [1448]'
+  - 'Commercial prime contract, FAR 52.212-5(e)(1), 27 entries as returned: 52.203-13; 52.203-17; 52.203-19; 52.204-23;
+    52.204-25; 52.204-27; 52.204-30; 52.219-8; 52.222-21; 52.222-26; 52.222-35; 52.222-36; 52.222-37; 52.222-40;
+    52.222-41; 52.222-50; 52.222-51; 52.222-53; 52.222-54; 52.222-55; 52.222-62; 52.224-3; 52.225-26; 52.226-6;
+    52.232-40; 52.240-1; 52.247-64 [1449]'
+  - 'DoD: no FAR or DFARS clause flows to a commercial subcontract unless that clause requires it (DFARS 252.244-7000,
+    as paraphrased by the fetch) [1450]'
+  - 'Basic safeguarding (FAR 52.204-21): fifteen safeguarding requirements, flowed to subcontracts, including commercial
+    ones other than COTS, "in which the subcontractor may have Federal contract information residing in or transiting
+    through its information system" [1452]'
+  - 'DFARS 252.204-7012: included in subcontracts for operationally critical support or involving covered defense
+    information, including commercial subcontracts, "without alteration, except to identify the parties"; the sub
+    notifies the prime when it asks the contracting officer to vary from a NIST SP 800-171 requirement and gives
+    the prime the DoD-assigned incident report number; cyber incidents are reported within 72 hours of discovery
+    [1453]'
+  - 'CMMC (DFARS 252.204-7021, NOV 2025): flows to subcontracts involving Federal contract information or controlled
+    unclassified information, excluding COTS items; before awarding, the prime checks that the sub holds a "current
+    CMMC status at the CMMC level that is appropriate for the information that is being flowed down"; affirmation
+    of continuous compliance before subcontract award and annually [1454]'
+  - 'Trafficking (FAR 52.222-50): "The Contractor shall include the substance of this clause, including this paragraph
+    (i), in all subcontracts and in all contracts with agents."; the compliance plan applies to any portion of a
+    contract or subcontract over $700,000 for non-COTS supplies acquired, or services performed, outside the United
+    States (figure as displayed; recheck) [1455]'
+  - 'E-Verify (FAR 52.222-54): subcontracts for services (other than commercial services that are part of a COTS
+    purchase) or construction, valued at "more than $3,500", with work performed in the United States [1456]'
+  - 'Service Contract Labor Standards (FAR 52.222-41): "The Contractor agrees to insert this clause in all subcontracts
+    subject to the Service Contract Labor Standards statute."; withholding, payment suspension and termination are
+    available for underpayment of wages or fringe benefits [1457]'
+  - 'Construction labor (FAR 52.222-11): eleven named labor clauses go into each construction subcontract; "The
+    prime Contractor shall be responsible for compliance by any subcontractor or lower tier subcontractor"; an SF
+    1413 within 14 days after contract award for each subcontract [1458]'
+  - 'Accelerated payment (FAR 52.232-40): the substance flows to all subcontracts with small business concerns,
+    including commercial products and services [1421]'
+  - 'Technical data and software (DFARS 252.227-7013 and 252.227-7014): flow without alteration, except to identify
+    the parties [1470] [1472]'
+  - 'Certified cost or pricing data: the prime inserts FAR 52.215-12 or 52.215-13 in each subcontract that "exceeds
+    the threshold for submission of certified cost or pricing data in FAR 15.403-4(a)(1)" [1460] [1461]; the threshold
+    is "$2.5 million for prime contracts awarded on or after July 1, 2018" ($950,000 before that date) and reaches
+    a subcontract at any tier if the contractor and each higher-tier subcontractor were required to furnish certified
+    data [1462]'
+  - 'Subcontractor data goes to the Government when the subcontract is $20 million or more, or both above the threshold
+    and more than 10 percent of the prime''s proposed price: "the contractor shall submit, or cause to be submitted
+    by the subcontractor(s), certified cost or pricing data to the Government" [1463]'
+  - 'Consent to subcontract (FAR 52.244-2): consent is not a determination of the acceptability of subcontract terms
+    or of cost allowability; "No subcontract or modification thereof placed under this contract shall provide for
+    payment on a cost-plus-a-percentage-of-cost basis"; the prime gives immediate written notice of any suit and
+    prompt notice of any claim by a subcontractor [1451]'
+  - 'Thresholds changed on October 1, 2025 (90 FR 41872, FAR Case 2024-001): simplified acquisition threshold $250,000
+    to $350,000; certified cost or pricing data $2,000,000 to $2,500,000; subcontracting plan $750,000 to $900,000
+    [1464]'
+  - 'A prime''s own terms, one company''s example: Lockheed Martin''s published general provisions for commercial
+    subcontracts set payment terms net 45 days, New York governing law with FAR-derived provisions "construed and
+    interpreted according to the federal common law of government contracts", stop-work for up to 90 days on written
+    notice, and termination for convenience at any time; an illustration from one company, not representative of
+    all primes [1467]'
+  steps: []
+  official_url: https://www.acquisition.gov/far/52.244-6
+  related:
+  - data-rights-as-a-subcontractor
+  - prompt-and-accelerated-payment
+  pending_changes:
+  - status: class-deviation
+    date: '2025-11-19'
+    text: 'Department of Labor class deviation adopting Revolutionary FAR Overhaul Part 44 (memo dated November
+      19, 2025; effective November 3, 2025; implements Executive Order 14275): 52.244-2 retained with no text changes;
+      52.244-5 retained with no changes; 52.244-6 "Retained, with streamlining updates to reflect other RFO changes
+      and references"; consent review checklist cut from 13 points to four situations. Other agencies issued their
+      own deviations; only this one was read, and the clause lists under the overhaul text were not read [1493].'
+  - status: announced
+    date: '2026-06-23'
+    text: Formal rulemaking on the FAR rewrite began with four proposed rules on June 23, 2026, with comments due
+      July 23, 2026; per SBA Advocacy the first batch does not include Parts 19, 32 or 44 [1494].
+  as_of: '2026-10-03'
+  sources:
+  - 1421
+  - 1448
+  - 1449
+  - 1450
+  - 1451
+  - 1452
+  - 1453
+  - 1454
+  - 1455
+  - 1456
+  - 1457
+  - 1458
+  - 1460
+  - 1461
+  - 1462
+  - 1463
+  - 1464
+  - 1467
+  - 1470
+  - 1472
+  - 1493
+  - 1494
+  conflicts:
+  - 'FAR 52.222-50: the compliance-plan threshold read as $700,000 on the clause page [1455]; the Federal Register
+    summary of the inflation rule did not list it [1464].'
+  - 'CMMC: only the codified clause was read here [1454]; the later status of the CMMC phase schedule was not checked
+    in this slice.'
+- id: data-rights-as-a-subcontractor
+  name: Data rights as a subcontractor
+  governing_text: FAR 52.227-14 (May 2014); FAR 52.227-11 (May 2014); FAR 52.215-1(e) (Nov 2021); DFARS 252.227-7013
+    and 252.227-7014 (AUG 2025); DFARS 252.227-7018 (AUG 2025); DFARS 227.7103-15; DFARS 252.227-7017 (JAN 2025);
+    10 U.S.C. 3771 and 3782; SBA SBIR/STTR Policy Directive (May 2023) § 4(c)(5) and § 8(b)(2)
+  what: 'The rules on what the Government and the prime can do with technical data, software and inventions a subcontractor
+    brings or creates. For DoD work, "10 U.S.C. 3771 provides subcontractors at all tiers the same protection for
+    their rights in data as is provided to prime contractors." [1471]. Under the civilian clause, "The Contractor
+    shall obtain from its subcontractors all data and rights therein necessary to fulfill the Contractor''s obligations
+    to the Government under this contract." [1468]
+
+    '
+  applies_when: A subcontract under which technical data or software is delivered to the Government, where the DoD
+    clauses flow without alteration [1470] [1472], and any subcontract for experimental, developmental or research
+    work, where the patent rights clause flows [1469].
+  how_it_works:
+  - 'DoD policy (DFARS 227.7103-15): subcontractors may deal directly with the Government on validation of their
+    markings (10 U.S.C. 3782) and cannot be made to give up rights as a condition of award; clauses to flow: 252.227-7013,
+    252.227-7025, 252.227-7028, 252.227-7037 [1471]'
+  - 'DFARS 252.227-7013 (AUG 2025), paragraph (l): flows without alteration, except to identify the parties; a subcontractor''s
+    technical data may be submitted directly to the Government rather than through a higher tier; primes "shall
+    not use their power to award contracts as economic leverage to obtain rights in technical data from their subcontractors
+    or suppliers" [1470]'
+  - 'Software (DFARS 252.227-7014): the prime must "require its subcontractors or suppliers to do so, without alteration,
+    except to identify the parties" [1472]'
+  - 'Private expense: developed exclusively at private expense means costs charged to indirect cost pools, costs
+    not allocated to a Government contract, or any combination [1470]'
+  - 'Assertions list (DFARS 252.227-7017): covers assertions by the offeror, its subcontractors or suppliers, and
+    potential subcontractors or suppliers; it is submitted as an attachment to the offer and carries the warning
+    "may render the offer ineligible for award" [1474]'
+  - 'Civilian clause (FAR 52.227-14): if a subcontractor refuses terms giving the Government the required rights,
+    the prime notifies the contracting officer and does not award without written authorization [1468]'
+  - 'Civilian clause: the contractor may withhold qualifying limited rights data and restricted computer software,
+    identifying what is withheld and furnishing form, fit and function data instead; the clause as returned contains
+    no express right for a subcontractor to deliver directly to the Government [1468]'
+  - 'Markings: unauthorized markings can be cancelled or ignored after a 60-day written inquiry procedure [1468];
+    the DoD limited rights and restricted rights legends name the contract number, contractor name and address [1470]
+    [1472]'
+  - 'Patents (FAR 52.227-11): the substance is included in all subcontracts for experimental, developmental or research
+    work; "The Contractor shall not, as part of the consideration for awarding the subcontract, obtain rights in
+    the subcontractor''s subject inventions."; disclosure within 2 months, election to retain title within 2 years,
+    patent application within 1 year after election [1469]'
+  - 'Proposal data (FAR 52.215-1(e)): a title-page legend plus a per-sheet legend: "Use or disclosure of data contained
+    on this sheet is subject to the restriction on the title page of this proposal." [1476]'
+  - 'SBIR/STTR: data rights apply to all SBIR/STTR awards, including subcontracts or subgrants (Policy Directive
+    § 8(b)(2)); "A subcontract to a Federally-funded prime contract may be a Phase III award." [1475]'
+  - 'SBIR/STTR under DoD (DFARS 252.227-7018, AUG 2025): protection begins on the date of award of the contract
+    under which the data are generated and ends 20 years after that date; "After the SBIR/STTR data protection period
+    expiration date shown above, the Government has perpetual government purpose rights"; paragraph (l) carries
+    the unaltered flow-down, the leverage ban and direct delivery by subcontractors [1473]'
+  steps:
+  - 'Give the prime, before the offer goes in, the entries for its assertions list: data or software to be furnished
+    with restrictions; basis for assertion; asserted rights category; name of person asserting restrictions [1474]'
+  - Use the legend the clause prescribes; the DoD legends name the contract number, contractor name and address
+    [1470] [1472]
+  official_url: https://www.acquisition.gov/dfars/227.7103-15-subcontractor-rights-technical-data.
+  related:
+  - flow-down-clauses
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: FAR-overhaul numbering for the Part 27 and 52.227 clauses was not read in this slice; the FAR pages cited
+      show FAC 2026-01, effective 2026-03-13, and the DFARS policy page shows DFARS Change 2026-05-07 [1468] [1471].
+  - status: pending-implementation
+    date: ''
+    text: The SBIR.gov policies page still offers only the May 2023 Policy Directive [1475]; the sweep notes, without
+      verifying it in this slice, that a revision is expected after the 2026 reauthorization.
+  as_of: '2026-10-03'
+  sources:
+  - 1468
+  - 1469
+  - 1470
+  - 1471
+  - 1472
+  - 1473
+  - 1474
+  - 1475
+  - 1476
+  conflicts: []
+- id: disputes-with-a-prime
+  name: Disputes with a prime
+  governing_text: 41 U.S.C. 7101 and 7103; FAR 44.203; FAR 52.244-2 (Jun 2020); 4 CFR 21.0 and 21.5; 31 U.S.C. 3905(i)-(j);
+    15 U.S.C. 644(k)(6); FAR 32.112-1; FAR 52.219-9 (Jan 2025); FAR 52.219-16 (Sep 2021); 13 CFR 125.3(c)
+  what: 'A subcontractor has no contract with the Government. Contract Disputes Act claims are claims by a contractor,
+    defined as "a party to a Federal Government contract other than the Federal Government" [1482] [1483]. The Federal
+    Circuit put it this way: "Government consents to be sued only by those with whom it has privity of contract,
+    which it does not have with subcontractors." [1485]
+
+    '
+  applies_when: Any subcontractor in dispute with its prime, or with a claim that must travel through the prime
+    because the Government has no privity with subcontractors [1485] [1484].
+  how_it_works:
+  - '"Each claim by a contractor against the Federal Government relating to a contract shall be submitted to the
+    contracting officer for a decision."; in writing, within 6 years after accrual [1483]'
+  - 'Pass-through: a prime may sue for its subcontractor''s costs; under the Severin doctrine the burden is on the
+    Government to prove the prime is not responsible to the subcontractor [1485]'
+  - 'FAR 44.203: the contracting officer will not consent to subcontracts obligating him to deal directly with the
+    subcontractor; a subcontract may give an indirect appeal, meaning "assertion by the subcontractor of the prime
+    contractor''s right to appeal or the prosecution of an appeal by the prime contractor on the subcontractor''s
+    behalf", and may provide that prime and subcontractor are equally bound by the contracting officer''s or board''s
+    decision [1484]'
+  - The prime gives the contracting officer immediate written notice of any suit and prompt notice of any claim
+    by a subcontractor [1451]
+  - 'GAO: an interested party is an actual or prospective bidder or offeror (4 CFR 21.0(a)(1)); "GAO will not consider
+    a protest of the award or proposed award of a subcontract" except on agency request (21.5(h)); contract administration
+    is outside GAO''s protest function (21.5(a)) [1487]'
+  - 'Construction payment: interest owed by a prime is not a federal obligation, and contractor–subcontractor disputes
+    are not disputes with the United States (31 U.S.C. 3905(i)-(j)) [1430]'
+  - 'OSDBU: each agency''s small business office has a statutory duty covering payments, late payment interest penalties,
+    and "information regarding payments due to such concerns from an executive agency or a contractor" (15 U.S.C.
+    644(k)(6)) [1489]'
+  - 'SBA National Ombudsman: takes small-business comments about federal agency enforcement (fines, audits, inspections);
+    nothing on its page offers help with a prime contractor [1488]'
+  - 'Subcontracting plan: failure to comply in good faith is a material breach (FAR 52.219-9(k)) [1374]; liquidated
+    damages are "the actual dollar amount by which the Contractor failed to achieve each subcontract goal" [1492]'
+  - 'Plan assurances that protect small subcontractors: a good-faith effort to buy from the small businesses used
+    in preparing the bid or proposal, with a written explanation within 30 days of contract completion if not; unsuccessful
+    small business subcontract offerors are told the name and location of the apparent successful offeror [1374]'
+  - A prime that names a small business as a subcontractor in a proposal must notify it in writing beforehand (13
+    CFR 125.3(c)(8)) [1442]
+  - SBA Commercial Market Representatives conduct Subcontracting Program Compliance Reviews of large primes, per
+    SBA's June 2010 handbook; a non-compliant prime "may be found in material breach of contract and terminated
+    for default, or liquidated damages may be imposed" [1375]
+  steps:
+  - A subcontractor may assert non-payment to the contracting officer, who may look into it and may encourage payment
+    or reduce or suspend the prime's progress payments [1439]
+  - The prime "will not prohibit a subcontractor from discussing with the Contracting Officer any material matter
+    pertaining to payment to or utilization of a subcontractor" [1374]; SBA's rule says the same [1442]
+  official_url: https://www.acquisition.gov/far/44.203
+  related:
+  - late-payment-reporting
+  - miller-act-bond-claim
+  - prompt-and-accelerated-payment
+  pending_changes:
+  - status: proposed
+    date: '2026-06-23'
+    text: FAR Part 33 (protests, disputes and appeals) is in the first batch of FAR-overhaul proposed rules issued
+      June 23, 2026; comments were due July 23, 2026 [1494].
+  - status: class-deviation
+    date: '2025-11-19'
+    text: Part 44 is in use by agency class deviation. The Department of Labor's (memo dated November 19, 2025;
+      effective November 3, 2025) retains 52.244-2 with no text changes and cuts the consent review checklist from
+      13 points to four situations; the deviation numbering of FAR 44.203 was not read [1493].
+  as_of: '2026-10-03'
+  sources:
+  - 1374
+  - 1375
+  - 1430
+  - 1439
+  - 1442
+  - 1451
+  - 1482
+  - 1483
+  - 1484
+  - 1485
+  - 1486
+  - 1487
+  - 1488
+  - 1489
+  - 1490
+  - 1492
+  - 1493
+  - 1494
+  conflicts:
+  - 'Secondary only: a law-firm note reports ASBCA decisions in Sauer Inc., No. 62295 (August 13, 2025 and November
+    18, 2025) accepting conditional liability, where the prime agrees to pay the sub as and when it recovers from
+    the Government, as satisfying the Severin doctrine; the Board decisions were not fetched [1486].'
+  - 'Secondary only and not current law: a 2019 commentary describes a bill-stage provision (section 831 of a 2020
+    NDAA draft) for a formal OSDBU non-payment process; enactment was not verified [1490].'
+  - 15 U.S.C. 644(k) was read on Cornell LII and truncated at duty (16); later duties were not read [1489].
+- id: past-performance-as-a-subcontractor
+  name: Past performance as a subcontractor
+  governing_text: FAR 15.305(a)(2); FAR 42.1502; 13 CFR 125.11; 13 CFR 125.2(g); 13 CFR 125.8(e); CPARS Guidance
+    § 2.5 and § 2.13
+  what: 'CPARS does not rate subcontractors: "Evaluations are not completed for subcontractors." [1500]. A small
+    first-tier subcontractor on a prime contract that had a subcontracting plan may ask its prime for a written
+    performance rating to use in its own bids [1496].
+
+    '
+  applies_when: Small first-tier subcontractors where the prime contract had a subcontracting plan, and small joint-venture
+    members [1496].
+  how_it_works:
+  - 'CPARS: the prime is assessed on how it manages subcontractors (Guidance § 2.13); a formal joint venture gets
+    a single evaluation under its own Unique Entity ID, otherwise only the named prime is evaluated (§ 2.5) [1500]'
+  - The request goes to the prime within 30 days after completion of the period of performance; the prime responds
+    within 15 calendar days of the request [1496]
+  - 'Scale: Exceptional, Very Good, Satisfactory, Marginal, Unsatisfactory; factors: technical (quality), cost control,
+    schedule/timeliness, management or business relations, other [1496]'
+  - The agency "shall consider the concern's experience and rating of past performance as a first-tier subcontractor"
+    [1496]
+  - A small joint-venture member may request and use such a rating in the same way [1496]
+  - 'Origin: SBA final rule 87 FR 43731, effective August 22, 2022, implementing section 868 of NDAA FY2021; the
+    final rule dropped a three-year age limit on the performance used [1497]'
+  - 'A small prime''s team: when a small prime''s offer identifies a team of small business first-tier subcontractors,
+    "the head of the agency must consider the capabilities, past performance, and experience of each first tier
+    subcontractor that is part of the team" if the prime''s own do not independently suffice (13 CFR 125.2(g)) [1498]'
+  - 'FAR 15.305(a)(2)(iii): evaluators should take into account predecessor companies, key personnel, and subcontractors
+    performing major or critical aspects; with no record, "the offeror may not be evaluated favorably or unfavorably
+    on past performance" [1495]'
+  - 'Joint ventures: the agency "must consider work done and qualifications held individually by each partner to
+    the joint venture" (13 CFR 125.8(e)) [1499]; a small member "cannot identify and use as its own experience and
+    past performance work that was performed exclusively by other partners to the joint venture" [1497]'
+  - FAR 42.1502 states evaluation thresholds for contracts and orders held by the contractor (each contract or order
+    exceeding the simplified acquisition threshold; construction contracts of $900,000 or more; architect-engineer
+    services contracts of $45,000 or more); nothing returned provides for evaluating a subcontractor [1501]
+  steps:
+  - Request the written rating from the prime within 30 days after the period of performance is complete [1496]
+  - The prime has 15 calendar days to respond; the subcontractor may notify the contracting officer if the prime
+    does not comply [1496]
+  official_url: https://www.ecfr.gov/current/title-13/chapter-I/part-125/section-125.11
+  related:
+  - late-payment-reporting
+  - size-at-subcontract
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: FAR-overhaul numbering for FAR 15.305 and 42.1502 was not read in this slice; the codified pages cited
+      show FAC 2026-01, effective 2026-03-13 [1495] [1501].
+  as_of: '2026-10-03'
+  sources:
+  - 1495
+  - 1496
+  - 1497
+  - 1498
+  - 1499
+  - 1500
+  - 1501
+  conflicts: []
+- id: late-payment-reporting
+  name: Late-payment reporting by the prime
+  governing_text: 15 U.S.C. 637(d)(13); 13 CFR 125.3(c); FAR 52.242-5 (Jan 2017); FAR 52.219-9(d)(15) (Jan 2025);
+    FAR 52.219-8 (Jan 2025); FAR 42.1503; FAR 19.702
+  what: 'On a contract that requires a subcontracting plan, a prime that pays a small-business subcontractor a reduced
+    price or pays late must notify the contracting officer in writing and give the reason [1443] [1441]. An unjustified
+    failure counts in the prime''s past performance evaluation [1443] [1446].
+
+    '
+  applies_when: Small-business subcontractors under a prime whose contract requires a subcontracting plan [1443].
+    Plans are required above $900,000 generally and $2 million for construction under FAR 19.702, and are not required
+    from small business concerns [1465].
+  how_it_works:
+  - 'Statute (2024 edition): written notice when the prime pays a reduced price or "the payment to a subcontractor
+    is more than 30 days past due for goods or services provided for the covered contract", for work the agency
+    has paid the prime for [1443]'
+  - 'FAR clause as displayed: untimely payment is "a payment that is more than 90 days past due under the terms
+    and conditions of a subcontract", for supplies and services for which the Government has paid the prime [1441]'
+  - 'SBA regulation as displayed (13 CFR 125.3(c)(5)): the prime notifies the contracting officer if it pays a reduced
+    price or payment is more than 90 days past due [1442]'
+  - Written notice to the contracting officer not later than 14 days after the event, giving the reason [1441]
+  - The subcontracting plan carries an assurance to pay small business subcontractors on time and notify the contracting
+    officer of reduced or untimely payment (FAR 52.219-9(d)(15)) [1374]
+  - Primes must "establish procedures to ensure the timely payment of amounts due pursuant to the terms of their
+    subcontracts" (FAR 52.219-8) [1491]
+  - 'Past performance: small business subcontracting, including reduced or untimely payments to small business subcontractors,
+    is an evaluation factor [1446]'
+  - 'FAPIIS: a report is made when a contractor has "a history of three or more unjustified reduced or untimely
+    payments to small business subcontractors under a single contract within a 12-month period", within 3 calendar
+    days (FAR 42.1503(h)) [1446]'
+  - 'Statute: the contracting officer shall consider the unjustified failure in evaluating the prime and may enter
+    or modify past performance information before or after close-out; the prime must cooperate once an unjustified
+    failure is determined [1443]'
+  - '"The contractor may not prohibit a subcontractor from discussing any material matter pertaining to payment
+    or utilization with the contracting officer" (13 CFR 125.3(c)(1)(iii)) [1442]'
+  - 'Origin: FAR final rule 81 FR 93481 (FAR Case 2014-004), effective January 19, 2017, implementing section 1334
+    of the Small Business Jobs Act of 2010; it created FAR 52.242-5 and the FAPIIS reporting [1445]'
+  steps:
+  - The duty to report is the prime's; a subcontractor that is unpaid may itself assert non-payment to the contracting
+    officer, who may encourage payment or reduce or suspend the prime's progress payments [1439]
+  official_url: https://www.acquisition.gov/far/52.242-5
+  related:
+  - prompt-and-accelerated-payment
+  - disputes-with-a-prime
+  - past-performance-as-a-subcontractor
+  pending_changes:
+  - status: proposed
+    date: '2024-12-19'
+    text: 'SBA proposed rule 89 FR 103709 (RIN 3245-AI09) would bring 13 CFR 125.3 into line with section 862 of
+      the FY2024 NDAA (Pub. L. 118-31) by cutting the reporting trigger from 90 to 30 days and adding a duty to
+      cooperate: "The prime contractor has the duty to cooperate with the contracting officer until the subcontractor
+      receives full payment". Comments were due February 18, 2025; no final rule was found in this sweep [1444].'
+  - status: class-deviation
+    date: ''
+    text: FAR-overhaul numbering for Parts 19 and 42 and for clauses 52.219-8, 52.219-9 and 52.242-5 was not read
+      in this slice; the codified pages cited show FAC 2026-01, effective 2026-03-13 [1441]. Per SBA Advocacy, the
+      first batch of FAR-overhaul proposed rules (June 23, 2026) does not include Part 19 [1494].
+  as_of: '2026-10-03'
+  sources:
+  - 1374
+  - 1439
+  - 1441
+  - 1442
+  - 1443
+  - 1444
+  - 1445
+  - 1446
+  - 1464
+  - 1465
+  - 1491
+  - 1494
+  conflicts:
+  - 'Late-payment trigger: more than 30 days past due in 15 U.S.C. 637(d)(13), 2024 edition [1443]; more than 90
+    days in FAR 52.242-5 as displayed [1441] and in 13 CFR 125.3(c)(5) as displayed [1442]. Whether SBA finalised
+    RIN 3245-AI09, and whether a FAR case is open, was not established [1444].'
+  - 'Subcontracting-plan threshold: $900,000 and $2 million for construction in FAR 19.702 [1465] and in the 2025
+    inflation rule [1464]; $750,000 and $1,500,000 in 13 CFR 125.3 as it reads [1442].'
+- id: size-at-subcontract
+  name: Size at subcontract
+  governing_text: 13 CFR 121.404(g); 13 CFR 121.410; 13 CFR 121.411; 13 CFR 121.104; 13 CFR 121.106; 13 CFR 125.12;
+    13 CFR 121.103; FAR 52.219-8 (Jan 2025)
+  what: '"For subcontracting purposes, a concern must qualify as small as of the date that it certifies that it
+    is small for the subcontract." [1502]. The subcontractor is small if "it does not exceed the size standard for
+    the NAICS code that the prime contractor believes best describes the product or service being acquired" by the
+    subcontract [1506].
+
+    '
+  applies_when: 'Each time a firm represents itself as small for a subcontract: "A subcontractor must still qualify
+    and self-certify as a small business at the time it submits its offer" [1507].'
+  how_it_works:
+  - Primes may rely on SAM as an accurate representation of size and ownership [1507]; under FAR 52.219-8 a prime
+    may accept a size representation in writing or through SAM, and contractors may not require the use of SAM for
+    size or status representations [1491]
+  - 'Receipts: all revenue from whatever source, averaged over the most recently completed five fiscal years, with
+    affiliates'' average receipts added; "All other items, such as subcontractor costs ... may not be excluded from
+    receipts." [1504]'
+  - 'Employees: the average "based upon numbers of employees for each of the pay periods for the preceding completed
+    24 calendar months", including employees of domestic and foreign affiliates [1505]'
+  - 'Protest and penalties: a subcontractor''s size may be protested by the contracting officer, the prime, the
+    SBA official or any other interested party; misrepresentation carries suspension or debarment, False Claims
+    Act civil penalties, criminal penalties [1507]'
+  - 'Competitive subcontracts over the simplified acquisition threshold: unsuccessful offerors are told the name
+    and location of the apparent successful offeror [1507]'
+  - 'Recertification on prime contracts (13 CFR 125.12): "Recertification of size and small business program status
+    is required within 30 calendar days of a merger, acquisition, or sale of or by a concern"; on long-term contracts,
+    no more than 120 days before the end of the fifth year and before each option thereafter; growth alone between
+    those events is not listed as a trigger in what was returned [1503]'
+  - 'Dependence on one customer: a concern that derived 70% or more of its receipts from another concern over the
+    previous three fiscal years is presumed affiliated with it, rebuttably (13 CFR 121.103(f)(2)) [1481]'
+  - 'Joint ventures: "a specific joint venture generally may not be awarded contracts beyond a two-year period,
+    starting from the date of the award of the first contract" without the partners being deemed affiliated [1481]'
+  - 'Ostensible subcontractor: one that is not a similarly situated entity and performs primary and vital requirements,
+    or on which the prime is unusually reliant (13 CFR 121.103(h)(3)) [1481]'
+  steps:
+  - Check size as of the date of certifying for each subcontract, against the NAICS code the prime assigns to it
+    [1502] [1506]
+  official_url: https://www.ecfr.gov/current/title-13/chapter-I/part-121/subpart-A/subject-group-ECFRd133f03f6d8398b/section-121.404
+  related:
+  - past-performance-as-a-subcontractor
+  pending_changes:
+  - status: final
+    date: '2026-09-29'
+    text: 13 CFR 125.12 shows a last amendment date of 2026-09-29; the content of that amendment was not identified,
+      and paragraph (g) uses January 17, 2026 as a transition date [1503].
+  - status: class-deviation
+    date: ''
+    text: FAR-overhaul numbering for FAR 52.219-8 was not read in this slice; the codified page cited shows FAC
+      2026-01, effective 2026-03-13 [1491].
+  as_of: '2026-10-03'
+  sources:
+  - 1481
+  - 1491
+  - 1502
+  - 1503
+  - 1504
+  - 1505
+  - 1506
+  - 1507
+  conflicts: []

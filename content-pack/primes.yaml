@@ -1,0 +1,790 @@
+# primes.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+- id: lockheed-martin
+  name: Lockheed Martin
+  supplier_portal_url: https://podio.com/webforms/8182136/612474
+  portal_note: Registration is by submitting marketing information in the Supplier Marketing Portal [1301].
+  registration_asks:
+  - 'Portal profile: "Include all NAICS codes" [1302]'
+  - '"Include self-certified size according to the Small Business Administration''s size standard" [1302]'
+  - '"Be sure to include your quality certifications and clearances" [1302]'
+  - The FAQ does not itemise the portal's fields; it says "Clearly state your size and status in your online submission"
+    [1301]
+  liaison_named:
+    status: office-or-mailbox
+    text: 'The FAQ says SBLOs are often more accessible for conversation and offers a link to request one; no SBLO
+      is named on the pages read [1301]. Mailboxes given: Supplier.Communications@lmco.com (step 4 of the marketing
+      guide) [1302] and supplier.communications@lmco.com for the mentor-protégé programme [1304].'
+  programs:
+  - name: Mentor-Protégé Program
+    authority: Government agency programmes; the company names no single one as its own. The Programs page links
+      the mentor-protégé pages of the Department of Defense, Department of Energy, Department of Homeland Security,
+      EPA, FAA and NASA [1304]; the Resources page links "DOD Mentor/Protégé Program" and "SBA Mentor Protege Program"
+      [1305].
+    text: '"The Mentor Protégé Program is a government outreach program designed to encourage large defense contractors
+      to develop technical and business capabilities of small businesses" [1304]. "Formal mentoring is done under
+      a Mentor Protégé contract tied to a government contract" [1301].'
+  - name: SBIR directory
+    authority: Small Business Innovation Research Program, as the page names it [1302].
+    text: 'Step 5 of the marketing guide, for R&D firms: "Subscribe to the Lockheed Martin Small Business Innovation
+      Research Program (SBIR) directory"; contact page https://www.lockheedmartin.com/en-us/suppliers/sbir/sbir-contact.html
+      [1302].'
+  selection_statement: '"Most opportunities will be by invitation to participate in a competitive bid" [1301]. "Lockheed
+    Martin anticipates subcontracting requirements as part of the contract bid process." [1301]'
+  forecast_statement: No forecast is published on the pages read. "Opportunities do not exist in all areas at all
+    times"; windows of opportunity "might be on an annual basis or as far out as ten years" [1301]. The marketing
+    guide names an annual report, Business Areas pages, a "What We Buy" Directory and a Corporate Agreements Listing
+    as research sources and points to an events calendar [1302]; the small-business landing page lists an "Upcoming
+    Events Calendar" [1303].
+  also_states:
+  - '"it is the corporation''s policy to facilitate its negotiated contracting goals to small and small disadvantaged
+    businesses, HUBZone, women- and veteran-owned small businesses" [1303]'
+  - The Programs page also mentions the Veteran Institute for Procurement and an AbilityOne contact [1304]
+  - The Resources page links SAM, SBA size standards, SubNet, eSRS, NIST and CISA small-business cybersecurity material
+    and APTAC; several links are legacy addresses (fbo.gov, fpds.gov, dss.mil), as printed on the page [1305]
+  unreadable:
+  - The Supplier Marketing Portal form (podio.com) was disallowed by robots.txt; its fields were not read.
+  - Capability statement, CMMC attestation and insurance requirements are not stated on the pages fetched.
+  as_of: '2026-10-03'
+  sources:
+  - 1301
+  - 1302
+  - 1303
+  - 1304
+  - 1305
+- id: rtx
+  name: RTX (Collins Aerospace, Pratt & Whitney, Raytheon)
+  supplier_portal_url: https://rtx.supplierone.co/
+  portal_note: 'One registration link for all three businesses: "To be considered as a potential supplier for Collins
+    Aerospace, Pratt & Whitney, or Raytheon, complete the registration process via the RTX potential supplier registration
+    link" [1306]. Current suppliers register for invoicing at https://register.transcepta.com/supplier/rtx [1307].'
+  registration_asks:
+  - The page does not say what the registration form asks for [1306]
+  liaison_named:
+    status: office-or-mailbox
+    text: SBLO mailboxes are listed for Collins Aerospace, Pratt & Whitney, Raytheon and RTX Corporate; the addresses
+      were obfuscated in the fetch and were not captured [1306].
+  programs:
+  - name: Mentor-protégé (event listing only)
+    authority: 'Not stated: the pages read make no statement of RTX''s own participation in a mentor-protégé programme
+      [1306].'
+    text: The small-business page lists "2026 DoW Mentor Protégé Summit" among outreach events [1306].
+  selection_statement: ''
+  forecast_statement: ''
+  also_states:
+  - 'Cybersecurity: suppliers handling covered defense information must have a NIST SP 800-171 assessment and post
+    summary scores to SPRS: "Completed at least Basic Assessment within the last three years for all covered contractor
+    information systems." [1308]'
+  - '"Will be required to have an active CMMC certification at the appropriate level, as defined within the Prime
+    Contract or Solicitation"; the page says Phase I CMMC implementation began November 10, 2025 [1308]'
+  - Supplier Quality Requirements Documents (ASQR) at https://www.rtx.com/suppliers/supplier-quality-requirements;
+    the supplier hub posts "RTX Corporation notice regarding proposed DFARS rule" (June 2026) [1307]
+  unreadable:
+  - rtx.supplierone.co rendered empty (JavaScript app); the registration fields are unrecorded.
+  - SBLO mailbox addresses came back obfuscated and are not captured.
+  as_of: '2026-10-03'
+  sources:
+  - 1306
+  - 1307
+  - 1308
+- id: boeing
+  name: Boeing
+  supplier_portal_url: https://www.boeingsuppliers.com/become
+  portal_note: 'Enterprise Supplier LifeCycle (ESLC) Portal, entered by an invitation requested by email: "The first
+    step for companies wishing to become Boeing suppliers is to register its capabilities in the Enterprise Supplier
+    LifeCycle (ESLC) Portal." [1309]'
+  registration_asks:
+  - 'Email boeingassessment@boeing.com with: contact name, title, email, phone; full company name; full company
+    address; business size [1309]'
+  - 'US small businesses: "Register your company profile into the U.S. government''s System for Award Management
+    (SAM) database." [1309]'
+  - '"All aspiring suppliers need to register their companies and keep their supplier information up to date on
+    the Boeing Supplier Capability Assessment Database." [1310]'
+  liaison_named:
+    status: none
+    text: No small-business liaison is named; enquiries go to doingbusinesswithboeing@boeing.com [1310]. The legacy
+      getstart address serves a short entry page with no small-business liaison, mentor-protégé or selection text
+      [1311].
+  programs: []
+  selection_statement: The supplier development page lists what Boeing looks for, including "a successful business
+    model, with a skilled management team" [1310].
+  forecast_statement: None published on the pages read. "Registering with us allows internal stakeholders to access
+    your company's information but will not guarantee business and/or contracts with Boeing." [1310]
+  also_states: []
+  unreadable:
+  - What the ESLC capability assessment asks is not stated on the page; the portal is by invitation and was not
+    read.
+  - The two legacy-URL pages (supplier_diversity.html, esd/getstart.html) were read only in part.
+  as_of: '2026-10-03'
+  sources:
+  - 1309
+  - 1310
+  - 1311
+- id: northrop-grumman
+  name: Northrop Grumman
+  supplier_portal_url: https://oasis-sbeforms.myngc.com/
+  portal_note: 'Supplier Information Form (Potential Supplier Portal): "Welcome to Northrop Grumman''s Potential
+    Supplier Portal and thank you for your interest in working with our company." [1314]. The SBLO list says "Please
+    complete the Supplier Information Form if you are interested in subcontracting opportunities." [1313]. The doing-business
+    page links OASIS onboarding material and does not itself print the registration URL [1312].'
+  registration_asks:
+  - 'Identity: legal name, DBA, parent, address, congressional district, website, year founded, average revenue
+    (last 5 years), full-time employees, DUNS Number, Unique entity identifier, CAGE Code [1314]'
+  - Asks "Is Company Registered In System For Award Management?" [1314]
+  - 'Clearance: facility security clearance, level (Confidential, Secret, Top Secret), date obtained, number of
+    cleared employees [1314]'
+  - 'Quality: registered or certified quality system (ISO9001, AS9100, AS9120, FAR 145, FAR Part 21); further standards
+    listed (AS9003, AS9006, AS9110, NADCAP AC7004, ISO 17025) [1314]'
+  - 'Cybersecurity: "Are you compliant with cybersecurity requirements? (DFAR/NIST 800-171, CMMC)" with CMMC level
+    selection [1314]'
+  - 'Categories: Small Business, AbilityOne, Alaskan Native Corporation, Disability Owned, EDWOSB, SDVOSB, SDB,
+    WOSB, VOSB; ethnicity options [1314]'
+  - 'Capability: commodities, keywords, UNSPSC codes, primary NAICS codes [1314]'
+  - 'Experience: key customers, federal primes in last two years, % federal business, GWACs/GSA Schedules, OCONUS,
+    OEM partnerships, non-traditional defense contractor status, start-up status, OTA experience [1314]'
+  - 'SBIR/STTR: proposals and awards in last 3 years, phases, agencies; protégé programme history (year, mentor,
+    sponsoring agency) [1314]'
+  - 'Attachments: up to 4 capability statements, line cards or overviews [1314]'
+  liaison_named:
+    status: person
+    text: '"Potential suppliers (Small or Large) should utilize the Small Business Liaison Officers (SBLO) as their
+      initial point of contact at Northrop Grumman." [1312]. A one-page list dated 2025-10-20 names SBLOs with ngc.com
+      emails by sector (Aeronautics Systems, Defense Systems, Mission Systems, Space Systems), each with a sector
+      manager: Vicky Harper-Hall (Aeronautics), Carla Undurraga (Defense), Tiffany Esther (Mission), Kristen Collins
+      (Space) [1313].'
+  programs:
+  - name: Protégé history (asked on the form)
+    authority: 'Not stated: the company pages read do not describe a mentor-protégé programme [1312].'
+    text: The supplier form asks for protégé programme history (year, mentor, sponsoring agency) [1314].
+  selection_statement: ''
+  forecast_statement: ''
+  also_states:
+  - '"The information collected is for internal use only and will not be shared with outside parties." [1314]'
+  - OASIS account onboarding FAQ (PDF) and OASIS dashboard login are linked for suppliers; support OASISsupport@ngc.com
+    [1312]
+  unreadable:
+  - 'SBLO count unresolved: the extraction header said 19; the names it listed total 22 (7 + 4 + 5 + 6).'
+  - Insurance is not asked on the form as captured.
+  as_of: '2026-10-03'
+  sources:
+  - 1312
+  - 1313
+  - 1314
+- id: general-dynamics
+  name: General Dynamics (corporate, GDIT, Mission Systems)
+  supplier_portal_url: https://suppliers.gendyn.com/
+  portal_note: General Dynamics Enterprise Supplier Registration Portal (ESRP) [1315]. GDIT gives the registration
+    URL https://suppliers.gendyn.com/Default.aspx [1318]; Mission Systems says to register at https://suppliers.gendyn.com/
+    [1322].
+  registration_asks:
+  - Registration should include products and services, socio-economic/business certifications, and relevant customer
+    past performance [1315]
+  - 'GDIT: "Use accurate and descriptive keywords to allow your company to stand out in searches" [1318]'
+  - 'GDIT: "Upload capability documents that provide additional company information" [1318]'
+  - 'Mission Systems: select Create An Account, type "I agree" to accept the Terms of Use; complete CAPABILITIES
+    and DOCUMENTS sections [1322]'
+  - GDIT's register page links SAM, MySBA Certifications (certifications.sba.gov) and the VetBiz portal [1318]
+  liaison_named:
+    status: person
+    text: '"Each GD business unit has its own Small Business Liaison Officers"; the full SBLO list is on the ESRP
+      [1315]. The April 2026 fact sheet names one SBLO per business unit: Gulfstream — Alecia Breen; Land Systems
+      — Malaya Abed; Ordnance and Tactical Systems — Dwyane Tyree; Bath Iron Works — Julie Letourneau; Electric
+      Boat — Jea Hur; NASSCO — Shawn Sanders; GDIT — Virginia Foley; Mission Systems — Suzanne Trinh [1316]. Mission
+      Systems names Suzanne Trinh (Group Lead, San Diego, CA) and Stephanie Poppe (Scottsdale, AZ), with the mailbox
+      smallbusiness@gd-ms.com [1322].'
+  programs:
+  - name: Formal mentor-protégé programmes
+    authority: 'The corporate page names four agencies'' programmes: DoD, DHS, FAA, SBA [1315]. Programme authorities
+      read in this sweep: the DoD Mentor-Protégé Program under 10 U.S.C. 4902 and DFARS Appendix I [1378]; the DHS
+      Mentor-Protégé Program [1380]; the SBA Mentor-Protégé Program [1377]. No FAA programme page was read.'
+    text: 'Mentor-protégé programmes named: DoD, DHS, FAA, SBA [1315].'
+  - name: GDIT mentoring
+    authority: No programme named [1317].
+    text: GDIT offers "Informal and formal mentoring" [1317].
+  selection_statement: 'GDIT''s April 2026 teaming sheet lists the factors it considers in choosing small-business
+    teammates: core capabilities; resource availability and ability to recruit qualified candidates; market niche;
+    geographic location or customer proximity; cost; dependability, responsiveness and teamwork; personnel experience;
+    organizational conflicts of interest (OCI); financial solvency; past performance and reputation [1319]. Mission
+    Systems, on what follows registration: "you may be contacted by buying personnel directly or may receive a Request
+    for Information or Request for Quotation (RFQ)." [1322]. GDIT: "Registration in this system does not constitute
+    approval as a supplier, but it is an important element in our search for innovative, efficient, and timely"
+    [1318].'
+  forecast_statement: None of its own on the pages read. The corporate page advises "Check agency forecasts, and
+    develop a pipeline of upcoming opportunities." [1315]. GDIT links the GD events calendar at https://suppliers.gendyn.com/Events/Default.aspx
+    and carries an "Important Update" about the LYNX platform [1317]; its hosted notice tells businesses to create
+    a profile at https://www.lynxconnect.io [1321].
+  also_states:
+  - 'GDIT on CMMC: "The first phase of CMMC implementation will begin November 10, 2025."; the page prints "Phase
+    1: November 10, 2025 – October 31, 2026" through "Phase 4: On/after November 10, 2028" [1320]'
+  - 'GDIT: "Results of those assessments will be reported in DoW''s Supplier Performance Risk System (SPRS)."; cyber
+    incidents to be reported within 72 hours of discovery [1320]'
+  - 'GDIT: "Prepare your small business for upcoming contract opportunities where you might be a good fit." [1317]'
+  unreadable:
+  - suppliers.gendyn.com (ESRP home and SBLO list) returned 403; the portal's fields were not read.
+  as_of: '2026-10-03'
+  sources:
+  - 1315
+  - 1316
+  - 1317
+  - 1318
+  - 1319
+  - 1320
+  - 1321
+  - 1322
+  - 1377
+  - 1378
+  - 1380
+- id: l3harris
+  name: L3Harris Technologies
+  supplier_portal_url: https://www.l3harris.com/contact-us?form=chq_prospective_supplier_form
+  portal_note: 'Corporate prospective-supplier web form: "To help us properly assist you, please select the message
+    type most related to your inquiry and fill out the appropriate webform." [1324]. The Aerojet Rocketdyne SupplierNet
+    page links the same form [1323].'
+  registration_asks:
+  - 'Fields: company, address, country, "Other Manufacturing Countries?", email, phone [1324]'
+  - Category; "Business Size Classification Per FAR 52.219-1" [1324]
+  - Description of product/service type; Primary NAICS Code; Secondary NAICS; CAGE Code; Unique Entity Identifier
+    (UEI) [1324]
+  - '"Are you a current L3Harris supplier?"; how did you hear about us; L3Harris point of contact [1324]'
+  - '"Upload Capabilities Statement" [1324]'
+  liaison_named:
+    status: person
+    text: 'For the Aerojet Rocketdyne segment: Charity Hudson, Small Business Liaison Officer, Rancho Cordova CA;
+      RJ Beuscher, AR Coleman Aerospace; a Supplier Diversity Program Administrator at Aerojet Ordnance Tennessee
+      [1323]. No corporate-wide SBLO list was found.'
+  programs:
+  - name: NASA mentor-protégé agreement (reported by NASA, not on an L3Harris page)
+    authority: NASA Small Business Supplier Development Program, formerly known as the NASA Mentor-Protégé Program
+      [1381].
+    text: Not stated on the L3Harris pages read. NASA announced that the first agreement under its relaunched programme
+      pairs L3Harris Technologies (mentor) with Parametric Machining, Inc. (protégé), a veteran-owned small business
+      [1383].
+  selection_statement: ''
+  forecast_statement: ''
+  also_states:
+  - The Aerojet Rocketdyne page links SBA size standards, APTAC, Project Spectrum, SAM and DSBS [1323]
+  unreadable:
+  - Quality certifications, CMMC and insurance are not on the form as captured.
+  - No corporate-wide SBLO list was found.
+  - No quote was captured verbatim from the Aerojet Rocketdyne SBLO page.
+  as_of: '2026-10-03'
+  sources:
+  - 1323
+  - 1324
+  - 1381
+  - 1383
+- id: bae-systems-inc
+  name: BAE Systems, Inc.
+  supplier_portal_url: https://ivalua.us.baesystems.com/page.aspx/en/sup/registration_extranet_manage
+  portal_note: Supplier registration link on the small-business programmes page [1325].
+  registration_asks:
+  - The corporate small-business page gives the registration link and does not say what it asks for [1325]
+  - 'NASA''s profile of BAE Systems (Space & Mission Systems) says "Register at: SAM.gov" and that capability statements
+    go to smallbiz.sms@baesystems.us [1326]'
+  - 'Qualifications listed on NASA''s profile: ISO 9001, AS9100 preferred; CMMC ready and/or certified; ITAR Registered;
+    PMP, SEI and/or CMMI certified (when applicable); security and facility clearances (when appropriate) [1326]'
+  liaison_named:
+    status: person
+    text: 'No SBLO on the corporate page [1325]. NASA''s profile names an SBLO for Space & Mission Systems: Marquis
+      White, mailbox smallbiz.sms@baesystems.us [1326].'
+  programs: []
+  selection_statement: ''
+  forecast_statement: None on the corporate page; a 2026 Calendar of Events PDF is linked (file stamped 2026-03-17)
+    [1325]. NASA's profile lists needs including optical systems, image analysis software, lightweight deployable
+    structures, precision machined parts, robotics, cryogenic systems [1326].
+  also_states:
+  - '"Utilization of small suppliers helps build a resilient supply chain that incorporates innovation, is responsive
+    to mission needs, grows the industrial base" [1325]'
+  unreadable:
+  - The ivalua registration form was not opened; its fields are unrecorded.
+  - The 2026 Calendar of Events PDF was not opened.
+  as_of: '2026-10-03'
+  sources:
+  - 1325
+  - 1326
+- id: leidos
+  name: Leidos
+  supplier_portal_url: https://supplier-portal.leidos.com
+  portal_note: 'Supplier portal linked from the supplier hub [1328]; the small-business page carries an on-page
+    interest form: "If you are a U.S. based small business that is interested in doing business with Leidos complete
+    the form below." [1327]'
+  registration_asks:
+  - The fields of the on-page form were not captured [1327]
+  liaison_named:
+    status: none
+    text: No SBLO or mentor-protégé detail on the small-business page [1327].
+  programs: []
+  selection_statement: The supplier hub mentions a "Qualification Matrix" for alliance partners [1328].
+  forecast_statement: '"We frequently participate in industry and client small business events enabling small businesses
+    to learn about current and future opportunities." [1327]'
+  also_states:
+  - 'CMMC level for subcontractors: "Level 1 is applicable if subcontractor will only process, store, or transmit
+    FCI (not CUI)"; "otherwise, the same Level 2 assessment as the prime is required by the subcontractor/supplier."
+    [1329]'
+  - '"Small businesses are central to this model, expanding what we can deliver and how we deliver it." [1328]'
+  unreadable:
+  - On-page form fields were not captured.
+  - Small-business liaison contact details were not found.
+  - A search for a leidos.com mentor-protégé programme page returned none.
+  as_of: '2026-10-03'
+  sources:
+  - 1327
+  - 1328
+  - 1329
+- id: saic
+  name: SAIC
+  supplier_portal_url: https://suppliers.saic.com/
+  portal_note: 'SAIC Supplier Portal; "Start Registration" is for new company registration only [1331]. The first
+    step at https://suppliers.saic.com/Register is an access form: "Once submitted you will receive an email with
+    instructions on how to verify your email address and access the portal." [1332]'
+  registration_asks:
+  - 'Data to prepare: Legal Company Name, Tax ID Type, Tax ID, DUNS Number, CAGE Code, Legal Structure, Year Established,
+    Number of Employees, Gross Annual Sales (3 years), Headquarters Location, Primary Contact, NAICS Codes, Capabilities
+    [1331]'
+  - 'First-step access form: legal company name, name, title, department, phone, email; all fields required; department
+    chosen from a dropdown [1332]'
+  liaison_named:
+    status: person
+    text: A perspectives page names Rita Brooks as SAIC's director of small business programs; no contact details
+      [1334]. The small-business landing page returned no registration URL, SBLO or mentor-protégé text [1330].
+  programs:
+  - name: Mentor-protégé joint venture (SACIRES)
+    authority: SBA Mentor-Protégé Program, as the release names it [1333]; SBA's programme page [1377].
+    text: 'An April 15, 2025 release announces a mentor-protégé joint venture named SACIRES with Dobbs Defense:
+      "The SBA Mentor-Protégé Program promotes the development of small businesses by connecting them with established
+      industry leaders." [1333]'
+  selection_statement: '"We look to partner with suppliers and businesses that provide complementary skills and
+    niche-type offerings" [1331]'
+  forecast_statement: ''
+  also_states:
+  - '"By registering on this site, you agree that all information provided may be shared with government representatives."
+    [1331]'
+  - '"Small businesses are essential for maintaining a robust, dynamic contractor ecosystem" [1330]'
+  unreadable:
+  - The fuller registration behind email verification was not read.
+  - The advice on the perspectives page naming the director of small business programs is in a video and was not
+    captured.
+  - Certifications, CMMC and insurance are not listed on the portal home page.
+  as_of: '2026-10-03'
+  sources:
+  - 1330
+  - 1331
+  - 1332
+  - 1333
+  - 1334
+  - 1377
+- id: booz-allen-hamilton
+  name: Booz Allen Hamilton
+  supplier_portal_url: https://supplier.bah.com/
+  portal_note: '"If you''re interested in conducting business with Booz Allen, please register your business in
+    our supplier database." [1335]'
+  registration_asks:
+  - The pages read give the registration link and do not list what registration asks for [1335] [1337]
+  liaison_named:
+    status: person
+    text: The small-business programme page quotes Yuri Cruz, Supplier Engagement Manager; no office contact is
+      given [1335].
+  programs:
+  - name: Mentor-Protégé Program
+    authority: Government-sponsored mentor-protégé programmes; none is named on the page [1336].
+    text: 'Protégé criteria, as listed: existing client-facing contractual relationship with Booz Allen for at least
+      one year; immediate value proposition within the agency market; strategic long-term value; minimum 20 full-time
+      employees; operating at least three years; capabilities do not directly compete with existing protégés; no
+      active mentor-protégé agreement in the targeted or any other agency; held a federal contract or subcontract
+      for at least one year; compatible business ethics; financially stable and viable [1336]. "Registering your
+      company in our Small Business Database is the first step." [1336]. "Booz Allen combines its resources and
+      experience to help develop and strengthen the capabilities of our protégés." [1335]'
+  selection_statement: '"We routinely seek small businesses to supplement our in-house professional, technical,
+    and support capabilities" [1337]'
+  forecast_statement: ''
+  also_states:
+  - 'Categories the page names as partners: SDB, 8(a), HUBZone, WOSB, VOSB, SDVOSB [1337]'
+  unreadable:
+  - The supplier.bah.com registration fields were not read.
+  - Which government mentor-protégé programmes Booz Allen takes part in is not named on its page.
+  as_of: '2026-10-03'
+  sources:
+  - 1335
+  - 1336
+  - 1337
+- id: caci
+  name: CACI
+  supplier_portal_url: https://supplier.caci.com/
+  portal_note: '"Please register through our supplier portal first" [1338]'
+  registration_asks:
+  - Not stated on the page read; the portal itself could not be fetched [1338]
+  liaison_named:
+    status: person
+    text: 'Small Business Advocacy Office; contact named: Wayne Pizer (email obfuscated in the fetch; not captured)
+      [1338].'
+  programs:
+  - name: Mentor-protégé
+    authority: 'Programmes named on the page: Department of War, Department of Homeland Security, Small Business
+      Administration [1338]. Programme authorities read in this sweep: the DoD Mentor-Protégé Program under 10 U.S.C.
+      4902 and DFARS Appendix I [1378]; the DHS Mentor-Protégé Program [1380]; the SBA Mentor-Protégé Program [1377].'
+    text: 'Protégé criteria quoted from the page: "Having a current subcontract relationship with CACI (at least
+      1 year, unless there are special circumstances)"; "Has stable finances, a minimum of 10 full-time employees,
+      and three million dollars in revenue"; "Senior CACI management buy-in (sector president & BD VP for sector)"
+      [1338].'
+  selection_statement: The page states criteria for protégés only; see programs [1338].
+  forecast_statement: None; the page carries an events table running through October 2026, including VIP Start,
+    GEOINT, SOF Week, HUBZone Conference, AUSA [1338].
+  also_states: []
+  unreadable:
+  - supplier.caci.com is disallowed by robots.txt; the registration fields are unrecorded.
+  - The contact email came back obfuscated and is not captured.
+  as_of: '2026-10-03'
+  sources:
+  - 1338
+  - 1377
+  - 1378
+  - 1380
+- id: mantech
+  name: ManTech
+  supplier_portal_url: https://myhub.mantech.com/psc/FMSPRDGST/SUPPLIER/ERP/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL
+  portal_note: The suppliers page gives sign-in and sign-up links to ManTech's supplier portal (myhub.mantech.com)
+    [1340].
+  registration_asks:
+  - Not stated on the pages read [1340] [1339]
+  liaison_named:
+    status: none
+    text: 'No registration URL, contact or authority on the partner page [1339]; the small-business page gives an
+      address only: 2251 Corporate Park Drive, Herndon, VA 20171 [1341].'
+  programs:
+  - name: Mentor-Protégé Program
+    authority: Not stated on the page [1339].
+    text: '"Small business mentorships through our Mentor-Protégé Program" [1339]'
+  selection_statement: ''
+  forecast_statement: Not stated. The partner page offers "Small business conference and exposition opportunities
+    for one-on-one conversations about products, services, capabilities, and qualifications" [1339].
+  also_states:
+  - Categories listed include SB, SDB, WOSB, VOSB, HUBZone, SDVOSB, HBCU/MI, Alaska Native Corporations and Indian
+    Tribes [1341]
+  - 'The small-business page carries a CMMC paragraph written for the 2020 version of the programme (Levels 1–5):
+    "CMMC levels will begin to appear in RFIs in June 2020 and in RFPs by fall 2020." [1341]'
+  - '"We work with suppliers who share our commitment to integrity." [1340]'
+  unreadable:
+  - The portal sign-up form was not opened.
+  as_of: '2026-10-03'
+  sources:
+  - 1339
+  - 1340
+  - 1341
+- id: parsons
+  name: Parsons
+  supplier_portal_url: http://parsons.sourcing3.ariba.com/ad/selfRegistration
+  portal_note: Ariba self-registration link on the small-business programme page [1342].
+  registration_asks:
+  - '"provide complete information and be sure to verify contact information" [1342]'
+  - Recommends submitting data on innovation, efficiencies, past performance and client engagements [1342]
+  liaison_named:
+    status: person
+    text: 'Contact named: Gwen Johnson [1342].'
+  programs: []
+  selection_statement: ''
+  forecast_statement: Not stated; the page links the SAME Small Business Conference [1342].
+  also_states:
+  - '"providing the maximum opportunity for suppliers in various business categories" [1342]'
+  unreadable:
+  - The Ariba self-registration form was not opened.
+  as_of: '2026-10-03'
+  sources:
+  - 1342
+- id: jacobs
+  name: Jacobs
+  supplier_portal_url: https://service.ariba.com/Supplier.aw/109523061/aw?awh=r&awssk=F2K1VI9m&dard=1&ancdc=2
+  portal_note: '"Prospective providers of goods or services to Jacobs can register on the SAP Ariba Network." [1343].
+    The suppliers page describes a three-step path: Ariba Discovery registration, invitation, pre-qualification
+    [1344].'
+  registration_asks:
+  - 'Not itemised: "The more information you provide will help us better understand your services, capabilities
+    and business status." [1344]'
+  - The federal page links SAM, SBA's small business search and SBA.gov [1343]
+  liaison_named:
+    status: none
+    text: None named; contact globalprocurement@jacobs.com [1344].
+  programs:
+  - name: Mentor/protégé relationship (listed as a support activity)
+    authority: No programme named [1343].
+    text: Lists "Developing a mentor/protégé relationship" and "Participating in community outreach events" as support
+      activities [1343].
+  selection_statement: '"When sourcing opportunities arise, our buyers will search for suppliers that best correspond
+    to Jacobs'' requirements." [1344]'
+  forecast_statement: '"As we identify opportunities that parallel your firm''s capabilities or supplies, a solicitation
+    may be sent to you requesting a proposal submittal." [1343]'
+  also_states:
+  - The suppliers page links the Supplier Code of Conduct (PDF dated 2025-10 in its URL) [1344]
+  unreadable:
+  - The Ariba registration forms were not opened.
+  as_of: '2026-10-03'
+  sources:
+  - 1343
+  - 1344
+- id: kbr
+  name: KBR
+  supplier_portal_url: https://supplier.kbr.com/
+  portal_note: 'Supplier registration portal home (kbrsupplier.com redirects here); registration at https://supplier.kbr.com/Registration/Supplier:
+    "From this site, current and potential suppliers can register and maintain information that enables KBR supply
+    professionals to efficiently locate sources of supply." [1346]. A KBR news item links the portal at https://kbrsupplier.com/
+    [1347].'
+  registration_asks:
+  - Not stated on the portal home [1346]
+  liaison_named:
+    status: person
+    text: 'Named on NASA''s profile of KBR as a NASA prime, not on a KBR page: SBLO Gracie Orr [1345].'
+  programs: []
+  selection_statement: NASA's profile says KBR is "seeking qualified small business partners that provide professional
+    services, including engineering, information technology, management, administrative, scientific, and health-related
+    support." and "manufacturing and fabrication services, particularly from suppliers with AS9100 certification
+    or equivalent aerospace-quality credentials." [1345]
+  forecast_statement: ''
+  also_states:
+  - '"All KBR suppliers must be registered through KBRSupplier.com to receive a purchase order." [1346]'
+  - 'Portal support: support@kbrsupplier.com; supplier code of conduct at https://www.kbr.com/supplier-code-conduct
+    [1346]'
+  unreadable:
+  - The registration form fields were not read.
+  as_of: '2026-10-03'
+  sources:
+  - 1345
+  - 1346
+  - 1347
+- id: hii
+  name: Huntington Ingalls Industries (Ingalls Shipbuilding; Newport News Shipbuilding)
+  supplier_portal_url: https://webapps.ingallsext.com/SupplierData/Form.aspx
+  portal_note: 'Ingalls Shipbuilding: "Companies interested in doing business with Ingalls Shipbuilding must complete
+    a Supplier Information company profile." [1348]. Newport News Shipbuilding: prospective suppliers complete a
+    Prospective Supplier Form (Word document) reached from https://www.hii.com/suppliers/newport-news-suppliers/nns-become-a-supplier
+    [1351] [1350].'
+  registration_asks:
+  - 'Ingalls form, identifiers: Unique Entity ID, CAGE Code, Primary NAICS Code, Secondary NAICS code(s), congressional
+    district, business start date [1349]'
+  - 'Ingalls form, size: average number of employees, average annual gross revenue; citizenship (US/foreign owned);
+    name of principal owner [1349]'
+  - 'Ingalls form, programmes and customers: government agency customers, SBIR, STTR, level of government security
+    [1349]'
+  - 'Ingalls form, systems: "Approved Accounting System (U.S. Gov''t Approved)", "EVMS (Earned Value Management
+    System)", EFT, quality system certifications [1349]'
+  - 'Ingalls form, categories: large; small (FAR 52.219-8); SBA-certified and self-certified SDB; 8(a); WOSB; EDWOSB;
+    HBCU; Minority Institution; HUBZone; Indian Tribe; ANC; NHO; VOSB; SDVOSB; AbilityOne; foreign [1349]'
+  - 'Ingalls form, certification: name of certifying official; "Registered in SAM"; "Registered in Dynamic Small
+    Business Search" [1349]'
+  - 'Newport News: "Both a Commercial and Government Entity (CAGE) Code and Joint Certification Program (JCP) number
+    are required for suppliers providing material and services for ships"; international suppliers need an NCAGE
+    code [1351]'
+  liaison_named:
+    status: office-or-mailbox
+    text: '"Small Business Liaison Officers (SBLO) will assist you during the qualification process"; none is named
+      [1348]. Newport News mentions a "Small Business Office" under existing supplier resources, with no detail
+      [1350].'
+  programs: []
+  selection_statement: ''
+  forecast_statement: Not stated; an HII events hub is linked at https://www.hii.com/events [1348].
+  also_states:
+  - '"Prospective domestic and international suppliers can register interest and access qualification resources
+    to begin working with Newport News Shipbuilding." [1350]'
+  unreadable:
+  - The Newport News Prospective Supplier Form (Word document) was not opened.
+  as_of: '2026-10-03'
+  sources:
+  - 1348
+  - 1349
+  - 1350
+  - 1351
+- id: honeywell
+  name: Honeywell (no Honeywell Aerospace small-business page found)
+  supplier_portal_url: https://honeywell.supplierone.co/
+  portal_note: '"Interested in doing business with Honeywell Technologies? Complete our Honeywell Technologies Supplier
+    Inquiry Form"; the hub also offers Ariba network links and the Supplier Code of Conduct [1352].'
+  registration_asks:
+  - Not captured; the inquiry form did not render [1352]
+  liaison_named:
+    status: none
+    text: The corporate supplier hub has no small-business programme text [1352].
+  programs: []
+  selection_statement: ''
+  forecast_statement: ''
+  also_states:
+  - Cybersecurity content on the hub concerns the EU Cyber Resilience Act [1352]
+  unreadable:
+  - honeywell.supplierone.co rendered empty (JavaScript app); the inquiry form fields are unrecorded.
+  - No page specific to Honeywell Aerospace's small-business programme was found; the hub is headed "Honeywell Technologies".
+  - A "participate" page that was fetched concerns supplier financing and is not used.
+  as_of: '2026-10-03'
+  sources:
+  - 1352
+- id: ge-aerospace
+  name: GE Aerospace
+  supplier_portal_url: ''
+  portal_note: No registration portal for prospects; contact is by email to aviation.suppliercommunications@geaerospace.com
+    [1353]. Existing suppliers use the Supply Chain Web Center at https://supplier.geaerospace.com/ [1354].
+  registration_asks:
+  - Flight hardware requires AS9100 certification; "NADCAP certification is required for special processes" [1353]
+  - '"Quality and financial stability assessments will be completed before becoming a supplier." [1353]'
+  - The page states small businesses must have fewer than 1,000 employees under primary NAICS codes 336412, 336413
+    and 54172 (as printed) [1353]
+  liaison_named:
+    status: none
+    text: None named; the contact is the supplier communications mailbox [1353].
+  programs: []
+  selection_statement: The supplier hub says GE Aerospace will "Assess safety, compliance and quality and other
+    supplier health criteria" [1354].
+  forecast_statement: ''
+  also_states:
+  - The supplier hub lists terms and conditions (C64, dated 2026-06-30) and "Government & Cyber Security Requirements
+    (US Government)" [1354]
+  - The small-business page links eSRS, SBA and FAR Part 19 [1353]
+  unreadable:
+  - The extraction reports that the page says GE Aerospace does not use open bidding; the wording was not captured,
+    so it is not stated here.
+  - NAICS "54172" is five digits as printed; not checked against the SBA size table.
+  as_of: '2026-10-03'
+  sources:
+  - 1353
+  - 1354
+- id: peraton
+  name: Peraton
+  supplier_portal_url: https://www.peraton.com/suppliers/prospective-supplier-intake-form
+  portal_note: '"Register your company with Peraton by submitting the Prospective Supplier Capability Form." [1357].
+    "Complete our prospective supplier form below to be considered for future opportunities." [1355]'
+  registration_asks:
+  - 'Fields: company name, address, website, contact; UEI; CAGE Code; NAICS Code; "U.S. Owned?" [1356]'
+  - 'Classifications: Small Business, SDB, 8A, WOSB, HUBZone, VOSB, SDVOSB, Alaska Native Corporation, Nonprofit
+    [1356]'
+  - 'Certifications and clearances: ISO Certification; CMMI Level III and above; Secret and Top Secret facility
+    clearance [1356]'
+  - 'Capabilities Statement upload: doc/pdf, max 50 MB, two-page maximum [1356]'
+  - Current/Past Performance text field; interest in FAA/BNATCS opportunities [1356]
+  liaison_named:
+    status: office-or-mailbox
+    text: Small-business mailbox peratonsmallbusiness@peraton.com [1355].
+  programs:
+  - name: Mentor-protégé
+    authority: '"federal and DoD mentor-protégé programs"; no programme is named individually [1357].'
+    text: '"Peraton, through our heritage companies, has actively participated in federal and DoD mentor-protégé
+      programs since 1991." [1357]. "Peraton supports small business growth with guidance and expertise aimed at
+      developing our protégé''s technical and business acumen." [1355]'
+  selection_statement: The overview says programme managers look for strong customer relationships, understanding
+    of an agency's needs, and niche solutions or technologies [1357]. "The best way to get involved with Peraton
+    is at the front of the procurement cycle" [1357]. "Peraton is dedicated to providing qualified small businesses
+    with fair and equitable opportunities for subcontracting partnerships." [1356]
+  forecast_statement: ''
+  also_states: []
+  unreadable:
+  - CMMC and insurance are not on the form as captured.
+  - The sweep's draft says Peraton tells firms to contact its office about active subcontractor searches; the source
+    page is not pinned, so it is not stated here.
+  as_of: '2026-10-03'
+  sources:
+  - 1355
+  - 1356
+  - 1357
+- id: amentum
+  name: Amentum
+  supplier_portal_url: https://supplier.amentum.com/
+  portal_note: Supplier Management System (SMS) [1358]; "Register in Amentum's Supplier Management System (SMS)"
+    [1359].
+  registration_asks:
+  - A company profile in the SMS; the profile fields were not captured [1358]
+  - The 2023 tips sheet says to keep SAM current and to have a website, capability statement, product line card
+    and NAICS codes [1359]
+  liaison_named:
+    status: office-or-mailbox
+    text: '"Email is the preferred initial contact method: SBLO@amentum.com" [1359].'
+  programs: []
+  selection_statement: The 2023 tips sheet says Amentum evaluates technical capabilities; past performance with
+    federal customers; quality certifications; security clearances. It lists cold calls and contacting high-level
+    executives as things to avoid [1359].
+  forecast_statement: '"To view commodities and services being subcontracted, and to be considered for future opportunities,
+    please enter your company''s profile in our Supplier Management System (SMS)" [1358]'
+  also_states:
+  - '"We actively sponsor and participate in various major small business outreach events nationwide"; the page
+    mentions membership in ISOA, DoD Regional Councils and TRIAD [1358]'
+  - 'Cybersecurity: "ensuring all our suppliers and subcontractors adhere to the regulatory compliance requirements
+    in order to safeguard Federal Contract Information (FCI) and Controlled Unclassified Information (CUI)." [1360]'
+  unreadable:
+  - The SMS profile fields were not captured.
+  as_of: '2026-10-03'
+  sources:
+  - 1358
+  - 1359
+  - 1360
+- id: accenture-federal-services
+  name: Accenture Federal Services
+  supplier_portal_url: https://smartafs.my.site.com/smallbusiness/s/
+  portal_note: '"Our online registration process is easy, and lets you showcase your expertise for consideration
+    in mutually beneficial future teaming opportunities." [1361]'
+  registration_asks:
+  - Not captured; the registration site did not render [1361]
+  liaison_named:
+    status: person
+    text: 'Small Business Liaison Office: Carla Jamison, Senior Manager, Small Business Liaison Officer; Sherry
+      Penson, Manager, Deputy Small Business Liaison Officer; Kimberly Meyers, Subcontract Specialist [1361].'
+  programs: []
+  selection_statement: ''
+  forecast_statement: ''
+  also_states: []
+  unreadable:
+  - smartafs.my.site.com rendered empty (JavaScript app); the registration fields are unrecorded.
+  - The "over 20%" share of contracts involving small-business partners is an extraction paraphrase without captured
+    wording, so it is not stated here.
+  as_of: '2026-10-03'
+  sources:
+  - 1361
+- id: deloitte-gps
+  name: Deloitte (Government & Public Services)
+  supplier_portal_url: https://vendorconnect.gps.deloitte.com/#/
+  portal_note: The page directs prospective suppliers to GPS Vendor Connect [1362].
+  registration_asks:
+  - Not captured; GPS Vendor Connect did not render [1362]
+  liaison_named:
+    status: office-or-mailbox
+    text: '"The GPS Office of Small Business and SLHE Supplier Programs (OSBP) was established to build strategic
+      and collaborative relationships with small businesses and veteran-owned businesses."; no names [1362].'
+  programs: []
+  selection_statement: ''
+  forecast_statement: ''
+  also_states: []
+  unreadable:
+  - vendorconnect.gps.deloitte.com rendered empty (JavaScript app); the registration fields are unrecorded.
+  as_of: '2026-10-03'
+  sources:
+  - 1362
+- id: cgi-federal
+  name: CGI Federal
+  supplier_portal_url: https://om.govwin.com/cgifederal/contract/index
+  portal_note: Firms join a GovWin-hosted partner network ("Join Network") [1363].
+  registration_asks:
+  - '"upload your Capabilities Statement to our Registered Supplier Portal"; other fields were not captured [1363]'
+  liaison_named:
+    status: person
+    text: Tyler Brooks-Craft, Small Business Programs [1363].
+  programs: []
+  selection_statement: ''
+  forecast_statement: None; the page says CGI takes part in the NVSBC conference, the National HUBZone conference
+    and vendor outreach events [1363].
+  also_states: []
+  unreadable:
+  - The GovWin registration fields were not captured.
+  as_of: '2026-10-03'
+  sources:
+  - 1363
+- id: maximus
+  name: Maximus
+  supplier_portal_url: https://app.smartsheet.com/b/form/61521b7f99c14dd8b62d5656d5d96d4d
+  portal_note: '"Our online registration allows you to showcase your expertise for future teaming opportunities."
+    [1364]'
+  registration_asks:
+  - Not captured; the Smartsheet form was not opened [1364]
+  liaison_named:
+    status: office-or-mailbox
+    text: Small Business and Strategic Partnership Office; no names [1364].
+  programs: []
+  selection_statement: '"partner with best-in-class small businesses that demonstrate a commitment to excellence,
+    proven expertise, and strong past performance." [1364]'
+  forecast_statement: None; the page mentions "Small Business Industry Days" (no dates) [1364].
+  also_states: []
+  unreadable:
+  - The Smartsheet registration form was not opened.
+  as_of: '2026-10-03'
+  sources:
+  - 1364

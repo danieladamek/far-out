@@ -1,4 +1,4 @@
-# buyers.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# buyers.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
 - id: buyer-usda
   agency: Department of Agriculture
   office_name: Office of Small and Disadvantaged Business Utilization (OSDBU)

@@ -1,4 +1,4 @@
-# queries.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# queries.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
 - text: SBIR STTR reauthorization 2026 public law signed
   engine: WebSearch
   hits: 9
@@ -1556,3 +1556,1041 @@
   hits: 10
   date: '2026-10-03'
   slice: SD
+- text: FAR 19.702 subcontracting plan threshold $900,000 $2 million construction acquisition.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: SBA SubNet subcontracting opportunities database status 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: FSRS.gov retired subaward reporting moved to SAM.gov March 2025
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: CRS R47585 "An Overview of Small Business Subcontracting"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: GAO small business subcontracting plans oversight report GAO-20-464 compliance
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: eSRS moving to SAM.gov subcontracting reports ISR SSR transition date
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: SBA Commercial Market Representative directory contact subcontracting assistance sba.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: GSA Subcontracting Directory other than small business prime contractors gsa.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: usaspending.gov subaward data FFATA what is a subaward threshold $30,000 help
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: Federal Register FAR final rule "good faith" small business subcontracting plan liquidated damages 2021
+    FAR Case
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: SBA final rule credit for lower tier small business subcontracting Federal Register December 2016 81 FR
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: DFARS 219.702-70 Comprehensive Subcontracting Plan Test Program 252.219-7004 expiration
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: FAR Case 2018-003 "credit for lower-tier small business subcontracting" final rule status open FAR cases
+    2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: SBA small business procurement scorecard methodology subcontracting 20% weight FY2024 scorecard
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: usaspending.gov subawards data sources "subaward" SAM.gov FSRS help what subaward data shows
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: sam.gov subaward reporting "subcontract" first-tier $40,000 OR $30,000 FFATA reporting help page 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: gsa.gov "Subcontracting Directory" small business xlsx other than small business prime contractors 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: OSDBU subcontracting opportunities prime contractor directory VA OR HHS OR NASA OR DOE "subcontracting"
+    small business page
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: gsa.gov small business "subcontracting directory" explore business models subcontracting page
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: '"rule of two" Revolutionary FAR Overhaul part 19 deviation orders multiple-award contracts discretion small
+    business set-aside 2025 2026 SBA'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: GAO report small business subcontracting 2025 OR 2026 subcontracting plans oversight DOD comprehensive subcontracting
+    plan test program GAO
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: GAO DOD Comprehensive Subcontracting Plan Test Program report GAO-16-27 OR GAO-18 results assessment
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: gao.gov small business subcontracting 2025 report "subcontracting" SBA compliance reviews commercial market
+    representatives GAO-25
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: acquisition.gov far-overhaul 52.219-9 Small Business Subcontracting Plan RFO deviation text "Subcontracting
+    Plan Reporting" SAM.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: '"OMB Advances Revolutionary FAR Overhaul with Formal Publication of Regulatory Changes" June 2026'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: Federal Register 2026 FAR overhaul proposed rule part 19 small business subcontracting plan comment period
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: 13 CFR 125.3 amended September 2026 SBA final rule subcontracting Federal Register
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: SBA "ostensible subcontractor" rule 13 CFR 121.103(h)(3) similarly situated primary and vital explained
+    sba.gov OHA
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: SBA SubNet "legacy.sba.gov" new SBA website subcontracting opportunities SUBNet replaced 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: Federal Register 2026 "Revolutionary Federal Acquisition Regulation Overhaul" proposed rule "Part 19" OR
+    "Parts 19" small business programs
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: SBA FY2025 small business procurement scorecard government-wide subcontracting achievement percent small
+    business subcontracting goal
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: sba.gov small business goaling "subcontracting" goals government-wide statutory goals page agency contracting
+    goals
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: HHS OR NASA OR DOE OSDBU "prime contractors" subcontracting opportunities directory small business 2026
+    site:hhs.gov OR site:nasa.gov OR site:energy.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: GSA Multiple Award Schedule subcontracting plan requirements commercial plan gsa.gov "subcontracting plan"
+    MAS contractors SAM.gov reporting
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: SAM.gov Subcontracting Plan Reporting public data search subcontract reports "second-tier" help fsd knowledge
+    article ISR SSR 45 days
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: APEX Accelerators help small business find subcontracting opportunities prime contractors apexaccelerators.us
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: energy.gov OSDBU subcontracting opportunities M&O contractors small business "subcontracting" directory
+    DOE prime contractors
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: SBA rule section 862 NDAA FY2024 prime contractor notify contracting officer small business subcontractor
+    payment 30 days past due 13 CFR 125.3 Federal Register
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: SBA final rule "Subcontract Reporting and Other Amendments" 3245-AI09 Federal Register 2026 13 CFR 125.3
+    30 days past due
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: '"FAR Case 2018-003" lower-tier small business subcontracting credit final rule withdrawn OR pending regulatory
+    agenda RIN 9000-AN61'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: SBA FY2025 government-wide scorecard subcontracting "32.65%" OR "subcontracting" small business achievement
+    sba.gov scorecard government-wide performance
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PA
+- text: GAO 2025 report small business subcontracting DOE OR DOD "subcontracting" goals oversight GAO-25 OR GAO-26
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PA
+- text: FAR subpart 9.6 contractor team arrangements acquisition.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: 13 CFR 121.103(h) joint venture affiliation eCFR
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: SBA Mentor-Protégé program sba.gov how to apply
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: SBA mentor-protégé program proposed rule 2026 Federal Register 13 CFR 125.9
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: DoD Mentor-Protégé Program 10 U.S.C. 4902 DFARS Appendix I
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: GSA Contractor Team Arrangements MAS schedule
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: SBA final rule past performance ratings small business joint venture members first-tier subcontractors Federal
+    Register 13 CFR 125.11
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: federalregister.gov Small Business Administration mentor-protégé joint venture rule 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: SBA proposed rule 2026 "mentor-protégé" 13 CFR 125.9 amendments Federal Register "proposed rule"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: 89 FR 102448 HUBZone Program Updates and Clarifications recertification merger acquisition joint venture
+    final rule December 17 2024
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: DOJ antitrust teaming agreements government contractors exclusive teaming Procurement Collusion Strike Force
+    guidance
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: NASA Mentor-Protégé Program OSBP nasa.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: DHS Mentor-Protégé Program dhs.gov OSDBU apply
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: Department of Energy Mentor-Protégé Program energy.gov OSDBU
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: EPA Mentor-Protégé Program epa.gov OSDBU
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: GSA Mentor-Protégé Program gsa.gov OSDBU GSAR 519.70
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: Department of State Mentor-Protégé Program OSDBU state.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: Treasury Mentor-Protégé Program home.treasury.gov OSDBU
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: VA Mentor-Protégé Program OSDBU va.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: HHS Mentor-Protégé Program OSDBU hhs.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: FAA Mentor-Protégé Program small business faa.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: USDA Mentor-Protégé Program OSDBU usda.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: DOT Mentor-Protégé Program OSDBU transportation.gov TAR 1219.70
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: Army Mentor-Protégé Program Office of Small Business Programs army.mil apply
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: Nunn-Perry Award DoD Mentor-Protégé Program 2025 OR 2026 winners
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: FY2026 NDAA Mentor-Protégé Program section 4902 amendment small business
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: EPA mentor-protégé program EPAAR 1552.219-70 small business epa.gov OSBP
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: Navy Mentor-Protégé Program Office of Small Business Programs secnav.navy.mil
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: '"National Defense Authorization Act for Fiscal Year 2026" "mentor-protege" section'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: FY2026 NDAA Pub. L. 119-60 Department of Defense Mentor-Protégé Program changes section protégé eligibility
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: SBA mentor-protégé program 2026 changes moratorium OR "proposed rule" OR "paused" joint venture large business
+    mentors
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: GAO report SBA mentor-protégé program number of active agreements gao.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: FAR overhaul Part 19 model deviation joint venture 52.219 rerepresentation acquisition.gov far-overhaul
+    part 19
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: SBA OIG audit All Small Mentor-Protégé Program joint venture oversight report sba.gov/oig
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: sba.gov mentor-protégé program active agreements list "mentor-protégé" spreadsheet active MPP agreements
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: justice.gov antitrust division teaming agreement government contractors bid rigging statement of interest
+    OR press release exclusive teaming 2025
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: FTC DOJ withdraw Antitrust Guidelines for Collaborations Among Competitors December 2024 ftc.gov press release
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: 88 FR 26164 Ownership and Control and Contractual Assistance Requirements for the 8(a) Business Development
+    Program April 27 2023 federalregister.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: '"FAR Case 2023-015" "Policy on Joint Ventures" proposed rule Federal Register'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: smallgovcon 2026 SBA mentor-protégé program rule change proposed joint venture "2026"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: HHS OSDBU "Mentor-Protégé Program" hhs.gov small business programs page
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: epa.gov OSDBU "mentor-protégé" program small business EPA contracts
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PB
+- text: DCMA Mentor-Protégé Program credit agreements dcma.mil small business
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PB
+- text: Lockheed Martin supplier diversity small business become a supplier registration
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: RTX supplier diversity small business liaison officer become a supplier
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: Boeing small business supplier registration "small business liaison" suppliers
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Northrop Grumman suppliers small business "Global Supplier Diversity" register mentor-protégé
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: General Dynamics small business supplier registration GDIT GDMS "small business" suppliers
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: L3Harris suppliers small business program supplier registration liaison officer
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: Boeing "Doing Business with Boeing" suppliers small business "Supplier Diversity" boeing.com
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: northropgrumman.com suppliers "small business" SBLO mentor-protégé "supplier diversity" program page
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: BAE Systems Inc. small business supplier diversity "become a supplier" registration mentor-protégé
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Leidos small business supplier registration "Small Business" "supplier" leidos.com mentor protégé
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: SAIC small business supplier registration saic.com "small business" partners mentor-protégé
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Booz Allen Hamilton small business subcontractor registration "small business" suppliers boozallen.com
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: baesystems.com "small business" suppliers "BAE Systems, Inc." supplier diversity program liaison
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: CACI small business supplier diversity program registration caci.com "small business"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: ManTech small business program supplier registration mantech.com "small business"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Parsons Corporation small business program supplier registration parsons.com "small business"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Jacobs supplier diversity small business registration jacobs.com suppliers "small business"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: KBR small business supplier registration kbr.com suppliers "small business" liaison
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Huntington Ingalls Industries suppliers small business program registration hii.com "small business"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Honeywell Aerospace "small business" supplier program "become a supplier" honeywell.com
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: GE Aerospace suppliers "small business" "become a supplier" geaerospace.com
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: Peraton small business program supplier registration peraton.com "small business"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: Amentum small business supplier registration amentum.com "small business" suppliers
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Accenture Federal Services small business program subcontractor registration "small business"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Deloitte government public services small business program subcontractor "small business" registration teaming
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: nasa.gov osbp prime contractor small business subcontracting program list of prime contractors
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Honeywell "small business" supplier "small business liaison" OR "supplier diversity" honeywell.com aerospace
+    prospective supplier
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: SAIC "small business" "supplier registration" OR "register" saic.com suppliers portal small business office
+    contact
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Northrop Grumman "Small Business Liaison Officers" suppliers "small business" northropgrumman.com suppliers
+    small-business
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: KBR "supplier" registration portal kbr.com suppliers "small business" become a supplier
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: sba.gov events small business matchmaking federal contracting 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: NASA OSBP events small business outreach industry day 2026 nasa.gov/osbp
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: VA OSDBU events National Veterans Small Business Engagement "Direct Access Program" va.gov osdbu
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: NIH small business program office outreach events vendor "small business" oamp.od.nih.gov OR sbo.nih.gov
+    2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: ChallengeHER 2026 SBA WIPP women-owned small business federal contracting events
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: '"capability statement" should include core competencies differentiators past performance site:gov OSDBU'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: DHS OSDBU vendor outreach sessions small business 15-minute appointments 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Treasury OSDBU vendor outreach sessions small business 2026 registration
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: Department of Energy small business forum and expo 2026 OSDBU matchmaking
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: APEX Accelerator matchmaking event 2026 prime contractors government buyers one-on-one small business state
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Navy Office of Small Business Programs outreach events 2026 "Gold Coast" OR "Sea-Air-Space" small business
+    secnav
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: Air Force small business office outreach events 2026 airforcesmallbiz.af.mil
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: Army Office of Small Business Programs outreach events calendar 2026 army.mil osbp
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: HHS OSDBU subcontracting opportunities directory prime contractors large business SBLO list hhs.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: energy.gov OSDBU subcontracting opportunities facility management contractors small business program managers
+    directory
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: GSA subcontracting directory for small businesses large prime contractors list gsa.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: Northrop Grumman "Supplier Information Form" prospective supplier small business registration
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: CGI Federal small business program partner registration cgi.com "small business"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: Maximus small business supplier diversity program registration maximus.com federal subcontractor
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: ICF small business program subcontractor registration icf.com "small business"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+  note: no ICF small-business programme page among results
+- text: Guidehouse small business program subcontractor registration guidehouse.com "small business"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+  note: no Guidehouse small-business programme page among results
+- text: Bechtel OR Fluor small business supplier registration federal "small business" program supplier portal
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+  note: no Bechtel or Fluor corporate page among results
+- text: Newport News Shipbuilding small business supplier registration hii.com "small business" SBLO
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: transportation.gov OSDBU "National Small Business Matchmaking Series" 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: state.gov OSDBU small business outreach events 2026 vendor outreach sessions
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+  note: no state.gov result returned
+- text: HHS OSDBU vendor outreach sessions 2026 small business hhs.gov events
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: '"capability statement" what to include federal agency small business office guidance sba.gov OR gsa.gov
+    OR dla.mil OR va.gov'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+  note: all results commercial; none used
+- text: WIPP ChallengeHER 2026 events schedule wipp.org
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: sba.gov "capability statement" federal contracting what is a capability statement core competencies (restricted
+    to federal domains)
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: DFARS Appendix I Policy and Procedures for the DoD Mentor-Protégé Program acquisition.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: GSA small business events "Doing business with GSA" webinar register 2026 gsa.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PC
+- text: L3Harris "small business" suppliers l3harris.com "Small Business Liaison" supplier resources mentor protégé
+    program
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+- text: Leidos mentor-protégé program DoD OR SBA OR DHS protégé agreement leidos.com
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PC
+  note: no leidos.com programme page among results
+- text: Federal Register final rule "Accelerated Payments Applicable to Contracts With Certain Small Business Concerns"
+    FAR Case 2020-007
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: Prompt Payment interest rate July 1 2026 December 31 2026 fiscal.treasury.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: SBA final rule prime contractor untimely payment subcontractor "30 days" past due notify contracting officer
+    NDAA 2023 section 125.3
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: SBA final rule "Subcontracting Program" 13 CFR 125.3 "30 days past due" final rule 2025 OR 2026 Federal
+    Register
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: SBIR STTR Policy Directive Phase III subcontract "SBIR/STTR Data Rights" "subcontractor" prime contractor
+    flow down data rights clause sbir.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: 13 CFR 121.103(h) ostensible subcontractor rule "primary and vital" "unusually reliant" ecfr
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: SBA Office of the National Ombudsman federal contracting late payment prime contractor complaint sba.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: GAO bid protest subcontractor "interested party" "actual or prospective bidder" 4 CFR 21.0 subcontractor
+    not interested party 21.5(h) subcontract protests
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: Severin doctrine pass-through claim subcontractor privity Federal Circuit "E.R. Mitchell Construction" OR
+    "Severin v. United States" opinion cafc.uscourts.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: FAR 44.203 "privity of contract" subcontractor Government "33.2" disputes subcontractor claims "indirect
+    appeals" FAR 44.203(c)
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: 13 CFR 121.103(h) joint venture "two years" from date of first award "may not be awarded contracts" joint
+    venture rule ecfr 125.8
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: Federal Laboratory Consortium federallabs.org CRADA "Cooperative Research and Development Agreement" T2
+    mechanisms small business FLC Business
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: AFRL technology transfer CRADA how to partner small business "partnership intermediary" Wright Brothers
+    Institute OR "Griffiss Institute" OR TechLink afresearchlab.com
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: NIST technology partnerships office CRADA how to work with NIST licensing patents small business nist.gov/tpo
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: Air Force technology transfer and transition T3 program CRADA "partnership intermediary" list aft3.af.mil
+    OR afrl.af.mil technology transfer how to
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: TechLink DoD partnership intermediary license DoD patent "partnership intermediary" techlinkcenter.org how
+    to license
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: Naval Research Laboratory technology transfer office CRADA license "partnership intermediary" nrl.navy.mil
+    how to partner
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: NSWC Crane technology transfer CRADA partnership intermediary agreement small business navsea.navy.mil T2
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: federallabs.org "FLC Business" available technologies search federal labs facilities equipment "Technology
+    Locator"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: Manufacturing USA institute membership tiers annual fee small business "small business" membership dues
+    NextFlex OR "America Makes" OR ARM Institute OR MxD membership levels
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: ARM Institute membership levels dues small business annual fee "membership" arminstitute.org
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: '"Walton Technology" v. "Weststar Engineering" 290 F.3d 1199 pay-when-paid Miller Act surety opinion'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: Cyberlock Consulting v. Information Experts teaming agreement "agreement to agree" unenforceable Eastern
+    District of Virginia opinion 2013 Fourth Circuit affirmed
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: SBA surety bond guarantee program contract up to $9 million $14 million federal subcontractor payment bond
+    sba.gov surety bonds
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: Federal Register FAR inflation adjustment of acquisition-related thresholds final rule 2025 simplified acquisition
+    threshold $350,000 Miller Act threshold effective October 1, 2025
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: sba.gov "prime and subcontracting" OR "subcontracting" small business how to become subcontractor SubNet
+    commercial market representative teaming joint ventures
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: SBA joint ventures teaming "contractor team arrangement" sba.gov federal contracting assistance programs
+    joint ventures mentor-protege
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: federalregister.gov "Inflation Adjustment of Acquisition-Related Thresholds" FAR Case 2024-001 final rule
+    August 2025
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: acquisition.gov "Revolutionary FAR Overhaul" Part 44 subcontracting policies model deviation text 52.244-6
+    flow-down commercial
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: DFARS 252.204-7021 CMMC flow-down subcontractors paragraph subcontracts "CMMC level" November 10 2025 acquisition.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: 15 U.S.C. 644(k) OSDBU duties "assist small business concerns to obtain payments" subcontractor "prime contractor"
+    undue restriction on ability of subcontractor
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: '"Revolutionary FAR Overhaul" formal publication proposed rule Federal Register June 2026 OMB'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: SBA final rule 2025 OR 2026 "Subcontracting Program" RIN 3245-AI09 final rule 30 days past due subcontractor
+    payment
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: cpars.gov FAQ subcontractor evaluations "subcontractor" CPARS does not evaluate subcontractors guidance
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: NASA OR GSA OR DOT OSDBU "subcontractor" payment problem prime contractor "no privity" what OSDBU can do
+    small business subcontractor not paid
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: 15 U.S.C. 637(d)(13) "Payment of subcontractors" "30 days past due" "cooperation" contracting officer "enter
+    or modify past performance" section 862 NDAA 2024 text
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: ASBCA 2025 Severin doctrine decision pass-through subcontractor claim release asbca.mil opinion
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: Educational Partnership Agreement "10 U.S.C. 2194" defense laboratory AFRL OR ARL OR Navy "Educational Partnership
+    Agreement" definition page
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: Wright Brothers Institute AFRL partnership intermediary agreement small business "partnership intermediary"
+    wbi-innovates.com
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: DEVCOM Army partnership intermediary agreement PIA named intermediary "Civil-Military Innovation Institute"
+    OR "Maryland" OR "Energetics Technology Center" army.mil partnership intermediary small business
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: federallabs.org FLC Business search tool available technologies labs facilities funding "FLC Business"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: Lockheed Martin CorpDocs general provisions subcontracts purchase orders terms and conditions FAR flowdown
+    supplier page
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: SBA "Commercial Market Representative" subcontracting program compliance reviews prime contractors sba.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD
+- text: NextFlex OR MxD OR LIFT OR "ARM Institute" membership tier annual dues "small business" "$" membership agreement
+    fee per year
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: PD
+- text: AUTM "technology transfer" university licensing process startups small business about technology transfer
+    autm.org
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: PD

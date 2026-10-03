@@ -1,4 +1,4 @@
-# help.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# help.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
 - id: apex-accelerators
   name: APEX Accelerators (formerly Procurement Technical Assistance Centers)
   what: 'APEX Accelerators (formerly known as Procurement Technical Assistance Centers) provide technical assistance
@@ -179,3 +179,797 @@
   conflicts:
   - 'Kentucky Phase II match: up to $150,000 on the state page, the newer source [466], vs up to $500K in SBA''s
     2020 table [464]'
+- id: national-small-business-matchmaking-series
+  name: National Small Business Matchmaking Series
+  kind: event-series
+  owner: U.S. Department of Transportation OSDBU (host); listed on SBA's events calendar
+  what: 'A DOT-hosted matchmaking series. SBA''s listing for the Raleigh stop says it offers matchmaking with federal
+    partners and technical assistance, to "bring federal contract opportunities to Main Street by providing small
+    businesses with the tools and connections needed to succeed in federal contracting." [1385]
+
+    '
+  cadence: 'No cadence stated. Three 2026 stops are listed: Phoenix AZ (March 11, 2026); Raleigh NC (June 4, 2026);
+    Milwaukee WI (July 23, 2026) [1386].'
+  how_to_register: '"All attendees must register in advance" [1385]; registration pages at cmp.dot.gov/event/nsbms[state]
+    [1386].'
+  official_url: https://www.transportation.gov/osdbu/news-and-events
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1385
+  - 1386
+  conflicts: []
+- id: dot-national-bonding-education-program
+  name: National Bonding Education Program (DOT)
+  kind: event
+  owner: U.S. Department of Transportation OSDBU
+  what: 'Listed as an upcoming DOT OSDBU event: National Bonding Education Program, Philadelphia PA, October 21-22,
+    2026; the list page does not say what a firm gets [1386].
+
+    '
+  cadence: A dated event (October 21-22, 2026); no cadence stated [1386].
+  how_to_register: Through the event link on DOT OSDBU's News and Events page [1386].
+  official_url: https://www.transportation.gov/osdbu/news-and-events
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1386
+  conflicts: []
+- id: dot-veteran-owned-small-business-summit
+  name: Veteran-Owned Small Business Summit (DOT)
+  kind: event
+  owner: U.S. Department of Transportation OSDBU
+  what: 'Listed as an upcoming DOT OSDBU event: Veteran-Owned Small Business Summit, Washington DC, November 17,
+    2026; the list page does not say what a firm gets [1386].
+
+    '
+  cadence: A dated event (November 17, 2026); no cadence stated [1386].
+  how_to_register: Through the event link on DOT OSDBU's News and Events page [1386].
+  official_url: https://www.transportation.gov/osdbu/news-and-events
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1386
+  conflicts: []
+- id: hhs-vendor-engagement-sessions
+  name: HHS Vendor Engagement Sessions (VES)
+  kind: programme
+  owner: U.S. Department of Health and Human Services, OSDBU
+  what: '"15-minute virtual Vendor Engagement Sessions (VES) are your opportunity to meet one-on-one with our Small
+    Business Specialists" for HHS''s operating divisions [1393].
+
+    '
+  cadence: '"held virtually on the second Tuesday of every month" [1393]'
+  how_to_register: Registration is via the HHS small business events calendar [1393], which also lists external
+    events HHS OSDBU attends, with dates and links [1394].
+  official_url: https://www.hhs.gov/grants-contracts/small-business-support/vos-events/index.html
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1393
+  - 1394
+  conflicts: []
+- id: dhs-vendor-outreach-sessions
+  name: DHS Vendor Outreach Sessions (VOS)
+  kind: programme
+  owner: U.S. Department of Homeland Security, OSDBU
+  what: 'DHS OSDBU "conducts ten sessions of 15-minute pre-arranged virtual meetings" [1395]. "The VOS provide small
+    businesses with the platform to discuss their capabilities and learn about DHS procurements and large business
+    subcontracting and partnering opportunities" [1395].
+
+    '
+  cadence: Ten sessions, as the page puts it; the page was last updated 04/25/2024 and references only an FY 2024
+    session [1395].
+  how_to_register: Not on the page read [1395]; the DHS registration page returned 403 and was not read.
+  official_url: https://www.dhs.gov/osdbu/outreach-and-component-events
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1395
+  conflicts:
+  - 'Stale: the page was last updated 04/25/2024 and shows only an FY 2024 session; whether the sessions run in
+    FY 2027 was not confirmed [1395].'
+- id: dhs-vendor-outreach-matchmaking-events
+  name: DHS Vendor Outreach Matchmaking Events (VOME)
+  kind: programme
+  owner: U.S. Department of Homeland Security, OSDBU
+  what: 'A DHS initiative begun in FY 2022 to connect small businesses with large primes for subcontracting, teaming
+    and joint ventures: "Learn about subcontracting opportunities"; "Identify teaming and joint venture opportunities"
+    [1396].
+
+    '
+  cadence: No dates on the page, which was last updated 04/25/2024 [1396].
+  how_to_register: No registration URL on the page; it says to contact the DHS Vendor Outreach Program Office or
+    email DHS OSDBU [1396].
+  official_url: https://www.dhs.gov/osdbu/vendor-outreach-matchmaking-events
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1396
+  conflicts:
+  - 'Stale: last updated 04/25/2024, with no dates [1396].'
+- id: dol-vendor-outreach-sessions
+  name: DOL Small Business Vendor Outreach Sessions
+  kind: programme
+  owner: U.S. Department of Labor, OSDBU
+  what: 'Sessions give "small businesses the opportunity to market their capabilities directly to OSDBU and agency
+    program officials and learn about potential Department procurement opportunities." [1397]
+
+    '
+  cadence: '"on the third Wednesday of the designated month", 9:00 a.m. to 12:00 p.m.; the dates on the page are
+    January 15, May 14 and July 16, 2025 [1397].'
+  how_to_register: By Eventbrite, opening 30 days before each session [1397].
+  official_url: https://www.dol.gov/agencies/oasam/centers-offices/office-of-the-senior-procurement-executive/office-of-small-and-disadvantaged-business-utilization/vendor-outreach-sessions
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1397
+  conflicts:
+  - 'Stale: the dates shown on the page are for 2025 [1397].'
+- id: usda-vendor-outreach-program
+  name: USDA Vendor Outreach Program
+  kind: programme
+  owner: USDA Office of Small and Disadvantaged Business Utilization
+  what: 'Vendor outreach sessions with OSDBU Specialists, 15 minutes per vendor, with appointments booked in advance
+    [1398].
+
+    '
+  cadence: '"It is anticipated that the sessions will be scheduled on a monthly basis."; the schedule table reads
+    "*NO UPCOMING SESSIONS*" [1398].'
+  how_to_register: '"Vendors must schedule an appointment in advance, with the individual Specialist(s)."; the page
+    names Roxanne Lane as contact [1398].'
+  official_url: https://www.usda.gov/about-usda/general-information/staff-offices/departmental-administration/office-small-and-disadvantaged-business-utilization-osdbu/upcoming-events/usda-vendor-outreach-program
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1398
+  conflicts:
+  - 'Stale: the schedule table is headed FY 2021 and shows no upcoming sessions [1398].'
+- id: nasa-osbp-outreach-events
+  name: NASA OSBP outreach events and Annual Town Hall
+  kind: calendar
+  owner: NASA Office of Small Business Programs
+  what: 'NASA OSBP''s list of upcoming events it hosts or attends, each with a registration link [1389]. Listed
+    at fetch: Mississippi APEX Accelerator Day 2026 (October 9, 2026, Jackson MS); Aerospace & Aviation Summit 2026
+    (October 14, 2026, Laurel MD); GovTech Expo at Patrick Space Force Base (October 14, 2026); 2026 Von Braun Space
+    Exploration Symposium (October 26–28, 2026, Huntsville AL); NASA OSBP Annual Town Hall webinar (October 28,
+    2026, 1:00–2:30 p.m. ET); Doing Business with MSFC, hosted by The Catalyst (October 29, 2026, Huntsville AL)
+    [1389].
+
+    '
+  cadence: A rolling list; the page is dated 2026-09-25 [1389].
+  how_to_register: Through each event's registration link; the Annual Town Hall registers on Eventbrite [1389].
+  official_url: https://www.nasa.gov/osbp/osbp-outreach-events/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1389
+  conflicts:
+  - The extraction printed "Tuesday, October 29" for Doing Business with MSFC; the weekday was not verified [1389].
+- id: nasa-osbp-engagement-lift-2026
+  name: 'NASA OSBP Engagement 2026: L.I.F.T.'
+  kind: event
+  owner: NASA Office of Small Business Programs; listed on SBA's events calendar
+  what: '"L.I.F.T. - Leveraging Industry and Suppliers for Future Technology": a NASA OSBP engagement event at Space
+    Center Houston with one-on-one matchmaking, prime contractors and NASA subject-matter experts, to "strengthen
+    the industrial base by cultivating small business participation" [1390].
+
+    '
+  cadence: Held Tuesday, September 15, 2026, 8:00 a.m.–4:30 p.m. CDT, at 1601 E NASA Parkway, Houston, TX 77058;
+    recurrence is not stated [1390].
+  how_to_register: 'By Eventbrite: https://www.eventbrite.com/e/nasa-osbp-engagement-2026-lift-tickets-1986807279055
+    [1390].'
+  official_url: https://www.sba.gov/event/85407
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1390
+  conflicts:
+  - 'Date: SBA''s listing gives September 15, 2026; the sweep records that HHS''s calendar lists the same event
+    as September 14-16, 2026 [1390].'
+- id: nih-sbpo-appointments-and-outreach
+  name: NIH Small Business Program Office appointments and outreach
+  kind: programme
+  owner: National Institutes of Health, OAMP Small Business Program Office
+  what: 'Firms can book meetings through the "NIH SBPO Appointment & Inquiry Tool"; the office issues a quarterly
+    newsletter and points to the NIH procurement forecast via an HHS link [1391].
+
+    '
+  cadence: '"outreach activities can be found on sam.gov or via our Small Business Listserv or PEI Listserv." [1391]'
+  how_to_register: Through the appointment and inquiry tool, or by joining the listserv [1391].
+  official_url: https://oamp.od.nih.gov/nih-small-business-program-office
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1391
+  conflicts: []
+- id: nvsbe-2026
+  name: National Veterans Small Business Engagement (NVSBE) 2026
+  kind: event
+  owner: U.S. Department of Veterans Affairs, OSDBU
+  what: '"NVSBE 2026 Registration is open! December 8-9, 2026" [1399]. HHS''s calendar lists NVSBE 2026 for December
+    8–9, 2026 in Cleveland OH [1394]. What a firm gets was not captured: the VA event page returned 404.
+
+    '
+  cadence: December 8-9, 2026 [1399]; the sweep's draft calls the event annual, which the pages read do not state.
+  how_to_register: https://portal.vetbiz.va.gov/nvsbe/2026/ [1399]
+  official_url: https://www.va.gov/osdbu/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1394
+  - 1399
+  conflicts: []
+- id: va-direct-access-program
+  name: VA Direct Access Program
+  kind: programme
+  owner: U.S. Department of Veterans Affairs, OSDBU
+  what: 'The VA OSDBU home page lists the Direct Access Program under business readiness training, at https://vetbiz.va.gov/tatassistance/
+    [1399]. The programme page (https://www.va.gov/osdbu/outreach/dap/) returned 403, so what a firm gets was not
+    captured.
+
+    '
+  cadence: Not captured [1399].
+  how_to_register: Via vetbiz.va.gov, where the events calendar is at https://vetbiz.va.gov/#osdbu-calendar [1399].
+  official_url: https://www.va.gov/osdbu/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1399
+  conflicts:
+  - 'Unreadable: the Direct Access Program page returned 403; this record rests on a listing on the OSDBU home page
+    only [1399].'
+- id: gsa-small-business-training-and-events
+  name: GSA small business training and events
+  kind: programme
+  owner: U.S. General Services Administration
+  what: '"Participate in recurring training sessions led by our small business professionals." [1400]. Topics linked:
+    "How to do business with GSA"; RFIs, RFQs and RFPs; "How a subcontracting plan can benefit you"; GSA tools [1400].
+
+    '
+  cadence: Recurring; no dated events on the page, which was last updated 2026-09-22 [1400].
+  how_to_register: The page carries a link to register for GSA small business events and a link to NAPEX training
+    events [1400].
+  official_url: https://www.gsa.gov/small-business/training-and-events
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1400
+  conflicts: []
+- id: sba-events-calendar
+  name: SBA events calendar
+  kind: calendar
+  owner: U.S. Small Business Administration
+  what: 'SBA''s searchable events calendar; it filters by keyword, date range, district office and meeting type,
+    and events are tagged as SBA events, Resource Partner events or SBA participating events [1384]. One resource-partner
+    listing read: "Contract Ready: Doing Business with the GSA", a one-hour Zoom session run by the Veterans Business
+    Outreach Center of New England [1401].
+
+    '
+  cadence: Continuous; 1,100 events were shown in total at fetch time [1384].
+  how_to_register: 'Per event: "Use the fields to narrow your search and select the ''Search for events'' button
+    to see your results." [1384]'
+  official_url: https://legacy.sba.gov/events
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1384
+  - 1401
+  conflicts: []
+- id: sba-made-in-america-matchmaking-expo
+  name: SBA Made in America Matchmaking Expo
+  kind: event
+  owner: U.S. Small Business Administration with the National Association of Manufacturers
+  what: 'Held March 11, 2026 at Charlotte Motor Speedway: 675 small business suppliers; 35 large industrial buyers,
+    including Boeing, Honeywell, Lockheed Martin, NASA, Toyota and the U.S. Department of War; over 170 small businesses
+    matched with large companies [1388].
+
+    '
+  cadence: SBA's release calls it "a first-of-its-kind event"; it makes no statement that it will recur [1388].
+  how_to_register: Not stated in the release [1388].
+  official_url: https://legacy.sba.gov/article/2026/03/19/sba-celebrates-success-first-ever-made-america-matchmaking-expo-suppliers-manufacturers
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1388
+  conflicts: []
+- id: sba-supplier-matchmaking-expo-2026
+  name: SBA 2026 Supplier Matchmaking Expo
+  kind: event
+  owner: U.S. Small Business Administration with Intel
+  what: 'An SBA-hosted expo with Intel at the Grand Hyatt Scottsdale Resort offering "one-on-one matchmaking meetings"
+    and an exhibit hall; "No cost to attend!"; a corporate-buyer event (supply chains), not a federal-buyer event
+    [1387].
+
+    '
+  cadence: The date was not in the fetched text; recurrence is not stated [1387].
+  how_to_register: Through the SBA event page [1387].
+  official_url: https://legacy.sba.gov/event/85462
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1387
+  conflicts: []
+- id: national-small-business-week
+  name: National Small Business Week
+  kind: event
+  owner: U.S. Small Business Administration
+  what: '"National Small Business Week 2027 will take place May 2-8"; the page mentions awards and a virtual summit
+    with free presentations [1402].
+
+    '
+  cadence: The next is May 2-8, 2027 [1402].
+  how_to_register: No registration URL on the page; the contact is smallbusinessweek@sba.gov [1402].
+  official_url: https://www.sba.gov/national-small-business-week
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1402
+  conflicts: []
+- id: challengeher
+  name: ChallengeHER
+  kind: programme
+  owner: U.S. Small Business Administration with Women Impacting Public Policy (WIPP) and American Express
+  what: 'Per SBA''s September 23, 2024 release: two free events in autumn 2024 offering "Matchmaking opportunities
+    between women-owned businesses and government contractors and networking opportunities" [1403].
+
+    '
+  cadence: The latest official notice found is for 2024 (Arlington VA, George Mason University, October 10; Fort
+    Lauderdale FL, December 3); nothing dated 2025 or 2026 was found [1403].
+  how_to_register: The 2024 release names www.ChallengeHER.us, which was not fetched [1403].
+  official_url: https://legacy.sba.gov/article/2024/09/23/sba-wipp-amex-cohost-education-initiative-women-entrepreneurs-fall
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1403
+  conflicts:
+  - 'Status in 2026 not confirmed: no official 2025 or 2026 notice was found, and WIPP''s home page fetch showed
+    no ChallengeHER text [1403].'
+- id: apex-accelerator-matchmaker-events
+  name: APEX Accelerator matchmakers (state level)
+  kind: programme
+  owner: State APEX Accelerators
+  what: 'Virginia''s APEX Accelerator hosts conferences and matchmaker events and says "This APEX Accelerator is
+    funded in part through a cooperative agreement with the Department of War." and "All counseling is confidential
+    and at no cost to you." [1406]. The National APEX Accelerator Alliance, an association and not a federal site,
+    describes itself as "dedicated to helping businesses across the country find, win, and perform on local, state,
+    and federal government contracts." [1409]
+
+    '
+  cadence: Varies by state; NAPEX's site mentions "National APEX Day 2026" [1409]. Single events read in this sweep
+    have their own records.
+  how_to_register: Through each APEX Accelerator's event page; NAPEX's locator is at https://www.napex.us/locations/
+    (250+ locations, per the page) [1409]; Virginia's events are at https://virginiaapex.ecenterdirect.com/events
+    [1406].
+  official_url: https://www.napex.us/locations/
+  related:
+  - uah-annual-business-matchmaker
+  - apex-alabama-procurement-matchmaker
+  - midwest-virtual-matchmaker-2026
+  - mississippi-apex-accelerator-day-2026
+  - el-paso-apex-procurement-conference-2026
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1406
+  - 1409
+  conflicts: []
+- id: uah-annual-business-matchmaker
+  name: UAH Annual Business Matchmaker
+  kind: event
+  owner: University of Alabama in Huntsville SBDC and APEX Accelerator
+  what: '"The Business Matchmaker is a great opportunity for small businesses to connect one-on-one with government
+    agencies and prime contractors."; sessions are twelve minutes [1405].
+
+    '
+  cadence: Annual; the 18th was on August 27, 2026 at the Jackson Center [1405].
+  how_to_register: Seller tickets via Eventbrite; readiness consultations via APEX@uah.edu [1405].
+  official_url: https://www.uah.edu/sbdc/annual-business-matchmaker
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1405
+  conflicts: []
+- id: apex-alabama-procurement-matchmaker
+  name: APEX Accelerator of Alabama Procurement Matchmaker
+  kind: event
+  owner: APEX Accelerator of Alabama
+  what: '"a series of 15-minute one-on-one sessions with government and corporate buyers."; the format also includes
+    training [1404].
+
+    '
+  cadence: No date on the page; dates are on the organisation's calendar [1404].
+  how_to_register: Through the organisation's calendar [1404].
+  official_url: https://apexal.org/matchmaker-event/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1404
+  conflicts: []
+- id: midwest-virtual-matchmaker-2026
+  name: 2026 Midwest Virtual Matchmaker
+  kind: event
+  owner: APEX Accelerators of several states (listed by the National APEX Accelerator Alliance)
+  what: '"A premier networking event that allows businesses to request meetings with participating government agencies
+    and prime contractors" [1408]. Hosts: APEX Accelerators in Colorado, Iowa, Kansas, Missouri, Nebraska, North
+    Dakota, South Dakota, Minnesota, Montana, Wyoming, and the Native American Development Corporation APEX Accelerator
+    [1408].
+
+    '
+  cadence: Posted 2026-01-17; the event date was not in the fetched text [1408].
+  how_to_register: Not captured [1408].
+  official_url: https://www.napex.us/event/2026-midwest-virtual-matchmaker/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1408
+  conflicts:
+  - The sweep's summary says eleven states; the host list it captured names ten states plus the Native American
+    Development Corporation APEX Accelerator [1408].
+- id: mississippi-apex-accelerator-day-2026
+  name: Mississippi APEX Accelerator Day 2026
+  kind: event
+  owner: MS APEX Accelerator (Mississippi Development Authority)
+  what: 'A statewide APEX day on October 9, 2026, 9:00 AM–3:00 PM, at the Mississippi e-Center @ JSU, Jackson [1407];
+    NASA OSBP''s outreach page lists the same event [1389].
+
+    '
+  cadence: October 9, 2026; recurrence is not stated [1407].
+  how_to_register: https://mscpc.neoserra.com/conferences/3060 [1407]
+  official_url: https://msapexaccelerator.org/event/%f0%9f%9a%a8-mississippi-apex-accelerator-day-2026%f0%9f%9a%a8/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1389
+  - 1407
+  conflicts: []
+- id: el-paso-apex-procurement-conference-2026
+  name: APEX Accelerators 2026 Procurement Conference (El Paso)
+  kind: event
+  owner: Contract Opportunities Center with the SBA El Paso District Office
+  what: 'A procurement conference to "network with federal, state, and local agencies and prime contractors"; cost
+    $20.00; venue EPCC Administrative Services Center, Building A, 9050 Viscount Blvd., El Paso, TX 79925 [1410].
+
+    '
+  cadence: The date was not in the fetched text [1410].
+  how_to_register: Through the SBA event listing, which names an organiser contact at EPCC [1410].
+  official_url: https://legacy.sba.gov/event/87054
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1410
+  conflicts: []
+- id: army-small-business-seminar-and-matchmaking-ausa
+  name: Army Small Business Seminar & Matchmaking Sessions (at the AUSA Annual Meeting)
+  kind: event
+  owner: Department of the Army Office of Small Business Programs (programme); Association of the United States
+    Army (host)
+  what: 'Per the association''s event page, a secondary source: an Army OSBP seminar on Tuesday 13 October and matchmaking
+    on Wednesday 14 October at the Walter E. Washington Convention Center, Room 201, with matchmaking 0930–1630
+    in 10-minute meetings with small-business representatives from agencies and prime contractors [1414]. HHS''s
+    calendar lists the AUSA Annual Meeting and Exposition for October 12-14, 2026, Washington DC [1394].
+
+    '
+  cadence: Held with the AUSA annual meeting; 2026 dates as above [1414] [1394].
+  how_to_register: '"Registration information and events updates will be available on the Army Office Small Business
+    programs website." [1414]; that site is https://www.army.mil/osbp [1376].'
+  official_url: https://www.army.mil/osbp
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1376
+  - 1394
+  - 1414
+  conflicts:
+  - 'Secondary: the session details rest on the association''s page [1414]; the Army OSBP page read does not carry
+    them [1376].'
+- id: navy-gold-coast
+  name: Department of the Navy Gold Coast
+  kind: event
+  owner: NDIA San Diego Chapter and the Department of the Navy Office of Small Business Programs
+  what: 'Per the association''s site, a secondary source: a Navy procurement expo presented by the NDIA San Diego
+    Chapter and DON OSBP; the 2026 dates were August 17-20 at the San Diego Convention Center, and a matchmaking
+    section exists in the site menu (not fetched) [1415]. The Army OSBP page carries a news item titled "Army Office
+    of Small Business Shares Strategies at Navy Gold Coast" (September 2, 2026) [1376].
+
+    '
+  cadence: '2026: August 17-20 [1415]; the sweep''s draft calls the event annual, which the page read does not state.'
+  how_to_register: Through navygoldcoast.org [1415].
+  official_url: https://www.navygoldcoast.org/about/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1376
+  - 1415
+  conflicts:
+  - 'Secondary only: no official Navy page was read (secnav.navy.mil rejected the fetch); dates and format rest
+    on the association site [1415].'
+- id: sea-air-space-matchmaking
+  name: Matchmaking at Sea-Air-Space
+  kind: event
+  owner: Department of the Navy Office of Small Business Programs and the Navy League of the United States
+  what: 'Per the association''s page, a secondary source: a matchmaking session on April 21, 2026, 10:30 AM–12:00
+    PM, "Presented by the DON Office of Small Business Programs & Navy League of the United States" [1416].
+
+    '
+  cadence: Held with the exposition; the 2026 session was April 21 [1416].
+  how_to_register: By submission; registration for 2026 was closed at fetch [1416].
+  official_url: https://seaairspace.org/highlights/navy-is-open-for-business/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1416
+  conflicts:
+  - 'Secondary only: no official Navy page was read; the session rests on the association page [1416].'
+  - The page also printed submission dates in 2025 (February 21 to March 21, 2025), which appear to be left from
+    the prior year [1416].
+- id: daf-small-business-events
+  name: Department of the Air Force Office of Small Business events calendar
+  kind: calendar
+  owner: Department of the Air Force Office of Small Business
+  what: 'A calendar page; the fetch returned only a March–April 2026 view with event titles, including "Education
+    & Matchmaking" (Mar 10), "Supplier Matchmaking Event" (Mar 11) and "2026 MPP Summit" (Apr 7-9), with no descriptions
+    or registration links [1411].
+
+    '
+  cadence: A calendar; only March–April 2026 titles were returned [1411].
+  how_to_register: Not captured [1411].
+  official_url: https://www.airforcesmallbiz.af.mil/Small-Business/Upcoming-Events/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1411
+  conflicts: []
+- id: dla-small-business-outreach-calendar
+  name: DLA Small Business Outreach Calendar
+  kind: calendar
+  owner: Defense Logistics Agency
+  what: '"Discover matchmaking events, attend classes or connect with other small businesses in similar industries.";
+    the page directs readers to APEX Accelerators'' events; the calendar entries did not render in the fetch [1412].
+
+    '
+  cadence: A calendar; entries were not read [1412].
+  how_to_register: Per event; not captured [1412].
+  official_url: https://www.dla.mil/Small-Business/Resource-Center/Outreach-Calendar/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1412
+  conflicts: []
+- id: smdc-office-of-small-business-programs
+  name: SMDC Office of Small Business Programs (Redstone Arsenal)
+  kind: office
+  owner: U.S. Army Space and Missile Defense Command
+  what: 'The SMDC small-business office contact page: Von Braun Complex, VB-1, Bldg. 5220, Room 1023, Redstone Arsenal;
+    phone (256) 955-3412; the page carries no events or capability-statement guidance [1413].
+
+    '
+  cadence: No events on the page [1413].
+  how_to_register: Contact the office at usarmy.redstone.smdc.mbx.small-business-office@army.mil [1413].
+  official_url: https://www.smdc.army.mil/RESOURCES/SBO/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1413
+  conflicts: []
+- id: prime-run-outreach
+  name: Outreach run or listed by prime contractors
+  kind: calendar
+  owner: Prime contractors (each on its own page)
+  what: 'Lockheed Martin lists an "Upcoming Events Calendar" with six events in September–October, including Defense
+    TechConnect, AUSA Annual Meeting, NMSDC Annual Conference and Government Procurement Conference [1303]. BAE
+    Systems, Inc. links a 2026 Calendar of Events PDF [1325]. CACI''s page has an events table that includes VIP
+    Start, GEOINT, SOF Week, HUBZone Conference and AUSA [1338]. GDIT links the General Dynamics events calendar
+    at https://suppliers.gendyn.com/Events/Default.aspx [1317]. Maximus mentions "Small Business Industry Days"
+    (no dates) [1364]. RTX lists "2026 DoW Mentor Protégé Summit" among outreach events [1306].
+
+    '
+  cadence: Set by each company; see each page [1303] [1325] [1338] [1317] [1364] [1306].
+  how_to_register: Through each company's page; none of the pages read gives a single registration route [1303]
+    [1325] [1338] [1317] [1364] [1306].
+  official_url: ''
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1303
+  - 1306
+  - 1317
+  - 1325
+  - 1338
+  - 1364
+  conflicts: []
+- id: sba-prime-contractor-directory
+  name: SBA Directory of Federal Government Prime Contractors with Subcontracting Plans (and SubNet)
+  kind: directory
+  owner: U.S. Small Business Administration
+  what: '"A listing of Federal Government contractors that have a requirement to subcontract to small businesses."
+    [1366]. It is an Excel download carrying FY 2024 data; SBA advises firms to "locate the prime contractor''s
+    website and assess their requirements to be a subcontractor." [1366]. SBA''s prime-and-subcontracting page points
+    to SubNet, this directory and three agency subcontracting directories (LYNX for DoD, GSA, USDA), and suggests
+    the Small Business Search (SBS) tool and APEX Accelerators [1365]. SubNet: "SBA''s SUBNet (subcontracting network)
+    helps large federal prime contractors find small subcontractors."; "Small businesses can browse the listing
+    below to find subcontracting opportunities." [1367]
+
+    '
+  cadence: FY 2024 data; the directory page was last updated 2025-03-04 [1366].
+  how_to_register: 'No registration: download the file and follow the directions on each prime''s website [1366].
+    SubNet is browsed and filtered by state or keyword; questions go to the posted point of contact, and general
+    help is at subcontracting@sba.gov [1367] [1509].'
+  official_url: https://legacy.sba.gov/document/support-directory-federal-government-prime-contractors-subcontracting-plans
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1365
+  - 1366
+  - 1367
+  - 1508
+  - 1509
+  conflicts:
+  - 'SubNet posting: the legacy.sba.gov page read in slice C says primes post by emailing subcontracting@sba.gov
+    [1367]; the www.sba.gov page read in slice D says "The ability to post new subcontracting opportunities is not
+    currently available." [1509]'
+  - The directory file (Excel, FY24) was not opened; nothing here describes its columns [1366]. The sba.gov address
+    for the directory redirects to legacy.sba.gov [1366]. Slice D read SBA's prime-and-subcontracting page at a
+    second address [1508].
+- id: gsa-subcontracting-directory
+  name: GSA Subcontracting Directory for Small Businesses
+  kind: directory
+  owner: U.S. General Services Administration
+  what: 'GSA''s page says the directory "Lists other than small business prime contractors who have been awarded
+    contracts with us requiring small business subcontracting plans" and can be filtered by NAICS code, keyword,
+    industry category, city or state [1368]. The data.gov record offers an Excel download: "The GSA Subcontracting
+    Directory list large Prime Contractors who, by law, are required to establish plans and goals for subcontracting
+    with Small Business Firms." [1369]. The same GSA page describes the Forecast of Contracting Opportunities tool
+    at https://acquisitiongateway.gov/forecast: "The forecast of contracting opportunities, or FCO tool, is a governmentwide
+    planning tool that shows upcoming federal contract opportunities." [1368]
+
+    '
+  cadence: GSA's page was last updated 2026-06-05 [1368]; the dataset's metadata was updated 2024-08-08 and its
+    download filename reads "as-of-03132025" [1369].
+  how_to_register: No registration; use the directory on GSA's page or download the file from data.gov [1368] [1369].
+  official_url: https://www.gsa.gov/small-business/find-opportunities
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1368
+  - 1369
+  conflicts:
+  - The Excel file was not opened [1369].
+- id: usda-subcontracting-directory
+  name: USDA 2026 Small Business Subcontracting Opportunities Directory
+  kind: directory
+  owner: USDA Office of Small and Disadvantaged Business Utilization
+  what: 'USDA''s directory of its large primes with subcontracting plans, each with an SBLO contact and stated subcontracting
+    needs; the primes are food processors, engineering firms, a construction firm, laboratories and services firms
+    [1370]. The extraction counted 24 prime entries; examples: Ameriqual Group, JBS, Dole Packaged Foods, ClarkNexsen,
+    Stanley Consultants, Grunley Construction, Mathematica, Zoetis [1370].
+
+    '
+  cadence: The 2026 edition [1370].
+  how_to_register: No registration; contact the SBLO listed for each prime [1370].
+  official_url: https://www.usda.gov/sites/default/files/documents/subcontracting-directory.pdf
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1370
+  conflicts:
+  - The count of 24 entries is the extraction's and was not recounted [1370].
+- id: faa-subcontracting-directory
+  name: FAA Subcontracting Directory
+  kind: directory
+  owner: Federal Aviation Administration, Small Business Office
+  what: 'FAA''s list of prime contractors with SBLO contacts: 29 primes listed, including Boeing, Booz Allen Hamilton,
+    GDIT, Jacobs Engineering Group, KBR Wyle Services, L3Harris, Leidos, Noblis, Northrop Grumman Systems, Parsons,
+    Peraton, Pratt & Whitney Engine Services, SAIC, Tetra Tech AMT, The MITRE Corporation, Verizon, Weston Solutions
+    [1371].
+
+    '
+  cadence: Last modified 2025-09-16; some entries use older names as printed (General Dynamics C4 Systems, Raytheon
+    Intelligence and Space, Tasc Inc.) [1371].
+  how_to_register: No registration; contact the SBLO listed for each prime [1371].
+  official_url: https://sbo.faa.gov/Inline.cfm?PageName=FAA+Subcontracting+Directory
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1371
+  conflicts: []
+- id: nasa-small-business-subcontracting-program
+  name: NASA Small Business Subcontracting Program (prime profiles)
+  kind: directory
+  owner: NASA Office of Small Business Programs
+  what: '"Connecting small businesses with NASA''s prime contractors to help achieve our mission." [1372]. "Click
+    on a prime contractor below to learn more about their small business programs, contact information, and current
+    needs."; primes listed: BAE Systems, Blue Origin, JPL (Caltech), KBR; the page also points to SBA''s SubNet
+    [1372]. Two profiles were read: BAE Systems [1326] and KBR [1345].
+
+    '
+  cadence: A standing page, dated 2026-09-25 [1372].
+  how_to_register: No registration; each profile gives the prime's SBLO contact [1326] [1345].
+  official_url: https://www.nasa.gov/osbp/subcontracting-program/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1326
+  - 1345
+  - 1372
+  conflicts:
+  - The Blue Origin and JPL profiles were not fetched [1372].
+- id: doe-small-business-program-manager-directory
+  name: DOE Small Business Program Manager Directory
+  kind: directory
+  owner: U.S. Department of Energy
+  what: '"Provides contact information for Small Business Program Managers throughout DOE including Contracting
+    Offices, Program Elements, Major Contractors etc." [1373]. An example in the page text: Mission Support and
+    Test Services, LLC (Nevada National Security Site) [1373].
+
+    '
+  cadence: Updated 2026-09-11 [1373].
+  how_to_register: No registration; the directory is a download [1373].
+  official_url: https://www.energy.gov/osbp/small-business-program-manager-directory
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1373
+  conflicts:
+  - The download itself was not opened; the page was read only in part [1373].
+- id: lynx
+  name: LYNX (DoD subcontracting directory)
+  kind: directory
+  owner: Department of War Office of Industrial Base Growth, as stated in a notice hosted by GDIT
+  what: 'SBA lists LYNX (DoD), at https://www.lynxconnect.io/, among the subcontracting directories [1365]. A notice
+    hosted by GDIT says "LYNX is a dynamic, all-in-one platform designed to empower businesses of all sizes to succeed
+    in the defense marketplace." and "Built and hosted by the Department of War Office of Industrial Base Growth"
+    [1321]. The Army OSBP page links to LYNX [1376].
+
+    '
+  cadence: A standing platform; the GDIT-hosted notice is dated 2026-06-26 from its filename [1321].
+  how_to_register: The notice tells businesses to create a profile at https://www.lynxconnect.io [1321].
+  official_url: https://www.lynxconnect.io/
+  related: []
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1321
+  - 1365
+  - 1376
+  conflicts:
+  - 'Unreadable: lynxconnect.io rendered empty (only a meta description returned), so what LYNX holds is described
+    here only through SBA''s listing [1365] and a prime-hosted notice [1321]. business.defense.gov was not attempted,
+    and a "DoW CSP Prime Contractor Directory Dec2025" PDF seen there in search results was not fetched.'

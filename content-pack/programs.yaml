@@ -1,4 +1,4 @@
-# programs.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR and set-asides/vehicles sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# programs.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
 - id: sbir-sttr-governmentwide
   name: SBIR/STTR (government-wide framework)
   family: sbir-sttr
