@@ -1,0 +1,181 @@
+# help.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR sweeps (slices A–D). Every entry carries recheck: true until quotes are verified against live pages.
+- id: apex-accelerators
+  name: APEX Accelerators (formerly Procurement Technical Assistance Centers)
+  what: 'APEX Accelerators (formerly known as Procurement Technical Assistance Centers) provide technical assistance
+    to businesses interested in selling products or services to federal, state, and local governments [471]. The
+    program is administered by the DoD Office of Small Business Programs through cooperative agreements with state
+    and local governments and non-profits [469]. As of October 2023 the network had 90-plus APEX Accelerators with
+    over 300 local offices and more than 600 procurement advisers [469]. Ohio''s host page lists bid preparation
+    help, bid-matching, military specifications, one-on-one training and procurement histories, at no charge to
+    Ohio businesses [470].
+
+    '
+  who_for: Businesses interested in selling products or services to federal, state and local governments [471]
+  how_to_find: SBA points to the national locator at https://www.apexaccelerators.us/#/ [471]. State hosts may run
+    their own finders; Ohio's county finder is at https://find.govcontracts.ohio.gov/contact/ [470].
+  official_url: https://www.apexaccelerators.us/
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 469
+  - 470
+  - 471
+  - 472
+  conflicts: []
+- id: sbdc
+  name: Small Business Development Centers (SBDC)
+  what: 'Small Business Development Centers give individual advising and technical assistance on capital, planning,
+    technology, marketing and export [473]. SBA lists SBDCs among its contracting-specific helpers [472]. SBA''s
+    page gives no count of centers [473].
+
+    '
+  who_for: Small businesses seeking general business advising and technical assistance [473]
+  how_to_find: SBA's finder at https://www.sba.gov/local-assistance [473]
+  official_url: https://www.sba.gov/local-assistance/resource-partners/small-business-development-centers-sbdc
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 472
+  - 473
+  - 474
+  conflicts:
+  - 'Left out of the description until a government source is read: network size (nearly 1,000 local centers, hosted
+    by universities, colleges, state economic development agencies and private partners), which comes only from
+    the network''s own association while SBA''s page gives no count [474] [473]'
+- id: score
+  name: SCORE business mentoring
+  what: 'SBA describes SCORE as "the nation''s largest network of volunteer, expert business mentors" [475]. It
+    offers free mentoring plus workshops and on-demand courses [475].
+
+    '
+  who_for: Small-business owners who want a volunteer mentor [475]
+  how_to_find: Finder at sba.gov/score [475]
+  official_url: https://www.sba.gov/score
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 472
+  - 475
+  conflicts: []
+- id: womens-business-centers
+  name: Women's Business Centers (WBC)
+  what: 'Women''s Business Centers are "a national network of entrepreneurship centers throughout the United States
+    and its territories" [476]. They offer free to low-cost counseling and training, including help with federal
+    contracts [476].
+
+    '
+  who_for: ''
+  how_to_find: Finder at sba.gov/wbc [476]
+  official_url: https://www.sba.gov/wbc
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 476
+  conflicts: []
+- id: veterans-business-outreach-centers
+  name: Veterans Business Outreach Centers (VBOC)
+  what: 'The Veterans Business Outreach Center program has 31 organizations participating in the cooperative agreement
+    [477]. It runs Boots to Business [477].
+
+    '
+  who_for: Service members, veterans, Guard and Reserve, and military spouses [477]
+  how_to_find: Finder at sba.gov/vboc [477]. Each SBA district office also has one Veterans Business Development
+    Officer [471].
+  official_url: https://www.sba.gov/vboc
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 471
+  - 477
+  conflicts: []
+- id: mbda-business-centers
+  name: MBDA Business Centers
+  what: 'MBDA Business Centers belong to the Commerce Department''s Minority Business Development Agency, whose
+    site was live on 2026-10-03 and describes Business Centers in general terms, with no count, locator or status
+    notice in the fetched text [478]. Executive Order 14238 of March 14, 2025 called for eliminating MBDA, and on
+    May 13, 2025 the U.S. District Court for the District of Rhode Island issued a preliminary injunction in State
+    of Rhode Island et al. v. Trump et al. [481]. A state-hosted centre in North Carolina still presents itself
+    as operating and as one of 35 such centers [479]. Before 2025, CRS counted 131 Business Centers as of FY2023
+    including specialty centers, with 40 standard Business Centers in 32 states and Puerto Rico [480].
+
+    '
+  who_for: After Nuziard v. MBDA (March 2024), applicants self-certify as socially or economically disadvantaged
+    regardless of race [480]
+  how_to_find: No locator was found in the fetched text of mbda.gov, and its Business Centers sub-page returned
+    403 [478]. North Carolina's centre has its own state page [479].
+  official_url: https://www.mbda.gov/
+  pending_changes:
+  - status: announced
+    date: '2025-03-14'
+    text: Executive Order 14238 called for eliminating MBDA; a preliminary injunction followed on May 13, 2025;
+      the current number of centres, funding and operating status in 2026 were not verified [481]
+  as_of: '2026-10-03'
+  sources:
+  - 478
+  - 479
+  - 480
+  - 481
+  conflicts:
+  - 'Network size: 131 Business Centers as of FY2023, 40 of them standard centers [480] vs "one of 35 such centers"
+    on a state host page [479]; no current official count was read [478]'
+- id: fast-partners
+  name: FAST partners (state SBIR/STTR support organisations)
+  what: 'A FAST partner is an organization funded under SBA''s FAST Partnership Program to help firms in its state
+    or region compete for SBIR/STTR [311]. FAST''s three functions are stakeholder engagement, technical and business
+    assistance, and financial support such as Phase 0 and travel grants [463]. SBA announced 50 FY 2026 awardee
+    organizations on September 22, 2026, covering 49 states and Puerto Rico; examples are University of Illinois,
+    Arizona Commerce Authority, Ben Franklin Technology Partners (Pennsylvania), Puerto Rico Science, Technology
+    & Research Trust and Central Washington University [313].
+
+    '
+  who_for: Small firms preparing SBIR/STTR proposals; SBA frames the aim as more proposals and awards "from small
+    businesses owners in undercapitalized regions." [311]
+  how_to_find: The state-by-state table in SBA's September 22, 2026 announcement [313]. Current awardees are also
+    listed on SBA's FAST page, with contact FAST@sba.gov [311]. SBA's Lab to Market Hub is a resource finder by
+    industry, organization type, location and award status that links FAST [315].
+  official_url: https://www.sbir.gov/community/fast
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 311
+  - 312
+  - 313
+  - 315
+  - 463
+  conflicts:
+  - 'FAST counts do not reconcile, and the full awardee table was not extracted: NOFO reads [312], webinar slides
+    [463], award release [313]'
+- id: state-sbir-match-programs
+  name: State SBIR/STTR match and Phase 0 programs (examples)
+  what: 'SBA''s September 2020 table lists 25 states with Phase I/II matching programs and 20 states and territories
+    with Phase 0 grants; it is six years old and serves only as a pointer list [464]. North Carolina''s One North
+    Carolina Small Business Program made 32 matching awards totaling $2,368,507 in FY2026 and also runs an incentive
+    solicitation [465]. Kentucky matches up to $100,000 for Phase I and up to $150,000 for Phase II, for firms "based
+    in, or willing to re-locate to, Kentucky" [466]. Alabama''s Supplemental Grant Program offers up to $100,000
+    for Phase I and up to $250,000 for Phase II (50% of the award), and applications were closed when the page was
+    read [467]. Massachusetts START grants of $100,000 to $500,000 go to Massachusetts companies with an SBIR/STTR
+    Phase II in the past 5 years; the 2026 round opened February 1 and closed February 23, 2026 [468].
+
+    '
+  who_for: For-profit SBIR or STTR recipients in a state that runs such a program, as in Kentucky's rule [466]
+  how_to_find: 'North Carolina: https://www.commerce.nc.gov/grants-incentives/technology-funds/one-north-carolina-small-business-program
+    [465]. Kentucky: https://newkentuckyhome.ky.gov/Entrepreneurship/SBIR_STTR [466]. Alabama: https://innovatealabama.org/programs/supplemental-grant-program/
+    [467]. Massachusetts: https://www.mass.gov/news/massventures-opens-start-grant-applications-to-help-startups-translate-research-into-companies-and-jobs
+    [468]. FAST partners may also offer "Phase 0" proposal-development grants or loans [311].'
+  official_url: https://www.sbir.gov/sites/default/files/SBIR-Table_StateMatchingPhase0_Sept2020.pdf
+  pending_changes:
+  - status: announced
+    date: '2026-12-14'
+    text: 'North Carolina: FY2027 Incentive solicitation released September 14, 2026; FY2027 Matching solicitation
+      December 14, 2026 [465]'
+  as_of: '2026-10-03'
+  sources:
+  - 311
+  - 464
+  - 465
+  - 466
+  - 467
+  - 468
+  conflicts:
+  - 'Kentucky Phase II match: up to $150,000 on the state page, the newer source [466], vs up to $500K in SBA''s
+    2020 table [464]'

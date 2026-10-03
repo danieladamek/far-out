@@ -1,0 +1,349 @@
+# gates.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR sweeps (slices A–D). Every entry carries recheck: true until quotes are verified against live pages.
+- id: sam-registration
+  name: SAM.gov registration and Unique Entity ID (UEI)
+  what: 'SAM registration provides the UEI and is one of the registrations that must be completed before an application
+    can be submitted [355]. NIH requires SAM registration with annual renewal [322]. EPA requires an active SAM
+    registration set to "contracts" or "all awards" [393].
+
+    '
+  applies_when: Before applying to NIH, NSF, DOE, DOT, EPA, ED or NIST opportunities, each of which names SAM or
+    the UEI among its requirements [322] [343] [355] [382] [393] [398] [402]
+  steps:
+  - 'Start early: DOE says SAM takes "Up to 8 weeks (pending capacity)" [355]; NIH says registration can take 6
+    weeks or more [322]; EPA says to allow 6-8 weeks minimum for its registrations [393]'
+  - For EPA contracts, set the SAM registration to "contracts" or "all awards" [393]
+  - For DOT, use NAICS code 541715 in the SAM registration [385]
+  - For NIH, renew the SAM registration annually [322]
+  - Grants.gov applicants find instructions for registering with sam.gov as part of the grants.gov process [402]
+  official_url: https://sam.gov/
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 322
+  - 343
+  - 355
+  - 360
+  - 382
+  - 385
+  - 393
+  - 398
+  - 402
+  conflicts:
+  - 'NASA: SAM.gov and SBA Company Registry requirements were not surfaced from the appendix text read [360]'
+- id: sbir-registration
+  name: SBIR.gov small business concern registration (SBA Company Registry, SBC Control ID)
+  what: 'NIH, NSF, DOE and DOT each require registration in the SBA Company Registry before applying [322] [343]
+    [355] [382]. EPA requires the SBC Control ID from the SBA Company Registry with the proposal [393]. SBIR.gov
+    has moved to a new identity-verification login [302].
+
+    '
+  applies_when: Before applying to NIH, NSF, DOE, DOT or EPA SBIR/STTR opportunities [322] [343] [355] [382] [393]
+  steps:
+  - Register the company in the SBA Company Registry [355]
+  - Keep the SBC Control ID; EPA requires it with the proposal [393]
+  - SBA's free tutorials include a Registration Requirements course [304]
+  official_url: https://www.sbir.gov/
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 302
+  - 304
+  - 308
+  - 322
+  - 343
+  - 355
+  - 382
+  - 393
+  conflicts:
+  - SBA's generic Apply page does not list SAM.gov or the Company Registry [308], although agency solicitations
+    require both [322]
+- id: era-commons-assist
+  name: NIH eRA Commons and ASSIST
+  what: 'The NIH, CDC and FDA SBIR parent announcement requires eRA Commons registration and tracks applications
+    in eRA Commons [322]. Applications are submitted through NIH ASSIST, an institutional system-to-system service,
+    or Grants.gov Workspace [322]. The STTR parent also requires ORCID for all PD/PIs [324].
+
+    '
+  applies_when: Applying under PA-27-100 (NIH, CDC and FDA SBIR) or PA-27-102 (NIH STTR) [322] [324]. NIH contract
+    proposals instead go through eCPS [321].
+  steps:
+  - Register in SAM, the SBA Company Registry, eRA Commons and Grants.gov; registration can take 6 weeks or more
+    [322]
+  - Submit through ASSIST, system-to-system, or Grants.gov Workspace [322]
+  - Use eRA Commons to follow application status [331]
+  - After reauthorization NIH told firms that company registrations take 6+ weeks [327]
+  official_url: https://seed.nih.gov/small-business-funding/how-to-apply
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 321
+  - 322
+  - 324
+  - 327
+  - 331
+  conflicts: []
+- id: research-gov
+  name: NSF Research.gov registration
+  what: 'NSF SBIR/STTR proposals are submitted via Research.gov [337]. NSF names three registrations, Unique Entity
+    ID (SAM.gov), Research.gov and the SBA Company Registry, and gives no registration lead times [343].
+
+    '
+  applies_when: Submitting a full NSF SBIR/STTR proposal after a Project Pitch invitation [344]
+  steps:
+  - Register for a Unique Entity ID (SAM.gov), in Research.gov and in the SBA Company Registry [343]
+  - In Research.gov select NSF 26-510 or NSF 26-511, then the program and phase [345]
+  - Include a copy of the email invitation from an NSF SBIR/STTR program officer [344]
+  - 'Help: Research.gov Help Desk 1-800-381-1532, 7 AM-9 PM ET, Monday-Friday; sbir@nsf.gov [343]'
+  official_url: https://seedfund.nsf.gov/how-to-submit/
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 337
+  - 343
+  - 344
+  - 345
+  conflicts: []
+- id: nasa-prosams
+  name: NASA ProSAMS proposal system
+  what: 'NASA runs most SBIR/STTR solicitation submissions and contracts on the Proposal Submissions and Awards
+    Management System (ProSAMS) [366]. The 2026 BAA appendices require proposal packages to be submitted in ProSAMS
+    [360] [362].
+
+    '
+  applies_when: Submitting to a NASA SBIR/STTR BAA appendix [360]
+  steps:
+  - Use https://prosams.nasa.gov/; help is at https://prosams.nasa.gov/help [366]
+  - Select the appendix's ProSAMS solicitation type, for example "SBIR 2026B-I" [360]
+  - Templates are in the Firms Library at https://www.nasa.gov/sbir_sttr/firms_library/ [366]
+  - Help desk at agency-sbir@mail.nasa.gov [362]
+  official_url: https://prosams.nasa.gov/
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 360
+  - 362
+  - 366
+  conflicts:
+  - NSPIRES is not mentioned in either sweep; NASA's SBIR/STTR pages name only ProSAMS [366]
+- id: grants-gov
+  name: Grants.gov registration and submission
+  what: 'NIH lists Grants.gov among its required registrations and Grants.gov Workspace as a submission route [322].
+    NIST applications go through Grants.gov with four mandatory forms [402]. NOAA posts its one annual NOFO on its
+    own page and on Grants.gov [406]. USDA NIFA''s opportunities can be followed through Grants.gov alerts by Assistance
+    Listing 10.212 [369].
+
+    '
+  applies_when: Applying for SBIR/STTR grants at NIH, CDC, FDA, USDA, NIST or NOAA [322] [374] [402] [406]
+  steps:
+  - Register with Grants.gov; registering with sam.gov is part of the grants.gov process [402]
+  - For USDA, set a Grants.gov alert by Assistance Listing 10.212 [369]
+  - CDC notes that future NOFOs are forecasted on Grants.gov before they open [334]
+  official_url: https://grants.gov/
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 322
+  - 334
+  - 369
+  - 374
+  - 402
+  - 406
+  conflicts: []
+- id: agency-submission-portals
+  name: Other agency submission portals (DOE Application Hub, FedConnect, Valid Eval, eCPS, DHS portal)
+  what: 'DOE applications go through the DOE SBIR/STTR Application Hub, with submission in the Acquisition Management
+    Portal [350]. EPA''s solicitation is on FedConnect [392]. DOT proposals are submitted on Valid Eval [382]. NIH
+    contract proposals must go through the electronic Contract Proposal Submission (eCPS) system [321]. ED/IES solicitations
+    are posted on SAM.gov [398].
+
+    '
+  applies_when: Applying to DOE, EPA, DOT, NIH contract or ED/IES SBIR opportunities [350] [392] [382] [321] [398]
+  steps:
+  - 'DOE: register for the Application Hub (one of three required registrations) at https://register.ati.org/ and
+    log in at https://identity.ati.org/ [355] [353]'
+  - 'EPA: FedConnect is among the required registrations [393]'
+  - 'DOT: sign up at https://usg.valideval.com/teams/usdot_2026/signup [382]'
+  - 'NIH contracts: eCPS at https://ecps.nih.gov/ [321]'
+  official_url: ''
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 321
+  - 350
+  - 353
+  - 355
+  - 382
+  - 390
+  - 392
+  - 393
+  - 398
+  conflicts:
+  - 'DHS: the DHS SBIR portal at oip.dhs.gov/sbir/public returned HTTP 403 and was not read, so no DHS portal steps
+    are given [390]'
+- id: data-rights-marking
+  name: SBIR/STTR data-rights marking
+  what: 'During the protection period the government holds a license to use SBIR data but may not disclose it [436].
+    Under SBA''s directive the period begins at award and ends twenty years (or longer at agency discretion) from
+    the date of award, and data must be marked [422]. The DoD clause DFARS 252.227-7018 (AUG 2025) runs 20 years
+    from contract award, after which "the Government shall have government purpose rights perpetually" [434]. The
+    civilian clause FAR 52.227-20 (May 2014) still states a 4-year period [433].
+
+    '
+  applies_when: 'Every SBIR/STTR award: the 20-year period applies to Phase I, II and III [436], and SBIR/STTR data
+    protection applies to contracts and subcontracts that include Phase III work [429]'
+  steps:
+  - Mark SBIR/STTR data before delivery; under SBA's directive data must be marked [422]
+  - 'DoD contracts: data must carry the "SBIR/STTR DATA RIGHTS" legend, including the expiration date of the protection
+    period [434]'
+  - If data was delivered unmarked, ask to correct it within 6 months [422] [433]
+  - Under FAR 52.227-20, data delivered without the notice is treated as unlimited-rights data [433]
+  - 'DoD contracts: nonconforming markings not corrected within 60 days of notice may be removed or corrected by
+    the government at contractor expense [434]'
+  - In a Phase III proposal, assert SBIR/STTR data rights; primes must flow down SBIR/STTR data rights [430]
+  - DoD may not require an offeror to sell or relinquish rights in SBIR/STTR technical data (DFARS 227.7104-1(a))
+    [429]
+  official_url: https://www.acquisition.gov/dfars/227.7104-1-policy.
+  pending_changes:
+  - status: proposed
+    date: '2023-04-07'
+    text: FAR Case 2020-010 would change the protection period in FAR 52.227-20 from 4 years to 20 years after award
+      and add STTR coverage; it is a proposed rule and no final rule was found as of 2026-10-03 [428]
+  - status: final
+    date: '2025-01-17'
+    text: DFARS Case 2019-D043 replaced the extendable 5-year period with a single non-extendable 20-year period
+      followed by perpetual government purpose rights, effective January 17, 2025 [435]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: P.L. 119-83 does not amend the data-rights rules [417]; it requires contracting-officer training that
+      covers Phase III data rights (sec. 5), with implementation not verified [416]
+  as_of: '2026-10-03'
+  sources:
+  - 416
+  - 417
+  - 422
+  - 428
+  - 429
+  - 430
+  - 433
+  - 434
+  - 435
+  - 436
+  - 437
+  conflicts:
+  - 'Protection period: 20 years from award in SBA''s directive [422] and DFARS 252.227-7018 [434] vs 4 years in
+    FAR 52.227-20 [433]; a law-firm note argues the 20-year period governs anyway [437]'
+  - 'After the period: government-purpose use under the directive, with DOE taking unlimited rights [422] vs perpetual
+    government purpose rights under the DFARS clause [434]'
+  - Legend wording in the Navy Phase III Guidebook (2020) predates the 2023 directive and the 2025 DFARS rule and
+    is superseded [430]
+- id: foreign-disclosure-security-review
+  name: Foreign-affiliation disclosure and security-risk review
+  what: 'Applicants disclose foreign ties on the foreign-disclosure form in SBA''s directive appendices [459]. Agencies
+    had to establish due diligence programs by June 27, 2023, assessing cybersecurity practices, patents, employee
+    affiliations and foreign ownership [452]. P.L. 119-83 adds an evaluation of whether a small business "presents
+    a security risk for any reason", with denial grounds that include a connection to an entity on eight named lists
+    [417].
+
+    '
+  applies_when: Every SBIR/STTR application; at HHS the policy covers all SBIR/STTR applications and active awards
+    [328]
+  steps:
+  - 'Complete the foreign disclosure (Appendix III): malign foreign talent recruitment program participation; parent,
+    subsidiary or joint venture in a foreign country of concern; obligations to foreign state entities; wholly foreign
+    ownership; foreign-affiliated venture investment; technology licensing or IP transfer to a country of concern
+    in the prior 5 years [459]'
+  - '"Foreign country of concern" means China, North Korea, Russia, Iran, or any other country so determined by
+    the Secretary of State [452]'
+  - The agency may deny the award; under the 2026 Act denied firms must be notified and remain eligible in later
+    cycles [417]
+  - 'HHS: update the disclosure annually with progress reports and within 30 days of any change in ownership, entity
+    structure or covered individual; failure to disclose can require repayment of all funds [328]'
+  - NOAA names a Foreign Affiliations Disclosure among its required forms [408]
+  - 'Certifications run alongside: a Funding Agreement Certification at award and Life Cycle Certifications during
+    performance, with warnings citing 18 U.S.C. 1001, False Claims Act treble damages, suspension and debarment
+    [459]'
+  official_url: https://www.sbir.gov/sites/default/files/SBA%20SBIR_STTR_FINAL_APPENDICES_MAY2023.pdf
+  pending_changes:
+  - status: final
+    date: '2026-04-20'
+    text: HHS issued its post-reauthorization foreign disclosure and risk management policy as NOT-OD-26-074 [328]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Sec. 2 of the Act adds eight entity lists (UFLPA Entity List; Non-SDN Chinese Military-Industrial Complex
+      Companies List; Section 889 Prohibition List; Chinese Military Companies list; Military End User List; Entity
+      List; FCC List of Equipment and Services; Withhold Release Orders and Findings List) and a ground for any
+      security risk the agency "determines warrants a denial" [417]; an implementing notice was read only for HHS
+      [328]
+  as_of: '2026-10-03'
+  sources:
+  - 328
+  - 408
+  - 417
+  - 452
+  - 459
+  - 460
+  - 462
+  conflicts: []
+- id: proposal-cap
+  name: Per-firm proposal limits
+  what: 'Starting fiscal year 2027, each agency''s SBIR/STTR director must set, equally for all small businesses,
+    a limit on the maximum number of Phase I and Phase II proposals a firm may submit, on a fiscal-year, solicitation
+    or topic basis [417]. The limit was to be established not later than 90 days before the start of FY2027, with
+    topic-by-topic waivers for "time-sensitive and urgent" needs capped at 5 percent of topics per year [417]. HHS
+    has published its limit of nine new and resubmission Phase I, Fast-track and Direct to Phase II applications
+    per fiscal year [330].
+
+    '
+  applies_when: Every applicant from fiscal year 2027 [417]; at HHS for due dates on or after April 13, 2026 [330]
+  steps:
+  - Check the agency's limit before planning submissions; HHS allows nine per fiscal year [330]
+  - NASA accepts no more than two proposal packages per offeror for an appendix [360]
+  - NSF limits proposals per organization to 1 and Project Pitches to two per company per 12 months [338]
+  - DOE allows each small business up to three pitches [356]
+  - DOT allows one offer per topic with no limit on the number of offers [385]
+  official_url: https://www.govinfo.gov/content/pkg/BILLS-119s3971enr/html/BILLS-119s3971enr.htm
+  pending_changes:
+  - status: final
+    date: '2026-07-10'
+    text: HHS limit published as NOT-OD-26-090, replacing the rescinded NOT-OD-26-073 [330]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Apart from HHS, no agency's FY2027 limit was found in sweeps C or D; the existing NASA, NSF, DOE and DOT
+      limits are not confirmed as limits under the Act [417]
+  as_of: '2026-10-03'
+  sources:
+  - 330
+  - 338
+  - 356
+  - 360
+  - 385
+  - 417
+  - 418
+  - 419
+  - 421
+  conflicts:
+  - 'Waivers: the enrolled-text extraction says waivers are decided within 15 days [417]; the CRS Insight says topic-level
+    waivers need SBA approval [418]'
+- id: nsf-project-pitch
+  name: NSF Project Pitch and invitation
+  what: 'A Project Pitch is required for an NSF Phase I proposal, and invitations are valid for the next two submission
+    deadlines after the initial official invitation [338]. The pitch has four sections: Technology Innovation (up
+    to 3,500 characters); Technical Objectives and Challenges (up to 3,500); Market Opportunity (up to 1,750); Company
+    and Team (up to 1,750) [342].
+
+    '
+  applies_when: Before any NSF SBIR/STTR Phase I proposal [338]
+  steps:
+  - Submit the pitch at any time and expect a reply in about 1-2 months [341]
+  - Submit only one Project Pitch at a time [342]
+  - Stay within two pitches per company per 12 months and three for the same project or technology [338]
+  - Invitations issued on or after July 3, 2025 that have not been used run until November 4, 2026 [340]
+  official_url: https://seedfund.nsf.gov/project-pitch/
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 338
+  - 340
+  - 341
+  - 342
+  conflicts: []

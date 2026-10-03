@@ -1,0 +1,1347 @@
+# todo.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR sweeps (slices A–D). Every entry carries recheck: true until quotes are verified against live pages.
+- id: t-A001
+  kind: gap
+  about: references/PL119-83
+  text: 'congress.gov was not readable (robots.txt): the S. 3971 all-actions page and the CRS product page. Passage
+    dates (Senate March 3, 2026; House March 17, 2026) rest on a NASA briefing [34] and a law-firm alert [44]; vote
+    counts and method of passage not verified; GovTrack returned 403.'
+  owner: author
+- id: t-A002
+  kind: unverified
+  about: references/USC638-LII
+  text: uscode.house.gov returned "site currently unavailable". The post-amendment wording of 15 U.S.C. 638(g)(15)-(17)
+    comes from Cornell LII, a secondary host [4]; the govinfo edition is 2024 and does not show the 2026 amendments
+    [3]. Read the official current text.
+  owner: author
+- id: t-A003
+  kind: recheck
+  about: references
+  text: Every quote in slice A passed through the WebFetch extraction model, which also refused long verbatim passages.
+    Re-check each against the live page before publication, especially Pub. L. 119-83 Secs. 2, 3 and 4 [1][2].
+  owner: author
+- id: t-A004
+  kind: recheck
+  about: references/PL119-83
+  text: Paragraph numbering of the new 638(g) paragraphs was inconsistent across fetches ((15)/(16)/(17) versus
+    redesignations to (16), (18), (19)). Cite by description or confirm numbering in the PLAW PDF [1][4].
+  owner: author
+- id: t-A005
+  kind: gap
+  about: programs/sbir-sttr-governmentwide
+  text: 'Whether the Act changed anything else in award sizes: section summaries were read, not every line. No amendment
+    to the base guideline amounts was seen, but one cannot be ruled out [1].'
+  owner: author
+- id: t-A006
+  kind: gap
+  about: references/PD2023
+  text: 'Policy Directive PDF was read in part: section 9 (agency responsibilities, fraud/waste/abuse duties), the
+    section 3 definitions of "covered individual" and "foreign country of concern", and any mention of "SBC Control
+    ID" were not visible to the tool. Foreign definitions were taken from the appendices and the 2023 Federal Register
+    notice instead [5][6][8].'
+  owner: author
+- id: t-A007
+  kind: gap
+  about: programs/sbir-sttr-governmentwide
+  text: No SBA notice announcing the April 2026 inflation adjustment was found; the $323,090 / $2,153,927 ceilings
+    rest on one sentence on sbir.gov/about and on NIH publishing the same caps [11][31]. An STTR-specific ceiling,
+    if different, was not found.
+  owner: author
+- id: t-A008
+  kind: gap
+  about: programs/sbir-sttr-governmentwide
+  text: No updated or proposed SBA Policy Directive, Federal Register notice or SBA implementing guidance for Pub.
+    L. 119-83 was found; SBIR.gov still posts the May 2023 directive [7]. One consultant source expected guidance
+    in May–June 2026; not located [51].
+  owner: author
+- id: t-A009
+  kind: gap
+  about: programs/sbir-sttr-governmentwide
+  text: FY2027 proposal limits were found only for HHS (nine) [29] and NSF (1 per organization) [35]. Limits for
+    the Department of War, DOE, NASA, USDA, DHS, DOC, DOT, ED and EPA were not found; dodsbirsttr.mil (DSIP) and
+    its solicitation PDFs are disallowed by robots.txt, so the defense BAA preface could not be read.
+  owner: author
+- id: t-A010
+  kind: gap
+  about: programs/sbir-sttr-governmentwide
+  text: Exceptions/waivers and the consequences of exceeding the HHS limit are not described in the notice as extracted
+    [29].
+  owner: author
+- id: t-A011
+  kind: unverified
+  about: programs/strategic-breakthrough-awards
+  text: 'Which eligible agencies will use strategic breakthrough authority: slice A saw only NSF [35] and an Air
+    Force briefing [41]. Which agencies exceed the $100,000,000 threshold was stated only by a secondary source
+    [51]. No record of the 60-day briefings to Congress was found.'
+  owner: author
+- id: t-A012
+  kind: unverified
+  about: references/NihSeedUnderstanding
+  text: The NIH page extract mentioned a "Phase IIB Strategic Breakthrough" offering; this may be the fetch tool
+    merging two items. Not verified and not used in the pack [31].
+  owner: author
+- id: t-A013
+  kind: unverified
+  about: references/DowRelease202604
+  text: The date on the Department of War release was not visible in the fetch ("Immediate Release"); April 20,
+    2026 comes from secondary sources and the mirrored copy [39][46][50][60].
+  owner: author
+- id: t-A014
+  kind: conflict
+  about: references/DowRelease202604
+  text: Sweep A records the Department release at war.gov as read in full [39]; sweep B records war.gov returning
+    403, read a GlobalSecurity mirror instead [60] and lists the defense.gov URL as not fetched [117]. Confirm which
+    host was read and collapse to one reference.
+  owner: author
+- id: t-A015
+  kind: gap
+  about: references
+  text: 'Pages that returned 404 in slice A: sbir.gov/faqs, sbir.gov/eligibility, sbir.gov/policy, sba.gov/funding-programs/investment-capital/sbir-sttr.
+    The Crowell mirror at governmentcontractslegalforum.com failed with too many redirects; the crowell.com copy
+    was read instead [44].'
+  owner: author
+- id: t-A016
+  kind: conflict
+  about: programs/sbir-sttr-governmentwide
+  text: 'Data-rights protection period: 20 years from award under the Policy Directive and DFARS [5][22][23][24]
+    vs 4 years from acceptance of all deliverables in FAR 52.227-20 (May 2014) as shown under FAC 2026-01 [25];
+    the SBA tutorial says the 20-year rule applies to civilian agencies and DoD alike [17]. Not checked: a FAR deviation,
+    a pending FAR case, or FAR overhaul text. Do not state "20 years" without qualification for non-DoD contracts.'
+  owner: author
+- id: t-A017
+  kind: recheck
+  about: references/PD2023
+  text: 'Protection-period wording differs between extracts of the same directive: "ends not less than twenty years"
+    (web text) [7] vs ends twenty years, or longer at agency discretion (PDF extract) [5]. Confirm exact wording
+    before quoting.'
+  owner: author
+- id: t-A018
+  kind: gap
+  about: programs/sbir-sttr-governmentwide
+  text: 'USDA STTR: SBIR.gov and CRS show it [12][43]; no USDA/NIFA primary page confirming when it began was read.'
+  owner: author
+- id: t-A019
+  kind: recheck
+  about: references/SbirTutFraud
+  text: The civil penalty figure in the SBIR.gov fraud tutorial ($11,000 per false claim) is likely stale; current
+    False Claims Act penalty amounts were not checked [19].
+  owner: author
+- id: t-A020
+  kind: conflict
+  about: programs/strategic-breakthrough-awards
+  text: The NSF 26-510 extract did not show a matching requirement [35], whereas the statute requires not less than
+    100 percent matching funds [1]. Read the NSF solicitation directly before stating NSF terms.
+  owner: author
+- id: t-A021
+  kind: conflict
+  about: programs/sbir-sttr-governmentwide
+  text: 'Proposal-limit scope: the statute covers Phase I and Phase II solicitations [2]; the Air Force deck describes
+    limits on Phase I proposals [41]; the HHS limit counts Phase I, Fast-track and Direct to Phase II only [29].'
+  owner: author
+- id: t-A022
+  kind: recheck
+  about: programs/sbir-sttr-governmentwide
+  text: 'Sec. 2 denial grounds: the fetch tool first read the list-based ground as a mandatory denial and later
+    as discretionary. The LII text shows the operative words "not make an award ... if the head of the Federal agency
+    determines that" one of (A)-(F) applies; quote that wording rather than "mandatory" or "automatic" [4][1].'
+  owner: author
+- id: t-A023
+  kind: conflict
+  about: programs/sbir-sttr-governmentwide
+  text: 'Ownership wording: "more than 50%" in 13 CFR 121.702 [10] vs "at least 51%" in the SBIR.gov tutorial [16].
+    Use the regulation.'
+  owner: author
+- id: t-A024
+  kind: conflict
+  about: programs/sbir-sttr-governmentwide
+  text: 'SBIR.gov is inconsistent on amounts: ceilings of $323,090 and $2,153,927 on the About page [11] vs typical
+    ranges of $50,000–$275,000 and $400,000–$1.8 million on the Apply page [14].'
+  owner: author
+- id: t-A025
+  kind: conflict
+  about: programs/sbir-sttr-governmentwide
+  text: 'STTR agency count: the brief said five; SBIR.gov labels six agencies SBIR/STTR including USDA [12] and
+    CRS counts six [43]; the older tutorial implies five [16]. Current count per SBIR.gov and CRS: 11 SBIR, 6 STTR.'
+  owner: author
+- id: t-A026
+  kind: conflict
+  about: programs/sbir-sttr-governmentwide
+  text: 'Benchmark thresholds: SBIR.gov says 21+ Phase I and 16+ Phase II awards [13]; the NIH page says 20+ and
+    15+ [30]. Use SBIR.gov.'
+  owner: author
+- id: t-A027
+  kind: conflict
+  about: programs/sbir-sttr-governmentwide
+  text: 'Increased-standard consequence: SBIR.gov says limited to 20 total Phase I and Direct to Phase II awards
+    per agency [13]; the tool reading of the 2022 Act said 20 total Phase I and Phase II awards [26]. SBIR.gov wording
+    preferred pending a direct read.'
+  owner: author
+- id: t-A028
+  kind: conflict
+  about: programs/sbir-sttr-governmentwide
+  text: 'Lapse date wording: statute and CRS give September 30, 2025 [3][43]; the NIH notice says "expired on October
+    1, 2025" [27]. Same event, different phrasing.'
+  owner: author
+- id: t-A029
+  kind: conflict
+  about: programs/direct-to-phase-ii
+  text: 'The posted Policy Directive still says the programs are authorized until September 30, 2022 and that Direct
+    to Phase II covers NIH, DoD and ED, SBIR only, ending September 30, 2022 [5][20] vs the Act: September 30, 2031,
+    DOE and NASA added, STTR added [1].'
+  owner: author
+- id: t-A030
+  kind: conflict
+  about: programs/sbir-sttr-governmentwide
+  text: 'Department name: SBIR.gov says "Department of War (DOW)" [12]; the statute and Pub. L. 119-83 say "Department
+    of Defense" [1]. Decide house usage.'
+  owner: author
+- id: t-A031
+  kind: conflict
+  about: references/SbirTutRegistration
+  text: The SBIR.gov registration tutorial still refers to DUNS and gives SAM timing as "up to 6 weeks" [18]; the
+    EPA page says DUNS is no longer used as of April 4, 2022 and registration may take 6–8 weeks [37].
+  owner: author
+- id: t-A032
+  kind: unverified
+  about: references
+  text: 'Secondary sources in slice A that must not carry a fact alone: [4][43][44][45][46][47][48][49][50][51].
+    Resting on them alone: agency restart status as of April 16, 2026 [47] (kept out of programs.yaml).'
+  owner: author
+- id: t-A033
+  kind: unverified
+  about: references
+  text: 'Slice A sources read only in part (verified: true under the pack rule, but omissions cannot be relied on):
+    [3][4][5][9][35][42][43].'
+  owner: author
+- id: t-A034
+  kind: recheck
+  about: references
+  text: 'Uncertain publication dates in slice A: enrolled-bill date not shown [2]; day not shown [46]; tool reported
+    July 6, 2026 with April 2026 release metadata [50]; dated 2026-03-10 but refers to the April 13 signing [51].'
+  owner: author
+- id: t-A035
+  kind: recheck
+  about: references
+  text: 'Quotes longer than the 25-word schema limit were carried verbatim from the sweep and need trimming at re-check:
+    [1] (26 words), [4] (26 words), [5] (33 words), [11] (30 words), [40] (27 words).'
+  owner: author
+- id: t-A036
+  kind: recheck
+  about: programs/sequential-phase-ii
+  text: 'Sweep A findings cite facts that the source entries do not list among their key_facts; they were left out
+    of programs.yaml pending a direct read: NSF Phase IIB supplement $50,000–$500,000 and TECP supplement up to
+    20% of the Phase II [35]; NASA Phase II-E [33]; Commercialization Readiness Program (9(y)) amended to identify
+    strategic breakthrough awardees and add a direct-access mechanism for Phase III purchases [1]; FPDS/SBIR.gov
+    linking Phase III awards to prior SBIR/STTR contract numbers [1].'
+  owner: author
+- id: t-A037
+  kind: gap
+  about: programs/technical-business-assistance
+  text: 'Required by the 2026 Act but no implementing document seen (pending_changes status pending-implementation,
+    dated 2026-04-13): TABA amounts and provider choice; Phase III training; model contracts and standardized provisions;
+    Procurement Center Representative advocacy; SBIR.gov/FPDS award flags; denial-notification process; Direct to
+    Phase II at DOE and NASA and for STTR [1][32][33].'
+  owner: author
+- id: t-A038
+  kind: recheck
+  about: references
+  text: 'Eight sources appear in both slices and were merged into one reference each (sweep A entry kept; sweep
+    B key_facts and quotes appended): [12][14][18][38][40][41][46][49]. Sweep B read sbir.gov/participating-agencies
+    only in part (DoW entry).'
+  owner: author
+- id: t-A039
+  kind: gap
+  about: references
+  text: 'queries.yaml drops the notes attached to three slice A searches: no standalone notice found for the $323,090
+    / $2,153,927 figures; no 2026 Federal Register SBIR Policy Directive notice surfaced; no relevant primary result
+    for FY2027 proposal limits by agency. Hit counts are links returned by the tool, not engine totals.'
+  owner: author
+- id: t-A040
+  kind: gap
+  about: programs/sbir-sttr-governmentwide
+  text: 'funds_or_buys is left empty on the six government-wide records: no slice A source states the grant/contract
+    split by agency. No NSF or NIH program records were written from slice A; their figures appear only inside the
+    government-wide records [35][29][31].'
+  owner: author
+- id: t-B001
+  kind: gap
+  about: programs/dow-sbir-sttr
+  text: 'dodsbirsttr.mil was not fetched (by instruction) [116]. Not verified: the FY2026 DoW BAA/CSO preface; each
+    component''s FY2026 instructions (Phase I/II ceilings, page limits, TABA, proposal limits per release); the
+    official BAA schedule page; the DSIP FAQ and registration walkthrough; the exact Topic Q&A closing rule.'
+  owner: author
+- id: t-B002
+  kind: unverified
+  about: references/DsipPortal
+  text: 'Not fetched; cited by URL only. verified: false [116].'
+  owner: author
+- id: t-B003
+  kind: unverified
+  about: references/DowReleaseOriginal
+  text: Not fetched (war.gov returned 403); the release was read on a GlobalSecurity mirror [117][60].
+  owner: author
+- id: t-B004
+  kind: unverified
+  about: references/CongressS3971
+  text: Not fetched (robots disallow). In slice B the signing date and P.L. number rest on a CRS Insight read through
+    a mirror plus the SBA release [118][59][38]; slice A read the statute at govinfo [1].
+  owner: author
+- id: t-B005
+  kind: unverified
+  about: references/AfrlAfwerxReopen
+  text: Not fetched (403); the same article was read at DVIDS [119][62].
+  owner: author
+- id: t-B006
+  kind: unverified
+  about: references/DonOsbp
+  text: Not fetched ("The requested URL was rejected"); Navy OSBP contents unverified [120].
+  owner: author
+- id: t-B007
+  kind: unverified
+  about: references/DlaSbip
+  text: Not fetched (403); DLA SBIR/STTR page contents not read and no DLA record written [121].
+  owner: author
+- id: t-B008
+  kind: gap
+  about: programs/navy-sbir-sttr
+  text: 'Navy FY2026 Phase I/II dollar amounts: only the undated SBA tutorial figures ($140K base, $100K option,
+    Phase II up to $1.7M) were found [57]. The live Navy instruction PDFs sit on DSIP [74].'
+  owner: author
+- id: t-B009
+  kind: gap
+  about: programs/mda-sbir-sttr
+  text: MDA current dollar amounts are not on mda.mil [90]; the only instruction read is from August 2023 [91].
+  owner: author
+- id: t-B010
+  kind: gap
+  about: programs/dow-sbir-sttr
+  text: No current figures were read for DLA (page 403), DMEA, DTRA, NGA, CBD or OSD, and no records were written
+    for them. The CBD/DTRA figures in the SBA tutorial cite FY17 and must not be shown as current [58].
+  owner: author
+- id: t-B011
+  kind: conflict
+  about: programs/dow-sbir-sttr
+  text: 'Component list: "14" components stated [40][56] but only 13 named on the DoW About page [53]; U.S. Space
+    Force and the Strategic Capabilities Office appear on sbir.gov [12]. Which list is authoritative is unresolved.'
+  owner: author
+- id: t-B012
+  kind: conflict
+  about: programs/dow-sbir-sttr
+  text: 'Budget figures differ by page: "nearly $1.8B" [53], "approximately $2 billion" [40], "$2.3 Billion" [12],
+    "approximately $1.8B" [56].'
+  owner: author
+- id: t-B013
+  kind: conflict
+  about: programs/dow-sbir-sttr
+  text: 'Cadence: DoW and SBA pages describe three pre-scheduled BAAs/CSOs a year and show only the FY2025 schedule
+    [52][56] vs six numbered releases in FY2026 [41][73]. Release 1 pre-release was April 13, 2026, a Monday, against
+    the stated first-Wednesday rule [41][61].'
+  owner: author
+- id: t-B014
+  kind: gap
+  about: programs/dow-sbir-sttr
+  text: 'UEI and CAGE: no page fetched in slice B states the current UEI requirement; the Navy getting-started page,
+    the SBA registration tutorial and the DIU CSO PDF still say DUNS [75][18][98]. Slice A has an EPA page stating
+    UEI via SAM.gov [37]; nothing covers CAGE. Needs a current SAM.gov or SBA source before the entry-steps section
+    is published.'
+  owner: author
+- id: t-B015
+  kind: gap
+  about: programs/dow-sbir-sttr
+  text: media.defense.gov release-instruction PDFs for FY2026 were not found (search returned only FY2022–FY2024
+    files); the 2025 DoD SBIR/STTR trifold on media.defense.gov returned 403.
+  owner: author
+- id: t-B016
+  kind: conflict
+  about: programs/army-sbir-sttr
+  text: 'Army amounts are inconsistent within armysbir.army.mil: Phase I "up to $250K" [82] vs up to $300,000 [81][80];
+    Phase II 18 to 24 months [82] vs 12-18 months [81].'
+  owner: author
+- id: t-B017
+  kind: conflict
+  about: programs/afwerx-sbir-sttr
+  text: AFWERX amounts are inconsistent between the legacy Open Topic page [67] and the current Get Funded page
+    [64]; the legacy page still shows the October 2025 lapse notice.
+  owner: author
+- id: t-B018
+  kind: conflict
+  about: programs/daf-stratfi-tacfi
+  text: 'STRATFI: SpaceWERX states "$6M-$45M" [71] while AFWERX states "$3–15 million" SBIR/STTR plus "$6 – $45
+    million" matched [64]. Matching ratios and the government/private split were in graphics not returned as text.'
+  owner: author
+- id: t-B019
+  kind: conflict
+  about: programs/spacewerx-sbir-sttr
+  text: SpaceWERX Phase I "$75K-$180K" and Phase II "$1.25M-$1.8M" [71] differ from the AFWERX Get Funded figures
+    of "Up to $323,000" and "Up to $2.1 million" [64].
+  owner: author
+- id: t-B020
+  kind: conflict
+  about: programs/army-sbir-catalyst
+  text: 'CATALYST amounts: up to $8 million Army match, up to $15 million total [81] vs the 2023 round of up to
+    $7 million SBIR plus $3.5 million and $3.5 million [83].'
+  owner: author
+- id: t-B021
+  kind: conflict
+  about: programs/ussocom-sbir-sttr
+  text: USSOCOM current page figures [92] conflict with the older SBA tutorial ($150,000 Phase I; up to $1,000,000
+    Phase II) [58]; show the tutorial as historical. The quote "No ceiling limit on funding" on the USSOCOM page
+    has no visible context and is not used [92].
+  owner: author
+- id: t-B022
+  kind: conflict
+  about: programs/darpa-sbir-sttr
+  text: 'Open-period questions: DARPA says written questions by email, published on the topic page [88]; the DoW
+    page says written questions go through DSIP Topic Q&A [52].'
+  owner: author
+- id: t-B023
+  kind: conflict
+  about: programs/navy-sbir-sttr
+  text: 'Pre-release length: the SBA tutorial describes a one-month TPOC window [57]; FY-26 release dates show about
+    three weeks [73]. The Release 3 Q&A deadline of June 23, 2026 rests only on trade press and is not used [79].'
+  owner: author
+- id: t-B024
+  kind: conflict
+  about: programs/mda-sbir-sttr
+  text: 'MDA contact addresses differ: sbirsttrindustry@mda.mil on the program page [90] vs sbirsttr@mda.mil in
+    the 2023 instruction [91].'
+  owner: author
+- id: t-B025
+  kind: unverified
+  about: programs/navy-stp
+  text: 'Forum for SBIR/STTR Transition: no 2026 page found and the Navy OSBP FST page rejected access; the last
+    dated page is 2022 [77]. Whether the FST name is still in use is unverified. Transition-effect claims also differ:
+    68 percent [76] vs 20% [57].'
+  owner: author
+- id: t-B026
+  kind: unverified
+  about: programs/navalx-tech-bridges
+  text: NavalX web pages (navalx.nre.navy.mil/s/...) and usnavalx.com were not readable; the Tech Bridge list was
+    not obtained. The count of 18 is from a November 2024 one-pager [106].
+  owner: author
+- id: t-B027
+  kind: gap
+  about: references
+  text: 'Not readable in slice B: Navy OSBP, MDA OSBP, DLA small business and the business.defense.gov component-office
+    directory; the OSBP small-business-professionals page returned 403; the APEX Accelerators site returned no body
+    text [120][121][112].'
+  owner: author
+- id: t-B028
+  kind: unverified
+  about: programs/diu-cso
+  text: Whether CSO HQ0845-20-S-C001 is still the governing document is unverified [98]; typical OT award sizes
+    are not stated on the DIU pages read [95][97].
+  owner: author
+- id: t-B029
+  kind: unverified
+  about: programs/diu-onramp-hubs
+  text: The statement that OnRamp Hubs do not handle SBIR programming came from the fetch digest and needs a direct
+    read [99]; it and the sweep draft's "not a funding vehicle" were left out of the record.
+  owner: author
+- id: t-B030
+  kind: gap
+  about: programs/tradewinds-solutions-marketplace
+  text: Tradewinds dollar thresholds and the SAM.gov solicitation number were not on the pages read [104][103].
+  owner: author
+- id: t-B031
+  kind: gap
+  about: programs/sofwerx
+  text: SOFWERX award instruments and sizes were not stated on the home page [105].
+  owner: author
+- id: t-B032
+  kind: gap
+  about: programs/dow-art
+  text: ART award sizes, application steps and dates were not stated on the page read [55]; the April 20, 2026 announcement
+    date rests on the mirrored release and on secondary dating of the war.gov release [60][39].
+  owner: author
+- id: t-B033
+  kind: gap
+  about: programs/dow-sbir-sttr
+  text: The OTST pilot (OSD Transitions SBIR/STTR Technology) is named on the DoW program page but not described
+    [40].
+  owner: author
+- id: t-B034
+  kind: recheck
+  about: references
+  text: All slice B quotes come from a model-digested fetch and must be checked against the live pages before use.
+    Search hit counts are results returned by the tool, not engine totals.
+  owner: author
+- id: t-B035
+  kind: recheck
+  about: programs/afwerx-sbir-sttr
+  text: The sweep draft equates Open Topics with CSO ("X") and Specific Topics with BAA ("Z"), but the AFWERX table
+    lists "Specific Topic 26.TZ & 26.TX" and "26.BZ & 26.BX" [64]; the record states only the designator meanings
+    [61].
+  owner: author
+- id: t-B036
+  kind: recheck
+  about: programs/army-sbir-catalyst
+  text: 'Claims present in the sweep draft records but not among the cited sources'' key_facts. Kept, re-check:
+    CATALYST eligibility (prior Army SBIR/STTR awardees; base award no earlier than fiscal 2020) [83]; "Strategic
+    Breakthrough guidance still forthcoming as of April 2026" [61]. Left out: Mentor-Protégé agreements pairing
+    small firms with larger companies [111]; SOFWERX rapid prototyping and "join the ecosystem" [105]; Tech Bridges
+    helping nontraditional firms find Navy problems [106]; AFWERX expecting more Phase II awards [61].'
+  owner: author
+- id: t-B037
+  kind: unverified
+  about: references
+  text: 'Secondary sources in slice B that must not carry a fact alone: [60][46][49][79].'
+  owner: author
+- id: t-B038
+  kind: conflict
+  about: references/CRS-IN12705
+  text: 'Source-kind rule is inconsistent across sweeps: the CRS Insight read on the EveryCRSReport mirror is labelled
+    primary in sweep B [59], while sweep A labels the CRS report read on the same mirror secondary [43]. Pick one
+    rule.'
+  owner: author
+- id: t-B039
+  kind: recheck
+  about: programs/strategic-breakthrough-awards
+  text: CRS says DOD breakthrough recipients must show the technology "meets readiness levels" [59]; the statute
+    extract lists a POM commitment, high-priority requirements and the 20 percent DoD match but no readiness-level
+    test [1]. Confirm against Sec. 3.
+  owner: author
+- id: t-B040
+  kind: unverified
+  about: references
+  text: 'Slice B sources read only in part: [12][73][112][115].'
+  owner: author
+- id: t-B041
+  kind: recheck
+  about: references
+  text: 'Stale or historical pages in slice B, usable only with a date label: FY2025 schedule only [52]; old 24.4/24.D
+    announcement only [54]; lapse notice still shown [67]; PY25 windows [69]; DUNS wording [75]; older figures [57][58].'
+  owner: author
+- id: t-B042
+  kind: unverified
+  about: programs/dow-sbir-sttr
+  text: 'CMMC: the AFWERX overview page links an SBA article on "suspension of CMMC Phase II" [65] while the Q&A
+    says Level 1 or 2 self-assessment is required where applicable until 10 Nov 26 [61]. The current CMMC requirement
+    for SBIR proposers is not established.'
+  owner: author
+- id: t-B043
+  kind: gap
+  about: programs/apfit
+  text: 'Classification fields are the assembler''s and uncited: family left empty for APFIT (no schema value fits
+    procurement transition funding) [108]; family "partnering" for SOFWERX, NavalX, OnRamp Hubs and Mentor-Protégé;
+    funds_or_buys "contracts" on DoW components follows the DoW-level label [12]; registration, gate and situation
+    ids (dsip-account, dsip-registration, have-technology) are provisional until gates.yaml exists.'
+  owner: author
+- id: t-B044
+  kind: gap
+  about: programs/dow-mentor-protege
+  text: No records were written for the small business offices (DoW OSBP, Army OSBP, Department of the Air Force
+    OSBP, Navy OSBP, DARPA SBPO, USSOCOM contact); they belong in help.yaml or buyers.yaml [110][112][113][114][115][89][93].
+    Mentor-Protégé agreement types and eligibility were not on the page fetched [111].
+  owner: author
+- id: t-C001
+  kind: gap
+  about: programs/dhs-sbir
+  text: 'Not fetched: sbir.dhs.gov and oip.dhs.gov/sbir/public returned HTTP 403, and the DHS news release of 2025-01-06
+    on the prior solicitation returned 403 [390]. Reference entry is read: not-fetched, verified: false.'
+  owner: builder
+- id: t-C002
+  kind: gap
+  about: programs/dhs-sbir
+  text: No FY2026 or FY2027 DHS solicitation number, dates, current amounts or post-reauthorization notice was verified.
+    Needs a browser read of the portal or of the SAM.gov notice https://sam.gov/opp/7845263748a6477ab450dbcbc4bea872/view
+    (surfaced in search, not fetched). The record is not publishable until then [390] [309].
+  owner: builder
+- id: t-C003
+  kind: unverified
+  about: programs/dhs-sbir
+  text: DHS's public SBIR page is stale (names DNDO, cites the 2011 reauthorization) [387]; the portal URL sbir2.st.dhs.gov/portal/SBIR/
+    in SBA's tutorial is not verified as current [307]; the latest DHS webinar items concern the 24.1 pre-solicitation
+    [389].
+  owner: builder
+- id: t-C004
+  kind: unverified
+  about: programs/dhs-sbir
+  text: DHS's position during the lapse (no new Phase I or II solicitations or awards; Phase III could continue
+    with non-SBIR funds) is reported only by trade press with no primary DHS link [414]; a consultant tracker's
+    claim of no current DHS solicitation is likewise secondary [413]. Kept out of the record.
+  owner: builder
+- id: t-C005
+  kind: unverified
+  about: programs/usda-nifa-sbir-sttr
+  text: 'USDA Phase I for FY2026/FY2027: NIFA''s Phase I page still shows the FY 2025 NOFO USDA-NIFA-SBIR-010774
+    [372]; a secondary tracker says an FY2026 Phase I closed 09/23/2026 [413]; no NIFA or Grants.gov page confirming
+    it was found, and simpler.grants.gov search pages did not render results.'
+  owner: builder
+- id: t-C006
+  kind: conflict
+  about: programs/nist-sbir
+  text: 'NIST FY2026 Phase I status unclear: research-area page for NOFO 2026-NIST-SBIR-01 dated August 13, 2025
+    [404] vs schedule "To be announced" [401] and no active NOFO on the home page [400].'
+  owner: author
+- id: t-C007
+  kind: gap
+  about: programs/nist-sbir
+  text: Current NIST Phase I and II amounts are not on NIST's pages; the record carries SBA's DOC card figures [303]
+    and an in-passing FAQ mention not confirmed as current ceilings [402].
+  owner: builder
+- id: t-C008
+  kind: gap
+  about: programs/noaa-sbir
+  text: NOAA FY27 NOFO not yet posted; no number or dates [406]. Registrations are not listed on NOAA's applicant
+    page [408].
+  owner: builder
+- id: t-C009
+  kind: unverified
+  about: programs/noaa-sbir
+  text: 'NOAA instrument: no explicit "grant" statement on the funding page [406]; funds_or_buys: grants rests on
+    SBA''s card and tutorial [303] [306].'
+  owner: builder
+- id: t-C010
+  kind: gap
+  about: programs/nasa-sbir-sttr
+  text: 'NASA: SAM.gov and SBA Company Registry requirements, the Phase I contract type, and the difference between
+    Appendix 26A and 26B were not surfaced from the PDFs [360]. registrations lists only ProSAMS.'
+  owner: builder
+- id: t-C011
+  kind: gap
+  about: programs/nasa-sbir-sttr
+  text: 'Not fetched: NASA Appendix 26A and the base BAA document 80NSSC26R0003; nasa.gov/sbir_sttr/phases and /solicitations
+    returned 404 [362].'
+  owner: builder
+- id: t-C012
+  kind: gap
+  about: programs/nasa-sbir-sttr
+  text: Phase II-E and CCRPP amounts not captured [358].
+  owner: builder
+- id: t-C013
+  kind: gap
+  about: programs/nih-sbir-sttr-grants
+  text: NIH registration page URLs guessed (…/how-to-apply/registrations, …/register-your-company) returned 404,
+    so registrations are taken from the NOFO text; grants.nih.gov/grants/guide/pa-files/PA-27-100.html returned
+    404 and the Grants.gov-hosted copy was used [322].
+  owner: builder
+- id: t-C014
+  kind: gap
+  about: programs/nih-sbir-sttr-grants
+  text: 'Not fetched: NOT-OD-26-064 (no late submissions), cited by the Nexus article [327], and PAR-27-098 (Commercialization
+    Readiness Pilot), known only from the NOFO list [319].'
+  owner: builder
+- id: t-C015
+  kind: gap
+  about: programs/nih-sbir-contracts
+  text: No current HHS omnibus contract solicitation (PHS-2026-1 / PHS-2027-1) was found; contract award amounts
+    not captured; registrations for contract offerors not captured [321].
+  owner: builder
+- id: t-C016
+  kind: unverified
+  about: programs/nih-sbir-contracts
+  text: PHS-2025-1 details (released August 2, 2024; 39 contract topics across NIH institutes and CDC centers) and
+    CDC's participation in the HHS contract solicitation rest on a secondary write-up only [415]. Kept out of the
+    record.
+  owner: builder
+- id: t-C017
+  kind: gap
+  about: programs/fda-sbir
+  text: No FDA-wide SBIR page was found; only the CDRH page, which still links the old sbir.nih.gov address [335].
+  owner: builder
+- id: t-C018
+  kind: unverified
+  about: programs/doe-sbir-sttr
+  text: 'DOE award instrument type not confirmed from a NOFO: "funding agreement with DOE and ConnectWerx" [352],
+    "Agreements" [303], grants-only in SBA''s tutorial [306]. funds_or_buys left empty.'
+  owner: builder
+- id: t-C019
+  kind: gap
+  about: programs/doe-sbir-sttr
+  text: No dates for the DOE fall 2026 Phase I [349]; nothing active or upcoming on the hub on 2026-10-03 [354].
+  owner: builder
+- id: t-C020
+  kind: unverified
+  about: programs/doe-sbir-sttr
+  text: PAMS and Grants.gov do not appear on current DOE pages; whether they are still used for legacy awards is
+    unverified. The old Release 1/Release 2 calendar appears retired but no page says so outright [347].
+  owner: builder
+- id: t-C021
+  kind: unverified
+  about: programs/doe-sbir-sttr
+  text: DOE pitch format (four questions, no more than 700 words in total) is reported only by a secondary write-up
+    [412]. Kept out of the record.
+  owner: builder
+- id: t-C022
+  kind: gap
+  about: programs/doe-sbir-sttr
+  text: 'ARPA-E: no 2026 SBIR/STTR FOA found; the two listed (DE-FOA-0003537, DE-FOA-0003555) date from early 2025
+    with full-application deadlines "TBD" [357].'
+  owner: builder
+- id: t-C023
+  kind: gap
+  about: programs/epa-sbir
+  text: 'EPA: full 2026 topic and subtopic list, expected award count and any proposal cap were not captured; webinar
+    slides, Q&A PDFs and the FedConnect document were not opened [395] [392]. epa.gov "informational-webinar-epas-sbir-phase-i-solicitation"
+    returned 404.'
+  owner: builder
+- id: t-C024
+  kind: gap
+  about: programs/ed-ies-sbir
+  text: No FY2027 ED/IES solicitation date [398].
+  owner: builder
+- id: t-C025
+  kind: unverified
+  about: programs/ed-ies-sbir
+  text: ED presolicitations "on April 14" and the agency-by-agency status as of April 22, 2026 come from a trade-association
+    snapshot; every claim needs the agency's own page [410].
+  owner: builder
+- id: t-C026
+  kind: gap
+  about: programs/dot-sbir
+  text: No FY2027 DOT dates; Phase IIB amount not captured [382].
+  owner: builder
+- id: t-C027
+  kind: gap
+  about: review/getting-funded-for-rd
+  text: sbir.gov/agencies and sbir.gov/events returned 404. No SBA text explaining the 2026 Act's changes (proposal
+    caps, Strategic Breakthrough awards, foreign-risk rules) was found on sbir.gov; the Policy Directive page still
+    links the 2023 version [310]. No per-agency pages on sbir.gov beyond the Participating Agencies cards [303].
+  owner: builder
+- id: t-C028
+  kind: gap
+  about: programs/americas-seed-fund-road-tour
+  text: Road Tour status after 2024 is unknown; the site shows only the 2024 tour [317].
+  owner: builder
+- id: t-C029
+  kind: gap
+  about: programs/nih-sbir-sttr-grants
+  text: ARPA-H and ACL take part in the HHS program per NIH [318]; neither was in scope and neither was researched.
+  owner: builder
+- id: t-C030
+  kind: unverified
+  about: review/getting-funded-for-rd
+  text: SBIR Partnering Platform (sbirpartnering.org), which NASA's page points to, is not confirmed as SBA-run
+    [358].
+  owner: builder
+- id: t-C031
+  kind: gap
+  about: review/getting-funded-for-rd
+  text: SBA's Growth Accelerator Fund Competition page shows competitions through 2022 and nothing for 2026 [316];
+    current status unknown.
+  owner: builder
+- id: t-C032
+  kind: unverified
+  about: programs/strategic-breakthrough-award
+  text: A law-firm alert's reading of the Act (Strategic Breakthrough awards "structured either as a single award
+    or as a sequence"; caps set 90 days before the fiscal year) is a pointer only and must be checked against the
+    statute [411].
+  owner: builder
+- id: t-C033
+  kind: conflict
+  about: programs/nsf-sbir-sttr
+  text: 'NSF Fast-Track total: $1,555,000 on the opportunity page and by the sum of components [337] vs $1,555,555
+    in one extraction of the solicitation text [338]. Likely an extraction error; check the PDF.'
+  owner: author
+- id: t-C034
+  kind: conflict
+  about: programs/nih-sbir-sttr-grants
+  text: 'Reauthorization date: NIH Nexus says April 14 [327]; SBA, DOE, NIST, DOT and NIH notices say April 13,
+    2026 [314] [346] [382] [329].'
+  owner: author
+- id: t-C035
+  kind: conflict
+  about: programs/nih-sbir-sttr-grants
+  text: 'NIH Phase I duration: "6 months to 2 years" on the basics page [320] vs "normally may not exceed 6 months"
+    (SBIR) [322] or 1 year (STTR) [324] in the NOFOs.'
+  owner: author
+- id: t-C036
+  kind: conflict
+  about: programs/nih-sbir-sttr-grants
+  text: 'NIH budgets: $323,090 / $2,153,927 guideline [320] vs component tables up to $700,000 / $3,000,000 [322].'
+  owner: author
+- id: t-C037
+  kind: conflict
+  about: programs/dot-sbir
+  text: 'DOT amounts: $150,000 / $1,000,000 on the About page [384] vs $200,000 / $1,500,000 in the FY 2026 solicitation
+    [382]; SBA card says $200,000 / $1 Million [303].'
+  owner: author
+- id: t-C038
+  kind: conflict
+  about: programs/dot-sbir
+  text: 'DOT FY26 topics: the pre-solicitation extraction said "12 total across 6 agencies" but listed 10 across
+    5 [383], matching the 10 on the solicitation page [381].'
+  owner: author
+- id: t-C039
+  kind: conflict
+  about: programs/doe-sbir-sttr
+  text: 'DOE Phase II deadline: October 2, 2026 on the DOE hub [352] vs September 25, 2026 in a secondary write-up
+    [412].'
+  owner: author
+- id: t-C040
+  kind: conflict
+  about: programs/doe-sbir-sttr
+  text: 'DOE''s further Phase I: "fall 2026" in the press release [349] vs "later this summer" on the hub page;
+    sweep C does not say which hub page.'
+  owner: author
+- id: t-C041
+  kind: conflict
+  about: references/sba-agencies
+  text: 'SBA''s Participating Agencies cards [303] differ from agency pages: NASA Phase I $150,000 vs $225,000 [360]
+    and Phase II $1 Million vs $1,275,000 [363]; DOC $100,000 / $400,000 vs NOAA $190,000 / $690,000 [407]; NSF
+    $300,000 vs $305,000 [338]; HHS $275,000+ / $1.83 Million vs $323,090 / $2,153,927 [320].'
+  owner: author
+- id: t-C042
+  kind: conflict
+  about: references/sba-tut-contracts-grants
+  text: 'Instrument labels: SBA''s tutorial says DOE is grants-only and ED offers both grants and contracts [306];
+    current pages show DOE "funding agreements" via a partnership intermediary [352] and ED contracts only [398].'
+  owner: author
+- id: t-C043
+  kind: conflict
+  about: programs/fast-partnership-program
+  text: 'FAST opportunity number: "SB-OIIFT-26-001" on the sbir.gov page [311] vs "SBA-OIIFT-26-001" in the NOFO
+    [312].'
+  owner: author
+- id: t-C044
+  kind: conflict
+  about: programs/epa-sbir
+  text: 'EPA timing text: the How to Apply page says Phase I "typically starts early December" [393], which does
+    not fit a November 8, 2026 close [392].'
+  owner: author
+- id: t-C045
+  kind: conflict
+  about: references/sba-home
+  text: 'sbir.gov generic phase ranges differ: home page Phase II $750,000 - $1.8 million [302] vs Apply page $400,000-$1.8
+    million [308]. Neither is used in a record.'
+  owner: author
+- id: t-C046
+  kind: conflict
+  about: programs/dhs-sbir
+  text: 'DHS amounts conflict and are partly stale: Phase I $100,000 and Phase II $750,000 [387]; $175,000 and $1
+    Million [303]; Phase I $150,000 [307].'
+  owner: author
+- id: t-C047
+  kind: recheck
+  about: references
+  text: All slice C quotes came through a fetch layer that returns a model-written extraction; several extractions
+    added inferences of their own (for example NASA registrations "based on typical federal requirements"), which
+    the sweep flagged and excluded. Re-check every quote against the live page before publication.
+  owner: builder
+- id: t-C048
+  kind: recheck
+  about: references
+  text: 'Quotes carried verbatim from sweep C that exceed the schema''s 25-word limit: [301] (30 words); [305] (28
+    words); [319] (28 words); [324] (28 words); [328] (29 words); [334] (26 words); [348] (28 words); [351] (28
+    words); [387] (29 words); [397] (26 words); [404] (29 words). Trim against the live page.'
+  owner: builder
+- id: t-C049
+  kind: recheck
+  about: programs
+  text: 'Quoted wording used in slice C records that appears only in the sweep''s draft record or summary, not in
+    the source entry''s quotes list: NIST "Science and technology-based firms with strong research capabilities…"
+    [400]; NIST "reauthorized on April 13, 2026. This legislation extends the programs through September 30, 2031."
+    (draft only, not used in the record) [400]; NOAA "to stimulate the U.S. economy and business growth…" [407].'
+  owner: builder
+- id: t-C050
+  kind: gap
+  about: queries
+  text: Search hit counts are links returned by the WebSearch tool, not index totals; stored without the "~".
+  owner: builder
+- id: t-C051
+  kind: gap
+  about: gates
+  text: Portal and registry URLs were not captured for NIH ASSIST and eRA Commons, NSF Research.gov, EPA FedConnect
+    and the SBA Company Registry, so the portal field is empty for NIH, CDC, FDA, NSF, EPA, ED, NIST and NOAA records
+    and gate official_url values point to the agency's own how-to page or site root [331] [343] [392].
+  owner: builder
+- id: t-C052
+  kind: gap
+  about: gates/nasa-prosams
+  text: NSPIRES was requested as a gate but appears in neither sweep; the gate record covers ProSAMS only [366].
+  owner: builder
+- id: t-C053
+  kind: gap
+  about: gates/sbir-registration
+  text: The sweeps name the "SBA Company Registry" and "SBC Control ID" but do not give the registry's URL, its
+    steps or its lead time [393] [355]; the SBIR.gov login change is noted without detail [302].
+  owner: builder
+- id: t-D001
+  kind: gap
+  about: programs/phase-iii-award
+  text: 'Verbatim text of 15 U.S.C. 638(r) as amended was not read from an official code source: uscode.house.gov
+    was under maintenance and the Cornell page truncated [424]. The (r)(4) sentence quoted is from a 2014 GAO decision
+    [423]; the amending language was read from the public law [416].'
+  owner: builder
+- id: t-D002
+  kind: gap
+  about: gates/proposal-cap
+  text: Sweep D found no agency's FY2027 proposal cap; the DoW Opportunities page still showed FY2025 cycles [447]
+    and DSIP disallows automated access. Sweep C found the HHS limit [330]; no other agency's figure is verified.
+  owner: builder
+- id: t-D003
+  kind: gap
+  about: programs/phase-iii-award
+  text: No SBA policy-directive revision implementing P.L. 119-83 was found; none is due until April 13, 2027 [416]
+    [422].
+  owner: builder
+- id: t-D004
+  kind: gap
+  about: programs/phase-iii-award
+  text: No agency document implementing section 6(b) ("simplified and standardized procedures", model contracts,
+    standard clauses) was found [416].
+  owner: builder
+- id: t-D005
+  kind: unverified
+  about: gates/data-rights-marking
+  text: 'Final status of FAR Case 2020-010 not established [428]. Not checked: whether the overhauled FAR Part 27
+    text changes 52.227-20; only the codified clause was read [433].'
+  owner: builder
+- id: t-D006
+  kind: gap
+  about: gates/data-rights-marking
+  text: The exact DFARS 252.227-7018 legend wording was not returned by the fetcher, only its required elements.
+    The clause shows AUG 2025; what changed between the January 2025 rule and August 2025 was not traced [434] [435].
+  owner: builder
+- id: t-D007
+  kind: unverified
+  about: programs/phase-iii-award
+  text: 'DoD IG: only the 2014 report''s Oversight.gov record was read. Whether its recommendation is truly still
+    open, and whether any later DoD IG audit covers Phase III, is unverified [455].'
+  owner: builder
+- id: t-D008
+  kind: gap
+  about: review/getting-funded-for-rd
+  text: 'GAO: no program-wide commercialization rate with a GAO report number was found [450]. The 63 percent and
+    16% figures the sweep mentions appear only in a partisan committee one-pager [458].'
+  owner: builder
+- id: t-D009
+  kind: unverified
+  about: programs/dow-art
+  text: DoW press release of April 20, 2026 (ART, 90-plus topics, three "innovation outcomes") was read only through
+    a law-firm summary [420]; the ART page itself has no amounts or dates [446].
+  owner: builder
+- id: t-D010
+  kind: gap
+  about: programs/phase-iii-award
+  text: 'Not fetched: business.defense.gov "SBIR/STTR Phase III Contracting" PDF returned 403.'
+  owner: builder
+- id: t-D011
+  kind: unverified
+  about: help/apex-accelerators
+  text: 'APEX Accelerators: the national site (apexaccelerators.us, JavaScript app, body empty to the fetcher) and
+    the DoW page (business.defense.gov, 403) could not be read. Network size is from a Nevada state page dated October
+    12, 2023 [469]. Current statute citation and funding level not verified.'
+  owner: builder
+- id: t-D012
+  kind: gap
+  about: programs/americas-seed-fund-road-tour
+  text: No 2025 or 2026 Road Tour schedule was found [317].
+  owner: builder
+- id: t-D013
+  kind: conflict
+  about: programs/fast-partnership-program
+  text: 'FAST numbers do not reconcile: the NOFO text gave 13 eligible jurisdictions and about 13 awards (sweep
+    D) or about 50 awards from $9,000,000 (sweep C) [312]; the webinar gave at least 7 new awards from $1,260,000
+    [463]; the September 22, 2026 release says 50 organisations [313]. The full awardee table was not extracted.'
+  owner: author
+- id: t-D014
+  kind: conflict
+  about: programs/navy-stp
+  text: 'Navy STP benefit claims differ between two official pages: 17% [440] versus 68 percent [441].'
+  owner: author
+- id: t-D015
+  kind: gap
+  about: programs/navy-stp
+  text: 'Not fetched: the Forum for SBIR/STTR Transition page on secnav.navy.mil (request rejected), so FST is described
+    only through the STP pages [440] [441].'
+  owner: builder
+- id: t-D016
+  kind: conflict
+  about: help/state-sbir-match-programs
+  text: 'Kentucky: the state page says Phase II match up to $150,000 [466]; SBA''s 2020 table says up to $500K [464].
+    The state page is the newer source.'
+  owner: author
+- id: t-D017
+  kind: conflict
+  about: programs/sttr-vs-sbir
+  text: 'STTR agency count: the sbir.gov tutorial says 5 [488]; CRS (December 2025) says 6 including USDA [456].'
+  owner: author
+- id: t-D018
+  kind: unverified
+  about: help/mbda-business-centers
+  text: 'MBDA: current number of centres and operating status in 2026 not verified [478] [479]; the CRS baseline
+    predates 2025 [480]; the dated events come from a partisan release [481].'
+  owner: builder
+- id: t-D019
+  kind: gap
+  about: help/score
+  text: SCORE and WBC counts were not found on SBA's pages [475] [476].
+  owner: builder
+- id: t-D020
+  kind: unverified
+  about: help/sbdc
+  text: SBDC count (nearly 1,000 local centers) is from the association, not SBA [474]; SBA's page has no count
+    [473]. Kept out of the description.
+  owner: builder
+- id: t-D021
+  kind: gap
+  about: programs/sttr-vs-sbir
+  text: University partnering beyond STTR (for example agency-specific programs) was not researched.
+  owner: builder
+- id: t-D022
+  kind: gap
+  about: queries
+  text: Search hit counts are results returned by the WebSearch tool, not index totals; stored without the "~".
+  owner: builder
+- id: t-D023
+  kind: recheck
+  about: references
+  text: All slice D page contents were read through a fetch tool that summarises each page with a small model. Quotes
+    should be checked against the page before publication, especially statutory and clause wording [416] [417] [434]
+    [433].
+  owner: builder
+- id: t-D024
+  kind: gap
+  about: references
+  text: 'Not fetched: congress.gov bill and CRS pages (robots.txt disallow); CRS products were read on the EveryCRSReport
+    mirror instead [418] [456] [457] [480].'
+  owner: builder
+- id: t-D025
+  kind: gap
+  about: references
+  text: 'Not fetched: dau.edu (403) and govtrack.us (403).'
+  owner: builder
+- id: t-D026
+  kind: gap
+  about: help/mbda-business-centers
+  text: 'Not fetched: mbda.gov/mbda-programs/business-centers (403) [478].'
+  owner: builder
+- id: t-D027
+  kind: gap
+  about: programs/partnership-intermediary-agreement
+  text: 'Not fetched: dhs.gov PIA fact sheet PDF (403); the PIA record rests on the AAF page alone [485].'
+  owner: builder
+- id: t-D028
+  kind: gap
+  about: references
+  text: 'Not fetched: governmentcontractslegalforum.com (redirect loop) and sbir.gov/local-assistance (404; replaced
+    by the Lab to Market Hub [315]). sba.gov article URLs redirect to legacy.sba.gov and fetch there [314].'
+  owner: builder
+- id: t-D029
+  kind: conflict
+  about: programs/strategic-breakthrough-award
+  text: 'Funding base differs between two reads of the Act: "not more than 0.50 percent of extramural R&D" at agencies
+    required to spend more than $100,000,000 [417] vs "up to 0.5% of SBIR funds at agencies obligating over $100
+    million" [418]. Check section 3 of the public law.'
+  owner: author
+- id: t-D030
+  kind: unverified
+  about: programs/strategic-breakthrough-award
+  text: 'Sweep D''s draft says "who: firms with a prior Phase II"; the enrolled-text key facts do not state that
+    requirement [417]. The record cites the prior-Phase-II rule only for NIH [325].'
+  owner: builder
+- id: t-D031
+  kind: unverified
+  about: gates/proposal-cap
+  text: The proposal-limit deadline (90 days before FY2027) is computed as July 3, 2026 only by a private site,
+    which also says a $75 million lifetime funding cap, an STTR set-aside cut and "Phase 1A" awards were dropped
+    from the final law [419]; the INNOVATE Act proposals are documented by CRS [457]. A law-firm note names no agency
+    cap as of June 17, 2026 [421]. None of this is in a record.
+  owner: builder
+- id: t-D032
+  kind: conflict
+  about: gates/proposal-cap
+  text: 'Waivers: "decided within 15 days" in the enrolled-text extraction [417] vs "topic-level waivers need SBA
+    approval" in CRS [418]. Read section 4 for who decides.'
+  owner: author
+- id: t-D033
+  kind: unverified
+  about: programs/taba
+  text: The Army TABA page lists a preferred vendor and may predate section 7 of the 2026 Act, which makes awardee
+    choice mandatory [448] [417].
+  owner: builder
+- id: t-D034
+  kind: unverified
+  about: programs/af-stratfi
+  text: 'AFWERX: the PY26.1 STRATFI notice (July 2025) predates the lapse and does not address it; 26.2 TACFI announcements
+    were planned for early CY 2026 [444]. Post-reauthorization status of both programs not verified. The official_url
+    https://afwerx.com/get-funded/ is from the sweep''s draft record, not a fetched page.'
+  owner: builder
+- id: t-D035
+  kind: gap
+  about: programs/army-sbir-catalyst
+  text: 'Army CATALYST: the page says FY26 kickoff details "will be provided in early 2026"; nothing later was read
+    [445].'
+  owner: builder
+- id: t-D036
+  kind: gap
+  about: programs/apfit
+  text: APFIT FY27-1 was "anticipated to open in early summer 2026"; whether it opened is not stated [438]. The
+    FAQ does not mention SBIR/STTR, so an APFIT-to-Phase III link is inference [439].
+  owner: builder
+- id: t-D037
+  kind: gap
+  about: programs/navy-crp-phase-iib
+  text: Navy CRP and Phase II.B amounts are not stated on the page read [440].
+  owner: builder
+- id: t-D038
+  kind: unverified
+  about: programs/navy-stp
+  text: Sweep D's draft says STP gives "no cash award" and that firms "enroll through the Navy program"; neither
+    is in the source entries' key facts [440] [441]. Left out of the record.
+  owner: builder
+- id: t-D039
+  kind: unverified
+  about: programs/af-tacfi
+  text: Sweep D's draft says a TACFI firm "submits with a government customer's commitment"; this is not in the
+    source entries' key facts [442]. steps left empty.
+  owner: builder
+- id: t-D040
+  kind: gap
+  about: programs/phase-iii-award
+  text: Implementation of sections 5 (contracting-officer training) and 8 (SBIR.gov and FPDS Phase III tracking)
+    of the Act was not checked against any agency document [416] [417].
+  owner: builder
+- id: t-D041
+  kind: recheck
+  about: references
+  text: 'Dated figures in SBA tutorials must not be quoted as current: Phase I $150,000 and Phase II $1,000,000
+    in the data-rights tutorial [432]; penalty amounts in the fraud tutorial [461].'
+  owner: builder
+- id: t-D042
+  kind: recheck
+  about: gates/data-rights-marking
+  text: The Navy Phase III Guidebook (2020) predates the 2023 directive and the 2025 DFARS rule; its legend wording
+    is superseded [430].
+  owner: builder
+- id: t-D043
+  kind: unverified
+  about: review/getting-funded-for-rd
+  text: The Senate committee one-pager's figures (top-25 share at DoD 16% to 12 percent; more than 60 percent first
+    awards in five years; 0.04% of applications denied for foreign risk) are advocacy numbers, not audited [458].
+    GAO gives examples of denials but no aggregate count [452].
+  owner: builder
+- id: t-D044
+  kind: gap
+  about: gates/foreign-disclosure-security-review
+  text: Implementing notices for section 2 of the Act (eight entity lists, broad security-risk ground) were read
+    only for HHS [328]; other agencies not checked [417].
+  owner: builder
+- id: t-D045
+  kind: conflict
+  about: references/sba-reauth-pr
+  text: 'Same SBA release, two extractions: "more than $81 billion in over 34,000 small businesses" (sweep C) vs
+    "over $81 billion in approximately 34,000 small businesses" (sweep D) [314]. Both key facts are kept in the
+    merged reference.'
+  owner: author
+- id: t-D046
+  kind: conflict
+  about: references/sba-fast-nofo
+  text: 'Same NOFO file, two dates: sweep C gives posted June 2, 2026 (stated in the NOFO); sweep D gives 2026-06-10,
+    which matches the file name [312]. published is set to 2026-06-02.'
+  owner: author
+- id: t-D047
+  kind: recheck
+  about: references
+  text: 'Five URLs appear in both sweeps and were merged into one entry each, keeping both sweeps'' key_facts and
+    quotes: [301] [312] [313] [314] [317].'
+  owner: builder
+- id: t-D048
+  kind: recheck
+  about: references
+  text: 'Quotes carried verbatim from sweep D that exceed the schema''s 25-word limit: [423] (34 words); [425] (27
+    words); [447] (26 words); [471] (26 words). Trim against the live page.'
+  owner: builder
+- id: t-D049
+  kind: gap
+  about: schema
+  text: 'Schema fit: family is null for apfit, broad-agency-announcement, prize-competitions and procurement-center-representative
+    because none of sbir-sttr, ot-cso, setaside-vehicle or partnering fits; funds_or_buys is empty where no source
+    states the instrument.'
+  owner: author
+- id: t-D050
+  kind: gap
+  about: schema
+  text: 'Schema fit: only the situations tag have-technology is given in the schema; not-registered, registered-no-award,
+    first-awards and looking-for-partners are derived from the requirements doc''s situation list and need confirming.
+    registrations uses free tokens (sam-uei, sbc-control-id, era-commons, grants-gov, research-gov, prosams, fedconnect,
+    valid-eval, doe-application-hub, ein, orcid-sttr-only); only gates resolves to gates.yaml ids.'
+  owner: author
+- id: t-D051
+  kind: gap
+  about: schema
+  text: 'Schema fit: help.yaml and gates.yaml records carry an extra conflicts key, and references.yaml carries
+    date_note on every entry (empty when not needed); tier for undated live agency pages is current, and the proposed
+    FAR rule [428] is tiered classic.'
+  owner: author
+- id: t-M001
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [108, 438] — merge into one entry and repoint citations. https://ac.cto.mil/apfit'
+  owner: builder
+- id: t-M002
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [109, 439] — merge into one entry and repoint citations. https://ac.cto.mil/apfit/faq'
+  owner: builder
+- id: t-M003
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [27, 326] — merge into one entry and repoint citations. https://grants.nih.gov/grants/guide/notice-files/not-od-26-006.html'
+  owner: builder
+- id: t-M004
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [29, 330] — merge into one entry and repoint citations. https://grants.nih.gov/grants/guide/notice-files/not-od-26-090.html'
+  owner: builder
+- id: t-M005
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [38, 314] — merge into one entry and repoint citations. https://legacy.sba.gov/article/2026/04/13/administrator-loeffler-applauds-sbir-sttr-reauthorization'
+  owner: builder
+- id: t-M006
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [76, 441] — merge into one entry and repoint citations. https://navystp.com'
+  owner: builder
+- id: t-M007
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [32, 346] — merge into one entry and repoint citations. https://science.osti.gov/sbir'
+  owner: builder
+- id: t-M008
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [30, 332] — merge into one entry and repoint citations. https://seed.nih.gov/small-business-funding/small-business-program-basics/eligibility-criteria'
+  owner: builder
+- id: t-M009
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [31, 320] — merge into one entry and repoint citations. https://seed.nih.gov/small-business-funding/small-business-program-basics/understanding-sbir-sttr'
+  owner: builder
+- id: t-M010
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [47, 410] — merge into one entry and repoint citations. https://ssti.org/blog/sbir-slowly-relaunching-following-presidents-signature'
+  owner: builder
+- id: t-M011
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [24, 434] — merge into one entry and repoint citations. https://www.acquisition.gov/dfars/252.227-7018-rights-other-commercial-technical-data-and-computer-software%e2%80%94small-business-innovation-research-program-and-small-business-technology-transfer-program.'
+  owner: builder
+- id: t-M012
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [25, 433] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.227-20'
+  owner: builder
+- id: t-M013
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [44, 411] — merge into one entry and repoint citations. https://www.crowell.com/en/insights/client-alerts/sbirsttr-programs-reauthorized-after-six-month-lapse'
+  owner: builder
+- id: t-M014
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [55, 446] — merge into one entry and repoint citations. https://www.defensesbirsttr.mil/art'
+  owner: builder
+- id: t-M015
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [40, 447] — merge into one entry and repoint citations. https://www.defensesbirsttr.mil/sbir-sttr'
+  owner: builder
+- id: t-M016
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [37, 393] — merge into one entry and repoint citations. https://www.epa.gov/sbir/how-apply-sbir-contract'
+  owner: builder
+- id: t-M017
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [59, 418] — merge into one entry and repoint citations. https://www.everycrsreport.com/reports/in12705.html'
+  owner: builder
+- id: t-M018
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [42, 451] — merge into one entry and repoint citations. https://www.gao.gov/products/gao-24-106398'
+  owner: builder
+- id: t-M019
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [2, 417] — merge into one entry and repoint citations. https://www.govinfo.gov/content/pkg/bills-119s3971enr/html/bills-119s3971enr.htm'
+  owner: builder
+- id: t-M020
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1, 416] — merge into one entry and repoint citations. https://www.govinfo.gov/content/pkg/plaw-119publ83/html/plaw-119publ83.htm'
+  owner: builder
+- id: t-M021
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [46, 420] — merge into one entry and repoint citations. https://www.insidegovernmentcontracts.com/2026/04/sbir-sttr-is-back-and-the-department-of-war-is-wasting-no-time'
+  owner: builder
+- id: t-M022
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [4, 424] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/15/638'
+  owner: builder
+- id: t-M023
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [33, 358] — merge into one entry and repoint citations. https://www.nasa.gov/sbir_sttr'
+  owner: builder
+- id: t-M024
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [35, 338] — merge into one entry and repoint citations. https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation'
+  owner: builder
+- id: t-M025
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [11, 301] — merge into one entry and repoint citations. https://www.sbir.gov/about'
+  owner: builder
+- id: t-M026
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [7, 310] — merge into one entry and repoint citations. https://www.sbir.gov/about/policies'
+  owner: builder
+- id: t-M027
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [14, 308] — merge into one entry and repoint citations. https://www.sbir.gov/apply'
+  owner: builder
+- id: t-M028
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [12, 303] — merge into one entry and repoint citations. https://www.sbir.gov/participating-agencies'
+  owner: builder
+- id: t-M029
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [5, 422] — merge into one entry and repoint citations. https://www.sbir.gov/sites/default/files/documents/sba%20sbir_sttr_policy_directive_may2023.pdf'
+  owner: builder
+- id: t-M030
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [6, 459] — merge into one entry and repoint citations. https://www.sbir.gov/sites/default/files/sba%20sbir_sttr_final_appendices_may2023.pdf'
+  owner: builder
+- id: t-M031
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [17, 436] — merge into one entry and repoint citations. https://www.sbir.gov/tutorials/data-rights/tutorial-1'
+  owner: builder
+- id: t-M032
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [19, 461] — merge into one entry and repoint citations. https://www.sbir.gov/tutorials/fraud-waste-abuse/tutorial-1'
+  owner: builder
+- id: t-P001
+  kind: conflict
+  about: programs/navy-stp
+  text: Program id drafted in both slices; merge.
+  owner: builder
+- id: t-P002
+  kind: conflict
+  about: programs/army-sbir-catalyst
+  text: Program id drafted in both slices; merge.
+  owner: builder
+- id: t-P003
+  kind: conflict
+  about: programs/apfit
+  text: Program id drafted in both slices; merge.
+  owner: builder
+- id: t-P004
+  kind: conflict
+  about: programs/dow-art
+  text: Program id drafted in both slices; merge.
+  owner: builder

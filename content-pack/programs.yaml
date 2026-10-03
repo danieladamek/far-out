@@ -1,0 +1,4475 @@
+# programs.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR sweeps (slices A–D). Every entry carries recheck: true until quotes are verified against live pages.
+- id: sbir-sttr-governmentwide
+  name: SBIR/STTR (government-wide framework)
+  family: sbir-sttr
+  kind: program
+  owner: U.S. Small Business Administration (Policy Directive); participating agencies run their own programs
+  agency: SBA
+  defense: false
+  what: 'SBIR and STTR are authorized by section 9 of the Small Business Act, codified at 15 U.S.C. 638, and governed
+    by the SBA SBIR/STTR Policy Directive effective May 3, 2023 [3][5]. Agencies with an extramural R/R&D budget
+    in excess of $100,000,000 must spend not less than 3.2 percent on SBIR, and agencies with an extramural budget
+    in excess of $1,000,000,000 must spend 0.45 percent on STTR [3]. SBIR.gov lists 11 participating agencies, six
+    labelled SBIR/STTR and five labelled SBIR only [12]. Public Law 119-83, approved April 13, 2026, moved the termination
+    date of both programs from September 30, 2025 to September 30, 2031 [1].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - Awardee together with its affiliates must not have more than 500 employees [10][15]
+  - More than 50% directly owned and controlled by U.S. citizens or permanent resident aliens, other small business
+    concerns so owned, an Indian tribe, ANC or NHO, or a combination [10]
+  - 'SBIR only: more than 50% owned by multiple venture capital operating companies, hedge funds or private equity
+    firms, no single one owning more than 50%, at agencies using 15 U.S.C. 638(dd)(1) authority; STTR has no multiple-VC
+    option [10][30]'
+  - 'Majority-VC/hedge/PE-owned awardees: NIH, DOE, NSF up to 25% of SBIR funds; other agencies up to 15% [3][5]'
+  - VCOCs, hedge funds and private equity firms must have a place of business located in the United States and be
+    created or organized in the United States [15]
+  - For-profit, with a U.S. place of business [30][14]
+  - R/R&D must be performed in the United States, with written-approval exceptions [5][30]
+  - 'SBIR principal investigator: primary employment (more than one-half of time) with the small business concern
+    at award and during the project [5]'
+  - 'STTR principal investigator: primary employment with the small business concern or with the research institution
+    [5]'
+  - 'STTR work share: not less than 40 percent of the R/R&D by the small business concern and not less than 30 percent
+    by the partnering research institution [5]'
+  - 'SBIR work share: awardee performs a minimum of two-thirds of the research/analytical effort in Phase I and
+    one-half in Phase II [5]'
+  - Size and eligibility are determined at the time of award; some agencies also require certification at application
+    [15]
+  - 'Phase I to Phase II Transition Rate benchmark: firms with 21 or more Phase I awards over the past 5 fiscal
+    years (excluding the most recently completed year) need a ratio of at least 0.25 [13]'
+  - 'Commercialization Rate benchmark: firms with 16 or more Phase II awards over the past 10 fiscal years (excluding
+    the 2 most recently completed) need at least $100,000 of sales and/or investment per Phase II on average, or
+    patents equal to 15% of Phase II awards [13]'
+  - 'Failing a standard benchmark: ineligible for Phase I and Direct to Phase II awards for 1 year; assessment on
+    June 1 each year [13][5]'
+  - 'Increased standards effective April 1, 2023: 51+ Phase I awards (5 fiscal years) need a ratio of at least 0.50;
+    51+ Phase II awards (10 fiscal years) need $250,000 average; 101+ need $450,000 average; failing firms are limited
+    to 20 total Phase I and Direct to Phase II awards from each federal agency for the year [13]'
+  - An agency is to "not make an award under the SBIR program of the Federal agency to a small business concern
+    if the head of the Federal agency determines that" one of grounds (A) to (F) applies, including a connection
+    to an entity or individual on eight named lists [1][4]
+  - A denial does not bar eligibility in a later award cycle [1]
+  cycle:
+    pattern: Firms apply through each agency's SBIR or STTR program before that agency's submission closing date
+      [14]. Statutory authority lapsed after September 30, 2025 and resumed on enactment on April 13, 2026; during
+      the lapse active awards continued but agencies were not issuing solicitations [3][43][27][1][32].
+    current_solicitations: []
+  awards:
+  - phase: I
+    amount: $150,000 base guideline, including modifications
+    duration: normally not more than 6 months (SBIR) or 1 year (STTR)
+    cite:
+    - 5
+  - phase: I
+    amount: up to $323,090 including modifications without seeking SBA approval, as of April 2026
+    duration: ''
+    cite:
+    - 11
+    - 31
+  - phase: I
+    amount: $50,000–$275,000 (typical range on the SBIR.gov Apply page)
+    duration: 6-12 months
+    cite:
+    - 14
+  - phase: II
+    amount: $1,000,000 base guideline, including modifications
+    duration: normally not more than 2 years
+    cite:
+    - 5
+  - phase: II
+    amount: up to $2,153,927 including modifications without seeking SBA approval, as of April 2026
+    duration: ''
+    cite:
+    - 11
+    - 31
+  - phase: II
+    amount: $400,000–$1.8 million (typical range on the SBIR.gov Apply page)
+    duration: 24 months
+    cite:
+    - 14
+  - phase: III
+    amount: no SBIR/STTR funding; no limit on number, duration, type or dollar value
+    duration: ''
+    cite:
+    - 5
+    - 14
+  steps:
+  - Hold an active SAM registration, renewed at least annually; registration may take 6–8 weeks [37]
+  - The UEI is assigned through SAM.gov; DUNS is no longer used as of April 4, 2022 [37]
+  - Register at the SBA Company Registry on SBIR.gov before proposal submission and include the SBC Control ID with
+    the proposal; the registration is free and the ID is usable at any SBIR/STTR agency [37][36]
+  - Registry information must be updated no more than 6 months before proposal submission [5]
+  - Apply through the agency's SBIR or STTR program before the submission closing date [14]
+  - Certify size, ownership and program requirements at award; again for Phase I at the time of final payment or
+    disbursement; and for Phase II prior to receiving more than 50% of the total award amount and prior to final
+    payment or disbursement [6]
+  - Answer the eight foreign-affiliation disclosure questions in Appendix III of the Policy Directive [6][8]
+  - Agencies may exceed the guideline amounts by no more than 50%; a larger award needs an SBA waiver requested
+    before solicitation release [5][3]
+  portal: https://app.www.sbir.gov/company-registration/overview
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  gates:
+  - sam-registration
+  - sbir-registration
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: SBA must modify the policy directives within 1 year of enactment for the Phase III / Procurement Center
+      Representative change; the version posted on SBIR.gov is still the May 2023 directive and makes no mention
+      of Pub. L. 119-83 [1][7]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Each agency's program director must set, equally for all small business concerns, a limit on the number
+      of proposals a concern may submit to Phase I and Phase II solicitations (per fiscal year, per solicitation
+      or per topic), not later than 90 days before the start of fiscal year 2027 and each fiscal year thereafter;
+      the statute does not fix a number [1][2]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Proposal-limit waivers are topic by topic for time-sensitive, mission-urgent topics, decided within 15
+      days, limited to 5 percent of an agency's SBIR and STTR topics in a fiscal year, and reported to Congress
+      within 30 days [1]
+  - status: final
+    date: '2026-07-10'
+    text: 'HHS: maximum of nine new and resubmission Phase I, Fast-track and Direct to Phase II applications and
+      contract proposals per small business concern per fiscal year across all HHS components, for due dates on
+      or after April 13, 2026; replaces the rescinded NOT-OD-26-073 of April 20, 2026 [29][28]'
+  - status: final
+    date: '2026-05-22'
+    text: NSF 26-510 states a limit of 1 proposal per organization [35]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Agencies must evaluate whether a small business concern "presents a security risk for any reason", using
+      the due diligence process, disclosures and coordination with the intelligence community, Federal law enforcement
+      and counterintelligence; due diligence now also covers cybersecurity practices, patent analysis, employee
+      analysis, foreign ownership and financial ties [1]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: A process must notify a denied applicant of the determination and its basis "as appropriate pursuant to
+      the discretion of the Federal agency and in a manner that does not compromise national security" [1]
+  - status: final
+    date: '2026-04-13'
+    text: An agency with funds remaining at the end of fiscal year 2026 from its required SBIR/STTR expenditures
+      may carry them into fiscal year 2027 for SBIR/STTR [1]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: The SBIR.gov database and FPDS must flag Direct to Phase II, subsequent Phase II, strategic breakthrough,
+      and Phase III prime/subcontract awards [1]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: The increased minimum performance standards, the due diligence program and other pilots are extended to
+      2031 [1]
+  distinctive: SBA says the programs "have invested more than $81 billion into over 34,000 small businesses" [38]
+  official_url: https://www.sbir.gov/about
+  as_of: '2026-10-03'
+  sources:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 22
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 35
+  - 36
+  - 37
+  - 38
+  - 41
+  - 43
+  conflicts:
+  - 'Ownership wording: "more than 50%" in the regulation [10] vs "at least 51%" in the SBIR.gov tutorial [16]'
+  - 'Award amounts on SBIR.gov: ceilings of $323,090 (Phase I) and $2,153,927 (Phase II) [11] vs typical ranges
+    $50,000–$275,000 and $400,000–$1.8 million on the Apply page [14]'
+  - 'Benchmark thresholds: 21 or more Phase I and 16 or more Phase II awards [13] vs 20+ and 15+ as NIH states them
+    [30]'
+  - 'Increased-standard consequence: limited to 20 total Phase I and Direct to Phase II awards per agency [13] vs
+    a limit of 20 awards per agency for a year, with no phase named, in the extract of the 2022 Act [26]'
+  - 'STTR agency count: six agencies labelled SBIR/STTR, including USDA [12][43] vs the older tutorial naming DoD,
+    DOE, NASA, NIH and NSF [16]'
+  - 'Proposal-limit scope: Phase I and Phase II solicitations in the statute [2] vs "Phase I proposals" in the Air
+    Force deck [41] vs Phase I, Fast-track and Direct to Phase II at HHS [29]'
+  - 'Lapse date wording: authorization terminates "September 30, 2025" [3][43] vs "expired on October 1, 2025" [27]'
+  - 'Authorization date in the posted directive: "until September 30, 2022, or as otherwise provided in law" [5]
+    vs September 30, 2031 in the Act [1]'
+  - 'Data-rights protection period: 20 years from award [5][22][17] vs 4 years from acceptance of all items to be
+    delivered in FAR 52.227-20 (May 2014) [25]'
+  - 'Department name: "Department of War (DOW)" on SBIR.gov [12] vs "Department of Defense" in the statute [1]'
+- id: direct-to-phase-ii
+  name: Direct to Phase II (phase flexibility, 15 U.S.C. 638(cc))
+  family: sbir-sttr
+  kind: program
+  owner: Agencies named in 15 U.S.C. 638(cc)
+  agency: multiple
+  defense: false
+  what: 'Direct to Phase II allows the award of a Phase II without a prior associated Phase I award, on a written
+    agency determination of demonstrated feasibility [40][5]. Public Law 119-83 Sec. 10(a) changed the authority
+    from "During fiscal years 2012 through 2025" to "Until September 30, 2031", added the Department of Energy and
+    NASA alongside NIH, DoD and the Department of Education, and added "or STTR program" [1][2].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - 'Agencies named after the 2026 Act: NIH, DoD, Department of Education, Department of Energy and NASA [1][2]'
+  - Requires a written determination of demonstrated feasibility [5]
+  - A firm failing a standard performance benchmark is ineligible for Direct to Phase II awards for 1 year [13]
+  - 'Army: Direct to Phase II allowed where Phase I-type research was done with other funding [82]'
+  cycle:
+    pattern: Offered as designated topics within agency solicitations; Navy FY-26 Release 5 carried 7 Direct to
+      Phase II topics and Release 6 carries 1 Direct to Phase II SBIR topic [72].
+    current_solicitations: []
+  awards:
+  - phase: Direct to Phase II (Army)
+    amount: up to $2 million
+    duration: 1-18 months
+    cite:
+    - 81
+  - phase: Direct to Phase II (AFWERX legacy Open Topic)
+    amount: $1.25M (SBIR)
+    duration: up to 21 months
+    cite:
+    - 67
+  - phase: Direct to Phase II (SpaceWERX)
+    amount: same funding and duration as Phase II ($1.25M-$1.8M)
+    duration: up to 24 months
+    cite:
+    - 71
+  steps:
+  - DARPA provides Direct to Phase II templates (Volume 2 feasibility documentation; cost proposal) [87]
+  - HHS counts Direct to Phase II applications toward its limit of nine per small business concern per fiscal year
+    [29]
+  portal: null
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  gates:
+  - sam-registration
+  - sbir-registration
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: The posted Policy Directive still limits Direct to Phase II to NIH, DoD and the Department of Education,
+      SBIR only, and says the pilot terminates September 30, 2022 unless extended [5][7]
+  - status: announced
+    date: '2026-04-23'
+    text: 'AFWERX: "D2P2 STTR opportunities coming in the near future." [61]'
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: The SBIR.gov database and FPDS must flag Direct to Phase II awards [1]
+  distinctive: ''
+  official_url: https://www.sbir.gov/about/policies
+  as_of: '2026-10-03'
+  sources:
+  - 1
+  - 2
+  - 5
+  - 7
+  - 13
+  - 20
+  - 29
+  - 40
+  - 61
+  - 67
+  - 71
+  - 72
+  - 81
+  - 82
+  - 87
+  conflicts:
+  - 'Agency list and program: NIH, DoD, ED, DOE and NASA, SBIR and STTR, until September 30, 2031 [1] vs NIH, DoD
+    and ED, SBIR only, in the 2023 directive and SBIR.gov tutorial [5][20]'
+- id: strategic-breakthrough-awards
+  name: Strategic Breakthrough awards (Pub. L. 119-83 Sec. 3)
+  family: sbir-sttr
+  kind: program
+  owner: Agencies whose required SBIR expenditure exceeds $100,000,000
+  agency: multiple
+  defense: false
+  what: 'Public Law 119-83 Sec. 3 creates a strategic breakthrough allocation of not more than 0.50 percent of the
+    extramural R/R&D budget, taken from the SBIR allocation, for agencies whose required SBIR expenditure exceeds
+    $100,000,000 [1]. An award is not more than $30,000,000 to a small business concern including its affiliates,
+    in a single award or a series of milestone-based awards, with a total period of performance of not more than
+    48 months [1][2]. These awards are exempt from the award-size limit and the SBA waiver requirement in 15 U.S.C.
+    638(aa) [1].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - Not less than 1 prior Phase II award [1]
+  - Not less than 100 percent matching funds from new private capital, new government funding under a program other
+    than SBIR/STTR Phase I or II, or a combination [1][2]
+  - Must demonstrate a technology that is an effective solution, as determined by market research [1]
+  - 'Department of Defense only: a commitment for inclusion in a program objective memorandum from an official at
+    program acquisition executive rank or higher; meets high priority requirements or operational needs of a military
+    department; not less than 20 percent of the required matching funds from new DoD funding outside SBIR/STTR Phase
+    I/II [1]'
+  - 'AFWERX: on an active Phase II or one completed within two years, with no second (sequential) Phase II already,
+    at least 90 days since Phase II start, and work performed in the United States [66]'
+  - 'NSF: by invitation to Phase II awardees [35]'
+  cycle:
+    pattern: The agency must complete contract awards using the allocation not later than 90 days after receiving
+      a proposal [1].
+    current_solicitations: []
+  awards:
+  - phase: Strategic Breakthrough (statute)
+    amount: not more than $30,000,000 to a small business concern, including its affiliates
+    duration: not more than 48 months
+    cite:
+    - 1
+    - 2
+  - phase: Strategic Breakthrough (NSF 26-510)
+    amount: up to $30,000,000
+    duration: ''
+    cite:
+    - 35
+  - phase: Strategic Breakthrough (AFWERX)
+    amount: Up to $30 million federal with required 1:1 match
+    duration: up to 48 months
+    cite:
+    - 64
+  - phase: Strategic Breakthrough (Army)
+    amount: up to $30 million
+    duration: up to 48 months
+    cite:
+    - 81
+  - phase: Strategic Breakthrough (Navy, FY27 initiative)
+    amount: up to $30 million SBIR matched 1:1 (potential $60 million per project)
+    duration: ''
+    cite:
+    - 78
+  steps:
+  - 'AFWERX: submission is to be completed by Government POC only [66]'
+  portal: null
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Each eligible agency must brief Congress within 60 days of enactment on whether it plans to use the authority;
+      the section and its amendments cease to have effect on September 30, 2031 [1]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: The SBIR.gov database and FPDS must flag strategic breakthrough awards [1]
+  - status: announced
+    date: 2026-04
+    text: 'Air Force: up to $30M in sequential Phase II awards, 1:1 matching with a minimum 20% from non-SBIR/STTR
+      Department of War funds, not more than 48 months, and not intended to replace STRATFI/TACFI [41]'
+  - status: final
+    date: '2026-05-22'
+    text: NSF 26-510 offers Strategic Breakthrough up to $30,000,000 by invitation to Phase II awardees [35]
+  - status: announced
+    date: '2026'
+    text: Navy announces Strategic Breakthrough as an FY27 initiative [78]
+  - status: final
+    date: '2026-09-11'
+    text: 'Army news item: Strategic Breakthrough Award, $3.5M, FluxWorks, 09/11/2026 [80]'
+  distinctive: ''
+  official_url: https://www.govinfo.gov/content/pkg/PLAW-119publ83/html/PLAW-119publ83.htm
+  as_of: '2026-10-03'
+  sources:
+  - 1
+  - 2
+  - 34
+  - 35
+  - 41
+  - 59
+  - 64
+  - 66
+  - 78
+  - 80
+  - 81
+  conflicts:
+  - 'Matching: not less than 100 percent matching funds in the statute [1] vs no matching requirement visible in
+    the NSF 26-510 extract [35]'
+  - 'Threshold wording: agencies whose required SBIR expenditure exceeds $100,000,000 [1] vs agencies obligating
+    over $100 million annually in SBIR funds, as CRS puts it [59] vs agencies with SBIR budgets over $100M, as the
+    NASA briefing puts it [34]'
+- id: technical-business-assistance
+  name: Technical and business assistance (TABA)
+  family: sbir-sttr
+  kind: program
+  owner: Participating agencies
+  agency: multiple
+  defense: false
+  what: 'Under Public Law 119-83 Sec. 7, technical and business assistance is "not more than $6,500 per project"
+    in Phase I and "not more than $50,000 per project" in Phase II [1]. Recipients select the provider or may use
+    the funds to hire or augment staff, and the Act adds cybersecurity assistance, screening for foreign involvement
+    and an I-Corps participation option [1].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - MDA was not offering TABA under its 23.C STTR instruction (2023) [91]
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards:
+  - phase: I
+    amount: not more than $6,500 per project
+    duration: ''
+    cite:
+    - 1
+  - phase: II
+    amount: not more than $50,000 per project
+    duration: ''
+    cite:
+    - 1
+  steps: []
+  portal: null
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: The Act sets the new amounts and provider choice; the directive posted on SBIR.gov is still the May 2023
+      version and makes no mention of Pub. L. 119-83 [1][7]
+  distinctive: ''
+  official_url: https://www.govinfo.gov/content/pkg/PLAW-119publ83/html/PLAW-119publ83.htm
+  as_of: '2026-10-03'
+  sources:
+  - 1
+  - 7
+  - 91
+  conflicts: []
+- id: sequential-phase-ii
+  name: Sequential (second) Phase II and agency Phase II variants
+  family: sbir-sttr
+  kind: program
+  owner: Participating agencies
+  agency: multiple
+  defense: false
+  what: 'A Phase II awardee may receive one additional, sequential Phase II award to continue the work of an initial
+    Phase II award [5][20]. The Policy Directive also provides for cross-program awards (STTR Phase I to SBIR Phase
+    II and vice versa) and cross-agency Phase II awards with written determinations [5].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - Must hold an initial Phase II award; one additional sequential Phase II is permitted [5]
+  - 'USSOCOM: up to two (2) Phase II awards can be made per awardee [92]'
+  cycle:
+    pattern: NASA lists a Phase II Sequential opportunity closing 9/11/26 [33].
+    current_solicitations: []
+  awards:
+  - phase: Sequential Phase II
+    amount: same terms as the initial Phase II
+    duration: ''
+    cite:
+    - 20
+  - phase: Sequential Phase II (Army)
+    amount: the same guideline amounts and limits as an initial Phase II award
+    duration: ''
+    cite:
+    - 82
+  - phase: Phase II Enhancement (DARPA)
+    amount: up to $500K in matching funds (1:1)
+    duration: 12 months
+    cite:
+    - 86
+  - phase: Commercialization Readiness Pilot (NIH)
+    amount: $4,191,495
+    duration: ''
+    cite:
+    - 31
+  steps:
+  - 'Agency variants named on SBIR.gov: DOE Phase IIA and IIB; NCI SBIR Phase IIB Bridge Award [20]'
+  portal: null
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: The SBIR.gov database and FPDS must flag subsequent Phase II awards [1]
+  distinctive: ''
+  official_url: https://www.sbir.gov/tutorials/program-basics/tutorial-4
+  as_of: '2026-10-03'
+  sources:
+  - 1
+  - 5
+  - 20
+  - 31
+  - 33
+  - 82
+  - 86
+  - 92
+  conflicts: []
+- id: sbir-sttr-phase-iii
+  name: SBIR/STTR Phase III
+  family: sbir-sttr
+  kind: transition
+  owner: Any federal agency funding work that derives from a prior SBIR/STTR award
+  agency: multiple
+  defense: false
+  what: 'Phase III is work that derives from, extends, or completes prior SBIR/STTR work and is funded by non-SBIR/STTR
+    sources [5]. There is no limit on the number, duration, type, or dollar value of Phase III awards, size limits
+    do not apply, and no further competition is required [5]. Agencies must make a good-faith effort to award to
+    the original awardee, and may award Phase III as a sole-source contract [5][17].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - The work must derive from, extend, or complete prior SBIR/STTR work [5]
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards:
+  - phase: III
+    amount: no limit on number, duration, type or dollar value; no SBIR/STTR funding
+    duration: ''
+    cite:
+    - 5
+    - 14
+  steps:
+  - If the agency does not award to the original awardee it must document the file and notify SBA [5]
+  portal: null
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: SBA is to establish Phase III training for contracting officers and the agency acquisition workforce (Phase
+      III awards, agreements, data rights, sole-source contracting) [1]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Procurement Center Representatives are directed to advocate for maximum practicable use and transition
+      of SBIR/STTR technology to Phase III; SBA must modify the policy directives within 1 year of enactment [1]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Agencies are to develop simplified and standardized procedures and model contracts for Phase I, II and
+      III and standardized solicitation provisions/clauses on information needed for Phase III eligibility [1]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: The SBIR.gov database and FPDS must flag Phase III prime/subcontract awards [1]
+  distinctive: '"Navy accounts for over 50% of all Phase III commercialization dollars for DoW SBIR/STTR programs."
+    [57]'
+  official_url: https://www.sbir.gov/about/policies
+  as_of: '2026-10-03'
+  sources:
+  - 1
+  - 5
+  - 14
+  - 17
+  - 57
+  conflicts: []
+- id: dow-sbir-sttr
+  name: DoW SBIR/STTR (department-wide)
+  family: sbir-sttr
+  kind: program
+  owner: DoW Office for Small Business Innovation, under OUSW(R&E)
+  agency: DoW
+  defense: true
+  what: 'The Department of War SBIR/STTR program is managed by the Office for Small Business Innovation under the
+    Office of the Under Secretary of War for Research and Engineering and runs as "a competitive, three-phased process"
+    [54][53][40]. Topics for the Services and Components are issued through joint BAAs and CSOs, and all proposals
+    must be submitted electronically through the Defense SBIR/STTR Innovation Portal (DSIP) [52][56]. After reauthorization
+    the Department announced a redesigned initiative, solicitations with over 90 topics and the new Accelerated
+    Research for Transition (ART) Program [39][60].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - For-profit entity located in the U.S., fewer than 500 employees, owned and controlled by U.S. citizens or permanent
+    residents [14]
+  - 'STTR: at least 40% of the work by the small business and 30% by the research institution [65][86]'
+  - The small business concern must register with DSIP to submit a proposal in response to any DoW Component topic
+    [56]
+  - Until 10 Nov 26, where applicable, solicitations will require CMMC Level 1 or 2 self-assessment [61]
+  cycle:
+    pattern: FY2026 ran six numbered releases after reauthorization; DoW pre-releases topics the first Wednesday
+      of every month, with a pre-release of about three weeks and an open period of four weeks closing at 12:00
+      PM ET [41][61][86][72]. DoW and SBA pages still describe three pre-scheduled BAAs/CSOs a year, numbered .1/.2/.3
+      (SBIR) and .A/.B/.C (STTR), plus out-of-cycle and annual BAAs [52][56].
+    current_solicitations:
+    - id: FY2026 Release 1
+      opens: '2026-05-06'
+      closes: '2026-06-03'
+      note: Closed; pre-release April 13, 2026 [41][73]
+    - id: FY2026 Release 2
+      opens: '2026-05-27'
+      closes: '2026-06-24'
+      note: Closed; pre-release May 6, 2026 [41][73]
+    - id: FY2026 Release 3
+      opens: '2026-06-24'
+      closes: '2026-07-22'
+      note: Closed; pre-release June 3, 2026 [41][73]
+    - id: FY2026 Release 4
+      opens: '2026-07-22'
+      closes: '2026-08-19'
+      note: Closed; pre-release July 1, 2026 [41][73]
+    - id: FY2026 Release 5
+      opens: '2026-08-26'
+      closes: '2026-09-23'
+      note: Closed; pre-release August 5, 2026 [41][72]
+    - id: FY2026 Release 6
+      opens: '2026-09-23'
+      closes: '2026-10-21'
+      note: Open; pre-release September 2, 2026; closes 12:00 PM ET [72][64][87]
+  awards:
+  - phase: I
+    amount: $50,000 - $250,000
+    duration: ''
+    cite:
+    - 12
+  - phase: II
+    amount: $800,000 - $1.83 Million
+    duration: ''
+    cite:
+    - 12
+  steps:
+  - Register with the System for Award Management (www.sam.gov) [75]
+  - Register in the SBA SBIR.gov Company Registry, which issues an SBIR/STTR ID number used when applying [75]
+  - 'Register in DSIP: on the DSIP site click Login/Register and create a login.gov account [88][75]'
+  - During pre-release, communicate directly with topic authors; their contact information is published during BAA/CSO
+    pre-release periods [52][40]
+  - Once the release is open, direct contact is no longer permitted; written questions go through DSIP Topic Q&A
+    [52]
+  - Submit the proposal electronically through DSIP; proposals submitted by any other means will be disregarded
+    [52][56]
+  - 'Help desk: 703-214-1333; DoDSBIRSupport@reisystems.com [56]'
+  portal: https://www.dodsbirsttr.mil/submissions/login
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - dsip-account
+  gates:
+  - sam-registration
+  - sbir-registration
+  - dsip-registration
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Proposal limits are effective FY2027; AFWERX says it follows what OUSW sets, starting FY27, and that from
+      FY27 the limit is "one proposal per topic instead of per solicitation" [1][59][61]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Strategic Breakthrough awards at DoD need a program-objective-memorandum commitment from an official at
+      program acquisition executive rank or higher and not less than 20 percent of the match from new DoD funding
+      outside SBIR/STTR Phase I/II [1][41]
+  - status: announced
+    date: '2026-04-20'
+    text: The Department announced the Accelerated Research for Transition (ART) Program [39][60][55]
+  - status: announced
+    date: 2026-04
+    text: Direct to Phase II now applies to STTR [41][1]
+  - status: announced
+    date: 2026-04
+    text: Foreign Countries of Concern disclosure covers all foreign affiliations including venture backing and
+      IP licenses [41]
+  - status: announced
+    date: '2026-04-23'
+    text: 'CMMC: "Until 10 Nov 26, where applicable, solicitations will require Level 1 or 2 self-assessment" [61]'
+  - status: final
+    date: '2026-04-23'
+    text: Defense Appropriations Act Section 8151 prorates the SBIR budget for FY2026 [61]
+  distinctive: '"Translate DoD technology needs into opportunities to leverage the innovation potential of small
+    businesses and entrepreneurs" [53]'
+  official_url: https://www.defensesbirsttr.mil/
+  as_of: '2026-10-03'
+  sources:
+  - 1
+  - 12
+  - 14
+  - 18
+  - 37
+  - 39
+  - 40
+  - 41
+  - 52
+  - 53
+  - 54
+  - 55
+  - 56
+  - 59
+  - 60
+  - 61
+  - 64
+  - 65
+  - 72
+  - 73
+  - 75
+  - 86
+  - 87
+  - 88
+  conflicts:
+  - 'Budget: "nearly $1.8B" [53] vs "approximately $2 billion" [40] vs "$2.3 Billion" [12] vs "approximately $1.8B"
+    [56]'
+  - 'Components: "14" stated [40][56] vs thirteen organisations named on the About page [53] vs U.S. Space Force
+    and the Strategic Capabilities Office also listed on sbir.gov [12]'
+  - 'Cadence: three pre-scheduled BAAs/CSOs a year [52][56] vs six releases in FY2026 [41][73]'
+  - 'Pre-release day: "the first Wednesday of the month" [61][86] vs Release 1 pre-release on April 13, 2026 [41]'
+  - 'Open-period questions: through DSIP Topic Q&A [52] vs written questions by email, published on the topic page,
+    at DARPA [88]'
+  - 'Registration wording: Navy getting-started page and SBA tutorial still mention DUNS [75][18] vs DUNS no longer
+    used as of April 4, 2022 [37]'
+- id: afwerx-sbir-sttr
+  name: AFWERX SBIR/STTR (Department of the Air Force)
+  family: sbir-sttr
+  kind: program
+  owner: AFWERX / AFRL, Department of the Air Force
+  agency: DoW
+  defense: true
+  what: 'AFWERX runs Department of the Air Force SBIR and STTR topics with Phase I and Direct-to-Phase II options,
+    submitted via DSIP [62][63]. Topic numbers use B for SBIR, T for STTR, Z for BAA and X for CSO, and AFWERX distinguishes
+    Open Topics from Specific Topics [61][68]. For FY 2025 it reports $1.37 billion, 1,000+ contracts and 438 Phase
+    III transitions worth $8.1 billion [62].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - 'SBIR: for-profit US business, 500 or fewer employees, PI primarily employed (more than 50 percent) by the small
+    business [65]'
+  - 'STTR: at least 40% of work performed by the small business and 30% by the research institution [65]'
+  - Open Topic Phase II needs a signed DAF Customer Memorandum [67]
+  cycle:
+    pattern: New solicitations drop "the first Wednesday of the month", and the Air Force anticipated participating
+      in all six FY2026 releases [61].
+    current_solicitations:
+    - id: DOW SBIR Specific Topic 26.BZ & 26.BX Release 6
+      opens: '2026-09-23'
+      closes: '2026-10-21'
+      note: Pre-release 2 SEPT 26 [64]
+    - id: DOW STTR Specific Topic 26.TZ & 26.TX Release 6
+      opens: '2026-09-23'
+      closes: '2026-10-21'
+      note: Pre-release 2 SEPT 26 [64]
+    - id: DOW STTR Specific Topic 26.TZ Release 5
+      opens: '2026-08-26'
+      closes: '2026-09-23'
+      note: Closed; pre-release 5 AUG 26 [64]
+  awards:
+  - phase: I
+    amount: Up to $323,000
+    duration: up to six months
+    cite:
+    - 64
+  - phase: II
+    amount: Up to $2.1 million
+    duration: up to 24 months
+    cite:
+    - 64
+  - phase: I (Open Topic, legacy page)
+    amount: $75K (SBIR) and $110K (STTR)
+    duration: 3 months
+    cite:
+    - 67
+    - 68
+  - phase: II (Open Topic, legacy page)
+    amount: $1.25M (SBIR) and $1.8M (STTR)
+    duration: up to 21 months
+    cite:
+    - 67
+    - 68
+  - phase: Direct to Phase II (Open Topic, legacy page)
+    amount: $1.25M (SBIR)
+    duration: up to 21 months
+    cite:
+    - 67
+  - phase: I (Specific Topic, December 2024 overview)
+    amount: up to $180K
+    duration: 6 months
+    cite:
+    - 68
+  - phase: II (Specific Topic, December 2024 overview)
+    amount: up to $1.8M
+    duration: up to 24 months
+    cite:
+    - 68
+  - phase: I (SBA tutorial, historical)
+    amount: $50,000
+    duration: 3 months
+    cite:
+    - 57
+  - phase: II (SBA tutorial, historical)
+    amount: up to $750,000
+    duration: 15 months
+    cite:
+    - 57
+  steps:
+  - Phase I, Phase II or D2P2 proposals must go through the DoW submission website [65]
+  - For an Open Topic Phase II, obtain a signed DAF Customer Memorandum [67]
+  portal: https://www.dodsbirsttr.mil/submissions/login
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - dsip-account
+  gates:
+  - sam-registration
+  - sbir-registration
+  - dsip-registration
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: announced
+    date: '2026-04-23'
+    text: '"There will be a decrease in the number of Open Topic opportunities" [61]'
+  - status: announced
+    date: '2026-04-23'
+    text: '"D2P2 STTR opportunities coming in the near future." [61]'
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: 'Proposal limits: AFWERX follows what OUSW sets, starting FY27; from FY27 "one proposal per topic instead
+      of per solicitation" [61]'
+  distinctive: '"The Open Topic is the front door to working with the Department of the Air Force." [67]'
+  official_url: https://afwerx.com/get-funded/
+  as_of: '2026-10-03'
+  sources:
+  - 57
+  - 61
+  - 62
+  - 63
+  - 64
+  - 65
+  - 67
+  - 68
+  conflicts:
+  - 'Phase I: "Up to $323,000", up to six months [64] vs "$75K (SBIR) and $110K (STTR)", 3 months on the legacy
+    Open Topic page [67] vs up to $180K, 6 months for Specific Topics [68] vs $50,000, 3 months in the SBA tutorial
+    [57]'
+  - 'Phase II: "Up to $2.1 million", up to 24 months [64] vs "$1.25M (SBIR) and $1.8M (STTR)", up to 21 months [67]
+    vs up to $750,000, 15 months in the SBA tutorial [57]'
+  - 'Status: legacy Open Topic page still carries the 1 October 2025 lapse notice [67] vs Release 6 shown as open
+    [63][64]'
+- id: daf-stratfi-tacfi
+  name: STRATFI / TACFI and Strategic Breakthrough (AFWERX and SpaceWERX)
+  family: sbir-sttr
+  kind: transition
+  owner: AFWERX; SpaceWERX runs its own program-year notices
+  agency: DoW
+  defense: true
+  what: 'The Strategic Funding Increase (STRATFI) and Tactical Funding Increase (TACFI) programs were developed
+    by the AFWERX Ventures program to bridge the "Valley of Death" between Phase II and Phase III [69]. Both need
+    matching funds [71][57]. AFWERX presents Strategic Breakthrough beside them as a sequential opportunity and
+    says it "is not intended to replace the STRATFI/TACFI Program" [66][41].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - Must be an SBC eligible for SBIR/STTR, on an active Phase II or one completed within two years [66]
+  - The Phase II must not already have a second (sequential) Phase II [66]
+  - At least 90 days since Phase II start; work performed in the United States [66]
+  - The SBC is not executing a prior STRATFI effort at the time of submission [69]
+  cycle:
+    pattern: Notices of opportunity are issued by program year; the Space PY26.2 TACFI Notice of Opportunity accepts
+      submissions on a rolling basis [70][71].
+    current_solicitations:
+    - id: Space PY26.2 TACFI Notice of Opportunity
+      opens: '2026-06-05'
+      closes: ''
+      note: Open 5 JUN 26, continuous [71]
+  awards:
+  - phase: TACFI (AFWERX)
+    amount: $375,000–$2 million with 1:1 cost sharing
+    duration: up to 24 months
+    cite:
+    - 64
+    - 61
+  - phase: STRATFI (AFWERX)
+    amount: $3–15 million SBIR/STTR with $6 – $45 million matched investment
+    duration: up to 48 months
+    cite:
+    - 64
+  - phase: Strategic Breakthrough (AFWERX)
+    amount: Up to $30 million federal with required 1:1 match
+    duration: up to 48 months
+    cite:
+    - 64
+  - phase: TACFI (SpaceWERX)
+    amount: $375K-$2M
+    duration: ''
+    cite:
+    - 71
+  - phase: STRATFI (SpaceWERX)
+    amount: $6M-$45M
+    duration: ''
+    cite:
+    - 71
+  - phase: TACFI (December 2024 overview)
+    amount: $375K - $2M SBIR/STTR funds
+    duration: ''
+    cite:
+    - 68
+  - phase: STRATFI (December 2024 overview)
+    amount: $3M - $15M SBIR/STTR funds
+    duration: ''
+    cite:
+    - 68
+  steps:
+  - '"Submission is to be completed by Government POC only" [66]'
+  portal: null
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - dsip-account
+  gates:
+  - sam-registration
+  - sbir-registration
+  - dsip-registration
+  situations: []
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: announced
+    date: '2026-04-23'
+    text: STRATFI/TACFI unchanged after reauthorization [61]
+  - status: pending-implementation
+    date: '2026-04-23'
+    text: Strategic Breakthrough guidance still forthcoming as of April 2026 [61]
+  distinctive: '"Strategic Breakthrough Funding is not intended to replace the STRATFI/TACFI Program." [41]'
+  official_url: https://afwerx.com/programs/sbir-sttr/sequential-opportunities/
+  as_of: '2026-10-03'
+  sources:
+  - 41
+  - 57
+  - 61
+  - 64
+  - 66
+  - 68
+  - 69
+  - 70
+  - 71
+  conflicts:
+  - 'STRATFI amount: "$3–15 million" SBIR/STTR with "$6 – $45 million" matched investment [64] vs "$6M-$45M" [71]'
+- id: spacewerx-sbir-sttr
+  name: SpaceWERX SBIR/STTR (U.S. Space Force)
+  family: sbir-sttr
+  kind: program
+  owner: SpaceWERX, U.S. Space Force
+  agency: DoW
+  defense: true
+  what: 'SpaceWERX describes itself as the innovation arm of the U.S. Space Force, leveraging funding from the SBIR/STTR
+    Program [70]. It offers Phase I, Phase II and D2P2 awards on SBIR (26.BX) and STTR (26.TX) topics [71][70].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - A USSF customer memorandum is required for Open Topic Phase II only [71]
+  cycle:
+    pattern: '"NOW OPEN! 26.BX & 26.TX Release 6" for SBIR and STTR, D2P2 and Phase I [70].'
+    current_solicitations:
+    - id: 26.BX Release 6
+      opens: '2026-09-23'
+      closes: '2026-10-21'
+      note: Pre-release 2 SEPT 26 [71]
+    - id: 26.TX Release 6
+      opens: '2026-09-23'
+      closes: '2026-10-21'
+      note: Pre-release 2 SEPT 26 [71]
+  awards:
+  - phase: I
+    amount: $75K-$180K
+    duration: 3-12 months
+    cite:
+    - 71
+  - phase: II
+    amount: $1.25M-$1.8M
+    duration: up to 24 months
+    cite:
+    - 71
+  - phase: Direct to Phase II
+    amount: same funding and duration as Phase II
+    duration: up to 24 months
+    cite:
+    - 71
+  steps:
+  - Submit via DSIP [62]
+  - For an Open Topic Phase II, obtain a USSF customer memorandum [71]
+  portal: https://www.dodsbirsttr.mil/submissions/login
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - dsip-account
+  gates:
+  - sam-registration
+  - sbir-registration
+  - dsip-registration
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"As the innovation arm of the U.S. Space Force, we leverage funding from the SBIR/STTR Program"
+    [70]'
+  official_url: https://spacewerx.us/get-funded/
+  as_of: '2026-10-03'
+  sources:
+  - 62
+  - 64
+  - 70
+  - 71
+  conflicts:
+  - 'Amounts differ from AFWERX: Phase I "$75K-$180K" and Phase II "$1.25M-$1.8M" [71] vs "Up to $323,000" and "Up
+    to $2.1 million" [64]'
+- id: navy-sbir-sttr
+  name: Navy SBIR/STTR
+  family: sbir-sttr
+  kind: program
+  owner: Department of the Navy SBIR/STTR Program
+  agency: DoW
+  defense: true
+  what: 'The Department of the Navy SBIR/STTR Program issues conventional SBIR topics, Direct to Phase II topics,
+    STTR topics and Commercial Solutions Openings in the DoW releases [72]. In Release 3 it labelled its Phase I
+    SBIR conventional topics DON26BZ03 and a NAVAIR & NAVSEA Open Topic under a CSO DON26BX03 [74]. The Navy reports
+    that 41% of Phase I and Direct to Phase II awards went to first-time Navy awardees [78].
+
+    '
+  funds_or_buys: contracts
+  eligibility: []
+  cycle:
+    pattern: Navy took part in FY-26 Releases 1 through 6 [73][72].
+    current_solicitations:
+    - id: FY-26 Release 1 (SBIR/STTR/CSO)
+      opens: '2026-05-06'
+      closes: '2026-06-03'
+      note: Closed; pre-release 4/13/26 [73]
+    - id: FY-26 Release 2
+      opens: '2026-05-27'
+      closes: '2026-06-24'
+      note: Closed; pre-release 5/6/26; 6 conventional SBIR, 3 Direct to Phase II SBIR, 2 conventional STTR [73]
+    - id: FY-26 Release 3
+      opens: '2026-06-24'
+      closes: '2026-07-22'
+      note: Closed 12:00pm ET; pre-release 6/3/26; 12 conventional SBIR topics and 1 CSO Open Topic [73][74]
+    - id: FY-26 Release 4 (SBIR)
+      opens: '2026-07-22'
+      closes: '2026-08-19'
+      note: Closed; pre-release 7/1/26 [73]
+    - id: FY-26 Release 5
+      opens: '2026-08-26'
+      closes: '2026-09-23'
+      note: Closed; pre-release August 5, 2026; 12 Conventional SBIR topics, 7 Direct to Phase II topics, 2 STTR
+        topics and 2 CSOs [72]
+    - id: FY-26 Release 6
+      opens: '2026-09-23'
+      closes: '2026-10-21'
+      note: Open; pre-release September 2, 2026; closes 12:00 PM ET; 1 Direct to Phase II SBIR topic [72]
+  awards:
+  - phase: I (SBA tutorial, undated)
+    amount: Firm Fixed Price, $140K Base and $100K Option
+    duration: ''
+    cite:
+    - 57
+  - phase: II (SBA tutorial, undated)
+    amount: Cost Plus Fixed Fee up to $1.7M (Base + up to 2 options)
+    duration: ''
+    cite:
+    - 57
+  - phase: Total from one topic (SBA tutorial, undated)
+    amount: up to $3.64M
+    duration: ''
+    cite:
+    - 57
+  steps:
+  - 'Step 1: register with the federal government''s System for Award Management (SAM) [75]'
+  - 'Step 2: register in the Defense SBIR/STTR Innovation Portal, DSIP (www.dodsbirsttr.mil/submissions) [75]'
+  - 'Step 3: register in the SBA SBIR.gov Company Registry, which issues an SBIR/STTR ID number used when applying
+    [75]'
+  - TPOCs are available during the pre-release period [57]
+  - Instruction PDFs are served from dodsbirsttr.mil under solicitation codes DOD_SBIR_2026_P1_CBZ and DOD_SBIR_2026_P1_CBX
+    [74]
+  portal: https://www.dodsbirsttr.mil/submissions/login
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - dsip-account
+  gates:
+  - sam-registration
+  - sbir-registration
+  - dsip-registration
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: announced
+    date: '2026'
+    text: 'Strategic Breakthrough: FY27 initiative, up to $30 million SBIR matched 1:1 (potential $60 million per
+      project) [78]'
+  distinctive: '"over $11 billion to commercialize SBIR/STTR technologies" [72]'
+  official_url: https://navysbir.com/
+  as_of: '2026-10-03'
+  sources:
+  - 57
+  - 72
+  - 73
+  - 74
+  - 75
+  - 78
+  conflicts:
+  - 'Pre-release length: a one-month pre-release period in the SBA tutorial [57] vs roughly three weeks in the FY-26
+    release dates [73]'
+- id: navy-stp
+  name: Navy SBIR/STTR Transition Program (STP) and Forum for SBIR/STTR Transition (FST)
+  family: sbir-sttr
+  kind: transition
+  owner: Department of the Navy SBIR/STTR Program
+  agency: DoW
+  defense: true
+  what: 'Navy STP "supports the successful transition of Navy SBIR/STTR-funded technologies into military acquisition
+    programs, commercial markets, or both" [76]. It offers business mentoring, coaching, marketing strategy and
+    materials, and networking events [76]. A 2022 announcement shows the Forum for SBIR/STTR Transition (FST) as
+    an event organised by NAVSEA and NAVAIR in collaboration with Navy STP [77].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - All small businesses with active Navy-funded Phase II awards, during the first or second year of Phase II [76]
+  cycle:
+    pattern: 'Events listed: STP Connect Virtual Event February 1-12, 2027; WEST 2027 San Diego February 16-18,
+      2027; STP SYSCOM Technical Information Exchange, Arlington, VA, March 9-10, 2027 [76].'
+    current_solicitations: []
+  awards: []
+  steps: []
+  portal: null
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: Participants "achieve a 68 percent greater likelihood of transitioning their technology" [76]
+  official_url: https://navystp.com/
+  as_of: '2026-10-03'
+  sources:
+  - 57
+  - 76
+  - 77
+  conflicts:
+  - 'Effect claimed: "68 percent greater likelihood of transitioning" [76] vs "usually see a 20% higher Phase III
+    award rate" in the SBA tutorial [57]'
+- id: army-sbir-sttr
+  name: Army SBIR|STTR
+  family: sbir-sttr
+  kind: program
+  owner: U.S. Army, ASA(ALT)
+  agency: DoW
+  defense: true
+  what: 'The Army SBIR|STTR Program "aligns innovative small businesses with critical U.S. Army priorities" [80].
+    Its topic formats are prize-to-contract (via xTech), Open Topics, Focused/Conventional Topics and Direct to
+    Phase II Topics [81].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - Direct to Phase II is allowed where Phase I-type research was done with other funding [82]
+  cycle:
+    pattern: Army Futures Command runs three solicitation periods annually and Army STTR follows AFC; ASA(ALT) releases
+      ad hoc; topics are released through monthly Commercial Solutions Openings [81].
+    current_solicitations:
+    - id: Agentic-AI, Schema-Driven Decision Management
+      opens: ''
+      closes: '2026-10-21'
+      note: Listed as open [80]
+    - id: xTech|Search 10 Competition
+      opens: '2026-09-10'
+      closes: '2026-10-19'
+      note: White paper window [80][84]
+  awards:
+  - phase: I
+    amount: up to $300,000
+    duration: 6 months
+    cite:
+    - 81
+  - phase: I
+    amount: up to $300K
+    duration: 1-6 months
+    cite:
+    - 80
+  - phase: I
+    amount: Up to $250K
+    duration: Three to six months
+    cite:
+    - 82
+  - phase: II
+    amount: up to $2 million
+    duration: 12-18 months
+    cite:
+    - 81
+    - 80
+  - phase: II
+    amount: Up to $2 Million
+    duration: 18 to 24 months
+    cite:
+    - 82
+  - phase: Direct to Phase II
+    amount: up to $2 million
+    duration: 1-18 months
+    cite:
+    - 81
+  - phase: Strategic Breakthrough
+    amount: up to $30 million
+    duration: up to 48 months
+    cite:
+    - 81
+  - phase: I (SBA tutorial, historical)
+    amount: up to $111,500 with $56,000 option; STTR Phase I up to $166,500
+    duration: 6 months
+    cite:
+    - 57
+  - phase: II (SBA tutorial, historical)
+    amount: up to $1,100,000; Phase II Enhancement $550,000
+    duration: 2 years
+    cite:
+    - 57
+  steps:
+  - 'Portals given: sbir.army.mil/SmallBusiness/Notify and dodsbirsttr.mil/submissions/login [81]'
+  portal: https://www.dodsbirsttr.mil/submissions/login
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - dsip-account
+  gates:
+  - sam-registration
+  - sbir-registration
+  - dsip-registration
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: final
+    date: '2026-09-11'
+    text: 'News item: Strategic Breakthrough Award, $3.5M, FluxWorks, 09/11/2026 [80]'
+  distinctive: '"aligns innovative small businesses with critical U.S. Army priorities" [80]'
+  official_url: https://armysbir.army.mil/
+  as_of: '2026-10-03'
+  sources:
+  - 57
+  - 80
+  - 81
+  - 82
+  - 84
+  conflicts:
+  - 'Phase I ceiling: up to $300,000 [81][80] vs "Up to $250K" [82]'
+  - 'Phase I duration: 6 months [81] vs 1-6 months [80] vs "Three to six months" [82]'
+  - 'Phase II duration: 12-18 months [81][80] vs "18 to 24 months" [82]'
+  - 'Current figures vs the SBA tutorial: Phase I up to $300,000 [81] vs up to $111,500 with a $56,000 option [57]'
+- id: army-sbir-catalyst
+  name: Army SBIR CATALYST (Army Applied SBIR)
+  family: sbir-sttr
+  kind: transition
+  owner: ASA(ALT); executed by the Army Applied SBIR Program
+  agency: DoW
+  defense: true
+  what: 'CATALYST is an initiative led by the Office of the Assistant Secretary of the Army for Acquisition, Logistics
+    and Technology and executed by the Army Applied SBIR Program [83]. The Army describes it as "Tri-party scaling
+    with prime integrators and Army customers" [81].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - 'Prior Army SBIR/STTR awardees; 2023 rule: base award no earlier than fiscal 2020 [83]'
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards:
+  - phase: CATALYST (current How It Works page)
+    amount: up to $8 million (Army match); up to $15 million total project investment
+    duration: 36 months
+    cite:
+    - 81
+  - phase: CATALYST (2023 round)
+    amount: '2:1:1 per firm: up to $7 million SBIR, up to $3.5 million from integrators, up to $3.5 million from
+      Army transition partners'
+    duration: ''
+    cite:
+    - 83
+  - phase: CATALYST (2023 round, program total)
+    amount: $75 million across up to five small businesses in fiscal 2024
+    duration: ''
+    cite:
+    - 83
+  steps:
+  - Army transition partners submit CATALYST applications recommending SBIR projects [83]
+  portal: null
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"Tri-party scaling with prime integrators and Army customers" [81]'
+  official_url: https://armysbir.army.mil/howitworks/
+  as_of: '2026-10-03'
+  sources:
+  - 81
+  - 83
+  conflicts:
+  - 'Amounts: up to $8 million Army match and up to $15 million total project investment [81] vs up to $7 million
+    SBIR plus up to $3.5 million each from integrators and Army transition partners in the 2023 round [83]'
+- id: army-xtech
+  name: Army xTech
+  family: sbir-sttr
+  kind: front-door
+  owner: ASA(ALT), Army FUZE portfolio
+  agency: DoW
+  defense: true
+  what: 'xTech runs Army prize competitions, "connecting nontraditional innovators with the Army through prize competitions"
+    [85]. Since 2018 it reports $29 million in prizes, $285 million in follow-on contracts and 9,000 submissions
+    [85]. In xTech|Search 10, up to 20 selectees submit SBIR/STTR proposals for a Phase I of "up to $300,000" per
+    awardee [84].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - Small for-profit US business, more than 50% US citizen/permanent resident ownership, no more than 500 employees
+    [84]
+  - '"Only one (1) submission per eligible entity is permitted" [84]'
+  cycle:
+    pattern: 'xTech|Search 10: white paper Sep 10 - Oct 19, 2026 (up to 50 semifinalists); virtual pitch Jan 18-29,
+      2027 (up to 20 finalists); finals Mar 2-4, 2027 (up to 3 winners); SBIR/STTR proposals Mar 4 - Apr 30, 2027
+      (up to 20 selectees) [84].'
+    current_solicitations:
+    - id: xTech|Search 10
+      opens: '2026-09-10'
+      closes: '2026-10-19'
+      note: White paper window [84]
+  awards:
+  - phase: Semifinalist prize
+    amount: $5,000
+    duration: ''
+    cite:
+    - 84
+  - phase: Finalist prize
+    amount: $20,000
+    duration: ''
+    cite:
+    - 84
+  - phase: Winner prizes
+    amount: $200,000 / $100,000 / $50,000
+    duration: ''
+    cite:
+    - 84
+  - phase: I (Army SBIR/STTR follow-on)
+    amount: up to $300,000 per awardee
+    duration: ''
+    cite:
+    - 84
+  steps:
+  - Apply at https://usg.valideval.com/teams/xtechsearch10/signup [84]
+  portal: https://usg.valideval.com/teams/xtechsearch10/signup
+  registrations: []
+  gates: []
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"connecting nontraditional innovators with the Army through prize competitions." [85]'
+  official_url: https://xtech.army.mil/
+  as_of: '2026-10-03'
+  sources:
+  - 84
+  - 85
+  conflicts: []
+- id: darpa-sbir-sttr
+  name: DARPA SBIR/STTR
+  family: sbir-sttr
+  kind: program
+  owner: DARPA Small Business Programs Office
+  agency: DoW
+  defense: true
+  what: 'The DARPA Small Business Programs Office "enables the small business community to create and transition
+    radical, game-changing technologies" [89]. DARPA publishes multiple topic opportunities each year and "does
+    not re-release topics" [87][86].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - 'STTR: 40% small business and 30% partner institution minimums [86]'
+  - Eligibility is checked against section 6 of the SBIR/STTR Policy Directive [88]
+  cycle:
+    pattern: '"DOW pre-releases SBIR and STTR topics the first Wednesday of every month" [86].'
+    current_solicitations:
+    - id: SBIR Phase I (7 topics) and STTR Phase I (3 topics)
+      opens: '2026-09-23'
+      closes: '2026-10-21'
+      note: Pre-release Sept. 2, 2026 [87]
+  awards:
+  - phase: I
+    amount: Typical funding is $250K
+    duration: ~6 months
+    cite:
+    - 86
+  - phase: II
+    amount: Typical funding, which may include co-funding, is $1.8M
+    duration: 24-36 months
+    cite:
+    - 86
+  - phase: Phase II Enhancement
+    amount: up to $500K in matching funds (1:1)
+    duration: 12 months
+    cite:
+    - 86
+  steps:
+  - Check eligibility, find a topic, ask questions, prepare, and submit via DSIP [88]
+  - 'DSIP registration: visit the DSIP site, click Login/Register, and create a login.gov account [88]'
+  - 'Pre-release: direct communication encouraged; open period: written questions by email, published on the topic
+    page [88]'
+  - Direct to Phase II templates are provided (Volume 2 feasibility documentation; cost proposal) [87]
+  portal: https://www.dodsbirsttr.mil/submissions/login
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - dsip-account
+  gates:
+  - sam-registration
+  - sbir-registration
+  - dsip-registration
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"DARPA does not re-release topics." [86]'
+  official_url: https://www.darpa.mil/work-with-us/communities/small-business
+  as_of: '2026-10-03'
+  sources:
+  - 52
+  - 86
+  - 87
+  - 88
+  - 89
+  conflicts:
+  - 'Open-period questions: written questions by email, published on the topic page [88] vs written questions through
+    DSIP Topic Q&A [52]'
+- id: mda-sbir-sttr
+  name: MDA SBIR/STTR
+  family: sbir-sttr
+  kind: program
+  owner: Missile Defense Agency
+  agency: DoW
+  defense: true
+  what: 'The Missile Defense Agency program seeks to "pursue technologies that could spur a revolutionary leap or
+    enhancement" [90]. Phase I is a six-month award and Phase II a two-year project; the program page gives no dollar
+    amounts [90].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - '2023 instruction: Phase II proposals only from Phase I awardees [91]'
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards:
+  - phase: I
+    amount: ''
+    duration: six-month award
+    cite:
+    - 90
+  - phase: II
+    amount: ''
+    duration: two-year project
+    cite:
+    - 90
+  - phase: I (STTR 23.C instruction, August 2023)
+    amount: Phase I Base amount must not exceed $150,000
+    duration: six months
+    cite:
+    - 91
+  steps:
+  - '2023 instruction: "It is recommended that potential offerors email topic authors to schedule a time for topic
+    discussion during the pre-release period." [91]'
+  - 'Contact: sbirsttrindustry@mda.mil; (256) 955-2020 [90]'
+  portal: https://www.dodsbirsttr.mil/submissions/login
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - dsip-account
+  gates:
+  - sam-registration
+  - sbir-registration
+  - dsip-registration
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"pursue technologies that could spur a revolutionary leap or enhancement" [90]'
+  official_url: https://www.mda.mil/business/SBIR_STTR_programs.html
+  as_of: '2026-10-03'
+  sources:
+  - 90
+  - 91
+  conflicts:
+  - 'Contact address: sbirsttrindustry@mda.mil [90] vs sbirsttr@mda.mil in the 2023 instruction [91]'
+- id: ussocom-sbir-sttr
+  name: USSOCOM SBIR/STTR
+  family: sbir-sttr
+  kind: program
+  owner: USSOCOM SOF AT&L
+  agency: DoW
+  defense: true
+  what: 'USSOCOM runs its SBIR program through SOF AT&L, with all topics and proposals going through DSIP on the
+    DoD BAA schedule [92]. Its FY25 SBIR/STTR award budget was $45M, with 10 Phase I SBIRs, 46 Phase II and Sequential
+    Phase II awards and 1 Direct to Phase II [93].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - Direct to Phase II is available [92]
+  cycle:
+    pattern: Topics and proposals go through DSIP on the DoD BAA schedule [92].
+    current_solicitations:
+    - id: SBIR 26.BZ Release 6
+      opens: ''
+      closes: '2026-10-21'
+      note: Listed on the SOFWERX site with a deadline of October 21, 2026 [105]
+  awards:
+  - phase: I
+    amount: $175K (SBIR) or $210K (STTR)
+    duration: over 7 months
+    cite:
+    - 92
+  - phase: II
+    amount: $1.3M; up to two (2) Phase II awards can be made per awardee
+    duration: 12-24 months
+    cite:
+    - 92
+  - phase: I (SBA tutorial, historical)
+    amount: $150,000
+    duration: typically six months
+    cite:
+    - 58
+  - phase: II (SBA tutorial, historical)
+    amount: up to $1,000,000
+    duration: two years
+    cite:
+    - 58
+  steps:
+  - 'Contact: sbir@socom.mil [92]'
+  portal: https://www.dodsbirsttr.mil/submissions/login
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - dsip-account
+  gates:
+  - sam-registration
+  - sbir-registration
+  - dsip-registration
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"40% Phase II to Phase III Transition Rate for USSOCOM SBIR/STTR Topics – Highest in DoD" [93]'
+  official_url: https://www.socom.mil/sof-atl/pages/sbir.aspx
+  as_of: '2026-10-03'
+  sources:
+  - 58
+  - 92
+  - 93
+  - 105
+  conflicts:
+  - 'Phase I: "$175K (SBIR) or $210K (STTR) over 7 months" [92] vs $150,000, typically six months in the SBA tutorial
+    [58]'
+  - 'Phase II: "$1.3M over 12-24 months" [92] vs up to $1,000,000, two years in the SBA tutorial [58]'
+- id: dha-sbir-sttr
+  name: DHA SBIR/STTR
+  family: sbir-sttr
+  kind: program
+  owner: Defense Health Agency
+  agency: DoW
+  defense: true
+  what: 'DHA says "DHA SBIR/STTR is the nation''s largest military medical seed funder" [94]. Topics are viewed
+    on DSIP [94].
+
+    '
+  funds_or_buys: contracts
+  eligibility: []
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards:
+  - phase: I
+    amount: $300,000
+    duration: 6-month period
+    cite:
+    - 94
+  - phase: II
+    amount: up to $1.4 million
+    duration: 24-month period
+    cite:
+    - 94
+  steps:
+  - 'Contact: dha.ncr.rd.mbx.sbirsttr@health.mil [94]'
+  portal: https://www.dodsbirsttr.mil/submissions/login
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - dsip-account
+  gates:
+  - sam-registration
+  - sbir-registration
+  - dsip-registration
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"DHA SBIR/STTR is the nation''s largest military medical seed funder" [94]'
+  official_url: https://dha.mil/SBIRSTTR
+  as_of: '2026-10-03'
+  sources:
+  - 94
+  conflicts: []
+- id: diu-cso
+  name: DIU Commercial Solutions Opening
+  family: ot-cso
+  kind: front-door
+  owner: Defense Innovation Unit
+  agency: DoW
+  defense: true
+  what: 'Under the DIU Commercial Solutions Opening a company sends a short brief about its solution, may be invited
+    to a pitch session, and then submits a proposal [97][98]. Awards are prototype agreements under Other Transaction
+    authority, after which "the Government and Company may negotiate a follow-on production contract or agreement
+    without further competition" [95][98]. DIU advertises 60-90 days to prototype award [97][96].
+
+    '
+  funds_or_buys: other-transaction
+  eligibility:
+  - '"Any individual or commercial entity is eligible to respond to a DIU solicitation" [95]'
+  - Non-traditional participation to a significant extent, or a 1/3 cost share [98]
+  cycle:
+    pattern: Solicitations are posted on the DIU open-solicitations page [96].
+    current_solicitations:
+    - id: Autonomous Warfare Low Cost ISR (LC-ISR)
+      opens: ''
+      closes: '2026-10-14'
+      note: Closes 2026-10-14 23:59:59 US/Eastern [96]
+    - id: CLASS ACT counter-unmanned maritime solicitations (two)
+      opens: ''
+      closes: '2026-10-13'
+      note: Close 2026-10-13 23:59:59 US/Eastern [96]
+  awards: []
+  steps:
+  - 'Phase 1: submit a solution brief, recommended maximum five written pages in 12-point font, or fifteen briefing
+    slides [98]'
+  - 'Phase 1 factors: relevance to the area of interest; uniqueness and innovation; technical merit and feasibility
+    [98]'
+  - DIU responds within 30 days if it wants a pitch [95]
+  - 'Phase 2: pitch session; Phase 3: proposal [98]'
+  - 'Award: Other Transaction for Prototype Projects [98]'
+  portal: https://www.diu.mil/work-with-us/open-solicitations
+  registrations:
+  - sam-uei
+  gates:
+  - sam-registration
+  situations: []
+  modifiers:
+    rd: false
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: '"often awarding within 60-90 days." [96]'
+  official_url: https://www.diu.mil/work-with-us/open-solicitations
+  as_of: '2026-10-03'
+  sources:
+  - 37
+  - 95
+  - 96
+  - 97
+  - 98
+  conflicts:
+  - 'Registration wording: the CSO document still tells companies to obtain a DUNS number and register in SAM [98]
+    vs DUNS no longer used as of April 4, 2022 [37]'
+- id: diu-onramp-hubs
+  name: Defense Innovation OnRamp Hubs
+  family: partnering
+  kind: front-door
+  owner: Defense Innovation Unit; hubs run by local operators
+  agency: DoW
+  defense: true
+  what: 'The Defense Innovation OnRamp Hubs are a DIU network aimed at "creating a more accessible and streamlined
+    path for funders, founders, and talent" [99]. Hubs are listed in Arizona, Hawaii, Kansas, Kentucky, Minnesota,
+    Montana, Ohio and Washington [99]. The first five hubs (Arizona, Hawaii, Kansas, Ohio, Washington) were announced
+    on October 2, 2023 with named operating organisations [101].
+
+    '
+  funds_or_buys: null
+  eligibility: []
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards: []
+  steps:
+  - Contact info@diu.mil [99]
+  - 'Ohio hub: 1275 Kinnear Rd., Columbus, OH 43212; onramphub@diu.mil [100]'
+  portal: null
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: false
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"a gateway for Ohio-based businesses and organizations to engage with national security efforts"
+    [100]'
+  official_url: https://www.diu.mil/defense-innovation-onramp-hubs
+  as_of: '2026-10-03'
+  sources:
+  - 99
+  - 100
+  - 101
+  conflicts: []
+- id: tradewinds-solutions-marketplace
+  name: Tradewinds Solutions Marketplace
+  family: ot-cso
+  kind: front-door
+  owner: Chief Digital and Artificial Intelligence Office (CDAO) with the Applied Research Institute
+  agency: DoW
+  defense: true
+  what: 'The Tradewinds Solutions Marketplace is "a digital repository of post-competition, readily-awardable pitch
+    videos", operated by CDAO partnering with the Applied Research Institute [102][104]. It covers the AI/ML, Digital
+    and Data Analytics space [103]. June 2026 metrics show 186 participating government activities, $3.67B in awarded
+    contracts and 1,399 awardable solutions [103].
+
+    '
+  funds_or_buys: other-transaction
+  eligibility:
+  - US small and large businesses, non-traditional defense contractors, academic institutions and nonprofits, individuals,
+    and foreign entities meeting export law [104]
+  - The TSM SBIR/STTR Aisle is for "Phase III-eligible" solutions; the TSM Prototype Transition Aisle is for completed
+    prototype OTs [104]
+  cycle:
+    pattern: Videos in by 12:00 PM EST on the last day of a month enter that month's assessment; feedback comes
+      the last day of the following month [102].
+    current_solicitations: []
+  awards: []
+  steps:
+  - Register at https://cdao.appianportalsgov.com/tradewinds-user-registration [103]
+  - 'Submit a 5-minute solution pitch video: 5 minutes maximum, HD 1920x1080, MP4 under 1GB [104][102]'
+  - A favourable assessment gives "Awardable" status, visible to government users [102]
+  - 'Award authority: Other Transaction under 10 USC 4022 for prototypes; follow-on production under OT criteria
+    [104]'
+  - The official solicitation is on SAM.gov [104]
+  portal: https://cdao.appianportalsgov.com/tradewinds-user-registration
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: false
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: '"a digital repository of post-competition, readily-awardable pitch videos" [102]'
+  official_url: https://www.tradewindai.com/
+  as_of: '2026-10-03'
+  sources:
+  - 102
+  - 103
+  - 104
+  conflicts: []
+- id: sofwerx
+  name: SOFWERX
+  family: partnering
+  kind: front-door
+  owner: DEFENSEWERX 501(c)(3), in partnership with USSOCOM
+  agency: DoW
+  defense: true
+  what: '"SOFWERX serves as an innovation platform for the United States Special Operations Command as a 501(c)(3)
+    nonprofit" [105]. Its event types are Collaboration Events, Assessment Events, Prize Challenges and SBIR, alongside
+    Tech Tuesday [105].
+
+    '
+  funds_or_buys: null
+  eligibility: []
+  cycle:
+    pattern: Events are posted on the SOFWERX site and at events.sofwerx.org [105].
+    current_solicitations:
+    - id: SBIR 26.BZ Release 6
+      opens: ''
+      closes: '2026-10-21'
+      note: Deadline October 21, 2026 [105]
+    - id: PEO-FW Air-Launched Effects
+      opens: '2026-10-27'
+      closes: '2026-10-27'
+      note: Event listed for October 27, 2026; no submission deadline stated [105]
+    - id: PEO-SW Distributed Micro Sensors
+      opens: '2026-10-27'
+      closes: '2026-10-29'
+      note: Event listed for October 27-29, 2026; no submission deadline stated [105]
+    - id: PEO-M USV Poseidon's Fury
+      opens: '2026-11-02'
+      closes: '2026-11-20'
+      note: Event listed for November 2-20, 2026; no submission deadline stated [105]
+  awards: []
+  steps:
+  - 'Tech Tuesday: a virtual 30-minute slot to present to government stakeholders [105]'
+  - 'Events site: events.sofwerx.org; phone +1-813-693-5599 [105]'
+  portal: https://events.sofwerx.org
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: '"SOFWERX serves as an innovation platform for the United States Special Operations Command as a
+    501(c)(3) nonprofit" [105]'
+  official_url: https://www.sofwerx.org/
+  as_of: '2026-10-03'
+  sources:
+  - 105
+  conflicts: []
+- id: navalx-tech-bridges
+  name: NavalX and Tech Bridges
+  family: partnering
+  kind: front-door
+  owner: Department of the Navy (NavalX); ONR partnered at launch
+  agency: DoW
+  defense: true
+  what: '"NavalX was founded in 2019 to foster a culture of innovation across the Department of the Navy" [106].
+    A November 2024 overview counts 18 regional Tech Bridge teams located off-base [106]. ONR described Tech Bridges
+    at launch as "regional innovation hubs where warfare centers, government, academia and industry can team up",
+    with the first five at Newport, Keyport, San Diego, Orlando and Crane [107].
+
+    '
+  funds_or_buys: null
+  eligibility: []
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards: []
+  steps:
+  - Join via usnavalx.com [106]
+  portal: null
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: false
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"regional innovation hubs where warfare centers, government, academia and industry can team up"
+    [107]'
+  official_url: https://navalx.nre.navy.mil/
+  as_of: '2026-10-03'
+  sources:
+  - 106
+  - 107
+  conflicts: []
+- id: apfit
+  name: APFIT (Accelerate the Procurement and Fielding of Innovative Technologies)
+  family: null
+  kind: transition
+  owner: OUSW(R&E)
+  agency: DoW
+  defense: true
+  what: 'APFIT exists "to provide procurement funding for innovative projects that have completed development and
+    are ready to transition into operational use" [108]. It started in Fiscal Year 2022, provides $10M-$50M per
+    project, and reports over $1.4 billion to 75+ companies in FY 2022-2025 [108]. Only US government organisations
+    (Services, Combatant Commands, Agencies, National Guard) submit on behalf of companies [109]. Its authority
+    is FY25 NDAA Section 861 [109].
+
+    '
+  funds_or_buys: procurement
+  eligibility:
+  - Vendor must be a small business (15 U.S.C. § 632), a nontraditional defense contractor (10 U.S.C. § 3014), or
+    not have performed on contracts exceeding $400,000,000 in the prior year [109]
+  - RDT&E complete; endorsed by an APFIT-designated submitting organisation; no TRL 1-6 projects [108]
+  cycle:
+    pattern: Call in late spring/early summer, final selection in winter [109]. FY 2026-1 drew 76 viable proposals
+      totaling $2.36 billion; in FY 2025, 18 of 60 proposals were selected [108].
+    current_solicitations: []
+  awards:
+  - phase: Procurement
+    amount: $10M–$50M per project
+    duration: ''
+    cite:
+    - 108
+    - 109
+  steps:
+  - A company cannot apply itself; a US government organisation submits on its behalf [109]
+  - APFIT sends funds to the sponsor's contracting office and "does not place requirements on the type of acquisition
+    agreement." [109]
+  - 'Contact: osd.apfit@mail.mil [108]'
+  portal: null
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: false
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: '"to provide procurement funding for innovative projects that have completed development and are
+    ready to transition into operational use." [108]'
+  official_url: https://ac.cto.mil/apfit/
+  as_of: '2026-10-03'
+  sources:
+  - 108
+  - 109
+  conflicts: []
+- id: dow-art
+  name: ART (Accelerated Research for Transition)
+  family: sbir-sttr
+  kind: transition
+  owner: DoW Office for Small Business Innovation
+  agency: DoW
+  defense: true
+  what: 'ART provides 1:1 matching of DoW Agency or Component funding for SBIR/STTR Phase II projects; prime-contractor
+    funding is not matched [55]. It requires a strong demand signal from a sponsoring program, and the sponsor signs
+    a Technology Transition Agreement committing to transition [55]. The program was introduced in the Department
+    release dated April 20, 2026 [39][60].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - The project is an SBIR/STTR Phase II with a strong demand signal from a sponsoring program [55]
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards: []
+  steps:
+  - The demand signal is worked through technical points of contact [55]
+  portal: null
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: announced
+    date: '2026-04-20'
+    text: Program announced; award sizes, dates and application steps were not on the ART page as read [55][60]
+  distinctive: '"A technology pull program, not a ''build it and they will come'' strategy." [55]'
+  official_url: https://www.defensesbirsttr.mil/ART/
+  as_of: '2026-10-03'
+  sources:
+  - 39
+  - 55
+  - 60
+  conflicts: []
+- id: dow-mentor-protege
+  name: DoW Mentor-Protégé Program
+  family: partnering
+  kind: program
+  owner: DoW Office of Small Business Programs
+  agency: DoW
+  defense: true
+  what: 'The program describes itself as "The oldest continuously operating federal mentor-protégé program in existence"
+    [111]. More than 190 small businesses participated over the past five years [111].
+
+    '
+  funds_or_buys: null
+  eligibility: []
+  cycle:
+    pattern: Army keeps a Mentor-Protégé BAA open for applications through the fiscal year [113].
+    current_solicitations: []
+  awards: []
+  steps:
+  - 'Contact: dodmpp@osd.mil; 571-372-6191 [111]'
+  portal: null
+  registrations: []
+  gates: []
+  situations: []
+  modifiers:
+    rd: false
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"The oldest continuously operating federal mentor-protégé program in existence" [111]'
+  official_url: https://business.defense.gov/Programs/Mentor-Protege-Program/
+  as_of: '2026-10-03'
+  sources:
+  - 111
+  - 113
+  conflicts: []
+- id: nih-sbir-sttr-grants
+  name: NIH SBIR/STTR grants
+  family: sbir-sttr
+  kind: program
+  owner: National Institutes of Health (HHS), SEED Office
+  agency: HHS
+  defense: false
+  what: 'NIH funds small-business R&D through SBIR (R43/R44) and STTR (R41/R42) grants [322] [324]. The parent announcements
+    are investigator-initiated and take projects that fit a participating institute or center [322]. NIH describes
+    the program as over $1.4 billion a year, funded by 24 NIH Institutes and Centers along with CDC, FDA, ACL and
+    ARPA-H [318].
+
+    '
+  funds_or_buys: grants
+  eligibility:
+  - More than 50% owned and controlled by U.S. citizens or permanent residents; not more than 500 employees including
+    affiliates [332]
+  - The research or R&D project must be performed in its entirety in the United States [332]
+  - Firms with 20 or more Phase I awards in the past 5 years must meet a transition-rate benchmark of 0.25 [332]
+  - Firms majority-owned by venture capital, hedge fund or private-equity firms are ineligible for STTR [332]
+  - VC-majority-owned firms may compete for up to 25% of NIH set-asides [333]
+  - 'SBIR: the small business may outsource up to 33% (Phase I) and 50% (Phase II). STTR: minimum 40% small business
+    and 30% research partner [320]'
+  - The STTR parent is NIH only and requires a research-institution partner [324]
+  - HHS accepts a maximum of nine new and resubmission Phase I, Fast-track and Direct to Phase II applications per
+    small business per fiscal year, for due dates on or after April 13, 2026 [330]
+  cycle:
+    pattern: 'Three standard due dates a year: September 5, January 5 and April 5, moved to the next business day
+      when they fall on a weekend or federal holiday [319]. The SBIR parent accepts Phase I, Phase II, Direct to
+      Phase II (NIH only) and Fast-Track (NIH only) applications [322]. The parent is listed on Grants.gov [323].
+      No targeted announcements were listed on 2026-10-03, only the four parents [319]. NIH expired all active SBIR/STTR
+      announcements on November 17, 2025 after authority lapsed on October 1, 2025 [326]. PA-27-100 is a reissue
+      of PA-24-245 and PA-24-246 [322].'
+    current_solicitations:
+    - id: PA-27-100
+      opens: '2026-08-05'
+      closes: '2027-04-05'
+      note: NIH, CDC and FDA SBIR parent (R43/R44). Posted May 28, 2026; due September 05, 2026, January 05, 2027
+        and April 05, 2027; expires April 06, 2027 [322]
+    - id: PA-27-102
+      opens: '2026-08-05'
+      closes: '2027-04-05'
+      note: NIH STTR parent (R41/R42). Posted May 28, 2026; due September 05, 2026, January 05, 2027 and April 05,
+        2027; expires April 06, 2027 [324]
+    - id: PA-27-101
+      opens: '2026-08-05'
+      closes: '2029-04-05'
+      note: NIH SBIR Phase IIB Strategic Breakthrough Award (R44). Due dates September 5, 2026 through April 5,
+        2029; expires April 06, 2029 [325]
+    - id: PAR-27-098
+      opens: ''
+      closes: ''
+      note: SBIR/STTR Commercialization Readiness Pilot (SB1). Released 05/28/2026, expires 04/06/2029; announcement
+        text not fetched [319]
+  awards:
+  - phase: I
+    amount: $323,090
+    duration: 6 months to 2 years on NIH's basics page; the parent announcements say normally not over 6 months
+      (SBIR) or 1 year (STTR)
+    cite:
+    - 320
+    - 322
+    - 324
+  - phase: II
+    amount: $2,153,927
+    duration: 1 to 3 years on NIH's basics page; the parent announcements say normally not over 2 years
+    cite:
+    - 320
+    - 322
+    - 324
+  - phase: I (component budget tables)
+    amount: SBA guideline to $700,000 (SBIR parent); $400,000.00 to $700,000.00 (STTR parent)
+    duration: ''
+    cite:
+    - 322
+    - 324
+  - phase: II (component budget tables)
+    amount: SBA guideline to $3,000,000
+    duration: ''
+    cite:
+    - 322
+    - 324
+  - phase: IIB Strategic Breakthrough
+    amount: Maximum total $30,000,000.00; component limits vary (NCI $15,000,000.00; most others $3,000,000.00)
+    duration: must not exceed 4 years
+    cite:
+    - 325
+  - phase: Commercialization Readiness Pilot
+    amount: $4,191,495
+    duration: up to 3 years
+    cite:
+    - 320
+  - phase: TABA
+    amount: up to $6,500 per Phase I project; up to $50,000 per Phase II project (across all years)
+    duration: ''
+    cite:
+    - 329
+  steps:
+  - Register the company in SAM (annual renewal), the SBA Company Registry, eRA Commons and Grants.gov; STTR also
+    needs ORCID for all PD/PIs [322] [324]
+  - Start early; NIH says registration can take 6 weeks or more [322]
+  - Talk the idea through with NIH staff, a step NIH lists before applying [331]
+  - Submit through NIH ASSIST, an institutional system-to-system service, or Grants.gov Workspace [322]
+  - Follow application status in eRA Commons [331]
+  - Meet the due date; late SBIR or STTR applications are not accepted [327]
+  portal: ''
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - era-commons
+  - grants-gov
+  - orcid-sttr-only
+  gates:
+  - sam-registration
+  - sbir-registration
+  - era-commons-assist
+  - grants-gov
+  - foreign-disclosure-security-review
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: final
+    date: '2026-07-10'
+    text: 'HHS annual limit required by the 2026 Act is in force: a maximum of nine new and resubmission Phase I,
+      Fast-track and Direct to Phase II applications per fiscal year, for due dates on or after April 13, 2026;
+      it replaces the rescinded NOT-OD-26-073 [330]'
+  - status: final
+    date: '2026-04-20'
+    text: 'Foreign disclosure and risk management policy for all HHS SBIR/STTR applications and active awards: annual
+      disclosure updates with progress reports and updates within 30 days of any change in ownership, entity structure
+      or covered individual [328]'
+  - status: final
+    date: '2026-04-20'
+    text: 'TABA limits for awards made on or after April 13, 2026: up to $6,500 per Phase I project and up to $50,000
+      per Phase II project; not available to Commercialization Readiness Pilot recipients [329]'
+  - status: final
+    date: '2026-05-28'
+    text: Strategic Breakthrough award implemented as PA-27-101, a Phase IIB for previous NIH SBIR or STTR Phase
+      II recipients, with a 100% match [325]
+  distinctive: NIH calls the program "the largest source of early-stage capital for the life sciences in the U.S."
+    [318]
+  official_url: https://seed.nih.gov/small-business-funding
+  as_of: '2026-10-03'
+  sources:
+  - 303
+  - 314
+  - 318
+  - 319
+  - 320
+  - 322
+  - 323
+  - 324
+  - 325
+  - 326
+  - 327
+  - 328
+  - 329
+  - 330
+  - 331
+  - 332
+  - 333
+  conflicts:
+  - 'Phase I duration: "6 months to 2 years" on the basics page [320] vs normally not over 6 months in the SBIR
+    parent [322] and 1 year in the STTR parent [324]'
+  - 'Budgets: $323,090 / $2,153,927 guideline [320] vs component tables up to $700,000 / $3,000,000 [322]'
+  - 'Reauthorization date: NIH Nexus says April 14 [327] vs April 13, 2026 in the NIH TABA notice [329] and SBA''s
+    release [314]'
+  - SBA's agency card gives HHS Phase I $275,000+ and Phase II $1.83 Million [303] vs $323,090 and $2,153,927 on
+    NIH's page [320]
+- id: nih-sbir-contracts
+  name: NIH/HHS SBIR contracts
+  family: sbir-sttr
+  kind: program
+  owner: National Institutes of Health (HHS)
+  agency: HHS
+  defense: false
+  what: 'NIH also funds SBIR through contracts; it states "The NIH STTR program does not currently utilize the contract
+    mechanism." [321]. Contract solicitations are posted on SAM.gov and proposals must go through the electronic
+    Contract Proposal Submission (eCPS) system [321].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - The HHS limit of nine per fiscal year is an application/proposal limit that applies to all HHS components with
+    SBIR and STTR programs [330]
+  cycle:
+    pattern: The last omnibus contract solicitation shown is HHS SBIR Contracts PHS-2025-1, closed October 18, 2024
+      [321]. The ARPA-H SBIR/STTR program solicitation closed July 26, 2024 [321].
+    current_solicitations:
+    - id: NCI SBIR Innovative Concept Award Program
+      opens: ''
+      closes: '2026-09-21'
+      note: Offers due September 21, 2026 5:00PM EDT; an FY 2026 round with offers due October 17, 2025 is also
+        listed [321]
+  awards: []
+  steps:
+  - Find the contract solicitation on SAM.gov [321]
+  - Submit the proposal through eCPS [321]
+  portal: https://ecps.nih.gov/
+  registrations: []
+  gates:
+  - agency-submission-portals
+  - proposal-cap
+  - foreign-disclosure-security-review
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: final
+    date: '2026-07-10'
+    text: HHS annual application/proposal limit required by the 2026 Act applies to all HHS components with SBIR
+      and STTR programs, for due dates on or after April 13, 2026 [330]
+  distinctive: ''
+  official_url: https://seed.nih.gov/small-business-funding/find-funding/sbir-contracts
+  as_of: '2026-10-03'
+  sources:
+  - 321
+  - 330
+  conflicts: []
+- id: cdc-sbir
+  name: CDC SBIR (through the NIH parent announcement)
+  family: sbir-sttr
+  kind: program
+  owner: Centers for Disease Control and Prevention (HHS)
+  agency: HHS
+  defense: false
+  what: 'CDC funds SBIR grants through the NIH parent announcement PA-27-100, which lists 9 CDC components [322]
+    [334]. CDC is not a participating organization in the STTR parent [324]. CDC sets aside 3.2% of extramural research
+    budgets for SBIR [334].
+
+    '
+  funds_or_buys: grants
+  eligibility:
+  - Fast-Track and Direct to Phase II are NIH only in PA-27-100 [322]
+  - VC-majority-owned firms may compete for up to 15% of CDC set-asides [333]
+  - The HHS limit of nine applications per small business per fiscal year applies to all HHS components [330]
+  cycle:
+    pattern: CDC uses the NIH SBIR parent announcement and its due dates [322]. CDC says "Future NOFOs are forecasted
+      on Grants.gov prior to opening for applications." [334]
+    current_solicitations:
+    - id: PA-27-100
+      opens: '2026-08-05'
+      closes: '2027-04-05'
+      note: NIH, CDC and FDA SBIR parent; due September 05, 2026, January 05, 2027 and April 05, 2027 [322]
+  awards:
+  - phase: I
+    amount: up to $323,090
+    duration: typically 6 months to 2 years
+    cite:
+    - 334
+  - phase: II
+    amount: up to $2,153,927
+    duration: up to 2 years
+    cite:
+    - 334
+  - phase: III
+    amount: not funded by CDC SBIR
+    duration: ''
+    cite:
+    - 334
+  - phase: I and II (specific topics)
+    amount: NIH and CDC may exceed the guideline total award amounts for specific topics
+    duration: ''
+    cite:
+    - 322
+  steps:
+  - Register in SAM, the SBA Company Registry, eRA Commons and Grants.gov [322]
+  - Submit through NIH ASSIST, an institutional system-to-system service, or Grants.gov Workspace [322]
+  portal: ''
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - era-commons
+  - grants-gov
+  gates:
+  - sam-registration
+  - sbir-registration
+  - era-commons-assist
+  - grants-gov
+  - foreign-disclosure-security-review
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: final
+    date: '2026-07-10'
+    text: HHS annual application/proposal limit required by the 2026 Act applies to all HHS components with SBIR
+      and STTR programs [330]
+  - status: final
+    date: '2026-04-20'
+    text: HHS foreign disclosure and risk management policy covers all HHS SBIR/STTR applications and active awards
+      [328]
+  distinctive: ''
+  official_url: https://www.cdc.gov/technology-and-innovation/php/small-business-innovation-research/index.html
+  as_of: '2026-10-03'
+  sources:
+  - 322
+  - 324
+  - 328
+  - 330
+  - 333
+  - 334
+  conflicts: []
+- id: fda-sbir
+  name: FDA SBIR (through the NIH parent announcement)
+  family: sbir-sttr
+  kind: program
+  owner: Food and Drug Administration (HHS)
+  agency: HHS
+  defense: false
+  what: 'FDA takes part in SBIR grants through the NIH parent announcement PA-27-100, which lists 5 FDA centers
+    [322]. FDA is not a participating organization in the STTR parent [324]. The only FDA page found describes the
+    Center for Devices and Radiological Health (CDRH) SBIR grant program, whose interest areas appear in the parent
+    solicitation [335].
+
+    '
+  funds_or_buys: grants
+  eligibility:
+  - Fast-Track and Direct to Phase II are NIH only in PA-27-100 [322]
+  - The HHS limit of nine applications per small business per fiscal year applies to all HHS components [330]
+  cycle:
+    pattern: FDA uses the NIH SBIR parent announcement and its due dates [322]. FDA says "Each year, CDRH's interest
+      areas are announced in the SBIR Omnibus/Parent Grant Solicitation." [335]
+    current_solicitations:
+    - id: PA-27-100
+      opens: '2026-08-05'
+      closes: '2027-04-05'
+      note: NIH, CDC and FDA SBIR parent; due September 05, 2026, January 05, 2027 and April 05, 2027 [322]
+  awards: []
+  steps:
+  - Register in SAM, the SBA Company Registry, eRA Commons and Grants.gov [322]
+  - Submit through NIH ASSIST, an institutional system-to-system service, or Grants.gov Workspace [322]
+  portal: ''
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - era-commons
+  - grants-gov
+  gates:
+  - sam-registration
+  - sbir-registration
+  - era-commons-assist
+  - grants-gov
+  - foreign-disclosure-security-review
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: final
+    date: '2026-07-10'
+    text: HHS annual application/proposal limit required by the 2026 Act applies to all HHS components with SBIR
+      and STTR programs [330]
+  distinctive: CDRH works with NIH to help awardees with regulatory questions [335]
+  official_url: https://www.fda.gov/about-fda/cdrh-innovation/activities-support-medical-device-innovators
+  as_of: '2026-10-03'
+  sources:
+  - 322
+  - 324
+  - 330
+  - 335
+  conflicts:
+  - The FDA page still points to sbir.nih.gov/funding#omni- for the topics document [335] while the current parent
+    text was read from a Grants.gov-hosted copy [322]
+- id: nsf-sbir-sttr
+  name: America's Seed Fund powered by NSF (SBIR/STTR)
+  family: sbir-sttr
+  kind: program
+  owner: National Science Foundation
+  agency: NSF
+  defense: false
+  what: 'NSF funds SBIR and STTR projects across nearly all technology areas and market sectors and does not solicit
+    specific technologies [337]. Phase I is a standard grant; Phase II and Fast-Track are fixed amount cooperative
+    agreements [337]. A Project Pitch is required for Phase I [338]. A parallel pilot solicitation, NSF 26-511,
+    covers scientific instrumentation with the same deadlines and award terms [339].
+
+    '
+  funds_or_buys: grants
+  eligibility:
+  - Fewer than 500 employees; at least 50% of equity owned by U.S. citizens or permanent residents; all funded work
+    in the United States [341]
+  - PI legally employed at least 20 hours a week; at least one month (173 hours) per six months [341]
+  - Project Pitch required for Phase I; at most two pitches per company per 12 months and no more than 3 for the
+    same project or technology [338]
+  - Each small business can only submit one Project Pitch at a time [342]
+  - 'Limit on proposals per organization: 1; one PI per proposal at a time [338]'
+  - STTR requires a subaward to a not-for-profit research institution, with 1 PI and 1 co-PI [338]
+  - Only NSF Phase I SBIR/STTR awardees are permitted to submit a Phase II proposal [343]
+  cycle:
+    pattern: Deadlines are July 27, 2026, November 4, 2026, March 4, 2027 and July 7, 2027, then the first Wednesday
+      in November, first Thursday in March and first Wednesday in July annually, at 5pm submitter's local time [338]
+      [337]. A Project Pitch can be submitted at any time, with a reply in about 1-2 months [341]. Invitations are
+      valid for the next two submission deadlines [338]. NSF says firms are notified about funding about 6 months
+      after they submit [341]. Solicitations NSF 24-579, 24-580 and 24-582 are archived [340].
+    current_solicitations:
+    - id: NSF 26-510
+      opens: '2026-05-21'
+      closes: '2026-11-04'
+      note: Posted May 21, 2026; closes is the next deadline, recurring thereafter; anticipated funding $210,000,000
+        [338]
+    - id: NSF 26-511
+      opens: '2026-05-22'
+      closes: '2026-11-04'
+      note: Pilot emphasis on scientific instrumentation. Posted May 22, 2026; same deadlines; up to $40,000,000
+        total anticipated budget [339]
+  awards:
+  - phase: I
+    amount: up to $305,000
+    duration: 6-18 months
+    cite:
+    - 338
+  - phase: II
+    amount: up to $1,250,000
+    duration: typically 24 months
+    cite:
+    - 338
+  - phase: Fast-Track
+    amount: up to $1,555,000 (Phase I component $400,000 plus up to $1,155,000 Phase II)
+    duration: Phase I component 6 to 12 months plus a further 18 to 24 months
+    cite:
+    - 337
+    - 338
+  - phase: Phase IIB supplement
+    amount: $50,000 to $500,000
+    duration: ''
+    cite:
+    - 338
+  - phase: TECP supplement
+    amount: up to 20% of the Phase II award
+    duration: ''
+    cite:
+    - 338
+  steps:
+  - 'Submit a Project Pitch with four sections: Technology Innovation, Technical Objectives and Challenges, Market
+    Opportunity, Company and Team [342]'
+  - Wait for an official invitation from an NSF SBIR/STTR program officer [338] [344]
+  - Register for a Unique Entity ID (SAM.gov), in Research.gov and in the SBA Company Registry [343]
+  - In Research.gov choose NSF 26-510 or NSF 26-511, then the program and phase [345]
+  - Submit the full proposal through Research.gov with a copy of the email invitation from an NSF SBIR/STTR program
+    officer [344]
+  - Keep the Project Description to 15 pages for Phase I and Phase II, 16 pages for Fast-Track [344]
+  portal: ''
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - research-gov
+  gates:
+  - sam-registration
+  - sbir-registration
+  - research-gov
+  - nsf-project-pitch
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: From fiscal year 2027 each agency must set a per-firm limit on Phase I and Phase II proposals (sec. 4
+      of the Act) [417]; NSF's existing rule is 1 proposal per organization, not confirmed as its limit under the
+      Act [338]
+  - status: announced
+    date: '2026-11-04'
+    text: 'Transition rule: firms with Project Pitch invitations issued on or after July 3, 2025 that have not yet
+      submitted have until November 4, 2026; the same deadline applies to Phase II for awardees with Phase I start
+      dates on or after November 6, 2023 [340]'
+  distinctive: 'NSF''s own framing: "We invest up to $2 million in seed funding. And take zero equity." [336]'
+  official_url: https://seedfund.nsf.gov/
+  as_of: '2026-10-03'
+  sources:
+  - 303
+  - 336
+  - 337
+  - 338
+  - 339
+  - 340
+  - 341
+  - 342
+  - 343
+  - 344
+  - 345
+  - 417
+  conflicts:
+  - 'Fast-Track total: $1,555,000 on the opportunity page [337] vs $1,555,555 in one extraction of the solicitation
+    text [338]'
+  - SBA's agency card gives NSF Phase I $300,000 [303] vs up to $305,000 in the solicitation [338]
+- id: doe-sbir-sttr
+  name: DOE SBIR/STTR (Office of Technology Commercialization)
+  family: sbir-sttr
+  kind: program
+  owner: U.S. Department of Energy, Office of Technology Commercialization
+  agency: DOE
+  defense: false
+  what: 'DOE''s SBIR and STTR programs are now managed by the DOE Office of Technology Commercialization rather
+    than the Office of Science [347]. Applications are pitch-first: only successful pitches are invited to submit
+    a full application [351]. The FY26 Phase I was limited to four Genesis Mission topic areas [349]. The application
+    hub is administered by DOE in collaboration with ATI and powered by ConnectWerx, a partnership intermediary
+    [350].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - Each small business can enter up to three pitches [356]
+  - A full application cannot be submitted without an invitation [356]
+  - DOE does not offer applicants a direct to Phase II opportunity [353]
+  - 'The FY25 Phase II round was open only to named prior cohorts: FY 2024 Phase I Release 2 awardees (DE-FOA-0003202);
+    FY 2022 Phase II Release 2 (DE-FOA-0002572) for Phase II.2; FY 2023 Phase II Release 2 (DE-FOA-0002991) for
+    Phase II.2 or IIC; FY 2025 Phase I and Phase II Release 1 awardees were not eligible [352]'
+  - Matching funds are required for a third Phase II award [353]
+  cycle:
+    pattern: DOE "expects to release SBIR/STTR Phase I Opportunities on an annual basis" [353]. Opportunities are
+      listed on the DOE SBIR/STTR Application Hub and announced on energy.gov [354] [348]. On 2026-10-03 nothing
+      was active or upcoming on the hub and no fall 2026 Phase I was listed [354]. All Office of Science SBIR/STTR
+      funding opportunities are closed [347].
+    current_solicitations:
+    - id: 'FY26 Phase I: Genesis Mission'
+      opens: '2026-07-22'
+      closes: '2026-09-10'
+      note: Closed. Announced July 22, 2026; pitches due September 10, 2026 at 2:00 PM ET; about 40 awards totaling
+        $10M [351] [349]
+    - id: FY25 Phase II
+      opens: ''
+      closes: '2026-10-02'
+      note: Closed. Deadline October 2, 2026 at 12 PM ET; up to $147,394,250 total; named prior cohorts only [352]
+    - id: DE-FOA-0003537
+      opens: ''
+      closes: ''
+      note: 'ARPA-E HAEJO SBIR/STTR on ARPA-E''s own funding exchange: concept paper deadline 2/13/2025; full application
+        deadline TBD [357]'
+    - id: DE-FOA-0003555
+      opens: ''
+      closes: ''
+      note: 'ARPA-E GRADIENTS SBIR/STTR on ARPA-E''s own funding exchange: concept paper deadline 2/14/2025; full
+        application deadline TBD [357]'
+  awards:
+  - phase: I
+    amount: up to $250,000 ($256,500 if the proposal includes a request for TABA)
+    duration: 6-12 months
+    cite:
+    - 353
+    - 351
+  - phase: II
+    amount: up to $2,000,000 ($2,050,000 if the proposal includes a request for TABA)
+    duration: 1-2 years
+    cite:
+    - 353
+    - 352
+  - phase: II.2
+    amount: sequential Phase II awards; amount not stated
+    duration: ''
+    cite:
+    - 353
+  - phase: Strategic Breakthrough Award
+    amount: up to $30,000,000
+    duration: up to 4 years
+    cite:
+    - 353
+  steps:
+  - 'Complete three registrations before applying: SAM (provides the UEI; "Up to 8 weeks (pending capacity)"), the
+    SBA Company Registry, and the DOE SBIR/STTR Application Hub [355]'
+  - Register and log in through https://register.ati.org/ and https://identity.ati.org/ [353]
+  - Submit a pitch for an open opportunity; only successful pitches are invited to a full application [351]
+  - 'If invited, submit through the Acquisition Management Portal: log in, "Respond" to the open solicitation, upload,
+    submit [350]'
+  portal: https://sbir-sttr.connectwerx.org/
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - doe-application-hub
+  gates:
+  - sam-registration
+  - sbir-registration
+  - agency-submission-portals
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: announced
+    date: '2026-07-22'
+    text: DOE said "An additional Phase I opportunity will open for applications in fall 2026." [349]; no such opportunity
+      was listed on the hub on 2026-10-03 [354]
+  - status: announced
+    date: 2026-08
+    text: DOE's hub lists a Strategic Breakthrough Award of up to $30,000,000 for up to 4 years, after Phase II/II.2
+      in its pathway; no opportunity for it was listed [353] [350] [354]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: From fiscal year 2027 each agency must set a per-firm limit on Phase I and Phase II proposals (sec. 4
+      of the Act) [417]; DOE's current rule is up to three pitches per small business, not confirmed as its limit
+      under the Act [356]
+  distinctive: The hub presents one pathway, "Apply → Phase I → Phase II/II.2 → Strategic Breakthrough Award → Phase
+    III", with go/no-go points between phases [350]
+  official_url: https://www.energy.gov/technologycommercialization/doe-small-business-innovation-research-sbir-and-small-business
+  as_of: '2026-10-03'
+  sources:
+  - 303
+  - 306
+  - 346
+  - 347
+  - 348
+  - 349
+  - 350
+  - 351
+  - 352
+  - 353
+  - 354
+  - 355
+  - 356
+  - 357
+  - 412
+  - 417
+  conflicts:
+  - 'Award instrument (funds_or_buys left empty): "funding agreement with DOE and ConnectWerx" [352] and "Agreements"
+    on SBA''s card [303] vs grants only in SBA''s older tutorial [306]'
+  - 'Phase II deadline: October 2, 2026 on the DOE hub [352] vs September 25, 2026 in a secondary write-up [412]'
+  - 'Timing of the further Phase I: sweep C records "later this summer" on a hub page it does not identify, vs "fall
+    2026" in the press release [349]'
+- id: nasa-sbir-sttr
+  name: NASA SBIR/STTR
+  family: sbir-sttr
+  kind: program
+  owner: National Aeronautics and Space Administration
+  agency: NASA
+  defense: false
+  what: 'NASA runs SBIR and STTR with contract funding [303]. From program year 2026 it moved from its traditional
+    solicitation cycle to a Broad Agency Announcement, with subtopics released in appendices through the year [358]
+    [359]. Proposal packages are submitted in ProSAMS [360]. SBIR Ignite is a commercialization-first track with
+    less prescriptive topics for firms new to NASA [364].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - NASA will not accept more than two proposal packages from any one offeror for an appendix funding opportunity
+    [360] [361]
+  - Proposal limits reset for each appendix [359]
+  - Only small businesses that were awarded a Phase I are eligible to apply for Phase II [363]
+  - STTR requires a research-institution partner [361]
+  - Phase II Sequential eligibility includes a NASA SBIR Phase II award in the last 10 years [365]
+  - SBIR Ignite is for "high-growth, product-oriented entrepreneurs, startups, and small businesses that have not
+    worked with NASA before." [364]
+  cycle:
+    pattern: The BAA framework (80NSSC26R0003) was released April 17, 2026 and is valid until Sept. 30, 2027 [359]
+      [360]. The first appendices were released April 21, 2026 and were due May 21, 2026 at 5:00 PM ET [359] [362].
+      Further appendices are to be "announced at a later date" [359]. Appendix texts are posted on SAM.gov [362].
+    current_solicitations:
+    - id: 80NSSC26R0003 Appendix 26B SBIR Phase I
+      opens: '2026-04-21'
+      closes: '2026-05-21'
+      note: Closed. 14 topics and 37 total subtopics; ProSAMS solicitation type "SBIR 2026B-I" [360]
+    - id: 80NSSC26R0003 Appendix 26B STTR Phase I
+      opens: '2026-04-21'
+      closes: '2026-05-21'
+      note: Closed. 8 topics and 11 total subtopics [361]
+    - id: Appendix 2026A SBIR Phase I
+      opens: '2026-04-21'
+      closes: '2026-05-21'
+      note: Closed. Listed in NASA's alert and information hub; the appendix text was not fetched [362] [359]
+    - id: SBIR Ignite Phase II
+      opens: ''
+      closes: '2026-10-15'
+      note: Open on 2026-10-03 [358]
+    - id: STTR Phase II
+      opens: ''
+      closes: '2026-10-28'
+      note: Open on 2026-10-03 [358]
+    - id: Phase II-E, CCRPP and Phase II Sequential
+      opens: ''
+      closes: ''
+      note: Submissions closed 8/11/26, 8/19/26 and 9/11/26 respectively [358]
+  awards:
+  - phase: I (SBIR)
+    amount: does not exceed $225,000
+    duration: does not exceed six (6) months
+    cite:
+    - 360
+  - phase: I (STTR)
+    amount: does not exceed $225,000
+    duration: up to thirteen (13) months
+    cite:
+    - 361
+  - phase: II
+    amount: Up to $1,275,000
+    duration: 24 months for SBIR and STTR
+    cite:
+    - 363
+  - phase: II Sequential
+    amount: $2.5 – $4 Million
+    duration: 24 months
+    cite:
+    - 365
+  - phase: SBIR Ignite
+    amount: Phase I up to $225,000; Phase II up to $1,275,000
+    duration: Phase II over 24 months
+    cite:
+    - 364
+  - phase: TABA
+    amount: request does not exceed $6,500 in Phase I; up to $50,000 in Phase II
+    duration: ''
+    cite:
+    - 360
+    - 363
+  steps:
+  - Find the open appendix; subtopics and due dates are set appendix by appendix [359]
+  - Send technical questions before the appendix question deadline; during an open appendix "NASA cannot provide
+    guidance on proposal preparation or feedback on proposal ideas" [368]
+  - Submit the proposal package in ProSAMS at https://prosams.nasa.gov/ [366] [360]
+  - Phase II Sequential runs as a white paper followed by an invited proposal [365]
+  - Help desk by email at agency-sbir@mail.nasa.gov [367]
+  portal: https://prosams.nasa.gov/
+  registrations:
+  - prosams
+  gates:
+  - nasa-prosams
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: announced
+    date: '2026-04-17'
+    text: Further BAA appendices are to be "announced at a later date"; the BAA is valid until Sept. 30, 2027 [359]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: From fiscal year 2027 each agency must set a per-firm limit on Phase I and Phase II proposals (sec. 4
+      of the Act) [417]; NASA's appendices already cap each offeror at two proposal packages, not confirmed as its
+      limit under the Act [360]
+  distinctive: NASA says the BAA makes the program "more flexible and responsive", with "Multiple appendices throughout
+    the year" [359]
+  official_url: https://www.nasa.gov/sbir_sttr/
+  as_of: '2026-10-03'
+  sources:
+  - 303
+  - 358
+  - 359
+  - 360
+  - 361
+  - 362
+  - 363
+  - 364
+  - 365
+  - 366
+  - 367
+  - 368
+  - 417
+  conflicts:
+  - SBA's agency card gives NASA Phase I $150,000 and Phase II $1 Million [303] vs $225,000 [360] and up to $1,275,000
+    [363]
+- id: usda-nifa-sbir-sttr
+  name: USDA NIFA SBIR/STTR
+  family: sbir-sttr
+  kind: program
+  owner: USDA National Institute of Food and Agriculture
+  agency: USDA
+  defense: false
+  what: 'USDA NIFA awards SBIR and STTR grants for investigator-initiated ideas within ten standing topic areas
+    [369] [371]. Each topic area has a separate peer review panel [378]. USDA states the programs "do not make loans
+    and do not award grants for the purpose of helping a business get established." [369]
+
+    '
+  funds_or_buys: grants
+  eligibility:
+  - Small businesses and small proprietorships that are in business for profit are eligible [372]
+  - 'SBIR: minimum 66% of work by the small business. STTR: 30-60% by the research institution and minimum 40% by
+    the business [373]'
+  - STTR requires a formal cooperative agreement outlining intellectual property rights; the STTR PI may be employed
+    by the small business or the non-profit research institution [377]
+  - Only previous Phase I winners are eligible to apply for Phase II [374]
+  - No match required [372]
+  cycle:
+    pattern: The last Phase I opportunity shown, for FY 2025, was posted July 2, 2024 and closed September 17, 2024
+      [372]. Opportunities can be followed through Grants.gov alerts by Assistance Listing 10.212 [369]. On 2026-10-03
+      the only open SBIR/STTR item on NIFA's list was the FY 2026 Phase II [375].
+    current_solicitations:
+    - id: USDA-NIFA-SBIR-012221
+      opens: '2026-10-01'
+      closes: '2026-11-17'
+      note: FY 2026 Phase II, open on 2026-10-03. Estimated total funding $24,750,000; award range $600,000 - $650,000;
+        percent funded 50% [374]
+    - id: USDA-NIFA-SBIR-010774
+      opens: '2024-07-02'
+      closes: '2024-09-17'
+      note: FY 2025 Phase I, closed; still the opportunity shown on NIFA's Phase I page. Estimated total program
+        funding $15,500,000; expected awards 80 [372] [373]
+  awards:
+  - phase: I
+    amount: $175,000 for all topic areas except 8.6 and 8.12, where grants are limited to $125,000
+    duration: 8 months (SBIR) or 12 months (STTR)
+    cite:
+    - 370
+  - phase: I with TABA
+    amount: $181,500, or $131,500 for topics 8.6 and 8.12
+    duration: ''
+    cite:
+    - 376
+  - phase: II
+    amount: $600,000
+    duration: 24 months
+    cite:
+    - 370
+  - phase: II with TABA
+    amount: should not exceed $650,000
+    duration: ''
+    cite:
+    - 376
+  - phase: TABA
+    amount: up to $6,500 (Phase I); up to $50,000 (Phase II)
+    duration: ''
+    cite:
+    - 370
+    - 449
+  steps:
+  - Read the Phase I or Phase II funding opportunity and the NIFA Grants Application Guide, to which NIFA's "How
+    Do I Apply?" page points [378]
+  - Find the open opportunity on NIFA's funding page and its Grants.gov listing [374]
+  - Include any TABA request in the application; Phase II TABA cannot be added after submission [449]
+  portal: https://grants.gov/search-results-detail/364020
+  registrations:
+  - grants-gov
+  gates:
+  - grants-gov
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: announced
+    date: '2026-08-04'
+    text: 'TABA after reauthorization: applicants choose their own provider and USDA ends its Phase I provider option
+      from FY2027 [449]'
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: From fiscal year 2027 each agency must set a per-firm limit on Phase I and Phase II proposals (sec. 4
+      of the Act); no USDA figure was located in sweep C [417]
+  distinctive: 'In USDA''s words: "Awards are based on the scientific and technical merit of investigator-initiated
+    ideas." [369]'
+  official_url: https://www.nifa.usda.gov/grants/programs/sbir-sttr
+  as_of: '2026-10-03'
+  sources:
+  - 369
+  - 370
+  - 371
+  - 372
+  - 373
+  - 374
+  - 375
+  - 376
+  - 377
+  - 378
+  - 413
+  - 417
+  - 449
+  conflicts:
+  - 'FY 2026 Phase I: NIFA''s Phase I page still shows the FY 2025 opportunity [372] and no Phase I is on the open
+    list [375] vs a consultant tracker reporting an FY2026 Phase I that closed 09/23/2026 [413]'
+- id: dot-sbir
+  name: U.S. DOT SBIR (Volpe Center)
+  family: sbir-sttr
+  kind: program
+  owner: U.S. Department of Transportation, Volpe National Transportation Systems Center
+  agency: DOT
+  defense: false
+  what: 'U.S. DOT runs SBIR with contract funding: Phase I awards are firm-fixed-price purchase orders and Phase
+    II awards are firm-fixed-price contracts [303] [382]. The SBIR Program Office publishes one solicitation each
+    fiscal year on research topics of interest to DOT operating administrations [384]. Before the solicitation opens,
+    firms can put technical questions to topic authors through an online forum [383].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - Registration in SAM and SBA's SBIR Company Registry is required [382]
+  - One offer per topic; no limit on the number of offers [385]
+  - Phase IIB is by government invitation [382]
+  - The SBIR program does not fund Phase III [384]
+  cycle:
+    pattern: One solicitation each fiscal year [384]. Topics are typically prepared beginning in July/August for
+      the following year's solicitation [385]. Awards are expected about 90 days after the solicitation closing
+      date [381]. The landing page offers an email signup for the next solicitation [379].
+    current_solicitations:
+    - id: 6913G626QSBIR1
+      opens: '2026-06-03'
+      closes: '2026-07-07'
+      note: FY 2026 Phase I, closed July 7, 2026 at 3:00 p.m. ET [382]. Pre-solicitation period closed May 29, 2026
+        [383]. FY26 Phase I awards have been announced [379]
+  awards:
+  - phase: I
+    amount: up to $200,000, unless otherwise noted
+    duration: six-month period of performance
+    cite:
+    - 382
+  - phase: II
+    amount: up to $1,500,000 unless otherwise noted
+    duration: ''
+    cite:
+    - 382
+  steps:
+  - During the pre-solicitation period, put technical questions to topic authors through the online forum [383]
+  - Register in SAM, using NAICS code 541715, and in SBA's SBIR Company Registry [382] [385]
+  - Submit the proposal on the Valid Eval platform [382] [381]
+  - Send inquiries by email to dotsbir@dot.gov [386]
+  portal: https://usg.valideval.com/teams/usdot_2026/signup
+  registrations:
+  - sam-uei
+  - sbc-control-id
+  - valid-eval
+  gates:
+  - sam-registration
+  - sbir-registration
+  - agency-submission-portals
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: From fiscal year 2027 each agency must set a per-firm limit on Phase I and Phase II proposals (sec. 4
+      of the Act) [417]; the FY 2026 solicitation permitted multiple proposals [382]
+  distinctive: DOT says "Topics are selected by each participating agency and align with their respective research
+    needs and Departmental priorities." [385]
+  official_url: https://www.volpe.dot.gov/work-with-us/small-business-innovation-research
+  as_of: '2026-10-03'
+  sources:
+  - 303
+  - 379
+  - 380
+  - 381
+  - 382
+  - 383
+  - 384
+  - 385
+  - 386
+  - 417
+  conflicts:
+  - 'Amounts: Phase I $150,000 and Phase II $1,000,000 "normally" on the About page [384] vs $200,000 and $1,500,000
+    in the FY 2026 solicitation [382]; SBA''s card says $200,000 and $1 Million [303]'
+  - 'FY26 topic count: the pre-solicitation extraction said "12 total across 6 agencies" but listed 10 across 5
+    [383], matching the 10 on the solicitation page [381]'
+- id: dhs-sbir
+  name: DHS SBIR (Science and Technology Directorate)
+  family: sbir-sttr
+  kind: program
+  owner: Department of Homeland Security, Science and Technology Directorate
+  agency: DHS
+  defense: false
+  what: 'DHS runs SBIR with contract funding, for concepts and prototypes in support of specific homeland security
+    needs [388] [303]. DHS posts one solicitation annually [388]. No FY2026 or FY2027 DHS solicitation was read:
+    SBIR.gov listed no DHS topics on 2026-10-03 and DHS''s public SBIR page has no 2026 solicitation information
+    [309] [387].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - Only SBIR Phase I awardees are eligible to participate in subsequent phases [387]
+  cycle:
+    pattern: One solicitation annually [388]. SBA's FY2017-era tutorial describes it as historically released in
+      December, with topics released two weeks earlier so firms can contact topic authors, a 30-day proposal window
+      and award notice within 90 days of the due date [307]. SBIR.gov's planner graphic says "DHS is from September
+      to October 2025" [309].
+    current_solicitations: []
+  awards:
+  - phase: I (DHS page, stale)
+    amount: limited to $100,000 for S&T projects
+    duration: up to six months
+    cite:
+    - 387
+  - phase: I (SBA agency card)
+    amount: $175,000
+    duration: ''
+    cite:
+    - 303
+  - phase: I (SBA tutorial, dated)
+    amount: $150,000
+    duration: ''
+    cite:
+    - 307
+  - phase: II (DHS page, stale)
+    amount: limited to $750,000
+    duration: up to 24 months
+    cite:
+    - 387
+  - phase: II (SBA agency card)
+    amount: $1 Million
+    duration: ''
+    cite:
+    - 303
+  - phase: II (SBA tutorial, dated)
+    amount: S&T up to $750,000; DNDO up to $1,000,000
+    duration: ''
+    cite:
+    - 307
+  steps: []
+  portal: https://oip.dhs.gov/sbir/public
+  registrations: []
+  gates:
+  - agency-submission-portals
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: From fiscal year 2027 each agency must set a per-firm limit on Phase I and Phase II proposals (sec. 4
+      of the Act); no DHS figure or post-reauthorization notice was located in sweep C [417]
+  distinctive: DHS describes the S&T SBIR program as "focused on near-term commercialization and delivery of operational
+    prototypes to federal, state and local emergency responders and managers, as well as internal DHS entities."
+    [387]
+  official_url: https://www.dhs.gov/science-and-technology/sbir
+  as_of: '2026-10-03'
+  sources:
+  - 303
+  - 307
+  - 309
+  - 387
+  - 388
+  - 389
+  - 390
+  - 417
+  conflicts:
+  - 'Phase I ceiling: $100,000 on DHS''s stale page [387] vs $175,000 on SBA''s card [303] vs $150,000 in SBA''s
+    dated tutorial [307]'
+  - 'Phase II ceiling: $750,000 [387] vs $1 Million [303] vs up to $750,000 (S&T) or $1,000,000 (DNDO) [307]'
+  - 'Portal: oip.dhs.gov/sbir/public returned HTTP 403 and was not read [390]; SBA''s tutorial names sbir2.st.dhs.gov/portal/SBIR/,
+    not verified as current [307]'
+  - 'Record status: not publishable until the DHS portal or the SAM.gov notice is read; steps and current solicitations
+    are left empty [390]'
+- id: epa-sbir
+  name: EPA SBIR
+  family: sbir-sttr
+  kind: program
+  owner: U.S. Environmental Protection Agency
+  agency: EPA
+  defense: false
+  what: 'EPA runs SBIR through firm-fixed-price contracts [394] [303]. EPA says "Each year, EPA issues a Phase I
+    solicitation for technology proposals addressing specific topics." [394] The 2026 Phase I solicitation is on
+    FedConnect [392].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - 'Registrations required: EIN; SAM (active, set to "contracts" or "all awards"); UEI; FedConnect; SBA Company
+    Registry (SBC Control ID with proposal) [393]'
+  - 'Commercialization Option: up to $100,000 more in Phase II for firms securing third-party investment [393]'
+  cycle:
+    pattern: One Phase I solicitation each year on specific topics [394]. EPA's How to Apply page says Phase I "typically
+      starts early December" and Phase II "mid-October" [393].
+    current_solicitations:
+    - id: 68HERW26R0102
+      opens: '2026-09-24'
+      closes: '2026-11-08'
+      note: '2026 Phase I, open on 2026-10-03; closes at 11:59 p.m. ET [392]. SBIR.gov lists 4 EPA topics: Air Quality;
+        Circular Economy/Sustainable Materials; Safer Chemicals; Clean and Safe Water [309]. The informational webinar
+        was held September 16, 2026 [395]'
+  awards:
+  - phase: I
+    amount: $100,000
+    duration: 6 months
+    cite:
+    - 393
+    - 394
+  - phase: II
+    amount: $400,000
+    duration: 2 years
+    cite:
+    - 393
+  - phase: II Commercialization Option
+    amount: up to $100,000 more for firms securing third-party investment
+    duration: ''
+    cite:
+    - 393
+  steps:
+  - 'Allow 6-8 weeks minimum for registrations: EIN, SAM, UEI, FedConnect and the SBA Company Registry [393]'
+  - Find solicitation number 68HERW26R0102 on FedConnect and apply there [392]
+  - Include the SBC Control ID with the proposal [393]
+  - Proposals are reviewed on technical approach, relevancy/impact and commercialization potential, one third each
+    [393]
+  portal: ''
+  registrations:
+  - ein
+  - sam-uei
+  - fedconnect
+  - sbc-control-id
+  gates:
+  - sam-registration
+  - sbir-registration
+  - agency-submission-portals
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: From fiscal year 2027 each agency must set a per-firm limit on Phase I and Phase II proposals (sec. 4
+      of the Act); no EPA figure or post-reauthorization notice was located in sweep C [417]
+  distinctive: EPA calls it "the small program with a big mission, to protect human health and the environment"
+    [394]
+  official_url: https://www.epa.gov/sbir
+  as_of: '2026-10-03'
+  sources:
+  - 303
+  - 309
+  - 391
+  - 392
+  - 393
+  - 394
+  - 395
+  - 417
+  conflicts:
+  - 'Timing: the How to Apply page says Phase I "typically starts early December" [393] vs a 2026 Phase I solicitation
+    open September 24 to November 8, 2026 [392]'
+- id: ed-ies-sbir
+  name: ED/IES SBIR
+  family: sbir-sttr
+  kind: program
+  owner: Institute of Education Sciences, U.S. Department of Education
+  agency: ED
+  defense: false
+  what: 'ED/IES SBIR funds education technology products with up to $1.25M in funding in 2 phases [397]. It uses
+    contract funding and current awards carry contract numbers [303] [396]. Program solicitations for Phases I and
+    II are released annually and posted on SAM.gov [397] [398]. The FY2026 round had three solicitations: Phase
+    IA, Phase IB and Direct to Phase II [398].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - 'Phase IA: prototypes of novel education technology products where no or limited previous research and development
+    has already occurred [399]'
+  - 'Phase IB: a new component to be added to an existing research-based education technology prototype or product
+    [399]'
+  - Phase IA and IB awardees may apply for a $1,000,000 Phase II award in FY2027 [398]
+  - Offerors must be registered in SAM.gov and list their UEI [398]
+  cycle:
+    pattern: Annual. Proposals are due approximately 60 days after release, with award notifications 90 days or
+      less from the submission date [396]. The prior cycle was announced November 8, 2024 with proposals due January
+      8, 2025 [399].
+    current_solicitations:
+    - id: 91990026R0003
+      opens: '2026-04-30'
+      closes: '2026-06-29'
+      note: Phase IA, closed. Deadline June 29, 2026 at 11AM EDT [398]
+    - id: 91990026R0004
+      opens: '2026-04-30'
+      closes: '2026-06-29'
+      note: Phase IB, closed. Deadline June 29, 2026 at 11AM EDT [398]
+    - id: 91990026R0005
+      opens: '2026-04-30'
+      closes: '2026-06-29'
+      note: Direct to Phase II, closed. Deadline June 29, 2026 at 2PM EDT [398]
+  awards:
+  - phase: IA and IB
+    amount: $250,000
+    duration: 9 months
+    cite:
+    - 398
+  - phase: Direct to Phase II
+    amount: $1,000,000
+    duration: 2 years
+    cite:
+    - 398
+  - phase: II (FY2027, for FY2026 Phase IA and IB awardees)
+    amount: $1,000,000
+    duration: 2 years
+    cite:
+    - 398
+  steps:
+  - Find the solicitations on SAM.gov [398]
+  - Register in SAM.gov and list the UEI [398]
+  - Send questions to the Contracts Specialist by the stated date, which was May 21, 2026 for FY2026 [398]
+  portal: ''
+  registrations:
+  - sam-uei
+  gates:
+  - sam-registration
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: announced
+    date: '2026-04-30'
+    text: Phase II for FY2026 Phase IA and IB awardees is expected in FY2027; no FY2027 solicitation date is posted
+      [398]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: From fiscal year 2027 each agency must set a per-firm limit on Phase I and Phase II proposals (sec. 4
+      of the Act); no ED figure or post-reauthorization notice was located in sweep C [417]
+  distinctive: IES describes Phase I as "for rapid prototype development and evaluation of new education technology
+    prototypes" [397]
+  official_url: https://ies.ed.gov/sbir/
+  as_of: '2026-10-03'
+  sources:
+  - 303
+  - 306
+  - 396
+  - 397
+  - 398
+  - 399
+  - 417
+  conflicts:
+  - 'Instrument: contract funding on SBA''s card [303] and contract-numbered solicitations on IES''s page [398]
+    vs both grants and contracts in SBA''s older tutorial [306]'
+- id: nist-sbir
+  name: NIST SBIR
+  family: sbir-sttr
+  kind: program
+  owner: NIST Technology Partnerships Office (Department of Commerce)
+  agency: DOC
+  defense: false
+  what: 'NIST issues an annual Notice of Funding Opportunity for SBIR Phase I proposals [400]. It has awarded grants
+    rather than negotiated contracts since Fiscal Year 2014 and has used open topics rather than subtopics since
+    Fiscal Year 2019 [403]. On 2026-10-03 NIST had no active funding opportunity and said its page was being updated
+    for the reauthorization [400].
+
+    '
+  funds_or_buys: grants
+  eligibility:
+  - Phase II is limited to NIST Phase I awardees [400]
+  cycle:
+    pattern: 'One annual Phase I funding opportunity, applied for through Grants.gov [400] [402]. FY 2025 dates:
+      Phase I released 10/29/2024, closed 12/27/2024, awards 05/08/2025; Phase II released 04/16/2025, closed 06/14/2025,
+      awards 08/26/2025 [401]. The FY2026 solicitation release is "To be announced" [401].'
+    current_solicitations:
+    - id: 2026-NIST-SBIR-01
+      opens: ''
+      closes: ''
+      note: FY 2026 Phase I number on a research-area helper page dated August 13, 2025, listing eight research
+        areas [404]; not shown as released on the schedule [401]
+  awards:
+  - phase: I (SBA card for DOC; not on current NIST pages)
+    amount: $100,000
+    duration: ''
+    cite:
+    - 303
+  - phase: II (SBA card for DOC; not on current NIST pages)
+    amount: $400,000
+    duration: ''
+    cite:
+    - 303
+  - phase: I and II (NIST FAQ, mentioned in passing; not confirmed as current ceilings)
+    amount: budgets "under $100k (Phase I)/300K (Phase II)"
+    duration: ''
+    cite:
+    - 402
+  steps:
+  - Apply through Grants.gov; instructions for registering with sam.gov are part of the grants.gov process [402]
+  - 'Include the mandatory forms: SF424, SF424 A, SF424 B and CD511 [402]'
+  - Use the research-area page to locate a specific project or program for the application [404]
+  portal: ''
+  registrations:
+  - sam-uei
+  - grants-gov
+  gates:
+  - sam-registration
+  - grants-gov
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: announced
+    date: '2026-10-03'
+    text: 'As posted on 2026-10-03: FY2026 solicitation release "To be announced" [401]; the program page is "currently
+      being updated to reflect the changes and improvements to the NIST SBIR Program resulting from the reauthorization"
+      [400]'
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: From fiscal year 2027 each agency must set a per-firm limit on Phase I and Phase II proposals (sec. 4
+      of the Act); no NIST figure was located in sweep C [417]
+  distinctive: 'NIST''s page: "Science and technology-based firms with strong research capabilities in any of the
+    areas listed in the NOFO are encouraged to participate." [400]'
+  official_url: https://www.nist.gov/tpo/small-business-innovation-research-program
+  as_of: '2026-10-03'
+  sources:
+  - 303
+  - 400
+  - 401
+  - 402
+  - 403
+  - 404
+  - 417
+  conflicts:
+  - 'FY2026 Phase I status: a helper page for NOFO 2026-NIST-SBIR-01 is dated August 13, 2025 [404] vs "To be announced"
+    on the schedule [401] and no active NOFO on the program page [400]'
+  - 'Amounts: $100,000 and $400,000 on SBA''s DOC card [303] vs "under $100k (Phase I)/300K (Phase II)" mentioned
+    in passing in NIST''s FAQ [402]'
+- id: noaa-sbir
+  name: NOAA SBIR
+  family: sbir-sttr
+  kind: program
+  owner: NOAA Technology Partnerships Office (Department of Commerce)
+  agency: DOC
+  defense: false
+  what: 'NOAA runs SBIR with grant funding, per SBA''s agency card for the Department of Commerce [303]. Its mission
+    areas are Climate and Weather; Oceans, Coasts, and Fisheries; Satellites and Remote Sensing; Charting and Surveying
+    [405]. NOAA says "NOAA''s FY27 SBIR funding cycle will begin in Fall 2026." [405]
+
+    '
+  funds_or_buys: grants
+  eligibility:
+  - PI employed at least 51% by the applying small business; 500 employees including affiliates [408]
+  - 'Required forms named: Research & Related Personal Data; Foreign Affiliations Disclosure [408]'
+  cycle:
+    pattern: 'One Notice of Funding Opportunity a year, posted on NOAA''s funding page and on Grants.gov [406].
+      Past Phase I opportunities were announced in autumn: November 15, 2024 for FY25 and September 28, 2023 for
+      FY24 [409]. The FY 2025 Phase I Funding Opportunity is closed and the next NOFO is for FY27 [406].'
+    current_solicitations:
+    - id: FY27 NOFO (not yet posted)
+      opens: ''
+      closes: ''
+      note: NOAA says "The NOFO will be open in Fall 2026."; no FY27 number or dates were posted as of 2026-10-03
+        [406]
+  awards:
+  - phase: I
+    amount: up to $190,000
+    duration: up to 6 months
+    cite:
+    - 407
+  - phase: II
+    amount: up to $690,000
+    duration: up to a 24-month period
+    cite:
+    - 407
+  - phase: III
+    amount: No SBIR funds support this phase
+    duration: ''
+    cite:
+    - 407
+  steps:
+  - Watch NOAA's funding page and Grants.gov for the FY27 NOFO [406]
+  - 'Include the forms NOAA names: Research & Related Personal Data and Foreign Affiliations Disclosure [408]'
+  portal: ''
+  registrations:
+  - grants-gov
+  gates:
+  - grants-gov
+  - foreign-disclosure-security-review
+  - proposal-cap
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: announced
+    date: '2026-10-03'
+    text: 'As posted on 2026-10-03: the FY27 funding cycle "will begin in Fall 2026" [405]; the FY27 NOFO had not
+      been posted [406]'
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: From fiscal year 2027 each agency must set a per-firm limit on Phase I and Phase II proposals (sec. 4
+      of the Act); no NOAA figure or post-reauthorization notice was located in sweep C [417]
+  distinctive: 'NOAA''s stated aim: "to stimulate the U.S. economy and business growth through the commercialization
+    of innovative mission-relevant technologies." [407]'
+  official_url: https://techpartnerships.noaa.gov/sbir/
+  as_of: '2026-10-03'
+  sources:
+  - 303
+  - 306
+  - 405
+  - 406
+  - 407
+  - 408
+  - 409
+  - 417
+  conflicts:
+  - SBA's DOC card gives Phase I $100,000 and Phase II $400,000 [303] vs up to $190,000 and up to $690,000 on NOAA's
+    page [407]
+  - 'Instrument: grant funding rests on SBA''s card [303] and SBA''s tutorial [306]; NOAA''s funding page has no
+    explicit grant statement [406]'
+- id: phase-iii-award
+  name: SBIR/STTR Phase III award
+  family: sbir-sttr
+  kind: transition
+  owner: Any federal agency or federal prime contractor; program-wide rules set by SBA under 15 U.S.C. 638
+  agency: government-wide
+  defense: false
+  what: 'Phase III is work that derives from, extends, or completes prior SBIR/STTR work and is funded by sources
+    other than the SBIR/STTR programs [422] [429]. Federal agencies and federal prime contractors are to issue Phase
+    III awards, including sole source awards, to the firm that developed the technology "to the greatest extent
+    practicable" [423] [422]. The Phase I/II competition satisfies statutory competition requirements, so the agency
+    need not compete again [422]. There is no limit on the number, duration, type or dollar value of Phase III awards
+    [422] [425].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - Small business size limits for Phase I and Phase II awards do not apply to Phase III awards [422]
+  - There is no time limit between Phase I/II and Phase III [422] [425]
+  - The firm must show the new work derives from its own SBIR results; matching government-furnished specifications
+    are not enough (Toyon Research Corporation, B-409765, protest denied August 5, 2014) [423]
+  - Phase III may be a subcontract under a prime, and multiple Phase III awards from the same or multiple agencies
+    are allowed [430]
+  - Phase III may be for NASA programs, other agencies, or the private sector [431]
+  cycle:
+    pattern: 'No solicitation cycle: Phase III contracts are funded from non-SBIR/STTR sources and may be awarded
+      without further competition [431].'
+    current_solicitations: []
+  awards:
+  - phase: III
+    amount: no limit on number, duration, type, or dollar value
+    duration: no limit; no time limit after Phase I/II
+    cite:
+    - 422
+    - 425
+  steps:
+  - Identify the prior Phase I or II agreement and its topic number [430]
+  - Show that the new work derives from, extends or completes that agreement [430]
+  - Assert SBIR/STTR data rights in the proposal [430]
+  - The contracting officer awards without further competition; the contract file cites 15 U.S.C. 638(r)(4), the
+    topic number and the related Phase I or II contract number, and no J&A is required [430]
+  - No FAR Part 6 sole source justification and no FAR Part 5 notice is required when 15 U.S.C. 638(r)(4) is used
+    [425]
+  - The award must be reported in FPDS with a Phase III designation and topic numbers [430]
+  - If the agency intends to award elsewhere it must notify SBA in writing before award; SBA may file notice of
+    intent to appeal within 5 business days and an appeal within 10 business days, the contracting officer must
+    suspend action, and the agency decides within 30 business days [422]
+  portal: ''
+  registrations: []
+  gates:
+  - data-rights-marking
+  situations:
+  - have-technology
+  - first-awards
+  modifiers:
+    rd: true
+    product: true
+    service: true
+  pending_changes:
+  - status: pending-implementation
+    date: '2027-04-13'
+    text: SBA must modify its policy directives within one year after enactment, that is by April 13, 2027 (sec.
+      6(a)(2)) [416]; the directive linked on sbir.gov on 2026-10-03 is still the May 2023 one [310]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Agencies must develop simplified and standardized procedures and model contracts for Phase I, II and III
+      awards, and standardized solicitation provisions and contract clauses on what a firm must show to establish
+      Phase III eligibility (sec. 6(b), new 638(r)(4)(C) and (D)); no implementing document was found in sweep D
+      [416]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: SBA, with DoD and GSA, must train contracting officers on SBIR/STTR authorities, Phase III agreements,
+      Phase III data rights and execution of Phase III sole-source contracts (sec. 5, new 638(r)(5)); implementation
+      not verified in sweep D [416]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: The SBIR.gov database must classify awards as Phase III prime contract or Phase III subcontract and FPDS
+      must capture Phase III designations (sec. 8); implementation not verified in sweep D [417]
+  - status: proposed
+    date: '2023-04-07'
+    text: FAR Case 2020-010 would add an explicit Phase III statement to FAR 6.302-5; proposed rule published April
+      7, 2023 with comments due June 6, 2023, and no final rule was found as of 2026-10-03 [428]
+  - status: class-deviation
+    date: '2026-02-01'
+    text: Class Deviation 2026-O0017 tells DoW contracting officers to use the overhauled FAR Part 6 text, effective
+      February 1, 2026; the statutory exception appears under a new number (DFARS supplement 206.103-5) and SBIR
+      Phase III is not mentioned [427]
+  distinctive: 'SBA''s tutorial: "The right to receive sole-source funding agreements is a key Phase III right."
+    [432]'
+  official_url: https://www.sbir.gov/about/policies
+  as_of: '2026-10-03'
+  sources:
+  - 310
+  - 416
+  - 417
+  - 422
+  - 423
+  - 424
+  - 425
+  - 426
+  - 427
+  - 428
+  - 429
+  - 430
+  - 431
+  - 432
+  - 450
+  - 455
+  conflicts:
+  - 'Where the authority sits: the codified FAR 6.302-5 (FAC 2026-01) contains no reference to SBIR/STTR Phase III
+    [426] vs acquisition-workforce and Navy guidance that no Part 6 justification is needed under 15 U.S.C. 638(r)(4)
+    [425] [430]'
+  - 'Statute text: the 638(r)(4) sentence was read only as quoted in a 2014 GAO decision [423]; the fetch of 15
+    U.S.C. 638 on a non-government site truncated before subsection (r) [424]'
+  - 'Phase III reporting: Navy guidance says Phase III must be reported in FPDS [430] vs GAO''s finding that the
+    FPDS Phase III field is optional and Phase III data are not reliable enough to measure outcomes [450]'
+  - 'Oversight: the one recommendation shown for DODIG-2014-049, on notifying SBA when a Phase III cannot go to
+    the developer, is listed as open on Oversight.gov; only that record was read [455]'
+- id: strategic-breakthrough-award
+  name: Phase II Strategic Breakthrough Award
+  family: sbir-sttr
+  kind: transition
+  owner: Agencies required to spend more than $100,000,000, as the Act frames it
+  agency: multiple
+  defense: false
+  what: 'P.L. 119-83 created Phase II "strategic breakthrough" awards of not more than $30,000,000 per small business,
+    with a period of performance of not more than 48 months and not less than 100 percent matching funds [417].
+    The authority ceases to have effect September 30, 2031 [417]. NIH has implemented it as a Phase IIB announcement
+    (PA-27-101) and DOE lists it on its application hub [325] [353].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - Not less than 100 percent matching funds [417]
+  - 'NIH: previous NIH SBIR or STTR Phase II recipients; the match must be new private capital or new government
+    funding other than a Phase I or II SBIR/STTR award [325]'
+  cycle:
+    pattern: The agency must make the award not later than 90 days after receiving a proposal [417].
+    current_solicitations:
+    - id: PA-27-101
+      opens: '2026-08-05'
+      closes: '2029-04-05'
+      note: NIH SBIR Phase IIB Strategic Breakthrough Award; due dates September 5, 2026 through April 5, 2029;
+        expires April 06, 2029 [325]
+  awards:
+  - phase: II strategic breakthrough (statute)
+    amount: not more than $30,000,000 to a small business concern
+    duration: not more than 48 months
+    cite:
+    - 417
+  - phase: IIB Strategic Breakthrough (NIH)
+    amount: Maximum total $30,000,000.00; component limits vary (NCI $15,000,000.00; most others $3,000,000.00)
+    duration: must not exceed 4 years
+    cite:
+    - 325
+  - phase: Strategic Breakthrough Award (DOE)
+    amount: up to $30,000,000
+    duration: up to 4 years
+    cite:
+    - 353
+  steps: []
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - have-technology
+  - first-awards
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: final
+    date: '2026-05-28'
+    text: NIH implementation published as PA-27-101, with a 100% match required [325]
+  - status: announced
+    date: 2026-08
+    text: DOE's hub lists a Strategic Breakthrough Award of up to $30,000,000 for up to 4 years; no opportunity
+      for it was listed on 2026-10-03 [353] [354]
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Implementation at agencies other than NIH and DOE was not verified in sweeps C and D [417]
+  distinctive: ''
+  official_url: https://www.govinfo.gov/content/pkg/PLAW-119publ83/html/PLAW-119publ83.htm
+  as_of: '2026-10-03'
+  sources:
+  - 325
+  - 353
+  - 354
+  - 411
+  - 417
+  - 418
+  conflicts:
+  - 'Funding base: not more than 0.50 percent of extramural R&D at agencies required to spend more than $100,000,000
+    in the enrolled-text extraction [417] vs up to 0.5% of SBIR funds at agencies obligating over $100 million in
+    the CRS Insight [418]'
+  - 'Award structure: a law-firm alert says awards may be "structured either as a single award or as a sequence"
+    [411]; the enrolled-text extraction does not state this [417]'
+- id: apfit
+  name: APFIT (Accelerate the Procurement and Fielding of Innovative Technologies)
+  family: null
+  kind: transition
+  owner: Office of the Under Secretary of War for Research & Engineering
+  agency: DoW
+  defense: true
+  what: 'APFIT provides procurement funding, not R&D funding, for technology that has finished development, limited
+    to small businesses and non-traditional defense contractors [438]. Companies cannot apply; only government organizations
+    may submit a proposal [439]. Awards are $10 million to $50 million per project [438]. Its authority is FY25
+    NDAA section 861 [439].
+
+    '
+  funds_or_buys: procurement
+  eligibility:
+  - U.S. small business, non-traditional defense contractor (10 U.S.C. 3014), or a company with no more than $400,000,000
+    in DoW contracts in the prior year [439]
+  - Technology readiness TRL 8-9; TRL 7 considered if it will reach 8-9 by award [439]
+  - Only government organizations may submit [439]
+  cycle:
+    pattern: Submission window in late spring/early summer; selection in winter [439]. FY2026-1 received 76 viable
+      proposals [438].
+    current_solicitations:
+    - id: FY27-1
+      opens: ''
+      closes: ''
+      note: Anticipated to open in early summer 2026; its status on 2026-10-03 is not stated on the page [438]
+  awards:
+  - phase: procurement award
+    amount: $10 million to $50 million per project
+    duration: ''
+    cite:
+    - 438
+  steps:
+  - A government organization sponsors the project and submits the proposal with a Letter of Attestation, quad chart
+    and proposal briefing [439]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - first-awards
+  modifiers:
+    rd: false
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: 'FY2022 to FY2026: over $1.4 billion to more than 75 companies, and over $3.2 billion in follow-on
+    investment and procurement contracts [438]'
+  official_url: https://ac.cto.mil/apfit/
+  as_of: '2026-10-03'
+  sources:
+  - 438
+  - 439
+  conflicts:
+  - The APFIT FAQ does not mention SBIR/STTR, so any link between APFIT and Phase III is the reader's inference
+    and not the program's statement [439]
+- id: navy-stp
+  name: Navy SBIR/STTR Transition Program (STP) and Forum for SBIR/STTR Transition
+  family: sbir-sttr
+  kind: transition
+  owner: Department of the Navy SBIR/STTR Program
+  agency: DoW
+  defense: true
+  what: 'The Navy SBIR/STTR Transition Program is an 11-month assistance program for Department of the Navy Phase
+    II awardees who have not elected TABA [440]. It includes the Virtual Transition Marketplace and exhibiting at
+    Forum for SBIR/STTR Transition events [440]. The program site says it has operated for over 25 years [441].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - An active Navy-funded Phase II in its first or second year [441]
+  - DON Phase II awardees who have not elected TABA [440]
+  cycle:
+    pattern: An 11-month program with scheduled events; the site lists events for early 2027 [440] [441].
+    current_solicitations:
+    - id: STP Connect Virtual Event
+      opens: '2027-02-01'
+      closes: '2027-02-12'
+      note: Event, February 1-12, 2027 [441]
+    - id: WEST 2027, San Diego
+      opens: '2027-02-16'
+      closes: '2027-02-18'
+      note: Event, February 16-18, 2027 [441]
+    - id: STP SYSCOM Technical Information Exchange, Arlington VA
+      opens: '2027-03-09'
+      closes: '2027-03-10'
+      note: Event, March 9-10, 2027 [441]
+  awards: []
+  steps:
+  - Participants are listed in the Virtual Transition Marketplace and exhibit at Forum for SBIR/STTR Transition
+    events [440]
+  - Program contact stpinfo@atsicorp.com [441]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - first-awards
+  - looking-for-partners
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: ''
+  official_url: https://navystp.com/
+  as_of: '2026-10-03'
+  sources:
+  - 440
+  - 441
+  conflicts:
+  - 'Benefit claim: participants average commercialization rates 17% higher than non-participants [440] vs a 68
+    percent greater likelihood of transition for participants [441]'
+- id: navy-crp-phase-iib
+  name: Navy Commercialization Readiness Program and Phase II.B
+  family: sbir-sttr
+  kind: transition
+  owner: Department of the Navy SBIR/STTR Program
+  agency: DoW
+  defense: true
+  what: 'The Navy''s Commercialization Readiness Program (CRP) and Phase II.B/expansions are for active Phase II
+    awardees [440]. CRP is open to Phase II awardees with active contracts, and Phase II.B may require matching
+    funds and a Technology Transition Plan/Agreement [440]. Each Military Department has established a Commercialization
+    Readiness Program [447]. The CRP authority (638(gg)) is among the pilots extended to September 30, 2031 [417].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - Phase II awardees with active contracts [440]
+  - Phase II.B may require matching funds and a Technology Transition Plan/Agreement [440]
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards: []
+  steps: []
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - first-awards
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: The Navy describes CRP as "Authority to accelerate the transition of technologies, processes, products,
+    and services that have the potential for rapid transitioning to Phase III" [440]
+  official_url: https://www.navysbir.com/trans-com.htm
+  as_of: '2026-10-03'
+  sources:
+  - 417
+  - 440
+  - 447
+  conflicts: []
+- id: af-tacfi
+  name: Air Force TACFI
+  family: sbir-sttr
+  kind: transition
+  owner: AFWERX (Department of the Air Force)
+  agency: DoW
+  defense: true
+  what: 'TACFI is one of the Air Force''s two Phase II bridge programs [442]. Awards are $375,000 to $2 million
+    for up to 24 months with a 1:1 match [442]. The match is at least $1 of other government or private funding
+    per SBIR/STTR dollar [443].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - Active Phase II, or Phase II completed within two years; at least 90 days past Phase II award; no sequential
+    Phase II; one package per opportunity [442]
+  - In-kind contributions do not count as match [442]
+  cycle:
+    pattern: As of July 2025, 26.2 TACFI announcements were planned for release in early CY 2026 [444].
+    current_solicitations: []
+  awards:
+  - phase: II supplement (TACFI)
+    amount: $375,000 to $2 million
+    duration: up to 24 months
+    cite:
+    - 442
+  steps: []
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - first-awards
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: ''
+  official_url: https://afwerx.com/get-funded/
+  as_of: '2026-10-03'
+  sources:
+  - 442
+  - 443
+  - 444
+  conflicts: []
+- id: af-stratfi
+  name: Air Force STRATFI
+  family: sbir-sttr
+  kind: transition
+  owner: AFWERX (Department of the Air Force)
+  agency: DoW
+  defense: true
+  what: 'STRATFI is the larger of the Air Force''s two Phase II bridge programs: $3 million to $15 million for up
+    to 48 months [442]. The match is 1:2 (government only) or 1:1:2 (SBIR : government : third-party) [442]. A company
+    may receive "only one STRATFI during the lifetime of the company" [442].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - Active Phase II, or Phase II completed within two years; at least 90 days past Phase II award; no sequential
+    Phase II; one package per opportunity [442]
+  - One STRATFI in the lifetime of the company [442]
+  - In-kind contributions do not count as match [442]
+  - The PY26.1 notice expects a collaborating customer willing to award within 120 days [444]
+  cycle:
+    pattern: Run by Notice of Opportunity [444].
+    current_solicitations:
+    - id: PY26.1 STRATFI Notice of Opportunity
+      opens: 2025-07
+      closes: ''
+      note: Confirms the $3M–$15M range and eligibility; it predates the lapse and does not address it [444]
+  awards:
+  - phase: II supplement (STRATFI)
+    amount: $3 million to $15 million
+    duration: up to 48 months
+    cite:
+    - 442
+  steps: []
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - first-awards
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: For every $1 of SBIR/STTR, $2 of other government funds, or $1 government plus $2 private [443]
+  official_url: https://afwerx.com/get-funded/
+  as_of: '2026-10-03'
+  sources:
+  - 442
+  - 443
+  - 444
+  conflicts: []
+- id: army-sbir-catalyst
+  name: Army SBIR CATALYST
+  family: sbir-sttr
+  kind: transition
+  owner: U.S. Army SBIR|STTR Program
+  agency: DoW
+  defense: true
+  what: 'Army SBIR CATALYST is the Army''s large transition award for firms that completed a DoW SBIR or STTR Phase
+    II within the past four fiscal years [445]. It requires an Army transition partner and a committed integrator
+    (prime or OEM), with a 2:1:1 match (Army SBIR : Army customer : integrator) [445]. A PEO, not the firm, submits
+    the application [445].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - Completed a DoW SBIR or STTR Phase II within the past four fiscal years [445]
+  - Enhancements need up to $3.5 million from each of the Army customer and the integrator [445]
+  cycle:
+    pattern: The page says FY26 kickoff details "will be provided in early 2026" and gives no later dates [445].
+    current_solicitations: []
+  awards:
+  - phase: base award
+    amount: $1 million
+    duration: 6-12 months
+    cite:
+    - 445
+  - phase: enhancement
+    amount: up to $7 million additional SBIR funds
+    duration: 12-24 months
+    cite:
+    - 445
+  - phase: total potential
+    amount: $15 million or more per business
+    duration: ''
+    cite:
+    - 445
+  steps:
+  - '"A PEO must submit a SBIR CATALYST application before the Request for Proposal (RFP) release" [445]'
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - first-awards
+  - looking-for-partners
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: ''
+  official_url: https://armysbir.army.mil/catalyst/
+  as_of: '2026-10-03'
+  sources:
+  - 445
+  conflicts: []
+- id: dow-art
+  name: DoW Accelerated Research for Transition (ART) Program
+  family: sbir-sttr
+  kind: transition
+  owner: DoW Office for Small Business Innovation
+  agency: DoW
+  defense: true
+  what: 'The Accelerated Research for Transition (ART) Program is a new OSD-level program announced after reauthorization
+    [446]. It provides a 1:1 match between ART funds and a DoW sponsor for a new or ongoing Phase II, and the match
+    must be DoW agency or component funding, not prime contractor funding [446]. The sponsor signs a Technology
+    Transition Agreement and contracting goes through a central Contracting Center of Excellence [446].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - A DoW sponsor providing the 1:1 match from DoW agency or component funding [446]
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards: []
+  steps: []
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - first-awards
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes:
+  - status: announced
+    date: '2026-04-20'
+    text: Established by a DoW press release of April 20, 2026 that also released more than 90 topics, as reported
+      by a law-firm note; the release itself was not fetched and the ART page has no dollar ceilings or dates [446]
+      [420]
+  distinctive: DoW calls it a "technology pull program, not a 'build it and they will come' strategy" [446]
+  official_url: https://www.defensesbirsttr.mil/ART/
+  as_of: '2026-10-03'
+  sources:
+  - 420
+  - 446
+  conflicts: []
+- id: taba
+  name: TABA (Technical and Business Assistance)
+  family: sbir-sttr
+  kind: program
+  owner: Each SBIR/STTR agency
+  agency: multiple
+  defense: false
+  what: 'Technical and Business Assistance (TABA) funding is capped at not more than $6,500 per Phase I project
+    and not more than $50,000 per Phase II project [417]. Since P.L. 119-83, agencies "shall authorize" awardees
+    to select their own TABA provider, and TABA covers cybersecurity assistance and screening for foreign involvement
+    [417]. Funds may be used to hire or train staff and for I-Corps participation [417].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - USDA allows IP protection, cybersecurity support, market research, and regulatory and manufacturing plans; it
+    does not allow R&D, indirect costs, general accounting or contingency [449]
+  - 'HHS: up to $6,500 per Phase I project and up to $50,000 per Phase II project across all years, for awards made
+    on or after April 13, 2026; not available to Commercialization Readiness Pilot recipients [329]'
+  - 'Army: a firm-selected vendor in Phase II must be in the Phase II proposal and is paid from the SBIR award [448]'
+  - 'Navy: the SBIR/STTR Transition Program is for Phase II awardees who have not elected TABA [440]'
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards:
+  - phase: I
+    amount: not more than $6,500 per Phase I project
+    duration: ''
+    cite:
+    - 417
+  - phase: II
+    amount: not more than $50,000 per Phase II project
+    duration: ''
+    cite:
+    - 417
+  steps:
+  - Include the TABA request in the application; at USDA, Phase II TABA cannot be added after submission [449]
+  - DOE Phase I requests rise from $250,000 to $256,500 if the proposal includes a request for TABA [351]
+  - NASA Phase I TABA requests do not exceed $6,500 [360]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - have-technology
+  - first-awards
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: pending-implementation
+    date: '2026-04-13'
+    text: Sec. 7 of the Act requires agencies to authorize awardees to select their own TABA provider [417]; the
+      Army page still lists a preferred vendor and asks firms that pick their own to justify it and sign a conflict-of-interest
+      statement, and may predate the Act [448]
+  - status: announced
+    date: '2026-08-04'
+    text: 'USDA: applicants choose their own provider, and USDA ends its Phase I provider option from FY2027 [449]'
+  - status: final
+    date: '2026-04-20'
+    text: HHS set its TABA limits after reauthorization in NOT-OD-26-075 [329]
+  distinctive: 'USDA''s wording: "TABA is an expense USDA pays for awardees on top of the research and development
+    maximum allowance." [376]'
+  official_url: https://www.nifa.usda.gov/grants/programs/sbir-sttr/technical-business-assistance-taba
+  as_of: '2026-10-03'
+  sources:
+  - 329
+  - 351
+  - 360
+  - 376
+  - 417
+  - 440
+  - 448
+  - 449
+  conflicts: []
+- id: broad-agency-announcement
+  name: Broad Agency Announcement (BAA)
+  family: null
+  kind: vehicle
+  owner: Any agency, under FAR 35.016
+  agency: government-wide
+  defense: false
+  what: 'A Broad Agency Announcement is for "basic and applied research and that part of development not related
+    to the development of a specific system or hardware procurement" [482]. Proposals are evaluated by peer or scientific
+    review and not against each other, with selection on technical merit, importance to agency programs and fund
+    availability [482]. NASA now releases its SBIR/STTR subtopics as appendices to a BAA [359].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - Used only when meaningful proposals with varying technical approaches can reasonably be anticipated [482]
+  cycle:
+    pattern: The announcement is published at least annually [482].
+    current_solicitations: []
+  awards: []
+  steps: []
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: ''
+  official_url: https://www.acquisition.gov/far/35.016
+  as_of: '2026-10-03'
+  sources:
+  - 359
+  - 482
+  conflicts: []
+- id: crada
+  name: Cooperative Research and Development Agreement (CRADA)
+  family: partnering
+  kind: vehicle
+  owner: Federal laboratories
+  agency: government-wide
+  defense: false
+  what: 'Under a CRADA the federal laboratory may contribute people, facilities, equipment and intellectual property
+    but no money, while the partner may contribute money [483]. A CRADA is "Not a procurement contract and should
+    not be used simply to acquire products or services for the Government" [483]. Its authorities are 15 U.S.C.
+    3710a and 10 U.S.C. 4026 [483].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - DHS partners may be companies, nonprofits, state and local governments, or individuals [484]
+  - DHS retains irrevocable, royalty-free rights to all CRADA subject inventions for government use [484]
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards: []
+  steps:
+  - DHS example of a contact route, CRADA@hq.dhs.gov [484]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - have-technology
+  - looking-for-partners
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: ''
+  official_url: https://aaf.waru.edu/aaf/contracting-cone/rd-agreements/crada/
+  as_of: '2026-10-03'
+  sources:
+  - 483
+  - 484
+  conflicts: []
+- id: partnership-intermediary-agreement
+  name: Partnership Intermediary Agreement (PIA)
+  family: partnering
+  kind: front-door
+  owner: Federal laboratories
+  agency: government-wide
+  defense: false
+  what: 'A Partnership Intermediary Agreement is "an agreement with an eligible partnership intermediary to help
+    a federal laboratory connect with small businesses" [485]. The intermediary is a state or local agency or a
+    state-affiliated nonprofit, and a PIA is not itself a contract vehicle for buying things [485]. Its authorities
+    are 15 U.S.C. 3715 and 10 U.S.C. 4124 (formerly 10 U.S.C. 2368) [485]. DOE''s SBIR/STTR application hub is run
+    through a partnership intermediary, ConnectWerx [350].
+
+    '
+  funds_or_buys: ''
+  eligibility: []
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards: []
+  steps: []
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: ''
+  official_url: https://aaf.waru.edu/aaf/contracting-cone/rd-agreements/pia/
+  as_of: '2026-10-03'
+  sources:
+  - 350
+  - 485
+  conflicts: []
+- id: prize-competitions
+  name: Federal prize competitions
+  family: null
+  kind: vehicle
+  owner: Individual agencies, with GSA guidance
+  agency: government-wide
+  defense: false
+  what: 'Federal prize competitions rest on the America COMPETES Reauthorization Act of 2010 and the American Innovation
+    and Competitiveness Act (2017), codified at 15 U.S.C. 3719 [486]. The Challenge.gov platform was sunset on March
+    30, 2026 and agencies now run challenges on their own sites [487]. The public finds challenges at USA.gov/challenges
+    [486].
+
+    '
+  funds_or_buys: ''
+  eligibility: []
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards: []
+  steps:
+  - Look for open challenges at USA.gov/challenges and on agency sites [486] [487]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes:
+  - status: final
+    date: '2026-03-30'
+    text: Challenge.gov is now a redirect notice; the platform was sunset on March 30, 2026 [487]
+  distinctive: ''
+  official_url: https://www.gsa.gov/technology/government-it-initiatives/prize-competitions
+  as_of: '2026-10-03'
+  sources:
+  - 486
+  - 487
+  conflicts: []
+- id: sttr-vs-sbir
+  name: STTR versus SBIR and university partnering
+  family: sbir-sttr
+  kind: program
+  owner: SBA and the STTR agencies
+  agency: multiple
+  defense: false
+  what: 'STTR requires a nonprofit research institution partner and an agreement allocating intellectual property,
+    and lets the principal investigator be employed by either party [488]. In STTR the small business performs at
+    least 40 percent and the research institution at least 30 percent; in SBIR the awardee performs at least two-thirds
+    of Phase I and one-half of Phase II [422]. The set-asides are 3.2% of extramural R&D for SBIR and 0.45% for
+    STTR [422] [456].
+
+    '
+  funds_or_buys: ''
+  eligibility:
+  - 'SBIR: up to 33% subcontracted in Phase I and 50% in Phase II; PI primarily employed by the small business [488]'
+  - 'STTR: small business at least 40%, research institution at least 30%; PI at either [488]'
+  - 'Set-aside thresholds: SBIR applies to agencies with extramural R/R&D over $100M and STTR to those over $1B
+    [422]'
+  - 'DoD contracts: provision 252.227-7040 and clause 252.227-7041 cover STTR intellectual-property allocation [435]'
+  - 'NIH: firms majority-owned by venture capital, hedge fund or private-equity firms are ineligible for STTR [332]'
+  - 'USDA: STTR research institution share is 30 to 60% in Phase I and Phase II, and a formal cooperative agreement
+    outlining intellectual property rights is required [377]'
+  - 'NSF: STTR requires a subaward to a not-for-profit research institution, with 1 PI and 1 co-PI [338]'
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards:
+  - phase: I
+    amount: up to $323,090 without seeking SBA approval, as of April 2026
+    duration: ''
+    cite:
+    - 301
+  - phase: II
+    amount: up to $2,153,927 without seeking SBA approval, as of April 2026
+    duration: ''
+    cite:
+    - 301
+  steps: []
+  portal: ''
+  registrations: []
+  gates:
+  - data-rights-marking
+  situations:
+  - have-technology
+  - looking-for-partners
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: The SBA tutorial says STTR partners must "establish an agreement which details the allocation of
+    intellectual property" [488]
+  official_url: https://www.sbir.gov/tutorials/program-basics/tutorial-3
+  as_of: '2026-10-03'
+  sources:
+  - 301
+  - 332
+  - 338
+  - 369
+  - 377
+  - 422
+  - 435
+  - 456
+  - 488
+  conflicts:
+  - 'Number of STTR agencies: 5 (DoD, DOE, HHS, NASA, NSF) in the sbir.gov tutorial [488] vs 6 including USDA in
+    CRS''s December 2025 overview [456]; USDA''s own page covers SBIR/STTR [369]'
+- id: fast-partnership-program
+  name: FAST (Federal and State Technology) Partnership Program
+  family: sbir-sttr
+  kind: program
+  owner: U.S. Small Business Administration, Office of Investment and Innovation
+  agency: SBA
+  defense: false
+  what: 'The FAST Partnership Program funds state and regional organizations to help firms compete for SBIR/STTR
+    [311]. Partner activities are outreach, technical and business assistance, and financial support including "Phase
+    0" proposal-development grants or loans [311]. On September 22, 2026 SBA announced more than $8 million to 50
+    organizations, up to $180,000 each, covering 49 states and Puerto Rico [313].
+
+    '
+  funds_or_buys: grants
+  eligibility:
+  - 'For applicant organizations, not firms: one applicant per state or territory, endorsed by the State governor
+    or designee [312]'
+  - Non-federal match of 50 cents, 75 cents or one dollar per federal dollar depending on the state's SBIR performance
+    tier, with not less than 50 percent of the match in cash [312]
+  cycle:
+    pattern: FY 2026 period of performance is 12 months, September 30, 2026 to September 29, 2027 [312].
+    current_solicitations:
+    - id: SBA-OIIFT-26-001
+      opens: '2026-06-02'
+      closes: '2026-07-22'
+      note: Closed July 22, 2026 at 4 p.m. Eastern; award ceiling up to $180,000; $9,000,000 in FY 2026 funding
+        [312]
+  awards:
+  - phase: FAST partner award (to organizations, not firms)
+    amount: up to $180,000
+    duration: 12 months
+    cite:
+    - 312
+  steps:
+  - Firms find their state's FAST organization among the current awardees listed on SBA's FAST page or in the September
+    22, 2026 announcement [311] [313]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - not-registered
+  - registered-no-award
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: SBA states the aim is to "increase the number of SBIR/STTR proposals leading to an increase in the
+    number of SBIR/STTR awards from small businesses owners in undercapitalized regions." [311]
+  official_url: https://www.sbir.gov/community/fast
+  as_of: '2026-10-03'
+  sources:
+  - 311
+  - 312
+  - 313
+  - 463
+  conflicts:
+  - 'Opportunity number: "SB-OIIFT-26-001" on the sbir.gov page [311] vs "SBA-OIIFT-26-001" in the NOFO [312]'
+  - 'Award counts do not reconcile: sweep C''s read of the NOFO gives about 50 awards from $9,000,000 while sweep
+    D''s read of the same NOFO gives a round open only to 13 listed jurisdictions without a partner [312]; the webinar
+    slides give at least 7 new awards from $1,260,000 set aside for new awards [463]; the release announces 50 organizations
+    [313]'
+  - 'NOFO date: posted June 2, 2026 in sweep C''s read vs 2026-06-10 in sweep D''s entry for the same file [312]'
+- id: americas-seed-fund-road-tour
+  name: America's Seed Fund Road Tour
+  family: sbir-sttr
+  kind: front-door
+  owner: U.S. Small Business Administration, Office of Investment and Innovation
+  agency: SBA
+  defense: false
+  what: 'The Road Tour is SBA''s "national outreach effort to connect innovators and entrepreneurs to non-dilutive,
+    technology funding opportunities", run by SBA''s Office of Investment and Innovation with representatives of
+    the 11 SBIR/STTR agencies [317]. The site still shows only the 2024 tour, with all stops complete and no 2025,
+    2026 or 2027 dates [317].
+
+    '
+  funds_or_buys: ''
+  eligibility: []
+  cycle:
+    pattern: Latest stops listed run January through July 2024; no later schedule was found on 2026-10-03 [317].
+    current_solicitations: []
+  awards: []
+  steps:
+  - Contact technology@sba.gov [317]
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - not-registered
+  - registered-no-award
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: ''
+  official_url: https://www.americasseedfund.us/road-tour
+  as_of: '2026-10-03'
+  sources:
+  - 317
+  conflicts: []
+- id: procurement-center-representative
+  name: SBA Procurement Center Representatives (PCRs)
+  family: null
+  kind: front-door
+  owner: U.S. Small Business Administration
+  agency: SBA
+  defense: false
+  what: 'Procurement Center Representatives are among the contracting-specific helpers SBA lists, with Commercial
+    Market Representatives, SBDCs, APEX Accelerators, the Learning Center and SCORE [472]. Sec. 6(a)(1) of P.L.
+    119-83 amends section 9(j)(4) of the Small Business Act so that Procurement Center Representatives must advocate
+    for transition of SBIR/STTR technologies to Phase III [416].
+
+    '
+  funds_or_buys: ''
+  eligibility: []
+  cycle:
+    pattern: ''
+    current_solicitations: []
+  awards: []
+  steps:
+  - 'SBA contacts: contracting@sba.gov for prime contracting and subcontracting@sba.gov for subcontracting [472]'
+  portal: ''
+  registrations: []
+  gates: []
+  situations:
+  - registered-no-award
+  - first-awards
+  modifiers:
+    rd: true
+    product: true
+    service: true
+  pending_changes:
+  - status: final
+    date: '2026-04-13'
+    text: Phase III advocacy duty enacted April 13, 2026 (sec. 6(a)(1)); how SBA is carrying it out was not found
+      in sweep D [416]
+  distinctive: 'The Act''s wording: "advocate for the maximum practicable use and transition of products, services,
+    and technologies developed under SBIR or STTR programs to Phase III" [416]'
+  official_url: https://www.sba.gov/federal-contracting/counseling-help
+  as_of: '2026-10-03'
+  sources:
+  - 416
+  - 472
+  conflicts: []

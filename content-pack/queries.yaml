@@ -1,0 +1,739 @@
+# queries.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR sweeps (slices A–D). Every entry carries recheck: true until quotes are verified against live pages.
+- text: SBIR STTR reauthorization 2026 public law signed
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: SBA SBIR STTR Policy Directive current version effective date
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: A
+- text: SBIR authorization lapse September 30 2025 solicitations paused reauthorized 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: congress.gov S.3971 Small Business Innovation and Economic Security Act public law 119
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: A
+- text: sbir.gov policy directive 2023 SBIR STTR policy directive PDF "May 3, 2023"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: A
+- text: sbir.gov performance benchmarks Phase I to Phase II transition rate commercialization benchmark 21 Phase
+    I awards 0.25
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: A
+- text: SBA policy directive 2026 SBIR STTR "Small Business Innovation and Economic Security Act" federal register
+    notice
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: A
+- text: NIH notice SBIR STTR reauthorization April 2026 resume applications lapse NOT-OD-26
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: DoD SBIR STTR proposal limit fiscal year 2027 per small business concern section 4 reauthorization
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: A
+- text: grants.nih.gov notice SBIR STTR "expired" September 30 2025 not accepting applications NOT-OD-25 OR NOT-OD-26
+    lapse authorization
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: A
+- text: NIH notice SBIR STTR programs reauthorized new funding opportunities omnibus solicitation 2026 NOT-OD-26
+    "reauthoriz"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: sbir.gov company registration "SBC Control ID" SBC_ registry required before proposal
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: sbir.gov award amount adjustment inflation $323,090 $2,153,927 Phase I Phase II waiver
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: SBA press release SBIR STTR reauthorized April 2026 Loeffler statement site:sba.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: A
+- text: DFARS 252.227-7018 "SBIR/STTR data protection period" 20 years acquisition.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: NSF SBIR STTR Phase I solicitation 2026 reauthorization proposal limit "per fiscal year" new.nsf.gov America's
+    Seed Fund resume project pitch
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: Department of War SBIR STTR "strategic breakthrough" implementation guidance 2026 defense.gov OR dodsbirsttr.mil
+    proposal limit FY2027
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: war.gov OR defense.gov release April 20 2026 SBIR STTR reauthorization topics released "Accelerated Research
+    for Transition"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: A
+- text: NSF SBIR STTR 2026 solicitation after reauthorization "Phase I" award $305,000 proposal limit nsf.gov seedfund
+    resumes
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: A
+- text: USDA STTR program small business technology transfer NIFA first STTR solicitation extramural budget exceeds
+    $1 billion
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: federalregister.gov 2026 Small Business Administration "SBIR" "STTR" Policy Directive amendments notice
+    "Public Law 119-83"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: SBIR proposal limit FY2027 announced agency "proposals per" small business concern Department of War NASA
+    DOE NSF limit July 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: A
+- text: DoD SBIR STTR 2026 BAA release schedule pre-release open close dates
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: SBIR reauthorization 2026 DoD solicitations resume AFWERX SpaceWERX
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: sbir.gov Department of Defense agency page SBIR STTR components
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: AFWERX Open Topic SBIR STTR Phase I Phase II award amount STRATFI TACFI
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: media.defense.gov "SBIR" "2026" BAA preface Department of War "Release" component instructions PDF
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: '"Small Business Innovation and Economic Security Act" signed into law SBIR STTR reauthorized through 2031'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: Army SBIR STTR armysbir.army.mil Phase I Phase II Direct to Phase II award amounts 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: Army xTech competition xTechSearch SBIR prize how to apply 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: Department of War April 20 2026 SBIR STTR release "Accelerated Research for Transition" ART program war.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: SBA press release SBIR STTR reauthorization signed April 2026 "Small Business Innovation and Economic Security
+    Act" sba.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: DIU Commercial Solutions Opening how to submit solution brief other transaction diu.mil work with us
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: Tradewinds Solutions Marketplace CDAO how to submit pitch video awardable
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: SOFWERX how to submit technology USSOCOM events assessment vendor registration sofwerx.org
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: APFIT Accelerate the Procurement and Fielding of Innovative Technologies FY2026 awards $10 million $50 million
+    small business nontraditional
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: Defense Innovation OnRamp Hubs DIU locations small business how to engage
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: business.defense.gov "Mentor-Protégé Program" DoD OSBP small business professionals directory acquisition
+    forecasts
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: MDA SBIR STTR Missile Defense Agency program Phase I Phase II amounts mda.mil small business innovation
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: Navy "Forum for SBIR/STTR Transition" FST Sea-Air-Space Navy STP 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: NavalX Tech Bridges how small business can work with Navy navalx.nre.navy.mil
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: Army SBIR CATALYST program "Army Applied SBIR" $75 million prime integrator match
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: DoD SBIR STTR "getting started" register SAM.gov UEI CAGE SBA company registry "SBC Control ID" DSIP login.gov
+    account steps
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: navysbir.com Phase I base option Phase II structure "$140,000" OR "$240,000" Navy SBIR program overview
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: Army Office of Small Business Programs army.mil/osbp forecast outreach; Department of the Air Force small
+    business office airforcesmallbiz; Navy OSBP long range acquisition forecast
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: war.gov release "SBIR" "STTR" reauthorization April 2026 Department of War "redesigned" solicitation topics
+    released
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: diu.mil "OnRamp Hub" Defense Innovation OnRamp Hubs list Arizona Hawaii Kansas Ohio Washington new hubs
+    2025 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: USSOCOM SBIR STTR socom.mil Phase I Phase II amounts SOFWERX submission 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: AFWERX SBIR STTR 2026 "Release" open topic specific topic "D2P2" afwerx.com get funded SBIR
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: Defense Health Agency SBIR STTR program Phase I Phase II amounts DHA small business innovation research
+    site:health.mil OR site:usamraa.health.mil
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: Department of the Air Force Office of Small Business Programs long range acquisition forecast "small business"
+    airforcesmallbiz.af.mil outreach events
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: B
+- text: navystp.com "Forum for SBIR/STTR Transition" OR "FST" Navy STP showcase 2026 Sea-Air-Space
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: B
+- text: SBIR STTR reauthorization April 13 2026 agency solicitations FY2026 sbir.gov
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: NIH notice SBIR STTR reauthorization 2026 NOT-OD-26 small business programs resume
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: NSF SBIR STTR Phase I solicitation 2026 NSF 26- "America's Seed Fund" reauthorization project pitch reopen
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: DOE Office of Technology Commercialization SBIR STTR FY2027 Phase I funding opportunity topics release schedule
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: '"PA-27-100" NIH CDC FDA Small Business Innovation Research Grant Parent SBIR R43/R44'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: NASA SBIR STTR Program Year 2026 Broad Agency Announcement BAA appendix Phase I open close dates
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: USDA NIFA SBIR STTR Phase I FY 2027 request for applications deadline
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: DHS SBIR 2026 solicitation topics pre-solicitation Science and Technology Directorate sbir.dhs.gov
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: DHS SBIR "26.1" OR "FY26" solicitation Phase I topics released 2026 dhs.gov science and technology
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: nasa.gov sbir_sttr "ProSAMS" BAA 2026 Phase I award amount "Appendix" program year 2026 how to apply
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: DHS Science and Technology SBIR program 2026 solicitation announcement reauthorization "SBIR" dhs.gov news
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: NOAA SBIR FY2027 Phase I notice of funding opportunity fall 2026 techpartnerships.noaa.gov
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: 'nifa.usda.gov SBIR STTR program page FY 2026 Phase I RFA reauthorization (domains: nifa.usda.gov, usda.gov,
+    grants.gov)'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: ARPA-E SBIR STTR program funding opportunity 2026 arpa-e.energy.gov
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: 'NIH notice SBIR STTR "reauthorized" 2026 grants.nih.gov guide notice resumption parent announcements reissue
+    "NOT-OD-26" (domains: nih.gov)'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 7
+  date: '2026-10-03'
+  slice: C
+- text: sbir.gov "Road Tour" 2026 SBIR Road Tour America's Seed Fund schedule
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: SBA Federal and State Technology (FAST) Partnership Program 2026 awards funding opportunity sba.gov
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: USDA NIFA SBIR STTR Phase I FY 2026 RFA USDA-NIFA-SBIR 2026 closing date grants.gov
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: DHS SBIR program "Long Range Broad Agency Announcement" OR "SBIR" 2026 "oip.dhs.gov" OR "sbir2.st.dhs.gov"
+    solicitation portal
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: FDA SBIR program small business innovation research fda.gov grants R43 R44 how to apply
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: NSF America's Seed Fund relaunch 2026 announcement "NSF 26-510" new solicitation changes Project Pitch news
+    nsf.gov
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: DHS SBIR "26.1" pre-solicitation 2026 topics Homeland Security small business innovation research announced
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: DOE SBIR STTR Phase I Genesis Mission 2026 award amount "$200,000" OR "$250,000" OR "$275,000" pitch ConnectWerx
+    Phase I duration
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: 'energy.gov technologycommercialization SBIR STTR "Phase I" "Phase II" award amounts "pitch" "Strategic
+    Breakthrough" FAQ how to apply 2026 (domains: energy.gov, connectwerx.org, osti.gov)'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 1
+  date: '2026-10-03'
+  slice: C
+- text: USDA SBIR/STTR Phase II FY 2026 "USDA-NIFA-SBIR" posted October 1 2026 closing November 17 2026
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: 'CDC SBIR small business innovation research program cdc.gov about how to apply (domains: cdc.gov, fda.gov)'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: '"PHS 2027-1" OR "PHS-2027-1" HHS SBIR contract solicitation NIH CDC 2026 release proposals due'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: ED IES SBIR FY2027 solicitation release expected OR forecast ies.ed.gov
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: NIST SBIR 2026 notice of funding opportunity "2026-NIST-SBIR" OR "FY2026" Phase I grants.gov
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: USDA NIFA SBIR Phase I FY 2026 request for applications released 2026 "Phase I" NIFA announcement small
+    business deadline
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: '"PA-27-102" NIH Small Business Technology Transfer Grant Parent STTR R41/R42 simpler.grants.gov'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: Department of Homeland Security SBIR program status 2026 "SBIR" solicitation "DHS" S&T "FY26" OR "FY27"
+    Phase I topics release after reauthorization
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: 'FDA small business innovation research SBIR fda.gov "SBIR" program page Office of Acquisitions and Grants
+    Services (domain: fda.gov)'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 6
+  date: '2026-10-03'
+  slice: C
+- text: 'DHS S&T SBIR solicitation 2026 (domains: dhs.gov, sam.gov)'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: DOE SBIR STTR FY25 Phase II 2026 opportunity ConnectWerx Phase II award maximum "Phase II.2" "Strategic
+    Breakthrough Award" amounts
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: USDA NIFA SBIR STTR Phase I FY 2026 closing September 23 2026 "USDA-NIFA-SBIR-01" funding opportunity
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: 'NIFA "technical assistance webinar" FY 2026 SBIR/STTR Programs Phase I request for applications (domain:
+    nifa.usda.gov)'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: 'seed.nih.gov "register your company" SBIR STTR registrations SAM SBA Company Registry eRA Commons Grants.gov
+    "6 weeks" (domains: seed.nih.gov, grants.nih.gov)'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 1
+  date: '2026-10-03'
+  slice: C
+- text: SBA press release SBIR STTR reauthorized April 2026 "Small Business Innovation and Economic Security Act"
+    sba.gov Loeffler America's Seed Fund
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: '"USDA-NIFA-SBIR-012" Phase I 2026 Small Business Innovation Research NIFA grants.gov'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 10
+  date: '2026-10-03'
+  slice: C
+- text: DHS SBIR "26.1" OR "27.1" solicitation 2026 homeland security small business innovation research topics
+    "pre-solicitation" September 2026
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: '"NSF 26-511" SBIR STTR "Pilot Emphasis on Scientific Instrumentation" nsf.gov solicitation'
+  engine: WebSearch tool (underlying engine not disclosed)
+  hits: 9
+  date: '2026-10-03'
+  slice: C
+- text: SBIR STTR reauthorization 2026 act signed Phase III "simplified and standardized procedures"
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: SBIR Phase III sole source "to the greatest extent practicable" 15 U.S.C. 638(r)(4) policy directive
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: GAO report SBIR Phase III awards DoD data tracking findings
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: DFARS 252.227-7018 SBIR data rights protection period 20 years marking legend
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: S.3971 "Small Business Innovation and Economic Security Act" public law signed April 2026 SBIR
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: sbir.gov SBIR STTR reauthorized 2026 programs extended September 30 2031 SBA announcement
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: '"Public Law 119-83" Small Business Innovation and Economic Security Act'
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: Department of War SBIR STTR proposal limit fiscal year 2027 maximum number of proposals per small business
+    DSIP
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: APFIT Accelerate the Procurement and Fielding of Innovative Technologies official page award range $10 million
+    $50 million
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: Navy SBIR/STTR Transition Program STP Forum for SBIR/STTR Transition navystp.com
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: AFWERX STRATFI TACFI program amounts matching funds SBIR STTR 2026
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: Army SBIR Catalyst program $15 million match transition partner armysbir.army.mil
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: Department of War SBIR STTR "Accelerated Research for Transition" ART program April 2026 release war.gov
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: sbir.gov Technical and Business Assistance TABA $6,500 Phase I $50,000 Phase II
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: DoD SBIR "Phase II Enhancement" matching funds policy defensesbirsttr.mil Commercialization Readiness Program
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: SBA FAST Federal and State Technology Partnership Program awards 2026 sbir.gov
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: SBIR Road Tour 2026 America's Seed Fund Road Tour stops sbir.gov
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: APEX Accelerators Department of War Office of Small Business Programs number of APEX Accelerators nationwide
+    formerly PTAC business.defense.gov
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: '"APEX Accelerators" sba.gov OR war.gov OR defense.gov "no cost" find your local APEX Accelerator cooperative
+    agreement 10 U.S.C. chapter 388'
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: MBDA Business Centers 2026 status Minority Business Development Agency executive order reduction centers
+    closed
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: GAO SBIR multiple award winners commercialization "performance standards" report GAO-24-106398 findings
+    firms 50 or more Phase II
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: GAO SBIR STTR due diligence foreign risk "countries of concern" report 2025 agencies denied awards number
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: DoD Inspector General audit SBIR Phase III sole-source awards report findings
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: Department of Justice SBIR fraud False Claims Act settlement 2026 small business research awards certification
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: DODIG audit "SBIR" "Phase III" Department of Defense Inspector General report 2024 OR 2025 OR 2026
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: GAO SBIR DoD technology transition Phase III "program of record" report recommendations data on transition
+    outcomes
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: DODIG-2014-049 "Small Business Innovation Research" intellectual property protections Phase III contracts
+    program improvements needed
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: SBA OIG SBIR STTR fraud waste abuse certification lifecycle certification false statements penalties sbir.gov
+    "fraud, waste and abuse"
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: state SBIR matching grant program official site Phase 0 "matching" North Carolina One NC Small Business
+    Program Kentucky SBIR match Innovate Alabama supplemental grant
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: Innovate Alabama SBIR STTR supplemental grant program matching Phase I Phase II amounts
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: Kentucky SBIR STTR matching funds program official ced.ky.gov OR kyinnovation.com Phase I match $100,000
+    Phase II $500,000
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: acquisition.gov FAR "Phase III" SBIR "6.302-5" OR "5.202" statute authorized exception FAR overhaul 2025
+    part 6
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: SBIR proposal limit fiscal year 2027 "maximum number of proposals" agency announcement NIH OR NSF OR DOE
+    OR NASA "Small Business Innovation and Economic Security Act"
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: 'CRS R48629 "Small Business Research Programs: Selected Issues for Reauthorization" multiple award recipients
+    "SBIR mills" INNOVATE Act'
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: Partnership Intermediary Agreement 15 U.S.C. 3715 DoD official page what is a PIA small business technology
+    transfer
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: Cooperative Research and Development Agreement CRADA 15 U.S.C. 3710a federal laboratory official page what
+    is a CRADA no funds to non-federal party
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: GSA Challenge.gov sunset March 30 2026 prize competitions guidance page agencies
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: Navy "Forum for SBIR/STTR Transition" FST 2026 Sea-Air-Space navystp
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: SBA "Road Tour" SBIR 2026 America's Seed Fund tour announced stops September OR October 2026
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 10
+  date: '2026-10-03'
+  slice: D
+- text: MassVentures START program SBIR Phase II grants Massachusetts stage I $100,000 official
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: Minority Business Development Agency 2026 business centers grants terminated court injunction status mbda.gov
+    operating
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: GAO SBIR STTR commercialization outcomes sales investment data "Phase III" unreliable report agencies' commercialization
+    data GAO-22 OR GAO-23 OR GAO-26
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
+- text: SBA SBIR STTR Policy Directive 2026 Federal Register notice revision implement Public Law 119-83 proposed
+    amendments
+  engine: Claude Code WebSearch tool (US web index)
+  hits: 9
+  date: '2026-10-03'
+  slice: D
