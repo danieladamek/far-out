@@ -1,31 +1,31 @@
-# mechanics.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
+# mechanics.yaml — FAR Out content pack · consolidated 2026-10-03 (URL dedupe, sequential renumbering with prev_n, id merges, 25-word quotes). recheck: true until the live-page pass clears each entry.
 - id: reading-sam-gov
   name: Reading SAM.gov contract opportunities
   what:
   - 'SAM.gov is the Governmentwide point of entry (GPE): "The single point where Government business opportunities
     greater than $25,000, including synopses of proposed contract actions, solicitations, and associated information,
-    can be accessed electronically by the public." [791]'
+    can be accessed electronically by the public." [418]'
   - '"Contract opportunities are procurement notices from federal contracting offices."; anyone can search without
-    an account [794]'
-  - An account lets a user "save searches, follow changes to opportunities, and join interested vendor lists" [794];
-    SAM.gov help covers how to get email notifications of saved search results [795]
-  - The interested vendor list is a per-notice setting the contracting office enables [793]
+    an account [569]'
+  - An account lets a user "save searches, follow changes to opportunities, and join interested vendor lists" [569];
+    SAM.gov help covers how to get email notifications of saved search results [570]
+  - The interested vendor list is a per-notice setting the contracting office enables [568]
   - A synopsis carries eighteen data elements, including Product or Service Code, Closing Response Date, Contact
-    Point, Description, Place of Contract Performance and Set-aside Status [789]
+    Point, Description, Place of Contract Performance and Set-aside Status [565]
   - 'What the early notices are for, per GSA: an RFI is used early, before requirements are defined, for planning;
     a sources sought is posted after requirements are defined and is "primarily used to identify small businesses
-    capable of performing/providing the requirement" [797]'
+    capable of performing/providing the requirement" [572]'
   - The FAR term comes from 5.205, where advance R&D notices are titled "Research and Development Sources Sought"
-    [788]
-  - '"RFI" is not among the notice-type codes [792]; RFIs are a FAR 15.201 technique [822]. That RFIs are posted
+    [564]
+  - '"RFI" is not among the notice-type codes [567]; RFIs are a FAR 15.201 technique [590]. That RFIs are posted
     as sources-sought or special notices is the sweep''s inference from the code list; no page fetched says it outright
-    [792]'
+    [567]'
   - 'Award history: "All public-facing functionality of FPDS has been fully transitioned to Sam.gov."; ezSearch
-    was decommissioned February 24, 2026 [816]. Non-federal users cannot see DoD data until 90 days after signing
-    [817]'
+    was decommissioned February 24, 2026 [584]. Non-federal users cannot see DoD data until 90 days after signing
+    [585]'
   notice_types:
     cite:
-    - 792
+    - 567
     codes:
     - code: u
       name: Justification (J&A)
@@ -52,7 +52,7 @@
       name: Fair Opportunity/Limited Sources
   set_aside_codes:
     cite:
-    - 792
+    - 567
     codes:
     - SBA
     - SBP
@@ -114,47 +114,47 @@
       - VSS
       gloss: (VA veteran-owned)
     notes:
-    - The code list is from the API documentation [792]; the glosses are the sweep's own wording in its findings
-      and need confirming per code on the API page [792]
-    - Set-aside descriptions in the posting API cite FAR 19.5, 19.8, 19.13, 19.14, 19.15 and 26.2 [793]
-    - The set-aside type (total, partial, local area) must be identified in the synopsis and the solicitation [789]
+    - The code list is from the API documentation [567]; the glosses are the sweep's own wording in its findings
+      and need confirming per code on the API page [567]
+    - Set-aside descriptions in the posting API cite FAR 19.5, 19.8, 19.13, 19.14, 19.15 and 26.2 [568]
+    - The set-aside type (total, partial, local area) must be identified in the synopsis and the solicitation [565]
   active_flag:
-  - '`active`: Yes means an active opportunity; No means archived [792]'
-  - '`archiveDate` and `archiveType` (manual or automatic) record when and how a notice leaves the active set [792]'
+  - '`active`: Yes means an active opportunity; No means archived [567]'
+  - '`archiveDate` and `archiveType` (manual or automatic) record when and how a notice leaves the active set [567]'
   - On the posting side, archive options include auto30 (automatic archive 30 days after) and autocustom (a date
-    the poster sets) [793]
-  - Search has a "Show active only" option [794]
+    the poster sets) [568]
+  - Search has a "Show active only" option [569]
   deadline:
-  - '`responseDeadLine`: the date by which responses are due [792]'
+  - '`responseDeadLine`: the date by which responses are due [567]'
   - '"notice must be published at least 15 days before issuance of a solicitation", with exceptions for commercial
-    products and services [787]'
+    products and services [563]'
   - At least 30 days response time for non-commercial actions exceeding the simplified acquisition threshold; at
-    least 45 days for research and development actions expected to exceed it [787]
+    least 45 days for research and development actions expected to exceed it [563]
   - For commercial acquisitions and actions over $25,000 but under the SAT, the contracting officer sets a reasonable
-    response time [787]
+    response time [563]
   - 'WTO GPA / FTA acquisitions: at least 40 days between synopsis and offer receipt, reducible to 10 days if covered
-    by a published annual forecast [787]'
+    by a published annual forecast [563]'
   synopsis_thresholds:
-  - 'Over $25,000: the proposed contract action is synopsized in the GPE [786]'
+  - 'Over $25,000: the proposed contract action is synopsized in the GPE [562]'
   - '$20,000 to $25,000: an unclassified notice displayed in a public place or by any appropriate electronic means,
     posted not later than the solicitation issue date and kept up for at least 10 days or until after quotations
-    have been opened, whichever is later [786]'
+    have been opened, whichever is later [562]'
   - Contract awards exceeding $25,000 are synopsized when covered by trade agreements or likely to result in subcontracts
-    (5.301) [785]
+    (5.301) [561]
   - Since October 1, 2025 (FAC 2025-06) the micro-purchase threshold is $15,000 and the simplified acquisition threshold
-    $350,000 [810]
+    $350,000 [340]
   - 'SBA''s plain version: "Government agencies are required to use SAM to advertise all contracts over $25,000."
-    [823]'
+    [443]'
   data_extract:
   - 'Data access routes named on SAM.gov: DataBank reports, downloadable contract opportunity data files, public
-    API [794]'
+    API [569]'
   - 'Public API: production endpoint https://api.sam.gov/opportunities/v2/search; API key required; posted-date
-    range limited to 1 year [792]'
+    range limited to 1 year [567]'
   - The data.gov record for the extract points to https://sam.gov/data-services/Contract%20Opportunities?privacy=Public,
-    with contact IAE Outreach (iaeoutreach@gsa.gov); update frequency is not stated on the record [796]
+    with contact IAE Outreach (iaeoutreach@gsa.gov); update frequency is not stated on the record [571]
   - 'Award data: the SAM.gov Contract Awards API (production endpoint https://api.sam.gov/contract-awards/v1/search)
     replaced the FPDS ATOM feed; daily limits are 10 requests for a non-federal user without a SAM.gov role and
-    1,000 with a role [818] [816]'
+    1,000 with a role [586] [584]'
   official_url: https://sam.gov/content/opportunities
   pending_changes:
   - status: class-deviation
@@ -164,189 +164,189 @@
       than $20,000; Table 5-2 has over $20K to $25K posted for 10 days and over $25K posted 15 days before solicitation
       issuance; Table 5-3 sets no fixed minimum response time from $15K to the SAT outside trade agreements and
       30 days from solicitation over the SAT for non-commercial buys; no text on "sources sought" was returned.
-      Codified FAR 5.101, 5.203, 5.205 and 5.207 remain the primary citations here [800]'
+      Codified FAR 5.101, 5.203, 5.205 and 5.207 remain the primary citations here [573]'
   - status: class-deviation
     date: ''
     text: Agencies shown with Part 5 class deviations include DoD, DHS, GSA and CFTC (list as returned by the fetch;
-      likely incomplete); the dates of those agency deviations were not captured [798]
+      likely incomplete); the dates of those agency deviations were not captured [389]
   - status: proposed
     date: '2026-06-23'
     text: FAR Case 2026-005 would codify the overhaul of Part 5; the fetch reported a lower-tier notice threshold
       moving from $25,000 to $45,000 and an award-announcement threshold from $4.5 million to $5.5 million, to be
-      verified against the rule text; comments were due July 23, 2026 [801]
+      verified against the rule text; comments were due July 23, 2026 [574]
   - status: proposed
     date: '2026-06-23'
-    text: FAR Case 2026-001 (91 FR 37550) covers Parts 1, 2, 4, 33, 39, 40 and 53, including definitions [802]
+    text: FAR Case 2026-001 (91 FR 37550) covers Parts 1, 2, 4, 33, 39, 40 and 53, including definitions [403]
   as_of: '2026-10-03'
   sources:
-  - 785
-  - 786
-  - 787
-  - 788
-  - 789
-  - 791
-  - 792
-  - 793
-  - 794
-  - 795
-  - 796
-  - 797
-  - 798
-  - 800
-  - 801
-  - 802
-  - 810
-  - 816
-  - 817
-  - 818
-  - 822
-  - 823
+  - 340
+  - 389
+  - 403
+  - 418
+  - 443
+  - 561
+  - 562
+  - 563
+  - 564
+  - 565
+  - 567
+  - 568
+  - 569
+  - 570
+  - 571
+  - 572
+  - 573
+  - 574
+  - 584
+  - 585
+  - 586
+  - 590
   conflicts:
-  - 'Contract award data floor: actions of $10,000 or more [817] vs unclassified actions above the micro-purchase
-    threshold [816]'
+  - 'Contract award data floor: actions of $10,000 or more [585] vs unclassified actions above the micro-purchase
+    threshold [584]'
   - No primary page was read that defines each notice type in prose or says what happens to a notice after the response
-    date; SAM.gov help articles sit on fsd.gov, which blocks fetching [795]
+    date; SAM.gov help articles sit on fsd.gov, which blocks fetching [570]
 - id: market-research-firm-side
   name: Market research from the firm's side
   what:
   - 'Statutory forecast duty (15 U.S.C. 637(a)(12)(C)): each executive agency reporting to FPDS contract actions
     with an aggregate value above $50,000,000 "shall prepare a forecast of expected contract opportunities or classes
     of contract opportunities for the next and succeeding fiscal years"; the quoted sentence goes on to small business
-    concerns, where the fetch cut it off [811]'
-  - The FAR itself only says that publicising long-range acquisition estimates "may be desirable" (FAR 5.404) [790]
+    concerns, where the fetch cut it off [579]'
+  - The FAR itself only says that publicising long-range acquisition estimates "may be desirable" (FAR 5.404) [566]
   - GSA's Forecast of Contracting Opportunities tool, at https://acquisitiongateway.gov/forecast, is "a governmentwide
     planning tool that shows upcoming federal contract opportunities"; registration is not required to search, and
-    it is for information and planning purposes only [814]
+    it is for information and planning purposes only [582]
   - A November 29, 2024 OFPP memo set 19 core data elements (including NAICS code, estimated value range, set-aside,
     anticipated solicitation timing, contacts) and reporting "on no less than a quarterly basis"; it was read from
-    the archived White House site and its current status is not confirmed [812]
+    the archived White House site and its current status is not confirmed [580]
   - acquisition.gov indexes forecast links for 22 agencies; several links redirect or are stale, and it does not
-    list EPA or SBA [813]
+    list EPA or SBA [581]
   - 'Several agencies send firms to the GSA tool rather than hosting their own forecast: USDA, DOL, DOI, DOT (FY26
-    onward), NRC and OPM [906] [913] [914] [916] [920] [921]'
+    onward), NRC and OPM [668] [675] [676] [678] [682] [683]'
   - The buyer's own market research techniques include contacting knowledgeable people in industry, publishing formal
     requests for information, querying the governmentwide database of contracts, and presolicitation conferences;
-    the research must address whether small businesses can meet the need [821]
+    the research must address whether small businesses can meet the need [589]
   - 'Award history: "All contract award data that was previously available in FPDS.gov is now available in SAM.gov.";
-    a SAM.gov account is needed to see search results, and no role is required [816]'
-  - 'USAspending API: V2 endpoints are available and V1 is deprecated; maintained by Treasury [819]'
+    a SAM.gov account is needed to see search results, and no role is required [584]'
+  - 'USAspending API: V2 endpoints are available and V1 is deprecated; maintained by Treasury [587]'
   - '"Exchanges of information among all interested parties, from the earliest identification of a requirement through
     receipt of proposals, are encouraged."; techniques include industry or small business conferences, one-on-one
-    meetings, draft RFPs and RFIs [822]'
+    meetings, draft RFPs and RFIs [590]'
   - Once the solicitation is out, "the contracting officer must be the focal point of any exchange with potential
-    offerors" [822]
+    offerors" [590]
   - 'SBA''s list of where to look: SAM.gov; Small Business Search (SBS), the database agencies use to find small
     contractors; SubNet, which lists subcontracting opportunities posted by large contractors; and agency procurement
-    forecasts [823]'
+    forecasts [443]'
   - GSA points small firms to its forecast tool and to subcontracting leads via SBA SubNet, SAM.gov, USASpending.gov
-    and GSA's Subcontracting Directory [722]
+    and GSA's Subcontracting Directory [498]
   official_url: https://www.acquisition.gov/procurement-forecasts
   pending_changes:
   - status: class-deviation
     date: '2025-09-30'
     text: Overhaul Part 15 (model deviation text issued September 30, 2025) puts early exchanges with industry at
-      15.101; codified FAR 15.201 remains the primary citation here [807]
+      15.101; codified FAR 15.201 remains the primary citation here [577]
   - status: class-deviation
     date: '2025-08-08'
     text: 'Overhaul Part 5 (issued August 8, 2025; updated March 16, 2026): no text on forecasts was returned, so
-      no deviation number is recorded for the rule at codified FAR 5.404 [800]'
+      no deviation number is recorded for the rule at codified FAR 5.404 [573]'
   - status: class-deviation
     date: '2026-03-16'
     text: The overhaul model text for Part 10 was among those updated March 16, 2026; it was not read, so the deviation
-      number for the rule at codified FAR 10.002 is not recorded [804]
+      number for the rule at codified FAR 10.002 is not recorded [575]
   as_of: '2026-10-03'
   sources:
-  - 722
-  - 790
-  - 800
-  - 804
-  - 807
-  - 811
-  - 812
-  - 813
-  - 814
-  - 816
-  - 819
-  - 821
-  - 822
-  - 823
-  - 906
-  - 913
-  - 914
-  - 916
-  - 920
-  - 921
+  - 443
+  - 498
+  - 566
+  - 573
+  - 575
+  - 577
+  - 579
+  - 580
+  - 581
+  - 582
+  - 584
+  - 587
+  - 589
+  - 590
+  - 668
+  - 675
+  - 676
+  - 678
+  - 682
+  - 683
   conflicts:
-  - SBA's page still recommends FPDS and USASpending.gov for procurement trends [823], although the public functions
-    of FPDS moved to SAM.gov on February 24, 2026 [816]
+  - SBA's page still recommends FPDS and USASpending.gov for procurement trends [443], although the public functions
+    of FPDS moved to SAM.gov on February 24, 2026 [584]
 - id: responding
   name: 'Responding: sources sought, capability statements, offers and debriefings'
   what:
   - 'Answering a sources-sought notice feeds the "rule of two": over the simplified acquisition threshold a buy
     is set aside when offers are reasonably expected from at least two responsible small businesses at fair market
-    prices [828]'
+    prices [384]'
   - 'Agency templates put a capability statement on one page: core competencies, past performance, differentiators
-    and company data [825]'
+    and company data [592]'
   - A written debriefing request is due within 3 days, of the exclusion notice before award or of the award notification
-    after it [832] [833]
-  - In DoD, awards of $10 million or more carry a debriefing on request and a round of follow-up questions [834]
+    after it [598] [599]
+  - In DoD, awards of $10 million or more carry a debriefing on request and a round of follow-up questions [600]
   sources_sought:
   - Above the micro-purchase threshold and not over the simplified acquisition threshold, an acquisition "shall
-    be set aside for small business unless" two responsible small businesses cannot reasonably be expected [828]
+    be set aside for small business unless" two responsible small businesses cannot reasonably be expected [384]
   - Over the simplified acquisition threshold, the acquisition is set aside when offers are reasonably expected
-    from at least two responsible small businesses at fair market prices [828]
+    from at least two responsible small businesses at fair market prices [384]
   - GSA describes a sources sought as posted after requirements are defined and primarily used to identify capable
     small businesses, "if there is a reasonable expectation of obtaining two or more offers from small business
-    concerns" [797]
+    concerns" [572]
   - Contracting officers must consider potential sources that respond to advance R&D notices for a subsequent solicitation
-    [788]
+    [564]
   - 'An RFI is not a solicitation: "RFIs may be used when the Government does not presently intend to award a contract,
-    but wants to obtain price, delivery, other market information, or capabilities for planning purposes." [822]'
+    but wants to obtain price, delivery, other market information, or capabilities for planning purposes." [590]'
   - Sole-source notices state that responsible sources may submit a capability statement, proposal or quotation,
-    which the agency must consider [789]
+    which the agency must consider [565]
   capability_statement:
   - 'HHS elements: branding; company summary; core capabilities; major services; federal small business certifications;
     contract vehicles; state certifications; agencies served; major clients; NAICS codes; partners; staff clearances;
-    company data (CAGE code); contact information; length "1 page (front and back)" [824]'
+    company data (CAGE code); contact information; length "1 page (front and back)" [591]'
   - 'NIH template: one page, single-sided preferred; PDF under 1MB; tailored per agency or opportunity; past performance
     ordered with the target agency first, then federal, other government, commercial; company data block with CAGE
-    code, NAICS codes, socio-economic certifications, GSA Schedule and contract vehicles [825]'
+    code, NAICS codes, socio-economic certifications, GSA Schedule and contract vehicles [592]'
   - 'Treasury: contact details, NAICS codes, past performance examples, certifications, logo, value proposition
-    [826]'
+    [593]'
   - HHS vendor engagement sessions are pre-arranged 15-minute appointments with Small Business Specialists and require
-    an SBCX profile and an uploaded capability statement [827]
-  - The HHS page still names the D-U-N-S number and the NIH template still says DUNS [824] [825]; the SAM-generated
-    Unique Entity ID took over on April 4, 2022 [844]
+    an SBCX profile and an uploaded capability statement [594]
+  - The HHS page still names the D-U-N-S number and the NIH template still says DUNS [591] [592]; the SAM-generated
+    Unique Entity ID took over on April 4, 2022 [608]
   offers:
   - 'Part 15: the RFP must state the requirement, terms and conditions, information required in the proposal, and
     evaluation factors and significant subfactors; Section L holds instructions to offerors and Section M the evaluation
-    factors and their relative importance [829]'
-  - A proposal received after the deadline is "late" and not considered unless an exception applies [829]
+    factors and their relative importance [595]'
+  - A proposal received after the deadline is "late" and not considered unless an exception applies [595]
   - Price or cost is evaluated in every source selection; a firm with no record "may not be evaluated favorably
-    or unfavorably on past performance"; award without discussions is allowed if the solicitation says so [830]
+    or unfavorably on past performance"; award without discussions is allowed if the solicitation says so [596]
   - '"Oral presentations by offerors as requested by the Government may substitute for, or augment, written information.";
-    representations, certifications and the signed offer must still be in writing [831]'
+    representations, certifications and the signed offer must still be in writing [597]'
   - 'Part 12 commercial buys: provisions 52.212-1 (Instructions to Offerors) and 52.212-3 (Offeror Representations
     and Certifications), clause 52.212-4 (Contract Terms and Conditions), on firm-fixed-price contracts or fixed-price
-    contracts with economic price adjustment [835]'
+    contracts with economic price adjustment [601]'
   - 'Part 13: "A quotation is not an offer and, consequently, cannot be accepted by the Government to form a binding
     contract."; simplified procedures for commercial products and services run up to $9 million ($15 million for
-    acquisitions described in 13.500(c)) [836]'
+    acquisitions described in 13.500(c)) [602]'
   - 'GSA''s explainer: an RFQ is for simplified acquisitions or GSA Schedule holders; an RFP is a formal solicitation
-    expected to exceed the simplified acquisition threshold [797]'
+    expected to exceed the simplified acquisition threshold [572]'
   debriefings:
   - 'Preaward (FAR 15.505): written request "within 3 days after receipt of the notice of exclusion from the competition";
-    the offeror may ask to delay the debriefing until after award [832]'
+    the offeror may ask to delay the debriefing until after award [598]'
   - 'Postaward (FAR 15.506): written request within 3 days after the offeror received notification of contract award;
-    the debriefing should occur within 5 days after receipt of the written request [833]'
+    the debriefing should occur within 5 days after receipt of the written request [599]'
   - 'Minimum content: significant weaknesses or deficiencies; overall evaluated cost or price and technical rating
     of the awardee and the debriefed offeror; overall ranking if any; summary of the rationale for award; no point-by-point
-    comparison with other offerors [833]'
+    comparison with other offerors [599]'
   - 'DoD enhanced debriefings (DFARS Case 2018-D009, effective March 18, 2022): for awards of $10 million or more
     a debriefing is required on request; over $10 million and not over $100 million, small businesses and nontraditional
-    defense contractors may request the redacted source selection decision document [834]'
+    defense contractors may request the redacted source selection decision document [600]'
   - 'DoD: follow-up questions within 2 business days after the debriefing, answered in writing within 5 business
-    days; applies to task and delivery orders of $10 million or more; clauses 252.215-7016 and 252.216-7010 [834]'
+    days; applies to task and delivery orders of $10 million or more; clauses 252.215-7016 and 252.216-7010 [600]'
   official_url: https://www.gsa.gov/system/files/Pre-Award%20Notices%20-%20508%20-%2008272021.pdf
   pending_changes:
   - status: class-deviation
@@ -354,79 +354,79 @@
     text: 'Overhaul Part 15 (model deviation text issued September 30, 2025) renumbers what this record cites at
       the codified numbers: early exchanges with industry at 15.101 (codified 15.201); oral presentations at 15.105-1
       (codified 15.102); uniform contract format at 15.109; preaward debriefings at 15.206-2 with a 3-day request
-      window (codified 15.505); postaward debriefings at 15.301-1 (codified 15.506) [807]'
+      window (codified 15.505); postaward debriefings at 15.301-1 (codified 15.506) [577]'
   - status: class-deviation
     date: '2025-08-14'
     text: Overhaul Part 12 (issued August 14, 2025; updated April 20, 2026) is reorganised into subparts 12.1 Presolicitation,
       12.2 Solicitation, Evaluation, and Award, 12.3 Postaward and 12.4 Micro-purchases, with simplified procedures
       up to $9 million ($15 million for contingency, defense-against-attack and emergency uses); the fetch listed
-      52.212-1, 52.212-2 and 52.212-4 as retained and did not list 52.212-3 [806]
+      52.212-1, 52.212-2 and 52.212-4 as retained and did not list 52.212-3 [395]
   - status: class-deviation
     date: '2025-09-18'
     text: Overhaul Part 13 was issued September 18, 2025; it was not read, so deviation numbers for the codified
-      Part 13 rules cited here are not recorded [798]
+      Part 13 rules cited here are not recorded [389]
   - status: class-deviation
     date: ''
     text: Overhaul Part 19 was not read in slices SC or SD, so the deviation number and date for the rule of two
-      at codified FAR 19.502-2 are not recorded [828]; the deviation guide lists each part's model text [798]
+      at codified FAR 19.502-2 are not recorded [384]; the deviation guide lists each part's model text [389]
   - status: class-deviation
     date: ''
     text: The current DFARS section page for enhanced debriefings (215.506-70) returned 404, so the enhanced debriefing
-      facts are from the 2022 final rule [834]; DoD's overhaul class deviations, each with a matching DFARS part,
-      are dated December 2025 to March 2026 [809]
+      facts are from the 2022 final rule [600]; DoD's overhaul class deviations, each with a matching DFARS part,
+      are dated December 2025 to March 2026 [401]
   as_of: '2026-10-03'
   sources:
-  - 788
-  - 789
-  - 797
-  - 798
-  - 806
-  - 807
-  - 809
-  - 822
-  - 824
-  - 825
-  - 826
-  - 827
-  - 828
-  - 829
-  - 830
-  - 831
-  - 832
-  - 833
-  - 834
-  - 835
-  - 836
-  - 844
+  - 384
+  - 389
+  - 395
+  - 401
+  - 564
+  - 565
+  - 572
+  - 577
+  - 590
+  - 591
+  - 592
+  - 593
+  - 594
+  - 595
+  - 596
+  - 597
+  - 598
+  - 599
+  - 600
+  - 601
+  - 602
+  - 608
   conflicts: []
 - id: payment-and-performance
   name: Payment and performance
   what:
   - 'Prompt payment: the due date is the later of the 30th day after the billing office receives a proper invoice
-    or the 30th day after Government acceptance; late payment earns interest automatically [898]'
+    or the 30th day after Government acceptance; late payment earns interest automatically [660]'
   - Constructive acceptance falls on the 7th day after delivery for computing interest; shorter periods apply to
-    perishables (meat and fish 7 days; perishable agricultural commodities and dairy 10 days) [898]
+    perishables (meat and fish 7 days; perishable agricultural commodities and dairy 10 days) [660]
   - The prompt payment interest rate for July 1–December 31, 2026 is 4.75%; the governing rule is 5 CFR Part 1315
-    [901]
+    [663]
   - A proper invoice includes name and address, invoice date and number, contract number, description and price,
-    payment address, and TIN and EFT details where required [898]
+    payment address, and TIN and EFT details where required [660]
   - 'Accelerated payment to small business primes: agencies "shall provide accelerated payments, to the fullest
     extent permitted by law, with a goal of 15 days after receipt of a proper invoice"; it is a goal, not a right,
-    and Prompt Payment Act interest rules are unchanged [900]'
+    and Prompt Payment Act interest rules are unchanged [662]'
   - 'Small subcontractors: "within 15 days after receipt of accelerated payments from the Government, the Contractor
     shall make accelerated payments to its small business subcontractors"; no fees may be charged, and the clause
-    creates no new Prompt Payment Act rights [899]'
+    creates no new Prompt Payment Act rights [661]'
   - 'DoD invoicing: payment requests and receiving reports are submitted in electronic form using Wide Area WorkFlow
-    (https://wawf.eb.mil/) [903]'
+    (https://wawf.eb.mil/) [665]'
   - 'Civilian invoicing: Treasury''s Invoice Processing Platform, provided at no cost to federal agencies and their
-    vendors [902]'
-  - 'Performance record: evaluations are prepared at least annually and at completion and entered into CPARS [837];
-    the contractor has up to 14 calendar days to comment [838]'
+    vendors [664]'
+  - 'Performance record: evaluations are prepared at least annually and at completion and entered into CPARS [603];
+    the contractor has up to 14 calendar days to comment [604]'
   - 'Modifications: only a contracting officer can change a contract; changes are bilateral (supplemental agreement)
     or unilateral (administrative change, change order); contractors must notify the Government in writing of alleged
-    changes (43.104) [904]'
+    changes (43.104) [666]'
   - 'Requests for equitable adjustment in DoD: certification is required under 10 U.S.C. 3862(a) for requests exceeding
-    the simplified acquisition threshold [905]'
+    the simplified acquisition threshold [667]'
   official_url: https://www.fiscal.treasury.gov/prompt-payment/
   pending_changes:
   - status: class-deviation
@@ -434,214 +434,214 @@
     text: Overhaul Parts 32, 42 and 52 were not read in slices SC or SD, and Part 43 was not swept, so deviation
       numbers and dates for the rules at codified FAR 32.009-1, 42.1502, 42.1503, Subpart 43.1 and the 52.232 clauses
       are not recorded; DoD's class deviations cover FAR Parts 1–52, each with a matching DFARS part, and are dated
-      December 2025 to March 2026 [809]
+      December 2025 to March 2026 [401]
   - status: class-deviation
     date: '2026-03-16'
     text: The overhaul model text for Part 52 was among those updated March 16, 2026 for the trade agreements thresholds
-      rule [804]
+      rule [575]
   as_of: '2026-10-03'
   sources:
-  - 804
-  - 809
-  - 837
-  - 838
-  - 898
-  - 899
-  - 900
-  - 901
-  - 902
-  - 903
-  - 904
-  - 905
+  - 401
+  - 575
+  - 603
+  - 604
+  - 660
+  - 661
+  - 662
+  - 663
+  - 664
+  - 665
+  - 666
+  - 667
   conflicts: []
 - id: capability-statement
   name: Capability statement
   what:
-  - 'HHS defines it: "A capability statement is a concise, one-page overview of your business competencies." [1419]'
+  - 'HHS defines it: "A capability statement is a concise, one-page overview of your business competencies." [935]'
   - 'NIH''s Small Business Program Office publishes an annotated template with four sections: Core Competencies;
-    Past Performance; Differentiators; Company Data [1417]'
+    Past Performance; Differentiators; Company Data [592]'
   - 'NIH, core competencies: "Short introduction statement relating the company''s core competencies to the agency''s
-    specific needs followed by key-word heavy bullet points" [1417]'
+    specific needs followed by key-word heavy bullet points" [592]'
   - 'NIH, past performance: prior clients with related work, federal first, with contract details and reference
-    contacts [1417]'
+    contacts [592]'
   - 'NIH, differentiators: "Identify what makes you different from your competitors and how this benefits the targeted
-    agency" [1417]'
+    agency" [592]'
   - 'NIH, company data: brief description plus DUNS, CAGE Code, NAICS (under 10), socio-economic certifications,
-    contract vehicles [1417]'
-  - 'NIH, format: save as PDF; make a separate document for each agency or opportunity [1417]'
+    contract vehicles [592]'
+  - 'NIH, format: save as PDF; make a separate document for each agency or opportunity [592]'
   - 'HHS''s element list: name and branding; summary description; core capabilities; major services; federal small
     business certifications; contract vehicles; state certifications; local, quasi and non-government agencies served;
     major clients; NAICS codes; partners and authorized resellers; staff clearances and certifications; company
     details (registered name, DBA, incorporation year/state, corporation type, D-U-N-S Number, CAGE Code); contact
-    information [1418]'
+    information [591]'
   - 'HHS, design: "Use bullets, simple tables, highlighted sections for readability."; have "someone from outside
-    your company read your statement and provide feedback" [1418]'
+    your company read your statement and provide feedback" [591]'
   length:
   - 'NIH: "Preferably, this Capability Statement is one page, one side"; "Go to two sides only if absolutely necessary"
-    [1417]'
-  - 'HHS, how-to page: "1 page (front and back)" [1418]'
-  - 'HHS, readiness page: "a concise, one-page overview" [1419]'
+    [592]'
+  - 'HHS, how-to page: "1 page (front and back)" [591]'
+  - 'HHS, readiness page: "a concise, one-page overview" [935]'
   what_primes_ask:
-  - Peraton caps the capabilities statement upload at two pages (doc/pdf, max 50 MB) [1356]
-  - Northrop Grumman accepts up to 4 capability statements, line cards or overviews [1314]
-  - L3Harris's form has an "Upload Capabilities Statement" field [1324]
-  - 'CGI Federal: "upload your Capabilities Statement to our Registered Supplier Portal" [1363]'
+  - Peraton caps the capabilities statement upload at two pages (doc/pdf, max 50 MB) [888]
+  - Northrop Grumman accepts up to 4 capability statements, line cards or overviews [846]
+  - L3Harris's form has an "Upload Capabilities Statement" field [856]
+  - 'CGI Federal: "upload your Capabilities Statement to our Registered Supplier Portal" [895]'
   - 'GDIT: "Upload capability documents that provide additional company information" and "Use accurate and descriptive
-    keywords to allow your company to stand out in searches" [1318]'
+    keywords to allow your company to stand out in searches" [850]'
   - NASA's profile of BAE Systems (Space & Mission Systems) says capability statements go to smallbiz.sms@baesystems.us
-    [1326]
-  - Amentum's 2023 tips sheet says to have a website, capability statement, product line card and NAICS codes [1359]
+    [858]
+  - Amentum's 2023 tips sheet says to have a website, capability statement, product line card and NAICS codes [891]
   official_url: https://www.hhs.gov/grants-contracts/contracts/get-ready-to-do-business/write-a-capability-statement/index.html
   pending_changes: []
   as_of: '2026-10-03'
   sources:
-  - 1314
-  - 1318
-  - 1324
-  - 1326
-  - 1356
-  - 1359
-  - 1363
-  - 1417
-  - 1418
-  - 1419
+  - 591
+  - 592
+  - 846
+  - 850
+  - 856
+  - 858
+  - 888
+  - 891
+  - 895
+  - 935
   conflicts:
-  - 'Length: NIH prefers one page, one side, with two sides only if absolutely necessary [1417]; HHS''s how-to page
-    allows "1 page (front and back)" [1418]; HHS''s readiness page says "one-page" [1419].'
-  - 'Identifier: both the NIH template and the HHS how-to page still say DUNS / D-U-N-S, not UEI [1417] [1418].'
-  - The HHS sample capability statement (a sibling page) was not fetched [1418]; a search for SBA, GSA, DLA or VA
+  - 'Length: NIH prefers one page, one side, with two sides only if absolutely necessary [592]; HHS''s how-to page
+    allows "1 page (front and back)" [591]; HHS''s readiness page says "one-page" [935].'
+  - 'Identifier: both the NIH template and the HHS how-to page still say DUNS / D-U-N-S, not UEI [592] [591].'
+  - The HHS sample capability statement (a sibling page) was not fetched [591]; a search for SBA, GSA, DLA or VA
     guidance returned only commercial results, none used.
 - id: ots-in-public-data
   name: Other transactions in public data (FPDS, USAspending)
   what:
   - OT awards are recorded in FPDS under their own award types; the FPDS data dictionary for Other Transactions
     (Version 1.5.0, 2025-06-28) defines the award type codes, the code for which statutory condition was relied
-    on, and the consortium fields [1664]
-  - '"The only agencies that can access an OT are DoD and DHS." [1665]'
+    on, and the consortium fields [1085]
+  - '"The only agencies that can access an OT are DoD and DHS." [1086]'
   - OTAs are not among the awards agencies must report to USAspending.gov; GAO asked Congress to "include OTAs in
-    the list of federal awards that agencies must report to USAspending.gov." [1709]
+    the list of federal awards that agencies must report to USAspending.gov." [1129]
   - 'For consortium awards the record often names the manager, not the firm doing the work: "For consortia-based
     OTAs, the consortium management organization, rather than the awardees performing the work, is reflected in
-    the FPDS data." [1701]'
+    the FPDS data." [1121]'
   fpds_codes:
-  - 'Element 12B Award Type: "R" Other Transaction Agreement; "O" Other Transaction Order [1664]'
-  - Element OT8C Type of Agreement allows "Prototype" and "Production" [1664]; FPDS got an option to identify OTAs
-    for prototype or production in June 2019 [1649]
+  - 'Element 12B Award Type: "R" Other Transaction Agreement; "O" Other Transaction Order [1085]'
+  - Element OT8C Type of Agreement allows "Prototype" and "Production" [1085]; FPDS got an option to identify OTAs
+    for prototype or production in June 2019 [1070]
   - 'Element 10T Non-Traditional Government Entity Participation: "NSP" Nontraditional Significant Participation;
-    "CS" Cost Sharing; "DEC" Determination of Exceptional Circumstances [1664]'
+    "CS" Cost Sharing; "DEC" Determination of Exceptional Circumstances [1085]'
   - Entry fields include action obligation, base and all options value, non-Government dollars, UEI, extent competed,
-    solicitation procedures, and a system-generated Type of Agreement ("Prototype" or "Production") [1665]
+    solicitation procedures, and a system-generated Type of Agreement ("Prototype" or "Production") [1086]
   - A separate Other Transaction IDV record exists, with a dropdown that records nontraditional government entity
-    participation [1713]
+    participation [1133]
   consortia_flag:
   - 'Element 9N Consortia (Yes/No, whether the entity awarded is a member of a consortium); Element 9O Primary Consortia
-    Member''s UEI: "Report the Unique Entity ID for the Primary Consortia Member for this Award" [1664]'
+    Member''s UEI: "Report the Unique Entity ID for the Primary Consortia Member for this Award" [1085]'
   - 'On the OT IDV record: "If the ''Consortia'' value is selected as ''Yes'', this field will be opened and required."
-    [1713]'
-  - The consortium-awardee fields were added in June 2022 [1649]; before that, "FPDS did not, for example, capture
-    whether an OTA is consortium-based or not." [1699]
+    [1133]'
+  - The consortium-awardee fields were added in June 2022 [1070]; before that, "FPDS did not, for example, capture
+    whether an OTA is consortium-based or not." [1119]
   - 'Accuracy: of 2,431 applicable FY2023–2024 records, DoD completed 2,036 accurately (84%); "395 records inaccurately
     list the consortium management organization as the vendor performing work.", about $911 million, or 6% of consortia-based
-    OTA obligations in the period [1701]'
+    OTA obligations in the period [1121]'
   - 'Why the performer is hidden: modification-based structures auto-populate the base award''s vendor into later
-    modifications, so the performing member cannot be named [1702]; under the 2017 C5 base agreement, "A bilateral
-    modification to this Agreement will be executed to obligate project funding" [1805]'
+    modifications, so the performing member cannot be named [1122]; under the 2017 C5 base agreement, "A bilateral
+    modification to this Agreement will be executed to obligate project funding" [1224]'
   - 'DoD''s guide: "OTs awarded to a consortium should be reported in accordance with Appendix F." (Appendix F was
     not read) and "each member serving as the primary performer on an award must obtain a Unique Entity Identifier
-    (UEI) from SAM." [1627]'
+    (UEI) from SAM." [1049]'
   usaspending_gaps:
   - 'USAspending''s live award-type reference has no code or label for other transactions: contracts A–D, IDVs IDV_A–IDV_E,
-    and the grant, direct-payment, loan and other-financial-assistance groups only [1666]'
+    and the grant, direct-payment, loan and other-financial-assistance groups only [1087]'
   - '"About the Data" (last updated November 19, 2025) describes File D1 as procurement data from FPDS covering
     contracts and contract indefinite delivery vehicles, and neither it nor the Analyst''s Guide mentions Other
-    Transactions in the text returned [1667]'
+    Transactions in the text returned [728]'
   - The Data Sources document describes FPDS as "the database where federal contracting officers submit transaction-level
     data for contracts and contract indefinite delivery vehicles (IDV)." and does not mention Other Transactions
-    [1714]
+    [729]
   - 'GAO-24-106214: over $40 billion in OTAs were not reported to USAspending.gov, including more than $10 billion
     tied to COVID-19 relief; "agencies used different approaches to report billions of dollars in OTA spending.";
-    the matter for Congress is shown as open as of February 2026 [1709]'
+    the matter for Congress is shown as open as of February 2026 [1129]'
   gao_findings:
   - 'GAO-25-107546 (September 3, 2025): DoD "lacks a reliable method for tracking FAR production contracts that
     used follow-on production authority when transitioned from prototype OTAs"; its manual reporting named 48 such
-    contracts and only seven (15 percent) actually were [1649]'
+    contracts and only seven (15 percent) actually were [1070]'
   - DoD collects one data point on nontraditional engagement, an FPDS field for whether there is "a significant
-    extent" of participation [1649]; it lacks aggregated data on whether OTA awardees are NDCs [1702]
+    extent" of participation [1070]; it lacks aggregated data on whether OTA awardees are NDCs [1122]
   - Two recommendations (track FAR production contracts that used follow-on authority; report consortium member
-    data fully and accurately); DoD concurred; both open [1649]
+    data fully and accurately); DoD concurred; both open [1070]
   - 'GAO-22-105357 (September 20, 2022): DoD "does not have a systematic approach for tracking which consortia receive
     awards"; six recommendations, DoD agreed; three "Open – Partially Addressed" and three "Open" as shown on the
-    product page (status noted as of January 2025) [1650]'
+    product page (status noted as of January 2025) [1071]'
   - 'Obligations: "From fiscal year 2021 to 2024, DOD obligations on prototype and production OTAs increased from
     nearly $17 billion to over $18 billion."; $1.8 billion in fiscal year 2016; FY2021–FY2024 total $62.9 billion,
-    of which prototype OTAs $56.3 billion (90 percent) [1649] [1701]'
+    of which prototype OTAs $56.3 billion (90 percent) [1070] [1121]'
   - 'Per-year totals as read from GAO''s Figure 2 by the fetch tool (approximate; recheck): FY2021 ~$17B; FY2022
-    ~$10.7B; FY2023 ~$16.2B; FY2024 ~$18.1B [1649]'
+    ~$10.7B; FY2023 ~$16.2B; FY2024 ~$18.1B [1070]'
   - 'Consortia: $24,337.9 million on consortia-based OTAs in FY2019–2021 (prototype $24,273.4 million, research
-    $34.6 million, production $29.9 million); by year FY2019 $5,218.5M, FY2020 $12,644.6M, FY2021 $6,474.8M [1699].
-    Consortia-based OTAs were about half of prototype OTA obligations in FY2021–2024 [1701]'
+    $34.6 million, production $29.9 million); by year FY2019 $5,218.5M, FY2020 $12,644.6M, FY2021 $6,474.8M [1119].
+    Consortia-based OTAs were about half of prototype OTA obligations in FY2021–2024 [1121]'
   - 'Nontraditional share of membership at four consortia: AMTC 83% (1,048 of 1,262); DOTC 84% (890 of 1,058); IWRP
-    80% (650 of 810); SpEC 85% (534 of 629) [1701]'
+    80% (650 of 810); SpEC 85% (534 of 629) [1121]'
   - 'Earlier baseline: "Congress has authorized 11 federal agencies to use other transaction agreements" (January
-    2016) [1652]; companies that typically did not do business with DoD "participated to a significant extent on
-    88 percent of the transactions awarded during this time" (FY2016–FY2018) [1651]'
+    2016) [1073]; companies that typically did not do business with DoD "participated to a significant extent on
+    88 percent of the transactions awarded during this time" (FY2016–FY2018) [1072]'
   other_findings:
   - 'DoD Inspector General, DODIG-2021-077 (April 21, 2021): "The DoD did not properly track and did not have an
-    accurate count of all OTs awarded through consortiums in FPDS-NG." [1704]'
+    accurate count of all OTs awarded through consortiums in FPDS-NG." [1124]'
   - The 13 base OTs it audited ($24.6 billion in FPDS-NG) were actually 718 projects worth $8.7 billion; one no-ceiling
-    agreement was reported as $999,999,999 against an actual value of $41.6M [1704]. A base OT's FPDS value is therefore
-    a ceiling, not spending [1704]
+    agreement was reported as $999,999,999 against an actual value of $41.6M [1124]. A base OT's FPDS value is therefore
+    a ceiling, not spending [1124]
   - 'Four of the audit''s recommendations are shown open: 1.e (approval levels), 1.g (Agreements Officer training),
-    1.j (vetting members at joining), 1.m (security reviews of solicitation material) [1705]'
+    1.j (vetting members at joining), 1.m (security reviews of solicitation material) [1125]'
   - 'A 2021 Defense Acquisition magazine article (authored analysis, not policy): "Most if not all of the inner
-    details on OTs awarded to consortia or CMFs are not publicly available" [1712]'
+    details on OTs awarded to consortia or CMFs are not publicly available" [1132]'
   - 'CRS (December 2024): OT actions rose from 496 (FY2017) to 4,391 (FY2022); Congress might consider new reporting
-    requirements on consortia use [1707]'
+    requirements on consortia use [1127]'
   search_implications:
   - (Synthesis flagged by the sweep) A member's consortium project may not be findable under the member's own name,
-    because the record can show the consortium manager as the vendor [1701]
+    because the record can show the consortium manager as the vendor [1121]
   - FPDS help says only DoD and DHS can access the OT record, which bears on what a public data search can show
-    for other agencies [1665]
+    for other agencies [1086]
   - 'Not verified in this sweep: where OT award records can be searched publicly in October 2026. The FPDS help
-    page for OT agreements still loaded on 2026-10-03 [1665]; whether the beta.fpds.gov help site is current was
-    not checked [1713]. See todo'
+    page for OT agreements still loaded on 2026-10-03 [1086]; whether the beta.fpds.gov help site is current was
+    not checked [1133]. See todo'
   official_url: https://www.fpds.gov/help/Create_an_OTAgreement.htm
   pending_changes:
   - status: proposed
     date: '2026-06-15'
     text: The Senate's FY2027 NDAA as reported (S. 4784) carries "Sec. 817. Other transaction authority reporting."
-      [1693]; one trade article says it would require public reporting of OT transactions on a par with contracts
-      [1693] [1694]. Reported bill, not law.
+      [1113]; one trade article says it would require public reporting of OT transactions on a par with contracts
+      [1113] [1114]. Reported bill, not law.
   as_of: '2026-10-03'
   sources:
-  - 1627
-  - 1649
-  - 1650
-  - 1651
-  - 1652
-  - 1664
-  - 1665
-  - 1666
-  - 1667
-  - 1693
-  - 1694
-  - 1699
-  - 1701
-  - 1702
-  - 1704
-  - 1705
-  - 1707
-  - 1709
-  - 1712
-  - 1713
-  - 1714
-  - 1715
-  - 1805
+  - 728
+  - 729
+  - 1049
+  - 1070
+  - 1071
+  - 1072
+  - 1073
+  - 1085
+  - 1086
+  - 1087
+  - 1113
+  - 1114
+  - 1119
+  - 1121
+  - 1122
+  - 1124
+  - 1125
+  - 1127
+  - 1129
+  - 1132
+  - 1133
+  - 1134
+  - 1224
   conflicts:
   - 'GAO-25-107546 production figures: an earlier pass of the fetch tool returned "production OTA use increased
     from $24 million (FY2021) to $450 million (FY2024)", which conflicts with GAO''s "$2 billion in production OTA
-    use in fiscal year 2024"; treated as an extraction error until rechecked [1649].'
+    use in fiscal year 2024"; treated as an extraction error until rechecked [1070].'
   - Whether OT records appear in USAspending searches or downloads, and under what label, is not verified; only
-    the absence of an OT award-type code is [1666] [1709].
+    the absence of an OT award-type code is [1087] [1129].
   - A journalist's note reports that anonymous access to OTA summaries on FPDS was removed and then restored in
-    January 2025; secondary only [1715].
+    January 2025; secondary only [1134].

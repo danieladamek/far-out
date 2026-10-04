@@ -1,4 +1,4 @@
-# todo.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
+# todo.yaml — FAR Out content pack · consolidated and live-rechecked 2026-10-03. recheck: false means the page was read in the recheck pass; recheck: true entries still need it.
 - id: t-A001
   kind: gap
   about: references/PL119-83
@@ -1165,186 +1165,6 @@
     date_note on every entry (empty when not needed); tier for undated live agency pages is current, and the proposed
     FAR rule [428] is tiered classic.'
   owner: author
-- id: t-M001
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [108, 438] — merge into one entry and repoint citations. https://ac.cto.mil/apfit'
-  owner: builder
-- id: t-M002
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [109, 439] — merge into one entry and repoint citations. https://ac.cto.mil/apfit/faq'
-  owner: builder
-- id: t-M003
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [27, 326] — merge into one entry and repoint citations. https://grants.nih.gov/grants/guide/notice-files/not-od-26-006.html'
-  owner: builder
-- id: t-M004
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [29, 330] — merge into one entry and repoint citations. https://grants.nih.gov/grants/guide/notice-files/not-od-26-090.html'
-  owner: builder
-- id: t-M005
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [38, 314] — merge into one entry and repoint citations. https://legacy.sba.gov/article/2026/04/13/administrator-loeffler-applauds-sbir-sttr-reauthorization'
-  owner: builder
-- id: t-M006
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [76, 441] — merge into one entry and repoint citations. https://navystp.com'
-  owner: builder
-- id: t-M007
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [32, 346] — merge into one entry and repoint citations. https://science.osti.gov/sbir'
-  owner: builder
-- id: t-M008
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [30, 332] — merge into one entry and repoint citations. https://seed.nih.gov/small-business-funding/small-business-program-basics/eligibility-criteria'
-  owner: builder
-- id: t-M009
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [31, 320] — merge into one entry and repoint citations. https://seed.nih.gov/small-business-funding/small-business-program-basics/understanding-sbir-sttr'
-  owner: builder
-- id: t-M010
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [47, 410] — merge into one entry and repoint citations. https://ssti.org/blog/sbir-slowly-relaunching-following-presidents-signature'
-  owner: builder
-- id: t-M011
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [24, 434] — merge into one entry and repoint citations. https://www.acquisition.gov/dfars/252.227-7018-rights-other-commercial-technical-data-and-computer-software%e2%80%94small-business-innovation-research-program-and-small-business-technology-transfer-program.'
-  owner: builder
-- id: t-M012
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [25, 433] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.227-20'
-  owner: builder
-- id: t-M013
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [44, 411] — merge into one entry and repoint citations. https://www.crowell.com/en/insights/client-alerts/sbirsttr-programs-reauthorized-after-six-month-lapse'
-  owner: builder
-- id: t-M014
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [55, 446] — merge into one entry and repoint citations. https://www.defensesbirsttr.mil/art'
-  owner: builder
-- id: t-M015
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [40, 447] — merge into one entry and repoint citations. https://www.defensesbirsttr.mil/sbir-sttr'
-  owner: builder
-- id: t-M016
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [37, 393] — merge into one entry and repoint citations. https://www.epa.gov/sbir/how-apply-sbir-contract'
-  owner: builder
-- id: t-M017
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [59, 418] — merge into one entry and repoint citations. https://www.everycrsreport.com/reports/in12705.html'
-  owner: builder
-- id: t-M018
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [42, 451] — merge into one entry and repoint citations. https://www.gao.gov/products/gao-24-106398'
-  owner: builder
-- id: t-M019
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [2, 417] — merge into one entry and repoint citations. https://www.govinfo.gov/content/pkg/bills-119s3971enr/html/bills-119s3971enr.htm'
-  owner: builder
-- id: t-M020
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1, 416] — merge into one entry and repoint citations. https://www.govinfo.gov/content/pkg/plaw-119publ83/html/plaw-119publ83.htm'
-  owner: builder
-- id: t-M021
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [46, 420] — merge into one entry and repoint citations. https://www.insidegovernmentcontracts.com/2026/04/sbir-sttr-is-back-and-the-department-of-war-is-wasting-no-time'
-  owner: builder
-- id: t-M022
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [4, 424] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/15/638'
-  owner: builder
-- id: t-M023
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [33, 358] — merge into one entry and repoint citations. https://www.nasa.gov/sbir_sttr'
-  owner: builder
-- id: t-M024
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [35, 338] — merge into one entry and repoint citations. https://www.nsf.gov/funding/opportunities/small-business-innovation-research-small-business-technology/nsf26-510/solicitation'
-  owner: builder
-- id: t-M025
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [11, 301] — merge into one entry and repoint citations. https://www.sbir.gov/about'
-  owner: builder
-- id: t-M026
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [7, 310] — merge into one entry and repoint citations. https://www.sbir.gov/about/policies'
-  owner: builder
-- id: t-M027
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [14, 308] — merge into one entry and repoint citations. https://www.sbir.gov/apply'
-  owner: builder
-- id: t-M028
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [12, 303] — merge into one entry and repoint citations. https://www.sbir.gov/participating-agencies'
-  owner: builder
-- id: t-M029
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [5, 422] — merge into one entry and repoint citations. https://www.sbir.gov/sites/default/files/documents/sba%20sbir_sttr_policy_directive_may2023.pdf'
-  owner: builder
-- id: t-M030
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [6, 459] — merge into one entry and repoint citations. https://www.sbir.gov/sites/default/files/sba%20sbir_sttr_final_appendices_may2023.pdf'
-  owner: builder
-- id: t-M031
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [17, 436] — merge into one entry and repoint citations. https://www.sbir.gov/tutorials/data-rights/tutorial-1'
-  owner: builder
-- id: t-M032
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [19, 461] — merge into one entry and repoint citations. https://www.sbir.gov/tutorials/fraud-waste-abuse/tutorial-1'
-  owner: builder
-- id: t-P001
-  kind: conflict
-  about: programs/navy-stp
-  text: Program id drafted in both slices; merge.
-  owner: builder
-- id: t-P002
-  kind: conflict
-  about: programs/army-sbir-catalyst
-  text: Program id drafted in both slices; merge.
-  owner: builder
-- id: t-P003
-  kind: conflict
-  about: programs/apfit
-  text: Program id drafted in both slices; merge.
-  owner: builder
-- id: t-P004
-  kind: conflict
-  about: programs/dow-art
-  text: Program id drafted in both slices; merge.
-  owner: builder
 - id: t-SA001
   kind: conflict
   about: brief/8a
@@ -2310,1296 +2130,6 @@
   text: 'Naming: DoD pages now use the "Department of War" name (dowcio.war.gov, war.gov) while regulation text
     still says DoD [864] [859]. The records use DoD except in quotations; decide the house style.'
   owner: builder
-- id: t-M033
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [631, 803] — merge into one entry and repoint citations. https://advocacy.sba.gov/2026/06/25/newly-released-federal-acquisition-regulation-proposed-rules'
-  owner: builder
-- id: t-M034
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [523, 840] — merge into one entry and repoint citations. https://sam.gov/content/entity-registration'
-  owner: builder
-- id: t-M035
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [624, 809] — merge into one entry and repoint citations. https://www.acq.osd.mil/dpap/dars/dfars_far_overhaul_class_deviations.html'
-  owner: builder
-- id: t-M036
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [610, 799] — merge into one entry and repoint citations. https://www.acquisition.gov/far-overhaul'
-  owner: builder
-- id: t-M037
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [612, 798] — merge into one entry and repoint citations. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide'
-  owner: builder
-- id: t-M038
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [618, 806] — merge into one entry and repoint citations. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-12'
-  owner: builder
-- id: t-M039
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [650, 847] — merge into one entry and repoint citations. https://www.acquisition.gov/far/19.301-1'
-  owner: builder
-- id: t-M040
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [607, 828] — merge into one entry and repoint citations. https://www.acquisition.gov/far/19.502-2'
-  owner: builder
-- id: t-M041
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [641, 791] — merge into one entry and repoint citations. https://www.acquisition.gov/far/2.101'
-  owner: builder
-- id: t-M042
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [526, 842] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.204-7'
-  owner: builder
-- id: t-M043
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [563, 810] — merge into one entry and repoint citations. https://www.federalregister.gov/documents/2025/08/27/2025-16412/federal-acquisition-regulation-inflation-adjustment-of-acquisition-related-thresholds'
-  owner: builder
-- id: t-M044
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [626, 802] — merge into one entry and repoint citations. https://www.federalregister.gov/documents/2026/06/23/2026-12559/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-1-2-4-33'
-  owner: builder
-- id: t-M045
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [532, 845] — merge into one entry and repoint citations. https://www.sba.gov/federal-contracting/contracting-guide/basic-requirements'
-  owner: builder
-- id: t-M046
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [666, 823] — merge into one entry and repoint citations. https://www.sba.gov/federal-contracting/contracting-guide/how-win-contracts'
-  owner: builder
-- id: t-PA001
-  kind: conflict
-  about: brief/52.219-9
-  text: 'Correction to the brief: the replaced-small-subcontractor duty is not at 52.219-9 "(d)(10)/(l)". In the
-    current clause (Jan 2025) it is (d)(12) (good faith use of the small firms used in the proposal) and (d)(13)
-    (written explanation within 30 days of contract completion); (d)(10) is the reporting assurance and (l) is ISR/SSR
-    reporting [1003] [1002]. The FAR duty is an after-the-fact explanation, not a notice when the substitution is
-    made; the at-substitution notice is DoD-only, 252.219-7003(e) [1036]. Records use the corrected numbering.'
-  owner: author
-- id: t-PA002
-  kind: conflict
-  about: brief/esrs, gates/subcontracting-plan-reporting-sam
-  text: 'Correction to the brief: eSRS.gov was decommissioned on February 20, 2026; ISR/SSR filing is now Subcontracting
-    Plan Reporting in SAM.gov and www.esrs.gov redirects to sam.gov/esrs [1039] [1038] [1015]. The codified FAR
-    52.219-9 and 19.704 still name eSRS [1003] [1002]; the change is in force by class deviation (GSA, NRC) [1013]
-    [1014]. The app should say SAM.gov and show eSRS only as the former name.'
-  owner: author
-- id: t-PA003
-  kind: conflict
-  about: brief/fsrs, gates/ffata-subaward-reporting
-  text: 'Correction to the brief: FSRS.gov retired on March 8, 2025 and FFATA subaward reporting is in SAM.gov [1042]
-    [1043] [1041]. Codified FAR subpart 4.14 and clause 52.204-10 (Jun 2020) still name FSRS [1009] [1008], and
-    USAspending''s Data Sources document still names FSRS as the source system [1047].'
-  owner: author
-- id: t-PA004
-  kind: conflict
-  about: gates/ffata-subaward-reporting
-  text: 'FFATA subcontract-reporting threshold: FAR subpart 4.14 says $40,000 [1009]; USAspending''s About the Data
-    (updated November 19, 2025) says $30,000 [1046]. Not reconciled; the SAM.gov help pages fetched give no figure
-    [1044] and fsd.gov knowledge articles are blocked. The gate gives both.'
-  owner: author
-- id: t-PA005
-  kind: conflict
-  about: routes/subcontracting-under-prime-plan
-  text: 'Subcontracting-plan threshold, FAR vs 13 CFR: FAR 19.702 says $900,000 ($2 million for construction) since
-    October 1, 2025 [1001] [1011]; SBA''s 13 CFR 125.3 still reads $750,000 / $1,500,000 [1021] [1022]. Other figures
-    seen: $950,000 / $2 million in CRS R47585 (mirror) [1071]; $750,000 on DOT''s directory page [1060]; $850,000
-    on DOT''s advice page, as returned by the fetch [1061]; USDA''s 2026 directory matches the FAR [1062]. The route
-    cites the FAR as primary and lists the others under conflicts; no SBA conforming rule was found.'
-  owner: author
-- id: t-PA006
-  kind: conflict
-  about: gates/subcontracting-plan-reporting-sam
-  text: 'ISR due date: 30 days in the codified FAR [1002] [1003]; 45 days in 13 CFR 125.3 [1021] and in the February
-    2026 deviation supplements [1013] [1014]. The ISR due date inside RFO 19.302 was returned inconsistently (30
-    vs 45 days) and should be read directly [1012]. The RFO text of 52.219-9 was not obtained (the Part 52 page
-    was too large for the fetch tool).'
-  owner: author
-- id: t-PA007
-  kind: unverified
-  about: gates/subcontracting-plan-reporting-sam
-  text: sam.gov/esrs shows "$550,000.00" as the value above which first-tier subcontractors file [1038]. It does
-    not match the $900,000 flow-down threshold [1002]; its meaning is unverified.
-  owner: author
-- id: t-PA008
-  kind: conflict
-  about: routes/subcontracting-under-prime-plan
-  text: 'Lower-tier credit: SBA''s rule lets a prime elect any-tier credit on a single contract with one agency
-    [1028] [1021]; the codified FAR clause limits reported awards to immediate next-tier subcontractors [1003].
-    FAR Case 2018-003 was withdrawn March 30, 2023 [1027] and a replacement case was not located: the open-cases
-    report at acq.osd.mil could not be fetched (certificate error). SAM.gov lower-tier ISR filing was still pre-production
-    [1038].'
-  owner: author
-- id: t-PA009
-  kind: unverified
-  about: routes/subcontracting-under-prime-plan
-  text: 'Past-due payment notice: the SBA proposal to cut 90 days to 30 (RIN 3245-AI09) showed at final rule stage
-    with an October 2025 target [1033] [1032], but no final rule was found and 13 CFR 125.3 still says 90 days [1021].
-    One fetch header showed "last amended 9/29/2026" while the section''s own citation list ends at 89 FR 102491,
-    December 17, 2024. Re-read the section and the Federal Register.'
-  owner: author
-- id: t-PA010
-  kind: gap
-  about: routes/subcontracting-under-prime-plan
-  text: Whether a FAR Part 19 proposed rule was published between September 21 and October 3, 2026 was not checked
-    in this slice beyond the Advocacy notice and the two package documents [1020] [1018] [1019]; the statement that
-    Part 19 was left out of the first package also rests on two secondary notes [1082] [1081].
-  owner: author
-- id: t-PA011
-  kind: unverified
-  about: references/crs-r47585, references/crs-in12018
-  text: Both CRS products were read through the EveryCRSReport mirror because congress.gov and crsreports.congress.gov
-    disallow fetching [1071] [1072]. R47585's $950,000 threshold conflicts with FAR 19.702 and its authors were
-    not captured. The statutory goals of 15 U.S.C. 644(g) (23% prime; 5% SDB, 5% WOSB, 5% SDVOSB, 3% HUBZone of
-    prime and subcontract awards) were not read from the U.S. Code (uscode.house.gov returned a maintenance page)
-    and rest on CRS; they are not stated in any record here.
-  owner: author
-- id: t-PA012
-  kind: unverified
-  about: sections-notes/goals
-  text: FY 2025 subcontracting achievement by category (32.65% small business; SDB 4.81%; WOSB 5.67%; SDVOSB 2.42%;
-    HUBZone 1.54%) comes from a secondary source only [1084]; SBA's release gives only prime figures and the combined
-    $273 billion [1068], and the scorecard detail URL tried returned 404. Not carried into any record.
-  owner: author
-- id: t-PA013
-  kind: unverified
-  about: sections-notes/goals
-  text: 'Scorecard weighting: SBA''s page gives subcontracting achievement 20% of the grade [1067]; a press report
-    says the weight rises to 25% from FY 2026, with reported weights that total 110% [1083]. No SBA document confirming
-    a change was found; records use 20%.'
-  owner: author
-- id: t-PA014
-  kind: unverified
-  about: routes/finding-subcontract-work
-  text: 'SubNet: no page states it is retired or to be replaced, but it runs on legacy.sba.gov and the two renderings
-    disagree on whether posting is disabled or available by email [1049]. The total listing count was not captured.
-    Re-check before publication which URL the app should link.'
-  owner: author
-- id: t-PA015
-  kind: unverified
-  about: routes/finding-subcontract-work
-  text: 'Commercial Market Representatives: the April 2020 directory file was not opened, so current names and the
-    number of CMRs are unverified [1052]; the SBA 2024 deck''s "one CMR per area" was a fetch-tool reading, not
-    a quoted line, and is not carried [1054]. The only current contact is subcontracting@sba.gov [1051].'
-  owner: author
-- id: t-PA016
-  kind: gap
-  about: routes/finding-subcontract-work
-  text: 'GSA Subcontracting Directory: no working link was found on gsa.gov (www.gsa.gov/subdirectory returned 404;
-    one gsa.gov path served a different page and the partnerships page was read on the origin-www host) [1057] [1058].
-    The file was located only through data.gov, where the newest file is dated March 13, 2025 despite a declared
-    quarterly cadence [1059].'
-  owner: author
-- id: t-PA017
-  kind: gap
-  about: routes/finding-subcontract-work
-  text: 'Stale directories: SBA''s prime directory stops at FY 2024 [1050]; VA''s referenced prime directory is
-    fiscal year 2020 [1065]; NASA listed four prime pages on the fetch date [1063]. Say so in the app or re-check.'
-  owner: author
-- id: t-PA018
-  kind: gap
-  about: routes/finding-subcontract-work
-  text: 'LYNX: present only as a link on SBA''s page, which calls it a "Department of War" market-research platform
-    [1048]; the LYNX site itself was not fetched, so what it offers and who runs it are unverified.'
-  owner: author
-- id: t-PA019
-  kind: gap
-  about: routes/finding-subcontract-work
-  text: 'Prime-contractor supplier-registration portals and small business liaison officers: neither the SBA nor
-    the GSA pages fetched mention them [1048] [1057]; there is nothing official to cite on this point.'
-  owner: author
-- id: t-PA020
-  kind: gap
-  about: routes/finding-subcontract-work
-  text: 'Not fetched: DHS OSDBU subcontracting page (403); Commerce OSDBU (DNS failure); HHS OSDBU subcontracting
-    page (not located); business.defense.gov (blocked by instruction in slice A, though slice B fetched pages on
-    that host the same day); the DoD comprehensive subcontracting plan participant list; the LYNX site. DAU blog
-    posts on the FSRS and eSRS moves redirect to a "content unavailable" page and were not used.'
-  owner: author
-- id: t-PA021
-  kind: unverified
-  about: gates/subcontracting-plan-reporting-sam
-  text: 'GSA''s section 15(h) subcontracting report: whether the $91.2 billion grand total is GSA-only or government-wide
-    was not established [1078].'
-  owner: author
-- id: t-PA022
-  kind: unverified
-  about: gates/ostensible-subcontractor-affiliation
-  text: The four OHA reliance factors rest on a law-firm explainer only [1085]; they are case law, not regulation
-    text, and no OHA decision was read. The gate marks them as a pointer.
-  owner: author
-- id: t-PA023
-  kind: unverified
-  about: routes/subcontracting-under-prime-plan
-  text: 'Rule of Two under the FAR overhaul: the sweep''s remark that small firms are more likely to reach work
-    as subcontractors where orders are not set aside is the sweep''s inference, not a sourced statement, and is
-    not carried into any record. The order-level sources are kept in references for the set-aside chapter [1012]
-    [1013] [1079] [1080].'
-  owner: author
-- id: t-PA024
-  kind: recheck
-  about: references
-  text: '13 CFR 121.103: eCFR returned HTTP 429 in slice A and the verbatim (h)(3) text was taken from the LII mirror
-    [1024]; slice B read the section at a different eCFR subject-group URL [1095]. The two entries are the same
-    section and were not merged because the URLs differ; one URL may be wrong. Confirm and merge. 13 CFR 125.3 was
-    also cross-checked on LII [1022].'
-  owner: builder
-- id: t-PA025
-  kind: recheck
-  about: references
-  text: 'Every quote in both slices passed through the fetch tool''s summariser; re-verify wording against the live
-    page before any quote is published (recheck: true on all entries).'
-  owner: builder
-- id: t-PA026
-  kind: recheck
-  about: references
-  text: 'Sources kept in references but cited in no route, gate or section note of this slice (only here): the FAR-overhaul
-    landing page and White House release [1016] [1017]; the LII copy of 13 CFR 125.3 [1022]; SBA''s FY25 scorecard
-    release [1068]; GAO-20-462 on PCR and CMR reporting [1076]; and six secondary notes [1079] [1080] [1081] [1082]
-    [1083] [1084]. Their cited_in will stay empty unless the review chapter uses them.'
-  owner: builder
-- id: t-PA027
-  kind: gap
-  about: queries
-  text: One slice A query (GSA Multiple Award Schedule subcontracting plan requirements) returned only trade and
-    consultant results and none was used; the sweep's note is not carried in queries.yaml, which has only the five
-    schema keys.
-  owner: builder
-- id: t-PA028
-  kind: conflict
-  about: routes/subcontracting-under-prime-plan, gates/recertification-size-status
-  text: 'Id overlap with the set-aside assembly (merged2): this slice''s route subcontracting-under-prime-plan (family
-    partnering) has the same id as the shorter set-aside record (family setaside-vehicle), and the gate recertification-size-status
-    has the same id as the set-aside gate on 13 CFR 125.12; both need merging, with the partnering versions as the
-    fuller ones. Routes here also name gates defined only in the set-aside assembly: sam-registration, size-status-representation,
-    limitations-on-subcontracting. The set-aside record cites DoD''s adoption of RFO Part 19 (effective February
-    1, 2026), which these two slices did not sweep.'
-  owner: builder
-- id: t-PB001
-  kind: conflict
-  about: brief/jv-past-performance
-  text: 'Correction to the brief: the joint venture / first-tier subcontractor past performance rule is 87 FR 43731
-    of July 22, 2022 (effective August 22, 2022; 13 CFR 125.11), not a 2023 rule [1031] [1106]. No separate 2023
-    SBA past-performance rule was located; the April 2023 rule''s 125.8(e) text could not be read [1109].'
-  owner: author
-- id: t-PB002
-  kind: conflict
-  about: routes/dod-mentor-protege-program
-  text: 'DFARS Appendix I staleness: I-103 as displayed prints "through September 30, 2026" (a date now passed)
-    and I-107 prints "does not exceed 23 years" (apparent rendering error for 3 years); the headings of Appendix
-    I and subpart 219.71 still say "Pilot" although 10 U.S.C. 4902 is permanent [1123] [1124] [1122] [1125]. Read
-    the raw page and check whether a DFARS case is open to remove the date.'
-  owner: author
-- id: t-PB003
-  kind: conflict
-  about: routes/sba-mentor-protege-program
-  text: 'One vs two mentors: SBA''s page says a protégé may have two mentors at the same time [1115]; 13 CFR 125.9(c)(2)
-    says generally one at a time, a second only with SBA approval [1112]. The route follows the regulation and lists
-    the page under conflicts.'
-  owner: author
-- id: t-PB004
-  kind: conflict
-  about: routes/joint-venture-set-aside, gates/jv-agreement-requirements
-  text: 'Joint venture statements to SBA: annual (45 days after each operating year) in 13 CFR 125.8 and on SBA''s
-    page [1098] [1116]; quarterly in 124.513, 126.616, 127.506 and 128.402 [1099] [1101] [1103] [1104]. Both are
-    recorded; SBA''s page states only the annual one.'
-  owner: author
-- id: t-PB005
-  kind: conflict
-  about: routes/dod-mentor-protege-program
-  text: 'DoD agreement term and status differ across official pages: statute and DFARS Case 2023-D011 say three
-    years (up to five / plus two) [1122] [1125]; Army says up to 2 years and "reauthorized ... through FY 2026"
-    [1130]; the MDA brochure says 2 years [1135]; DTRA 3 years [1133]; DLA 2-3 years [1132]. The Air Force page
-    still refers to FedBizOpps [1131]. Protégé categories also differ: the how-to page omits nontraditional defense
-    contractors [1127].'
-  owner: author
-- id: t-PB006
-  kind: conflict
-  about: routes/sba-mentor-protege-program
-  text: 'DHS Mentor-Protégé Program status: the page body says no new applications since March 1, 2023; the page''s
-    search-result title says the program relaunched [1141]. The May 2025 program guide, fact sheet and resources
-    page returned 403, and 6 U.S.C. 475a was not read; it is named only by a trade report [1142]. No DHS route record
-    was written.'
-  owner: author
-- id: t-PB007
-  kind: conflict
-  about: routes/doe-mentor-protege-program
-  text: DOE's page prints 8(a) thresholds of $7M / $4M for non-competitive subcontracts [1143], which differ from
-    the $8.5M / $5.5M ceilings in the project's requirements doc; its protégé list also differs from the extract
-    of 48 CFR 919.7007 [1144].
-  owner: author
-- id: t-PB008
-  kind: conflict
-  about: routes/sba-mentor-protege-program
-  text: 'State: DOSAR 619.202-70 is codified [1148] while GAO''s page says State transferred to SBA''s program [1156];
-    no live State page was read (2021-2025.state.gov returned an error). HHS: only the HHSAR provision, no hhs.gov
-    program page [1151]. No route record was written for either.'
-  owner: author
-- id: t-PB009
-  kind: conflict
-  about: routes/teaming-contractor-team-arrangements
-  text: GSA says FAR subpart 9.6 does not apply to MAS Contractor Team Arrangements, although FAR 9.6 uses the same
-    term [1087] [1086]. The route keeps the two apart; decide how the app names them.
-  owner: author
-- id: t-PB010
-  kind: conflict
-  about: gates/recertification-size-status
-  text: 'Five-year recertification window: 13 CFR 125.12(b) says no more than 120 days before the end of the fifth
-    year [1107]; FAR 52.219-28 and 19.301-2 say within 60 to 120 days [1092] [1091]. Found in assembly; both are
-    recorded. The clause date of 52.219-28 was not captured.'
-  owner: author
-- id: t-PB011
-  kind: conflict
-  about: routes/treasury-mentor-protege-program
-  text: 'Treasury: the live page calls it the Business Partnership Network Program and says it is being revised
-    (undated); DTAR 1019.202-70 still codifies the Treasury Mentor Protégé Program, with a different protégé list
-    [1146] [1147].'
-  owner: author
-- id: t-PB012
-  kind: recheck
-  about: routes/sba-mentor-protege-program
-  text: 'Application system: sba.gov and certify.sba.gov both say mentor-protégé applications are made at certify.sba.gov,
-    not MySBA Certifications [1115] [1117]; the undated fact sheet still says DUNS [1118]. The agreement template
-    PDF was not opened [1119].'
-  owner: author
-- id: t-PB013
-  kind: recheck
-  about: routes/sba-mentor-protege-program, gates/jv-agreement-requirements
-  text: 'Paragraph cites to check against the live text: 13 CFR 125.8(b)(2)(ii) [1098]; 125.9(c)(4) (the 12-year
-    total and "two agreements with different mentors") and 125.9(b)(3)-(b)(4) [1112]. An earlier extract of 125.9
-    reported a sentence allowing a second six-year term with the same mentor; a follow-up did not reproduce it and
-    it is not recorded.'
-  owner: author
-- id: t-PB014
-  kind: gap
-  about: routes/sba-mentor-protege-program
-  text: 'Number of approved SBA mentor-protégé agreements: SBA''s Excel list (effective July 7, 2026) states no
-    count and was not opened [1120]. OIG Report 26-16 was read on its landing pages only; the PDF returned 404 at
-    the guessed URL [1121].'
-  owner: author
-- id: t-PB015
-  kind: gap
-  about: routes/sba-mentor-protege-program, routes/joint-venture-set-aside
-  text: 'Rule text not read: the parts of 89 FR 102448 amending 13 CFR 125.8 and 125.9, and SBA''s disposition of
-    the 2024 idea of limiting mentor-protégé joint ventures on multiple-award contracts, were beyond the extract
-    [1110]; that idea is known only from a law-firm alert [1162]. The 125.8(e) and 125.9 changes in 88 FR 26164
-    were truncated [1109].'
-  owner: author
-- id: t-PB016
-  kind: unverified
-  about: routes/dod-mentor-protege-program
-  text: 'FY2026 NDAA: whether it amended 10 U.S.C. 4902 is unverified. The public law number rests on Wikipedia
-    [1137]; the govinfo text was truncated at Sec. 8339 [1136]; uscode.house.gov was in maintenance and LII shows
-    nothing after December 23, 2024 but may lag [1122]. A search hit suggests the FY2027 NDAA bill (S. 4784) mentions
-    the program; not fetched.'
-  owner: author
-- id: t-PB017
-  kind: gap
-  about: routes/dod-mentor-protege-program
-  text: 'DoD count of active agreements is not published on the pages read: only "190+ small businesses in five
-    years", NGA''s 14 agreements and 96 ICR respondents [1128] [1134] [1126]. The July 17, 2026 one-pager PDF returned
-    403. Navy pages (secnav.navy.mil, the DON guidebook) were rejected by the host; Army Contracting Command and
-    APG pages were not read.'
-  owner: author
-- id: t-PB018
-  kind: gap
-  about: routes/faa-mentor-protege-program
-  text: 'FAA: mentor eligibility, incentives, the AMS clause and the application steps were not on the page read;
-    the other FAA URL returned only the office home page [1152].'
-  owner: author
-- id: t-PB019
-  kind: gap
-  about: routes/sba-mentor-protege-program
-  text: 'Agencies without a record: EPA has no formal program page and the EPAAR 1552.219-70 URL returned 404 (removal
-    not confirmed) [1155]; USDA has no program page found and nothing was fetched; VA''s subpart is reserved with
-    no VA statement on when or why its program ended [1153] [1154]; GSA ended its program in 2019 [1145]. NASA''s
-    renaming date was not captured [1138]. GAO''s 2011 inventory also lists USAID, which was not swept [1156].'
-  owner: author
-- id: t-PB020
-  kind: gap
-  about: review
-  text: 'Not read: CRS IF13095 (Small Business Joint Ventures in Federal Procurement) and R41722 (Small Business
-    Mentor-Protégé Programs), blocked by robots.txt on congress.gov; SBA OHA decisions; GAO bid-protest decisions
-    on teaming or CTAs.'
-  owner: author
-- id: t-PB021
-  kind: gap
-  about: routes/sba-mentor-protege-program
-  text: federalregister.gov search pages are blocked by robots.txt, so "no 2025-26 SBA proposed rule on the mentor-protégé
-    program" rests on web search plus the eCFR citation lists, not on a Federal Register query [1112].
-  owner: author
-- id: t-PB022
-  kind: gap
-  about: routes/joint-venture-set-aside, routes/teaming-contractor-team-arrangements
-  text: 'FAR overhaul: slice B captured neither the deviation date nor the fate of mentor-protégé text in RFO Part
-    19 [1012]; records date the class deviation from GSA''s memo in slice A [1013], and agency deviation memos were
-    not read. No RFO model deviation text for Part 9 (FAR 9.6) or Part 4 (FAR 4.14) was swept, so those records
-    carry no class-deviation numbering; Part 9 is in the September 18, 2026 proposed rules [1020].'
-  owner: author
-- id: t-PB023
-  kind: unverified
-  about: routes/joint-venture-set-aside
-  text: 'FAR Case 2023-015 (Policy on Joint Ventures): the status after the Spring 2025 Unified Agenda was not confirmed
-    [1094]. The 2022 FAR joint venture rule was read on a Justia mirror [1093]. 13 CFR 125.18 (the old SDVOSB joint
-    venture section) returned 404; the rules are at 128.402 [1104].'
-  owner: author
-- id: t-PB024
-  kind: gap
-  about: routes/teaming-contractor-team-arrangements
-  text: 'Exclusive teaming and antitrust: no official DOJ or FTC statement specific to exclusive teaming agreements
-    in federal procurement was found; the strike force page does not mention teaming [1157], the 2000 guidelines
-    are withdrawn [1158], the 2026 inquiry has produced no guidance [1159], and the one enforcement example is a
-    state procurement [1160]. FAR 52.203-2 does not address team proposals in the extract read [1090].'
-  owner: author
-- id: t-PB025
-  kind: unverified
-  about: scope
-  text: A size-standards proposed rule (comment period reported extended to November 20, 2026) was seen only in
-    a trade round-up; it bears on protégé size but is outside this slice and unverified. No reference entry.
-  owner: author
-- id: t-PB026
-  kind: recheck
-  about: references
-  text: 'Statutes read on a mirror: 10 U.S.C. 4902 and 15 U.S.C. 657r on LII, source_kind primary as the sweep gave
-    it [1122] [1114]; the set-aside assembly raised the same question for mirror-hosted statutes. Decide one convention.'
-  owner: builder
-- id: t-PB027
-  kind: recheck
-  about: references
-  text: 'URLs to test: acquisition.gov addresses that end in a full stop or carry non-ASCII characters as the sweeps
-    gave them [1035] [1036] [1037] [1147] [1148] [1151] [1150]. Two entries have no quote because the sweep recorded
-    "(none)" [1136] [1137].'
-  owner: builder
-- id: t-PB028
-  kind: recheck
-  about: references
-  text: 'Dedupe was by identical URL only (4 merges: FAR 52.219-14, 13 CFR 125.6, RFO Part 19, 87 FR 43731) [1007]
-    [1023] [1012] [1031]. Cross-pack dedupe is still to do: 21 URLs here are already in merged2/references.yaml
-    under another n (this n = merged2 n): 1002=659, 1003=660, 1007=646, 1011=810, 1012=614, 1016=799, 1018=802,
-    1020=632, 1023=647, 1053=655, 1055=823, 1067=606, 1068=605, 1072=601, 1079=637, 1081=639, 1107=514, 1110=515,
-    1122=674, 1123=673, 1128=111. Four more are the same eCFR section at a different subject-group URL: 13 CFR 121.103
-    [1024] [1095] (merged2 n 520), 121.404 [1096] (merged2 n 513 and 848) and 121.1001 [1097] (merged2 n 516).'
-  owner: builder
-- id: t-PB029
-  kind: recheck
-  about: references
-  text: 'Tier decisions under the schema rule: codified FAR, DFARS, agency FAR supplements, CFR, U.S. Code and public
-    law text and Federal Register final, direct final and correcting rules are seminal, including the LII copy of
-    13 CFR 125.3 [1022]; RFO model deviation text, class-deviation memos, proposed rules, Unified Agenda entries,
-    notices and live agency pages are current; pre-2024 agency pages and the withdrawn 2019 FAR proposal and its
-    withdrawal are classic [1026] [1027]; CRS, GAO and OIG reports, press releases, training decks and all secondary
-    sources are background. published is reduced to an ISO date (year-month where only that is known) and the sweep''s
-    wording is kept in date_note; two Unified Agenda entries have published unknown with the agenda year [1033]
-    [1094].'
-  owner: author
-- id: t-PB030
-  kind: recheck
-  about: references
-  text: 'Quotes longer than the schema''s 25-word limit, carried verbatim from the sweeps: [1001] (26 words); [1086]
-    (26 words); [1087] (27 words); [1090] (31 words); [1098] (26 words); [1112] (26 words); [1122] (26 words); [1155]
-    (26 words). Trim against the live page.'
-  owner: builder
-- id: t-PC001
-  kind: recheck
-  about: references
-  text: 'Every quote in slice PC came through the WebFetch extraction model and has not been compared with the rendered
-    page. Recheck all quotes against the live pages before publication. Quotes longer than the 25-word limit: [1306]
-    (26 words).'
-  owner: builder
-- id: t-PC002
-  kind: gap
-  about: primes/lockheed-martin
-  text: 'Unreadable portal: the Supplier Marketing Portal form (podio.com/webforms/8182136/612474) is disallowed
-    by robots.txt; its fields were not read. The record rests on the FAQ and the 2026 marketing guide [1301] [1302].'
-  owner: builder
-- id: t-PC003
-  kind: gap
-  about: primes/rtx
-  text: 'Unreadable portal: rtx.supplierone.co rendered empty (JavaScript app), so RTX''s registration fields are
-    unrecorded; the four SBLO mailbox addresses came back obfuscated ("[email protected]") and were not captured
-    [1306].'
-  owner: builder
-- id: t-PC004
-  kind: gap
-  about: primes/general-dynamics
-  text: 'Unreadable portal: suppliers.gendyn.com (ESRP home and the full SBLO list) returned 403. Registration content
-    rests on the corporate, GDIT and Mission Systems pages [1315] [1318] [1322].'
-  owner: builder
-- id: t-PC005
-  kind: gap
-  about: primes/caci
-  text: 'Unreadable portal: supplier.caci.com is disallowed by robots.txt; registration fields unrecorded, and the
-    contact email on the Small Business Advocacy Office page was obfuscated [1338].'
-  owner: builder
-- id: t-PC006
-  kind: gap
-  about: primes/honeywell
-  text: 'Unreadable portal: honeywell.supplierone.co rendered empty. No Honeywell Aerospace small-business or supplier-diversity
-    page was found, only the corporate "Honeywell Technologies" supplier hub [1352]; the record therefore carries
-    a URL and nothing on registration, liaison or programmes.'
-  owner: builder
-- id: t-PC007
-  kind: gap
-  about: primes/accenture-federal-services
-  text: 'Unreadable portal: smartafs.my.site.com rendered empty; registration fields unrecorded [1361].'
-  owner: builder
-- id: t-PC008
-  kind: gap
-  about: primes/deloitte-gps
-  text: 'Unreadable portal: vendorconnect.gps.deloitte.com rendered empty; registration fields unrecorded [1362].'
-  owner: builder
-- id: t-PC009
-  kind: gap
-  about: primes/boeing
-  text: Boeing's ESLC portal is by emailed invitation and was not read; what its capability assessment asks is not
-    stated on the page [1309]. Two Boeing pages were read only in part at legacy URLs [1310] [1311].
-  owner: builder
-- id: t-PC010
-  kind: gap
-  about: primes
-  text: 'Registration forms not opened or fields not captured, so registration_asks is thin: BAE Systems (ivalua)
-    [1325]; Leidos on-page form [1327]; Booz Allen (supplier.bah.com) [1335]; ManTech (myhub) [1340]; Parsons (Ariba)
-    [1342]; Jacobs (Ariba) [1343]; KBR [1346]; HII Newport News Word form [1351]; Amentum SMS [1358]; CGI Federal
-    (GovWin) [1363]; Maximus (Smartsheet) [1364]; SAIC beyond the portal home page [1331].'
-  owner: builder
-- id: t-PC011
-  kind: unverified
-  about: primes
-  text: No statement of the mentor-protégé authority they use was found on the pages fetched for Northrop Grumman,
-    Leidos, L3Harris, BAE Systems, Parsons, Jacobs, KBR, HII, Honeywell, GE Aerospace, Amentum, Accenture Federal,
-    Deloitte, CGI Federal and Maximus; Booz Allen and ManTech name a programme without an authority [1336] [1339].
-    An empty programs list means "not stated on the pages read", not that the company has none.
-  owner: builder
-- id: t-PC012
-  kind: conflict
-  about: primes/northrop-grumman
-  text: 'Northrop Grumman SBLO count: the extraction''s header said 19 SBLOs; the names it listed total 22 (7 +
-    4 + 5 + 6) [1313]. The record gives no count.'
-  owner: author
-- id: t-PC013
-  kind: unverified
-  about: primes
-  text: 'Extraction paraphrases without captured wording, left out of the records: GE Aerospace "does not use open
-    bidding" [1353]; Accenture Federal "over 20%" of government contracts involve small-business partners [1361];
-    the Peraton statement about contacting its office on active subcontractor searches (source page not pinned)
-    [1357]. Also unverified: Leidos and SAIC liaison contact details [1327] [1334].'
-  owner: builder
-- id: t-PC014
-  kind: recheck
-  about: primes
-  text: 'Named individuals: liaison names are carried as the pages print them (the Northrop Grumman list is dated
-    2025-10-20; the General Dynamics fact sheet April 2026) [1313] [1316]. Names date quickly; recheck before publication.
-    Direct phone numbers and personal email addresses are kept only in references key_facts, not in primes.yaml.'
-  owner: builder
-- id: t-PC015
-  kind: recheck
-  about: primes/ge-aerospace
-  text: GE Aerospace prints NAICS "54172" (five digits) with a 1,000-employee threshold; recorded as printed, not
-    checked against the SBA size table [1353].
-  owner: builder
-- id: t-PC016
-  kind: conflict
-  about: primes
-  text: 'CMMC text on prime pages differs by date: GDIT prints a four-phase schedule ("Phase 1: November 10, 2025
-    – October 31, 2026") [1320]; RTX says Phase I began November 10, 2025 [1308]; ManTech''s small-business page
-    carries 2020 text (Levels 1–5) [1341]. The sweep notes that the project''s requirements sketch says Phase 2
-    was suspended on July 13, 2026; that was not checked in this slice. Each record states what the company''s page
-    says.'
-  owner: author
-- id: t-PC017
-  kind: recheck
-  about: primes
-  text: 'Legacy identifiers still printed on pages: "DUNS" on the SAIC portal and the Northrop Grumman form [1331]
-    [1314]; "CCR" in the 2010 SBLO handbook [1375]; fbo.gov and fpds.gov links on Lockheed Martin''s resources page
-    [1305]. Recorded as printed.'
-  owner: builder
-- id: t-PC018
-  kind: gap
-  about: primes
-  text: 'Not covered: other large civilian primes (IBM, Oracle, Guidehouse, ICF, Fluor, Bechtel, Battelle, Tetra
-    Tech, Noblis, MITRE) were searched for or seen in official directories, but no company small-business page was
-    fetched [1371].'
-  owner: builder
-- id: t-PC019
-  kind: conflict
-  about: references/DfarsAppI
-  text: 'DFARS Appendix I staleness: I-103 (DFARS Change 2026-05-07) reads "Mentors incurring costs through September
-    30, 2026", a date that passed three days before the sweep [1378]. The Army OSBP page says Department of War
-    MPP white papers "can be submitted at any time" [1376]. Whether the cost-incurrence date has been extended is
-    not established. The DoD programme page itself was not read (business.defense.gov not attempted; dcma.mil 403),
-    so the DoD MPP is covered only through DFARS Appendix I, DLA and the Army page [1379].'
-  owner: author
-- id: t-PC020
-  kind: conflict
-  about: references/DhsMpp
-  text: 'DHS Mentor-Protégé Program: the fetched text at both addresses says no new applications since March 1,
-    2023; a search-result title for the /osdbu/ address read "Great News: DHS Mentor-Protégé Program Relaunches!"
-    [1380]. Unresolved. CACI and General Dynamics both name the DHS programme [1338] [1315].'
-  owner: author
-- id: t-PC021
-  kind: gap
-  about: primes
-  text: 'Mentor-protégé programme facts from sweep C''s cross-cutting block are carried only in references, in the
-    authority lines of primes.yaml and in sections-notes.md; no programme records were built here: DoD (10 U.S.C.
-    4902; $25 million mentor threshold; one mentor per protégé; only mentors submit) [1378] [1379]; SBA (two mentors
-    at once; joint venture as small) [1377]; NASA (mentor must be a current NASA prime with an individual subcontracting
-    plan) [1382] [1381]. The mentor-protégé records are expected from the joint-venture slice; confirm at merge.'
-  owner: builder
-- id: t-PC022
-  kind: recheck
-  about: references/Far522199
-  text: FAR 52.219-9 is cited at the codified section in both slices; the FAR-overhaul deviation numbering was not
-    looked up [1374]. No class-deviation entry with a date can be written for it from these sweeps.
-  owner: builder
-- id: t-PC023
-  kind: gap
-  about: help/lynx
-  text: lynxconnect.io rendered empty (only a meta description returned). business.defense.gov was not attempted;
-    a "DoW CSP Prime Contractor Directory Dec2025" PDF at business.defense.gov/Portals/57/Documents/Subcontracting/
-    appeared in search results and was not fetched. The LYNX record rests on SBA's listing and a GDIT-hosted notice
-    [1365] [1321].
-  owner: builder
-- id: t-PC024
-  kind: gap
-  about: help
-  text: 'Directory files not opened: SBA FY24 prime directory (xlsx) [1366]; GSA subcontracting directory (xlsx)
-    [1369]; DOE Small Business Program Manager download [1373]. Blue Origin and JPL profiles on NASA''s subcontracting
-    programme were not fetched [1372]. USDA''s count of 24 entries is the extraction''s [1370].'
-  owner: builder
-- id: t-PC025
-  kind: conflict
-  about: help/sba-prime-contractor-directory
-  text: 'SubNet was read at two addresses under the same sweep id, with different results: the legacy.sba.gov page
-    says primes post by emailing SBA [1367]; the www.sba.gov page says "The ability to post new subcontracting opportunities
-    is not currently available." [1509]. SBA''s prime-and-subcontracting page was likewise read at two addresses
-    [1365] [1508]. The URLs are not identical, so each pair is kept as two references; decide at merge whether each
-    pair is one page.'
-  owner: author
-- id: t-PC026
-  kind: gap
-  about: help
-  text: 'Pages that returned 403 and were not read: va.gov/osdbu/outreach/dap/ (Direct Access Program) [1399]; dhs.gov/osdbu/small-business-vendor-outreach-sessions
-    (registration) [1395]; the Treasury VOS tips page; dcma.mil/DoD-Mentor-Protege-Program; a USACE Fort Worth capability-statement
-    PDF. Rejected by site: secnav.navy.mil/smallbusiness (Navy OSBP outreach and Navy MPP pages).'
-  owner: builder
-- id: t-PC027
-  kind: gap
-  about: help
-  text: 'Pages that returned 404: NASA "Small Business Guide to NASA 2026" PDF; va.gov/osdbu/nvsbe/2026 [1399];
-    energy.gov 2025 Small Business Forum & Expo agenda; gsa.gov/events/doing-business-with-gsa-20; legacy.sba.gov/event/85901.
-    robots.txt disallowed: congress.gov CRS report R41722 (mentor-protégé programs); osec.doc.gov (Commerce OSDBU;
-    DNS failure on robots). Not opened: the HHS sample capability statement [1418]; the sam.gov MPP announcement
-    linked by Army OSBP [1376]; ChallengeHER.us [1403].'
-  owner: builder
-- id: t-PC028
-  kind: unverified
-  about: help
-  text: 'Dates not captured: SBA 2026 Supplier Matchmaking Expo, Scottsdale [1387]; 2026 Midwest Virtual Matchmaker
-    [1408]; El Paso APEX conference [1410]. NASA''s "Doing Business with MSFC" weekday: the extraction printed "Tuesday,
-    October 29" [1389].'
-  owner: builder
-- id: t-PC029
-  kind: conflict
-  about: help/nasa-osbp-engagement-lift-2026
-  text: 'NASA L.I.F.T. date: SBA''s listing says September 15, 2026; the sweep records HHS''s calendar as saying
-    September 14-16, 2026 [1390]. The HHS calendar entry in the sweep does not itself list the event [1394].'
-  owner: author
-- id: t-PC030
-  kind: unverified
-  about: help/challengeher
-  text: 'ChallengeHER: no official 2025 or 2026 notice found; WIPP''s home page fetch showed no ChallengeHER text.
-    Not confirmed live [1403].'
-  owner: builder
-- id: t-PC031
-  kind: recheck
-  about: help
-  text: 'Stale outreach pages: DHS outreach pages last updated 04/25/2024 [1395] [1396]; the DOL VOS page shows
-    2025 dates [1397]; the USDA VOS table is headed FY 2021 with no upcoming sessions [1398]. The records keep what
-    the pages say and flag them under conflicts.'
-  owner: builder
-- id: t-PC032
-  kind: unverified
-  about: help
-  text: 'Secondary-only event records: the Army seminar and matchmaking at AUSA [1414], Navy Gold Coast [1415] and
-    Sea-Air-Space matchmaking [1416] rest on association pages; no official Army or Navy event page carried the
-    details (secnav.navy.mil rejected the fetch). The Sea-Air-Space page mixes a 2026 event date with 2025 submission
-    dates. Confirm on official pages or drop.'
-  owner: builder
-- id: t-PC033
-  kind: conflict
-  about: help/midwest-virtual-matchmaker-2026
-  text: The sweep summary says APEX Accelerators "in eleven states and one Native American APEX"; the host list
-    it captured names ten states [1408].
-  owner: author
-- id: t-PC034
-  kind: gap
-  about: help
-  text: 'No record built: the NIH Small Business Expo page (Research Festival, September 14–18, 2026) describes
-    SBIR/STTR, not procurement matchmaking; purpose and registration unverified [1392]. DOE Small Business Forum
-    & Expo 2026 not confirmed (a non-official site labelled the 2025 event "CANCELLED"; DOE''s page returned 404).
-    State, Treasury, EPA, DOI and Commerce OSDBU event pages were not reached. Air Force and DLA calendars returned
-    titles or nothing [1411] [1412].'
-  owner: builder
-- id: t-PC035
-  kind: conflict
-  about: mechanics/capability-statement
-  text: 'Capability-statement length: NIH prefers one page, one side [1417]; HHS''s how-to page allows "1 page (front
-    and back)" [1418]; HHS''s readiness page says "one-page" [1419]. Both figures are kept. Both pages still say
-    DUNS / D-U-N-S, not UEI. The sweep''s findings also give "under 1MB" for NIH, which is not among that source''s
-    key_facts and is left out of the record.'
-  owner: author
-- id: t-PC036
-  kind: unverified
-  about: references
-  text: 'Tier and kind decisions for the author: Amentum''s 2023 tips sheet is tiered classic because it predates
-    the 2024-2026 window, although it is a prime''s own supplier document [1359]; the NASA-hosted profiles of BAE
-    Systems and KBR are NASA''s statements about those companies [1326] [1345]; undated prime pages take the year
-    accessed.'
-  owner: author
-- id: t-PC037
-  kind: gap
-  about: references
-  text: 'Overlap with the merged pack, for the merge step: these PC references share a URL with an existing merged
-    reference: FAR 52.219-9 (merged n=660), army.mil/osbp (113), DFARS Appendix I (673), VA OSDBU home (593), NIH
-    capability-statement template (825), HHS capability-statement page (824) [1374] [1376] [1378] [1399] [1417]
-    [1418]. Key HhsVes exists in the merged pack at a different URL, so this pack''s key is HhsVendorEngagementSessions
-    [1393].'
-  owner: builder
-- id: t-PD001
-  kind: recheck
-  about: references
-  text: 'All slice PD sources were read through a summarising fetch layer; quotes, clause dates and dollar figures
-    need a live recheck. Where the summary paraphrased rather than quoted, the wording is a paraphrase: DFARS 252.244-7000
-    [1450]; 15 U.S.C. 3715(c) [1512]; 13 CFR 125.12 [1503]; 37 CFR 404 [1532]. No quote in this slice exceeds the
-    25-word limit.'
-  owner: builder
-- id: t-PD002
-  kind: unverified
-  about: references
-  text: uscode.house.gov was not used. U.S. Code text was read on law.cornell.edu (LII) or govinfo.gov and the host
-    is named in each entry's publisher [1434] [1443]. "published" is the FAC effective date for FAR pages, the change
-    date for DFARS pages and the "current as of" date for eCFR pages (the sweep's wording is in date_note).
-  owner: builder
-- id: t-PD003
-  kind: gap
-  about: gates
-  text: 'FAR overhaul: acquisition.gov/far pages show "FAC 2026-01, effective 03/13/2026". Agencies operate under
-    Revolutionary FAR Overhaul class deviations; only DOL''s Part 44 deviation was read [1493]. The overhaul text
-    of Parts 19, 28, 32, 44 and 52 was not read, so clause lists and numbers in force at a given agency may differ.
-    Gate records carry a class-deviation entry with an empty date wherever the deviation numbering was not swept;
-    only the Part 44 entries have a date (2025-11-19, the DOL memo date; the sweep records its effective date as
-    November 3, 2025, earlier than the memo, which should be rechecked) [1494].'
-  owner: builder
-- id: t-PD004
-  kind: conflict
-  about: gates/late-payment-reporting
-  text: 'Late-payment trigger, 90 versus 30 days: 15 U.S.C. 637(d)(13) (2024 edition) says more than 30 days past
-    due [1443]; FAR 52.242-5 and 13 CFR 125.3 as displayed say more than 90 days [1441] [1442]. Whether SBA finalised
-    RIN 3245-AI09, and whether a FAR case is open, was not established; the amendment note in the 2024-edition Code
-    was not returned [1444].'
-  owner: author
-- id: t-PD005
-  kind: unverified
-  about: gates/late-payment-reporting
-  text: 'No "2022–23 rule requiring primes to report untimely payments" was found: the reporting rule dates from
-    the 2016 FAR final rule [1445] and the 30-day statutory change from section 862 of the FY2024 NDAA [1444].'
-  owner: builder
-- id: t-PD006
-  kind: conflict
-  about: gates/miller-act-bond-claim
-  text: 'Bond threshold, FAR versus statute: FAR 28.102-1 says $150,000 [1436]; the text of 40 U.S.C. 3131 as read
-    says more than $100,000 [1434]. The reason was not traced to a primary source. Both figures are kept. 40 U.S.C.
-    3132 and 3134 were not read.'
-  owner: author
-- id: t-PD007
-  kind: conflict
-  about: gates/late-payment-reporting
-  text: 'Subcontracting-plan threshold: FAR 19.702 shows $900,000 / $2 million [1465]; 13 CFR 125.3 still shows
-    $750,000 / $1,500,000 [1442]; USDA''s 2026 directory cites $900,000 ($2,000,000 for construction) [1370].'
-  owner: author
-- id: t-PD008
-  kind: unverified
-  about: gates/flow-down-clauses
-  text: The FAR 2.101 definition of the simplified acquisition threshold could not be read (page truncated); the
-    $350,000 figure rests on the Federal Register rule [1464]. One fetch summary of 52.219-9 said $250,000, which
-    appears to be the summariser's own gloss [1374]. The FAR 52.222-50 compliance-plan threshold read as $700,000
-    on the clause page and was not listed in the inflation rule's summary [1455].
-  owner: builder
-- id: t-PD009
-  kind: unverified
-  about: gates/flow-down-clauses
-  text: The flow-down lists are "as returned" by the fetch (24 entries for 52.244-6(c)(1), 27 for 52.212-5(e)(1));
-    recount against the live clauses [1448] [1449]. The CMMC flow-down is the codified clause only [1454]; the sweep
-    notes that a July 13, 2026 suspension of CMMC Phase 2 is mentioned in the project requirements and was not checked
-    in either slice.
-  owner: builder
-- id: t-PD010
-  kind: unverified
-  about: references/LmCorpdoc2
-  text: 'Lockheed Martin CorpDoc 2 is recorded as source_kind: primary under the rule that a prime''s own supplier
-    document is primary for what the company says about itself; sweep D recorded it as secondary ("Not an official
-    source and not representative of all primes"). It is used once, in the flow-down gate, as one company''s example
-    [1467]. Author to confirm the classification.'
-  owner: author
-- id: t-PD011
-  kind: unverified
-  about: gates/disputes-with-a-prime
-  text: 'OSDBU: only 15 U.S.C. 644(k)(6) was read (page truncated at duty 16) [1489]. The 2019 commentary on a formal
-    OSDBU non-payment process describes a bill-stage provision; enactment not verified [1490]. The ASBCA Sauer decisions
-    were not fetched from asbca.mil [1486]. SBA Commercial Market Representative information rests on a June 2010
-    handbook [1375].'
-  owner: builder
-- id: t-PD012
-  kind: gap
-  about: gates/prompt-and-accelerated-payment
-  text: 'FAR 32.009-2 and 32.112-2 text was not returned [1422] [1439]. Pay-when-paid: one circuit decision only
-    [1440]; no FAR text addresses pay-if-paid clauses outside construction; state-law treatment not covered. The
-    Prompt Payment rate recorded expires December 31, 2026 [1431].'
-  owner: builder
-- id: t-PD013
-  kind: gap
-  about: gates
-  text: 'Sweep D draft records not built as gate records, by the scope of this assembly: teaming agreements and
-    NDAs (FAR Subpart 9.6; FAR 52.203-6; the Cyberlock decision; 18 U.S.C. 1833) [1478] [1477] [1480] [1479]; the
-    ostensible subcontractor rule and limitations on subcontracting [1481] [1459]; the SBA Surety Bond Guarantee
-    (one line sits in the Miller Act gate) [1447]; the Federal Laboratory Consortium (folded into the CRADA and
-    licensing routes) [1513]; choice of instrument, contract versus grant versus cooperative agreement [1536] [1537]
-    [1538]. Their sources are in references; teaming and affiliation records are expected from the teaming and joint-venture
-    slices. SBIR/STTR data rights under a prime is folded into data-rights-as-a-subcontractor, and the 7-day construction
-    rule into prompt-and-accelerated-payment.'
-  owner: builder
-- id: t-PD014
-  kind: unverified
-  about: gates
-  text: 'Sweep D''s draft "steps" include practical suggestions with no source; they are left out of the records
-    and listed here for the author. Accelerated payment: check the subcontract carries the substance of 52.232-40.
-    Flow-down: ask the prime which clauses are in its prime contract; separate mandatory flow-downs from the prime''s
-    own terms; negotiate the latter. Data rights: keep records showing private-expense development; license the
-    prime only what it needs to perform. SBIR: tell the prime and the contracting officer in writing that the work
-    is Phase III; ask that 252.227-7018 be in the subcontract. Disputes: read the disputes, governing-law and forum
-    clauses; ask for a sponsorship clause obliging the prime to pass claims up; avoid broad releases that end the
-    prime''s liability. Past performance: put the rating right in the subcontract; diarise the 30-day window; keep
-    the prime contract number. Size: recompute size before each certification; update SAM; track the joint venture''s
-    first award date. Teaming: define work share and price or attach the subcontract; avoid exclusivity that blocks
-    direct sales.'
-  owner: author
-- id: t-PD015
-  kind: unverified
-  about: gates
-  text: 'Case law and single-source law: the teaming-agreement holding is one district court under Virginia law
-    with the appellate outcome not verified [1480]; the Severin burden is from one Federal Circuit opinion [1485];
-    no official source on company-to-company NDA enforceability was found. Court decisions are tiered classic because
-    the schema''s seminal list does not name them; author to confirm.'
-  owner: author
-- id: t-PD016
-  kind: recheck
-  about: gates/size-at-subcontract
-  text: 13 CFR 125.12 was amended on 2026-09-29; the change was not identified and the section should be re-read
-    [1503]. The factor list in 13 CFR 121.103(h)(3) (proposal terms, bonding help, incumbent status) was not returned
-    [1481].
-  owner: builder
-- id: t-PD017
-  kind: gap
-  about: routes/crada
-  text: 'CRADA timeline: only NSWC Indian Head states one [1522]; the NIST, ARL, DEVCOM and Carderock pages give
-    none. Lab pages that failed and are not covered: nrl.navy.mil technology transfer (thin page; mechanisms subpage
-    403); afrl.af.mil technology transfer (403); navytechtransfer.navy.mil home (403); NAVSEA partnership intermediary
-    agreements page (403); media.defense.gov DAF T3 Reference Guide June 2026 (403); aft3.af.mil (no content); techlinkcenter.org
-    (JavaScript only); energy.gov partnering mechanisms (404).'
-  owner: builder
-- id: t-PD018
-  kind: conflict
-  about: routes/partnership-intermediary-agreement
-  text: TechLink figures differ between the Navy page (1996; more than 800 partnerships) [1525] and Montana State's
-    page (since 1999; over 1,000 inventions transferred) [1526]. No official current list of partnership intermediaries
-    was read for any service; Army intermediaries other than TechLink are not verified; the Griffiss (2019) and
-    Wright Brothers Institute–Crane (2018) agreements may have lapsed or been renewed [1531] [1527].
-  owner: author
-- id: t-PD019
-  kind: conflict
-  about: routes/manufacturing-usa-institute-membership
-  text: 'Institute count, 17 versus 18: the network''s text says 17 institutes [1539]; the institutes directory
-    returned 18 names [1541]. Sponsoring agency per institute was not returned; fees were found for America Makes
-    only (ARM, MxD, LIFT and NextFlex fee schedules not found) [1542] [1543].'
-  owner: author
-- id: t-PD020
-  kind: unverified
-  about: routes/sttr-research-institution-partner
-  text: The STTR 40/30 split and the Research Institution definition come from the May 2023 Policy Directive; any
-    change under the 2026 reauthorization was not checked in this slice, and sbir.gov/about returned no STTR detail
-    [1475]. The pending_changes entry has no date for that reason.
-  owner: builder
-- id: t-PD021
-  kind: unverified
-  about: routes/educational-partnership-agreement
-  text: That a company benefits from an Educational Partnership Agreement only through a university partner is the
-    sweep's reading, not a sentence of 10 U.S.C. 2194 as returned [1535].
-  owner: builder
-- id: t-PD022
-  kind: gap
-  about: references
-  text: 'Not fetched by instruction: business.defense.gov, congress.gov, fsd.gov; gao.gov was not fetched. 13 CFR
-    Part 115 (surety bond guarantee) was not read, and the SBA page does not say whether subcontracts are eligible
-    [1447]. SBA''s prime-and-subcontracting and joint-venture pages do not discuss disputes, payment or the two-year
-    rule [1508] [1510]; no SBA page on teaming agreements was found. Fetched and discarded as irrelevant: army.mil
-    article 290415; a gsa.gov small-business page with no subcontracting content.'
-  owner: builder
-- id: t-PD023
-  kind: gap
-  about: references
-  text: 'Assembly notes for the merge step. Two URLs were swept in both slices and are one reference each, with
-    slice D''s key_facts and quotes appended: FAR 52.219-9 and the SBA SBLO handbook [1374] [1375]. These PD references
-    share a URL with an existing merged-pack reference: FAR 52.232-40 (merged n=899), 32.009-1 (900), Treasury prompt
-    payment (901), FAR 28.102-1 (882), 42.1503 (838), SBA surety bonds (883), FAR 52.204-21 (855), DFARS 252.204-7012
-    (856), 252.204-7021 (859), FAR 52.222-50 (892), 52.222-54 (885), 52.219-14 (646), the 2025 inflation rule (810),
-    FAR 19.702 (658), DFARS 252.227-7018 (434), the SBIR/STTR Policy Directive (422), 4 CFR Part 21 (690), 15 U.S.C.
-    644 (597), SBA Advocacy on the FAR overhaul (803), 13 CFR 125.2 (654), FAR 42.1502 (837), 13 CFR 125.12 (514)
-    [1421] [1494]. Key Cfr13121404 exists in the merged pack at a different eCFR path, so this pack''s key is Cfr13121404Partnering
-    [1502].'
-  owner: builder
-- id: t-M047
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [631, 803, 1494] — merge into one entry and repoint citations. https://advocacy.sba.gov/2026/06/25/newly-released-federal-acquisition-regulation-proposed-rules'
-  owner: builder
-- id: t-M048
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [632, 1020] — merge into one entry and repoint citations. https://advocacy.sba.gov/2026/09/21/far-council-releases-second-set-of-proposed-rules-under-the-revolutionary-far-overhaul'
-  owner: builder
-- id: t-M049
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [111, 1128] — merge into one entry and repoint citations. https://business.defense.gov/programs/mentor-protege-program'
-  owner: builder
-- id: t-M050
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1059, 1369] — merge into one entry and repoint citations. https://catalog.data.gov/dataset/subcontracting-directory-for-small-businesses'
-  owner: builder
-- id: t-M051
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [605, 1068] — merge into one entry and repoint citations. https://legacy.sba.gov/article/2026/06/25/sba-releases-fy25-scorecard-small-business-contracting'
-  owner: builder
-- id: t-M052
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1050, 1366] — merge into one entry and repoint citations. https://legacy.sba.gov/document/support-directory-federal-government-prime-contractors-subcontracting-plans'
-  owner: builder
-- id: t-M053
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1049, 1367] — merge into one entry and repoint citations. https://legacy.sba.gov/federal-contracting/contracting-guide/prime-subcontracting/subcontracting-opportunities'
-  owner: builder
-- id: t-M054
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [825, 1417] — merge into one entry and repoint citations. https://oamp.od.nih.gov/sites/default/files/sbodocs/contracting_capability_statement_industryformat.pdf'
-  owner: builder
-- id: t-M055
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [637, 1079] — merge into one entry and repoint citations. https://smallgovcon.com/statutes-and-regulations/far-2-0-update-small-business-rule-of-two-lives-on-in-part-19-small-business'
-  owner: builder
-- id: t-M056
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [856, 1453] — merge into one entry and repoint citations. https://www.acquisition.gov/dfars/252.204-7012-safeguarding-covered-defense-information-and-cyber-incident-reporting.'
-  owner: builder
-- id: t-M057
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [859, 1454] — merge into one entry and repoint citations. https://www.acquisition.gov/dfars/252.204-7021-contractor-compliance-cybersecurity-maturity-model-certification-level-requirements.'
-  owner: builder
-- id: t-M058
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [24, 434, 1473] — merge into one entry and repoint citations. https://www.acquisition.gov/dfars/252.227-7018-rights-other-commercial-technical-data-and-computer-software%e2%80%94small-business-innovation-research-program-and-small-business-technology-transfer-program.'
-  owner: builder
-- id: t-M059
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [673, 1123, 1378] — merge into one entry and repoint citations. https://www.acquisition.gov/dfars/appendix-i-policy-and-procedures-dod-pilot-mentor-protege-program'
-  owner: builder
-- id: t-M060
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [610, 799, 1016] — merge into one entry and repoint citations. https://www.acquisition.gov/far-overhaul'
-  owner: builder
-- id: t-M061
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [614, 1012] — merge into one entry and repoint citations. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-19'
-  owner: builder
-- id: t-M062
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [658, 1465] — merge into one entry and repoint citations. https://www.acquisition.gov/far/19.702'
-  owner: builder
-- id: t-M063
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [659, 1002] — merge into one entry and repoint citations. https://www.acquisition.gov/far/19.704'
-  owner: builder
-- id: t-M064
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [882, 1436] — merge into one entry and repoint citations. https://www.acquisition.gov/far/28.102-1'
-  owner: builder
-- id: t-M065
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [900, 1422] — merge into one entry and repoint citations. https://www.acquisition.gov/far/32.009-1'
-  owner: builder
-- id: t-M066
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [837, 1501] — merge into one entry and repoint citations. https://www.acquisition.gov/far/42.1502'
-  owner: builder
-- id: t-M067
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [838, 1446] — merge into one entry and repoint citations. https://www.acquisition.gov/far/42.1503'
-  owner: builder
-- id: t-M068
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [855, 1452] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.204-21'
-  owner: builder
-- id: t-M069
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [646, 1007, 1459] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.219-14'
-  owner: builder
-- id: t-M070
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1005, 1492] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.219-16'
-  owner: builder
-- id: t-M071
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1004, 1491] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.219-8'
-  owner: builder
-- id: t-M072
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [660, 1003, 1374] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.219-9'
-  owner: builder
-- id: t-M073
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [892, 1455] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.222-50'
-  owner: builder
-- id: t-M074
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [885, 1456] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.222-54'
-  owner: builder
-- id: t-M075
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [899, 1421] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.232-40'
-  owner: builder
-- id: t-M076
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1010, 1441] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.242-5'
-  owner: builder
-- id: t-M077
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1006, 1448] — merge into one entry and repoint citations. https://www.acquisition.gov/far/52.244-6'
-  owner: builder
-- id: t-M078
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1086, 1478] — merge into one entry and repoint citations. https://www.acquisition.gov/far/subpart-9.6'
-  owner: builder
-- id: t-M079
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [113, 1376] — merge into one entry and repoint citations. https://www.army.mil/osbp'
-  owner: builder
-- id: t-M080
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1132, 1379] — merge into one entry and repoint citations. https://www.dla.mil/small-business/vendor-opportunities/mentoring-small-business-programs'
-  owner: builder
-- id: t-M081
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1095, 1481] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-13/chapter-i/part-121/subpart-a/subject-group-ecfrd133f03f6d8398b/section-121.103'
-  owner: builder
-- id: t-M082
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1106, 1496] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-13/chapter-i/part-125/section-125.11'
-  owner: builder
-- id: t-M083
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [514, 1107, 1503] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-13/chapter-i/part-125/section-125.12'
-  owner: builder
-- id: t-M084
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [654, 1498] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-13/chapter-i/part-125/section-125.2'
-  owner: builder
-- id: t-M085
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1021, 1442] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-13/chapter-i/part-125/section-125.3'
-  owner: builder
-- id: t-M086
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [647, 1023] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-13/chapter-i/part-125/section-125.6'
-  owner: builder
-- id: t-M087
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1098, 1499] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-13/chapter-i/part-125/section-125.8'
-  owner: builder
-- id: t-M088
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [690, 1487] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-4/chapter-i/subchapter-b/part-21'
-  owner: builder
-- id: t-M089
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [601, 1072] — merge into one entry and repoint citations. https://www.everycrsreport.com/reports/in12018.html'
-  owner: builder
-- id: t-M090
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1031, 1497] — merge into one entry and repoint citations. https://www.federalregister.gov/documents/2022/07/22/2022-15622/past-performance-ratings-for-small-business-joint-venture-members-and-small-business-first-tier'
-  owner: builder
-- id: t-M091
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [515, 1110] — merge into one entry and repoint citations. https://www.federalregister.gov/documents/2024/12/17/2024-29393/hubzone-program-updates-and-clarifications-and-clarifications-to-other-small-business-programs'
-  owner: builder
-- id: t-M092
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1032, 1444] — merge into one entry and repoint citations. https://www.federalregister.gov/documents/2024/12/19/2024-29267/government-contracting-subcontracting-program'
-  owner: builder
-- id: t-M093
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [563, 810, 1011, 1464] — merge into one entry and repoint citations. https://www.federalregister.gov/documents/2025/08/27/2025-16412/federal-acquisition-regulation-inflation-adjustment-of-acquisition-related-thresholds'
-  owner: builder
-- id: t-M094
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [626, 802, 1018] — merge into one entry and repoint citations. https://www.federalregister.gov/documents/2026/06/23/2026-12559/federal-acquisition-regulation-revolutionary-federal-acquisition-regulation-overhaul-parts-1-2-4-33'
-  owner: builder
-- id: t-M095
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1057, 1368] — merge into one entry and repoint citations. https://www.gsa.gov/small-business/find-opportunities'
-  owner: builder
-- id: t-M096
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [824, 1418] — merge into one entry and repoint citations. https://www.hhs.gov/grants-contracts/contracts/get-ready-to-do-business/write-a-capability-statement/index.html'
-  owner: builder
-- id: t-M097
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [674, 1122] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/10/4902'
-  owner: builder
-- id: t-M098
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [597, 1489] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/15/644'
-  owner: builder
-- id: t-M099
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1140, 1383] — merge into one entry and repoint citations. https://www.nasa.gov/organizations/osbp/nasa-announces-first-mentor-protege-agreement-under-enhanced-program'
-  owner: builder
-- id: t-M100
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1139, 1382] — merge into one entry and repoint citations. https://www.nasa.gov/osbp/how-to-apply-2'
-  owner: builder
-- id: t-M101
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1063, 1372] — merge into one entry and repoint citations. https://www.nasa.gov/osbp/subcontracting-program'
-  owner: builder
-- id: t-M102
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [639, 1081] — merge into one entry and repoint citations. https://www.nextgov.com/acquisition/2026/06/revolutionary-far-overhaul-moves-formal-rulemaking-first-batch-proposed-rules/414327'
-  owner: builder
-- id: t-M103
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1116, 1510] — merge into one entry and repoint citations. https://www.sba.gov/federal-contracting/contracting-assistance-programs/joint-ventures'
-  owner: builder
-- id: t-M104
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1115, 1377] — merge into one entry and repoint citations. https://www.sba.gov/federal-contracting/contracting-assistance-programs/sba-mentor-protege-program'
-  owner: builder
-- id: t-M105
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [606, 1067] — merge into one entry and repoint citations. https://www.sba.gov/federal-contracting/contracting-data/small-business-procurement-scorecard'
-  owner: builder
-- id: t-M106
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [666, 823, 1055] — merge into one entry and repoint citations. https://www.sba.gov/federal-contracting/contracting-guide/how-win-contracts'
-  owner: builder
-- id: t-M107
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1048, 1508] — merge into one entry and repoint citations. https://www.sba.gov/federal-contracting/contracting-guide/prime-subcontracting'
-  owner: builder
-- id: t-M108
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [655, 1053] — merge into one entry and repoint citations. https://www.sba.gov/federal-contracting/counseling-help/procurement-center-representative-directory'
-  owner: builder
-- id: t-M109
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [883, 1447] — merge into one entry and repoint citations. https://www.sba.gov/funding-programs/surety-bonds'
-  owner: builder
-- id: t-M110
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [5, 422, 1475] — merge into one entry and repoint citations. https://www.sbir.gov/sites/default/files/documents/sba%20sbir_sttr_policy_directive_may2023.pdf'
-  owner: builder
-- id: t-M111
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1062, 1370] — merge into one entry and repoint citations. https://www.usda.gov/sites/default/files/documents/subcontracting-directory.pdf'
-  owner: builder
-- id: t-M112
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [593, 1399] — merge into one entry and repoint citations. https://www.va.gov/osdbu'
-  owner: builder
 - id: t-OA001
   kind: conflict
   about: certifications/nontraditional-defense-contractor
@@ -4529,278 +3059,223 @@
     2019 DHS OIG audit [2043]; the Army Corps civil-works OT report, which found four agreements [2130]; the governmentwide
     obligation figures in S. Rept. 118-301 [2133]; the FFRDC explainer [2140].'
   owner: builder
-- id: t-M113
-  kind: conflict
+- id: t-CONS001
+  kind: recheck
   about: references
-  text: 'Same URL in two slices: n [63, 1978] — merge into one entry and repoint citations. https://afwerx.com'
+  text: 'Consolidation 2026-10-03: 1603 → 1427 references after URL dedupe; renumbered 1..1427 (prev_n kept); 53
+    quotes trimmed to 25 words; record ids merged: programs/apfit, programs/navy-stp, programs/army-sbir-catalyst,
+    programs/dow-art, programs/diu-cso, programs/diu-onramp-hubs, programs/tradewinds-solutions-marketplace, programs/sofwerx,
+    programs/navalx-tech-bridges, gates/sam-registration, gates/recertification-size-status, routes/subcontracting-under-prime-plan.
+    Old todo n-references refer to prev_n.'
   owner: builder
-- id: t-M114
+- id: tr-38-c1
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [64, 1979] — merge into one entry and repoint citations. https://afwerx.com/get-funded'
-  owner: builder
-- id: t-M115
+  about: references/38
+  text: 'Recheck contradicted: ''Since 1982 the programs have invested over $81 billion in approximately 34,000
+    small businesses.'' — page says: over 34,000 small businesses (page says ''more than $81 billion into over 34,000'',
+    not ''approximately'')'
+  owner: author
+- id: tr-169-c2
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [80, 1984] — merge into one entry and repoint citations. https://armysbir.army.mil'
-  owner: builder
-- id: t-M116
+  about: references/169
+  text: 'Recheck contradicted: ''TABA request does not exceed $6,500; I-Corps interest form optional.'' — page says:
+    TABA $6,500 matches, but the I-Corps interest form is listed in the proposal checklist as a required element,
+    not optional'
+  owner: author
+- id: tr-240-c3
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [357, 2046] — merge into one entry and repoint citations. https://arpa-e-foa.energy.gov'
-  owner: builder
-- id: t-M117
+  about: references/240
+  text: 'Recheck contradicted: ''Phase I up to $6,500 per project, in addition to the base award; Phase II up to
+    $50,000 per project.'' — page says: up to $6,500 per Phase I project and up to $50,000 across Phase II projects
+    per firm; amounts are in addition to the maximum award funding guideline'
+  owner: author
+- id: tr-240-c4
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1682, 2084] — merge into one entry and repoint citations. https://arpa-h.gov/sites/default/files/2025-02/faa%20ot%20guide%20-%20apr%202023.pdf'
-  owner: builder
-- id: t-M118
+  about: references/240
+  text: 'Recheck contradicted: ''Firm-selected vendor in Phase II must be in the Phase II proposal and is paid from
+    the SBIR award.'' — page says: firm-selected vendor costs must be included in the DSIP Cost Volume (Volume 3)
+    and can be in addition to the maximum funding limitation for the topic; not limited to Phase II'
+  owner: author
+- id: tr-310-c5
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [110, 2003] — merge into one entry and repoint citations. https://business.defense.gov'
-  owner: builder
-- id: t-M119
+  about: references/310
+  text: 'Recheck contradicted: ''Sole source: up to $8.5 million manufacturing NAICS, $5.5 million all other.''
+    — page says: $7 million for acquisitions assigned manufacturing NAICS codes and $4.5 million for all other acquisitions'
+  owner: author
+- id: tr-310-c6
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1500, 2119] — merge into one entry and repoint citations. https://cpars.gov/cparsweb/assets/documents/cpars-guidance.pdf'
-  owner: builder
-- id: t-M120
+  about: references/310
+  text: 'Recheck contradicted: ''Sole-source up to $8.5 million (manufacturing NAICS) and $5.5 million (other).''
+    — page says: $7 million (manufacturing NAICS) and $4.5 million (all other acquisitions)'
+  owner: author
+- id: tr-343-c7
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1701, 2125] — merge into one entry and repoint citations. https://files.gao.gov/reports/gao-25-107546/index.html'
-  owner: builder
-- id: t-M121
+  about: references/343
+  text: 'Recheck contradicted: ''Long-term investment: buying a building or leasing for 10+ years keeps principal-office
+    status for up to 10 years after the area loses designation.'' — page says: (c)(1)(i): the 10-year long-term-investment
+    protection applies to a principal office in a HUBZone ''other than in a Redesignated Area or Qualified Disaster
+    Area''; fetch reader says the page does not frame it as running 10 years after loss of designation'
+  owner: author
+- id: tr-450-c8
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1678, 2082] — merge into one entry and repoint citations. https://grants.nih.gov/funding/funding-categories/other-transactions'
-  owner: builder
-- id: t-M122
+  about: references/450
+  text: 'Recheck contradicted: ''I-107 as displayed: participation term "does not exceed 23 years" (apparent rendering
+    error for 3 years; I-108 asks for a justification if the term exceeds 3 years), extendable by not more than
+    2 year'' — page says: I-107(k) reads ''does not exceed 3 years'' (not 23) as returned by this fetch; extension
+    not to exceed 2 years and 30 days'' written notice match'
+  owner: author
+- id: tr-518-c9
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [313, 2101] — merge into one entry and repoint citations. https://legacy.sba.gov/article/2026/09/22/sba-awards-more-8-million-fast-grants-fuel-next-generation-breakthrough-innovators'
-  owner: builder
-- id: t-M123
+  about: references/518
+  text: 'Recheck contradicted: ''OEMs must maintain a GSA Schedule contract'' — page says: Vendor guidance says
+    to ''verify your organization meets the criteria and can maintain a GSA Schedule contract'' (capability to maintain,
+    not a stated requirement that OEMs must maintain one)'
+  owner: author
+- id: tr-525-c10
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1722, 2137] — merge into one entry and repoint citations. https://nstxl.org/faq-items/can-my-firm-join-a-specific-ota-consortium'
-  owner: builder
-- id: t-M124
+  about: references/525
+  text: 'Recheck contradicted: ''8(a) STARS III: base 7/2/21–7/1/26; option 7/2/26–7/1/29'' — page says: 8(a) STARS
+    III option period shown as 7/2/26-7/1/28 (base 7/2/21-7/1/26)'
+  owner: author
+- id: tr-556-c11
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1679, 2083] — merge into one entry and repoint citations. https://oamp.od.nih.gov/sites/default/files/dapedocs/ot_policy_guide-final.pdf'
-  owner: builder
-- id: t-M125
+  about: references/556
+  text: 'Recheck contradicted: ''101 vendors listed, about 47 marked small business (as counted by the extractor;
+    recount before use)'' — page says: Reader enumeration of the vendor table returned 114 vendor rows, 47 marked
+    small business (page states no total itself).'
+  owner: author
+- id: tr-692-c12
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [98, 1954] — merge into one entry and repoint citations. https://s3.us-gov-west-1.amazonaws.com/publicdocs.diu.mil/diu_cso_hq0845-20-s-c001.pdf'
-  owner: builder
-- id: t-M126
+  about: references/692
+  text: 'Recheck contradicted: ''Failure to make a good faith effort = "willful or intentional failure to perform
+    ... or willful or intentional action to frustrate the plan" (19.705-7).'' — page says: the quoted definition
+    of failure to make a good faith effort appears in 19.701 (definitions), not 19.705-7; 19.705-7(b) refers to
+    the totality of the contractor''s actions'
+  owner: author
+- id: tr-720-c13
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1627, 2109] — merge into one entry and repoint citations. https://s3.us-gov-west-1.amazonaws.com/publicdocs.diu.mil/dod_ot_guide_jul_2023_final+(1).pdf'
-  owner: builder
-- id: t-M127
+  about: references/720
+  text: 'Recheck contradicted: ''Second/lower-tier subcontractor ISR reporting is deployed only in the pre-production
+    environment.'' — page says: Listed under "Already in Production (sam.gov)"; pre-production (alpha.sam.gov) items
+    are listed separately'
+  owner: author
+- id: tr-751-c14
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1711, 2110] — merge into one entry and repoint citations. https://www.acq.osd.mil/asda/dpc/cp/policy/docs/guidebook/dod%20ot%20guide%20(july%202023)%20-%20508%20update_11jul2025.pdf'
-  owner: builder
-- id: t-M128
+  about: references/751
+  text: 'Recheck contradicted: ''13 recommendations: 3 closed as implemented, 10 open as shown on 2026-10-03.''
+    — page says: Recommendations table shows 4 closed as implemented (HHS Rec. 8, NASA Rec. 9, SBA Recs. 10 and
+    11) and 9 open, of 13.'
+  owner: author
+- id: tr-793-c15
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1470, 1619] — merge into one entry and repoint citations. https://www.acquisition.gov/dfars/252.227-7013-rights-technical-data%e2%80%94other-commercial-products-and-commercial-services.'
-  owner: builder
-- id: t-M129
+  about: references/793
+  text: 'Recheck contradicted: ''Excel file, effective July 7, 2026.'' — page says: file is effective October 1,
+    2026'
+  owner: author
+- id: tr-835-c16
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [618, 806, 1622] — merge into one entry and repoint citations. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-12'
-  owner: builder
-- id: t-M130
+  about: references/835
+  text: 'Recheck contradicted: ''Lists an "Upcoming Events Calendar" with six events in September–October, including
+    Defense TechConnect, AUSA Annual Meeting, NMSDC Annual Conference and Government Procurement Conference.'' —
+    page says: calendar lists four events, all in October: AUSA Annual Meeting & Exposition (Oct. 12-14), 6th Annual
+    Defense & Government Contracting Forum (Oct. 13), NMSDC Annual Conference & Exchange (Oct. 25-28), Government
+    Procurement Conference (Oct. 27); no September events and no Defense TechConnect'
+  owner: author
+- id: tr-837-c17
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [482, 1620] — merge into one entry and repoint citations. https://www.acquisition.gov/far/35.016'
-  owner: builder
-- id: t-M131
+  about: references/837
+  text: 'Recheck contradicted: ''Links "DOD Mentor/Protégé Program" and "SBA Mentor Protege Program".'' — page says:
+    Link label now reads "Department of War Mentor/Protégé Program"; "SBA Mentor Protege Program" label unchanged'
+  owner: author
+- id: tr-893-c18
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [837, 1501, 2118] — merge into one entry and repoint citations. https://www.acquisition.gov/far/42.1502'
-  owner: builder
-- id: t-M132
+  about: references/893
+  text: 'Recheck contradicted: ''Carla Jamison, Senior Manager, Small Business Liaison Officer; Sherry Penson, Manager,
+    Deputy Small Business Liaison Officer; Kimberly Meyers, Subcontract Specialist, Small Business Liaison Office.''
+    — page says: Page lists only Carla Jamison (Senior Manager, Small Business Liaison Officer) and Sherry Penson
+    (Manager, Deputy Small Business Liaison Officer); Kimberly Meyers does not appear'
+  owner: author
+- id: tr-906-c19
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [835, 2006] — merge into one entry and repoint citations. https://www.acquisition.gov/far/part-12'
-  owner: builder
-- id: t-M133
+  about: references/906
+  text: 'Recheck contradicted: ''Corporate-buyer event (supply chains), not a federal-buyer event.'' — page says:
+    Page says the event is ''Hosted by the U.S. Small Business Administration'' and mentions ''local, state and
+    federal organizations'' taking part'
+  owner: author
+- id: tr-944-c20
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [836, 2007] — merge into one entry and repoint citations. https://www.acquisition.gov/far/part-13'
-  owner: builder
-- id: t-M134
+  about: references/944
+  text: 'Recheck contradicted: ''(i)-(j): interest owed by a prime is not a federal obligation; contractor–subcontractor
+    disputes are not disputes with the United States.'' — page says: Substance is on the page, but per the reader
+    the contractor-subcontractor dispute provision is subsection (i) and the interest-penalty-not-a-U.S.-obligation
+    provision is subsection (k), not (j).'
+  owner: author
+- id: tr-1001-c21
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [813, 2013] — merge into one entry and repoint citations. https://www.acquisition.gov/procurement-forecasts'
-  owner: builder
-- id: t-M135
+  about: references/1001
+  text: 'Recheck contradicted: ''Nine active collaborative research alliances listed.'' — page says: eight Collaborative
+    Research Alliances listed (A2I2, ARCEDD-CRP, DCIST, Collective Judgement Formation, IoBT, SARA, STRONG, TBAM)
+    plus a ''Completed Alliances'' link; no count stated'
+  owner: author
+- id: tr-1052-c22
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1688, 1943] — merge into one entry and repoint citations. https://www.americanbar.org/groups/public_contract_law/resources/procurement-lawyer/2026-winter/national-defense-authorization-act-fiscal-year-2026'
-  owner: builder
-- id: t-M136
+  about: references/1052
+  text: 'Recheck contradicted: ''OTs are not subject to the Bayh-Dole Act (35 U.S.C. 201–212) or 10 U.S.C. 3771
+    for technical data; IP rights are fully negotiable (p. 27).'' — page says: Page 27 reads ''not subject to the
+    statutory regimes of the Bayh-Dole Act (35 U.S.C. 201-212) for patents and 10 U.S.C. 2320-21 for technical data''
+    (not 10 U.S.C. 3771); IP rights fully negotiable is confirmed.'
+  owner: author
+- id: tr-1054-c23
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1753, 2135] — merge into one entry and repoint citations. https://www.amtcenterprise.org/ota-faqs'
-  owner: builder
-- id: t-M137
+  about: references/1054
+  text: 'Recheck contradicted: ''Approval: up to $100M service secretary or agency director; $100M–$500M USD(R&E)
+    or USD(A&S); over $500M USD approval plus 30-day congressional notification (as the page states; compare the
+    statute).'' — page says: Up to $100M the page names the Senior Procurement Executive (military departments),
+    Director (DARPA/MDA, defense agencies/DIU) or commanding officer (combatant commands); ''service secretary''
+    is not named.'
+  owner: author
+- id: tr-1106-c24
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [487, 2102] — merge into one entry and repoint citations. https://www.challenge.gov'
-  owner: builder
-- id: t-M138
+  about: references/1106
+  text: 'Recheck contradicted: ''States that more than 90% of the defense industrial base qualifies as nontraditional
+    (unsourced).'' — page says: figure matches (more than 90%), but the page attributes it to a July 2025 study
+    by George Mason''s Baroni Center for Government Contracting, so it is not unsourced'
+  owner: author
+- id: tr-1110-c25
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1690, 1944] — merge into one entry and repoint citations. https://www.crowell.com/en/insights/client-alerts/the-fy-2026-national-defense-authorization-act'
-  owner: builder
-- id: t-M139
+  about: references/1110
+  text: 'Recheck contradicted: ''§§ 805 and 843–850 address technical data for covered systems (tracking, verification,
+    escrow).'' — page says: Section 805 sets up a digital system for tracking covered data and verifying compliance;
+    Sections 843-850 are described as supply-chain and sourcing restrictions (e.g., critical minerals), not technical
+    data.'
+  owner: author
+- id: tr-1110-c26
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [388, 2040] — merge into one entry and repoint citations. https://www.dhs.gov/science-and-technology/funding-innovation'
-  owner: builder
-- id: t-M140
+  about: references/1110
+  text: 'Recheck contradicted: ''Reports § 1823 broadening sole-source follow-on production authority and §§ 811-812,
+    826 on nontraditional defense contractors.'' — page says: Page discusses Section 1823 and Sections 811-812 and
+    824 (not 826) on nontraditional defense contractors.'
+  owner: author
+- id: tr-1258-c27
   kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [95, 1952] — merge into one entry and repoint citations. https://www.diu.mil/work-with-us/commercial'
-  owner: builder
-- id: t-M141
+  about: references/1258
+  text: 'Recheck contradicted: ''Category I: FYDP above $250M (MDA is the DAE); Category II: above $50M (CAE); Category
+    III: below $50M.'' — page says: Category I MDA is ''defense acquisition executive or as delegated (not below
+    CAE)''; Category II MDA is ''CAE or as delegated''; Category III is defined as ''Does not meet criteria for
+    category II'', not as a sub-$50M figure'
+  owner: author
+- id: tr-1410-c28
   kind: conflict
+  about: references/1410
+  text: 'Recheck contradicted: ''Resource share to the maximum extent practicable 50/50 (2.D.4.a).'' — page says:
+    resource-share sentence sits at 2.D.2 as read by the fetch (''Resource share is required and to the maximum
+    extent practicable, the funds from the Government do not exceed the total amount provided by the other parties'';
+    ''generally a 50%/50% resource share''); 2.D.4.a reads ''The offered assets must be'
+  owner: author
+- id: t-CONS002
+  kind: recheck
   about: references
-  text: 'Same URL in two slices: n [96, 1955] — merge into one entry and repoint citations. https://www.diu.mil/work-with-us/open-solicitations'
-  owner: builder
-- id: t-M142
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [914, 2014] — merge into one entry and repoint citations. https://www.doi.gov/pmb/osdbu/forecast'
-  owner: builder
-- id: t-M143
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1611, 2113] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-32/subtitle-a/chapter-i/subchapter-a/part-3'
-  owner: builder
-- id: t-M144
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [861, 2114] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-32/subtitle-a/chapter-i/subchapter-g/part-170/subpart-a/section-170.3'
-  owner: builder
-- id: t-M145
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1673, 2051] — merge into one entry and repoint citations. https://www.energy.gov/sites/default/files/2023-09/ot%20guide%20final%20sept%202023.pdf'
-  owner: builder
-- id: t-M146
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1665, 2124] — merge into one entry and repoint citations. https://www.fpds.gov/help/create_an_otagreement.htm'
-  owner: builder
-- id: t-M147
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1699, 2126] — merge into one entry and repoint citations. https://www.gao.gov/assets/gao-22-105357.pdf'
-  owner: builder
-- id: t-M148
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1709, 2129] — merge into one entry and repoint citations. https://www.gao.gov/products/gao-24-106214'
-  owner: builder
-- id: t-M149
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1136, 1610, 1937] — merge into one entry and repoint citations. https://www.govinfo.gov/content/pkg/plaw-119publ60/html/plaw-119publ60.htm'
-  owner: builder
-- id: t-M150
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [486, 2107] — merge into one entry and repoint citations. https://www.gsa.gov/technology/government-it-initiatives/prize-competitions'
-  owner: builder
-- id: t-M151
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1605, 1941] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/10/3014'
-  owner: builder
-- id: t-M152
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1606, 1939] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/10/3458'
-  owner: builder
-- id: t-M153
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1609, 1940] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/10/3702'
-  owner: builder
-- id: t-M154
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1604, 2112] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/10/4021'
-  owner: builder
-- id: t-M155
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1602, 1942] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/10/4022'
-  owner: builder
-- id: t-M156
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [811, 2011] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/15/637'
-  owner: builder
-- id: t-M157
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [597, 1489, 2012] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/15/644'
-  owner: builder
-- id: t-M158
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1536, 2015] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/31/6303'
-  owner: builder
-- id: t-M159
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1750, 2134] — merge into one entry and repoint citations. https://www.nacconsortium.org/faq'
-  owner: builder
-- id: t-M160
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1517, 2099] — merge into one entry and repoint citations. https://www.nist.gov/tpo/partnering/overview'
-  owner: builder
-- id: t-M161
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1775, 2136] — merge into one entry and repoint citations. https://www.nstic.org/membership/faqs'
-  owner: builder
-- id: t-M162
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [316, 2100] — merge into one entry and repoint citations. https://www.sbir.gov/community/gafc'
-  owner: builder
-- id: t-M163
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [102, 1964] — merge into one entry and repoint citations. https://www.tradewindai.com/faqs'
-  owner: builder
-- id: t-M164
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [103, 1963] — merge into one entry and repoint citations. https://www.tradewindai.com/tw-marketplace'
-  owner: builder
-- id: t-M165
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1046, 1667] — merge into one entry and repoint citations. https://www.usaspending.gov/data/about-the-data-download.pdf'
-  owner: builder
-- id: t-M166
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [1047, 1714] — merge into one entry and repoint citations. https://www.usaspending.gov/data/data-sources-download.pdf'
-  owner: builder
-- id: t-M167
-  kind: conflict
-  about: references
-  text: 'Same URL in two slices: n [633, 1625] — merge into one entry and repoint citations. https://www.waru.edu/revolutionary-far-overhaul/announcements'
+  text: 'Live recheck 2026-10-03: 1135 of 1324 cited references read against the live page; 189 not reached (session
+    fetch budget) and still recheck: true — listed in source/recheck-remaining.json. Quotes judged PARAPHRASE or
+    NOT-FOUND were removed to dropped_quotes; contradicted facts are tagged in key_facts and listed as tr-* todos.'
   owner: builder

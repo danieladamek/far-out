@@ -1,4 +1,4 @@
-# queries.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
+# queries.yaml — FAR Out content pack · consolidated 2026-10-03 (URL dedupe, sequential renumbering with prev_n, id merges, 25-word quotes). recheck: true until the live-page pass clears each entry.
 - text: SBIR STTR reauthorization 2026 public law signed
   engine: WebSearch
   hits: 9

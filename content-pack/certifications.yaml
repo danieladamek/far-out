@@ -1,869 +1,869 @@
-# certifications.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
+# certifications.yaml — FAR Out content pack · consolidated 2026-10-03 (URL dedupe, sequential renumbering with prev_n, id merges, 25-word quotes). recheck: true until the live-page pass clears each entry.
 - id: 8a-business-development
   name: 8(a) Business Development program
   owner: U.S. Small Business Administration
   what: 'A nine-year business development program for small firms owned and controlled by socially and economically
     disadvantaged individuals, or by Indian Tribes, Alaska Native Corporations, Native Hawaiian Organizations and
-    Community Development Corporations [533] [534] [556] [557] [558]. The term runs nine years from the date of
-    SBA''s approval letter: a four-year developmental stage and a five-year transitional stage [534]. Participation
-    is one-time-only for firms and individuals, with the exception of entity-owned firms [533]. Since September
-    10, 2026 there is no rebuttable presumption of social disadvantage for individually owned applicants [537] [535].'
+    Community Development Corporations [310] [311] [333] [334] [335]. The term runs nine years from the date of
+    SBA''s approval letter: a four-year developmental stage and a five-year transitional stage [311]. Participation
+    is one-time-only for firms and individuals, with the exception of entity-owned firms [310]. Since September
+    10, 2026 there is no rebuttable presumption of social disadvantage for individually owned applicants [314] [312].'
   eligibility:
-  - Small business [533]
+  - Small business [310]
   - At least 51 percent unconditionally and directly owned by disadvantaged individuals (13 CFR 124.105), who are
-    U.S. citizens [534] [533]
+    U.S. citizens [311] [310]
   - 'Control (13 CFR 124.106): a disadvantaged individual holds the highest officer position and manages full-time
-    [534]'
+    [311]'
   - 'Economic disadvantage, as SBA''s page states it: net worth $850 thousand or less, AGI $400 thousand or less,
-    assets $6.5 million or less [533]. As 13 CFR 124.104 states it: net worth less than $850,000; three-year average
-    income $400,000; assets over $6.5 million generally not disadvantaged [534]'
+    assets $6.5 million or less [310]. As 13 CFR 124.104 states it: net worth less than $850,000; three-year average
+    income $400,000; assets over $6.5 million generally not disadvantaged [311]'
   - 'Social disadvantage (13 CFR 124.103, text in force since 2026-09-10): the individual shows that a governmental
     or private entity discriminated or was biased against a clearly definable racial, ethnic, or cultural group
     of which the individual is a member, causing material harm, with evidence that the entity''s action favored
-    other groups or disadvantaged the individual''s group, plus self-certification [535] [537]'
-  - Material harm means "loss of access to or diminished opportunities related to economic advancement" [535]
+    other groups or disadvantaged the individual''s group, plus self-certification [312] [314]'
+  - Material harm means "loss of access to or diminished opportunities related to economic advancement" [312]
   - 'Social disadvantage is a one-time determination: individuals already found disadvantaged need not re-establish
-    it [537]'
-  - Good character [533]
-  - 'Potential for success: two full years in business in the primary industry, waivable (13 CFR 124.107) [534]
-    [533]'
-  - 'Not previously in the 8(a) program: once a firm or individual has participated, neither is eligible again [534]
-    [533]'
-  - Entity-owned firms are not affected by the 2026 social-disadvantage rule [537]. A Tribe must show its own economic
-    disadvantage; an ANC is deemed economically disadvantaged under 43 U.S.C. 1626(e) [556]. An NHO must establish
-    that it is economically disadvantaged [557]. A concern at least 51 percent owned by a CDC is considered controlled
-    by the CDC and eligible [558]
-  - 'Entity-owned firms: size is determined without regard to affiliation with the Tribe or ANC [556], the NHO (absent
-    a substantial unfair competitive advantage) [557] or the CDC [558]. A Tribe may not own 51% or more of another
-    firm operating in 8(a) under the same primary NAICS code [556]; the same one-firm-per-primary-NAICS limit applies
-    to NHOs and CDCs [557] [558]'
+    it [314]'
+  - Good character [310]
+  - 'Potential for success: two full years in business in the primary industry, waivable (13 CFR 124.107) [311]
+    [310]'
+  - 'Not previously in the 8(a) program: once a firm or individual has participated, neither is eligible again [311]
+    [310]'
+  - Entity-owned firms are not affected by the 2026 social-disadvantage rule [314]. A Tribe must show its own economic
+    disadvantage; an ANC is deemed economically disadvantaged under 43 U.S.C. 1626(e) [333]. An NHO must establish
+    that it is economically disadvantaged [334]. A concern at least 51 percent owned by a CDC is considered controlled
+    by the CDC and eligible [335]
+  - 'Entity-owned firms: size is determined without regard to affiliation with the Tribe or ANC [333], the NHO (absent
+    a substantial unfair competitive advantage) [334] or the CDC [335]. A Tribe may not own 51% or more of another
+    firm operating in 8(a) under the same primary NAICS code [333]; the same one-firm-per-primary-NAICS limit applies
+    to NHOs and CDCs [334] [335]'
   benefits:
   - 'Sole source, codified FAR (the figures contracting officers apply): an 8(a) acquisition must be competed among
     participants above $8.5 million for acquisitions assigned manufacturing NAICS codes and $5.5 million for all
-    other acquisitions, so sole-source awards are available up to those values (FAR 19.805-1) [561]. SBA''s program
-    page gives the same figures [533]. A requirement may not be split to stay under the threshold [561]'
+    other acquisitions, so sole-source awards are available up to those values (FAR 19.805-1) [338]. SBA''s program
+    page gives the same figures [310]. A requirement may not be split to stay under the threshold [338]'
   - 'Sole source, SBA regulation: 13 CFR 124.506 as displayed prints $7,000,000 (manufacturing NAICS) and $4,500,000
-    (all other) [554]. See conflicts'
+    (all other) [331]. See conflicts'
   - Above the competitive threshold, a sole-source award is allowed where SBA accepts the requirement for a concern
-    owned by an Indian tribe or an Alaska Native Corporation (FAR 19.805-1) [561]; 13 CFR 124.506 as read names
-    Tribally-owned, ANC-owned and NHO-owned concerns [554]
+    owned by an Indian tribe or an Alaska Native Corporation (FAR 19.805-1) [338]; 13 CFR 124.506 as read names
+    Tribally-owned, ANC-owned and NHO-owned concerns [331]
   - 'Justification: SBA may not accept for negotiation a sole-source 8(a) contract that exceeds $30 million unless
-    the requesting agency has completed a justification (FAR 19.808-1) [562]; the figure rose from $25 million on
-    October 1, 2025 [563]. 13 CFR 124.506 as displayed prints $25,000,000, and $100,000,000 for a DoD agency [554].
+    the requesting agency has completed a justification (FAR 19.808-1) [339]; the figure rose from $25 million on
+    October 1, 2025 [340]. 13 CFR 124.506 as displayed prints $25,000,000, and $100,000,000 for a DoD agency [331].
     DFARS 219.8: SBA may not accept a DoD sole-source 8(a) contract exceeding $100 million without a FAR 6.303 justification
-    [671]'
+    [448]'
   - 'Lifetime limit (13 CFR 124.519): a firm may not receive sole-source 8(a) awards once it has received a combined
     total of competitive and sole-source 8(a) contracts in excess of $168,500,000; competitive 8(a) awards remain
-    available; the cap does not apply to firms owned by an Indian Tribe, ANC, NHO or CDC [555]'
-  - 'Set-asides: above the competitive threshold the requirement is competed among eligible 8(a) participants [561]
-    [554]. Among the 8(a), HUBZone, SDVOSB and WOSB programs there is no order of precedence, and above the simplified
-    acquisition threshold they are considered before a general small-business set-aside (FAR 19.203) [652]'
+    available; the cap does not apply to firms owned by an Indian Tribe, ANC, NHO or CDC [332]'
+  - 'Set-asides: above the competitive threshold the requirement is competed among eligible 8(a) participants [338]
+    [331]. Among the 8(a), HUBZone, SDVOSB and WOSB programs there is no order of precedence, and above the simplified
+    acquisition threshold they are considered before a general small-business set-aside (FAR 19.203) [429]'
   - 'Price evaluation preference: none found for 8(a) in the sources read; the 10 percent preference read is HUBZone
-    only [656]'
-  - In DoD, 8(a) awards go direct to the participant under the DoD–SBA Partnership Agreement (DFARS 219.8) [671]
-  - All current 8(a) participants qualify as small disadvantaged businesses [595]
-  - The limitations on subcontracting apply to 8(a) awards (FAR subpart 19.8) at any value [645]
+    only [433]'
+  - In DoD, 8(a) awards go direct to the participant under the DoD–SBA Partnership Agreement (DFARS 219.8) [448]
+  - All current 8(a) participants qualify as small disadvantaged businesses [372]
+  - The limitations on subcontracting apply to 8(a) awards (FAR subpart 19.8) at any value [422]
   steps:
-  - Identify the primary NAICS code [533]
-  - Register in SAM [533]
-  - Apply at certifications.sba.gov (MySBA Certifications) [533] [549]
+  - Identify the primary NAICS code [310]
+  - Register in SAM [310]
+  - Apply at certifications.sba.gov (MySBA Certifications) [310] [326]
   - Applicants whose pending individually owned application was returned on 2026-09-10 have 45 calendar days to
-    resubmit through certifications.sba.gov [548]
+    resubmit through certifications.sba.gov [325]
   - The portal lists three 8(a) FAQ releases (August 28 and September 10, 2026) on the social-disadvantage change
-    and potential for success [549]
-  cost_and_time: SBA says it does not charge any costs for applying to its programs [585]. Once SBA has determined
-    the application is complete, SBA has 90 days to process it and render a decision [533].
+    and potential for success [326]
+  cost_and_time: SBA says it does not charge any costs for applying to its programs [362]. Once SBA has determined
+    the application is complete, SBA has 90 days to process it and render a decision [310].
   recertification:
-  - Annual review through the servicing SBA District Office [533]. Annual submissions under 13 CFR 124.112 include
+  - Annual review through the servicing SBA District Office [310]. Annual submissions under 13 CFR 124.112 include
     an eligibility certification, changes, personal financial information for each disadvantaged owner, transfers
     to family within two years, a record of payments and distributions, mentor-protégé reports, fees paid to agents
-    and performance-of-work reports [559]
+    and performance-of-work reports [336]
   - Size and 8(a) status are recertified within 30 calendar days of a merger, acquisition or sale changing controlling
-    interest, and on contracts over five years (13 CFR 125.12) [514]
+    interest, and on contracts over five years (13 CFR 125.12) [291]
   - A participant's 8(a) eligibility may not be challenged by another participant or any other party; information
-    questioning eligibility may be sent to SBA under 124.112(c) [560]. Size can be protested on competitive 8(a)
-    awards but not on sole-source ones [560]
+    questioning eligibility may be sent to SBA under 124.112(c) [337]. Size can be protested on competitive 8(a)
+    awards but not on sole-source ones [337]
   official_url: https://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-business-development-program
   pending_changes:
   - status: final
     date: '2026-08-11'
     text: Final rule 91 FR 51568 (RIN 3245-AI75), effective September 10, 2026, removed the rebuttable presumption
       of social disadvantage for individually owned applicants and applies to all applications pending on that date;
-      it does not affect entity-owned firms [537]. It finalised the proposed rule of June 11, 2026 [536]. eCFR 124.103
-      already carries the new text [535].
+      it does not affect entity-owned firms [314]. It finalised the proposed rule of June 11, 2026 [313]. eCFR 124.103
+      already carries the new text [312].
   - status: announced
     date: '2026-09-10'
     text: On the rule's effective date SBA returned pending individually owned applications for update with 45 calendar
       days to resubmit, reinstated potential-for-success reviews and gave priority to ten defense-critical manufacturing
-      NAICS codes [548].
+      NAICS codes [325].
   - status: announced
     date: '2026-03-04'
-    text: 'Program audit and enforcement: audit ordered June 27, 2025 [541]; data call to all 4,300 participants
-      December 5, 2025 [542]; 1,091 firms suspended January 28, 2026 [544]; termination proceedings against 154
-      D.C.-based firms February 11, 2026 [545]; termination proceedings against 628 firms March 4, 2026, about 800
-      in total [546].'
+    text: 'Program audit and enforcement: audit ordered June 27, 2025 [318]; data call to all 4,300 participants
+      December 5, 2025 [319]; 1,091 firms suspended January 28, 2026 [321]; termination proceedings against 154
+      D.C.-based firms February 11, 2026 [322]; termination proceedings against 628 firms March 4, 2026, about 800
+      in total [323].'
   - status: class-deviation
     date: '2025-09-26'
     text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries the 8(a)
       competition threshold at 19.108-7 ($8.5 million manufacturing NAICS, $5.5 million other) and keeps follow-on
-      requirements in 8(a) unless SBA releases them at 19.108-11(a) [614]. GSA adopted it by Class Deviation RFO-2025-19,
-      effective November 3, 2025 [623]; DoD by Class Deviation 2026-O0037, effective February 1, 2026, under which
-      an SBA signature on the contract is not required [625]. The codified FAR (FAC 2026-01) is unchanged [641].'
+      requirements in 8(a) unless SBA releases them at 19.108-11(a) [391]. GSA adopted it by Class Deviation RFO-2025-19,
+      effective November 3, 2025 [400]; DoD by Class Deviation 2026-O0037, effective February 1, 2026, under which
+      an SBA signature on the contract is not required [402]. The codified FAR (FAC 2026-01) is unchanged [418].'
   situations:
+  - first-awards-grow
   - registered-no-award
-  - first-awards
   as_of: '2026-10-03'
   sources:
-  - 514
-  - 533
-  - 534
-  - 535
-  - 536
-  - 537
-  - 538
-  - 540
-  - 541
-  - 542
-  - 543
-  - 544
-  - 545
-  - 546
-  - 547
-  - 548
-  - 549
-  - 554
-  - 555
-  - 556
-  - 557
-  - 558
-  - 559
-  - 560
-  - 561
-  - 562
-  - 563
-  - 585
-  - 595
-  - 614
-  - 623
-  - 625
-  - 641
-  - 645
-  - 652
-  - 656
-  - 671
+  - 291
+  - 310
+  - 311
+  - 312
+  - 313
+  - 314
+  - 315
+  - 317
+  - 318
+  - 319
+  - 320
+  - 321
+  - 322
+  - 323
+  - 324
+  - 325
+  - 326
+  - 331
+  - 332
+  - 333
+  - 334
+  - 335
+  - 336
+  - 337
+  - 338
+  - 339
+  - 340
+  - 362
+  - 372
+  - 391
+  - 400
+  - 402
+  - 418
+  - 422
+  - 429
+  - 433
+  - 448
   conflicts:
-  - 'Sole-source ceiling: FAR 19.805-1 $8.5 million / $5.5 million [561] vs 13 CFR 124.506 $7,000,000 / $4,500,000
-    [554]'
-  - 'Sole-source justification threshold: FAR 19.808-1 $30 million [562] vs 13 CFR 124.506 $25,000,000 [554]'
-  - 'Entities allowed sole source above the threshold: FAR 19.805-1 names Indian tribes and ANCs [561] vs 13 CFR
-    124.506 as read, which also names NHO-owned concerns [554]'
-  - 'Net-worth wording: "$850 thousand or less" on SBA''s page [533] vs "less than $850,000" in 13 CFR 124.104 as
-    read [534]'
-  - 'December 2025 data-call deadline: January 5, 2026 [542] vs January 19 [544]'
-  - 'Firms admitted under the prior administration: 2,100+ [543] [547] vs 2,200+ over the prior four years [544]'
+  - 'Sole-source ceiling: FAR 19.805-1 $8.5 million / $5.5 million [338] vs 13 CFR 124.506 $7,000,000 / $4,500,000
+    [331]'
+  - 'Sole-source justification threshold: FAR 19.808-1 $30 million [339] vs 13 CFR 124.506 $25,000,000 [331]'
+  - 'Entities allowed sole source above the threshold: FAR 19.805-1 names Indian tribes and ANCs [338] vs 13 CFR
+    124.506 as read, which also names NHO-owned concerns [331]'
+  - 'Net-worth wording: "$850 thousand or less" on SBA''s page [310] vs "less than $850,000" in 13 CFR 124.104 as
+    read [311]'
+  - 'December 2025 data-call deadline: January 5, 2026 [319] vs January 19 [321]'
+  - 'Firms admitted under the prior administration: 2,100+ [320] [324] vs 2,200+ over the prior four years [321]'
 - id: hubzone
   name: HUBZone program
   owner: U.S. Small Business Administration
   what: Certification for small firms based in, and employing residents of, historically underutilized business
-    zones [564]. A certified firm keeps its principal office in a HUBZone and at least 35% of its employees live
-    in one [564] [566]. Certified firms get sole-source authority and a 10 percent price evaluation preference in
-    full and open competition [572]. The statutory government-wide goal for HUBZone firms is not less than 3 percent
-    [597].
+    zones [341]. A certified firm keeps its principal office in a HUBZone and at least 35% of its employees live
+    in one [341] [343]. Certified firms get sole-source authority and a 10 percent price evaluation preference in
+    full and open competition [349]. The statutory government-wide goal for HUBZone firms is not less than 3 percent
+    [374].
   eligibility:
-  - A small business concern meeting 13 CFR 126.200 [566]
+  - A small business concern meeting 13 CFR 126.200 [343]
   - At least 51% owned and controlled by U.S. citizens, a CDC, an agricultural cooperative, an ANC, an NHO or an
-    Indian tribe [564]
-  - 'Principal office in a HUBZone [564]. Principal office: where the greatest number of employees at any one location
-    work; lease or deed at least 30 days before review and running at least 60 days after [565]'
-  - At least 35% of employees must be HUBZone residents; fractions round to the nearest whole number [566]
+    Indian tribe [341]
+  - 'Principal office in a HUBZone [341]. Principal office: where the greatest number of employees at any one location
+    work; lease or deed at least 30 days before review and running at least 60 days after [342]'
+  - At least 35% of employees must be HUBZone residents; fractions round to the nearest whole number [343]
   - 'Employee: works a minimum of 10 hours per week in the four-week period before review (SBA may accept at least
-    40 hours in that period with a documented business reason) [565]'
-  - 'Reside: live at a location full-time for at least 90 calendar days immediately before the date of review [565]'
+    40 hours in that period with a documented business reason) [342]'
+  - 'Reside: live at a location full-time for at least 90 calendar days immediately before the date of review [342]'
   - 'Legacy HUBZone employee: lived in a HUBZone for at least 180 calendar days after the firm''s certification
     date and stays continuously employed; up to four at a time, with at least one other HUBZone-resident employee
-    [566]'
+    [343]'
   - 'Long-term investment: buying a building or leasing for 10+ years keeps principal-office status for up to 10
-    years after the area loses designation [566]'
+    years after the area loses designation [343]'
   - For a HUBZone contract, the firm must be listed as certified in DSBS (or successor) and meet 126.200 on the
     date of its initial offer including price; it need not be certified on the award date, except for sole source
-    [569]
+    [346]
   benefits:
   - 'Sole source, codified FAR 19.1306: up to $8.5 million for manufacturing NAICS codes and $5.5 million for all
     other NAICS codes, options included, when offers would not be received from two or more HUBZone firms and the
-    requirement is not currently in 8(a) [572]'
+    requirement is not currently in 8(a) [349]'
   - 'Sole source, SBA regulation: 13 CFR 126.612 as displayed prints $7,000,000 (manufacturing) and $4,500,000 (all
-    other), where two or more HUBZone firms are not likely to offer [570]. See conflicts'
+    other), where two or more HUBZone firms are not likely to offer [347]. See conflicts'
   - 'Price evaluation preference, codified FAR 19.1307: in full and open competition the contracting officer adds
     a factor of 10 percent to all offers except those of HUBZone firms and other small businesses; not used where
     price is not a selection factor, where all fair and reasonable offers are accepted, or for the reserved portion
-    of a multiple-award solicitation; the HUBZone firm may waive it [572] [656]'
+    of a multiple-award solicitation; the HUBZone firm may waive it [349] [433]'
   - 'Price evaluation preference, 13 CFR 126.613: the HUBZone price is deemed lower if not more than 10% above the
-    large-business low offer; not applied where the low offeror is a small business [570]'
-  - 'HUBZone set-asides: SBA''s rules cover offers on a "HUBZone contract" [569]; the codified FAR set-aside section
+    large-business low offer; not applied where the low offeror is a small business [347]'
+  - 'HUBZone set-asides: SBA''s rules cover offers on a "HUBZone contract" [346]; the codified FAR set-aside section
     for HUBZone was not read in this sweep, so no set-aside test is recorded here'
   - Among the 8(a), HUBZone, SDVOSB and WOSB programs there is no order of precedence; above the simplified acquisition
-    threshold they are considered before a general small-business set-aside [652]
-  - The limitations on subcontracting apply to HUBZone awards (FAR subpart 19.13) at any value [645]
+    threshold they are considered before a general small-business set-aside [429]
+  - The limitations on subcontracting apply to HUBZone awards (FAR subpart 19.13) at any value [422]
   steps:
-  - Check the address on the HUBZone map (https://maps.certify.sba.gov/hubzone/map) [564] [573]
-  - Apply at certifications.sba.gov [564]
-  - The applicant must be eligible as of the date SBA issues its decision [567]
-  cost_and_time: 'SBA says it does not charge any costs for applying to its programs [585]. 13 CFR 126.306: SBA
-    makes its determination within 60 calendar days after receipt of a complete package [567]. One fetch of SBA''s
-    page reported "within 90 calendar days" [564]; see conflicts.'
+  - Check the address on the HUBZone map (https://maps.certify.sba.gov/hubzone/map) [341] [350]
+  - Apply at certifications.sba.gov [341]
+  - The applicant must be eligible as of the date SBA issues its decision [344]
+  cost_and_time: 'SBA says it does not charge any costs for applying to its programs [362]. 13 CFR 126.306: SBA
+    makes its determination within 60 calendar days after receipt of a complete package [344]. One fetch of SBA''s
+    page reported "within 90 calendar days" [341]; see conflicts.'
   recertification:
-  - Recertify every three years [564], in the 90 calendar days before the triennial anniversary of certification
-    [568]
+  - Recertify every three years [341], in the 90 calendar days before the triennial anniversary of certification
+    [345]
   - Firms with a HUBZone contract in the prior 12 months show they are attempting to maintain 35%; others must meet
-    35% outright [568]. Falling below 20% HUBZone residents during a HUBZone contract is failure to attempt to maintain
-    [565]
+    35% outright [345]. Falling below 20% HUBZone residents during a HUBZone contract is failure to attempt to maintain
+    [342]
   - A firm that fails to recertify is decertified at the end of its eligibility period; reinstatement is possible
-    within 30 days [568]
-  - SBA's page describes unannounced program examinations [564]
+    within 30 days [345]
+  - SBA's page describes unannounced program examinations [341]
   - Size and HUBZone status are recertified within 30 calendar days of a merger, acquisition or sale changing controlling
-    interest, and on contracts over five years (13 CFR 125.12) [514]
+    interest, and on contracts over five years (13 CFR 125.12) [291]
   - 'Status protests: by the fifth business day after bid opening or notice of the apparent successful offeror,
     filed with the contracting officer and forwarded to SBA (hzprotests@sba.gov); SBA decides in 15 business days;
     appeal within 5 business days; on sole-source awards only SBA or the contracting officer may protest (FAR 19.306;
-    13 CFR 126.801) [685] [571]'
+    13 CFR 126.801) [462] [348]'
   official_url: https://www.sba.gov/federal-contracting/contracting-assistance-programs/hubzone-program
   pending_changes:
   - status: final
     date: '2024-12-17'
     text: HUBZone Program Updates and Clarifications, 89 FR 102448 (RIN 3245-AH68), effective January 16, 2025,
-      with the unified recertification section 13 CFR 125.12 delayed to January 17, 2026 [515].
+      with the unified recertification section 13 CFR 125.12 delayed to January 17, 2026 [292].
   - status: announced
     date: '2026-07-01'
     text: 'HUBZone map: Redesignated Areas from the 2023 update expire July 1, 2026, and Qualified Census Tracts
-      and Qualified Non-Metropolitan Counties are not updated again until July 2028 [573]. SBA''s page says the
-      map was last updated in 2023 and the next update comes "at some point in 2026" [564].'
+      and Qualified Non-Metropolitan Counties are not updated again until July 2028 [350]. SBA''s page says the
+      map was last updated in 2023 and the next update comes "at some point in 2026" [341].'
   - status: class-deviation
     date: '2025-09-26'
     text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries HUBZone
-      sole source at 19.105-3 with the same $8.5 million / $5.5 million caps [614]. GSA adopted it effective November
-      3, 2025 [623]; DoD effective February 1, 2026 [625]. The price-preference section of the RFO text (reported
+      sole source at 19.105-3 with the same $8.5 million / $5.5 million caps [391]. GSA adopted it effective November
+      3, 2025 [400]; DoD effective February 1, 2026 [402]. The price-preference section of the RFO text (reported
       as 19.207) was not confirmed in the text read.'
   situations:
+  - first-awards-grow
   - registered-no-award
-  - first-awards
   as_of: '2026-10-03'
   sources:
-  - 514
-  - 515
-  - 564
-  - 565
-  - 566
-  - 567
-  - 568
-  - 569
-  - 570
-  - 571
-  - 572
-  - 573
-  - 585
-  - 597
-  - 614
-  - 623
-  - 625
-  - 645
-  - 652
-  - 656
-  - 685
+  - 291
+  - 292
+  - 341
+  - 342
+  - 343
+  - 344
+  - 345
+  - 346
+  - 347
+  - 348
+  - 349
+  - 350
+  - 362
+  - 374
+  - 391
+  - 400
+  - 402
+  - 422
+  - 429
+  - 433
+  - 462
   conflicts:
-  - 'Sole-source ceiling: FAR 19.1306 $8.5 million / $5.5 million [572] vs 13 CFR 126.612 $7,000,000 / $4,500,000
-    [570]'
-  - 'Decision time: 60 calendar days in 13 CFR 126.306 [567] vs "within 90 calendar days" in one fetch of SBA''s
-    page, absent from the legacy copy [564]'
+  - 'Sole-source ceiling: FAR 19.1306 $8.5 million / $5.5 million [349] vs 13 CFR 126.612 $7,000,000 / $4,500,000
+    [347]'
+  - 'Decision time: 60 calendar days in 13 CFR 126.306 [344] vs "within 90 calendar days" in one fetch of SBA''s
+    page, absent from the legacy copy [341]'
 - id: wosb-edwosb
   name: Women-Owned Small Business (WOSB) and Economically Disadvantaged WOSB (EDWOSB) certification
   owner: U.S. Small Business Administration
   what: Certification under the Women-Owned Small Business Federal Contract program for small firms at least 51%
-    owned and controlled by women who are U.S. citizens [574]. SBA designates, by NAICS code, the industries in
-    which WOSBs are underrepresented and substantially underrepresented [577]. EDWOSB set-asides are for the underrepresented
-    industries and WOSB set-asides for the substantially underrepresented ones [577]. The statutory government-wide
-    goal for small businesses owned by women is not less than 5 percent [597].
+    owned and controlled by women who are U.S. citizens [351]. SBA designates, by NAICS code, the industries in
+    which WOSBs are underrepresented and substantially underrepresented [354]. EDWOSB set-asides are for the underrepresented
+    industries and WOSB set-asides for the substantially underrepresented ones [354]. The statutory government-wide
+    goal for small businesses owned by women is not less than 5 percent [374].
   eligibility:
   - 'WOSB: small; at least 51% owned and controlled by women who are U.S. citizens; women manage day-to-day operations
-    and make long-term decisions [574]'
+    and make long-term decisions [351]'
   - '13 CFR 127.200: not less than 51 percent unconditionally and directly owned by women who are U.S. citizens
-    (economically disadvantaged women for EDWOSB) [575]'
-  - '13 CFR 127.202: a woman holds the highest officer position and controls management and daily operations [575]'
+    (economically disadvantaged women for EDWOSB) [352]'
+  - '13 CFR 127.202: a woman holds the highest officer position and controls management and daily operations [352]'
   - 'EDWOSB adds: personal net worth less than $850,000; $400,000 or less AGI averaged over three years; $6.5 million
-    or less in personal assets [574]'
+    or less in personal assets [351]'
   - 'Eligible industries: 733 NAICS industries, 626 for all WOSB participants and 107 for EDWOSBs only, on the list
-    effective October 1, 2022, set by a study Congress requires every five years [581]'
+    effective October 1, 2022, set by a study Congress requires every five years [358]'
   benefits:
   - 'Set-aside (13 CFR 127.503): a reasonable expectation that two or more EDWOSBs (or WOSBs) will offer and award
-    at a fair and reasonable price [578]'
+    at a fair and reasonable price [355]'
   - 'Sole source, codified FAR 19.1506: up to $8.5 million for manufacturing NAICS codes and $5.5 million for other
     NAICS codes, options included; EDWOSB in NAICS codes where WOSBs are underrepresented, WOSB where substantially
-    underrepresented; award at a fair and reasonable price [580]'
+    underrepresented; award at a fair and reasonable price [357]'
   - 'Sole source, SBA regulation: 13 CFR 127.503 as displayed shows $7,000,000 / $4,500,000, where two or more offers
-    are not expected [578]. See conflicts'
+    are not expected [355]. See conflicts'
   - 'Price evaluation preference: none found for WOSB or EDWOSB in the sources read'
   - Among the 8(a), HUBZone, SDVOSB and WOSB programs there is no order of precedence; above the simplified acquisition
-    threshold they are considered before a general small-business set-aside [652]
-  - The limitations on subcontracting apply to WOSB program awards (FAR subpart 19.15) at any value [645]
+    threshold they are considered before a general small-business set-aside [429]
+  - The limitations on subcontracting apply to WOSB program awards (FAR subpart 19.15) at any value [422]
   steps:
-  - 'Free route: apply through MySBA Certifications (certifications.sba.gov) [574]'
+  - 'Free route: apply through MySBA Certifications (certifications.sba.gov) [351]'
   - 'Or certify through an SBA-approved third-party certifier: El Paso Hispanic Chamber of Commerce; National Women
     Business Owners Corporation; U.S. Women''s Chamber of Commerce; Women''s Business Enterprise National Council
-    [574]'
+    [351]'
   - 'Other routes in 13 CFR 127.300: 8(a) participation (EDWOSB if woman-owned) and Veteran Small Business Certification
-    evidence [575]'
-  - Applicants, not third-party certifiers, upload documents to SBA's system [583]
-  cost_and_time: There is no cost to apply to SBA for certification [575]. "Whenever practicable, SBA will make
-    its determination within 90 calendar days after receipt of a complete package" [574]. No third-party certifier
+    evidence [352]'
+  - Applicants, not third-party certifiers, upload documents to SBA's system [360]
+  cost_and_time: There is no cost to apply to SBA for certification [352]. "Whenever practicable, SBA will make
+    its determination within 90 calendar days after receipt of a complete package" [351]. No third-party certifier
     fee amounts were read.
   recertification:
   - Program examination every three years by SBA or a third-party certifier; recertify or report the third-party
     examination within 90 days of the end of the eligibility period; failure leads to decertification, with reinstatement
-    if done within 30 days [576]
-  - 'The annual attestation is in abeyance: firms "do not have to submit an attestation annually" [574]'
-  - Notify SBA of material changes within 30 calendar days (13 CFR 127.401) [575]
-  - Decertified firms must update SAM within two business days and tell contracting officers [583]
+    if done within 30 days [353]
+  - 'The annual attestation is in abeyance: firms "do not have to submit an attestation annually" [351]'
+  - Notify SBA of material changes within 30 calendar days (13 CFR 127.401) [352]
+  - Decertified firms must update SAM within two business days and tell contracting officers [360]
   - Size and WOSB/EDWOSB status are recertified within 30 calendar days of a merger, acquisition or sale changing
-    controlling interest, and on contracts over five years (13 CFR 125.12) [514]
-  - 'Status protests: written and specific, filed with the contracting officer within five business days [579];
-    SBA decides within 15 business days and an appeal goes to OHA within 10 business days (FAR 19.308) [687]; only
-    certified WOSBs or pending applicants may protest [583]'
+    controlling interest, and on contracts over five years (13 CFR 125.12) [291]
+  - 'Status protests: written and specific, filed with the contracting officer within five business days [356];
+    SBA decides within 15 business days and an appeal goes to OHA within 10 business days (FAR 19.308) [464]; only
+    certified WOSBs or pending applicants may protest [360]'
   official_url: https://www.sba.gov/federal-contracting/contracting-assistance-programs/women-owned-small-business-federal-contract-program
   pending_changes:
   - status: final
     date: '2024-12-04'
     text: Women-Owned Small Business Federal Contract Program Updates and Clarifications, 89 FR 96089 (RIN 3245-AI04),
       effective January 3, 2025, aligned WOSB definitions and control rules with the other programs and narrowed
-      who may protest [583].
+      who may protest [360].
   - status: class-deviation
     date: '2025-09-26'
     text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries WOSB/EDWOSB
-      sole source at 19.107-3 with the same $8.5 million / $5.5 million caps [614]. GSA adopted it effective November
-      3, 2025 [623]; DoD effective February 1, 2026 [625].'
+      sole source at 19.107-3 with the same $8.5 million / $5.5 million caps [391]. GSA adopted it effective November
+      3, 2025 [400]; DoD effective February 1, 2026 [402].'
   situations:
+  - first-awards-grow
   - registered-no-award
-  - first-awards
   as_of: '2026-10-03'
   sources:
-  - 514
-  - 574
-  - 575
-  - 576
-  - 577
-  - 578
-  - 579
-  - 580
-  - 581
-  - 582
-  - 583
-  - 597
-  - 614
-  - 623
-  - 625
-  - 645
-  - 652
-  - 687
+  - 291
+  - 351
+  - 352
+  - 353
+  - 354
+  - 355
+  - 356
+  - 357
+  - 358
+  - 359
+  - 360
+  - 374
+  - 391
+  - 400
+  - 402
+  - 422
+  - 429
+  - 464
   conflicts:
-  - 'Sole-source ceiling: FAR 19.1506 $8.5 million / $5.5 million [580] vs 13 CFR 127.503 $7,000,000 / $4,500,000
-    [578]'
-  - 'Eligible-industry count: 733 on the list page effective October 1, 2022 [581] vs 759 in the March 2022 release
-    [582]'
+  - 'Sole-source ceiling: FAR 19.1506 $8.5 million / $5.5 million [357] vs 13 CFR 127.503 $7,000,000 / $4,500,000
+    [355]'
+  - 'Eligible-industry count: 733 on the list page effective October 1, 2022 [358] vs 759 in the March 2022 release
+    [359]'
 - id: vosb-sdvosb-vetcert
   name: Veteran-Owned (VOSB) and Service-Disabled Veteran-Owned (SDVOSB) certification — VetCert
   owner: U.S. Small Business Administration (since January 1, 2023; formerly the Department of Veterans Affairs)
-  what: SBA certification of veteran-owned and service-disabled veteran-owned small firms [584]. Certification moved
-    from VA to SBA on January 1, 2023 [584] [589]. Only certified VOSBs and SDVOSBs are eligible to submit an offer
-    on a specific VOSB or SDVOSB requirement [586]. SDVOSBs have government-wide sole-source authority [591], and
-    inside VA the Veterans First program gives priority to SDVOSBs and then VOSBs [592].
+  what: SBA certification of veteran-owned and service-disabled veteran-owned small firms [361]. Certification moved
+    from VA to SBA on January 1, 2023 [361] [366]. Only certified VOSBs and SDVOSBs are eligible to submit an offer
+    on a specific VOSB or SDVOSB requirement [363]. SDVOSBs have government-wide sole-source authority [368], and
+    inside VA the Veterans First program gives priority to SDVOSBs and then VOSBs [369].
   eligibility:
   - Identified by VA as a veteran or service-disabled veteran; small; no less than 51% owned and controlled by one
-    or more veterans; for SDVOSB, 51% owned and controlled by veterans rated service-disabled by VA [584]
+    or more veterans; for SDVOSB, 51% owned and controlled by veterans rated service-disabled by VA [361]
   - '13 CFR 128.200: not less than 51 percent owned and controlled by veterans (service-disabled veterans for SDVOSB)
-    [586]'
+    [363]'
   - '13 CFR 128.202: ownership direct and unconditional; a surviving spouse may retain SDVOSB status for 3 to 10
-    years depending on disability rating [586]'
+    years depending on disability rating [363]'
   - '13 CFR 128.203: the qualifying veteran holds the highest officer position and controls long-term and day-to-day
-    decisions [586]'
+    decisions [363]'
   - 'Permanently and totally disabled veterans: a spouse or appointed permanent caregiver may assist in management
-    [584]'
+    [361]'
   benefits:
   - 'SDVOSB set-aside (13 CFR 128.404): a reasonable expectation of two responsible SDVOSB offers at fair market
-    price [586]'
+    price [363]'
   - 'SDVOSB sole source, codified FAR 19.1406: up to $8.5 million for a requirement within the NAICS codes for manufacturing
     and $5 million for any other NAICS code, options included; the firm must be designated in SAM as SBA-certified,
-    or have represented SDVOSB status in SAM and applied to SBA on or before December 31, 2023 [591]'
+    or have represented SDVOSB status in SAM and applied to SBA on or before December 31, 2023 [368]'
   - 'Sole source, SBA regulation: no SDVOSB sole-source dollar figure was read from 13 CFR part 128 in this sweep,
     so no FAR-versus-13 CFR comparison is recorded'
   - 'VA Veterans First (VAAR subpart 819.70): priority order SDVOSB, then VOSB, then 8(a)/HUBZone, then other small
     business set-asides (819.7005); set aside when two or more certified SDVOSBs (or VOSBs) are expected at a fair
     and reasonable price (819.7006/819.7007); sole source where the price including options will not exceed $5 million
-    (819.7008/819.7009); firms must be certified and listed in the SBA certification database (819.7003(b)(3)) [592]'
+    (819.7008/819.7009); firms must be certified and listed in the SBA certification database (819.7003(b)(3)) [369]'
   - 'Price evaluation preference: none found for VOSB or SDVOSB in the sources read'
   - 'Goal: not less than 5 percent of prime and subcontract awards for service-disabled veterans (15 U.S.C. 644(g))
-    [597]; SBA''s page states the government aims to award at least 5% of contracting dollars to SDVOSBs [584]'
-  - The limitations on subcontracting apply to SDVOSB awards (FAR subpart 19.14) at any value [645]
+    [374]; SBA''s page states the government aims to award at least 5% of contracting dollars to SDVOSBs [361]'
+  - The limitations on subcontracting apply to SDVOSB awards (FAR subpart 19.14) at any value [422]
   steps:
-  - Apply at MySBA Certifications (certifications.sba.gov); the VetCert portal redirects there [584] [585]
-  - Capability statements are not required to apply [585]
+  - Apply at MySBA Certifications (certifications.sba.gov); the VetCert portal redirects there [361] [362]
+  - Capability statements are not required to apply [362]
   - 'Self-certification has ended: SDVOSBs may no longer self-certify for a federal prime contract or subcontract
     that counts toward SDVOSB goals (direct final rule effective August 5, 2024); firms with complete applications
-    filed by December 22, 2024 keep self-certified eligibility until SBA decides [590] [584]'
-  cost_and_time: SBA does not charge any costs for applying [585]. Average processing time was 12 days at November
-    11, 2025 (30 days originally; 81 days at the end of 2024), per an SBA news release [594]. No regulatory processing
+    filed by December 22, 2024 keep self-certified eligibility until SBA decides [367] [361]'
+  cost_and_time: SBA does not charge any costs for applying [362]. Average processing time was 12 days at November
+    11, 2025 (30 days originally; 81 days at the end of 2024), per an SBA news release [371]. No regulatory processing
     deadline was found.
   recertification:
   - Recertify every 3 years, within 90 calendar days before the eligibility period ends; reinstatement if done within
-    30 days after; report eligibility changes within 30 days [587]
-  - The eligibility term is three years from the date of SBA's approval letter [589]
-  - Random or for-cause program examinations; non-cooperation supports an adverse inference (13 CFR 128.308) [586]
+    30 days after; report eligibility changes within 30 days [364]
+  - The eligibility term is three years from the date of SBA's approval letter [366]
+  - Random or for-cause program examinations; non-cooperation supports an adverse inference (13 CFR 128.308) [363]
   - Size and SDVOSB status are recertified within 30 calendar days of a merger, acquisition or sale changing controlling
-    interest, and on contracts over five years (13 CFR 125.12) [514]
+    interest, and on contracts over five years (13 CFR 125.12) [291]
   - Status protests go to SBA's Office of Hearings and Appeals; the decision is effective immediately and final;
-    the deadline is the fifth business day, and VA or SBA may protest at any time (FAR 19.307; 13 CFR 128.500) [686]
-    [588]
+    the deadline is the fifth business day, and VA or SBA may protest at any time (FAR 19.307; 13 CFR 128.500) [463]
+    [365]
   official_url: https://www.sba.gov/federal-contracting/contracting-assistance-programs/veteran-contracting-assistance-programs
   pending_changes:
   - status: final
     date: '2024-06-06'
     text: Eliminating Self-Certification for Service-Disabled Veteran-Owned Small Businesses, 89 FR 48266 (RIN 3245-AI10),
-      direct final rule effective August 5, 2024, under section 864 of Pub. L. 118-31 [590].
+      direct final rule effective August 5, 2024, under section 864 of Pub. L. 118-31 [367].
   - status: final
     date: '2022-11-29'
     text: 87 FR 73400 (RIN 3245-AH69), effective January 1, 2023, created 13 CFR part 128 and moved certification
-      from VA to SBA under section 862 of Public Law 116-283 [589].
+      from VA to SBA under section 862 of Public Law 116-283 [366].
   - status: class-deviation
     date: '2025-09-26'
     text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries SDVOSB
-      sole source at 19.106-3 with the same $8.5 million / $5 million caps [614]. GSA adopted it effective November
-      3, 2025 [623]; DoD effective February 1, 2026 [625]. Whether VA applies an RFO deviation to VAAR Part 819
+      sole source at 19.106-3 with the same $8.5 million / $5 million caps [391]. GSA adopted it effective November
+      3, 2025 [400]; DoD effective February 1, 2026 [402]. Whether VA applies an RFO deviation to VAAR Part 819
       was not verified.'
   situations:
+  - first-awards-grow
   - registered-no-award
-  - first-awards
   as_of: '2026-10-03'
   sources:
-  - 514
-  - 584
-  - 585
-  - 586
-  - 587
-  - 588
-  - 589
-  - 590
-  - 591
-  - 592
-  - 593
-  - 594
-  - 597
-  - 614
-  - 623
-  - 625
-  - 645
-  - 657
-  - 686
+  - 291
+  - 361
+  - 362
+  - 363
+  - 364
+  - 365
+  - 366
+  - 367
+  - 368
+  - 369
+  - 370
+  - 371
+  - 374
+  - 391
+  - 400
+  - 402
+  - 422
+  - 434
+  - 463
   conflicts:
-  - 'VAAR subpart 819.70 wording: va.gov requires listing in the SBA certification database [592] vs the acquisition.gov
-    copy, which still refers to VA''s Vendor Information Pages [657]'
+  - 'VAAR subpart 819.70 wording: va.gov requires listing in the SBA certification database [369] vs the acquisition.gov
+    copy, which still refers to VA''s Vendor Information Pages [434]'
 - id: sdb-self-representation
   name: Small Disadvantaged Business (SDB) self-representation
   owner: U.S. Small Business Administration (definition, 13 CFR 124.1001); represented by the firm in SAM and in
     offers
   what: A status a firm may represent for federal subcontracting programs if it believes in good faith that it is
-    owned and controlled by socially and economically disadvantaged individuals [595]. Offerors make the representation
-    in FAR 52.219-1 by reference to 13 CFR 124.1001 [596]. All current 8(a) participants qualify as SDBs [595].
+    owned and controlled by socially and economically disadvantaged individuals [372]. Offerors make the representation
+    in FAR 52.219-1 by reference to 13 CFR 124.1001 [373]. All current 8(a) participants qualify as SDBs [372].
     The statutory government-wide goal for socially and economically disadvantaged small businesses is not less
-    than 5 percent [597].
+    than 5 percent [374].
   eligibility:
   - Small under the relevant NAICS code and owned and controlled by socially and economically disadvantaged individuals;
-    the term includes Indian tribes, ANCs, CDCs and NHOs [595]
-  - The eligibility criteria of 13 CFR part 124 subpart A (ownership, control, disadvantage) apply [595]
+    the term includes Indian tribes, ANCs, CDCs and NHOs [372]
+  - The eligibility criteria of 13 CFR part 124 subpart A (ownership, control, disadvantage) apply [372]
   - 'FAR 52.219-1 definition: at least 51 percent unconditionally and directly owned; net worth within the 13 CFR
-    124.104(c)(2) threshold [596]'
+    124.104(c)(2) threshold [373]'
   benefits:
-  - Counts toward the 5% SDB goal [597] [598] and toward the small disadvantaged business goal in a prime's subcontracting
-    plan (FAR 52.219-9) [660]
+  - Counts toward the 5% SDB goal [374] [375] and toward the small disadvantaged business goal in a prime's subcontracting
+    plan (FAR 52.219-9) [437]
   - 'Sole-source and set-aside thresholds: none; no set-aside or sole-source authority for SDB status alone was
     found in the sources read'
   - 'Price evaluation preference: none found in the sources read'
   steps:
-  - 'No application: the firm represents the status in its FAR 52.219-1 representations [596] [595]'
-  cost_and_time: Self-representation; no SBA application or fee is involved [595].
+  - 'No application: the firm represents the status in its FAR 52.219-1 representations [373] [372]'
+  cost_and_time: Self-representation; no SBA application or fee is involved [372].
   recertification:
   - No certification term. Misrepresentation carries fine, imprisonment or both, suspension and debarment, and ineligibility
-    for Small Business Act programs [596]
+    for Small Business Act programs [373]
   official_url: https://www.ecfr.gov/current/title-13/section-124.1001
   pending_changes:
   - status: final
     date: '2026-08-11'
-    text: 13 CFR 124.1001 applies the part 124 subpart A criteria [595], and the social-disadvantage test in 124.103
-      was rewritten by the final rule effective September 10, 2026 [537]. No SBA guidance on what that means for
+    text: 13 CFR 124.1001 applies the part 124 subpart A criteria [372], and the social-disadvantage test in 124.103
+      was rewritten by the final rule effective September 10, 2026 [314]. No SBA guidance on what that means for
       SDB self-representation was found.
   - status: announced
     date: '2025-02-24'
     text: SBA's February 24, 2025 memo states that SBA "has returned the 8(a) SDB contracting goal to its statutory
-      level of 5%" [540]. CRS and trade press date the FY2025 goal reset to January 24, 2025 [600] [603].
+      level of 5%" [317]. CRS and trade press date the FY2025 goal reset to January 24, 2025 [377] [380].
   situations:
-  - registered-no-award
   - looking-for-partners
+  - registered-no-award
   as_of: '2026-10-03'
   sources:
-  - 537
-  - 540
-  - 595
-  - 596
-  - 597
-  - 598
-  - 599
-  - 600
-  - 603
-  - 660
+  - 314
+  - 317
+  - 372
+  - 373
+  - 374
+  - 375
+  - 376
+  - 377
+  - 380
+  - 437
   conflicts:
-  - 'Authority for the SDB goal reset: CRS and trade press tie it to E.O. 14151 [600] [603] vs the order''s text,
-    which does not mention small disadvantaged business or contracting goals by name [599]'
+  - 'Authority for the SDB goal reset: CRS and trade press tie it to E.O. 14151 [377] [380] vs the order''s text,
+    which does not mention small disadvantaged business or contracting goals by name [376]'
 - id: size-standards
   name: Size standards (being "small")
   owner: U.S. Small Business Administration, Office of Size Standards
   what: A size standard is the ceiling, per NAICS industry, on employees or average annual receipts below which
-    a firm, counted together with its affiliates, is small for federal contracting [501] [507]. The official table
-    is 13 CFR 121.201, and SBA's posted table is the version effective March 17, 2023 [502]. The contracting officer
-    designates the NAICS code for each solicitation, and that code's size standard governs [508]. A firm must not
-    exceed the size standard for the NAICS code specified in the solicitation [508].
+    a firm, counted together with its affiliates, is small for federal contracting [278] [284]. The official table
+    is 13 CFR 121.201, and SBA's posted table is the version effective March 17, 2023 [279]. The contracting officer
+    designates the NAICS code for each solicitation, and that code's size standard governs [285]. A firm must not
+    exceed the size standard for the NAICS code specified in the solicitation [285].
   eligibility:
   - 'Annual receipts: total income plus cost of goods sold as reported to the IRS, averaged over the latest five
-    completed fiscal years; with fewer than five years, total receipts divided by weeks in business times 52 [504]'
+    completed fiscal years; with fewer than five years, total receipts divided by weeks in business times 52 [281]'
   - Receipts exclude net capital gains or losses, taxes collected for taxing authorities, inter-affiliate proceeds
     and amounts collected for another by certain agents; subcontractor costs, reimbursements and payroll-type costs
-    may not be excluded [504]
+    may not be excluded [281]
   - 'Employees: the average over each pay period for the preceding completed 24 calendar months, including employees
     of domestic and foreign affiliates; part-time and temporary employees count the same as full-time; volunteers
-    are not employees [505]'
-  - Affiliates' employees and receipts are included [501] [520]
+    are not employees [282]'
+  - Affiliates' employees and receipts are included [278] [297]
   - The NAICS code is the one that best describes the principal purpose of the supply or service being acquired
-    (FAR 19.102) [648]; its designation can be appealed to SBA's Office of Hearings and Appeals within 10 calendar
+    (FAR 19.102) [425]; its designation can be appealed to SBA's Office of Hearings and Appeals within 10 calendar
     days after the solicitation or an amendment affecting the code or size standard (FAR 19.103; 13 CFR 134.304)
-    [649] [683]
+    [426] [460]
   - Size is determined as of the written self-certification with the initial offer including price; a firm small
-    at award generally stays small for the life of the contract (13 CFR 121.404) [513]
+    at award generally stays small for the life of the contract (13 CFR 121.404) [290]
   - 'Multiple-award solicitations issued after October 1, 2028: one NAICS code, or distinct portions each with its
-    own code (FAR 19.102) [648]'
+    own code (FAR 19.102) [425]'
   - 'SBIR and STTR use their own test: an awardee together with its affiliates must not have more than 500 employees
-    (13 CFR 121.702) [521]'
+    (13 CFR 121.702) [298]'
   benefits:
   - 'Being small opens the total small-business set-aside: purchases above the micro-purchase threshold and not
     over the simplified acquisition threshold are set aside unless two competitive small-business offers are not
     expected, and above the simplified acquisition threshold an acquisition is set aside when offers are expected
-    from at least two responsible small businesses at fair market prices (FAR 19.502-2) [607]'
+    from at least two responsible small businesses at fair market prices (FAR 19.502-2) [384]'
   - 'Sole-source thresholds and price evaluation preference: none attach to small size alone in the sources read;
-    the sole-source authorities read belong to the 8(a), HUBZone, WOSB/EDWOSB and SDVOSB programs [561] [572] [580]
-    [591]'
+    the sole-source authorities read belong to the 8(a), HUBZone, WOSB/EDWOSB and SDVOSB programs [338] [349] [357]
+    [368]'
   - The statutory government-wide goal for small business is not less than 23 percent of the total value of all
-    prime contract awards each fiscal year [597]
+    prime contract awards each fiscal year [374]
   steps:
   - Find the NAICS code and check the table of size standards or the Size Standards Tool (sba.gov/size-standards)
-    [502] [503]
-  - Represent size in writing at the time of the initial offer (FAR 19.301-1; FAR 52.219-1) [650] [596]
-  cost_and_time: Self-representation; no fee is stated in the sources read [650].
+    [279] [280]
+  - Represent size in writing at the time of the initial offer (FAR 19.301-1; FAR 52.219-1) [427] [373]
+  cost_and_time: Self-representation; no fee is stated in the sources read [427].
   recertification:
   - '13 CFR 125.12 (in force since January 17, 2026): recertify size within 30 calendar days of a merger, acquisition
     or sale changing controlling interest; on contracts over five years, no more than 120 days before the end of
-    year five and before each later option; and when a contracting officer asks in a solicitation [514] [515]'
+    year five and before each later option; and when a contracting officer asks in a solicitation [291] [292]'
   - A disqualifying recertification within 180 days after offer and before award makes the firm ineligible for that
     set-aside award; on multiple-award contracts it is ineligible for later set-aside or reserved orders but still
     eligible for unrestricted awards; a merger, acquisition or sale involving another small business is excepted
-    [514]
+    [291]
   - 'Size protests: any offeror not eliminated, the contracting officer, SBA and other interested parties may protest
-    [516]; private parties have five business days after bid opening or notice of the apparent awardee [517]'
+    [293]; private parties have five business days after bid opening or notice of the apparent awardee [294]'
   - Willful misrepresentation of size creates a presumption of loss to the United States based on the total amount
     expended; bidding on a set-aside or registering as small is itself a certification (13 CFR 121.108; 15 U.S.C.
-    632(w)) [518] [519]
+    632(w)) [295] [296]
   official_url: https://www.sba.gov/federal-contracting/contracting-guide/size-standards
   pending_changes:
   - status: proposed
     date: '2026-08-20'
     text: 'Proposed rule 91 FR 53741 (RIN 3245-AI67): nearly 1,000 six-digit standards collapse to 338 at the 4-
       and 5-digit NAICS level, many receipts-based standards convert to employee-based, and no standard is reduced;
-      comments closed September 21, 2026; no effective date [511].'
+      comments closed September 21, 2026; no effective date [288].'
   - status: proposed
     date: '2025-08-22'
     text: Proposed rule 90 FR 41168 (RIN 3245-AI12) to increase monetary size standards for 263 industries; comments
-      closed October 21, 2025; its outcome was not found [510].
+      closed October 21, 2025; its outcome was not found [287].
   - status: final
     date: '2022-11-17'
     text: 'Latest completed inflation adjustment: 87 FR 69118 raised receipts-based standards by 13.65 percent,
-      effective December 19, 2022 [509]. SBA must review the effect of inflation on monetary standards at least
-      once every five years (13 CFR 121.102) [506].'
+      effective December 19, 2022 [286]. SBA must review the effect of inflation on monetary standards at least
+      once every five years (13 CFR 121.102) [283].'
   - status: class-deviation
     date: '2025-09-26'
     text: 'FAR-overhaul numbering: the RFO Part 19 model deviation text issued September 26, 2025 carries NAICS
       assignment at 19.103 (the post-October 1, 2028 multiple-award rule at 19.103(b)(2)(ii); NAICS appeal within
-      10 calendar days at 19.103(d)(1)) and the total set-aside at 19.104-1 [614]. GSA adopted it effective November
-      3, 2025 [623]; DoD effective February 1, 2026 [625].'
+      10 calendar days at 19.103(d)(1)) and the total set-aside at 19.104-1 [391]. GSA adopted it effective November
+      3, 2025 [400]; DoD effective February 1, 2026 [402].'
   situations:
-  - not-registered
+  - not-yet-registered
   - registered-no-award
   as_of: '2026-10-03'
   sources:
-  - 501
-  - 502
-  - 503
-  - 504
-  - 505
-  - 506
-  - 507
-  - 508
-  - 509
-  - 510
-  - 511
-  - 512
-  - 513
-  - 514
-  - 515
-  - 516
-  - 517
-  - 518
-  - 519
-  - 520
-  - 521
-  - 532
-  - 561
-  - 572
-  - 580
-  - 591
-  - 596
-  - 597
-  - 607
-  - 614
-  - 623
-  - 625
-  - 648
-  - 649
-  - 650
-  - 683
+  - 278
+  - 279
+  - 280
+  - 281
+  - 282
+  - 283
+  - 284
+  - 285
+  - 286
+  - 287
+  - 288
+  - 289
+  - 290
+  - 291
+  - 292
+  - 293
+  - 294
+  - 295
+  - 296
+  - 297
+  - 298
+  - 309
+  - 338
+  - 349
+  - 357
+  - 368
+  - 373
+  - 374
+  - 384
+  - 391
+  - 400
+  - 402
+  - 425
+  - 426
+  - 427
+  - 460
   conflicts:
   - SBA's "Basic requirements" page still says most non-manufacturers with average annual receipts under $7.5 million
-    qualify [532]; not checked against the current table [502]
-  - The August 2026 proposal does not mention the August 2025 proposal [511] [510]
-  - 'Count of current standards: "nearly 1,000" in the Federal Register summary [511] vs 995 in a law-firm summary
-    [512] vs 102 size-standard levels covering 978 NAICS industries and 18 subindustries in the 2025 proposal [510]'
+    qualify [309]; not checked against the current table [279]
+  - The August 2026 proposal does not mention the August 2025 proposal [288] [287]
+  - 'Count of current standards: "nearly 1,000" in the Federal Register summary [288] vs 995 in a law-firm summary
+    [289] vs 102 size-standard levels covering 978 NAICS industries and 18 subindustries in the 2025 proposal [287]'
 - id: affiliation
   name: Affiliation (whose employees and receipts count)
   owner: U.S. Small Business Administration (13 CFR 121.103)
   what: Control, or the power to control, makes firms affiliates of each other, and affiliates' size is added together
-    [520]. Affiliation is based on the power to control, whether exercised or not [501]. Affiliates' employees and
-    receipts are added to the firm's own when its size is measured [501] [505].
+    [297]. Affiliation is based on the power to control, whether exercised or not [278]. Affiliates' employees and
+    receipts are added to the firm's own when its size is measured [278] [282].
   eligibility:
   - Control may be affirmative or negative (for example, a minority owner able to block a quorum); blocking only
     extraordinary actions (adding equity holders, dissolution, sale of all assets, merger, bankruptcy) is not negative
-    control [520]
+    control [297]
   - 'Stock: 50% or more of voting stock controls; equal large minority blocks are presumed to control (rebuttable)
-    [520]'
+    [297]'
   - Common management; identity of interest — family members doing business together are presumed affiliated, rebuttable
     by a clear line of fracture; economic dependence is presumed at 70% or more of receipts from one concern over
-    three fiscal years [520]
+    three fiscal years [297]
   - 'Newly organized concern: former officers or key employees start a same-industry firm that gets contracts, financial
-    or technical help from the old firm; rebuttable [520]'
+    or technical help from the old firm; rebuttable [297]'
   - 'Joint ventures: partners are not affiliated for contracts awarded within two years of the joint venture''s
-    first award; the joint venture must be in writing and registered in SAM under its own name [520]'
+    first award; the joint venture must be in writing and registered in SAM under its own name [297]'
   - 'Ostensible subcontractor: a subcontractor that is not similarly situated and performs the primary and vital
-    requirements of a contract or order, or on which the prime contractor is unusually reliant [520]'
+    requirements of a contract or order, or on which the prime contractor is unusually reliant [297]'
   - 'SBIR/STTR has narrower rules: a firm is not affiliated with a portfolio company of a venture capital operating
     company, hedge fund or private equity firm solely on the basis of shared investors; SBA may find affiliation
-    with a holder of 40% or more of voting equity on the totality of circumstances (13 CFR 121.702) [521]'
+    with a holder of 40% or more of voting equity on the totality of circumstances (13 CFR 121.702) [298]'
   benefits:
   - 'Exceptions in 13 CFR 121.103(b)(1)–(b)(10): SBIC and investment-company owners; firms owned by Indian Tribes,
     ANCs, NHOs and CDCs; SBA-approved R&D pools; employee leasing or PEO arrangements; certain investors for financial
     assistance; SBA-approved mentor-protégé relationships; agricultural cooperative members; SBIR/STTR (exceptions
-    apply there too); Small Business Teaming Arrangements; faith-based organizations [520]'
+    apply there too); Small Business Teaming Arrangements; faith-based organizations [297]'
   - 'Mentor-protégé (13 CFR 125.9): no affiliation or control may be found between a protégé and its mentor based
     solely on the mentor-protégé agreement, and a joint venture between a protégé and its mentor qualifies as small
-    for any procurement for which the protégé individually qualifies as small [522]'
+    for any procurement for which the protégé individually qualifies as small [299]'
   - 'Mentor-protégé limits: generally no more than three protégés at one time; agreement term may not exceed six
-    years; the mentor may take up to a 40% equity interest in the protégé [522]'
+    years; the mentor may take up to a 40% equity interest in the protégé [299]'
   - '8(a) entity-owned firms: size is determined independently, without regard to affiliation with the Tribe or
-    ANC [556], the NHO [557] or the CDC [558]'
+    ANC [333], the NHO [334] or the CDC [335]'
   - 'Sole-source thresholds and price evaluation preference: not applicable to this record'
   steps: []
-  cost_and_time: 'Not applicable: affiliation is a rule applied when size is measured, not an application [520].'
+  cost_and_time: 'Not applicable: affiliation is a rule applied when size is measured, not an application [297].'
   recertification:
   - A merger, acquisition or sale that changes controlling interest triggers recertification of size within 30 calendar
-    days (13 CFR 125.12) [514]
+    days (13 CFR 125.12) [291]
   official_url: https://www.ecfr.gov/current/title-13/chapter-I/part-121/subpart-A/subject-group-ECFR0ed6f5ff9a6da32/section-121.103
   pending_changes: []
   situations:
-  - not-registered
-  - registered-no-award
-  - first-awards
+  - first-awards-grow
   - looking-for-partners
+  - not-yet-registered
+  - registered-no-award
   as_of: '2026-10-03'
   sources:
-  - 501
-  - 505
-  - 514
-  - 520
-  - 521
-  - 522
-  - 556
-  - 557
-  - 558
+  - 278
+  - 282
+  - 291
+  - 297
+  - 298
+  - 299
+  - 333
+  - 334
+  - 335
   conflicts: []
 - id: nontraditional-defense-contractor
   name: Nontraditional defense contractor status (10 U.S.C. 3014)
   owner: Department of Defense (a statutory status; no certifying body was found)
   what: 'A nontraditional defense contractor is an entity that is not currently performing and has not performed,
     for at least the one-year period preceding DoD''s solicitation of sources, "any contract or subcontract for
-    the Department of Defense that is subject to full coverage under the cost accounting standards" [1605] [1628].
+    the Department of Defense that is subject to full coverage under the cost accounting standards" [1032] [1050].
     Small businesses qualify in practice because "Contracts and subcontracts with small businesses" are exempt from
-    the cost accounting standards [1613]; DoD''s 2018 OT guide says "a large number of entities will fall into the
-    NDC category, including nearly all small business concerns" [1628]. This is the effect of the existing definition,
+    the cost accounting standards [1039]; DoD''s 2018 OT guide says "a large number of entities will fall into the
+    NDC category, including nearly all small business concerns" [1050]. This is the effect of the existing definition,
     not a change made by the FY2026 NDAA: section 3014 shows no Pub. L. 119-60 amendment, and section 1826 of that
-    Act, set out as a note under section 3014, does not contain the words "small business" [1605] [1610].
+    Act, set out as a note under section 3014, does not contain the words "small business" [1032] [806].
 
     '
   eligibility:
   - No DoD contract or subcontract subject to full coverage under the cost accounting standards (41 U.S.C. 1502),
-    now or in the one-year period preceding DoD's solicitation of sources [1605] [1628]
-  - The test is full CAS coverage in the prior one-year period, not whether the firm has ever worked for DoD [1605]
+    now or in the one-year period preceding DoD's solicitation of sources [1032] [1050]
+  - The test is full CAS coverage in the prior one-year period, not whether the firm has ever worked for DoD [1032]
   - The definition applies "with respect to a procurement or with respect to a transaction authorized under section
-    4021(a) or 4022" [1605]
+    4021(a) or 4022" [1032]
   - The CAS Board's exemption list has 15 categories, including "Contracts and subcontracts with small businesses"
-    (48 CFR 9903.201-1(b)) [1613]
+    (48 CFR 9903.201-1(b)) [1039]
   - 'Amendment history of section 3014 as shown: Pub. L. 116-283 section 1806(b) (Jan. 1, 2021; effective Jan. 1,
     2022) and Pub. L. 117-263 section 1081(a)(4) (Dec. 23, 2022); no Pub. L. 119-60 amendment to the section text
-    [1605]. No section heading in Title VIII or Title XVIII of Pub. L. 119-60 names other transaction authority
-    or redefines "nontraditional defense contractor" [1610]'
+    [1032]. No section heading in Title VIII or Title XVIII of Pub. L. 119-60 names other transaction authority
+    or redefines "nontraditional defense contractor" [806]'
   benefits:
   - 'Prototype OTs: at least one nontraditional defense contractor participating to a significant extent, or all
     significant participants being small businesses or nontraditional defense contractors, satisfies 10 U.S.C. 4022(d)(1)
-    without cost share [1601]'
+    without cost share [1028]'
   - 'Commercial treatment: products and services provided by nontraditional defense contractors "may be treated
     by the head of an agency as commercial products and commercial services, respectively, for purposes of this
-    chapter" (10 U.S.C. 3457(a)) [1608] [1617]'
+    chapter" (10 U.S.C. 3457(a)) [1035] [1043]'
   - DFARS 252.215-7013 (JAN 2023) tells offerors that "supplies and services provided by a nontraditional defense
     contractor, as defined in DFARS 202.101, may be treated as commercial products or commercial services"; applying
     commercial procedures does not require a commercial item determination and does not mean the supplies or services
-    are commercial [1617]
+    are commercial [1043]
   - Services provided by a business unit that is a nontraditional defense contractor "shall be treated" as commercial
     services to the extent they use the same pool of employees as for commercial customers and are priced using
-    a similar methodology (10 U.S.C. 3457(b)) [1608]
+    a similar methodology (10 U.S.C. 3457(b)) [1035]
   - 'Exemptions since December 18, 2025 (Pub. L. 119-60, section 1826, 139 Stat. 1249, a statutory note under section
     3014): for DoD contracts, subcontracts, or agreements, "products and services provided by nontraditional defense
     contractors (as defined in section 3014 of title 10, United States Code) shall be exempt" from ten listed requirements:
     DFARS 252.242-7006, 252.234-7002, 252.215-7002, 252.242-7004, 252.245-7003, 252.244-7001, 252.242-7005, DFARS
-    215.407, 10 U.S.C. 3702, and FAR Part 31 (each "or successor regulation") [1605] [1610]'
+    215.407, 10 U.S.C. 3702, and FAR Part 31 (each "or successor regulation") [1032] [806]'
   - 'Waiver: the exemption may be waived or modified for a product or service by written determination approved
     by the head of the relevant contracting activity; delegable only to a senior contracting official or higher;
     partial application needs a written justification that it is in the best interest of the Federal Government;
     the Secretary of Defense notifies the congressional defense committees not later than 60 days after a waiver
-    is issued [1605]'
+    is issued [1032]'
   - The statute behind exemption (9), 10 U.S.C. 3702 (certified cost or pricing data), applies at $10,000,000 for
-    prime contracts entered into after June 30, 2026 and $2,000,000 on or before that date [1609]
+    prime contracts entered into after June 30, 2026 and $2,000,000 on or before that date [1036]
   steps:
   - No certification, application or SAM representation for nontraditional status was found in this sweep; DFARS
-    252.215-7013 advises offerors and does not create a certification [1617]
+    252.215-7013 advises offerors and does not create a certification [1043]
   - 'DoD''s original Part 215 deviation text requires the provision in every solicitation: "Insert the provision
     at 252.215-7013, Supplies and Services Provided by Nontraditional Defense Contractors, in all solicitations.";
-    no nontraditional self-representation was found in the text read [1624]'
+    no nontraditional self-representation was found in the text read [1047]'
   - 'In an OT the Government records which condition it relied on: FPDS element 10T takes "NSP" Nontraditional Significant
-    Participation, "CS" Cost Sharing or "DEC" Determination of Exceptional Circumstances [1664]'
+    Participation, "CS" Cost Sharing or "DEC" Determination of Exceptional Circumstances [1085]'
   - In Telesto the court found the Army properly relied on certifications and its own evaluation findings for nontraditional
-    participation [1661]
+    participation [1082]
   - 'Consortia apply the condition per project: "DOTC, NEST, and AMTC solicitations require NDC participation or
-    1/3 cost share on each proposed effort." [1750]'
+    1/3 cost share on each proposed effort." [1169]'
   cost_and_time: 'None stated: the status follows from the definition, and the sweep found no fee, application or
-    processing time [1605] [1617].'
+    processing time [1032] [1043].'
   recertification: None stated. The definition looks back over the one-year period preceding DoD's solicitation
-    of sources, so it is read against each solicitation [1605].
+    of sources, so it is read against each solicitation [1032].
   official_url: https://www.law.cornell.edu/uscode/text/10/3014
   pending_changes:
   - status: pending-implementation
     date: '2025-12-18'
     text: Pub. L. 119-60, section 1826 ("Sec. 1826. Exemptions for nontraditional defense contractors.") was enacted
-      December 18, 2025 [1610]. The note states no effective date and no dollar threshold, and commentators treat
-      it as effective on enactment [1605] [1610] [1687] [1686].
+      December 18, 2025 [806]. The note states no effective date and no dollar threshold, and commentators treat
+      it as effective on enactment [1032] [806] [1107] [1106].
   - status: class-deviation
     date: '2026-07-24'
     text: 'DFARS Part 215: WARU''s entry of July 24, 2026 says Part 215 Revision 1 implements section 1826 (nontraditional
       defense contractors exempt from certified cost or pricing data unless waived), section 812(c) and section
       811(a)(5); the entry labels the deviation "2026-O0046, Revision 1" while linking to a file named 2026-O0048
-      Rev 1 [1625]. A law-firm tracker dates 2026-O0048 Rev 1 to July 22, 2026 and says it adds 215.105-5(c) (no
-      make-or-buy plan from nontraditional contractors unless waived) [1625] [1626]. The memo was not fetched. The
+      Rev 1 [410]. A law-firm tracker dates 2026-O0048 Rev 1 to July 22, 2026 and says it adds 215.105-5(c) (no
+      make-or-buy plan from nontraditional contractors unless waived) [410] [1048]. The memo was not fetched. The
       original deviation 2026-O0048, effective March 16, 2026, does not carry the section 1826 exemption in the
-      portion read [1624].'
+      portion read [1047].'
   - status: class-deviation
     date: '2026-02-01'
     text: 'DFARS Part 212: class deviation 2026-O0028, effective February 1, 2026, keeps the commercial-treatment
       rule at 212.001-70(d): "contracting officers may treat supplies and services provided by nontraditional defense
-      contractors as commercial products or commercial services", with the file to be documented [1623].'
+      contractors as commercial products or commercial services", with the file to be documented [1046].'
   - status: final
     date: '2025-12-18'
     text: 'Related thresholds: Pub. L. 119-60 section 1804(c) changed the date in 10 U.S.C. 3702 from "June 30,
-      2018" to "June 30, 2026" and raised "$2,000,000" to "$10,000,000" and "$750,000" to "$2,000,000" [1609] [1610].
-      The Act also carries "Sec. 1806 Matters related to cost accounting standards" [1610]; 48 CFR 9903.201-1 still
-      showed the $7.5 million trigger-contract exemption as of 2026-09-28 [1613].'
+      2018" to "June 30, 2026" and raised "$2,000,000" to "$10,000,000" and "$750,000" to "$2,000,000" [1036] [806].
+      The Act also carries "Sec. 1806 Matters related to cost accounting standards" [806]; 48 CFR 9903.201-1 still
+      showed the $7.5 million trigger-contract exemption as of 2026-09-28 [1039].'
   situations:
-  - have-technology
   - first-awards-grow
+  - have-technology
   - registered-no-award
   as_of: '2026-10-03'
   sources:
-  - 1601
-  - 1605
-  - 1608
-  - 1609
-  - 1610
-  - 1611
-  - 1613
-  - 1617
-  - 1618
-  - 1623
-  - 1624
-  - 1625
-  - 1626
-  - 1628
-  - 1661
-  - 1664
-  - 1673
-  - 1685
-  - 1686
-  - 1687
-  - 1688
-  - 1689
-  - 1690
-  - 1750
+  - 410
+  - 806
+  - 1028
+  - 1032
+  - 1035
+  - 1036
+  - 1037
+  - 1039
+  - 1043
+  - 1044
+  - 1046
+  - 1047
+  - 1048
+  - 1050
+  - 1082
+  - 1085
+  - 1093
+  - 1105
+  - 1106
+  - 1107
+  - 1108
+  - 1109
+  - 1110
+  - 1169
   conflicts:
   - 'Premise check: a pre-enactment law-firm alert is the source found for the claim that the NDAA "treats all small
-    businesses" as nontraditional [1689], and a bar-journal overview says section 1826 exempts "nontraditional defense
-    contractors and small businesses" [1688]. The enacted text read (10 U.S.C. 3014 and the section 1826 note, on
-    Cornell LII) does not name small businesses [1605], and no section heading of the Act redefines the term [1610].
-    Small firms qualify through the CAS small-business exemption [1613]. The body of Pub. L. 119-60 could not be
+    businesses" as nontraditional [1109], and a bar-journal overview says section 1826 exempts "nontraditional defense
+    contractors and small businesses" [1108]. The enacted text read (10 U.S.C. 3014 and the section 1826 note, on
+    Cornell LII) does not name small businesses [1032], and no section heading of the Act redefines the term [806].
+    Small firms qualify through the CAS small-business exemption [1039]. The body of Pub. L. 119-60 could not be
     read on govinfo, so this rests on LII''s rendering.'
   - 'Older regulatory definition: 32 CFR Part 3 defines "nontraditional Defense contractor" with a second prong
     (no other contract in excess of $500,000 for prototype or research work under the FAR in the prior year) that
-    is not in 10 U.S.C. 3014 [1611] vs [1605].'
+    is not in 10 U.S.C. 3014 [1037] vs [1032].'
   - 'Other agency: DOE''s guide defines non-traditional contractors as entities that have not received a Federal
-    prime award for at least five years [1673].'
+    prime award for at least five years [1093].'
   - 'Deviation numbering: WARU labels the Part 215 revision "2026-O0046, Revision 1" while linking to 2026-O0048
-    Rev 1 [1625]; the law-firm tracker lists 2026-O0048 Rev 1 [1626].'
+    Rev 1 [410]; the law-firm tracker lists 2026-O0048 Rev 1 [1048].'
   - 'Secondary only (tracker; memos not fetched): Part 231, 2026-O0032 Rev 1, new 231.001-70 stating that "neither
     Part 231 nor FAR Part 31 apply to contracts with nontraditional defense contractors", dated September 11, 2026
     in the tracker''s table and August 4, 2026 in its narrative; Part 234, 2026-O0011, September 16, 2026, exempting
     contracts awarded to nontraditional defense contractors from the earned value management subpart unless the
     head of the contracting activity waives in writing; Part 230, 2026-O0006 Rev 1, August 28, 2026, CAS threshold
     raised to $100 million per section 1806; 215.403-3(a) setting the $10 million threshold for prime contracts
-    awarded after June 30, 2026 [1626].'
+    awarded after June 30, 2026 [1048].'
   - 'Secondary only: full CAS coverage threshold raised from $50 million to $100 million, contract-level threshold
-    to $35 million, and the $7.5 million trigger eliminated (section 1806), per a law-firm summary [1687]; the codified
-    text still showed the $7.5 million trigger on 2026-09-28 [1613].'
+    to $35 million, and the $7.5 million trigger eliminated (section 1806), per a law-firm summary [1107]; the codified
+    text still showed the $7.5 million trigger on 2026-09-28 [1039].'
   - 'Secondary only (mirror): a third-party copy of DFARS 252.215-7010 (DEVIATION 2023-O0004, January 2023) shows
     the offeror claiming the exception by submitting "a statement that the entity is not currently performing and
     has not performed, for at least the 1-year period preceding the solicitation of sources" by DoD any DoD contract
-    or subcontract subject to full CAS coverage; the official deviation memo could not be fetched [1618].'
+    or subcontract subject to full CAS coverage; the official deviation memo could not be fetched [1044].'
   - 'Secondary only: an accounting-firm summary refers to a 2024 Defense Pricing and Contracting memo instructing
     contractors to provide statements confirming NDC status, which was not found, and states without a source that
-    more than 90% of the defense industrial base qualifies as nontraditional [1686].'
+    more than 90% of the defense industrial base qualifies as nontraditional [1106].'
   - 'Open points commentators flag: no implementation timeline and no dollar threshold in the statute, and CAS itself
-    is not among the listed exemptions [1685]; the exemptions apply to DoD contracts only, with a question over
-    DoD orders under civilian multiple-award contracts [1689]; a second reader identified no section amending 10
-    U.S.C. 4021, 4022 or 3014 [1690].'
+    is not among the listed exemptions [1105]; the exemptions apply to DoD contracts only, with a question over
+    DoD orders under civilian multiple-award contracts [1109]; a second reader identified no section amending 10
+    U.S.C. 4021, 4022 or 3014 [1110].'
   - The NAC FAQ's definition of a nontraditional defense contractor, as relayed, omitted the cost-accounting-standards
-    clause; check the live text [1750].
-  - official_url is the Cornell LII page because uscode.house.gov was down on 2026-10-03 [1605].
+    clause; check the live text [1169].
+  - official_url is the Cornell LII page because uscode.house.gov was down on 2026-10-03 [1032].
