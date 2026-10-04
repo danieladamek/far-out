@@ -1,4 +1,4 @@
-# references.yaml — FAR Out content pack · consolidated and live-rechecked 2026-10-03. recheck: false means the page was read in the recheck pass; recheck: true entries still need it.
+# references.yaml — FAR Out content pack · consolidated and live-rechecked 2026-10-03/04. recheck: false means the page was read in the recheck pass; recheck: true entries are host-blocked or uncited.
 - n: 1
   key: PL119-83
   tier: seminal
@@ -3449,7 +3449,7 @@
   recheck: true
   prev_n:
   - 91
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  recheck_note: 'blocked on recheck 2026-10-04: 403 from media.defense.gov'
 - n: 92
   key: SocomSbir
   tier: current
@@ -10321,18 +10321,21 @@
   - You must renew your registration every 365 days to keep it active.
   - A registration allows you to bid on government contracts and apply for federal assistance.
   - Registration can take up to 10 business days to become active.
-  - if you choose to only get a Unique Entity ID, you cannot apply directly for federal awards
   role_here: method
   role_note: 'Sweep A id `sam-entity-registration` (SAM registration and UEI). Same URL also swept in slice B as
     `sam-entity-registration`; key_facts and quotes merged here (B gave title: Entity Registration; published: unknown;
     read: full; kind: primary). Read depth differs between slices (A: partial; B: full); the fuller is recorded.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 523
   - 840
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  dropped_quotes:
+  - quote: if you choose to only get a Unique Entity ID, you cannot apply directly for federal awards
+    verdict: PARAPHRASE
+  recheck_note: Q4 reported as PARAPHRASE although the page text returned was identical apart from the capital 'If'.
 - n: 301
   key: SamEntityChecklist
   tier: current
@@ -11366,7 +11369,7 @@
   recheck: true
   prev_n:
   - 555
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  recheck_note: 'blocked on recheck 2026-10-04: 503 from www.ecfr.gov'
 - n: 333
   key: ECFR124-109
   tier: seminal
@@ -26026,10 +26029,11 @@
   role_note: Partnering sweep B id `far-52-219-28` (B. Joint ventures — FAR).
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1092
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-09-23'
 - n: 768
   key: FR2022FARJV
   tier: seminal
@@ -32561,10 +32565,11 @@
     on the access date; the primary citation for the rule.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1461
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-09-23'
 - n: 962
   key: Far154034
   tier: seminal
@@ -32886,10 +32891,11 @@
     official site on the access date; the primary citation for the rule.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1472
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-09-23'
 - n: 971
   key: Dfars2522277017
   tier: seminal
@@ -33724,10 +33730,10 @@
 
     '
   key_facts:
-  - Lists CRADAs, facility usage agreements, technology licenses (patent, software, trademark), alliances, consulting,
-    technical assistance, material transfer agreements, Space Act Agreements, educational partnership agreements,
-    partnership intermediary agreements, other transactions, prize challenges, grants, cooperative agreements and
-    contracts.
+  - '[unconfirmed on recheck 2026-10-04] Lists CRADAs, facility usage agreements, technology licenses (patent, software,
+    trademark), alliances, consulting, technical assistance, material transfer agreements, Space Act Agreements,
+    educational partnership agreements, partnership intermediary agreements, other transactions, prize challenges,
+    grants, cooperative agreements and contracts.'
   - Facility use may be proprietary or nonproprietary.
   quotes:
   - the most common and flexible way for federal labs to work with the public sector
@@ -33736,10 +33742,12 @@
     for the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1514
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: 'Fact 1 only partly seen: partnership intermediary agreements and other transactions not named in
+    the fetched text.'
 - n: 996
   key: FlcBusinessFaq
   tier: current
@@ -35324,10 +35332,11 @@
   key_facts:
   - 'Nine sections, §§ 3.1–3.9: purpose, background, applicability, definitions, appropriate use, cost-sharing limits,
     Comptroller General access, DoD access to records, follow-on production.'
-  - Its "nontraditional Defense contractor" definition has a second prong (no other contract in excess of $500,000
-    for prototype or research work under the FAR in the prior year) that is not in 10 U.S.C. 3014.
-  - § 3.5 lists only three use conditions (nontraditional participation, one-third cost share, exceptional circumstances);
-    it omits the all-small-business condition now in § 4022(d)(1)(B).
+  - '[unconfirmed on recheck 2026-10-04] Its "nontraditional Defense contractor" definition has a second prong (no
+    other contract in excess of $500,000 for prototype or research work under the FAR in the prior year) that is
+    not in 10 U.S.C. 3014.'
+  - '[unconfirmed on recheck 2026-10-04] § 3.5 lists only three use conditions (nontraditional participation, one-third
+    cost share, exceptional circumstances); it omits the all-small-business condition now in § 4022(d)(1)(B).'
   - '§ 3.7: Comptroller General access clause for agreements with total Government payments over $5,000,000; access
     ends three years after final payment.'
   - '§ 3.8: fixed-price OTs generally need no DoD audit access; cost-type OTs over $5,000,000 — DoD "shall" have
@@ -35349,11 +35358,14 @@
     of step with the statute (conflicts; todo).
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1611
   - 2113
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-09-21'
+  recheck_note: F2 and F3 compare against 10 U.S.C. 3014 / 4022(d)(1)(B), which this page does not cite, so the
+    comparison cannot be confirmed from it.
 - n: 1038
   key: Cfr4215
   tier: seminal
@@ -35409,8 +35421,10 @@
 
     '
   key_facts:
-  - (b) lists 15 categories exempt from CAS, including "Contracts and subcontracts with small businesses".
-  - Still shows the $7.5 million trigger-contract exemption as of 2026-09-28.
+  - '[CONTRADICTED on recheck 2026-10-04; page says: (b) lists 8 categories of exemption (small-business item is
+    (b)(3))] (b) lists 15 categories exempt from CAS, including "Contracts and subcontracts with small businesses".'
+  - '[CONTRADICTED on recheck 2026-10-04; page says: $35 million threshold at 9903.201-1(b)(2)] Still shows the
+    $7.5 million trigger-contract exemption as of 2026-09-28.'
   quotes:
   - Contracts and subcontracts with small businesses
   role_here: support
@@ -35418,10 +35432,12 @@
     official site on the access date; the primary citation for the rule.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1613
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: eCFR up to date as of 2026-10-01
+  recheck_note: www.ecfr.gov answered on this second attempt after the 503 on n 332.
 - n: 1040
   key: Dfars21270Acqgov
   tier: seminal
@@ -35465,10 +35481,11 @@
     3458 as amended in December 2025 (conflicts; todo).'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1614
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-09-23'
 - n: 1041
   key: Dfars21270Ecfr
   tier: seminal
@@ -35714,10 +35731,11 @@
     not fetched.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1624
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: Only date shown is the effective date, March 16, 2026.
 - n: 1048
   key: WileyDfarsDeviations
   tier: background
@@ -35757,10 +35775,13 @@
     231 revision are internally inconsistent (todo).
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1626
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-09-16 (latest entry date shown; no explicit page date)
+  recheck_note: 'F6 is an absence claim: the page has no mention of sec. 1823 or CSO deviations; F1''s Dec. 18,
+    2025 date was matched only loosely by the checker.'
 - n: 1049
   key: DodOtGuide2023
   tier: classic
@@ -36146,10 +36167,10 @@
     policy and practice, and is not itself statute or regulation.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1634
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1057
   key: AafBaaVCso
   tier: current
@@ -36447,10 +36468,11 @@
     states policy and practice, and is not itself statute or regulation.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1642
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-04-30'
 - n: 1065
   key: DiuSolutionBrief
   tier: current
@@ -36794,10 +36816,11 @@
     findings quoted, as of its date.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1651
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2019-11-22'
 - n: 1073
   key: Gao16209
   tier: background
@@ -36826,10 +36849,11 @@
     findings quoted, as of its date.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1652
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2016-01-07'
 - n: 1074
   key: GaoB416061
   tier: classic
@@ -37124,7 +37148,7 @@
   key_facts:
   - Jurisdiction found under 28 U.S.C. 1491(b)(1); motion to dismiss denied.
   - Discusses SpaceX, Kinemetrics, Hydraulics International and Independent Rough Terrain Center.
-  - 'Reporter citation per hk-cofc-ota-2025: 2025 WL 583350.'
+  - '[unconfirmed on recheck 2026-10-04] Reporter citation per hk-cofc-ota-2025: 2025 WL 583350.'
   quotes:
   - this Court is the de facto forum for bid protests involving 'other transactions' (OTs) and 'other transaction
     agreements' (OTAs) awarded under 10 U.S.C. §§ 4021–22
@@ -37136,10 +37160,11 @@
     that is reference 1663.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1660
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2025-02-24 (filed)
 - n: 1082
   key: CofcTelesto2025
   tier: current
@@ -37179,10 +37204,11 @@
     Tiered current: the schema''s seminal list does not name court decisions; author to confirm.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1661
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-06-02'
 - n: 1083
   key: CofcIrtc2024
   tier: current
@@ -37358,10 +37384,10 @@
     (no Other Transaction award-type code). Sweep recorded no quote for this source ("JSON; none").
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1666
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1088
   key: Usc5120113
   tier: seminal
@@ -37393,10 +37419,10 @@
     link service), not uscode.house.gov, which was down on 2026-10-03; re-read on the official site before publication.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1668
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1089
   key: NasaNaii10503d
   tier: current
@@ -37466,10 +37492,11 @@
     still carries a September 30, 2024 sunset. Whether the authority was later restored is unverified (todo).
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1670
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: Legislative history on the page runs through Pub. L. 117-263 (Dec. 23, 2022); no page date.
 - n: 1091
   key: Crec20250310Paths
   tier: current
@@ -37660,10 +37687,10 @@
     link service), not uscode.house.gov, which was down on 2026-10-03; re-read on the official site before publication.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1675
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1096
   key: Usc42290c
   tier: seminal
@@ -37693,10 +37720,11 @@
     link service), not uscode.house.gov, which was down on 2026-10-03; re-read on the official site before publication.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1676
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: No page date; text references enactment by Pub. L. 117-328 (Dec. 29, 2022).
 - n: 1097
   key: Usc42282
   tier: seminal
@@ -37768,11 +37796,12 @@
     and practice, and is not itself statute or regulation.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1678
   - 2082
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2024-10-01'
 - n: 1099
   key: NihOtPolicyGuide2017
   tier: classic
@@ -37948,10 +37977,11 @@
     link service), not uscode.house.gov, which was down on 2026-10-03; re-read on the official site before publication.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1683
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: No page date; notes run through Pub. L. 117-286 (Dec. 27, 2022).
 - n: 1104
   key: Usc495312
   tier: seminal
@@ -38084,10 +38114,13 @@
     a fact alone. Sweep recorded no quote for this source ("none").'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1687
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-02
+  recheck_note: Checker's evidence for F1 did not quote the enactment date, and F5's 'no OT threshold changes' is
+    an absence claim (none mentioned).
 - n: 1108
   key: AbaFy26Ndaa
   tier: background
@@ -38151,7 +38184,7 @@
 
     '
   key_facts:
-  - Written six days before enactment.
+  - '[unconfirmed on recheck 2026-10-04] Written six days before enactment.'
   - States that § 1826 exemptions apply to DoD contracts only and questions their reach to DoD orders under civilian
     multiple-award contracts.
   quotes: []
@@ -38162,10 +38195,13 @@
     and todo. Sweep recorded no quote for this source ("none").'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1689
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-12-12'
+  recheck_note: Page is dated Dec. 12, 2025 and gives no enactment date, so the six-day gap is not stated on the
+    page.
 - n: 1110
   key: CrowellFy26Ndaa
   tier: background
@@ -38275,10 +38311,11 @@
     a fact alone. Sweep recorded no quote for this source ("none").'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1692
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-01-20'
 - n: 1113
   key: S4784Fy27Ndaa
   tier: current
@@ -38308,10 +38345,11 @@
     was read. Recorded under pending_changes (proposed).
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1693
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-06-15 (reported)
 - n: 1114
   key: WotrFy27Ndaa
   tier: background
@@ -38337,10 +38375,13 @@
     never carries a fact alone. Sweep recorded no quote for this source ("none").
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1694
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-07-16'
+  recheck_note: Section numbers and content confirmed; the checker did not quote the bill numbers (H.R. 8800 / S.
+    4784), and F3 rests on the article's date plus no mention of reconciliation.
 - n: 1115
   key: MitreConsortiaList
   tier: current
@@ -38361,7 +38402,8 @@
 
     '
   key_facts:
-  - '36 entries: 9 OSD-sponsored, 6 Air Force/Space Force, 10 Army, 8 Navy, 3 non-DoD.'
+  - '[unconfirmed on recheck 2026-10-04] 36 entries: 9 OSD-sponsored, 6 Air Force/Space Force, 10 Army, 8 Navy,
+    3 non-DoD.'
   - 'Managers named: ATI, NSTXL, CMG, SOSSEC, SAE ITC, TEES, the U.S. Partnership for Assured Electronics, and DEVCOM
     CBC (Cornerstone, government-run); NSC and NAMC shown as "Member-led Consortium".'
   - TReX II is listed under ATI, not NSTXL.
@@ -38378,10 +38420,13 @@
     or a key_fact names sweep id `govtribe-consortia-notice`; that is reference 1696.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1695
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: Last Updated 9/22/2025
+  recheck_note: 'Fact 1: page states no totals; the reader''s own count of listed entries agreed with 9/6/10/8/3
+    = 36.'
 - n: 1116
   key: GovtribeConsortiaNotice
   tier: background
@@ -38474,10 +38519,10 @@
     records it as kind: secondary. Never carries a fact alone.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1698
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1119
   key: Gao22105357Pdf
   tier: background
@@ -38633,11 +38678,13 @@
     The GAO product page is a separate reference in slice A.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1701
   - 2125
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-09-03'
+  recheck_note: Facts 7-12 were confirmed as a group by the reader, not itemised.
 - n: 1122
   key: Gao25107546Pdf
   tier: background
@@ -38665,10 +38712,11 @@
     for the figures and findings quoted, as of its date.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1702
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2025-09
 - n: 1123
   key: Dodig2021077Page
   tier: background
@@ -38738,16 +38786,21 @@
   quotes:
   - The DoD did not properly track and did not have an accurate count of all OTs awarded through consortiums in
     FPDS-NG.
-  - DoD contracting personnel did not always compete base OTs to the maximum extent practicable
   role_here: prior-result
   role_note: Sweep OB id `dodig-2021-077-pdf` (Oversight, statute, policy, data systems). Oversight report; source
     for the figures and findings quoted, as of its date.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1704
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2021-04-21'
+  dropped_quotes:
+  - quote: DoD contracting personnel did not always compete base OTs to the maximum extent practicable
+    verdict: PARAPHRASE
+  recheck_note: 'Quote 2: page 13 has ''did not always compete base OTs to the maximum extent practicable as required
+    by 10 U.S.C. § 2371b''; the exact subject wording was not confirmed.'
 - n: 1125
   key: Dodig2021077Oversight
   tier: background
@@ -38806,10 +38859,11 @@
     the figures and findings quoted, as of its date.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1706
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2023-09-26'
 - n: 1127
   key: CrsIf12856
   tier: background
@@ -38945,10 +38999,11 @@
     under pending_changes (proposed). Whether it has been finalized was not checked (todo).
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1710
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2024-09-04'
 - n: 1131
   key: DodOtGuideAcq
   tier: classic
@@ -39005,10 +39060,11 @@
     not policy.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1712
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2021-05/06 (May-June 2021 issue)
 - n: 1133
   key: FpdsOtidvHelp
   tier: current
@@ -39036,10 +39092,10 @@
     source for how other transactions are recorded.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1713
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1134
   key: PoulsonFpdsOta2025
   tier: background
@@ -39065,10 +39121,13 @@
     used only to locate GAO-24-106214; never carries a fact alone. Sweep recorded no quote for this source ("none").
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1715
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-01-28'
+  recheck_note: Page cites the November 2023 GAO study's statement that OTAs are not in the awards agencies must
+    report to USAspending.gov; it quotes GAO rather than causing the statement.
 - n: 1135
   key: AccNjNdiaSlides
   tier: background
@@ -39158,10 +39217,13 @@
     for what it says about itself (dues, eligibility, process, statistics); stated as the page says, with no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1718
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-08-18 (modified_time)
+  recheck_note: JDEC appears as 'NSTXL Awarded Joint Directed Energy Consortium'; the words 'recently awarded' were
+    not separately confirmed.
 - n: 1138
   key: NstxlMembership
   tier: current
@@ -39192,10 +39254,12 @@
     for what it says about itself (dues, eligibility, process, statistics); stated as the page says, with no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1719
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-10-02'
+  recheck_note: JDEC wording on the page is 'membership is free until further notice'.
 - n: 1139
   key: NstxlS2martsMembership
   tier: current
@@ -39245,7 +39309,7 @@
 
     '
   key_facts:
-  - Same fee table as nstxl-membership.
+  - '[unconfirmed on recheck 2026-10-04] Same fee table as nstxl-membership.'
   - Join by creating an account and submitting the new member application; contact membership@nstxl.org.
   quotes:
   - Permitted to do business with the Department of Defense and with technology and expertise relevant to the S2MARTS
@@ -39256,10 +39320,13 @@
     no evaluation. The summary or a key_fact names sweep id `nstxl-membership`; that is reference 1719.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1721
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-03-27 (modified_time)
+  recheck_note: Fact 1 is a cross-page comparison; this page shows corporate dues $250/$1,000/$5,000/$10,000 by
+    revenue band, non-profit $500/$5,000/$10,000, university/laboratory/investor $2,500, incubator $500.
 - n: 1141
   key: NstxlFaqJoinSpecific
   tier: current
@@ -39277,7 +39344,9 @@
 
     '
   key_facts:
-  - Names S²MARTS and SpEC only (stale against nstxl-home, which adds JDEC).
+  - '[CONTRADICTED on recheck 2026-10-04; page says: FAQ body text names only S2MARTS and SpEC (''currently the
+    consortium manager for two OTAs''), but the page''s site footer also lists the Joint Directed Energy Consortium
+    (JDEC)] Names S²MARTS and SpEC only (stale against nstxl-home, which adds JDEC).'
   - Manages S2MARTS and SpEC per the page.
   quotes:
   - We offer membership to NSTXL, which provides your firm access to all of our OTAs.
@@ -39287,11 +39356,13 @@
     names three (conflicts). The summary or a key_fact names sweep id `nstxl-home`; that is reference 1718.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1722
   - 2137
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-11-19'
+  recheck_note: F1 holds for the FAQ answer itself; the contradiction is only the JDEC link in the site-wide footer.
 - n: 1142
   key: NstxlFaq
   tier: current
@@ -39361,10 +39432,11 @@
     no evaluation. Sweep recorded no quote for this source ("none relayed verbatim about access").'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1724
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-10-01 (modified_time)
 - n: 1144
   key: NstxlWhatIsOta
   tier: current
@@ -39391,10 +39463,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1725
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-09-29'
 - n: 1145
   key: NstxlSixReasons
   tier: current
@@ -39521,10 +39594,11 @@
     used for dated events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1729
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: No publication date displayed in the fetched text.
 - n: 1149
   key: SscSpecTrifold
   tier: current
@@ -39608,10 +39682,11 @@
     used for dated events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1732
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2019-03-19'
 - n: 1152
   key: NavseaCraneApbi2019
   tier: background
@@ -39646,7 +39721,7 @@
   recheck: true
   prev_n:
   - 1733
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  recheck_note: 'blocked on recheck 2026-10-04: 403 from www.navsea.navy.mil'
 - n: 1153
   key: NavseaS2marts2021
   tier: background
@@ -39673,10 +39748,11 @@
     used for dated events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1734
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2021-12-20'
 - n: 1154
   key: JdecHome
   tier: current
@@ -39703,10 +39779,11 @@
     for what it says about itself (dues, eligibility, process, statistics); stated as the page says, with no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1735
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-08-21 (modified_time)
 - n: 1155
   key: ExecutivebizJdec2026
   tier: background
@@ -39732,10 +39809,11 @@
     and todo. Sweep recorded no quote for this source ("none").'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1736
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-08-18'
 - n: 1156
   key: AtiFindJoin
   tier: current
@@ -39807,10 +39885,12 @@
     with no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1738
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-09-23 (modified_time)
+  recheck_note: Fact 3's name list was confirmed as a group by the reader, not name by name.
 - n: 1158
   key: AtiConnectingDots2
   tier: background
@@ -39836,10 +39916,11 @@
     issuing body; used for dated events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1739
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2019-09-19 (modified 2023-05-18)
 - n: 1159
   key: TrexiiHome
   tier: current
@@ -39901,10 +39982,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1741
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-08-11 (modified_time)
 - n: 1161
   key: AtiTrexii
   tier: current
@@ -39960,10 +40042,13 @@
     body; used for dated events and the issuing body's own figures. Sweep recorded no quote for this source ("none").
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1743
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2023-01-09'
+  recheck_note: Checker misread the fact as 'ATI sponsors' and said CONTRADICTED; its quoted page text (ATI as CMF;
+    'Sponsored by ... PEO STRI and ACC - Orlando') matches the fact, so recorded CONFIRMED.
 - n: 1163
   key: TrexiiSonRed071
   tier: current
@@ -39989,10 +40074,12 @@
     says, with no evaluation. Sweep recorded no quote for this source ("none").'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1744
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: 12 months and Government Purpose Rights are in the text; 'RFS' is only in the URL file name, the
+    document itself is titled Statement of Need (SON).
 - n: 1164
   key: NacDotcHome
   tier: current
@@ -40051,10 +40138,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1746
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-05-06'
 - n: 1166
   key: DotcOpportunities
   tier: current
@@ -40083,10 +40171,11 @@
     says, with no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1747
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2025-06-06 (modified_time)
 - n: 1167
   key: NacHome
   tier: current
@@ -40145,10 +40234,12 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1749
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-05-20'
+  recheck_note: Page's required-documents list also includes DUNS.
 - n: 1169
   key: NacFaq
   tier: current
@@ -40167,7 +40258,8 @@
   key_facts:
   - 'Assessment, effective 2023-10-01: AMTC 0.15% of all awarded funding (not ceiling); DOTC and NEST 0.5%.'
   - 'Eligibility: U.S. firm or institution; active DD2345; not barred; technically capable.'
-  - The NDC definition as relayed omitted the cost-accounting-standards clause; check the live text.
+  - '[unconfirmed on recheck 2026-10-04] The NDC definition as relayed omitted the cost-accounting-standards clause;
+    check the live text.'
   - One-time $500 fee to join; no recurring annual dues.
   - 'Award assessment (effective October 1, 2023): AMTC 0.15% of awarded funding; DOTC and NEST 0.5% of awarded
     funding (not ceiling).'
@@ -40182,11 +40274,14 @@
     as relayed omitted the cost-accounting-standards clause; check the live text.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1750
   - 2134
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2025-06-06 (modified_time)
+  recheck_note: Fact 3 is an extraction caveat rather than a page statement; the reader reports the live NDC definition
+    does include the cost-accounting-standards reference.
 - n: 1170
   key: AmtcHome
   tier: current
@@ -40214,10 +40309,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1751
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2024-05-10'
 - n: 1171
   key: AmtcJoin
   tier: current
@@ -40243,10 +40339,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1752
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2025-06-18 (modified_time)
 - n: 1172
   key: AmtcFaq
   tier: current
@@ -40309,10 +40406,12 @@
     body; used for dated events and the issuing body's own figures. Sweep recorded no quote for this source ("none").
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1754
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2018-08-27 (modified 2023-05-18)
+  recheck_note: The 763 figure is given as 'AMTC member organizations' in a quotation.
 - n: 1174
   key: ArmyAmtc2019
   tier: background
@@ -40339,10 +40438,11 @@
     body; used for dated events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1755
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2019-10-08'
 - n: 1175
   key: ArmyAmrdec2018
   tier: background
@@ -40400,10 +40500,12 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1757
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-05-01'
+  recheck_note: Page wording is 'over 300 vertical lift organizations'.
 - n: 1177
   key: VlcJoin
   tier: current
@@ -40428,10 +40530,11 @@
     no evaluation. Sweep recorded no quote for this source ("none").'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1758
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-07-07 (modified_time)
 - n: 1178
   key: VlcWhyJoin
   tier: current
@@ -40490,10 +40593,10 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1760
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1180
   key: MtecJoin
   tier: current
@@ -40553,10 +40656,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1762
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: Wording found in the page's meta description.
 - n: 1182
   key: MtecSolicitations
   tier: current
@@ -40583,10 +40687,10 @@
     says, with no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1763
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1183
   key: MtecFaqs
   tier: current
@@ -40642,10 +40746,13 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1765
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-09-30 (modified_time)
+  recheck_note: Footer shows a CPE CBRND logo linking to jpeocbrnd.osd.mil; the MITRE-list parenthetical is not
+    on this page.
 - n: 1185
   key: McdcJoin
   tier: current
@@ -40673,10 +40780,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1766
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2023-08-07'
 - n: 1186
   key: CwmdHome
   tier: current
@@ -40734,10 +40842,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1768
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-07-24 (modified_time)
 - n: 1188
   key: AtiCwmd
   tier: current
@@ -40793,10 +40902,11 @@
     body; used for dated events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1770
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2020-04-10'
 - n: 1190
   key: DibcHome
   tier: current
@@ -40823,10 +40933,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1771
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-03-24 (modified_time)
 - n: 1191
   key: DibcJoin
   tier: current
@@ -40884,10 +40995,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1773
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-03-11'
 - n: 1193
   key: NsticJoin
   tier: current
@@ -40914,10 +41026,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1774
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-03-11 (modified_time)
 - n: 1194
   key: NsticFaq
   tier: current
@@ -41043,10 +41156,11 @@
     body; used for dated events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1778
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2020-06-29 (modified 2023-08-04)
 - n: 1198
   key: DvidsUtic2020
   tier: background
@@ -41067,18 +41181,23 @@
   key_facts:
   - Requests for prototype proposals twice a year (April and October).
   - 73% non-traditional, 70% small businesses.
-  quotes:
-  - The primary reason for using OT authority is the government needs to obtain leading-edge prototypes and research
-    and development from commercial sources
+  quotes: []
   role_here: data-source
   role_note: Sweep OB id `dvids-utic-2020` (ATI and the consortia it manages). News item or release from the issuing
     body; used for dated events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1779
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2020-08-14'
+  dropped_quotes:
+  - quote: The primary reason for using OT authority is the government needs to obtain leading-edge prototypes and
+      research and development from commercial sources
+    verdict: PARAPHRASE
+  recheck_note: 'Quote differs only by a dropped parenthetical: page reads ''research and development (R&D) from
+    commercial sources''.'
 - n: 1199
   key: AtiUtic2021
   tier: background
@@ -41135,10 +41254,10 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1781
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1201
   key: Emc2Join
   tier: current
@@ -41167,10 +41286,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1782
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-01-20 (modified_time)
 - n: 1202
   key: MsticHome
   tier: current
@@ -41295,10 +41415,12 @@
     body; used for dated events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1786
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2020-08-17'
+  recheck_note: Page wording is 'more than 580 consortium members, with over 78 percent ... non-traditional'.
 - n: 1206
   key: DvidsIwrp22021
   tier: background
@@ -41325,10 +41447,11 @@
     body; used for dated events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1787
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2021-12-07'
 - n: 1207
   key: AtiIwrp32024
   tier: background
@@ -41386,10 +41509,10 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1789
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1209
   key: AtiNest
   tier: current
@@ -41414,10 +41537,11 @@
     no evaluation. Sweep recorded no quote for this source ("none").'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1790
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-03-06 (modified_time)
 - n: 1210
   key: AtiMatac
   tier: current
@@ -41443,10 +41567,11 @@
     no evaluation. Sweep recorded no quote for this source ("none").'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1791
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-04-23'
 - n: 1211
   key: AtiDaftencap
   tier: current
@@ -41533,10 +41658,11 @@
     no evaluation. Sweep recorded no quote for this source ("none").'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1794
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-03-06 (modified_time)
 - n: 1214
   key: RrpvHome
   tier: current
@@ -41561,10 +41687,10 @@
     no evaluation. Sweep recorded no quote for this source ("none").'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1795
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1215
   key: RrpvJoin
   tier: current
@@ -41619,10 +41745,11 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1797
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2025-12-23 (modified_time)
 - n: 1217
   key: AtiNsc2020
   tier: background
@@ -41640,17 +41767,21 @@
 
     '
   key_facts:
-  - $2.5 billion, five years; nearly 400 members then; ATI stated as manager then.
+  - '[unconfirmed on recheck 2026-10-04] $2.5 billion, five years; nearly 400 members then; ATI stated as manager
+    then.'
   quotes: []
   role_here: data-source
   role_note: Sweep OB id `ati-nsc-2020` (ATI and the consortia it manages). News item or release from the issuing
     body; used for dated events and the issuing body's own figures. Sweep recorded no quote for this source ("none").
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1798
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2020-12-16 (modified 2023-05-18)
+  recheck_note: $2.5 billion ceiling, five-year term and 'nearly 400' members are confirmed; the page text does
+    not state that ATI manages the consortium, so the fact as a whole is not fully found.
 - n: 1218
   key: WaruNsc
   tier: current
@@ -41776,10 +41907,11 @@
     with no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1802
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-09-03 (modified_time)
 - n: 1222
   key: CmgCeedMember
   tier: current
@@ -41807,10 +41939,11 @@
     with no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1803
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-09-03'
 - n: 1223
   key: CmgCeedOverview
   tier: current
@@ -41882,10 +42015,12 @@
     by the current OTAs. Tiered classic because it predates the window.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1805
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: Document cites 10 U.S.C. 2371b; the 'now 4022' gloss and the 'Project Agreement Holder' label were
+    not separately shown by the reader.
 - n: 1225
   key: NascHome
   tier: current
@@ -41912,10 +42047,10 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1806
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1226
   key: NascOpportunities
   tier: current
@@ -42037,10 +42172,10 @@
     for what it says about itself (dues, eligibility, process, statistics); stated as the page says, with no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1810
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1230
   key: NamcWhyJoin
   tier: current
@@ -42069,10 +42204,10 @@
     no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1811
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1231
   key: NamcGvsOta
   tier: current
@@ -42122,7 +42257,7 @@
   key_facts:
   - 'OTAs listed: Army COBRA; Army ERDC; AFLCMC PCI 2.0; AFLCMC PCI; AFLCMC ACI; SCCI (448th Supply Chain Management
     Wing); AFRL OTAFI; NGA (stated $30M ceiling).'
-  - SOSSEC styles itself Consortium Administrative Organization.
+  - '[unconfirmed on recheck 2026-10-04] SOSSEC styles itself Consortium Administrative Organization.'
   quotes:
   - OTs are a special vehicle used by federal agencies for obtaining or advancing research and development (R&D)
     or prototypes.
@@ -42132,10 +42267,12 @@
     with no evaluation.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1813
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: Page calls SOSSEC, Inc. the 'Consortium Manager'; 'Consortium Administrative Organization (CAO)'
+    appears only in the ACI section.
 - n: 1233
   key: SossecJoin
   tier: current
@@ -42291,10 +42428,10 @@
     it.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1901
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1238
   key: AafPolicies
   tier: current
@@ -42328,10 +42465,10 @@
     instruction dates as listed, which differ from the instruction text for DoDI 5000.80.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1902
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1239
   key: AafSelecting
   tier: current
@@ -42421,8 +42558,7 @@
   - Names six pathways; UCA "in less than 2 years".
   - As returned, the text contains no "Portfolio Acquisition Executive", no small-business, OT or CSO language.
   - 'DBS language: COTS "successfully demonstrated in the commercial marketplace".'
-  quotes:
-  - PMs will develop an acquisition strategy for MDA approval that matches the pathway processes.
+  quotes: []
   role_here: support
   role_note: 'Sweep OC id `dodi-5000-02` (A. Adaptive Acquisition Framework: pathway pages and instructions). Governing
     framework instruction. The fetch returned the January 23, 2020 text with Change 1 (June 8, 2022); the April
@@ -42430,10 +42566,16 @@
     April 2026 text.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1905
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2022-06-08 (Change 1)
+  dropped_quotes:
+  - quote: PMs will develop an acquisition strategy for MDA approval that matches the pathway processes.
+    verdict: PARAPHRASE
+  recheck_note: 'Q1 is condensed: page reads ''...that matches the acquisition pathway (see Figure 1) processes,
+    reviews, documents, and metrics to the character and risk of the capability being acquired.'''
 - n: 1242
   key: AfacpoChanges
   tier: background
@@ -42461,10 +42603,11 @@
     rather than a reissue; it never carries that fact alone.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1906
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: Published Version 26.09.18 (latest change entry 2026-09-18)
 - n: 1243
   key: AafUca
   tier: current
@@ -42598,10 +42741,11 @@
     describes it.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1910
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: 'F5: checker reports the page''s wording as Procurement for Experimental Purposes (''2373'').'
 - n: 1247
   key: AafMtaPrototyping
   tier: current
@@ -42627,10 +42771,10 @@
     describes it.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1911
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1248
   key: Dodi500080
   tier: classic
@@ -42695,10 +42839,11 @@
     site before publication.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1913
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: Latest amendment shown on LII is Pub. L. 118-159 (Dec. 23, 2024).
 - n: 1250
   key: AafMca
   tier: current
@@ -42726,10 +42871,10 @@
     it.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1914
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1251
   key: Dodi500085
   tier: classic
@@ -42860,10 +43005,11 @@
     DoD instruction as returned by the fetch; listed on the official AAF policy page under its DoDI number.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1918
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2020-10-02 (effective date)
 - n: 1255
   key: DiuSwpMemo
   tier: background
@@ -42892,10 +43038,12 @@
     release or news item; used for dated events and the issuing body''s own figures.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1919
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-03-07'
+  recheck_note: Page wording is 'more than 500 CSO-OT awards over the past eight years'.
 - n: 1256
   key: AafDbs
   tier: current
@@ -42959,10 +43107,10 @@
     describes it.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1921
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1258
   key: Dodi500075
   tier: classic
@@ -43132,10 +43280,11 @@
     list does not name executive orders.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1926
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-04-15'
 - n: 1263
   key: WarReleaseNov2025
   tier: background
@@ -43166,10 +43315,11 @@
     events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1927
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: Checker saw only 'Immediate Release' with no date.
 - n: 1264
   key: Ats2025
   tier: current
@@ -43250,10 +43400,14 @@
     contents and never carries a fact alone.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1929
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-11-07'
+  recheck_note: 'Fact 1: reader labelled it contradicted, but the deadlines it read (Dec. 7, 2025 for USW(A&S) guidance,
+    Jan. 7, 2026 for PAE plans, memo dated Nov. 7, 2025) equal 30 and 60 days; page appears to give dates rather
+    than day counts for those two.'
 - n: 1266
   key: WileyWas
   tier: background
@@ -43282,10 +43436,11 @@
     carries a fact alone.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1930
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2025-11
 - n: 1267
   key: CovWas
   tier: background
@@ -43468,10 +43623,11 @@
     in the hosting path. Corrects the project sketch, which dates this strategy June 2026.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1936
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-02-03'
 - n: 1273
   key: Usc101732
   tier: seminal
@@ -43494,8 +43650,8 @@
     executive".
   - Program managers report to the PAE; PAE reports to the CAE/SAE.
   - PAE may "modify, discontinue, or terminate" underperforming efforts.
-  - 10 U.S.C. 1737(a)(4) now defines PAE by reference to §1732(a); the "program executive officer" definition was
-    replaced.
+  - '[unconfirmed on recheck 2026-10-04] 10 U.S.C. 1737(a)(4) now defines PAE by reference to §1732(a); the "program
+    executive officer" definition was replaced.'
   quotes:
   - prioritize the use of transactions for prototype projects
   role_here: support
@@ -43503,10 +43659,12 @@
     (under maintenance on the sweep date); re-read on the official site before publication.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1938
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: F4 concerns 10 U.S.C. 1737, which this page (section 1732, added by Pub. L. 119-60, Dec. 18, 2025)
+    does not discuss.
 - n: 1274
   key: PpiNdaa
   tier: background
@@ -43593,10 +43751,11 @@
     OT directly from a CSO; that reading is not confirmed against the statute text.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1947
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-03-27'
 - n: 1277
   key: NavyPaeMar2026
   tier: background
@@ -43623,10 +43782,13 @@
     and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1948
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-03-16'
+  recheck_note: Q1 contains an internal ellipsis; checker reported it verbatim within Jason Potter's statement without
+    showing the elided words.
 - n: 1278
   key: NavyPaeMay2026
   tier: background
@@ -43756,10 +43918,13 @@
     the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1953
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026 (year only)
+  recheck_note: Quote 1's words appear on p. 54 inside material the guide quotes from the 2023 Other Transactions
+    Guide, not as DIU's own text.
 - n: 1282
   key: DiuProj00719
   tier: current
@@ -43780,17 +43945,21 @@
   key_facts:
   - Solicitation number HQ084526SC002; single PDF, 10MB maximum.
   - Requires nontraditional status, no current or prior facility clearance, at least $100 million of available capital.
-  quotes:
-  - direct award of a follow-on production contract without competitive procedures
+  quotes: []
   role_here: data-source
   role_note: Sweep OC id `diu-proj00719` (C. Front doors). Issuing body's own page or document; source for the terms
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1956
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  dropped_quotes:
+  - quote: direct award of a follow-on production contract without competitive procedures
+    verdict: PARAPHRASE
+  recheck_note: 'Q1: page reads ''direct award of a follow-on production contract or agreement without the use of
+    further competitive procedures''.'
 - n: 1283
   key: Gao25106856
   tier: background
@@ -43849,10 +44018,10 @@
     report was found.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1958
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1285
   key: DiuAbout
   tier: current
@@ -43878,10 +44047,10 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1959
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1286
   key: DiuOnrampHubsOc
   tier: current
@@ -44009,16 +44178,19 @@
   - 'Video elements: problem, solution with TRL, government impact, differentiation.'
   quotes:
   - Agreements are available to all Department of Defense (DOD) and other Federal agencies
-  - 10 USC 3458 and DFARS 212.7000 authorize Defense Commercial Solutions Opening
   role_here: data-source
   role_note: Sweep OC id `tw-dau-qa` (C. Front doors). Official webinar Q&A (May 2024); source for who may buy,
     the authorities named and the 24-month listing period.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1965
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  dropped_quotes:
+  - quote: 10 USC 3458 and DFARS 212.7000 authorize Defense Commercial Solutions Opening
+    verdict: PARAPHRASE
+  recheck_note: 'Quote 2: page reads ''authorize the use of a Defense Commercial Solutions Opening (CSO)''.'
 - n: 1290
   key: TwOnepager
   tier: classic
@@ -44043,10 +44215,10 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1966
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1291
   key: TwVehicles
   tier: current
@@ -44100,10 +44272,12 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1969
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: Confirmed by description (non-profit that bridges SOF and outside experts; partnership intermediary);
+    the page does not say in terms that it awards no contracts.
 - n: 1293
   key: SofwerxCategories
   tier: current
@@ -44134,10 +44308,10 @@
     the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1970
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1294
   key: SofwerxEventCcpm
   tier: current
@@ -44205,7 +44379,8 @@
   recheck: true
   prev_n:
   - 1972
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  recheck_note: 'blocked on recheck 2026-10-04: Gated: the URL returned HigherGov pricing/product content rather
+    than the opportunity record.'
 - n: 1296
   key: NavalxOnr2020
   tier: background
@@ -44263,7 +44438,8 @@
   recheck: true
   prev_n:
   - 1974
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  recheck_note: 'blocked on recheck 2026-10-04: 403 from www.navy.mil on this article (an earlier navy.mil press
+    release in this chunk fetched fine).'
 - n: 1298
   key: NavalxMedium2024
   tier: background
@@ -44292,10 +44468,11 @@
     The fetch digest's "does not fund" list was an inference, not a quoted statement, and is not carried.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1975
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2024-10-18'
 - n: 1299
   key: NiwcRcoCso
   tier: background
@@ -44347,17 +44524,23 @@
     '
   key_facts:
   - One AOI posted for PEO C4I Undersea Integration Program Office.
-  quotes:
-  - CSOs define a high-level problem statement or broad capability needs, inviting industry to propose viable solutions.
+  quotes: []
   role_here: support
   role_note: Sweep OC id `navwar-cso` (C. Front doors). Agency release or news item; used for dated events and the
     issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1977
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-09-22'
+  dropped_quotes:
+  - quote: CSOs define a high-level problem statement or broad capability needs, inviting industry to propose viable
+      solutions.
+    verdict: PARAPHRASE
+  recheck_note: 'Q1: page reads ''CSOs define a high-level problem statement or a broad set of capability needs.
+    Industry, especially non-traditional defense contractors ..., is invited to propose viable solutions''.'
 - n: 1301
   key: AfwerxPrimeOverview
   tier: classic
@@ -44385,10 +44568,10 @@
     as upcoming, so earlier than 2024; kept to describe what Prime was.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1980
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1302
   key: AfwerxAgilityPrime
   tier: classic
@@ -44505,10 +44688,12 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1985
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: 'F2: the page fetched 2026-10-03 shows the named competitions as OPEN / ACTIVE; the date itself
+    is the access date and is not printed on the page (checker said NOT-FOUND for that reason only).'
 - n: 1306
   key: XtechInversion
   tier: current
@@ -44536,10 +44721,10 @@
     terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1986
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1307
   key: ArmyFuzeAsc
   tier: current
@@ -44598,10 +44783,10 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1988
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1309
   key: ArmyAmcAug2026
   tier: background
@@ -44626,10 +44811,11 @@
     and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1989
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-08-27'
 - n: 1310
   key: ArmyUasCso
   tier: background
@@ -44774,10 +44960,11 @@
     unknown; read: full); its 2 further key_facts and 0 further quote(s) are appended after slice OC''s.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1993
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: Page gives the 30- to 45-day window only in the sentence about non-U.S. entities taking longer.
 - n: 1314
   key: NgaBigstBaa
   tier: current
@@ -44809,10 +44996,13 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1994
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-07-30'
+  recheck_note: 'Fact 4: the per-topic non-U.S. participation line was shown; the ''no set-asides'' wording was
+    not separately quoted by the reader.'
 - n: 1315
   key: NgaBigR
   tier: current
@@ -44865,10 +45055,11 @@
     the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1996
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2024-05-06'
 - n: 1317
   key: NgaIndustry
   tier: current
@@ -44886,20 +45077,24 @@
 
     '
   key_facts:
-  - 'Moonshot Labs: 911 Washington Avenue, Suite 300, St. Louis; opened July 2021; contact the Industry Engagements
-    Team.'
-  quotes:
-  - An unclassified innovation hub and collider space for NGA, its partners and customers to meet, create, collaborate,
-    and innovate.
+  - '[unconfirmed on recheck 2026-10-04] Moonshot Labs: 911 Washington Avenue, Suite 300, St. Louis; opened July
+    2021; contact the Industry Engagements Team.'
+  quotes: []
   role_here: data-source
   role_note: Sweep OC id `nga-industry` (C. Front doors). Issuing body's own page or document; source for the terms
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 1997
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: Last Site Build 2026-08-05
+  dropped_quotes:
+  - quote: An unclassified innovation hub and collider space for NGA, its partners and customers to meet, create,
+      collaborate, and innovate.
+    verdict: NOT-FOUND
+  recheck_note: Fetched page carried no Moonshot Labs content at all (address, opening date and contact absent).
 - n: 1318
   key: DarpaWorkWithUs
   tier: current
@@ -45024,18 +45219,24 @@
   - 'Authority: §880 of the FY2017 NDAA (Pub. L. 114-328) as amended by §7227 of the FY2023 NDAA (Pub. L. 117-263).'
   - Sunset September 30, 2027; $25 million award limit.
   - 'Two phases: written solution briefs with peer review; then negotiation.'
-  quotes:
-  - The CSO pilot program was created to provide opportunities for start-up companies to fulfill new innovative
-    commercial products and/or services.
+  quotes: []
   role_here: method
   role_note: Sweep OC id `gsa-cso-guide` (C. Front doors). Issuing body's own page or document; source for the terms
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2001
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2024-09-17'
+  dropped_quotes:
+  - quote: The CSO pilot program was created to provide opportunities for start-up companies to fulfill new innovative
+      commercial products and/or services.
+    verdict: PARAPHRASE
+  recheck_note: 'Q1: page reads ''The Commercial Solutions Opening (CSO) pilot program was created to provide opportunities
+    for start-up companies to fulfill new innovative commercial products and/or commercial services for the Federal
+    Government using streamlined procedures.'''
 - n: 1322
   key: FaiCso
   tier: current
@@ -45061,10 +45262,11 @@
     in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2002
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2020-12-04'
 - n: 1323
   key: Far7
   tier: seminal
@@ -45125,10 +45327,11 @@
     official site on the access date; the primary citation for the rule.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2005
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-09-23'
 - n: 1325
   key: Far15
   tier: seminal
@@ -45161,10 +45364,11 @@
     is as returned.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2008
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: FAC 2026-01, effective 2026-03-13
 - n: 1326
   key: Far192
   tier: seminal
@@ -45289,8 +45493,9 @@
     '
   key_facts:
   - 'Lifecycle: pre-award (announcement, application review); award; post-award (implementation, reporting, closeout).'
-  - Register in SAM.gov first (free; "Allow up to 10 business days"; renew yearly); UEI flows into applications;
-    the EBiz POC creates the Grants.gov profile and assigns roles such as Authorized Organization Representative.
+  - '[unconfirmed on recheck 2026-10-04] Register in SAM.gov first (free; "Allow up to 10 business days"; renew
+    yearly); UEI flows into applications; the EBiz POC creates the Grants.gov profile and assigns roles such as
+    Authorized Organization Representative.'
   quotes:
   - A grant is a way the government funds your ideas and projects to provide public services and stimulate the economy.
   role_here: data-source
@@ -45298,10 +45503,11 @@
     source for the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2017
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: F2 (SAM.gov registration, UEI, EBiz POC roles) does not appear on the Grants 101 page as fetched.
 - n: 1330
   key: NasaHowToPartner
   tier: current
@@ -45335,10 +45541,11 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2018
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-06-15'
 - n: 1331
   key: NasaAmesFaq
   tier: current
@@ -45404,10 +45611,11 @@
     in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2020
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-09-09'
 - n: 1333
   key: NasaPartnershipsGuide
   tier: classic
@@ -45429,17 +45637,23 @@
   - Reimbursable agreements are priced at NASA's estimated full cost, with some exceptions (Section II.A.3).
   - SAAs are to be issued non-exclusively to the greatest extent practicable (Section II.A.1.a).
   - NASA must publicly disclose each SAA on a NASA website in searchable format (Section II.A.1.a).
-  quotes:
-  - NASA must publicly disclose on a NASA Web site and make available in searchable format each Space Act Agreement
+  quotes: []
   role_here: method
   role_note: Sweep OD id `nasa-partnerships-guide` (NASA). Issuing body's own page or document; source for the terms
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2021
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2019-09-26'
+  dropped_quotes:
+  - quote: NASA must publicly disclose on a NASA Web site and make available in searchable format each Space Act
+      Agreement
+    verdict: PARAPHRASE
+  recheck_note: Reader labelled the quote verbatim, but its own transcription of p. 16 reads 'make available in
+    a searchable format' (extra 'a').
 - n: 1334
   key: NasaSaaGuide1e
   tier: classic
@@ -45573,10 +45787,12 @@
     probably truncated, so no count is carried.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2025
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2025-03-31 (as-of date in title)
+  recheck_note: Fetch again ended at row 308, so the PDF was read only in part.
 - n: 1338
   key: NasaCentersContacts
   tier: current
@@ -45605,10 +45821,11 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2026
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-09-02'
 - n: 1339
   key: Usc5120113
   tier: seminal
@@ -45670,10 +45887,11 @@
     the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2028
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2026-06-26 (updated 2026-09-16)
 - n: 1341
   key: NasaStandingAcoRelease
   tier: background
@@ -45702,10 +45920,12 @@
     and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2029
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: published 2025-07-30; last updated 2026-06-22
+  recheck_note: Page words fact 3 as 'open for proposals until Sept. 24'.
 - n: 1342
   key: NasaStandingAcoPcos
   tier: current
@@ -45830,10 +46050,11 @@
     the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2033
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2015-11-19 (updated 2023-07-26)
 - n: 1346
   key: NasaSmallsatSolicitations
   tier: current
@@ -45859,10 +46080,11 @@
     terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2034
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-08-20'
 - n: 1347
   key: NasaPrizes
   tier: current
@@ -45924,10 +46146,12 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2036
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-01-13'
+  recheck_note: Checker quoted the prize tiers; the $750,000 total was not quoted separately but equals their sum.
 - n: 1349
   key: DhsSvipOtsFaq2021
   tier: classic
@@ -45959,10 +46183,11 @@
     replace the URL with the SAM.gov original at recheck.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2037
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: October 2021 (footer)
 - n: 1350
   key: DhsSvipHowto2020
   tier: classic
@@ -46085,10 +46310,11 @@
     on September 30, 2024. Enactment of the bill was not confirmed.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2042
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2024-12-09'
 - n: 1354
   key: DhsOig1944
   tier: background
@@ -46118,10 +46344,11 @@
     figure from an oversight body found in this sweep.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2043
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2019-05-30'
 - n: 1355
   key: DhsPrizeCompetitions
   tier: classic
@@ -46217,10 +46444,10 @@
     for the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2047
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1358
   key: ArpaEScaleup2023Foa
   tier: classic
@@ -46251,7 +46478,7 @@
   recheck: true
   prev_n:
   - 2048
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  recheck_note: 'blocked on recheck 2026-10-04: robots.txt fetch failed (HTTP 503) at arpa-e-foa.energy.gov'
 - n: 1359
   key: ArpaEScaleupReadyNews
   tier: background
@@ -46365,10 +46592,10 @@
     terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2053
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1363
   key: BardaBdr
   tier: current
@@ -46396,10 +46623,10 @@
     in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2054
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1364
   key: DriveHome
   tier: current
@@ -46458,10 +46685,10 @@
     open carries a September 30, 2024 close date, so it appears stale against the BDR portal.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2056
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1366
   key: DriveEzbaaSol
   tier: classic
@@ -46496,10 +46723,11 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2057
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2022-10-18'
 - n: 1367
   key: DriveResources
   tier: current
@@ -46621,10 +46849,11 @@
     for the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2061
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2023-10-13'
 - n: 1371
   key: BardaIndustryDay2025
   tier: current
@@ -46732,10 +46961,11 @@
     Day slides before using.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2065
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2024-01-17'
 - n: 1375
   key: RrpvCma
   tier: current
@@ -46798,10 +47028,12 @@
     primary only for what that body says about itself.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2067
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2025-06-23 (Amendment 1 issue date)
+  recheck_note: Page also lists a fourth payment method, Cost Reimbursable/Cost Sharing Milestones.
 - n: 1377
   key: RrpvBaseAgreementSec
   tier: current
@@ -46845,10 +47077,12 @@
     primary evidence of how a consortium project agreement works. Some figures are redacted.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2068
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: October 2023 (cover page)
+  recheck_note: Art. 9.1 licence reads 'nonexclusive, nontransferable, irrevocable, paid-up'.
 - n: 1378
   key: BiomapJoin
   tier: current
@@ -46971,10 +47205,10 @@
     2078.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2072
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1382
   key: ArpaHMissionOfficeIsoNews
   tier: background
@@ -46999,10 +47233,11 @@
     events and the issuing body's own figures.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2073
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2024-03-15'
 - n: 1383
   key: ArpaHOpenBaa2023News
   tier: background
@@ -47058,10 +47293,10 @@
     the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2075
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1385
   key: ArpaHIndustryFaq
   tier: current
@@ -47091,10 +47326,10 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2076
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1386
   key: ArpaHSubmissionFaqs
   tier: current
@@ -47227,10 +47462,10 @@
     in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2080
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1390
   key: Usc42290c
   tier: seminal
@@ -47259,10 +47494,10 @@
     tool reported them.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2081
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1391
   key: Usc49114
   tier: seminal
@@ -47323,10 +47558,10 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2086
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1393
   key: TsaItfOnepager
   tier: current
@@ -47352,10 +47587,10 @@
     terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2087
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1394
   key: DotArpaIChallenge
   tier: current
@@ -47480,10 +47715,11 @@
     for the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2091
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2025-03-31'
 - n: 1398
   key: NsfCaHome
   tier: current
@@ -47501,7 +47737,7 @@
 
     '
   key_facts:
-  - No open solicitation shown on the access date.
+  - '[unconfirmed on recheck 2026-10-04] No open solicitation shown on the access date.'
   - Regional expansion items dated October and December 2024.
   quotes:
   - The NSF Convergence Accelerator builds upon basic research and discovery to accelerate solutions toward real-world
@@ -47511,10 +47747,13 @@
     quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2092
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-05-06'
+  recheck_note: 'Fact 1: page lists two funding opportunities posted March 2020 and December 2021 without saying
+    whether either is open.'
 - n: 1399
   key: NsfIcorps25549
   tier: current
@@ -47577,10 +47816,11 @@
     the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2094
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2021-01-11 (updated 2023-03-02)
 - n: 1401
   key: NsfTtp25540
   tier: current
@@ -47612,10 +47852,12 @@
     terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2095
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: posted 2025-07-09; last updated 2026-06-17
+  recheck_note: Reader gave bare verdicts without quoting the page figures.
 - n: 1402
   key: NsfPfi23538
   tier: classic
@@ -47737,10 +47979,10 @@
     source for the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2103
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1406
   key: UsaGovActive
   tier: current
@@ -47766,10 +48008,11 @@
     for the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2104
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: Count of 15 is the reader's count of the list as fetched today; the list changes over time.
 - n: 1407
   key: UsaGovOther
   tier: current
@@ -47825,10 +48068,11 @@
     source for the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2106
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-04-09'
 - n: 1409
   key: Usc153719
   tier: seminal
@@ -47861,10 +48105,10 @@
     names www.challenge.gov as an example posting site.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2108
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1410
   key: DodResearchOtGuide2023
   tier: classic
@@ -48004,10 +48248,11 @@
     law-firm note; flags that application of CMMC to OTs is unclear.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2117
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: No date shown in the fetched text; the URL path indicates November 2025.
 - n: 1414
   key: PharmOlamOt
   tier: classic
@@ -48046,10 +48291,13 @@
     a rule.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2120
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2020-12-31 (effective date)
+  recheck_note: 'Fact 1: reader labelled it contradicted but its own reading agrees ($36,286,158.00; estimated-cost
+    and fixed-fee lines, amounts redacted); document type reads ''2 in 1 combo''.'
 - n: 1415
   key: McdcBaseOta
   tier: classic
@@ -48111,10 +48359,11 @@
     body's own page or document; source for the terms quoted in the matching record.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2122
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: 2021-09-15 (effective date)
 - n: 1417
   key: Dodig2022094
   tier: background
@@ -48142,10 +48391,12 @@
     report; source for independent figures and findings as of its date.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2123
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2022-05-11'
+  recheck_note: media.defense.gov answered on this second attempt after the 403 on n 91.
 - n: 1418
   key: Gao16209
   tier: background
@@ -48298,18 +48549,23 @@
 
     '
   key_facts:
-  - 'Past five fiscal years (as stated): Department of War $85 billion across 30,000+ OTAs; DHS $52.2 million for
-    700+ OTAs; Interior $858.8 million for 220+ OTAs.'
+  - '[CONTRADICTED on recheck 2026-10-04; page says: Department of War ''has obligated $85 billion for thousands
+    of OTAs, through over 30,000 hard-to-track contracts'' (period Oct 1, 2021 - Sept 14, 2026); DHS $52.2 million
+    for over 700 OTAs and Interior $858.8 million for over 220 OTAs match] Past five fiscal years (as stated): Department
+    of War $85 billion across 30,000+ OTAs; DHS $52.2 million for 700+ OTAs; Interior $858.8 million for 220+ OTAs.'
   quotes: []
   role_here: background
   role_note: Sweep OD id `ernst-pl-119-106` (GAO, Congress and data). Sponsor's press release; secondary. Its five-year
     OT totals are a senator's office figures and need a primary source before use.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2132
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  page_date: '2026-09-15'
+  recheck_note: 'Only the DoW count differs: the page''s 30,000+ refers to contracts under ''thousands of OTAs'',
+    not to 30,000+ OTAs; all dollar figures match.'
 - n: 1423
   key: Srpt118301
   tier: background
@@ -48366,10 +48622,10 @@
     manager''s own page or document: primary only for what that body says about itself.'
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2138
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1425
   key: AtiOta
   tier: current
@@ -48425,10 +48681,10 @@
     secondary, for orientation only.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2140
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
 - n: 1427
   key: MofoOtGuide
   tier: background
@@ -48453,7 +48709,8 @@
     Version 2.0 (July 2023) updated the 2018 guide.
   cited_in: []
   verified: true
-  recheck: true
+  recheck: false
   prev_n:
   - 2141
-  recheck_note: not reached in the 2026-10-03 pass (fetch budget); re-run
+  rechecked: '2026-10-04'
+  recheck_note: Article words it as 'effective July 8, 2023'.

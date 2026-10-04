@@ -1,4 +1,4 @@
-# todo.yaml — FAR Out content pack · consolidated and live-rechecked 2026-10-03. recheck: false means the page was read in the recheck pass; recheck: true entries still need it.
+# todo.yaml — FAR Out content pack · consolidated and live-rechecked 2026-10-03/04. recheck: false means the page was read in the recheck pass; recheck: true entries are host-blocked or uncited.
 - id: t-A001
   kind: gap
   about: references/PL119-83
@@ -3275,7 +3275,35 @@
 - id: t-CONS002
   kind: recheck
   about: references
-  text: 'Live recheck 2026-10-03: 1135 of 1324 cited references read against the live page; 189 not reached (session
-    fetch budget) and still recheck: true — listed in source/recheck-remaining.json. Quotes judged PARAPHRASE or
-    NOT-FOUND were removed to dropped_quotes; contradicted facts are tagged in key_facts and listed as tr-* todos.'
+  text: 'Live recheck 2026-10-03/04: all 1,324 cited references attempted; 6 remain blocked by their host (listed
+    in source/recheck/recheck-remaining.json). Quotes judged PARAPHRASE or NOT-FOUND were removed to dropped_quotes;
+    contradicted facts are tagged in key_facts and listed as tr-* todos.'
   owner: builder
+- id: tr-1039-c1
+  kind: conflict
+  about: references/1039
+  text: 'Recheck contradicted: ''(b) lists 15 categories exempt from CAS, including "Contracts and subcontracts
+    with small businesses".'' — page says: (b) lists 8 categories of exemption (small-business item is (b)(3))'
+  owner: author
+- id: tr-1039-c2
+  kind: conflict
+  about: references/1039
+  text: 'Recheck contradicted: ''Still shows the $7.5 million trigger-contract exemption as of 2026-09-28.'' — page
+    says: $35 million threshold at 9903.201-1(b)(2)'
+  owner: author
+- id: tr-1141-c3
+  kind: conflict
+  about: references/1141
+  text: 'Recheck contradicted: ''Names S²MARTS and SpEC only (stale against nstxl-home, which adds JDEC).'' — page
+    says: FAQ body text names only S2MARTS and SpEC (''currently the consortium manager for two OTAs''), but the
+    page''s site footer also lists the Joint Directed Energy Consortium (JDEC)'
+  owner: author
+- id: tr-1422-c4
+  kind: conflict
+  about: references/1422
+  text: 'Recheck contradicted: ''Past five fiscal years (as stated): Department of War $85 billion across 30,000+
+    OTAs; DHS $52.2 million for 700+ OTAs; Interior $858.8 million for 220+ OTAs.'' — page says: Department of War
+    ''has obligated $85 billion for thousands of OTAs, through over 30,000 hard-to-track contracts'' (period Oct
+    1, 2021 - Sept 14, 2026); DHS $52.2 million for over 700 OTAs and Interior $858.8 million for over 220 OTAs
+    match'
+  owner: author

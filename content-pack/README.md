@@ -1,6 +1,6 @@
 # FAR Out content pack — state
 
-**As of 2026-10-03 (late night).** `mode: topic` with extension files. Standard files follow `docs/CONTENT-PACK.md`; the extension schema is in `source/far-out-pack-schema.md` (draft v0.1). All four route families are swept, the pack is consolidated, and the live recheck has run over 1,135 of the 1,324 cited references.
+**As of 2026-10-03 (late night).** `mode: topic` with extension files. Standard files follow `docs/CONTENT-PACK.md`; the extension schema is in `source/far-out-pack-schema.md` (draft v0.1). All four route families are swept, the pack is consolidated, and the live recheck has run over all 1,324 cited references (6 remain host-blocked).
 
 ## What is here
 
@@ -17,7 +17,7 @@
 | `mechanics.yaml` | 6 | reading SAM.gov, market research, responding, payment, capability statement, OTs in public data |
 | `changes.yaml` | 21 | dated entries for `/changes` (OT family only so far; other families' changes still sit in `pending_changes` fields) |
 | `queries.yaml` | 674 | every search run, with links returned; renders on `/methods` |
-| `todo.yaml` | 474 | gaps, conflicts, unverified pages; `tr-*` items are facts the recheck contradicted; duplicate-URL and id-collision items are resolved and removed |
+| `todo.yaml` | 478 | gaps, conflicts, unverified pages; `tr-*` items are facts the recheck contradicted; duplicate-URL and id-collision items are resolved and removed |
 
 Not yet written: `manifest.yaml`, `scope.yaml`, `review.md`, `glossary.yaml`, `concepts/`, `figures.yaml`, routes for the SBIR/STTR family, the pathfinder data, `changes.yaml` entries for the first three families.
 
@@ -27,7 +27,7 @@ Not yet written: `manifest.yaml`, `scope.yaml`, `review.md`, `glossary.yaml`, `c
 
 **Consolidation (done):** 1,603 → 1,427 references by URL; sequential renumbering with `prev_n`; 12 colliding record ids merged (programs: apfit, navy-stp, army-sbir-catalyst, dow-art, diu-cso, diu-onramp-hubs, tradewinds-solutions-marketplace, sofwerx, navalx-tech-bridges; gates: sam-registration, recertification-size-status; routes: subcontracting-under-prime-plan — field differences recorded in each record's `conflicts`); situation tags normalised; 53 quotes trimmed to 25 words.
 
-**Live recheck (2026-10-03):** 1,135 of the 1,324 cited references were read against the live page (`recheck: false`, `rechecked: 2026-10-03`). Results: 1,409 quotes kept as verbatim, 53 removed to `dropped_quotes` (39 paraphrase, 14 not found); 3,730 facts confirmed, 28 contradicted (tagged in `key_facts` and listed as `tr-*` todos), 106 not found on the page (tagged `[unconfirmed on recheck]`). **189 cited references were not reached** because the session's fetch budget ran out; they remain `recheck: true` and are listed in `source/recheck/recheck-remaining.json` for the next run (protocol in `source/recheck/PROTOCOL.md`; verdict files alongside). 103 uncited references were not rechecked.
+**Live recheck (2026-10-03/04):** 1,318 of the 1,324 cited references were read against the live page (`recheck: false`, with `rechecked` date). Results: 1,581 quotes kept as verbatim, 63 removed to `dropped_quotes`; 4,208 facts confirmed, 32 contradicted (tagged in `key_facts` and listed as `tr-*` todos), 120 not found on the page (tagged `[unconfirmed on recheck]`). **6 cited references are host-blocked** (media.defense.gov PDF, one eCFR section that returned 503, a NAVSEA PDF, a navy.mil story, an ARPA-E file, a HigherGov page) and stay `recheck: true`, listed in `source/recheck/recheck-remaining.json`. 103 uncited references were not rechecked. Protocol and all ten verdict files are in `source/recheck/`.
 
 **Caveats that remain:** the recheck itself read pages through the same summarising fetch layer, with a targeted confirm/deny prompt; agents overrode the layer's label where its own excerpt contradicted it and noted each case. Long regulations and PDFs were often partial. Statute mirrors (Cornell LII) still need reading on govinfo/uscode when those sites return. Unread primaries: DoWI 5000.02 (April 2026), DoDI 5000.81, the Nov 2025 WAS memo, the OT Guide beyond p.35, the FY2026 NDAA body beyond Title XVIII, dodsbirsttr.mil, BARDA's main pages, SAM.gov notice pages.
 
