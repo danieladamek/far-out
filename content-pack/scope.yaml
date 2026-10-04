@@ -1,0 +1,3774 @@
+# scope.yaml — FAR Out · the record the guide is accountable to; renders on /methods; queries are every search run, with links returned as hits
+topic: Rather than just an informational application I want one that I can access from anywhere, so in github pages,
+  that serves as a navigation and education site for all things for a small business whose primary business is supporting
+  federal government programs ... a source for walking me through any path available for doing business with the
+  federal government and of course large primes and other partnering arrangements. Also built into this I'd like
+  a search capability that finds opportunities from these various sites.
+question: For a small business that wants federal work, what routes exist (direct contracts and set-asides, contract
+  vehicles, SBIR/STTR and other R&D funding, Other Transactions and Commercial Solutions Openings, and work through
+  primes and partners), what does each require, how does the government on the other side of the table actually
+  buy, and what has changed in 2025-26 that the official pages have not caught up with?
+purpose: orientation
+boundary:
+  in:
+  - 'the four route families: SBIR/STTR and innovation front doors; set-asides, certifications and contract vehicles;
+    primes and partnering; Other Transactions, consortia and CSOs'
+  - 'the government buyer''s side: the six AAF pathways, the civilian procurement model, the grants model, each
+    agency''s small-business office and forecast'
+  - 'the gates: registrations, representations, cybersecurity, accounting, clearance, export, bonding, labor, payment'
+  - 'what changed in 2025-26: the FAR overhaul, the Warfighting Acquisition System, the SBIR/STTR reauthorization,
+    8(a) reform, CMMC, the FY2026 NDAA'
+  - 'free help: APEX Accelerators, SBA partners, agency outreach'
+  - what large primes say on their own supplier pages, recorded as stated
+  out:
+  - state and local contracting
+  - foreign military sales and export licensing beyond the registration gate
+  - grants other than SBIR/STTR (they appear in search results only)
+  - proposal-writing and pricing coaching
+  - anything tailored to a specific firm
+  - recommendations of paid consultants, tools or memberships
+  rationale: 'Daniel: any small contractor should be able to use this; no connection whatsoever to any one firm.
+    Out-list proposed by the builder on 2026-10-03 and not objected to.'
+level: 'the firm: what it must be, hold and do to enter each route; the agency: how it decides to buy'
+time_window:
+  current_from: 2024
+  seminal: statute, regulation and policy directives of any age that govern a route
+stance: navigation-with-provenance
+depth: deep
+anchors:
+- citation: Adaptive Acquisition Framework, aaf.waru.edu
+  why: Daniel named it
+- citation: SBA contracting guide and contracting assistance programs
+  why: Daniel named the SBA sites
+- citation: SBIR.gov
+  why: Daniel named it
+- citation: DoD SBIR/STTR Innovation Portal, dodsbirsttr.mil
+  why: Daniel named it; robots.txt disallows automated reading, so it is cited by URL only
+excluded:
+- what: law-firm and consultant commentary as a source of fact
+  why: carried only as pointers to a primary source or as flags of pending change; labelled secondary
+- what: pages that could not be fetched (congress.gov, uscode.house.gov during maintenance, acq.osd.mil, dodsbirsttr.mil,
+    fsd.gov, parts of business.defense.gov)
+  why: read on official mirrors where one exists (govinfo, arpa-h.gov OT Community, Cornell LII) and marked for
+    re-reading
+assumed: false
+interview:
+- q: Is this meant to be tailored to one firm, or a generic guide any small federal contractor could use?
+  answer: NO it should not have any connection whatsoever to CohesionForce. ANY small contractor should be able
+    to use this.
+  asked: '2026-10-03'
+- q: Name?
+  answer: I'll want to name this thing "FAR Out"
+  asked: '2026-10-03'
+- q: How should the spine be organised?
+  answer: 'Situation-first: a pathfinder asks where the firm is and leads into a catalogue of the four route families.'
+  asked: '2026-10-03'
+- q: Which route families in depth for the first release?
+  answer: 'All four: SBIR/STTR and front doors; OTs, consortia, CSOs; set-asides and vehicles; primes and partnering.'
+  asked: '2026-10-03'
+- q: Who is the default reader?
+  answer: 'Layered: plain language first, expanding to rule citations and detail.'
+  asked: '2026-10-03'
+- q: How far on the gates?
+  answer: Checklists with links.
+  asked: '2026-10-03'
+- q: Build path?
+  answer: Topic-mode prototype now, with extension files.
+  asked: '2026-10-03'
+- q: Zotero sync?
+  answer: No zotero sync with this
+  asked: '2026-10-03'
+- q: Recheck per family or once over all four?
+  answer: Lets do that then (one recheck over all four families).
+  asked: '2026-10-03'
+search_strategy:
+  run_on: '2026-10-03'
+  sources:
+  - web search
+  - direct fetch of official pages (acquisition.gov, ecfr.gov, federalregister.gov, govinfo.gov, sba.gov, sbir.gov,
+    gsa.gov, agency and consortium sites)
+  - GAO, CRS and DoD IG reports
+  queries:
+  - q: SBIR STTR reauthorization 2026 public law signed
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: SBA SBIR STTR Policy Directive current version effective date
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: SBIR authorization lapse September 30 2025 solicitations paused reauthorized 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: congress.gov S.3971 Small Business Innovation and Economic Security Act public law 119
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: sbir.gov policy directive 2023 SBIR STTR policy directive PDF "May 3, 2023"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: sbir.gov performance benchmarks Phase I to Phase II transition rate commercialization benchmark 21 Phase
+      I awards 0.25
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: SBA policy directive 2026 SBIR STTR "Small Business Innovation and Economic Security Act" federal register
+      notice
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: NIH notice SBIR STTR reauthorization April 2026 resume applications lapse NOT-OD-26
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: DoD SBIR STTR proposal limit fiscal year 2027 per small business concern section 4 reauthorization
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: grants.nih.gov notice SBIR STTR "expired" September 30 2025 not accepting applications NOT-OD-25 OR NOT-OD-26
+      lapse authorization
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: NIH notice SBIR STTR programs reauthorized new funding opportunities omnibus solicitation 2026 NOT-OD-26
+      "reauthoriz"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: sbir.gov company registration "SBC Control ID" SBC_ registry required before proposal
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: sbir.gov award amount adjustment inflation $323,090 $2,153,927 Phase I Phase II waiver
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: SBA press release SBIR STTR reauthorized April 2026 Loeffler statement site:sba.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: DFARS 252.227-7018 "SBIR/STTR data protection period" 20 years acquisition.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: NSF SBIR STTR Phase I solicitation 2026 reauthorization proposal limit "per fiscal year" new.nsf.gov America's
+      Seed Fund resume project pitch
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: Department of War SBIR STTR "strategic breakthrough" implementation guidance 2026 defense.gov OR dodsbirsttr.mil
+      proposal limit FY2027
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: war.gov OR defense.gov release April 20 2026 SBIR STTR reauthorization topics released "Accelerated Research
+      for Transition"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: NSF SBIR STTR 2026 solicitation after reauthorization "Phase I" award $305,000 proposal limit nsf.gov seedfund
+      resumes
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: USDA STTR program small business technology transfer NIFA first STTR solicitation extramural budget exceeds
+      $1 billion
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: federalregister.gov 2026 Small Business Administration "SBIR" "STTR" Policy Directive amendments notice "Public
+      Law 119-83"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: SBIR proposal limit FY2027 announced agency "proposals per" small business concern Department of War NASA
+      DOE NSF limit July 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: A — SBIR/STTR law and policy
+  - q: DoD SBIR STTR 2026 BAA release schedule pre-release open close dates
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: SBIR reauthorization 2026 DoD solicitations resume AFWERX SpaceWERX
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: sbir.gov Department of Defense agency page SBIR STTR components
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: AFWERX Open Topic SBIR STTR Phase I Phase II award amount STRATFI TACFI
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: media.defense.gov "SBIR" "2026" BAA preface Department of War "Release" component instructions PDF
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: '"Small Business Innovation and Economic Security Act" signed into law SBIR STTR reauthorized through 2031'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: Army SBIR STTR armysbir.army.mil Phase I Phase II Direct to Phase II award amounts 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: Army xTech competition xTechSearch SBIR prize how to apply 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: Department of War April 20 2026 SBIR STTR release "Accelerated Research for Transition" ART program war.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: SBA press release SBIR STTR reauthorization signed April 2026 "Small Business Innovation and Economic Security
+      Act" sba.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: DIU Commercial Solutions Opening how to submit solution brief other transaction diu.mil work with us
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: Tradewinds Solutions Marketplace CDAO how to submit pitch video awardable
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: SOFWERX how to submit technology USSOCOM events assessment vendor registration sofwerx.org
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: APFIT Accelerate the Procurement and Fielding of Innovative Technologies FY2026 awards $10 million $50 million
+      small business nontraditional
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: Defense Innovation OnRamp Hubs DIU locations small business how to engage
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: business.defense.gov "Mentor-Protégé Program" DoD OSBP small business professionals directory acquisition
+      forecasts
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: MDA SBIR STTR Missile Defense Agency program Phase I Phase II amounts mda.mil small business innovation
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: Navy "Forum for SBIR/STTR Transition" FST Sea-Air-Space Navy STP 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: NavalX Tech Bridges how small business can work with Navy navalx.nre.navy.mil
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: Army SBIR CATALYST program "Army Applied SBIR" $75 million prime integrator match
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: DoD SBIR STTR "getting started" register SAM.gov UEI CAGE SBA company registry "SBC Control ID" DSIP login.gov
+      account steps
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: navysbir.com Phase I base option Phase II structure "$140,000" OR "$240,000" Navy SBIR program overview
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: Army Office of Small Business Programs army.mil/osbp forecast outreach; Department of the Air Force small
+      business office airforcesmallbiz; Navy OSBP long range acquisition forecast
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: war.gov release "SBIR" "STTR" reauthorization April 2026 Department of War "redesigned" solicitation topics
+      released
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: diu.mil "OnRamp Hub" Defense Innovation OnRamp Hubs list Arizona Hawaii Kansas Ohio Washington new hubs 2025
+      2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: USSOCOM SBIR STTR socom.mil Phase I Phase II amounts SOFWERX submission 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: AFWERX SBIR STTR 2026 "Release" open topic specific topic "D2P2" afwerx.com get funded SBIR
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: Defense Health Agency SBIR STTR program Phase I Phase II amounts DHA small business innovation research site:health.mil
+      OR site:usamraa.health.mil
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: Department of the Air Force Office of Small Business Programs long range acquisition forecast "small business"
+      airforcesmallbiz.af.mil outreach events
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: navystp.com "Forum for SBIR/STTR Transition" OR "FST" Navy STP showcase 2026 Sea-Air-Space
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: B — DoD SBIR/STTR and front doors
+  - q: SBIR STTR reauthorization April 13 2026 agency solicitations FY2026 sbir.gov
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: NIH notice SBIR STTR reauthorization 2026 NOT-OD-26 small business programs resume
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: NSF SBIR STTR Phase I solicitation 2026 NSF 26- "America's Seed Fund" reauthorization project pitch reopen
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: DOE Office of Technology Commercialization SBIR STTR FY2027 Phase I funding opportunity topics release schedule
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: '"PA-27-100" NIH CDC FDA Small Business Innovation Research Grant Parent SBIR R43/R44'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: NASA SBIR STTR Program Year 2026 Broad Agency Announcement BAA appendix Phase I open close dates
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: USDA NIFA SBIR STTR Phase I FY 2027 request for applications deadline
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: DHS SBIR 2026 solicitation topics pre-solicitation Science and Technology Directorate sbir.dhs.gov
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: DHS SBIR "26.1" OR "FY26" solicitation Phase I topics released 2026 dhs.gov science and technology
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: nasa.gov sbir_sttr "ProSAMS" BAA 2026 Phase I award amount "Appendix" program year 2026 how to apply
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: DHS Science and Technology SBIR program 2026 solicitation announcement reauthorization "SBIR" dhs.gov news
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: NOAA SBIR FY2027 Phase I notice of funding opportunity fall 2026 techpartnerships.noaa.gov
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: 'nifa.usda.gov SBIR STTR program page FY 2026 Phase I RFA reauthorization (domains: nifa.usda.gov, usda.gov,
+      grants.gov)'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: ARPA-E SBIR STTR program funding opportunity 2026 arpa-e.energy.gov
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: 'NIH notice SBIR STTR "reauthorized" 2026 grants.nih.gov guide notice resumption parent announcements reissue
+      "NOT-OD-26" (domains: nih.gov)'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 7
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: sbir.gov "Road Tour" 2026 SBIR Road Tour America's Seed Fund schedule
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: SBA Federal and State Technology (FAST) Partnership Program 2026 awards funding opportunity sba.gov
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: USDA NIFA SBIR STTR Phase I FY 2026 RFA USDA-NIFA-SBIR 2026 closing date grants.gov
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: DHS SBIR program "Long Range Broad Agency Announcement" OR "SBIR" 2026 "oip.dhs.gov" OR "sbir2.st.dhs.gov"
+      solicitation portal
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: FDA SBIR program small business innovation research fda.gov grants R43 R44 how to apply
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: NSF America's Seed Fund relaunch 2026 announcement "NSF 26-510" new solicitation changes Project Pitch news
+      nsf.gov
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: DHS SBIR "26.1" pre-solicitation 2026 topics Homeland Security small business innovation research announced
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: DOE SBIR STTR Phase I Genesis Mission 2026 award amount "$200,000" OR "$250,000" OR "$275,000" pitch ConnectWerx
+      Phase I duration
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: 'energy.gov technologycommercialization SBIR STTR "Phase I" "Phase II" award amounts "pitch" "Strategic Breakthrough"
+      FAQ how to apply 2026 (domains: energy.gov, connectwerx.org, osti.gov)'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 1
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: USDA SBIR/STTR Phase II FY 2026 "USDA-NIFA-SBIR" posted October 1 2026 closing November 17 2026
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: 'CDC SBIR small business innovation research program cdc.gov about how to apply (domains: cdc.gov, fda.gov)'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: '"PHS 2027-1" OR "PHS-2027-1" HHS SBIR contract solicitation NIH CDC 2026 release proposals due'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: ED IES SBIR FY2027 solicitation release expected OR forecast ies.ed.gov
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: NIST SBIR 2026 notice of funding opportunity "2026-NIST-SBIR" OR "FY2026" Phase I grants.gov
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: USDA NIFA SBIR Phase I FY 2026 request for applications released 2026 "Phase I" NIFA announcement small business
+      deadline
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: '"PA-27-102" NIH Small Business Technology Transfer Grant Parent STTR R41/R42 simpler.grants.gov'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: Department of Homeland Security SBIR program status 2026 "SBIR" solicitation "DHS" S&T "FY26" OR "FY27" Phase
+      I topics release after reauthorization
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: 'FDA small business innovation research SBIR fda.gov "SBIR" program page Office of Acquisitions and Grants
+      Services (domain: fda.gov)'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 6
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: 'DHS S&T SBIR solicitation 2026 (domains: dhs.gov, sam.gov)'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: DOE SBIR STTR FY25 Phase II 2026 opportunity ConnectWerx Phase II award maximum "Phase II.2" "Strategic Breakthrough
+      Award" amounts
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: USDA NIFA SBIR STTR Phase I FY 2026 closing September 23 2026 "USDA-NIFA-SBIR-01" funding opportunity
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: 'NIFA "technical assistance webinar" FY 2026 SBIR/STTR Programs Phase I request for applications (domain:
+      nifa.usda.gov)'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: 'seed.nih.gov "register your company" SBIR STTR registrations SAM SBA Company Registry eRA Commons Grants.gov
+      "6 weeks" (domains: seed.nih.gov, grants.nih.gov)'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 1
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: SBA press release SBIR STTR reauthorized April 2026 "Small Business Innovation and Economic Security Act"
+      sba.gov Loeffler America's Seed Fund
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: '"USDA-NIFA-SBIR-012" Phase I 2026 Small Business Innovation Research NIFA grants.gov'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: DHS SBIR "26.1" OR "27.1" solicitation 2026 homeland security small business innovation research topics "pre-solicitation"
+      September 2026
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: '"NSF 26-511" SBIR STTR "Pilot Emphasis on Scientific Instrumentation" nsf.gov solicitation'
+    source: WebSearch tool (underlying engine not disclosed)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: C — civilian SBIR/STTR agencies
+  - q: SBIR STTR reauthorization 2026 act signed Phase III "simplified and standardized procedures"
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: SBIR Phase III sole source "to the greatest extent practicable" 15 U.S.C. 638(r)(4) policy directive
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: GAO report SBIR Phase III awards DoD data tracking findings
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: DFARS 252.227-7018 SBIR data rights protection period 20 years marking legend
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: S.3971 "Small Business Innovation and Economic Security Act" public law signed April 2026 SBIR
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: sbir.gov SBIR STTR reauthorized 2026 programs extended September 30 2031 SBA announcement
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: '"Public Law 119-83" Small Business Innovation and Economic Security Act'
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: Department of War SBIR STTR proposal limit fiscal year 2027 maximum number of proposals per small business
+      DSIP
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: APFIT Accelerate the Procurement and Fielding of Innovative Technologies official page award range $10 million
+      $50 million
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: Navy SBIR/STTR Transition Program STP Forum for SBIR/STTR Transition navystp.com
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: AFWERX STRATFI TACFI program amounts matching funds SBIR STTR 2026
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: Army SBIR Catalyst program $15 million match transition partner armysbir.army.mil
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: Department of War SBIR STTR "Accelerated Research for Transition" ART program April 2026 release war.gov
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: sbir.gov Technical and Business Assistance TABA $6,500 Phase I $50,000 Phase II
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: DoD SBIR "Phase II Enhancement" matching funds policy defensesbirsttr.mil Commercialization Readiness Program
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: SBA FAST Federal and State Technology Partnership Program awards 2026 sbir.gov
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: SBIR Road Tour 2026 America's Seed Fund Road Tour stops sbir.gov
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: APEX Accelerators Department of War Office of Small Business Programs number of APEX Accelerators nationwide
+      formerly PTAC business.defense.gov
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: '"APEX Accelerators" sba.gov OR war.gov OR defense.gov "no cost" find your local APEX Accelerator cooperative
+      agreement 10 U.S.C. chapter 388'
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: MBDA Business Centers 2026 status Minority Business Development Agency executive order reduction centers
+      closed
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: GAO SBIR multiple award winners commercialization "performance standards" report GAO-24-106398 findings firms
+      50 or more Phase II
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: GAO SBIR STTR due diligence foreign risk "countries of concern" report 2025 agencies denied awards number
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: DoD Inspector General audit SBIR Phase III sole-source awards report findings
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: Department of Justice SBIR fraud False Claims Act settlement 2026 small business research awards certification
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: DODIG audit "SBIR" "Phase III" Department of Defense Inspector General report 2024 OR 2025 OR 2026
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: GAO SBIR DoD technology transition Phase III "program of record" report recommendations data on transition
+      outcomes
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: DODIG-2014-049 "Small Business Innovation Research" intellectual property protections Phase III contracts
+      program improvements needed
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: SBA OIG SBIR STTR fraud waste abuse certification lifecycle certification false statements penalties sbir.gov
+      "fraud, waste and abuse"
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: state SBIR matching grant program official site Phase 0 "matching" North Carolina One NC Small Business Program
+      Kentucky SBIR match Innovate Alabama supplemental grant
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: Innovate Alabama SBIR STTR supplemental grant program matching Phase I Phase II amounts
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: Kentucky SBIR STTR matching funds program official ced.ky.gov OR kyinnovation.com Phase I match $100,000
+      Phase II $500,000
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: acquisition.gov FAR "Phase III" SBIR "6.302-5" OR "5.202" statute authorized exception FAR overhaul 2025
+      part 6
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: SBIR proposal limit fiscal year 2027 "maximum number of proposals" agency announcement NIH OR NSF OR DOE
+      OR NASA "Small Business Innovation and Economic Security Act"
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: 'CRS R48629 "Small Business Research Programs: Selected Issues for Reauthorization" multiple award recipients
+      "SBIR mills" INNOVATE Act'
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: Partnership Intermediary Agreement 15 U.S.C. 3715 DoD official page what is a PIA small business technology
+      transfer
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: Cooperative Research and Development Agreement CRADA 15 U.S.C. 3710a federal laboratory official page what
+      is a CRADA no funds to non-federal party
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: GSA Challenge.gov sunset March 30 2026 prize competitions guidance page agencies
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: Navy "Forum for SBIR/STTR Transition" FST 2026 Sea-Air-Space navystp
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: SBA "Road Tour" SBIR 2026 America's Seed Fund tour announced stops September OR October 2026
+    source: Claude Code WebSearch tool (US web index)
+    hits: 10
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: MassVentures START program SBIR Phase II grants Massachusetts stage I $100,000 official
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: Minority Business Development Agency 2026 business centers grants terminated court injunction status mbda.gov
+      operating
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: GAO SBIR STTR commercialization outcomes sales investment data "Phase III" unreliable report agencies' commercialization
+      data GAO-22 OR GAO-23 OR GAO-26
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: SBA SBIR STTR Policy Directive 2026 Federal Register notice revision implement Public Law 119-83 proposed
+      amendments
+    source: Claude Code WebSearch tool (US web index)
+    hits: 9
+    run_on: '2026-10-03'
+    slice: D — Phase III, data rights, transition and support
+  - q: federalregister.gov "HUBZone Program Updates and Clarifications" December 17 2024 final rule recertification
+      effective January 17, 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA size standards inflation adjustment proposed rule 2025 2026 monetary-based size standards federalregister.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA 8(a) proposed rule June 11 2026 rebuttable presumption social disadvantage federalregister.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA 8(a) program suspensions 2026 audit firms suspended sba.gov press release
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA news release June 2025 Loeffler orders full-scale audit of 8(a) business development program
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA 8(a) February 2025 Loeffler memo small disadvantaged business goal 5% 8(a) admissions pause "Day One"
+      sba.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA news release February 2026 8(a) Washington D.C. firms terminated 154 economic disadvantage suspended
+      sba.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA 8(a) applications status 2026 new applications paused OR accepting certifications.sba.gov "8(a)" after
+      final rule September 10 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: Federal Acquisition Regulation inflation adjustment of acquisition-related thresholds final rule effective
+      October 1, 2025 8(a) sole source $5.5 million HUBZone $5 million federalregister.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SAM.gov entity registration free "no cost" renew every 365 days UEI CAGE code assigned gsa.gov OR fsd.gov
+      OR sam.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SAM.gov warning scam emails third-party fees registration "free" official GSA alert fraudulent solicitations
+      entity registration
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: 'SAM.gov notarized letter entity administrator requirement (domains: sam.gov, gsa.gov, fsd.gov)'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: 'GSA SAM.gov beware fraudulent emails phishing third party charge fee register free (domains: sam.gov, gsa.gov,
+      fsd.gov, gsaig.gov, ftc.gov)'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: gsa.gov "Unique Entity ID" SAM.gov April 4, 2022 DUNS transition 12-character
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA small business procurement scorecard FY2024 results government-wide 28.8% OR percent small business prime
+      contracting sba.gov news release 2025
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: 'SBA news release FY2024 small business procurement scorecard federal government awarded small business contracting
+      record (domains: sba.gov, legacy.sba.gov)'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA FY2025 small business procurement scorecard released 2026 government-wide results sba.gov news release
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: 15 U.S.C. 644(g) government-wide goals 23 percent small business 5 percent service-disabled veterans 3 percent
+      HUBZone 5 percent women small disadvantaged uscode.house.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: 'SBA small disadvantaged business page self-certify SAM eligibility "small disadvantaged business" sba.gov
+      contracting assistance programs (domains: sba.gov, legacy.sba.gov)'
+    source: WebSearch
+    hits: 7
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: small disadvantaged business goal 15% to 5% 2025 executive order 14148 rescinded 13985 OMB memo M-22-03 SBA
+      goaling FY2025
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA FY2026 goaling guidelines small business goals agencies SDB 5% sba.gov "goaling"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: Executive Order 14151 "Ending Radical and Wasteful Government DEI Programs and Preferencing" federalregister.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA 8(a) suspensions total 1,700 firms 2026 economic disadvantage suspensions March 2026 sba.gov news release
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: 'SBA news release December 5 2025 orders all 8(a) participants provide financial records three years deadline
+      January (domains: sba.gov, legacy.sba.gov)'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA 8(a) FAQ new social disadvantage rule pending applications returned 45 days September 2026 sba.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA final rule monetary-based industry size standards 2026 RIN 3245-AI12 final OR withdrawn "size standards"
+      263 industries
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA WOSB eligible NAICS codes list document "qualifying NAICS" women-owned small business federal contract
+      program effective 2022 sba.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: VA Vets First Contracting Program rule of two 38 U.S.C. 8127 SDVOSB VOSB priority va.gov OSDBU
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: federalregister.gov "Veteran-Owned Small Business and Service-Disabled Veteran-Owned Small Business-Certification"
+      final rule November 29 2022 SBA; 2024 rule ending SDVOSB self-certification
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: 'SBA VetCert veteran small business certification how to apply certification free three years self-certification
+      ended sba.gov (domains: sba.gov, legacy.sba.gov)'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA HUBZone map update 2026 qualified census tracts redesignated areas expire July 2026 sba.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: federalregister.gov SBA final rule September 2026 13 CFR part 127 OR part 128 OR part 126 amendment women-owned
+      veteran certification
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: Small Business Administration final rule Federal Register September 29, 2026 13 CFR parts 121 124 125 126
+      127 128
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: Federal Register FAR interim rule November 2024 "System for Award Management" registration clarify offeror
+      registered at time of offer and at award not continuous
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: GSA "notarized letter" SAM.gov entity administrator requirement process "Federal Service Desk" template when
+      required 2025 OR 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: gsa.gov SAM.gov "notarized letter" Entity Administrator appoint "free" register do not need to pay third
+      party
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA 8(a) February 2025 halt OR paused OR freeze 8(a) program applications OR awards February 2025
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: '"90 FR 23609" SBA June 4, 2025 HUBZone technical amendments corrections 13 CFR 125.12 126.200'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: SBA direct final rule 2024 "Ending Self-Certification" service-disabled veteran-owned small business goaling
+      subcontracting December 22, 2024 federalregister.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SA — size, affiliation, certifications
+  - q: Revolutionary FAR Overhaul acquisition.gov status FAR Part 19 model deviation
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: FAR overhaul proposed rule Federal Register 2026 comment period small business programs Part 19
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: Executive Order 14275 Restoring Common Sense to Federal Procurement federalregister.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: FAR 1.109 regulatory sunset four years non-statutory small business rule of two
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: federalregister.gov "Federal Acquisition Regulation" "Revolutionary FAR Overhaul" proposed rule 2026 Part
+      19 small business FAR Case
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: 'federalregister.gov June 2026 "Revolutionary FAR Overhaul" proposed rule Parts 1 19 "sunset" FAR Case 2026
+      (domain: federalregister.gov)'
+    source: WebSearch
+    hits: 2
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: Federal Register "Inflation Adjustment of Acquisition-Related Thresholds" FAR Case 2024-001 final rule micro-purchase
+      threshold $15,000 simplified acquisition threshold $350,000
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: DoD Class Deviation 2026-O0037 Revolutionary FAR Overhaul Part 19 DFARS Part 219 effective February 1, 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: Revolutionary FAR Overhaul final rule published Federal Register 2026 "final rule" FAR Council third set
+      proposed rules Part 19
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: SBA FY2025 small business procurement scorecard released government-wide grade small business prime contracting
+      percent
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: 15 U.S.C. 644(g) government-wide goals 23 percent small business 5 percent service-disabled veteran 3 percent
+      HUBZone 5 percent women small disadvantaged
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: GAO bid protest FY2025 NDAA section 885 task order protest threshold $35 million DoD GAO proposal enhanced
+      pleading standard report
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: GAO Bid Protest Annual Report to Congress for Fiscal Year 2025 gao.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: GAO bid protest regulations final rule 2026 4 CFR Part 21 amendment pleading standard Federal Register
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: FY2026 NDAA bid protest provisions section GAO protest DoD "task order" threshold $35 million DFARS 216.505
+      class deviation
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: DoD Small Business Strategy 2023 media.defense.gov PDF Office of Small Business Programs three strategic
+      objectives
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: Department of War Office of Small Business Programs 2026 small business strategy new OR updated OR released
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: 8(a) Business Development program proposed rule June 2026 Federal Register SBA 13 CFR 124
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: SBA rule "rule of two" orders multiple-award contracts 13 CFR 125.2 proposed rule final rule status 2025
+      2026 federalregister.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: SBA withdraws proposed rule "Increasing Small Business Participation on Multiple Award Contracts" rule of
+      two orders withdrawn 2025
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: proposed FAR 1.109 "regulatory sunset" text proposed rule June 2026 "expire" "four years" OR "4 years" differs
+      from model deviation
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: VA Veterans First Contracting Program va.gov OSDBU SDVOSB VOSB priority 38 U.S.C. 8127 VAAR 819.7007 sole
+      source
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: 'GSA Advantage vendors how to sell gsa.gov micro-purchase purchase card holders MAS contract required (domains:
+      gsa.gov, smartpay.gsa.gov)'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: 'SBA small business contracting goals page agency goals statutory 23% SDB goal 5% fiscal year 2026 sba.gov
+      goaling (domain: sba.gov)'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: 'GAO bid protest decision 2026 "rule of two" small business set-aside sustained OR denied "task order" discretion
+      gao.gov (domain: gao.gov)'
+    source: WebSearch
+    hits: 3
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: DFARS class deviation task order protest threshold $35 million section 885 FY2025 NDAA 10 U.S.C. 3406(f)
+      DFARS Case 2025-D
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: FAR overhaul third set proposed rules October 2026 Part 19 small business proposed rule published
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: 'GSA Advantage "purchase card" federal buyers online shopping gsa.gov how vendors upload catalog MAS (domain:
+      gsa.gov)'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: 'Federal Register API: documents.json, term "Revolutionary Federal Acquisition Regulation Overhaul", newest
+      first'
+    source: federalregister.gov API (via WebFetch)
+    hits: 8
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: 'Federal Register API: documents.json, term "Revolutionary FAR Overhaul", published on or after 2026-07-01'
+    source: federalregister.gov API (via WebFetch)
+    hits: 7
+    run_on: '2026-10-03'
+    slice: SB — FAR Part 19 mechanics and the overhaul
+  - q: GSA Multiple Award Schedule how to get on schedule roadmap readiness assessment Pathway to Success (gsa.gov
+      only)
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: Executive Order 14240 Eliminating Waste and Saving Taxpayer Dollars by Consolidating Procurement
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: OASIS+ on-ramp 2026 small business pools open solicitation gsa.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: Polaris GWAC small business pool awards 2026 status gsa.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: Alliant 3 GWAC award status 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: NASA SEWP VI award status 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: Polaris GWAC gsa.gov small business pool notice to proceed (gsa.gov only)
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA ASTRO contract unmanned systems robotics pools gsa.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA OneGov strategy agreements small business MAS gsa.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: NITAAC CIO-SP4 status 2026 award cancelled CIO-SP3 extension
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: nitaac.nih.gov CIO-SP4 cancellation notice solicitation cancelled
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: sewp.nasa.gov SEWP VI awards categories number of contract holders November 1 2026 fee
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: Polaris small business pool protest Court of Federal Claims 2025 2026 notice to proceed status
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA MAS Refresh 31 transactional data reporting mandatory all SINs 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA Startup Springboard MAS two years corporate experience gsa.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA Industrial Funding Fee 0.75% MAS sales reporting gsa.gov vsc
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: acquisition.gov FAR overhaul Part 8 required sources of supplies and services Federal Supply Schedules moved
+      Part 38
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: NASA SEWP VI awards announced June 2026 nasa.gov contract release
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: gsa.gov set-asides Multiple Award Schedule orders small business set aside FAR 8.405-5 eBuy
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: VA T4NG2 Transformation Twenty-One Total Technology Next Generation 2 award status 2026 va.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: DHS FirstSource III status 2026 dhs.gov small business IT commodities contract
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: Navy SeaPort-NxG rolling admissions 2026 seaport.navy.mil
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: va.gov T4NG2 contract Technology Acquisition Center prime contractors list on-ramp
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: gsa.gov MAS consolidation 24 schedules into one single schedule phases history
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: gsa.gov eBuy GSA Advantage how buyers use MAS request for quote sellers (gsa.gov only)
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA MAS solicitation 47QSMD20R0001 refresh 32 2026 planned changes
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA news release transactional data reporting expansion 2025 MAS gsa.gov (gsa.gov only)
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA procurement consolidation agencies transferred contracting GSA news release 2025 2026 OPM Education HUD
+      SBA
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA Office of Centralized Acquisition Services OCAS agencies news release gsa.gov (gsa.gov only)
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA small business procurement consolidation statement "small business" OneGov FAQ gsa.gov what it means
+      for small businesses
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA news release agencies centralize procurement GSA OPM SBA HUD Education agreement gsa.gov newsroom (gsa.gov
+      only)
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: Army CHESS ITES-4S award status 2026 chess.army.mil
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: DISA SETI contract small business pool ordering period disa.mil
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA Office of Small Business training events APEX Accelerators vendor support center "sell to government"
+      (gsa.gov, apexaccelerators.us only)
+    source: WebSearch
+    hits: 1
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: ITES-4S awards 2026 Army announces awardees protest status
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA small business "Office of Small Business" OR OSDBU training events vendor "APEX Accelerators" gsa.gov
+      small-business-resources
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: VA T4NG2 court decision 2026 task orders begin awardees SDVOSB
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: chess.army.mil ITES-4S contract awarded OR "ITES-3S" ordering period ITES-SW2
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: DLA JETS 2.0 J6 Enterprise Technology Services small business status dla.mil
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: SEWP VI transition updates SEWP V end date fee 0.34% on-ramp sewp.nasa.gov FAQ
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: acquisition.gov GSAM 552.238-79 cancellation minimum sales $100,000 552.238-81 price reductions
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: OASIS+ fact sheet contract access fee 0.15% ordering period ten years no ceiling gsa.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA Alliant 3 awards news release March 2026 gsa.gov number of awardees phase 1 phase 2
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA news release centralized acquisition agreement agency "procurement" transfer GSA "Office of Personnel
+      Management" OR "Department of Education" OR "Small Business Administration" 2025
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: gsa.gov MAS ordering procedures RFO GSAM subpart 538.71 "ordering procedures"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: SeaPort-NxG Rolling Admissions II awards 2025 NAVSEA 1,023 ordering period 2029
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: VA "T4NG2" va.gov OSDBU OR "Technology Acquisition Center" contract holders SDVOSB (va.gov only)
+    source: WebSearch
+    hits: 3
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: GSA MAS readiness assessment prospective offerors vsc.gsa.gov "Pathways to Success" training eOffer FAS ID
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: '"RFO-2025-FSS-GSAR 538" class deviation GSAR subpart 538.71 ordering procedures set-aside'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: DHS FirstSource III cancellation dhs.gov statement OR "PACTS III" cancelled SAM.gov notice text June 2025
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SC — contract vehicles
+  - q: SAM.gov contract opportunities notice types sources sought presolicitation combined synopsis/solicitation
+      special notice
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: FAR 5.101 synopsis $25,000 Governmentwide point of entry acquisition.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: CMMC final acquisition rule DFARS 252.204-7021 Federal Register phase 1 November 10, 2025
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: agency procurement forecast acquisition.gov procurement-forecasts
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: SAM.gov "interested vendors list" contract opportunities how to add yourself fsd.gov knowledge base
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: gsa.gov SAM.gov contract opportunities "notice types" "sources sought" "special notice" definition learning
+      center
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: SAM.gov contract opportunities data extract "ContractOpportunitiesFullCSV" data services
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: catalog.data.gov "Contract Opportunities" SAM.gov data extract CSV daily GSA
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: '"sources sought" "special notice" "presolicitation" notice type definitions SAM.gov site:gsa.gov OR site:sba.gov
+      OR site:dla.mil OR site:nih.gov'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: federalregister.gov "Assessing Contractor Implementation of Cybersecurity Requirements" DFARS Case 2019-D041
+      final rule September 10 2025
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: CMMC Phase 2 suspended July 13, 2026 DoD memo C3PAO certification requirement
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: war.gov OR defense.gov "CMMC" "Phase II" suspension "reform task force" July 2026 memorandum
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: Cyber AB CMMC marketplace C3PAO authorized list cyberab.org
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: gsa.gov SAM.gov entity registration free renew every 365 days unique entity ID April 4, 2022 DUNS
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: GSA SAM notarized letter requirement entity administrator 2018 fraud history removed
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: gsa.gov SAM.gov "notarized letter" entity administrator requirement current policy validate entity
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: dcaa.mil pre-award accounting system adequacy checklist SF 1408 small business information
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: pmddtc.state.gov registration fee tiers 2025 "Tier 1" $3,000 manufacturers exporters must register 22 CFR
+      122.1 DECCS
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: FAR inflation adjustment acquisition-related thresholds effective October 1, 2025 simplified acquisition
+      threshold $350,000 micro-purchase $15,000 Federal Register final rule
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: DFARS 215.506-70 additional requirements for postaward debriefings enhanced debriefings acquisition.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: Federal Register "Inflation Adjustment of Acquisition-Related Thresholds" FAR Case 2024-001 final rule August
+      2025 simplified acquisition threshold
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: EPA forecast of contracting opportunities OSDBU "forecast" epa.gov small business
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: SBA procurement forecast "forecast" sba.gov contracting opportunities with SBA acquisition forecast
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: OSDBU "capability statement" should include core competencies past performance differentiators UEI CAGE NAICS
+      site:.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: SBA.gov "forecast" SBA's own procurement opportunities "doing business with SBA" acquisition forecast
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: gsa.gov OSDBU "capability statement" guide what to include one page core competencies differentiators past
+      performance
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: '"capability statement" small business what to include (restricted to 17 agency .gov domains)'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: OSDBU vendor outreach session capability statement requirements one-on-one small business specialist (restricted
+      to agency .gov domains)
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: SAM.gov "save search" "follow" contract opportunities email notifications workspace GSA quick start guide
+      interested vendors list (restricted to .gov domains)
+    source: WebSearch
+    hits: 1
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: CMMC reform task force recommendations September 2026 Phase II outcome announcement Department of War CIO
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: Federal Register June 2026 "Revolutionary Federal Acquisition Regulation Overhaul" proposed rule Part 15
+      Part 12 Part 13 Part 19 FAR Case 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: Department of State OSDBU procurement forecast FY2026 state.gov small business "forecast"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: SD — buying mechanics, forecasts and gates
+  - q: FAR 19.702 subcontracting plan threshold $900,000 $2 million construction acquisition.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: SBA SubNet subcontracting opportunities database status 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: FSRS.gov retired subaward reporting moved to SAM.gov March 2025
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: CRS R47585 "An Overview of Small Business Subcontracting"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: GAO small business subcontracting plans oversight report GAO-20-464 compliance
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: eSRS moving to SAM.gov subcontracting reports ISR SSR transition date
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: SBA Commercial Market Representative directory contact subcontracting assistance sba.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: GSA Subcontracting Directory other than small business prime contractors gsa.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: usaspending.gov subaward data FFATA what is a subaward threshold $30,000 help
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: Federal Register FAR final rule "good faith" small business subcontracting plan liquidated damages 2021 FAR
+      Case
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: SBA final rule credit for lower tier small business subcontracting Federal Register December 2016 81 FR
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: DFARS 219.702-70 Comprehensive Subcontracting Plan Test Program 252.219-7004 expiration
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: FAR Case 2018-003 "credit for lower-tier small business subcontracting" final rule status open FAR cases
+      2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: SBA small business procurement scorecard methodology subcontracting 20% weight FY2024 scorecard
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: usaspending.gov subawards data sources "subaward" SAM.gov FSRS help what subaward data shows
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: sam.gov subaward reporting "subcontract" first-tier $40,000 OR $30,000 FFATA reporting help page 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: gsa.gov "Subcontracting Directory" small business xlsx other than small business prime contractors 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: OSDBU subcontracting opportunities prime contractor directory VA OR HHS OR NASA OR DOE "subcontracting" small
+      business page
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: gsa.gov small business "subcontracting directory" explore business models subcontracting page
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: '"rule of two" Revolutionary FAR Overhaul part 19 deviation orders multiple-award contracts discretion small
+      business set-aside 2025 2026 SBA'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: GAO report small business subcontracting 2025 OR 2026 subcontracting plans oversight DOD comprehensive subcontracting
+      plan test program GAO
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: GAO DOD Comprehensive Subcontracting Plan Test Program report GAO-16-27 OR GAO-18 results assessment
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: gao.gov small business subcontracting 2025 report "subcontracting" SBA compliance reviews commercial market
+      representatives GAO-25
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: acquisition.gov far-overhaul 52.219-9 Small Business Subcontracting Plan RFO deviation text "Subcontracting
+      Plan Reporting" SAM.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: '"OMB Advances Revolutionary FAR Overhaul with Formal Publication of Regulatory Changes" June 2026'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: Federal Register 2026 FAR overhaul proposed rule part 19 small business subcontracting plan comment period
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: 13 CFR 125.3 amended September 2026 SBA final rule subcontracting Federal Register
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: SBA "ostensible subcontractor" rule 13 CFR 121.103(h)(3) similarly situated primary and vital explained sba.gov
+      OHA
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: SBA SubNet "legacy.sba.gov" new SBA website subcontracting opportunities SUBNet replaced 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: Federal Register 2026 "Revolutionary Federal Acquisition Regulation Overhaul" proposed rule "Part 19" OR
+      "Parts 19" small business programs
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: SBA FY2025 small business procurement scorecard government-wide subcontracting achievement percent small
+      business subcontracting goal
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: sba.gov small business goaling "subcontracting" goals government-wide statutory goals page agency contracting
+      goals
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: HHS OR NASA OR DOE OSDBU "prime contractors" subcontracting opportunities directory small business 2026 site:hhs.gov
+      OR site:nasa.gov OR site:energy.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: GSA Multiple Award Schedule subcontracting plan requirements commercial plan gsa.gov "subcontracting plan"
+      MAS contractors SAM.gov reporting
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: SAM.gov Subcontracting Plan Reporting public data search subcontract reports "second-tier" help fsd knowledge
+      article ISR SSR 45 days
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: APEX Accelerators help small business find subcontracting opportunities prime contractors apexaccelerators.us
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: energy.gov OSDBU subcontracting opportunities M&O contractors small business "subcontracting" directory DOE
+      prime contractors
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: SBA rule section 862 NDAA FY2024 prime contractor notify contracting officer small business subcontractor
+      payment 30 days past due 13 CFR 125.3 Federal Register
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: SBA final rule "Subcontract Reporting and Other Amendments" 3245-AI09 Federal Register 2026 13 CFR 125.3
+      30 days past due
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: '"FAR Case 2018-003" lower-tier small business subcontracting credit final rule withdrawn OR pending regulatory
+      agenda RIN 9000-AN61'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: SBA FY2025 government-wide scorecard subcontracting "32.65%" OR "subcontracting" small business achievement
+      sba.gov scorecard government-wide performance
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: GAO 2025 report small business subcontracting DOE OR DOD "subcontracting" goals oversight GAO-25 OR GAO-26
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PA — subcontracting
+  - q: FAR subpart 9.6 contractor team arrangements acquisition.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: 13 CFR 121.103(h) joint venture affiliation eCFR
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: SBA Mentor-Protégé program sba.gov how to apply
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: SBA mentor-protégé program proposed rule 2026 Federal Register 13 CFR 125.9
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: DoD Mentor-Protégé Program 10 U.S.C. 4902 DFARS Appendix I
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: GSA Contractor Team Arrangements MAS schedule
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: SBA final rule past performance ratings small business joint venture members first-tier subcontractors Federal
+      Register 13 CFR 125.11
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: federalregister.gov Small Business Administration mentor-protégé joint venture rule 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: SBA proposed rule 2026 "mentor-protégé" 13 CFR 125.9 amendments Federal Register "proposed rule"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: 89 FR 102448 HUBZone Program Updates and Clarifications recertification merger acquisition joint venture
+      final rule December 17 2024
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: DOJ antitrust teaming agreements government contractors exclusive teaming Procurement Collusion Strike Force
+      guidance
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: NASA Mentor-Protégé Program OSBP nasa.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: DHS Mentor-Protégé Program dhs.gov OSDBU apply
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: Department of Energy Mentor-Protégé Program energy.gov OSDBU
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: EPA Mentor-Protégé Program epa.gov OSDBU
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: GSA Mentor-Protégé Program gsa.gov OSDBU GSAR 519.70
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: Department of State Mentor-Protégé Program OSDBU state.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: Treasury Mentor-Protégé Program home.treasury.gov OSDBU
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: VA Mentor-Protégé Program OSDBU va.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: HHS Mentor-Protégé Program OSDBU hhs.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: FAA Mentor-Protégé Program small business faa.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: USDA Mentor-Protégé Program OSDBU usda.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: DOT Mentor-Protégé Program OSDBU transportation.gov TAR 1219.70
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: Army Mentor-Protégé Program Office of Small Business Programs army.mil apply
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: Nunn-Perry Award DoD Mentor-Protégé Program 2025 OR 2026 winners
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: FY2026 NDAA Mentor-Protégé Program section 4902 amendment small business
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: EPA mentor-protégé program EPAAR 1552.219-70 small business epa.gov OSBP
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: Navy Mentor-Protégé Program Office of Small Business Programs secnav.navy.mil
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: '"National Defense Authorization Act for Fiscal Year 2026" "mentor-protege" section'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: FY2026 NDAA Pub. L. 119-60 Department of Defense Mentor-Protégé Program changes section protégé eligibility
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: SBA mentor-protégé program 2026 changes moratorium OR "proposed rule" OR "paused" joint venture large business
+      mentors
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: GAO report SBA mentor-protégé program number of active agreements gao.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: FAR overhaul Part 19 model deviation joint venture 52.219 rerepresentation acquisition.gov far-overhaul part
+      19
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: SBA OIG audit All Small Mentor-Protégé Program joint venture oversight report sba.gov/oig
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: sba.gov mentor-protégé program active agreements list "mentor-protégé" spreadsheet active MPP agreements
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: justice.gov antitrust division teaming agreement government contractors bid rigging statement of interest
+      OR press release exclusive teaming 2025
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: FTC DOJ withdraw Antitrust Guidelines for Collaborations Among Competitors December 2024 ftc.gov press release
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: 88 FR 26164 Ownership and Control and Contractual Assistance Requirements for the 8(a) Business Development
+      Program April 27 2023 federalregister.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: '"FAR Case 2023-015" "Policy on Joint Ventures" proposed rule Federal Register'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: smallgovcon 2026 SBA mentor-protégé program rule change proposed joint venture "2026"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: HHS OSDBU "Mentor-Protégé Program" hhs.gov small business programs page
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: epa.gov OSDBU "mentor-protégé" program small business EPA contracts
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: DCMA Mentor-Protégé Program credit agreements dcma.mil small business
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PB — teaming, JVs, mentor-protégé
+  - q: Lockheed Martin supplier diversity small business become a supplier registration
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: RTX supplier diversity small business liaison officer become a supplier
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Boeing small business supplier registration "small business liaison" suppliers
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Northrop Grumman suppliers small business "Global Supplier Diversity" register mentor-protégé
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: General Dynamics small business supplier registration GDIT GDMS "small business" suppliers
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: L3Harris suppliers small business program supplier registration liaison officer
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Boeing "Doing Business with Boeing" suppliers small business "Supplier Diversity" boeing.com
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: northropgrumman.com suppliers "small business" SBLO mentor-protégé "supplier diversity" program page
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: BAE Systems Inc. small business supplier diversity "become a supplier" registration mentor-protégé
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Leidos small business supplier registration "Small Business" "supplier" leidos.com mentor protégé
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: SAIC small business supplier registration saic.com "small business" partners mentor-protégé
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Booz Allen Hamilton small business subcontractor registration "small business" suppliers boozallen.com
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: baesystems.com "small business" suppliers "BAE Systems, Inc." supplier diversity program liaison
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: CACI small business supplier diversity program registration caci.com "small business"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: ManTech small business program supplier registration mantech.com "small business"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Parsons Corporation small business program supplier registration parsons.com "small business"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Jacobs supplier diversity small business registration jacobs.com suppliers "small business"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: KBR small business supplier registration kbr.com suppliers "small business" liaison
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Huntington Ingalls Industries suppliers small business program registration hii.com "small business"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Honeywell Aerospace "small business" supplier program "become a supplier" honeywell.com
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: GE Aerospace suppliers "small business" "become a supplier" geaerospace.com
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Peraton small business program supplier registration peraton.com "small business"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Amentum small business supplier registration amentum.com "small business" suppliers
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Accenture Federal Services small business program subcontractor registration "small business"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Deloitte government public services small business program subcontractor "small business" registration teaming
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: nasa.gov osbp prime contractor small business subcontracting program list of prime contractors
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Honeywell "small business" supplier "small business liaison" OR "supplier diversity" honeywell.com aerospace
+      prospective supplier
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: SAIC "small business" "supplier registration" OR "register" saic.com suppliers portal small business office
+      contact
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Northrop Grumman "Small Business Liaison Officers" suppliers "small business" northropgrumman.com suppliers
+      small-business
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: KBR "supplier" registration portal kbr.com suppliers "small business" become a supplier
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: sba.gov events small business matchmaking federal contracting 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: NASA OSBP events small business outreach industry day 2026 nasa.gov/osbp
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: VA OSDBU events National Veterans Small Business Engagement "Direct Access Program" va.gov osdbu
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: NIH small business program office outreach events vendor "small business" oamp.od.nih.gov OR sbo.nih.gov
+      2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: ChallengeHER 2026 SBA WIPP women-owned small business federal contracting events
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: '"capability statement" should include core competencies differentiators past performance site:gov OSDBU'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: DHS OSDBU vendor outreach sessions small business 15-minute appointments 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Treasury OSDBU vendor outreach sessions small business 2026 registration
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Department of Energy small business forum and expo 2026 OSDBU matchmaking
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: APEX Accelerator matchmaking event 2026 prime contractors government buyers one-on-one small business state
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Navy Office of Small Business Programs outreach events 2026 "Gold Coast" OR "Sea-Air-Space" small business
+      secnav
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Air Force small business office outreach events 2026 airforcesmallbiz.af.mil
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Army Office of Small Business Programs outreach events calendar 2026 army.mil osbp
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: HHS OSDBU subcontracting opportunities directory prime contractors large business SBLO list hhs.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: energy.gov OSDBU subcontracting opportunities facility management contractors small business program managers
+      directory
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: GSA subcontracting directory for small businesses large prime contractors list gsa.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Northrop Grumman "Supplier Information Form" prospective supplier small business registration
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: CGI Federal small business program partner registration cgi.com "small business"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Maximus small business supplier diversity program registration maximus.com federal subcontractor
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: ICF small business program subcontractor registration icf.com "small business"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Guidehouse small business program subcontractor registration guidehouse.com "small business"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Bechtel OR Fluor small business supplier registration federal "small business" program supplier portal
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Newport News Shipbuilding small business supplier registration hii.com "small business" SBLO
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: transportation.gov OSDBU "National Small Business Matchmaking Series" 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: state.gov OSDBU small business outreach events 2026 vendor outreach sessions
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: HHS OSDBU vendor outreach sessions 2026 small business hhs.gov events
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: '"capability statement" what to include federal agency small business office guidance sba.gov OR gsa.gov
+      OR dla.mil OR va.gov'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: WIPP ChallengeHER 2026 events schedule wipp.org
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: sba.gov "capability statement" federal contracting what is a capability statement core competencies (restricted
+      to federal domains)
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: DFARS Appendix I Policy and Procedures for the DoD Mentor-Protégé Program acquisition.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: GSA small business events "Doing business with GSA" webinar register 2026 gsa.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: L3Harris "small business" suppliers l3harris.com "Small Business Liaison" supplier resources mentor protégé
+      program
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Leidos mentor-protégé program DoD OR SBA OR DHS protégé agreement leidos.com
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PC — prime supplier programs and outreach
+  - q: Federal Register final rule "Accelerated Payments Applicable to Contracts With Certain Small Business Concerns"
+      FAR Case 2020-007
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: Prompt Payment interest rate July 1 2026 December 31 2026 fiscal.treasury.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: SBA final rule prime contractor untimely payment subcontractor "30 days" past due notify contracting officer
+      NDAA 2023 section 125.3
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: SBA final rule "Subcontracting Program" 13 CFR 125.3 "30 days past due" final rule 2025 OR 2026 Federal Register
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: SBIR STTR Policy Directive Phase III subcontract "SBIR/STTR Data Rights" "subcontractor" prime contractor
+      flow down data rights clause sbir.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: 13 CFR 121.103(h) ostensible subcontractor rule "primary and vital" "unusually reliant" ecfr
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: SBA Office of the National Ombudsman federal contracting late payment prime contractor complaint sba.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: GAO bid protest subcontractor "interested party" "actual or prospective bidder" 4 CFR 21.0 subcontractor
+      not interested party 21.5(h) subcontract protests
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: Severin doctrine pass-through claim subcontractor privity Federal Circuit "E.R. Mitchell Construction" OR
+      "Severin v. United States" opinion cafc.uscourts.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: FAR 44.203 "privity of contract" subcontractor Government "33.2" disputes subcontractor claims "indirect
+      appeals" FAR 44.203(c)
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: 13 CFR 121.103(h) joint venture "two years" from date of first award "may not be awarded contracts" joint
+      venture rule ecfr 125.8
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: Federal Laboratory Consortium federallabs.org CRADA "Cooperative Research and Development Agreement" T2 mechanisms
+      small business FLC Business
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: AFRL technology transfer CRADA how to partner small business "partnership intermediary" Wright Brothers Institute
+      OR "Griffiss Institute" OR TechLink afresearchlab.com
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: NIST technology partnerships office CRADA how to work with NIST licensing patents small business nist.gov/tpo
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: Air Force technology transfer and transition T3 program CRADA "partnership intermediary" list aft3.af.mil
+      OR afrl.af.mil technology transfer how to
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: TechLink DoD partnership intermediary license DoD patent "partnership intermediary" techlinkcenter.org how
+      to license
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: Naval Research Laboratory technology transfer office CRADA license "partnership intermediary" nrl.navy.mil
+      how to partner
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: NSWC Crane technology transfer CRADA partnership intermediary agreement small business navsea.navy.mil T2
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: federallabs.org "FLC Business" available technologies search federal labs facilities equipment "Technology
+      Locator"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: Manufacturing USA institute membership tiers annual fee small business "small business" membership dues NextFlex
+      OR "America Makes" OR ARM Institute OR MxD membership levels
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: ARM Institute membership levels dues small business annual fee "membership" arminstitute.org
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: '"Walton Technology" v. "Weststar Engineering" 290 F.3d 1199 pay-when-paid Miller Act surety opinion'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: Cyberlock Consulting v. Information Experts teaming agreement "agreement to agree" unenforceable Eastern
+      District of Virginia opinion 2013 Fourth Circuit affirmed
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: SBA surety bond guarantee program contract up to $9 million $14 million federal subcontractor payment bond
+      sba.gov surety bonds
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: Federal Register FAR inflation adjustment of acquisition-related thresholds final rule 2025 simplified acquisition
+      threshold $350,000 Miller Act threshold effective October 1, 2025
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: sba.gov "prime and subcontracting" OR "subcontracting" small business how to become subcontractor SubNet
+      commercial market representative teaming joint ventures
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: SBA joint ventures teaming "contractor team arrangement" sba.gov federal contracting assistance programs
+      joint ventures mentor-protege
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: federalregister.gov "Inflation Adjustment of Acquisition-Related Thresholds" FAR Case 2024-001 final rule
+      August 2025
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: acquisition.gov "Revolutionary FAR Overhaul" Part 44 subcontracting policies model deviation text 52.244-6
+      flow-down commercial
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: DFARS 252.204-7021 CMMC flow-down subcontractors paragraph subcontracts "CMMC level" November 10 2025 acquisition.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: 15 U.S.C. 644(k) OSDBU duties "assist small business concerns to obtain payments" subcontractor "prime contractor"
+      undue restriction on ability of subcontractor
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: '"Revolutionary FAR Overhaul" formal publication proposed rule Federal Register June 2026 OMB'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: SBA final rule 2025 OR 2026 "Subcontracting Program" RIN 3245-AI09 final rule 30 days past due subcontractor
+      payment
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: cpars.gov FAQ subcontractor evaluations "subcontractor" CPARS does not evaluate subcontractors guidance
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: NASA OR GSA OR DOT OSDBU "subcontractor" payment problem prime contractor "no privity" what OSDBU can do
+      small business subcontractor not paid
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: 15 U.S.C. 637(d)(13) "Payment of subcontractors" "30 days past due" "cooperation" contracting officer "enter
+      or modify past performance" section 862 NDAA 2024 text
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: ASBCA 2025 Severin doctrine decision pass-through subcontractor claim release asbca.mil opinion
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: Educational Partnership Agreement "10 U.S.C. 2194" defense laboratory AFRL OR ARL OR Navy "Educational Partnership
+      Agreement" definition page
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: Wright Brothers Institute AFRL partnership intermediary agreement small business "partnership intermediary"
+      wbi-innovates.com
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: DEVCOM Army partnership intermediary agreement PIA named intermediary "Civil-Military Innovation Institute"
+      OR "Maryland" OR "Energetics Technology Center" army.mil partnership intermediary small business
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: federallabs.org FLC Business search tool available technologies labs facilities funding "FLC Business"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: Lockheed Martin CorpDocs general provisions subcontracts purchase orders terms and conditions FAR flowdown
+      supplier page
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: SBA "Commercial Market Representative" subcontracting program compliance reviews prime contractors sba.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: NextFlex OR MxD OR LIFT OR "ARM Institute" membership tier annual dues "small business" "$" membership agreement
+      fee per year
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: AUTM "technology transfer" university licensing process startups small business about technology transfer
+      autm.org
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: PD — subcontractor protections, labs and universities
+  - q: 10 U.S.C. 4022 authority of the Department of Defense to carry out certain prototype projects text
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DoD Other Transactions Guide latest version 2023 OR 2024 OR 2025 OR 2026 acq.osd.mil
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: FY2026 NDAA nontraditional defense contractor small business 10 U.S.C. 3014 amendment section
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: FY2026 NDAA commercial solutions opening 10 U.S.C. 3458 amendment follow-on production commercial products
+      and services
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: aaf.waru.edu other transactions OT guide
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: Public Law 119-60 National Defense Authorization Act for Fiscal Year 2026 govinfo text PLAW
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: '"section 1826" NDAA 2026 "nontraditional defense contractor" small business "3014" amended definition "small
+      business concern"'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: class deviation 2026 "nontraditional defense contractors" section 1826 DFARS exemptions DPCAP
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: class deviation 2026 commercial solutions opening DFARS 212.70 section 1823 "class deviation"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: acquisition.gov DFARS 212.70 Defense Commercial Solutions Opening 212.7000 scope
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DFARS 212.102 nontraditional defense contractors "may be treated as commercial" 10 U.S.C. 3457 supplies and
+      services provided by nontraditional defense contractors
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: GAO report other transaction agreements DoD obligations fiscal year follow-on production GAO-25 OR GAO-26
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: GAO bid protest other transaction jurisdiction 4 CFR 21.5(m) "other transaction" decision B-
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: gao.gov bid protest decision "other transaction" jurisdiction "limited" review agency "properly exercising"
+      authority B- Oracle America OR "MD Helicopters" OR "ACI Technologies"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: Court of Federal Claims other transaction jurisdiction Raytheon v. United States 2025 Hydraulics International
+      Space Exploration Technologies Independent Rough Terrain Center opinion
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: aaf.waru.edu contracting cone commercial solutions opening CSO
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DoD other transaction guide 2018 "prototype project" definition "significant extent" intellectual property
+      Bayh-Dole "not applicable" 10 U.S.C. 2320 2321 negotiate
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DoD Intellectual Property Cadre guidance other transactions IP data rights negotiation small business background
+      IP guidebook
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: aaf.waru.edu OT guide intellectual property "other transactions" "IP rights" negotiable "government purpose
+      rights" Bayh-Dole
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: CRS "Department of Defense Use of Other Transaction Authority" R45521 crsreports.congress.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: USAspending other transaction award type "Other Transaction Order" "Other Transaction IDV" FPDS data dictionary
+      award type code
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: usaspending.gov other transaction agreements "OT" award type contract data FPDS "Other Transaction Agreement"
+      "Other Transaction IDV" how reported
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: usaspending-api github "Other Transaction" award type "OTHER TRANSACTION" contract_award_type OR "pulled_from"
+      "OTHERTRANSACTION"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: Court of Federal Claims 2025 2026 other transaction protest jurisdiction decision after Raytheon "other transaction"
+      "Tucker Act" Telesto OR "AeroVironment" OR "Collins" opinion
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: Telesto Group LLC v. United States 24-1784 Court of Federal Claims opinion other transaction jurisdiction
+      prototype phase
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: Federal Circuit 2026 other transaction agreement jurisdiction bid protest appeal Raytheon OR Telesto "other
+      transaction" decision
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DHS other transaction authority 6 U.S.C. 391 extended "September 30" 2025 OR 2026 extension continuing appropriations
+      section 831 Homeland Security Act
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: NASA Space Act Agreements Guide NAII 1050 latest version nasa.gov partnerships
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: dhs.gov "other transaction" authority science and technology OTA guide prototype "6 U.S.C. 391" expires
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: ARPA-H other transactions guide OR "OT Community" arpa-h.gov "other transaction" authority 42 U.S.C. 290c
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: NIH Other Transactions policy guide grants.nih.gov "other transaction" authority 42 U.S.C. 282(n) policy
+      guide
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: Department of Energy other transaction authority guide energy.gov "other transaction" 42 U.S.C. 7256(g) policy
+      guidance 2025
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DHS other transaction authority "831" reauthorized OR extended OR expired 2025 2026 "other transaction" Homeland
+      Security appropriations act 2026 "section 831"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DHS "other transaction authority" extension act 2025 H.R. signed into law OR "became law" "September 30,
+      2027" OR "September 30, 2028" 6 U.S.C. 391
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: acquisition.gov "DoD_RFO_Deviation_Part-15" OR "DFARS Part 215" class deviation 2026-O0048 nontraditional
+      defense contractor representation certified cost or pricing data exempt
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: Defense Pricing and Contracting memo 2024 nontraditional defense contractor status "statement" confirm "nontraditional
+      defense contractor" offeror representation no determination required
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: '"2026-O0048" "Rev 1" OR "Revision 1" DFARS Part 215 class deviation nontraditional defense contractors section
+      1826'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: '"2026-O0032" DFARS Part 231 class deviation nontraditional defense contractors "section 1826" cost principles
+      exempt'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DIU commercial solutions opening process "areas of interest" "solution brief" phase 1 phase 2 pitch diu.mil
+      work with us
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: GAO other transaction agreements consortia report GAO-22-105357 OR GAO-20-84 OR GAO-21-501 DOD use of other
+      transactions prototype
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: SBA small business goaling guidelines "other transaction" excluded from goaling OR "not included" FPDS small
+      business procurement scorecard OTs
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: usaspending.gov "other transaction" OTA awards appear search "Other Transaction" award type FPDS "contract"
+      data included usaspending OT agreements DoD
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DoD annual report to Congress use of other transaction authority prototype projects FY2024 section 873 FY2019
+      NDAA "other transaction" report obligations number of awards
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: FY2027 NDAA other transaction authority provisions 2026 House Senate bill "other transaction" bid protest
+      OR "nontraditional" OR "follow-on production" changes
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: 2026 Court of Federal Claims OR "Federal Circuit" "other transaction" protest jurisdiction decision 2026
+      new ruling OTA "1491(b)"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DHS S&T "other transaction" authority lapsed 2024 "Other Transaction Authority" DHS reauthorization 2026
+      status hsgac OR homeland.house.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DoD Office of Small Business Programs "other transaction" small business participation statement OR guide
+      business.defense.gov OTs nontraditional "small business" consortia
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OA — OT and CSO law, nontraditional status
+  - q: DoD Other Transaction consortia list DAU existing OT consortia
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: GAO report other transaction agreements consortia DoD 2022 GAO-22-105357
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: NSTXL membership fee join S2MARTS TReX SpEC
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: Advanced Technology International ATI consortia list collaborations membership dues
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: Consortium Management Group CMG C5 consortium membership annual dues
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: DoD Inspector General Audit of Other Transactions Awarded Through Consortiums DODIG-2021-077
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: CRS report Department of Defense Use of Other Transaction Authority consortia R45521
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: DPCAP "consortia" other transactions list site:acq.osd.mil
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: DAU Other Transactions guide consortium "nontraditional defense contractor" consortium member participation
+      significant extent
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: USAspending other transaction awards "OTIDV" "Other Transaction" consortium how reported FPDS
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: National Spectrum Consortium membership dues join
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: NSWC Crane other transaction agreement S2MARTS navsea.navy.mil
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: JPEO-CBRND other transaction authority MCDC CWMD consortium jpeocbrnd.osd.mil
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: AIRC "Acquisition Innovation Research Center" consortium other transaction membership
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: '"CDMC" OR "BAMTC" OR "DFC" consortium other transaction agreement ATI defense consortium'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: Space Systems Command Space Enterprise Consortium SpEC OTA ceiling reboot NSTXL ssc.spaceforce.mil
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: PEO STRI TReX II other transaction agreement ATI award ceiling
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: DoD Other Transactions Guide 2023 consortium "consortium" "nontraditional" significant participation aaf.dau.edu
+      ot-guide
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: '"DoD Consortia List for Other Transactions" 2025 OR 2026 section 833 sam.gov'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: '"Other Transactions Guide" July 2023 "consortium" "FPDS" "nontraditional" each project "significant extent"
+      consortium member'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: Naval Aviation Systems Consortium NASC membership dues annual fee NAVAIR OTA ceiling
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: usaspending "Other Transaction" award type "OT IDV" OR "Other Transaction Order" OR "Other Transaction Agreement"
+      contracts data dictionary
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: SAM.gov contract data "Other Transaction" awards search FPDS transition 2026 "Other Transaction Agreement"
+      report
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: Army Contracting Command New Jersey other transaction agreements DOTC C5 consortium "ACC-NJ" army.mil
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: DEVCOM Aviation Missile Center AMTC other transaction agreement consortium army.mil ceiling
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: NUWC Newport Undersea Technology Innovation Consortium OTA navsea.navy.mil ceiling awards
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: Medical Technology Enterprise Consortium MTEC "consortium manager" OR "managed by" USAMRDC OTA 2025 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: GAO "Until Congress includes OTAs in the list of federal awards that agencies must report to USAspending.gov"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: Information Warfare Research Project IWRP consortium how to join membership dues NAVWAR OTA ceiling
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: Joint Directed Energy Consortium JDEC NSTXL OTA award sponsor ceiling 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: Defense Automotive Technologies Consortium DATC membership dues SAE ITC OTA Ground Vehicle Systems Center
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: Missile Defense Agency OR DTRA other transaction consortium "consortium" OTA members join 2025
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OB — OT consortia
+  - q: Adaptive Acquisition Framework pathways aaf.waru.edu
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: DoWI 5000.02 April 2026 "Operation of the Adaptive Acquisition Framework" reissue
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: '"DoW Instruction 5000.02" OR "DoWI 5000.02" April 2026 Portfolio Acquisition Executive'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: '"Transforming the Defense Acquisition System into the Warfighting Acquisition System" memorandum November
+      2025 media.defense.gov'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: '"Acquisition Transformation Strategy" November 2025 Hegseth "Portfolio Acquisition Executive" pdf'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: '"Acquisition Workforce Reform Strategy" June 2026 Department of War'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: media.defense.gov 2025 Nov "TRANSFORMING-THE-DEFENSE-ACQUISITION-SYSTEM-INTO-THE-WARFIGHTING-ACQUISITION-SYSTEM"
+      PDF
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: war.gov "Acquisition Transformation Strategy" "Rebuilding the Arsenal of Freedom" PDF media.defense.gov
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: National Defense Authorization Act for Fiscal Year 2026 Public Law 119 Title XVIII acquisition reform portfolio
+      acquisition executive section text govinfo
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: FY2026 NDAA acquisition reform "nontraditional defense contractor" "commercial solutions opening" section
+      1804 OR 1821 OR 1826 summary small business
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: diu.mil commercial solutions opening process phases solution brief pitch prototype OT follow-on production
+      timeline
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: diu.mil "OnRamp Hub" Defense Innovation OnRamp Hubs locations
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: Blue UAS Cleared List Framework 2026 DIU DCMA how to get on list
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: Tradewinds Solutions Marketplace "five-minute" video pitch "awardable" CDAO assessment criteria government
+      customer contract FAQ
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: SOFWERX assessment event "Other Transaction" 10 U.S.C. 4022 "may negotiate" award pathway PEO 2026 events.sofwerx.org
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: USSOCOM Commercial Solutions Opening SOF AT&L CSO 2026 sam.gov H9240 "commercial solutions opening"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: NavalX Tech Bridges what they do "do not" fund contracts partnership intermediary list of tech bridges 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: NavalX Tech Bridge official site navy.mil "Tech Bridges" connect "non-traditional" partners
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: NavalX Tech Bridges 2026 navy.mil "Tech Bridge" what is prize challenge "does not" contracts SBIR connect
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: AFWERX Prime Agility Prime Autonomy Prime 2026 afwerx.com program how to participate "Prime"
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: AFWERX Prime division 2026 status Agility Prime ended OR restructured OR "sunset" Air Force
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: Army xTech program 2026 xtech.army.mil competitions prize how it works Army Applied SBIR
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: Army "Commercial Solutions Opening" 2026 Army Contracting Command "open" CSO "Fuze" OR "Army Enterprise"
+      sam.gov W15QKN solution brief
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: Army FUZE program launched 2025 "FUZE" Army venture capital model xTech SBIR ManTech TMI official army.mil
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: DHS S&T Silicon Valley Innovation Program SVIP Other Transaction Solicitation phases award amount eligibility
+      2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: NGA "Commercial Solutions Opening" OR "Boosting Innovative GEOINT" BIG BAA 2026 how to do business with NGA
+      industry nga.mil
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: DARPA office-wide BAA 2026 "Disruptioneering" OR "Advanced Research Concepts" OR "DARPA Connect" how to work
+      with DARPA small business darpa.mil
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: nga.mil industry "Moonshot Labs" OR "NGA Accelerator" OR "Tearline" small business programs office how to
+      do business 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: Navy "Commercial Solutions Opening" 2026 Naval Rapid Capabilities Office OR NAVSEA OR "PEO" CSO solution
+      brief sam.gov N00
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: Army Contracting Command "Commercial Solutions Opening" army.mil 2026 article Army CSO Global Tactical Edge
+      Acquisition Directorate marketplace
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: GSA "Commercial Solutions Opening" procedures GSAM 571 authority 41 U.S.C. 3301 note civilian agencies CSO
+      pilot permanent
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: agency procurement forecast legal requirement "15 U.S.C. 637(a)(12)(C)" OR "section 501" "Business Opportunity
+      Development Reform Act" forecast of contracting opportunities small business
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: '"5000.02" reissued April 2026 "Warfighting Acquisition System" instruction Portfolio Acquisition Executives
+      pathways changes'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: waru.edu news 2026 "DoWI 5000.02" OR "DoW Instruction 5000.02" Operation of the Adaptive Acquisition Framework
+      new
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: Portfolio Acquisition Executives named 2026 Army Navy Air Force list of PAEs replaces PEOs official release
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: Army Portfolio Acquisition Executives established list "PAE" army.mil 2026 Fires Maneuver "Capability Program
+      Executive"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: DIU annual report FY2025 prototype contracts awarded transition rate average award value days to award diu.mil
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: events.sofwerx.org assessment event 2026 "10 U.S.C. 4022" OR "Other Transaction" "Business to Business" OR
+      "negotiate" award selected participants SOCOM
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: army.mil 2026 "commercial solutions opening" Army UAS marketplace OR "drone marketplace" OR "Army Enterprise
+      CSO" official
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: AFWERX Challenge 2026 how it works challenge process showcase "AFWERX Challenge" afresearchlab OR af.mil
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: DARPA office-wide BAA 2026 HR001126S "office-wide" Defense Sciences Office OR "Strategic Technology Office"
+      abstract proposal award instruments OT
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: dhs.gov SVIP "Other Transaction Solicitation" 70RSAT 2026 topic call open "up to $2M" OR "$800,000" phases
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: '"portfolio acquisition executive" "10 U.S.C." section codified FY2026 NDAA section 1802 "1732" OR "4211"
+      OR "3104" law.cornell.edu'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OC — AAF pathways, reforms, CSO front doors
+  - q: NASA Space Act Agreements reimbursable non-reimbursable funded partnerships how to partner
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: DHS Silicon Valley Innovation Program phases funding other transaction how to apply
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: ARPA-E funding opportunities SCALEUP other transaction authority applicants
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: BARDA EZ-BAA DRIVe BARDA Ventures Industry Day 2026 medicalcountermeasures.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: ARPA-H open BAA innovative solutions opening how to submit abstract other transaction
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: Challenge.gov shutdown federal prize competitions where listed now 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: dhs.gov science-and-technology Silicon Valley Innovation Program eligibility "up to" phase open calls 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: dhs.gov science and technology prize competitions 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: arpa-e.energy.gov applicants "other transaction" OR "technology investment agreement" cost share small business
+      award guidance
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: BARDA Broad Agency Announcement 2026 BAA-23-100-SOL-00004 OR new BAA "BARDA Industry Day" 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NIH Other Transactions authority where used "other transaction" grants.nih.gov policy
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NSF Convergence Accelerator solicitation 2026 phases funding eligibility
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NSF I-Corps Teams eligibility $50,000 award 2026 solicitation Partnerships for Innovation PFI NSF 25-
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: TSA Innovation Task Force how to work with industry innovation pipeline broad agency announcement
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: FAA other transaction agreements authority 49 U.S.C. 106 industry innovation program small business how to
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: DoD Other Transactions Guide payable milestones cost share audit access financial reporting aaf.dau.edu
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: aaf.dau.edu ot-guide "payable milestones" OR "cost sharing" OR "Comptroller General access" other transactions
+      guide section
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: CMMC other transaction agreements apply? DoD CIO CMMC FAQ "other transaction"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: CPARS "other transaction" agreements past performance evaluation not required guidance CPARS
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: GAO other transaction agreements civilian agencies obligations report DHS NASA HHS DOE fiscal year
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: consortium other transaction agreement "project agreement" member fee "base agreement" FAQ consortium management
+      firm intellectual property flow down
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: GAO-22-105357 other transaction agreements DOD consortia management organizations fees project awards members
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: MTEC FAQ research project award assessment fee percent member "base agreement" consortium
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NSTXL OR "Advanced Technology International" consortium FAQ "project agreement" fee how awards work members
+      government OTA
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: Wide Area Workflow other transaction agreements invoicing PIEE "other transaction" payment DFAS
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: USAspending other transaction agreements "Other Transaction" award type FPDS OT IDV data dictionary
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NASA Partnerships Guide NAII 1050.3 Space Act Agreements Guide pdf
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NASA Announcement of Collaboration Opportunity ACO STMD 2026 Tipping Point solicitation status
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: nasa.gov STMD "Announcement of Collaboration Opportunity" 2025 OR 2026 selections unfunded Space Act Agreements
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: dodcio.defense.gov CMMC FAQ "other transaction" OR "OTAs" grants "CMMC apply"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NASA STMD standing Announcement of Collaboration Opportunity 80HQTR25 Appendix nspires 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NASA Tipping Point solicitation 2025 OR 2026 "Tipping Point" funded Space Act Agreements STMD new opportunity
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: aspr.hhs.gov BARDA Broad Agency Announcement open BAA 2026 "Industry Day" BARDA Ventures
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: ARPA-H awards total number of performers 2026 "awarded" portfolio statistics small business share
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: DHS Silicon Valley Innovation Program total awarded startups "$" million since 2015 number of companies dhs.gov
+      news 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: '"BARDA Industry Day 2026" date registration'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: BARDA Broad Agency Announcement BAA-23-100-SOL-00004 amendment 2026 areas of interest white paper deadline
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: federalregister.gov "Biomedical Advanced Research and Development Authority Industry Day" 2025 OR 2026
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: nsf.gov Partnerships for Innovation PFI current solicitation 2026 NSF Translation to Practice OR "TIP" I-Corps
+      Teams current
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NSF Convergence Accelerator 2025 2026 status solicitation NSF 24-565 OR "Convergence Accelerator" new tracks
+      "Dear Colleague Letter"
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: transportation.gov innovation "other transaction" ARPA-I OR "SMART grants" OR "U.S. DOT" innovation startups
+      program how to work with DOT
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NIST CRADA partnerships small business how to work with NIST technology partnerships office
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: transportation.gov ARPA-I Advanced Research Projects Agency Infrastructure funding opportunities other transaction
+      authority 49 U.S.C. 119
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: sba.gov Growth Accelerator Fund Competition 2026 prize OR "Federal and State Technology" FAST innovation
+      ecosystem
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: GAO report 2024 OR 2025 OR 2026 "other transaction" DHS OR NASA OR HHS OR "ARPA-H" obligations civilian agencies
+      use of other transaction agreements
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: arpa-h.gov other transactions resource library OT guides "Other Transaction" ARPA-H authority 42 U.S.C. 290c
+      performers guide
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: DHS other transaction authority annual report Congress fiscal year 2024 OR 2025 obligations number of agreements
+      6 U.S.C. 391 extended
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: GAO USAspending "other transaction agreements" not reported "$40 billion" GAO-24-106214 federal spending
+      transparency
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: '"Stop Secret Spending Act" other transaction agreements USAspending 2025 OR 2026 status passed Senate House'
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: DHS other transaction authority 6 U.S.C. 391 extension 2026 "September 30" appropriations act section extends
+      authority
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: '"other transaction" DHS authority extended "section 831" Homeland Security Act through fiscal year 2026
+      continuing appropriations "831(a)"'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: uscode.house.gov 6 USC 391 "September 30, 2026" OR "September 30, 2025" other transaction authority Homeland
+      Security research and development projects
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: consortium FAQ "consortium management firm" OTA member "project agreement" "assessment fee" OR "award fee"
+      percent members pay official consortium site S2MARTS OR MTEC OR NAC OR SpEC
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: Wide Area Workflow "other transaction" agreement invoice "2-in-1" OR "milestone" PIEE vendor registration
+      CAGE code OT awardee DCMA administration other transactions
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: DCMA other transaction agreements administration "agreements officer" DCMA manual OR instruction "other transactions"
+      oversight
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: DCAA audits other transaction agreements "other transaction" DCAA guidance contract audit manual OT access
+      to records
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: '"other transaction" export control ITAR EAR applies OT agreement "export" DoD OT guide OR NASA Space Act
+      Agreement export control clause'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: arpa-h.gov "OT Agreement" sample articles pdf "Other Transaction Agreement" sample ARPA-H sites/default/files
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NASA prizes challenges crowdsourcing Centennial Challenges how to participate nasa.gov 2026
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: usa.gov challenges "how to participate" federal challenge prize competition tips eligibility
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: ARPA-E "SCALEUP Ready" DE-FOA-0003467 cost share award size rolling applications eligibility
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: Rapid Response Partnership Vehicle RRPV consortium BARDA other transaction membership fee how to join project
+      awards
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: '"Use of Consortia in Prototype and Production Other Transaction Agreements" appendix F OT guide consortium
+      management organization'
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: dodcio.defense.gov CMMC FAQ pdf 2026 revision "non-FAR" OR "other transaction" OR "grants" CMMC apply
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: ARPA-H "performers" funded since 2022 total awards billion "small businesses" arpa-h.gov about impact 2026
+      awards number
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: BARDA "FDA approvals, licensures, and clearances" total number partnerships 2026 BARDA Ventures portfolio
+      companies GHIC
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: DHS "other transaction authority" expired OR lapsed OR extended 2025 2026 Silicon Valley Innovation Program
+      authority Homeland Security Act section 831 reauthorized
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: DoD "Other Transactions Guide" new version 2026 OR "version 3.0" OUSD A&S released update other transaction
+      guide FY2026 NDAA changes
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: BioMaP-Consortium BARDA other transaction membership "no fee" OR "membership fee" Biopharmaceutical Manufacturing
+      Preparedness Consortium how to join
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: dhs.gov "other transaction" authority annual report to Congress fiscal year S&T "other transaction agreements"
+      awarded number DHS OTA report 2024
+    source: WebSearch
+    hits: 9
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  - q: NASA Tipping Point 2023 selections 11 companies $150 million funded Space Act Agreements contribution percentage
+      nasa.gov
+    source: WebSearch
+    hits: 10
+    run_on: '2026-10-03'
+    slice: OD — civilian agreement routes, performing under an OT
+  snowball:
+  - from each statute to its implementing regulation, policy directive and agency page
+  - from each GAO or IG report to the program pages it names
+  - from each consortium manager to every consortium it lists
+  inclusion:
+  - official government pages, statutes, regulations, policy directives, solicitations and notices
+  - GAO, CRS and inspector-general reports
+  - a company's or consortium's own page for what it says about itself
+  exclusion:
+  - law-firm, consultant and trade-press pieces as a source of fact (kept only as pointers or flags, labelled secondary)
+  - 'pages that could not be fetched (marked verified: false)'
+  known_gaps:
+  - DoWI 5000.02 (April 2026) not read; DoDI 5000.81 403
+  - the November 2025 Warfighting Acquisition System memo 403; terms rest on digests
+  - DoD OT Guide read only to about page 35 on a DIU-hosted copy; Appendix F unread
+  - FY2026 NDAA body beyond Title XVIII truncated on govinfo; sections read on Cornell LII
+  - dodsbirsttr.mil entirely (robots.txt); SBIR.gov API 403
+  - BARDA main pages, SAM.gov notice pages, CPARS, PIEE and other script-rendered sites
+  - seven prime supplier portals unreadable
+  - six host-blocked references after the recheck (source/recheck/recheck-remaining.json)
+corpus_profile:
+  by_tier:
+    seminal: 328
+    classic: 70
+    current: 756
+    background: 273
+  by_source_kind:
+    primary: 1318
+    secondary: 109
+  year_range:
+  - 1985
+  - 2026
+  concentration: acquisition.gov (183), ecfr.gov (63), gsa.gov (57), Cornell LII mirrors of statute (56), federalregister.gov
+    (52), sba.gov and legacy.sba.gov (62), sbir.gov (32), nasa.gov (32), gao.gov (27), arpa-h.gov OT Community mirrors
+    (27), govinfo.gov (26); the rest spread over agency, consortium and company sites
+  dissent_represented: true
+  dissent_note: GAO, DoD IG and CRS findings on consortia fees, OT transparency, Phase III data and subcontracting
+    oversight are carried alongside the program pages; where official sources disagree (FAR vs 13 CFR ceilings;
+    statute vs FAR on late payment and bonds; agency pages vs SBA cards) both figures are recorded with citations
+  recheck: 1,318 of 1,324 cited references read against the live page on 2026-10-03/04 with a confirm/deny prompt;
+    63 non-verbatim quotes removed; 32 facts contradicted and tagged; 120 tagged unconfirmed
