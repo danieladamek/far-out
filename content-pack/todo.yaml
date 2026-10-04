@@ -1,4 +1,4 @@
-# todo.yaml — FAR Out content pack · consolidated and live-rechecked 2026-10-03/04. recheck: false means the page was read in the recheck pass; recheck: true entries are host-blocked or uncited.
+# todo.yaml — FAR Out content pack · consolidated, rechecked, chapters drafted 2026-10-04
 - id: t-A001
   kind: gap
   about: references/PL119-83
@@ -3307,3 +3307,36 @@
     1, 2021 - Sept 14, 2026); DHS $52.2 million for over 700 OTAs and Interior $858.8 million for over 220 OTAs
     match'
   owner: author
+- id: t-REV001
+  kind: conflict
+  about: changes/chg-ndaa-fy26-1826
+  text: '§1826: changes.yaml and buyers.yaml treat its content as secondary-only, but reference [1032] (10 U.S.C.
+    3014 statutory note, primary, rechecked) carries the ten exemptions. Reconcile: state §1826 from [1032]; drop
+    the [1110] "§§ 811-812, 826" fact (contradicted — page says 824). The chapters already follow [1032].'
+  owner: builder
+- id: t-REV002
+  kind: conflict
+  about: certifications/8a
+  text: certifications.yaml says SBA's 8(a) page gives the same sole-source figures as the FAR; the recheck found
+    the page prints $7M/$4.5M. Update the record to carry both with citations [338] [331] [310].
+  owner: builder
+- id: t-REV003
+  kind: gap
+  about: review.md
+  text: Chapters cite three unchecked references ([382] FY2025 scorecard release; [1018] [1019] 31 U.S.C. 6304/6305)
+    and ten secondary ones, each only to flag a reported change. Recheck [382], [1018], [1019] on the live page
+    before publication.
+  owner: builder
+- id: t-REV004
+  kind: gap
+  about: changes.yaml
+  text: 'Pending items in records but not yet in the ledger: size-standards proposals (2025-08-22, 2026-08-20);
+    SBA 90→30-day late-payment proposal; Rule of Two for orders proposal; FAR Case 2023-015; 32 CFR Part 3 proposal;
+    stale DoD Mentor-Protégé Appendix I date; FY2027 NDAA §817; EO 14402. Add with sources.'
+  owner: builder
+- id: t-REV005
+  kind: recheck
+  about: review.md
+  text: Chapter word counts run 820–900 prose words; raw counts with citation tokens up to ~980. If the validator
+    counts tokens, trim chapters 7 and 8.
+  owner: builder

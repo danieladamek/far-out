@@ -1,143 +1,544 @@
-# changes.yaml — FAR Out content pack · consolidated 2026-10-03 (URL dedupe, sequential renumbering with prev_n, id merges, 25-word quotes). recheck: true until the live-page pass clears each entry.
-- id: chg-arpa-h-isos-replace-open-baa
-  date: '2024-03-15'
-  status: final
+# changes.yaml — FAR Out · dated ledger for /changes; status = final | class-deviation | proposed | announced | pending-implementation; retired/suspended/unsettled lead the `what` text
+- id: chg-sewp-vi-start
+  date: '2026-11-01'
+  status: pending-implementation
   basis: primary
-  what: 'ARPA-H announced four Mission Office Innovative Solutions Openings on March 15, 2024: "Awards made from
-    each Mission Office ISO will generally be in the form of other transactions." [1382] Per the sweep''s summary
-    of the announcement they replaced the agency-wide Open BAA [1382], which had been announced March 15, 2023 [1383].
+  what: '"November 1, 2026, is the anticipated start date for SEWP VI request submissions." [544] SEWP V contracts
+    are extended through January 31, 2027, and the SEWP VI period of performance runs November 1, 2026 through October
+    31, 2036 [542]. The FAQ counts over 2,115 prime contract holders, including more than 1,300 small businesses
+    [544]. SECONDARY ONLY: awards were announced June 23, 2026 [545]. Whether SEWP moves to GSA under Executive
+    Order 14240 is not stated on any page read [509] [542].
 
     '
   affects:
-  - arpa-h-mission-office-isos
+  - sewp-vi
   sources:
-  - 1382
-  - 1383
-- id: chg-dhs-ot-authority-sunset
-  date: '2024-09-30'
-  status: proposed
-  basis: primary
-  what: 'DHS''s other transaction authority at 6 U.S.C. 391 shows, in the text as displayed, a sunset of September
-    30, 2024 [1352]. A Senate committee report says the authority "expired on September 30, 2024" and that S. 4024
-    would extend it through fiscal year 2027 [1353]. No enacted extension was found in the sweep, so the status
-    recorded is that of the proposed extension.
+  - 509
+  - 542
+  - 544
+  - 545
+- id: chg-front-doors-unconfirmed
+  date: '2026-10-03'
+  status: announced
+  basis: unconfirmed
+  what: 'NOT CONFIRMED AS LIVE on October 3, 2026, and not to be shown as open: AFWERX Prime, whose latest dated
+    primary source found is January 30, 2024 [1303]; NavalX Tech Bridges, NavalX having been consolidated into the
+    Naval Rapid Capabilities Office (chg-navalx-into-nrco) [1280]; the Blue UAS Cleared List, moved to DCMA effective
+    December 3, 2025 (chg-blue-uas-to-dcma) [1288]; DHS SVIP, whose page is dated April 19, 2024 and listed no open
+    topic calls [1311]; NASA Tipping Point, whose most recent selection found is dated July 25, 2023 [1344]; the
+    NSF Convergence Accelerator, whose page lists funding opportunities posted March 2020 and December 2021 without
+    saying whether either is open [1398]; and the USSOCOM SOF AT&L CSO, known from an aggregator copy of a SAM.gov
+    notice only (SECONDARY, gated on recheck) [1295]. This entry records a verification state, not a change in law.
 
     '
   affects:
-  - dhs-svip
-  sources:
-  - 1352
-  - 1353
-- id: chg-software-memo-2025-03
-  date: '2025-03-06'
-  status: final
-  basis: primary-partial
-  what: 'The Secretary''s memo "Directing Modern Software Acquisition to Maximize Lethality" is dated March 6, 2025
-    on the Software Acquisition pathway page [1252]. The November 2025 strategy restates it as making CSOs and OTs
-    "the default solicitation and award approaches for acquiring capabilities under the SWP" (p. 2) [1264], and
-    DIU''s account of it is dated March 7, 2025 [1255]. The memo PDF returned 403 and was not read.
-
-    '
-  affects:
-  - aaf-software-acquisition
-  - diu-cso
-  sources:
-  - 1252
-  - 1255
-  - 1264
-- id: chg-eo-14265
-  date: '2025-04-09'
-  status: final
-  basis: primary
-  what: 'Executive Order 14265, Modernizing Defense Acquisitions and Spurring Innovation in the Defense Industrial
-    Base, was signed April 9, 2025 and published April 15, 2025 (90 FR 15621) [1262]. It set a reform plan due within
-    60 days (Sec. 3), an MDAP review within 90 days with programs more than 15% behind schedule or over cost considered
-    for cancellation (Sec. 6), and a workforce plan within 120 days, including field training teams (Sec. 5) [1262].
-
-    '
-  affects:
-  - aaf-urgent-capability-acquisition
-  - aaf-middle-tier-of-acquisition
-  - aaf-major-capability-acquisition
-  - aaf-software-acquisition
-  - aaf-defense-business-systems
-  - aaf-acquisition-of-services
-  sources:
-  - 1262
-- id: chg-navalx-into-nrco
-  date: 2025-08
-  status: final
-  basis: primary
-  what: 'NavalX was folded into the Naval Rapid Capabilities Office in August 2025; the office consolidates NavalX,
-    the Disruptive Capabilities Office, the Maritime Accelerated Response Capability Cell and Replicator activities,
-    with Tech Bridges among its focus areas [1280].
-
-    '
-  affects:
+  - afwerx-prime-agility-prime-challenge
   - navalx-tech-bridges
+  - blue-uas-cleared-list
+  - dhs-svip
+  - nasa-tipping-point
+  - nsf-convergence-accelerator
+  - ussocom-sof-atl-cso
   sources:
   - 1280
-- id: chg-acquisition-transformation-strategy
-  date: '2025-11-07'
-  status: announced
+  - 1288
+  - 1295
+  - 1303
+  - 1311
+  - 1344
+  - 1398
+- id: chg-rfo-proposed-rules-2026-09-18
+  date: '2026-09-18'
+  status: proposed
   basis: primary
-  what: 'On November 7, 2025 the Secretary of War announced three memoranda and the Acquisition Transformation Strategy
-    [1263]. The 39-page strategy, posted November 10, 2025 and read in full, has five pillars, gives portfolio acquisition
-    executives "expanded authorities for resourcing, requirements, and acquisition decisions within prescribed portfolios"
-    (p. 15), directs OT authority "for prototype and follow-on production efforts where in the best interest of
-    the warfighter and the taxpayer" (p. 10), keeps MTA while eliminating its Advisory Boards (p. 20), and proposes
-    portfolio scorecards (p. 21) [1264].
+  what: 'A second set of four FAR-overhaul proposed rules was issued September 18, 2026, comments due October 19,
+    2026: Parts 8, 12, 13, 15, 38, 44 and 51 (FAR Case 2026-003, 91 FR 59406); Parts 16, 17 and 35 (FAR Case 2026-006);
+    Parts 9, 27 and 47; and Parts 14, 28 and 36, with Part 52 clauses [409] [405] [406] [521]. SBA Advocacy calls
+    them "the second of four planned sets" [409]. FAR Case 2026-003 would move micro-purchase procedures from subpart
+    13.2 to subpart 12.4, keep simplified commercial procedures up to $9 million ($15 million for specified emergencies),
+    remove provisions 52.212-3 and 52.212-5, require agencies to use existing contracts designated required use
+    or best in class before soliciting new ones, and remove Part 38 [405] [521]. FAR Case 2026-006 would give unsuccessful
+    offerors on orders above the simplified acquisition threshold up to $7.5 million a brief explanation on written
+    request, and Part 15 debriefing procedures above $7.5 million [406]. The Federal Register search of October
+    3, 2026 returned no Part 19 proposed rule and no final rule [407].
 
     '
   affects:
-  - aaf-urgent-capability-acquisition
-  - aaf-middle-tier-of-acquisition
-  - aaf-major-capability-acquisition
-  - aaf-software-acquisition
-  - aaf-defense-business-systems
-  - aaf-acquisition-of-services
+  - simplified-acquisition-and-micro-purchase
+  - commercial-product-or-service-buy
+  - order-set-aside-multiple-award
+  - teaming-contractor-team-arrangements
+  - subcontracting-under-prime-plan
+  - baa-far-35-016
+  - gsa-mas
+  - flow-down-clauses
+  - responding
   sources:
-  - 1263
-  - 1264
-- id: chg-was-memo
-  date: '2025-11-07'
-  status: announced
-  basis: secondary-only
-  what: 'SECONDARY ONLY: the memorandum "Transforming the Defense Acquisition System into the Warfighting Acquisition
-    System to Accelerate Fielding of Urgently Needed Capabilities to Our Warriors" is named in the official release
-    [1263]; its PDF returned 403 twice. A third-party-hosted copy or digest reports implementing guidance in 30
-    days, Military Department PAE implementation plans in 60 days, commercial-first guidance in 90 days and other
-    reforms in 180 days, with PAE terms of four years and a possible two-year extension [1265]. Law-firm digests
-    give differing day counts [1266] [1267] [1269] [1270]. None is confirmed against the memo.
+  - 405
+  - 406
+  - 407
+  - 409
+  - 521
+- id: chg-pl-119-106-ot-reporting
+  date: '2026-09-11'
+  status: pending-implementation
+  basis: primary
+  what: 'Pub. L. 119-106, the Stop Secret Spending Act of 2025 (enactment date as extracted by the fetch), amends
+    the Federal Funding Accountability and Transparency Act so that other transaction agreements are reported on
+    USAspending.gov: a compilation report within 1 year; "data relating to other transaction agreements is automatically
+    transmitted to the website" within 3 years; an implementation plan to Congress within 2 years if not compliant;
+    inspector general reports within 1 year and at least every 2 years for 10 years [1421]. GAO had found over $40
+    billion in OTAs not reported to USAspending.gov [1129].
 
     '
   affects:
-  - aaf-urgent-capability-acquisition
-  - aaf-middle-tier-of-acquisition
-  - aaf-major-capability-acquisition
-  - aaf-software-acquisition
-  - aaf-defense-business-systems
-  - aaf-acquisition-of-services
+  - ot-payment-reporting
+  - consortium-project-agreement
   sources:
-  - 1263
-  - 1265
-  - 1266
-  - 1267
-  - 1269
-  - 1270
-- id: chg-blue-uas-to-dcma
-  date: '2025-12-03'
+  - 1129
+  - 1421
+- id: chg-8a-social-disadvantage-rule
+  date: '2026-08-11'
   status: final
   basis: primary
-  what: 'The Blue UAS Cleared List moved from DIU to the Defense Contract Management Agency effective December 3,
-    2025, ahead of a January 1, 2026 deadline, with 81 companies, 39 Blue UAS systems and 165 components as of November
-    19, 2025 [1288].
+  what: 'SBA proposed on June 11, 2026 (91 FR 35433, RIN 3245-AI75; comments due July 13, 2026) [313] and made final
+    on August 11, 2026 (91 FR 51568) the removal of the rebuttable presumption of social disadvantage in 13 CFR
+    124.103 for individually owned 8(a) applicants: "This rule is effective on September 10, 2026. It applies to
+    all pending applications of individually-owned applicants as of that date." [314] "It does not in any way amend
+    or affect the eligibility of entity-owned small businesses." [314] Social disadvantage remains a one-time determination,
+    so individuals already found disadvantaged need not re-establish it [314]. The eCFR text of 124.103 carries
+    the new test [312]. On the effective date SBA returned pending individually owned applications with 45 calendar
+    days to resubmit and gave priority to ten NAICS codes [325].
 
     '
   affects:
+  - 8a-business-development
+  - 8a-sole-source-and-competition
+  - sdb-self-representation
+  sources:
+  - 312
+  - 313
+  - 314
+  - 325
+- id: chg-cmmc-phase-ii-suspended
+  date: '2026-07-13'
+  status: announced
+  basis: primary-partial
+  what: 'SUSPENDED. DoD CIO''s page: "The first phase of CMMC implementation began on November 10, 2025 and CMMC
+    implementation is paused in Phase 1." and "All Phase I self-assessment requirements remain firmly in place."
+    The page dates the announcement of the Phase II suspension July 13, 2026 [625]. The implementing memorandum
+    (26-P-1023) suspends the phased schedule, including the November 2026 Phase 2 transition and Level 2 (C3PAO)
+    and Level 3 (DIBCAC) in new procurements, and leaves NIST SP 800-171 Rev 2 and DFARS 252.204-7012 obligations
+    in place; no date was legible in the fetch [627]. Sources differ on the class deviation: the acquisition university''s
+    log has a July 16, 2026 entry for 2026-O0025 Rev 2 suspending Phase 2 implementation [410], while DoD''s deviation
+    index as fetched showed no revisions [401]. SECONDARY ONLY: Revision 3 on September 3, 2026, and no review report
+    released as of September 11, 2026 [630] [631]. The program rule at 32 CFR 170.3 still sets out the four phases
+    [623].
+
+    '
+  affects:
+  - cmmc
+  - basic-safeguarding-nist-800-171
+  - flow-down-clauses
+  - dow-sbir-sttr
+  sources:
+  - 401
+  - 410
+  - 623
+  - 625
+  - 627
+  - 630
+  - 631
+- id: chg-fy25-scorecard
+  date: '2026-06-25'
+  status: final
+  basis: primary
+  what: 'SBA''s FY2025 scorecard release (News Release 26-64, June 25, 2026) reads in part "awarded nearly 28% of
+    all prime federal contracts to small businesses, representing a $179 billion investment", and reports $273 billion
+    including subcontracts; SDB 11.6%, $75.3 billion; 8(a) firms 3.7% of prime contracts, $24.3 billion; and a government-wide
+    grade of A [382]. This reference was not re-read in the recheck pass.
+
+    '
+  affects:
+  - sdb-self-representation
+  - 8a-business-development
+  - buyer-sba
+  sources:
+  - 382
+- id: chg-rfo-proposed-rules-2026-06-23
+  date: '2026-06-23'
+  status: proposed
+  basis: primary
+  what: 'Phase two of the FAR overhaul, formal rulemaking, began June 23, 2026 with four proposed rules, comments
+    due July 23, 2026: Parts 1, 2, 4, 33, 39, 40 and 53 (FAR Case 2026-001, 91 FR 37550); Parts 6, 7, 10, 18, 26,
+    37 and 41 (FAR Case 2026-002); Parts 5, 24 and 29; and Parts 3 and 49 [403] [404] [408]. "The FAR Council is
+    issuing twelve proposed rules that collectively will streamline the FAR in its entirety." [403] FAR Case 2026-001
+    would merge five identification provisions into a revised 52.204-7, remove 52.204-8 in favour of entity-level
+    SAM representations, and rewrite Part 33 so that protesters may ask for independent review above the contracting
+    officer [403]. FAR Case 2026-002 would relocate Part 10 content to subpart 7.2 [404]. The batch does not include
+    Part 19 [408]. None of the proposed rules was final as of October 3, 2026 [407].
+
+    '
+  affects:
+  - total-small-business-set-aside
+  - commercial-product-or-service-buy
+  - agency-level-protest
+  - gao-bid-protest
+  - sam-registration
+  - sam-registration-uei
+  - cage-ncage
+  - reps-and-certs
+  - naics-size-at-offer
+  - section-889-fascsa
+  - disputes-with-a-prime
+  - reading-sam-gov
+  sources:
+  - 403
+  - 404
+  - 407
+  - 408
+- id: chg-far-1-109-sunset-dispute
+  date: '2026-06-23'
+  status: proposed
+  basis: primary
+  what: 'UNSETTLED; official texts differ. Executive Order 14275 section 6 has retained non-statutory provisions
+    expire 4 years after the final rule''s effective date unless renewed by the FAR Council [386]. The model deviation
+    text of FAR 1.109 (issued May 2, 2025; class deviation) reads: "All FAR sections that are not required by statute
+    must expire 4 years after the effective date of the sections, unless renewed" [392]. The preamble to the June
+    23, 2026 proposed rule (FAR Case 2026-001) describes review by rulemaking instead: "Sections, provisions and
+    clauses do not expire until removed from the Code of Federal Regulations through rulemaking" [403]. The proposed
+    regulatory text of 1.109 was not read, only the preamble; the status recorded is that of the proposal.
+
+    '
+  affects:
+  - total-small-business-set-aside
+  sources:
+  - 386
+  - 392
+  - 403
+- id: chg-nitaac-sunset
+  date: '2026-06-09'
+  status: announced
+  basis: primary-partial
+  what: 'NITAAC''s home page carries a notice dated June 9, 2026 covering CIO-SP3, CIO-SP3 Small Business and CIO-CS,
+    opening "Following a strategic review aligned with Executive Order 14240 and OMB Memorandum M-25-31"; the full
+    notice could not be fetched [546]. The CIO-SP3 page says the contract "has been additionally extended to 10/29/26,
+    with an ordering period of performance through 10/29/2031" [547]. SECONDARY ONLY for the terms: October 29,
+    2026 as the final day for new orders under any NITAAC GWAC, no orders extending past December 31, 2028, and
+    NITAAC functions shut down on that date [548].
+
+    '
+  affects:
+  - nitaac-cio-sp
+  sources:
+  - 546
+  - 547
+  - 548
+- id: chg-mas-refresh-32
+  date: 2026-06
+  status: final
+  basis: primary
+  what: 'MAS Refresh 32 (June 2026) is the latest refresh listed, with no later one posted on 2026-10-03 [484].
+    It implements Executive Order 14398 (March 26, 2026) through GSA class deviation RFO-2025-12 Supplement 26-02
+    dated April 20, 2026, limits drones to DCMA''s Blue UAS Cleared List, retires SIN 311423 and adds SIN 518210GM
+    [488].
+
+    '
+  affects:
+  - gsa-mas
   - blue-uas-cleared-list
   sources:
-  - 1288
+  - 484
+  - 488
+- id: chg-pl-119-83-reauthorization
+  date: '2026-04-13'
+  status: final
+  basis: primary
+  what: 'Pub. L. 119-83, the Small Business Innovation and Economic Security Act (S. 3971; 140 Stat. 755), approved
+    April 13, 2026, extends SBIR and STTR from September 30, 2025 to September 30, 2031 and lets an agency carry
+    unspent fiscal year 2026 set-aside funds into fiscal year 2027 [1]. It adds strategic breakthrough awards of
+    "not more than $30,000,000 to a small business concern, including its affiliates", with a period of performance
+    of not more than 48 months and not less than 100 percent matching funds [1] [2]; adds the Department of Energy
+    and NASA to the Direct to Phase II agencies [2]; sets technical and business assistance at not more than $6,500
+    per Phase I project and $50,000 per Phase II project, with the awardee choosing the provider [2]; and adds security-risk
+    denial grounds tied to eight named lists [1]. Implementations found: HHS foreign disclosure policy NOT-OD-26-074
+    and assistance limits NOT-OD-26-075, both April 20, 2026 [142] [143]; NIH strategic breakthrough announcement
+    PA-27-101 [140]; NSF 26-510, strategic breakthrough by invitation to Phase II awardees [35].
+
+    '
+  affects:
+  - sbir-sttr-governmentwide
+  - direct-to-phase-ii
+  - strategic-breakthrough-awards
+  - strategic-breakthrough-award
+  - technical-business-assistance
+  - taba
+  - foreign-disclosure-security-review
+  - nih-sbir-sttr-grants
+  - nsf-sbir-sttr
+  - dow-sbir-sttr
+  sources:
+  - 1
+  - 2
+  - 35
+  - 140
+  - 142
+  - 143
+- id: chg-sbir-proposal-limits-fy2027
+  date: '2026-04-13'
+  status: pending-implementation
+  basis: primary
+  what: 'Section 4 of Pub. L. 119-83: starting fiscal year 2027 each agency''s program director must set, equally
+    for all small business concerns, a limit on the number of Phase I and Phase II proposals a concern may submit
+    (per fiscal year, per solicitation or per topic), not later than 90 days before the start of fiscal year 2027;
+    the statute fixes no number [1] [2]. Only HHS''s limit was found: a maximum of nine new and resubmission Phase
+    I, Fast-track and Direct to Phase II applications and contract proposals per small business concern per fiscal
+    year across all HHS components, for due dates on or after April 13, 2026 (NOT-OD-26-090, July 10, 2026, replacing
+    NOT-OD-26-073 of April 20, 2026, which was rescinded) [29] [28]. AFWERX says it follows what OUSW sets, starting
+    FY27 [61]. No other agency''s FY2027 limit was found in the sweep.
+
+    '
+  affects:
+  - proposal-cap
+  - sbir-sttr-governmentwide
+  - nih-sbir-sttr-grants
+  - nih-sbir-contracts
+  - cdc-sbir
+  - fda-sbir
+  - dow-sbir-sttr
+  - afwerx-sbir-sttr
+  - nsf-sbir-sttr
+  - nasa-sbir-sttr
+  - doe-sbir-sttr
+  - usda-nifa-sbir-sttr
+  - dot-sbir
+  - dhs-sbir
+  - epa-sbir
+  - ed-ies-sbir
+  - nist-sbir
+  - noaa-sbir
+  sources:
+  - 1
+  - 2
+  - 28
+  - 29
+  - 61
+- id: chg-sbir-directive-and-phase-iii-pending
+  date: '2026-04-13'
+  status: pending-implementation
+  basis: primary
+  what: 'Pieces of Pub. L. 119-83 with no implementing document found as of October 3, 2026. SBA must modify the
+    policy directives within 1 year of enactment, that is by April 13, 2027, for the Phase III and Procurement Center
+    Representative changes [1]; the SBIR.gov policies page still posts the May 2023 Policy Directive and makes no
+    mention of the Act [7]. SBA is to establish Phase III training for contracting officers, and agencies are to
+    develop simplified and standardized procedures and model contracts for Phase I, II and III [1]. The SBIR.gov
+    database must classify Direct to Phase II, subsequent Phase II, strategic breakthrough and Phase III prime or
+    subcontract awards, and FPDS must capture Phase III designations [2]. The posted directive still limits Direct
+    to Phase II to NIH, DoD and the Department of Education, SBIR only [5]. The Act does not amend the data-rights
+    rules [2].
+
+    '
+  affects:
+  - sbir-sttr-governmentwide
+  - sbir-sttr-phase-iii
+  - phase-iii-award
+  - procurement-center-representative
+  - direct-to-phase-ii
+  - sequential-phase-ii
+  - data-rights-marking
+  sources:
+  - 1
+  - 2
+  - 5
+  - 7
+- id: chg-mas-tdr-mandatory
+  date: '2026-04-02'
+  status: final
+  basis: primary
+  what: '"Beginning with Refresh 31, TDR will be mandatory for all SINs under the Multiple Award Schedule" [487].
+    Refresh 31 was released April 2, 2026; existing contractors accept mass modification A909 within 60 days and
+    then the Participate in TDR modification; grace and trial periods run July 1, 2026 through December 31, 2026
+    [490]. Transactional Data Reporting replaces Commercial Sales Practice disclosures and Price Reduction tracking,
+    and does not apply to VA Schedule contracts [489].
+
+    '
+  affects:
+  - gsa-mas
+  sources:
+  - 487
+  - 489
+  - 490
+- id: chg-dowi-5000-02-april-2026
+  date: 2026-04
+  status: final
+  basis: unread
+  what: 'TEXT UNREAD: the official policy list shows "DoWI 5000.02, Operation of the Adaptive Acquisition Framework
+    — April 2026" [1238]. A secondary tracking site gives the day and calls it a change: the 23 January 2020 instruction
+    "with 8 April 2026 Change" [1242]. The fetch returned the January 23, 2020 text with Change 1 of June 8, 2022,
+    so the content of the April 2026 change is not known [1241].
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1238
+  - 1241
+  - 1242
+- id: chg-challenge-gov-sunset
+  date: '2026-03-30'
+  status: final
+  basis: primary
+  what: '"The Challenge.gov platform was sunset on March 30, 2026. The content has moved to other government websites."
+    [276] The public hub is now USA.gov/challenges, whose list shows only "select challenges and prize competitions
+    that are active now" [1405] [1406]; agencies promote challenges and manage applications themselves [276].
+
+    '
+  affects:
+  - federal-prizes-after-challenge-gov
+  - dhs-prize-competitions
+  - prize-eligibility-rules
+  - dot-arpa-i-faa-ot
+  sources:
+  - 276
+  - 1405
+  - 1406
+- id: chg-pae-stand-up-2026
+  date: '2026-03-16'
+  status: final
+  basis: primary
+  what: 'PAE organisations stood up in 2026: Army Portfolio Acquisition Fires activated three Capability Program
+    Executives on February 17, 2026 [1279]; the Navy established five PAE organisations on March 16, 2026, PAE Robotics
+    and Autonomous Systems having been created in December 2025 [1277]; three more on May 11, 2026 made nine Department
+    of the Navy PAEs [1278]. The Air Force article returned 403.
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  - navalx-tech-bridges
+  sources:
+  - 1277
+  - 1278
+  - 1279
+- id: chg-fpds-ezsearch-decommissioned
+  date: '2026-02-24'
+  status: final
+  basis: primary
+  what: 'RETIRED. FPDS ezSearch was decommissioned February 24, 2026: "All contract award data that was previously
+    available in FPDS.gov is now available in SAM.gov." [584] The page says the ATOM feed will be replaced by the
+    SAM.gov Contract Awards API on open.gsa.gov [584].
+
+    '
+  affects:
+  - reading-sam-gov
+  - market-research-firm-side
+  - ots-in-public-data
+  sources:
+  - 584
+- id: chg-esrs-decommissioned
+  date: '2026-02-20'
+  status: final
+  basis: primary
+  what: 'RETIRED. eSRS.gov was decommissioned on February 20, 2026 and subcontracting reporting moved to SAM.gov
+    [721] [701]; the SAM.gov page states "The Electronic Subcontracting Reporting System (eSRS.gov) retired in February
+    2026." [720] Filers need a SAM.gov Administrator or Data Entry role for Subcontracting Plan Reporting [720].
+    By class deviation: GSA''s Supplement 1 to Class Deviation RFO-2025-19 (February 20, 2026) extends the ISR due
+    date to 45 days [699], and NRC''s Supplement 1 (March 5, 2026) does the same, "from 30 days after the reporting
+    period to 45 days" [700]; other agencies are expected to issue similar deviations [701]. Official text that
+    lags: codified FAR 19.704(a)(10) still names eSRS and a 30-day ISR due date [436]; 13 CFR 125.3 gives 45 days
+    and names eSRS or any successor system [704].
+
+    '
+  affects:
+  - subcontracting-plan-reporting-sam
+  - subcontracting-under-prime-plan
+  sources:
+  - 436
+  - 699
+  - 700
+  - 701
+  - 704
+  - 720
+  - 721
+- id: chg-awrs-2026
+  date: '2026-02-03'
+  status: announced
+  basis: primary
+  what: 'The Acquisition Workforce Reform Strategy carries a cover date of February 3, 2026; "2026-06" appears only
+    in its hosting path [1272]. It has four pillars and Field Training Teams, gives no numeric targets or deadlines,
+    and says almost nothing on industry entry [1272]. This corrects the project''s sketch, which dated it June 2026.
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1272
+- id: chg-cio-sp4-cancelled
+  date: '2026-01-30'
+  status: announced
+  basis: secondary-only
+  what: 'SECONDARY ONLY: trade press reports that the CIO-SP4 cancellation was notified on January 30, 2026 in a
+    Court of Federal Claims filing [549]. No primary notice of the cancellation was read.
+
+    '
+  affects:
+  - nitaac-cio-sp
+  sources:
+  - 549
+- id: chg-8a-audit-suspensions
+  date: '2026-01-28'
+  status: announced
+  basis: primary
+  what: 'SBA''s 8(a) program audit, as SBA''s own news releases give it: audit ordered June 27, 2025 [318]; all
+    4,300 participants ordered on December 5, 2025 to provide financial records [319]; 1,091 firms suspended January
+    28, 2026 [321]; termination proceedings against 154 Washington, D.C. firms February 11, 2026 [322]; termination
+    proceedings against 628 firms March 4, 2026, nearly 800 in total [323].
+
+    '
+  affects:
+  - 8a-business-development
+  - 8a-sole-source-and-competition
+  sources:
+  - 318
+  - 319
+  - 321
+  - 322
+  - 323
+- id: chg-recertification-125-12
+  date: '2026-01-17'
+  status: final
+  basis: primary
+  what: '13 CFR 125.12, created by final rule 89 FR 102448 (RIN 3245-AH68; rule effective January 16, 2025) [292],
+    requires recertification of size and program status "within 30 calendar days" of a merger, acquisition or sale
+    that changes controlling interest, and on contracts over five years "no more than 120 days prior to the end
+    of the fifth year" [291]. Paragraph (g) uses January 17, 2026 as the transition date: disqualifying recertifications
+    from events before that date leave the firm eligible for orders under small-business multiple-award contracts,
+    though agencies cannot count new orders toward goals [291]. A joint venture may recertify as small where all
+    parties are small, or the protégé is small in a mentor-protégé joint venture [291].
+
+    '
+  affects:
+  - recertification-size-status
+  - size-at-subcontract
+  - joint-venture-set-aside
+  - size-standards
+  sources:
+  - 291
+  - 292
 - id: chg-ndaa-fy26-1802-pae
   date: '2025-12-18'
   status: final
@@ -289,6 +690,470 @@
   sources:
   - 806
   - 1108
+- id: chg-dod-rfo-class-deviations
+  date: '2025-12-18'
+  status: class-deviation
+  basis: primary
+  what: 'DoD''s index of overhaul class deviations lists FAR 12 / DFARS 212 (2026-O0028) and FAR 13 / DFARS 213
+    (2026-O0029), both dated 18 December 2025; FAR 40 / DFARS 240 (2026-O0025), 18 December 2025; FAR 19 / DFARS
+    219 (2026-O0037), 21 January 2026; and FAR 16 / DFARS 216 (2026-O0045), 20 February 2026 [401]. Deviation 2026-O0028
+    is effective February 1, 2026 [1046]; the Part 6 deviation 2026-O0017 is effective February 1, 2026 [227]; the
+    Part 15 deviation 2026-O0048 is effective March 16, 2026 [1047]. The acquisition university''s log records DoD''s
+    final class deviations (Parts 8, 15, 16, 42, 45 and 47) as effective 16 March 2026, and later revisions in July
+    2026 [410].
+
+    '
+  affects:
+  - commercial-product-or-service-buy
+  - simplified-acquisition-and-micro-purchase
+  - order-set-aside-multiple-award
+  - defense-commercial-solutions-opening
+  - phase-iii-award
+  - section-889-fascsa
+  - basic-safeguarding-nist-800-171
+  - cmmc
+  - nontraditional-defense-contractor
+  sources:
+  - 227
+  - 401
+  - 410
+  - 1046
+  - 1047
+- id: chg-ndaa-fy26-1823-dfars-pending
+  date: '2025-12-18'
+  status: pending-implementation
+  basis: primary
+  what: 'Implementation gap for Pub. L. 119-60 section 1823 (the statute as amended is recorded in chg-ndaa-fy26-1823-cso
+    [1033]): codified DFARS Subpart 212.70 (DFARS Change 05/07/2026) still implements 10 U.S.C. 3458 "for the acquisition
+    of innovative commercial products or commercial services through the use of a general solicitation known as
+    a commercial solutions opening (CSO)" and still requires senior procurement executive approval to award a contract
+    in excess of $100 million; no deviation notice appears on the page [1040]. DoD class deviation 2026-O0028, effective
+    February 1, 2026, keeps 212.7000 to 212.7002 with the "innovative" wording [1046]. SECONDARY ONLY: a law-firm
+    tracker identifies no deviation implementing section 1823 [1048].
+
+    '
+  affects:
+  - defense-commercial-solutions-opening
+  - tradewinds-solutions-marketplace
+  - ussocom-sof-atl-cso
+  - diu-cso
+  sources:
+  - 1033
+  - 1040
+  - 1046
+  - 1048
+- id: chg-ndaa-fy26-1826-note-and-deviations
+  date: '2025-12-18'
+  status: final
+  basis: primary
+  what: 'Supplements chg-ndaa-fy26-1826, which marks the section''s content secondary-only. The statutory note at
+    10 U.S.C. 3014 sets out Pub. L. 119-60 section 1826 (Dec. 18, 2025, 139 Stat. 1249), read in full on recheck:
+    for DoD contracts, subcontracts or agreements, "products and services provided by nontraditional defense contractors
+    (as defined in section 3014 of title 10, United States Code) shall be exempt" from ten listed requirements,
+    among them 10 U.S.C. 3702 and FAR Part 31; the exemption may be waived by written determination approved by
+    the head of the contracting activity, with notice to the congressional defense committees not later than 60
+    days after a waiver; the note states no effective date and no dollar threshold, and the definition in section
+    3014 itself is not amended [1032]. Implementation by class deviation: the acquisition university''s entry of
+    July 24, 2026 says DFARS Part 215 Revision 1 implements section 1826 (nontraditional defense contractors exempt
+    from certified cost or pricing data unless waived) [410]; the original Part 215 deviation 2026-O0048, effective
+    March 16, 2026, carries no reference to section 1826 in the text read [1047]. SECONDARY ONLY: a law-firm tracker
+    dates 2026-O0048 Rev 1 to July 22, 2026 and reports further deviations for Parts 230, 231 and 234 [1048]. The
+    deviation memos were not read.
+
+    '
+  affects:
+  - nontraditional-defense-contractor
+  - prototype-ot
+  - ot-payable-milestones-cost-share
+  - diu-cso
+  sources:
+  - 410
+  - 1032
+  - 1047
+  - 1048
+- id: chg-blue-uas-to-dcma
+  date: '2025-12-03'
+  status: final
+  basis: primary
+  what: 'The Blue UAS Cleared List moved from DIU to the Defense Contract Management Agency effective December 3,
+    2025, ahead of a January 1, 2026 deadline, with 81 companies, 39 Blue UAS systems and 165 components as of November
+    19, 2025 [1288].
+
+    '
+  affects:
+  - blue-uas-cleared-list
+  sources:
+  - 1288
+- id: chg-cmmc-dfars-rule
+  date: '2025-11-10'
+  status: final
+  basis: primary
+  what: 'DFARS Case 2019-D041 (90 FR 43560, published September 10, 2025) took effect November 10, 2025: through
+    November 9, 2028 CMMC applies where program managers and requiring activities decide to apply it, and on or
+    after November 10, 2028 wherever the contractor will process, store or transmit FCI or CUI; awards solely for
+    COTS items are excluded [622]. 32 CFR 170.3 sets four phases; Phase 1 "Begins on the effective date of the complementary
+    48 CFR part 204 CMMC Acquisition final rule." and each later phase begins one calendar year after the one before
+    [623]. DoD Class Deviation 2026-O0025 (18 December 2025) adopts overhaul Part 40 with DFARS Part 240 [401].
+    Phase II was suspended on July 13, 2026 (see chg-cmmc-phase-ii-suspended) [625].
+
+    '
+  affects:
+  - cmmc
+  - basic-safeguarding-nist-800-171
+  - flow-down-clauses
+  - dow-sbir-sttr
+  sources:
+  - 401
+  - 622
+  - 623
+  - 625
+- id: chg-acquisition-transformation-strategy
+  date: '2025-11-07'
+  status: announced
+  basis: primary
+  what: 'On November 7, 2025 the Secretary of War announced three memoranda and the Acquisition Transformation Strategy
+    [1263]. The 39-page strategy, posted November 10, 2025 and read in full, has five pillars, gives portfolio acquisition
+    executives "expanded authorities for resourcing, requirements, and acquisition decisions within prescribed portfolios"
+    (p. 15), directs OT authority "for prototype and follow-on production efforts where in the best interest of
+    the warfighter and the taxpayer" (p. 10), keeps MTA while eliminating its Advisory Boards (p. 20), and proposes
+    portfolio scorecards (p. 21) [1264].
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1263
+  - 1264
+- id: chg-was-memo
+  date: '2025-11-07'
+  status: announced
+  basis: secondary-only
+  what: 'SECONDARY ONLY: the memorandum "Transforming the Defense Acquisition System into the Warfighting Acquisition
+    System to Accelerate Fielding of Urgently Needed Capabilities to Our Warriors" is named in the official release
+    [1263]; its PDF returned 403 twice. A third-party-hosted copy or digest reports implementing guidance in 30
+    days, Military Department PAE implementation plans in 60 days, commercial-first guidance in 90 days and other
+    reforms in 180 days, with PAE terms of four years and a possible two-year extension [1265]. Law-firm digests
+    give differing day counts [1266] [1267] [1269] [1270]. None is confirmed against the memo.
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1263
+  - 1265
+  - 1266
+  - 1267
+  - 1269
+  - 1270
+- id: chg-fss-ordering-to-gsar-538-71
+  date: '2025-11-03'
+  status: class-deviation
+  basis: primary
+  what: 'GSA Class Deviation RFO-2025-FSS-GSAR 538, issued August 13, 2025 and effective November 3, 2025, relocates
+    Federal Supply Schedule ordering procedures from FAR subpart 8.4 to GSAR subpart 538.71, retaining the requirement
+    to seek at least three quotes above the micro-purchase threshold and the consideration of small businesses [503].
+    GSA''s buyer page gives GSAR subpart 538.71 as the home of ordering and BPA procedures [504]; the overhaul Part
+    8 model text points to subpart 538.71 [522]; MAS Refresh 30 (November 2025) added a statement directing users
+    to gsa.gov for the procedures [486]. Codified FAR 8.405-5, where order set-asides are at the ordering contracting
+    officer''s discretion, remains in the Code [502]. In rulemaking: FAR Case 2026-003 (proposed September 18, 2026)
+    would codify the overhaul of Part 8 [521], and a GSAR proposed rule on Federal Supply Schedule ordering procedures
+    (FR Doc. 2026-19331, September 22, 2026) appears in the Federal Register search [407].
+
+    '
+  affects:
+  - gsa-mas
+  - order-set-aside-multiple-award
+  sources:
+  - 407
+  - 486
+  - 502
+  - 503
+  - 504
+  - 521
+  - 522
+- id: chg-far-thresholds-2025-10-01
+  date: '2025-10-01'
+  status: final
+  basis: primary
+  what: 'Final rule 90 FR 41872 (FAR Case 2024-001, FAC 2025-06), published August 27, 2025 and effective October
+    1, 2025, raised the micro-purchase threshold from $10,000 to $15,000; the simplified acquisition threshold from
+    $250,000 to $350,000; the commercial simplified procedures ceiling (FAR 13.500) from $7,500,000 to $9,000,000;
+    the subcontracting plan threshold from $750,000 to $900,000 (construction $1,500,000 to $2,000,000); the 8(a)
+    sole-source justification threshold (FAR 6.204) from $25,000,000 to $30,000,000; and certified cost or pricing
+    data from $2,000,000 to $2,500,000 [340] [417]. Not adjusted: Construction Wage Rate Requirements, Service Contract
+    Labor Standards, performance and payment bonds, and trade agreements thresholds [340]. Official text that lags:
+    13 CFR 125.3 still prints $750,000 and $1,500,000 for subcontracting plans [704]. Later statute: 10 U.S.C. 3702
+    reads $10,000,000 for prime contracts entered after June 30, 2026 (see chg-ndaa-fy26-1804-tina) [1036].
+
+    '
+  affects:
+  - simplified-acquisition-and-micro-purchase
+  - total-small-business-set-aside
+  - commercial-product-or-service-buy
+  - subcontracting-under-prime-plan
+  - 8a-sole-source-and-competition
+  - flow-down-clauses
+  - reading-sam-gov
+  - civilian-procurement-model
+  sources:
+  - 340
+  - 417
+  - 704
+  - 1036
+- id: chg-sbir-sttr-lapse
+  date: '2025-10-01'
+  status: final
+  basis: primary
+  what: 'SBIR/STTR authority lapsed: 15 U.S.C. 638(m) in the 2024 edition ends the authorization on September 30,
+    2025 [3], and NIH states the legislative authority "expired on October 1, 2025" [27]. On November 17, 2025 NIH
+    expired all 24 listed SBIR/STTR funding opportunities and said it would issue no noncompeting continuation awards
+    until reauthorization [27]. CRS describes a six-month lapse [59]. The lapse ended with Pub. L. 119-83 on April
+    13, 2026 (see chg-pl-119-83-reauthorization) [1].
+
+    '
+  affects:
+  - sbir-sttr-governmentwide
+  - nih-sbir-sttr-grants
+  - dow-sbir-sttr
+  sources:
+  - 1
+  - 3
+  - 27
+  - 59
+- id: chg-rfo-part-19-class-deviations
+  date: '2025-09-26'
+  status: class-deviation
+  basis: primary
+  what: 'RFO Part 19 model deviation text was issued September 26, 2025 [391]. GSA adopted it by Class Deviation
+    RFO-2025-19, issued September 26, 2025 and effective November 3, 2025, in effect until rescinded or incorporated
+    into the FAR [400]. DoD adopted it by Class Deviation 2026-O0037 (dated 21 January 2026 on DoD''s index), effective
+    February 1, 2026, with a deviation DFARS Part 219; under it an 8(a) contract "may be awarded directly to the
+    8(a) participant; an SBA signature on the contract is not required." [401] [402] The model text states the total
+    set-aside rule once at 19.104-1, makes order set-asides permissive at 19.111-2, keeps sole-source caps of $8.5
+    million / $5.5 million (HUBZone, WOSB/EDWOSB, and the 8(a) competition threshold) and $8.5 million / $5 million
+    (SDVOSB), and requires a subcontracting plan above $900,000 ($2 million for construction of a public facility)
+    at 19.109 [391]. No Part 19 proposed rule had been published as of October 3, 2026 [407].
+
+    '
+  affects:
+  - total-small-business-set-aside
+  - partial-set-aside
+  - order-set-aside-multiple-award
+  - 8a-sole-source-and-competition
+  - hubzone-sole-source-and-price-preference
+  - sdvosb-sole-source-and-va-veterans-first
+  - wosb-edwosb-sole-source
+  - subcontracting-under-prime-plan
+  - joint-venture-set-aside
+  - 8a-business-development
+  - hubzone
+  - wosb-edwosb
+  - vosb-sdvosb-vetcert
+  - size-standards
+  - recertification-size-status
+  - nonmanufacturer-rule
+  sources:
+  - 391
+  - 400
+  - 401
+  - 402
+  - 407
+- id: chg-navalx-into-nrco
+  date: 2025-08
+  status: final
+  basis: primary
+  what: 'NavalX was folded into the Naval Rapid Capabilities Office in August 2025; the office consolidates NavalX,
+    the Disruptive Capabilities Office, the Maritime Accelerated Response Capability Cell and Replicator activities,
+    with Tech Bridges among its focus areas [1280].
+
+    '
+  affects:
+  - navalx-tech-bridges
+  sources:
+  - 1280
+- id: chg-rfo-model-deviation-text
+  date: '2025-05-02'
+  status: class-deviation
+  basis: primary
+  what: 'Phase one of the FAR overhaul: the FAR Council released model deviation text part by part, beginning with
+    Part 1 on May 2, 2025 (updated March 16, 2026); Parts 4 and 12 on August 14, 2025; Part 5 on August 8, 2025;
+    Part 9 on August 21, 2025; Part 7 on September 4, 2025; Part 13 on September 18, 2025; Part 15 on September
+    30, 2025 [389]. The acquisition university''s log records the September 30, 2025 release (Parts 15, 16, 22,
+    23, 25, 32, 42 and 53) as completing all parts, and a November 7, 2025 release of all model text with FAR Companion
+    2.0 [410]. Model text for Parts 1, 5, 10, 22, 25 and 52 was updated March 16, 2026 for the trade agreements
+    thresholds final rule (FAR Case 2025-007), effective March 13, 2026 [575]. Each agency adopts the text by its
+    own class deviation; the codified FAR stands at FAC 2026-01, effective 03/13/2026 [418].
+
+    '
+  affects:
+  - total-small-business-set-aside
+  - commercial-product-or-service-buy
+  - simplified-acquisition-and-micro-purchase
+  - sam-registration-uei
+  - buy-american-taa
+  - reading-sam-gov
+  - responding
+  - market-research-firm-side
+  - civilian-procurement-model
+  sources:
+  - 389
+  - 410
+  - 418
+  - 575
+- id: chg-eo-14275-far-overhaul
+  date: '2025-04-15'
+  status: final
+  basis: primary
+  what: 'Executive Order 14275, Restoring Common Sense to Federal Procurement, was signed April 15, 2025 and published
+    April 18, 2025 (FR Doc. 2025-06839) [386]. Section 4 directs that the FAR be amended within 180 days so that
+    it contains only provisions required by statute or otherwise necessary; section 6 has retained non-statutory
+    provisions expire 4 years after the final rule''s effective date unless renewed by the FAR Council [386]. OMB
+    Memorandum M-25-26 set two phases: model class deviations, then rulemaking [403].
+
+    '
+  affects:
+  - total-small-business-set-aside
+  - simplified-acquisition-and-micro-purchase
+  - commercial-product-or-service-buy
+  - civilian-procurement-model
+  - reading-sam-gov
+  - responding
+  sources:
+  - 386
+  - 403
+- id: chg-eo-14265
+  date: '2025-04-09'
+  status: final
+  basis: primary
+  what: 'Executive Order 14265, Modernizing Defense Acquisitions and Spurring Innovation in the Defense Industrial
+    Base, was signed April 9, 2025 and published April 15, 2025 (90 FR 15621) [1262]. It set a reform plan due within
+    60 days (Sec. 3), an MDAP review within 90 days with programs more than 15% behind schedule or over cost considered
+    for cancellation (Sec. 6), and a workforce plan within 120 days, including field training teams (Sec. 5) [1262].
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1262
+- id: chg-eo-14240-gsa-consolidation
+  date: '2025-03-20'
+  status: final
+  basis: primary
+  what: 'Executive Order 14240, Eliminating Waste and Saving Taxpayer Dollars by Consolidating Procurement, signed
+    March 20, 2025 (90 FR 13671), directs consolidation of domestic procurement of common goods and services in
+    GSA: agency heads submit proposals within 60 days, the Administrator submits a comprehensive plan within 90
+    days, and "the Director of OMB shall designate the Administrator as the executive agent for all Government-wide
+    acquisition contracts for information technology" [509]. OMB M-25-31 (July 18, 2025) calls for model deviation
+    text mandating use of existing governmentwide contracts [510]. Neither document mentions small business in the
+    text fetched [509] [510]. What GSA itself says: small business goal credit follows the funding agency [513],
+    and on OneGov "OEMs serving as primes will be required to demonstrate meaningful subcontracting and partnering
+    opportunities with small businesses, consistent with federal small business goals." [519] References 510 and
+    513 were not re-read in the recheck pass.
+
+    '
+  affects:
+  - gsa-mas
+  - sewp-vi
+  - nitaac-cio-sp
+  - alliant-3
+  - polaris
+  - buyer-gsa
+  - civilian-procurement-model
+  sources:
+  - 509
+  - 510
+  - 513
+  - 519
+- id: chg-fsrs-retired
+  date: '2025-03-08'
+  status: final
+  basis: primary
+  what: 'RETIRED. "As of March 8th 2025, FSRS.gov has retired" [724]; online subaward reporting moved into SAM.gov,
+    as announced in advance [723]. Official text that lags: FAR subpart 4.14 still refers to FSRS as the reporting
+    system [697]. The reporting threshold differs between sources: $40,000 in FAR subpart 4.14 [697] and $30,000
+    in USAspending''s documentation [728].
+
+    '
+  affects:
+  - ffata-subaward-reporting
+  - finding-subcontract-work
+  sources:
+  - 697
+  - 723
+  - 724
+  - 728
+- id: chg-software-memo-2025-03
+  date: '2025-03-06'
+  status: final
+  basis: primary-partial
+  what: 'The Secretary''s memo "Directing Modern Software Acquisition to Maximize Lethality" is dated March 6, 2025
+    on the Software Acquisition pathway page [1252]. The November 2025 strategy restates it as making CSOs and OTs
+    "the default solicitation and award approaches for acquiring capabilities under the SWP" (p. 2) [1264], and
+    DIU''s account of it is dated March 7, 2025 [1255]. The memo PDF returned 403 and was not read.
+
+    '
+  affects:
+  - aaf-software-acquisition
+  - diu-cso
+  sources:
+  - 1252
+  - 1255
+  - 1264
+- id: chg-sdb-goal-reset
+  date: '2025-02-24'
+  status: announced
+  basis: primary
+  what: 'SBA''s release of February 24, 2025 states: "SBA has returned the 8(a) SDB contracting goal to its statutory
+    level of 5%." [317] The same release says the previous Administration had raised the goal to 15% [317]. The
+    statutory floor for socially and economically disadvantaged firms is not less than 5 percent [374]. SECONDARY
+    ONLY for the date of the reset: two sources put the FY2025 goal change at January 24, 2025 [377] [380].
+
+    '
+  affects:
+  - sdb-self-representation
+  - 8a-business-development
+  sources:
+  - 317
+  - 374
+  - 377
+  - 380
+- id: chg-dfars-sbir-data-rights
+  date: '2025-01-17'
+  status: final
+  basis: primary
+  what: 'DFARS Case 2019-D043, final rule published December 18, 2024 and effective January 17, 2025, replaced the
+    extendable 5-year protection period with "a single, non-extendable 20-year period" followed by perpetual government
+    purpose rights, and added provision 252.227-7040 and clause 252.227-7041 for STTR intellectual-property allocation
+    [233]. DFARS 252.227-7018 (AUG 2025) runs the protection period 20 years from contract award [24]. Official
+    text that lags: FAR 52.227-20 (May 2014) still gives 4 years [25]; FAR Case 2020-010, proposed April 7, 2023,
+    would change it to 20 years, and no final rule was found as of 2026-10-03 [228].
+
+    '
+  affects:
+  - data-rights-marking
+  - data-rights-as-a-subcontractor
+  - sbir-sttr-phase-iii
+  - phase-iii-award
+  sources:
+  - 24
+  - 25
+  - 228
+  - 233
 - id: chg-nsf-pfi-to-ttp
   date: '2025'
   status: final
@@ -302,100 +1167,51 @@
   sources:
   - 1401
   - 1402
-- id: chg-awrs-2026
-  date: '2026-02-03'
-  status: announced
-  basis: primary
-  what: 'The Acquisition Workforce Reform Strategy carries a cover date of February 3, 2026; "2026-06" appears only
-    in its hosting path [1272]. It has four pillars and Field Training Teams, gives no numeric targets or deadlines,
-    and says almost nothing on industry entry [1272]. This corrects the project''s sketch, which dated it June 2026.
-
-    '
-  affects:
-  - aaf-urgent-capability-acquisition
-  - aaf-middle-tier-of-acquisition
-  - aaf-major-capability-acquisition
-  - aaf-software-acquisition
-  - aaf-defense-business-systems
-  - aaf-acquisition-of-services
-  sources:
-  - 1272
-- id: chg-pae-stand-up-2026
-  date: '2026-03-16'
+- id: chg-collaboration-guidelines-withdrawn
+  date: '2024-12-11'
   status: final
   basis: primary
-  what: 'PAE organisations stood up in 2026: Army Portfolio Acquisition Fires activated three Capability Program
-    Executives on February 17, 2026 [1279]; the Navy established five PAE organisations on March 16, 2026, PAE Robotics
-    and Autonomous Systems having been created in December 2025 [1277]; three more on May 11, 2026 made nine Department
-    of the Navy PAEs [1278]. The Air Force article returned 403.
+  what: 'RETIRED. On December 11, 2024 the FTC and DOJ withdrew the Guidelines for Collaboration Among Competitors
+    (vote 3-2), saying they "no longer provide reliable guidance about how enforcers assess the legality of collaborations
+    involving competitors." [828] On February 23, 2026 the two agencies sought public comment toward guidance on
+    business collaborations (docket ATR-2026-0001; comments were due April 24, 2026); the listed topics do not name
+    government-contract teaming and no replacement guidance was found [829]. Offerors still certify independent
+    pricing under FAR 52.203-2 [765].
 
     '
   affects:
-  - aaf-urgent-capability-acquisition
-  - aaf-middle-tier-of-acquisition
-  - aaf-major-capability-acquisition
-  - aaf-software-acquisition
-  - aaf-defense-business-systems
-  - aaf-acquisition-of-services
-  - navalx-tech-bridges
+  - teaming-contractor-team-arrangements
+  - joint-venture-set-aside
   sources:
-  - 1277
-  - 1278
-  - 1279
-- id: chg-challenge-gov-sunset
-  date: '2026-03-30'
+  - 765
+  - 828
+  - 829
+- id: chg-dhs-ot-authority-sunset
+  date: '2024-09-30'
+  status: proposed
+  basis: primary
+  what: 'DHS''s other transaction authority at 6 U.S.C. 391 shows, in the text as displayed, a sunset of September
+    30, 2024 [1352]. A Senate committee report says the authority "expired on September 30, 2024" and that S. 4024
+    would extend it through fiscal year 2027 [1353]. No enacted extension was found in the sweep, so the status
+    recorded is that of the proposed extension.
+
+    '
+  affects:
+  - dhs-svip
+  sources:
+  - 1352
+  - 1353
+- id: chg-arpa-h-isos-replace-open-baa
+  date: '2024-03-15'
   status: final
   basis: primary
-  what: '"The Challenge.gov platform was sunset on March 30, 2026. The content has moved to other government websites."
-    [276] The public hub is now USA.gov/challenges, whose list shows only "select challenges and prize competitions
-    that are active now" [1405] [1406]; agencies promote challenges and manage applications themselves [276].
+  what: 'ARPA-H announced four Mission Office Innovative Solutions Openings on March 15, 2024: "Awards made from
+    each Mission Office ISO will generally be in the form of other transactions." [1382] Per the sweep''s summary
+    of the announcement they replaced the agency-wide Open BAA [1382], which had been announced March 15, 2023 [1383].
 
     '
   affects:
-  - federal-prizes-after-challenge-gov
-  - dhs-prize-competitions
-  - prize-eligibility-rules
-  - dot-arpa-i-faa-ot
+  - arpa-h-mission-office-isos
   sources:
-  - 276
-  - 1405
-  - 1406
-- id: chg-dowi-5000-02-april-2026
-  date: 2026-04
-  status: final
-  basis: unread
-  what: 'TEXT UNREAD: the official policy list shows "DoWI 5000.02, Operation of the Adaptive Acquisition Framework
-    — April 2026" [1238]. A secondary tracking site gives the day and calls it a change: the 23 January 2020 instruction
-    "with 8 April 2026 Change" [1242]. The fetch returned the January 23, 2020 text with Change 1 of June 8, 2022,
-    so the content of the April 2026 change is not known [1241].
-
-    '
-  affects:
-  - aaf-urgent-capability-acquisition
-  - aaf-middle-tier-of-acquisition
-  - aaf-major-capability-acquisition
-  - aaf-software-acquisition
-  - aaf-defense-business-systems
-  - aaf-acquisition-of-services
-  sources:
-  - 1238
-  - 1241
-  - 1242
-- id: chg-pl-119-106-ot-reporting
-  date: '2026-09-11'
-  status: pending-implementation
-  basis: primary
-  what: 'Pub. L. 119-106, the Stop Secret Spending Act of 2025 (enactment date as extracted by the fetch), amends
-    the Federal Funding Accountability and Transparency Act so that other transaction agreements are reported on
-    USAspending.gov: a compilation report within 1 year; "data relating to other transaction agreements is automatically
-    transmitted to the website" within 3 years; an implementation plan to Congress within 2 years if not compliant;
-    inspector general reports within 1 year and at least every 2 years for 10 years [1421]. GAO had found over $40
-    billion in OTAs not reported to USAspending.gov [1129].
-
-    '
-  affects:
-  - ot-payment-reporting
-  - consortium-project-agreement
-  sources:
-  - 1129
-  - 1421
+  - 1382
+  - 1383
