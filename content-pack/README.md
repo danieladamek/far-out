@@ -1,13 +1,13 @@
 # FAR Out content pack — state
 
-**As of 2026-10-03 (late night).** `mode: topic` with extension files. Standard files follow `docs/CONTENT-PACK.md`; the extension schema is in `source/far-out-pack-schema.md` (draft v0.1). All four route families are swept, the pack is consolidated, and the live recheck has run over all 1,324 cited references (6 remain host-blocked).
+**As of 2026-10-03 (late night).** `mode: topic` with extension files. Standard files follow `docs/CONTENT-PACK.md`; the extension schema is in `source/far-out-pack-schema.md` (draft v0.1). All four route families are swept, consolidated and rechecked; review.md, glossary, concepts, figures and the pathfinder are written; `tools/validate_pack.py` passes with 0 errors (warnings only: references cited in record files rather than prose, and the concept section heading "How this guide uses it").
 
 ## What is here
 
 | File | Entries | Covers |
 |---|---|---|
 | `references.yaml` | 1,427 after URL dedupe, numbered 1–1427 (each carries `prev_n` from the sweep numbering; `source/recheck/nmap-old-to-new.json` maps them) | all four families |
-| `routes.yaml` | 43 | set-aside and sole-source mechanisms, simplified and commercial buys, protests; subcontracting, teaming, JVs, SBA and DoD mentor-protégé, agency MPPs; CRADA, PIA, licensing, Manufacturing USA, STTR partner; prototype, research and follow-on OTs, defense CSO, BAA, consortium membership, civilian OT authorities |
+| `routes.yaml` | 50 | set-aside and sole-source mechanisms, simplified and commercial buys, protests; subcontracting, teaming, JVs, SBA and DoD mentor-protégé, agency MPPs; CRADA, PIA, licensing, Manufacturing USA, STTR partner; prototype, research and follow-on OTs, defense CSO, BAA, consortium membership, civilian OT authorities |
 | `programs.yaml` | 134 | SBIR/STTR programs and front doors; contract vehicles; 33 OT consortia and 4 managers; CSO and innovation front doors; civilian agreement routes |
 | `certifications.yaml` | 8 | 8(a), HUBZone, WOSB/EDWOSB, VOSB/SDVOSB, SDB, size standards, affiliation, nontraditional defense contractor |
 | `gates.yaml` | 60 | registrations and portals, reps and certs, Section 889/FASCSA, NIST 800-171, CMMC (rule and suspension separate), accounting, clearance, export, bonding, labor, payment; subcontracting reporting, FFATA, JV agreement, affiliation, recertification; prompt/accelerated payment, Miller Act, flow-downs, data rights as a sub, disputes with a prime; OT protests, IP in OTs, OT thresholds, OT agreement structure, milestones and cost share, audit, OT payment, OT cybersecurity, consortium project agreement, prize eligibility |
@@ -19,7 +19,7 @@
 | `queries.yaml` | 674 | every search run, with links returned; renders on `/methods` |
 | `todo.yaml` | 478 | gaps, conflicts, unverified pages; `tr-*` items are facts the recheck contradicted; duplicate-URL and id-collision items are resolved and removed |
 
-Not yet written: `manifest.yaml`, `scope.yaml`, `review.md`, `glossary.yaml`, `concepts/`, `figures.yaml`, routes for the SBIR/STTR family, the pathfinder data, `changes.yaml` entries for the first three families.
+Also written 2026-10-04: `manifest.yaml`, `scope.yaml` (674 queries, interview, corpus profile), `review.md` (abstract + nine chapters, 7,668 words, 296 sources cited), `glossary.yaml` (200 terms; `domain` carries the pack's own kind vocabulary), `concepts/` (8 explainers), `figures.yaml` (8 synthesised figures with CSV/JSON data and matplotlib scripts), `pathfinder.yaml`, seven SBIR/STTR routes, `changes.yaml` (55 entries). Reference tiers were remapped for the validator: 12 governing texts are `seminal` with `why_it_mattered`; other statutes, regulations and reports are `background` with `tier_note` keeping the sweep tier.
 
 **Standing rules (2026-10-03):** cite codified FAR/DFARS section numbers as primary and record the overhaul's deviation numbering under `pending_changes` as `class-deviation` with date · where official sources disagree, carry both figures with citations and a `conflicts` line · secondary sources never carry a fact alone · a front door whose latest primary source predates 2025 or whose site does not resolve is `status: unconfirmed`.
 
