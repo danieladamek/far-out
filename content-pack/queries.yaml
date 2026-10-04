@@ -1,4 +1,4 @@
-# queries.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# queries.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
 - text: SBIR STTR reauthorization 2026 public law signed
   engine: WebSearch
   hits: 9
@@ -2594,3 +2594,1068 @@
   hits: 9
   date: '2026-10-03'
   slice: PD
+- text: 10 U.S.C. 4022 authority of the Department of Defense to carry out certain prototype projects text
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: DoD Other Transactions Guide latest version 2023 OR 2024 OR 2025 OR 2026 acq.osd.mil
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OA
+- text: FY2026 NDAA nontraditional defense contractor small business 10 U.S.C. 3014 amendment section
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: FY2026 NDAA commercial solutions opening 10 U.S.C. 3458 amendment follow-on production commercial products
+    and services
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OA
+- text: aaf.waru.edu other transactions OT guide
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: Public Law 119-60 National Defense Authorization Act for Fiscal Year 2026 govinfo text PLAW
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: '"section 1826" NDAA 2026 "nontraditional defense contractor" small business "3014" amended definition "small
+    business concern"'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: class deviation 2026 "nontraditional defense contractors" section 1826 DFARS exemptions DPCAP
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OA
+- text: class deviation 2026 commercial solutions opening DFARS 212.70 section 1823 "class deviation"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: acquisition.gov DFARS 212.70 Defense Commercial Solutions Opening 212.7000 scope
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: DFARS 212.102 nontraditional defense contractors "may be treated as commercial" 10 U.S.C. 3457 supplies
+    and services provided by nontraditional defense contractors
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: GAO report other transaction agreements DoD obligations fiscal year follow-on production GAO-25 OR GAO-26
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: GAO bid protest other transaction jurisdiction 4 CFR 21.5(m) "other transaction" decision B-
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OA
+- text: gao.gov bid protest decision "other transaction" jurisdiction "limited" review agency "properly exercising"
+    authority B- Oracle America OR "MD Helicopters" OR "ACI Technologies"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: Court of Federal Claims other transaction jurisdiction Raytheon v. United States 2025 Hydraulics International
+    Space Exploration Technologies Independent Rough Terrain Center opinion
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: aaf.waru.edu contracting cone commercial solutions opening CSO
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: DoD other transaction guide 2018 "prototype project" definition "significant extent" intellectual property
+    Bayh-Dole "not applicable" 10 U.S.C. 2320 2321 negotiate
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: DoD Intellectual Property Cadre guidance other transactions IP data rights negotiation small business background
+    IP guidebook
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: aaf.waru.edu OT guide intellectual property "other transactions" "IP rights" negotiable "government purpose
+    rights" Bayh-Dole
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: CRS "Department of Defense Use of Other Transaction Authority" R45521 crsreports.congress.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: USAspending other transaction award type "Other Transaction Order" "Other Transaction IDV" FPDS data dictionary
+    award type code
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: usaspending.gov other transaction agreements "OT" award type contract data FPDS "Other Transaction Agreement"
+    "Other Transaction IDV" how reported
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: usaspending-api github "Other Transaction" award type "OTHER TRANSACTION" contract_award_type OR "pulled_from"
+    "OTHERTRANSACTION"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: Court of Federal Claims 2025 2026 other transaction protest jurisdiction decision after Raytheon "other
+    transaction" "Tucker Act" Telesto OR "AeroVironment" OR "Collins" opinion
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: Telesto Group LLC v. United States 24-1784 Court of Federal Claims opinion other transaction jurisdiction
+    prototype phase
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: Federal Circuit 2026 other transaction agreement jurisdiction bid protest appeal Raytheon OR Telesto "other
+    transaction" decision
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: DHS other transaction authority 6 U.S.C. 391 extended "September 30" 2025 OR 2026 extension continuing appropriations
+    section 831 Homeland Security Act
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OA
+- text: NASA Space Act Agreements Guide NAII 1050 latest version nasa.gov partnerships
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: dhs.gov "other transaction" authority science and technology OTA guide prototype "6 U.S.C. 391" expires
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OA
+- text: ARPA-H other transactions guide OR "OT Community" arpa-h.gov "other transaction" authority 42 U.S.C. 290c
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: NIH Other Transactions policy guide grants.nih.gov "other transaction" authority 42 U.S.C. 282(n) policy
+    guide
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OA
+- text: Department of Energy other transaction authority guide energy.gov "other transaction" 42 U.S.C. 7256(g)
+    policy guidance 2025
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: DHS other transaction authority "831" reauthorized OR extended OR expired 2025 2026 "other transaction"
+    Homeland Security appropriations act 2026 "section 831"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: DHS "other transaction authority" extension act 2025 H.R. signed into law OR "became law" "September 30,
+    2027" OR "September 30, 2028" 6 U.S.C. 391
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: acquisition.gov "DoD_RFO_Deviation_Part-15" OR "DFARS Part 215" class deviation 2026-O0048 nontraditional
+    defense contractor representation certified cost or pricing data exempt
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: Defense Pricing and Contracting memo 2024 nontraditional defense contractor status "statement" confirm "nontraditional
+    defense contractor" offeror representation no determination required
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: '"2026-O0048" "Rev 1" OR "Revision 1" DFARS Part 215 class deviation nontraditional defense contractors
+    section 1826'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: '"2026-O0032" DFARS Part 231 class deviation nontraditional defense contractors "section 1826" cost principles
+    exempt'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OA
+- text: DIU commercial solutions opening process "areas of interest" "solution brief" phase 1 phase 2 pitch diu.mil
+    work with us
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OA
+- text: GAO other transaction agreements consortia report GAO-22-105357 OR GAO-20-84 OR GAO-21-501 DOD use of other
+    transactions prototype
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OA
+- text: SBA small business goaling guidelines "other transaction" excluded from goaling OR "not included" FPDS small
+    business procurement scorecard OTs
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: usaspending.gov "other transaction" OTA awards appear search "Other Transaction" award type FPDS "contract"
+    data included usaspending OT agreements DoD
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: DoD annual report to Congress use of other transaction authority prototype projects FY2024 section 873 FY2019
+    NDAA "other transaction" report obligations number of awards
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: FY2027 NDAA other transaction authority provisions 2026 House Senate bill "other transaction" bid protest
+    OR "nontraditional" OR "follow-on production" changes
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: 2026 Court of Federal Claims OR "Federal Circuit" "other transaction" protest jurisdiction decision 2026
+    new ruling OTA "1491(b)"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: DHS S&T "other transaction" authority lapsed 2024 "Other Transaction Authority" DHS reauthorization 2026
+    status hsgac OR homeland.house.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: DoD Office of Small Business Programs "other transaction" small business participation statement OR guide
+    business.defense.gov OTs nontraditional "small business" consortia
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OA
+- text: DoD Other Transaction consortia list DAU existing OT consortia
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: GAO report other transaction agreements consortia DoD 2022 GAO-22-105357
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: NSTXL membership fee join S2MARTS TReX SpEC
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+- text: Advanced Technology International ATI consortia list collaborations membership dues
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: Consortium Management Group CMG C5 consortium membership annual dues
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: DoD Inspector General Audit of Other Transactions Awarded Through Consortiums DODIG-2021-077
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: CRS report Department of Defense Use of Other Transaction Authority consortia R45521
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: DPCAP "consortia" other transactions list site:acq.osd.mil
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: DAU Other Transactions guide consortium "nontraditional defense contractor" consortium member participation
+    significant extent
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: USAspending other transaction awards "OTIDV" "Other Transaction" consortium how reported FPDS
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: National Spectrum Consortium membership dues join
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+- text: NSWC Crane other transaction agreement S2MARTS navsea.navy.mil
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: JPEO-CBRND other transaction authority MCDC CWMD consortium jpeocbrnd.osd.mil
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: AIRC "Acquisition Innovation Research Center" consortium other transaction membership
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: '"CDMC" OR "BAMTC" OR "DFC" consortium other transaction agreement ATI defense consortium'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+  note: none relevant
+- text: Space Systems Command Space Enterprise Consortium SpEC OTA ceiling reboot NSTXL ssc.spaceforce.mil
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+- text: PEO STRI TReX II other transaction agreement ATI award ceiling
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+- text: DoD Other Transactions Guide 2023 consortium "consortium" "nontraditional" significant participation aaf.dau.edu
+    ot-guide
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: '"DoD Consortia List for Other Transactions" 2025 OR 2026 section 833 sam.gov'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+  note: none relevant; no 2025 or 2026 notice surfaced
+- text: '"Other Transactions Guide" July 2023 "consortium" "FPDS" "nontraditional" each project "significant extent"
+    consortium member'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+- text: Naval Aviation Systems Consortium NASC membership dues annual fee NAVAIR OTA ceiling
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+- text: usaspending "Other Transaction" award type "OT IDV" OR "Other Transaction Order" OR "Other Transaction Agreement"
+    contracts data dictionary
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+- text: SAM.gov contract data "Other Transaction" awards search FPDS transition 2026 "Other Transaction Agreement"
+    report
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+  note: none directly relevant
+- text: Army Contracting Command New Jersey other transaction agreements DOTC C5 consortium "ACC-NJ" army.mil
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: DEVCOM Aviation Missile Center AMTC other transaction agreement consortium army.mil ceiling
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+- text: NUWC Newport Undersea Technology Innovation Consortium OTA navsea.navy.mil ceiling awards
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: Medical Technology Enterprise Consortium MTEC "consortium manager" OR "managed by" USAMRDC OTA 2025 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+  note: no primary hit naming the manager
+- text: GAO "Until Congress includes OTAs in the list of federal awards that agencies must report to USAspending.gov"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+- text: Information Warfare Research Project IWRP consortium how to join membership dues NAVWAR OTA ceiling
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+- text: Joint Directed Energy Consortium JDEC NSTXL OTA award sponsor ceiling 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+- text: Defense Automotive Technologies Consortium DATC membership dues SAE ITC OTA Ground Vehicle Systems Center
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OB
+- text: Missile Defense Agency OR DTRA other transaction consortium "consortium" OTA members join 2025
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OB
+  note: no MDA- or DTRA-run consortium surfaced
+- text: Adaptive Acquisition Framework pathways aaf.waru.edu
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: DoWI 5000.02 April 2026 "Operation of the Adaptive Acquisition Framework" reissue
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: '"DoW Instruction 5000.02" OR "DoWI 5000.02" April 2026 Portfolio Acquisition Executive'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: '"Transforming the Defense Acquisition System into the Warfighting Acquisition System" memorandum November
+    2025 media.defense.gov'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: '"Acquisition Transformation Strategy" November 2025 Hegseth "Portfolio Acquisition Executive" pdf'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: '"Acquisition Workforce Reform Strategy" June 2026 Department of War'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: media.defense.gov 2025 Nov "TRANSFORMING-THE-DEFENSE-ACQUISITION-SYSTEM-INTO-THE-WARFIGHTING-ACQUISITION-SYSTEM"
+    PDF
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: war.gov "Acquisition Transformation Strategy" "Rebuilding the Arsenal of Freedom" PDF media.defense.gov
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: National Defense Authorization Act for Fiscal Year 2026 Public Law 119 Title XVIII acquisition reform portfolio
+    acquisition executive section text govinfo
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: FY2026 NDAA acquisition reform "nontraditional defense contractor" "commercial solutions opening" section
+    1804 OR 1821 OR 1826 summary small business
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: diu.mil commercial solutions opening process phases solution brief pitch prototype OT follow-on production
+    timeline
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: diu.mil "OnRamp Hub" Defense Innovation OnRamp Hubs locations
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: Blue UAS Cleared List Framework 2026 DIU DCMA how to get on list
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: Tradewinds Solutions Marketplace "five-minute" video pitch "awardable" CDAO assessment criteria government
+    customer contract FAQ
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: SOFWERX assessment event "Other Transaction" 10 U.S.C. 4022 "may negotiate" award pathway PEO 2026 events.sofwerx.org
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: USSOCOM Commercial Solutions Opening SOF AT&L CSO 2026 sam.gov H9240 "commercial solutions opening"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: NavalX Tech Bridges what they do "do not" fund contracts partnership intermediary list of tech bridges 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: NavalX Tech Bridge official site navy.mil "Tech Bridges" connect "non-traditional" partners
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: NavalX Tech Bridges 2026 navy.mil "Tech Bridge" what is prize challenge "does not" contracts SBIR connect
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: AFWERX Prime Agility Prime Autonomy Prime 2026 afwerx.com program how to participate "Prime"
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: AFWERX Prime division 2026 status Agility Prime ended OR restructured OR "sunset" Air Force
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: Army xTech program 2026 xtech.army.mil competitions prize how it works Army Applied SBIR
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: Army "Commercial Solutions Opening" 2026 Army Contracting Command "open" CSO "Fuze" OR "Army Enterprise"
+    sam.gov W15QKN solution brief
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: Army FUZE program launched 2025 "FUZE" Army venture capital model xTech SBIR ManTech TMI official army.mil
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: DHS S&T Silicon Valley Innovation Program SVIP Other Transaction Solicitation phases award amount eligibility
+    2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: NGA "Commercial Solutions Opening" OR "Boosting Innovative GEOINT" BIG BAA 2026 how to do business with
+    NGA industry nga.mil
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: DARPA office-wide BAA 2026 "Disruptioneering" OR "Advanced Research Concepts" OR "DARPA Connect" how to
+    work with DARPA small business darpa.mil
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: nga.mil industry "Moonshot Labs" OR "NGA Accelerator" OR "Tearline" small business programs office how to
+    do business 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: Navy "Commercial Solutions Opening" 2026 Naval Rapid Capabilities Office OR NAVSEA OR "PEO" CSO solution
+    brief sam.gov N00
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: Army Contracting Command "Commercial Solutions Opening" army.mil 2026 article Army CSO Global Tactical Edge
+    Acquisition Directorate marketplace
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: GSA "Commercial Solutions Opening" procedures GSAM 571 authority 41 U.S.C. 3301 note civilian agencies CSO
+    pilot permanent
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: agency procurement forecast legal requirement "15 U.S.C. 637(a)(12)(C)" OR "section 501" "Business Opportunity
+    Development Reform Act" forecast of contracting opportunities small business
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: '"5000.02" reissued April 2026 "Warfighting Acquisition System" instruction Portfolio Acquisition Executives
+    pathways changes'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: waru.edu news 2026 "DoWI 5000.02" OR "DoW Instruction 5000.02" Operation of the Adaptive Acquisition Framework
+    new
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: Portfolio Acquisition Executives named 2026 Army Navy Air Force list of PAEs replaces PEOs official release
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: Army Portfolio Acquisition Executives established list "PAE" army.mil 2026 Fires Maneuver "Capability Program
+    Executive"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: DIU annual report FY2025 prototype contracts awarded transition rate average award value days to award diu.mil
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: events.sofwerx.org assessment event 2026 "10 U.S.C. 4022" OR "Other Transaction" "Business to Business"
+    OR "negotiate" award selected participants SOCOM
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: army.mil 2026 "commercial solutions opening" Army UAS marketplace OR "drone marketplace" OR "Army Enterprise
+    CSO" official
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: AFWERX Challenge 2026 how it works challenge process showcase "AFWERX Challenge" afresearchlab OR af.mil
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: DARPA office-wide BAA 2026 HR001126S "office-wide" Defense Sciences Office OR "Strategic Technology Office"
+    abstract proposal award instruments OT
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: dhs.gov SVIP "Other Transaction Solicitation" 70RSAT 2026 topic call open "up to $2M" OR "$800,000" phases
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OC
+- text: '"portfolio acquisition executive" "10 U.S.C." section codified FY2026 NDAA section 1802 "1732" OR "4211"
+    OR "3104" law.cornell.edu'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OC
+- text: NASA Space Act Agreements reimbursable non-reimbursable funded partnerships how to partner
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: DHS Silicon Valley Innovation Program phases funding other transaction how to apply
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: ARPA-E funding opportunities SCALEUP other transaction authority applicants
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: BARDA EZ-BAA DRIVe BARDA Ventures Industry Day 2026 medicalcountermeasures.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: ARPA-H open BAA innovative solutions opening how to submit abstract other transaction
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: Challenge.gov shutdown federal prize competitions where listed now 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: dhs.gov science-and-technology Silicon Valley Innovation Program eligibility "up to" phase open calls 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: dhs.gov science and technology prize competitions 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: arpa-e.energy.gov applicants "other transaction" OR "technology investment agreement" cost share small business
+    award guidance
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: BARDA Broad Agency Announcement 2026 BAA-23-100-SOL-00004 OR new BAA "BARDA Industry Day" 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: NIH Other Transactions authority where used "other transaction" grants.nih.gov policy
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: NSF Convergence Accelerator solicitation 2026 phases funding eligibility
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: NSF I-Corps Teams eligibility $50,000 award 2026 solicitation Partnerships for Innovation PFI NSF 25-
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: TSA Innovation Task Force how to work with industry innovation pipeline broad agency announcement
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: FAA other transaction agreements authority 49 U.S.C. 106 industry innovation program small business how
+    to
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: DoD Other Transactions Guide payable milestones cost share audit access financial reporting aaf.dau.edu
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: aaf.dau.edu ot-guide "payable milestones" OR "cost sharing" OR "Comptroller General access" other transactions
+    guide section
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: CMMC other transaction agreements apply? DoD CIO CMMC FAQ "other transaction"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: CPARS "other transaction" agreements past performance evaluation not required guidance CPARS
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: GAO other transaction agreements civilian agencies obligations report DHS NASA HHS DOE fiscal year
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: consortium other transaction agreement "project agreement" member fee "base agreement" FAQ consortium management
+    firm intellectual property flow down
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+  note: none useful
+- text: GAO-22-105357 other transaction agreements DOD consortia management organizations fees project awards members
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: MTEC FAQ research project award assessment fee percent member "base agreement" consortium
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: NSTXL OR "Advanced Technology International" consortium FAQ "project agreement" fee how awards work members
+    government OTA
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: Wide Area Workflow other transaction agreements invoicing PIEE "other transaction" payment DFAS
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: USAspending other transaction agreements "Other Transaction" award type FPDS OT IDV data dictionary
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: NASA Partnerships Guide NAII 1050.3 Space Act Agreements Guide pdf
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: NASA Announcement of Collaboration Opportunity ACO STMD 2026 Tipping Point solicitation status
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: nasa.gov STMD "Announcement of Collaboration Opportunity" 2025 OR 2026 selections unfunded Space Act Agreements
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: dodcio.defense.gov CMMC FAQ "other transaction" OR "OTAs" grants "CMMC apply"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: NASA STMD standing Announcement of Collaboration Opportunity 80HQTR25 Appendix nspires 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: NASA Tipping Point solicitation 2025 OR 2026 "Tipping Point" funded Space Act Agreements STMD new opportunity
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: aspr.hhs.gov BARDA Broad Agency Announcement open BAA 2026 "Industry Day" BARDA Ventures
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: ARPA-H awards total number of performers 2026 "awarded" portfolio statistics small business share
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+  note: no agency total found
+- text: DHS Silicon Valley Innovation Program total awarded startups "$" million since 2015 number of companies
+    dhs.gov news 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: '"BARDA Industry Day 2026" date registration'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+  note: no 2026 event page found
+- text: BARDA Broad Agency Announcement BAA-23-100-SOL-00004 amendment 2026 areas of interest white paper deadline
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: federalregister.gov "Biomedical Advanced Research and Development Authority Industry Day" 2025 OR 2026
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: nsf.gov Partnerships for Innovation PFI current solicitation 2026 NSF Translation to Practice OR "TIP" I-Corps
+    Teams current
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: NSF Convergence Accelerator 2025 2026 status solicitation NSF 24-565 OR "Convergence Accelerator" new tracks
+    "Dear Colleague Letter"
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: transportation.gov innovation "other transaction" ARPA-I OR "SMART grants" OR "U.S. DOT" innovation startups
+    program how to work with DOT
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: NIST CRADA partnerships small business how to work with NIST technology partnerships office
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: transportation.gov ARPA-I Advanced Research Projects Agency Infrastructure funding opportunities other transaction
+    authority 49 U.S.C. 119
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: sba.gov Growth Accelerator Fund Competition 2026 prize OR "Federal and State Technology" FAST innovation
+    ecosystem
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: GAO report 2024 OR 2025 OR 2026 "other transaction" DHS OR NASA OR HHS OR "ARPA-H" obligations civilian
+    agencies use of other transaction agreements
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: arpa-h.gov other transactions resource library OT guides "Other Transaction" ARPA-H authority 42 U.S.C.
+    290c performers guide
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: DHS other transaction authority annual report Congress fiscal year 2024 OR 2025 obligations number of agreements
+    6 U.S.C. 391 extended
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: GAO USAspending "other transaction agreements" not reported "$40 billion" GAO-24-106214 federal spending
+    transparency
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: '"Stop Secret Spending Act" other transaction agreements USAspending 2025 OR 2026 status passed Senate House'
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: DHS other transaction authority 6 U.S.C. 391 extension 2026 "September 30" appropriations act section extends
+    authority
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: '"other transaction" DHS authority extended "section 831" Homeland Security Act through fiscal year 2026
+    continuing appropriations "831(a)"'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: uscode.house.gov 6 USC 391 "September 30, 2026" OR "September 30, 2025" other transaction authority Homeland
+    Security research and development projects
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: consortium FAQ "consortium management firm" OTA member "project agreement" "assessment fee" OR "award fee"
+    percent members pay official consortium site S2MARTS OR MTEC OR NAC OR SpEC
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: Wide Area Workflow "other transaction" agreement invoice "2-in-1" OR "milestone" PIEE vendor registration
+    CAGE code OT awardee DCMA administration other transactions
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: DCMA other transaction agreements administration "agreements officer" DCMA manual OR instruction "other
+    transactions" oversight
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: DCAA audits other transaction agreements "other transaction" DCAA guidance contract audit manual OT access
+    to records
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+  note: no OT-specific DCAA page found
+- text: '"other transaction" export control ITAR EAR applies OT agreement "export" DoD OT guide OR NASA Space Act
+    Agreement export control clause'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: arpa-h.gov "OT Agreement" sample articles pdf "Other Transaction Agreement" sample ARPA-H sites/default/files
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: NASA prizes challenges crowdsourcing Centennial Challenges how to participate nasa.gov 2026
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: usa.gov challenges "how to participate" federal challenge prize competition tips eligibility
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: ARPA-E "SCALEUP Ready" DE-FOA-0003467 cost share award size rolling applications eligibility
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: Rapid Response Partnership Vehicle RRPV consortium BARDA other transaction membership fee how to join project
+    awards
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: '"Use of Consortia in Prototype and Production Other Transaction Agreements" appendix F OT guide consortium
+    management organization'
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: dodcio.defense.gov CMMC FAQ pdf 2026 revision "non-FAR" OR "other transaction" OR "grants" CMMC apply
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: ARPA-H "performers" funded since 2022 total awards billion "small businesses" arpa-h.gov about impact 2026
+    awards number
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: BARDA "FDA approvals, licensures, and clearances" total number partnerships 2026 BARDA Ventures portfolio
+    companies GHIC
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: DHS "other transaction authority" expired OR lapsed OR extended 2025 2026 Silicon Valley Innovation Program
+    authority Homeland Security Act section 831 reauthorized
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: DoD "Other Transactions Guide" new version 2026 OR "version 3.0" OUSD A&S released update other transaction
+    guide FY2026 NDAA changes
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: BioMaP-Consortium BARDA other transaction membership "no fee" OR "membership fee" Biopharmaceutical Manufacturing
+    Preparedness Consortium how to join
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD
+- text: dhs.gov "other transaction" authority annual report to Congress fiscal year S&T "other transaction agreements"
+    awarded number DHS OTA report 2024
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: OD
+- text: NASA Tipping Point 2023 selections 11 companies $150 million funded Space Act Agreements contribution percentage
+    nasa.gov
+  engine: WebSearch
+  hits: 10
+  date: '2026-10-03'
+  slice: OD

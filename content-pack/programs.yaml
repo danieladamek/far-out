@@ -1,4 +1,4 @@
-# programs.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# programs.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
 - id: sbir-sttr-governmentwide
   name: SBIR/STTR (government-wide framework)
   family: sbir-sttr
@@ -5341,3 +5341,4209 @@
     8(a), small business and large business) that is internally inconsistent on dates; no official 2026 status was
     found [782]'
   - The schedule in the 2024 Army article (final RFP fall 2024) has slipped [779]
+- id: nstxl
+  name: National Security Technology Accelerator
+  acronym: NSTXL
+  family: ot-cso
+  kind: consortium-manager
+  manager: NSTXL is itself the consortium manager; it manages S²MARTS, SpEC and JDEC [1718]
+  sponsors:
+  - NSWC Crane Division (S²MARTS) [1731]
+  - Space Systems Command (SpEC) [1728]
+  - Office of the Under Secretary of War for Research and Engineering, Critical Technologies, Scaled Directed Energy
+    (JDEC) [1735]
+  domain: 'Manager of three consortium OTAs: S²MARTS, SpEC and JDEC [1718]'
+  agreement_number: not applicable (manager); see each consortium record
+  ceiling: not applicable (manager); see each consortium record
+  membership:
+    eligibility:
+    - 'Membership is in NSTXL, not in one OTA: "We offer membership to NSTXL, which provides your firm access to
+      all of our OTAs." [1722]'
+    - 'S²MARTS: "Permitted to do business with the Department of Defense and with technology and expertise relevant
+      to the S2MARTS focus areas." [1721]'
+    - SpEC requires a DD2345 at registration [1719]
+    fees:
+    - tier: Corporate, annual revenue under $10M
+      amount: $250
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Corporate, annual revenue $10M–$50M
+      amount: $1,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Corporate, annual revenue $50M–$100M
+      amount: $5,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Corporate, annual revenue $100M+
+      amount: $10,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Non-profit, annual revenue under $50M
+      amount: $500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Non-profit, annual revenue $50M–$100M
+      amount: $5,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Non-profit, annual revenue $100M+
+      amount: $10,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: University
+      amount: $2,500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Laboratory
+      amount: $2,500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Incubator
+      amount: $500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Investor
+      amount: $2,500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: JDEC membership
+      amount: free
+      period: ''
+      note: JDEC membership is currently free
+      cite:
+      - 1719
+    fees_note: One NSTXL membership covers every OTA NSTXL manages; dues are based on total annual revenue in the
+      previous 12 months [1719] [1723]. "As we manage more OTAs, there is no additional membership fee – just more
+      opportunities for your firm to grow." [1722]
+    how_to_join:
+    - Create an account and submit the new member application; contact membership@nstxl.org [1721]
+    what_it_gives:
+    - '"Members have access to each OTA within the NSTXL network, allowing them to compete for any opportunities
+      that fit their capabilities." [1719]'
+    - 'NSTXL''s six reasons to work through a manager, addressed to program offices: non-traditional partners; teaming;
+      reduced administrative burden; speed; visibility of opportunities; flexible agreements [1726]'
+  opportunity_process:
+  - 'Opportunity types used: RFI, RNI (Request for Network Insight), RFS (Request for Solutions), RPP (Request for
+    Prototype Proposal) [1724]'
+  - Government subject matter experts evaluate; agreement finalization takes about 3–5 business days after selection
+    notice [1723]
+  - 'Timelines as NSTXL states them: 120 average days to award [1719]; "On average, NSTXL''s submission to award
+    timeline is just over 100 days, compared to 12-24 months with traditional defense contracts." [1725]; "NSTXL
+    can move an opportunity from solicitation to award in under 120 days" [1726]'
+  non_member_visibility: '"You must be a member of NSTXL to submit a response to any request."; S²MARTS requests
+    are posted publicly; SpEC requests are not and need a DD2345 and membership [1723]. Titles and statuses across
+    SpEC, S²MARTS and JDEC are visible without login [1724]'
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: 'None taken from the performer: "NSTXL is paid a management fee by the Government."; NSTXL takes
+    no percentage of the performer''s invoice [1723]'
+  statistics:
+  - $5.5B+ awarded to date; 19K innovators; 120 average days to award; 83% non-traditional members [1719]
+  - Network of "over 19K innovators" [1718]
+  official_url: https://nstxl.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1718
+  - 1719
+  - 1720
+  - 1721
+  - 1722
+  - 1723
+  - 1724
+  - 1725
+  - 1726
+  - 1728
+  - 1731
+  - 1735
+  - 1740
+  - 1743
+  conflicts:
+  - 'Number of OTAs: the homepage names three (S²MARTS, SpEC, JDEC) [1718]; one FAQ item names S²MARTS and SpEC
+    only [1722]. The homepage is taken as the later text.'
+  - 'Size: 19K "innovators" [1719] [1718] vs "over 600" members [1726]; likely individuals vs organizations, not
+    confirmed.'
+  - 'TReX: NSTXL does not manage TReX II; it is listed under ATI, whose release announced the award [1695] [1740]
+    [1743].'
+- id: ati
+  name: Advanced Technology International
+  acronym: ATI
+  family: ot-cso
+  kind: consortium-manager
+  manager: ATI is the consortium management firm for most listed consortia [1695]; it describes itself as "a not-for-profit
+    corporation" [1782]
+  sponsors:
+  - Varies by consortium; see each record. The MITRE list shows TReX II, IWRP, MSTIC, UTIC, NSTIC, EMC2, MTEC, MCDC,
+    CWMD, DIBC, DOTC, VLC, AMTC, HSTech and RRPV under ATI [1695]
+  domain: 'FY2025: 30+ collaborations; 1,400+ active projects; $5.6B of total awards funded [1738]'
+  agreement_number: not applicable (manager); see each consortium record
+  ceiling: not applicable (manager); see each consortium record
+  membership:
+    eligibility:
+    - 'There is no single ATI membership: each program sets its own requirements [1739]'
+    - 'Documents common across ATI consortia: DD2345, SAM.gov registration, UEI, CAGE code, signed Consortium Membership
+      Agreement [1741] [1766] [1768] [1749]'
+    fees: []
+    fees_note: 'Set per consortium. "Membership dues are minimal and cover a number of member benefits, including
+      collaboration and networking events, training, and members-only resources." [1739]. Funding models seen on
+      ATI consortia: dues, an assessment on awards, or both [1750] [1775] [1759] [1785]'
+    how_to_join:
+    - 'Three steps: find a consortium, apply, then access solicitations once accepted [1737]'
+    - An application with all documents can be processed in about a week [1739]; TReX II states 1–2 business days
+      if complete and several weeks if a DD2345 must be obtained [1741]
+    what_it_gives:
+    - Dues "cover a number of member benefits, including collaboration and networking events, training, and members-only
+      resources" [1739]
+  opportunity_process:
+  - 'Set per consortium; see each record. ATI''s directory links: NSTIC, LEAN Power, MATAC, Lethality, NSRP, CNM,
+    NSAM, CMTC, IWRP, NEST, UTIC, MSTIC, TReX II, VLC, AMTC, DIBC, EMC2, DAF TENCAP, NAC, BioMaP, CWMD, MCDC, RRPV,
+    ADC, AMC, RISE, CWX, FDMC [1737]'
+  non_member_visibility: Varies by consortium; solicitations are accessed once a member is accepted [1737]
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: 'Varies by consortium: NSTIC 0.05% of all awarded funding [1775]; AMTC 0.15%, DOTC and NEST 0.5%
+    [1750]; VLC, MTEC and IWRP state an assessment without a rate [1759] [1764] [1785]'
+  statistics:
+  - 'FY2025: 30+ collaborations; 1,400+ active projects; $5.6B of total awards funded [1738]'
+  - '"80% of our members are small or emerging innovators" [1738]'
+  official_url: https://www.ati.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1737
+  - 1738
+  - 1739
+  - 1741
+  - 1749
+  - 1750
+  - 1759
+  - 1764
+  - 1766
+  - 1768
+  - 1775
+  - 1782
+  - 1785
+  - 1797
+  conflicts:
+  - MTEC, NSC and HSTech do not appear in ATI's printed list of collaborations [1738]; the MITRE list shows MTEC
+    and HSTech under ATI [1695], and HSTech's own site says "HSTech is managed and operated by Advanced Technology
+    International." [1797].
+  - The first extraction of ATI's directory gave invented acronym expansions; names here come from the For Industry
+    page and each consortium's own site [1737] [1738].
+  - 'Collaborations ATI names for which nothing beyond the name was swept, so no record: Center for Naval Metalworking
+    (CNM); Composites Manufacturing Technology Center (CMTC); LEAN Power; LETHALITY; National Shipbuilding Research
+    Program (NSRP); Naval Shipbuilding and Advanced Manufacturing (NSAM); America''s Datahub Consortium (ADC); American
+    Metalcasting Consortium (AMC); Connectwerx (CWX); Forging Defense Manufacturing Consortium (FDMC); Resilient
+    Infrastructure and Secure Energy (RISE) [1738].'
+- id: cmg
+  name: Consortium Management Group, Inc. (CMG Networks)
+  acronym: CMG
+  family: ot-cso
+  kind: consortium-manager
+  manager: 'CMG runs three consortium networks: C5, NASC and CEED [1800]'
+  sponsors:
+  - 'C5: Army PEO IEW&S and Marine Corps Systems Command [1802]'
+  - 'CEED: Army Corps of Engineers and Marine Corps Systems Command [1804]'
+  - 'NASC: the Navy [1806]'
+  domain: '"CMG Networks connects Government and industry through agile consortia, leveraging Other Transaction
+    Authority (OTA) to accelerate innovation and results." [1800]'
+  agreement_number: not applicable (manager); see each consortium record
+  ceiling: not applicable (manager); see each consortium record
+  membership:
+    eligibility:
+    - Joined consortium by consortium (C5, CEED, NASC) [1801] [1803] [1806]
+    fees:
+    - tier: C5, all members
+      amount: $500
+      period: annual; waived for academic institutions
+      cite:
+      - 1801
+    - tier: CEED, all members
+      amount: $500
+      period: annual, non-refundable; waived for academic institutions
+      cite:
+      - 1803
+    - tier: NASC, all members (2022 slides; not on the current site)
+      amount: $500
+      period: annual; waived for academic institutions; first year complimentary (2022)
+      cite:
+      - 1808
+    fees_note: ''
+    how_to_join:
+    - 'C5: four steps; review within 24–48 hours; membership runs one year from application and renews annually
+      [1801]'
+    - 'NASC: registration is through nascportal.tech [1806]'
+    what_it_gives:
+    - '"Government program sponsors develop project requirements and issue project solicitations through our CMG
+      Networks to our members." [1802]'
+  opportunity_process:
+  - '2017 C5 base OTA (Art. I.E): Request for White Papers to CMG; CMG sends to members; government evaluates and
+    issues a selection notice; Request for Project Proposal with a government statement of work; proposals go through
+    CMG to the government; a bilateral modification obligates funds; a Technical Direction Letter authorizes work
+    [1805]'
+  - '"The project sponsor determines the best approach for their project" [1804]'
+  non_member_visibility: NASC opportunity titles and statuses are visible without login [1807]; nothing was read
+    on what non-members can see of C5 or CEED solicitations
+  award_form: CMG issues a Project Agreement to the selected member (the "Project Agreement Holder"); "A bilateral
+    modification to this Agreement will be executed to obligate project funding" (2017 C5 base OTA) [1805]
+  fees_on_awards: 'A fixed-percentage management and administrative fee on each prototype project awarded; rate
+    not stated on the pages [1801] [1803]. The 2017 C5 base OTA set it as a percentage of each prototype project''s
+    firm-fixed price, fixed for a year: 4.3% from award through government fiscal year 2018 [1805]'
+  statistics:
+  - 'Three networks: C5 (nearly 1,600 members), NASC (over 1,000), CEED (more than 800); 3,400+ members in total;
+    $8.5B in projects awarded since 2010 [1800]'
+  official_url: https://cmgnetworks.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1800
+  - 1801
+  - 1802
+  - 1803
+  - 1804
+  - 1805
+  - 1806
+  - 1807
+  - 1808
+  conflicts:
+  - 'C5 size: nearly 1,600 members on the homepage [1800]; more than 1,600 on the C5 overview [1802].'
+  - Current fee rate on awards is not posted; the only figure found (4.3%) is from the 2017 base agreement [1805].
+- id: sossec
+  name: SOSSEC, Inc.
+  acronym: SOSSEC
+  family: ot-cso
+  kind: consortium-manager
+  manager: SOSSEC styles itself Consortium Administrative Organization [1813]
+  sponsors:
+  - Army (COBRA; ERDC); AFLCMC (PCI 2.0; PCI; ACI); 448th Supply Chain Management Wing (SCCI); AFRL (OTAFI); NGA
+    [1813]
+  - Army DEVCOM C5ISR Center for SCEC, per the sweep's reading of the MITRE list [1695]
+  domain: Administers the OTAs of the SOSSEC Consortium and the Sensors, Communications and Electronics Consortium
+    (SCEC) [1813] [1815]
+  agreement_number: 'not posted: no agreement numbers on the page [1813]'
+  ceiling: 'NGA OTA: stated $30M ceiling; others not posted [1813]'
+  membership:
+    eligibility:
+    - not posted
+    fees: []
+    fees_note: Dues not posted on the join page; the membership agreement PDF is blocked to automated fetch [1814]
+    how_to_join:
+    - 'Contact for membership details: (603) 458-5529, info@sossecinc.com [1814]'
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - 'not posted: SOSSEC opportunities sit behind a member login and were not read [1814]'
+  non_member_visibility: Opportunities are behind a member login, per the sweep's gap list [1814]
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics:
+  - Over 1,800 member companies across its two consortia; "Nearly 80% of the membership are non-traditional companies."
+    [1814]
+  - The MITRE list shows eight SOSSEC OTAs (ACI, PCI, PCI 2.0, OTAFI, SSCI, COBRA, ERDC, NGA) plus SCEC [1695]
+  official_url: https://sossecinc.com/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1813
+  - 1814
+  - 1815
+  conflicts:
+  - 'Acronym: SOSSEC''s page lists SCCI (448th Supply Chain Management Wing) [1813]; the MITRE list shows SSCI [1695].'
+- id: s2marts
+  name: Strategic & Spectrum Missions Advanced Resilient Trusted Systems
+  acronym: S²MARTS
+  family: ot-cso
+  kind: consortium
+  manager: 'NSTXL: "S²MARTS is managed by National Security Technology Accelerator (NSTXL), a proven OTA consortium
+    leader." [1731]'
+  sponsors:
+  - Naval Surface Warfare Center, Crane Division, the establishing and awarding office [1731] [1732]
+  domain: Radiation-hardened microelectronics; electronic warfare; new microelectronics development; hypersonics;
+    verification and validation [1731]
+  agreement_number: not posted
+  ceiling: 'No finite ceiling: "The effort will be active for up to 10 years and does not have a finite ceiling."
+    (announced 2019-03-12) [1732]'
+  membership:
+    eligibility:
+    - NSTXL membership [1722]
+    - '"Permitted to do business with the Department of Defense and with technology and expertise relevant to the
+      S2MARTS focus areas." [1721]'
+    fees:
+    - tier: Corporate, annual revenue under $10M
+      amount: $250
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Corporate, annual revenue $10M–$50M
+      amount: $1,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Corporate, annual revenue $50M–$100M
+      amount: $5,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Corporate, annual revenue $100M+
+      amount: $10,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Non-profit, annual revenue under $50M
+      amount: $500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Non-profit, annual revenue $50M–$100M
+      amount: $5,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Non-profit, annual revenue $100M+
+      amount: $10,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: University
+      amount: $2,500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Laboratory
+      amount: $2,500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Incubator
+      amount: $500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Investor
+      amount: $2,500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    fees_note: One NSTXL membership covers every OTA NSTXL manages; dues are based on total annual revenue in the
+      previous 12 months [1719] [1723]. "As we manage more OTAs, there is no additional membership fee – just more
+      opportunities for your firm to grow." [1722]
+    how_to_join:
+    - Create an account and submit the new member application; contact membership@nstxl.org [1721]
+    what_it_gives:
+    - '"Members have access to each OTA within the NSTXL network, allowing them to compete for any opportunities
+      that fit their capabilities." [1719]'
+  opportunity_process:
+  - '"S2MARTS prototype project requests are publicly posted on the NSTXL and specific consortium websites. Non-members
+    will be able to download and review." [1723]'
+  - '"Consortium members will compete directly for prototype projects which will be evaluated and awarded by NSWC
+    Crane based on the prevailing proposal submission." [1733]'
+  - 'Per-project condition as NSWC Crane briefed it: an NDC participating to a significant extent, or one-third
+    cost share by a traditional contractor [1733]'
+  non_member_visibility: Requests are posted publicly and non-members may download and review them; only members
+    may submit a response [1723]
+  award_form: 'Projects are evaluated and awarded by NSWC Crane [1733]. General pattern for DoD consortium OTAs,
+    per GAO: DoD awards a base OTA to the consortium management organization, selects the consortium member awardee
+    and typically awards the project to the management organization, which issues a sub-award to the member [1699].'
+  fees_on_awards: 'None taken from the performer: "NSTXL is paid a management fee by the Government."; NSTXL takes
+    no percentage of the performer''s invoice [1723]'
+  statistics:
+  - 900+ members; "more than 46 projects awarded since its inception"; 120 days to award [1720]
+  - A "$2B+ total obligated funding" figure appears on the S²MARTS site in the MACH-TB 2.0 context; scope of the
+    figure is unclear [1731]
+  - '2021: more than 10 spectrum-related projects that year; "in most cases we have achieved results within the
+    first year of execution." [1734]'
+  - 'NSWC Crane''s reasons for one broad consortium: avoid a proliferation of OTAs; "Limit burden to small vendors,
+    no need to join several consortia" [1733]'
+  official_url: https://s2marts.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1719
+  - 1720
+  - 1721
+  - 1722
+  - 1723
+  - 1731
+  - 1732
+  - 1733
+  - 1734
+  conflicts:
+  - The sweep's draft record notes a separate "S²MARTS Research" vehicle on the MITRE list; nothing more was read
+    [1695].
+- id: spec
+  name: Space Enterprise Consortium
+  acronym: SpEC
+  family: ot-cso
+  kind: consortium
+  manager: 'NSTXL: "SpEC is managed by National Security Technology Accelerator (NSTXL), a proven OTA consortium
+    leader" [1728]'
+  sponsors:
+  - Space Systems Command, which the site says created SpEC in 2017 [1728] [1727]
+  domain: 'Space systems prototyping, in the sweep''s draft record: space systems, ground segment, payloads, AI/ML
+    for space operations [1728]'
+  agreement_number: not posted
+  ceiling: $12 billion, 10-year award period (pending 30-day congressional notification), announced 2020-12-31 for
+    the second SpEC OTA [1729]
+  membership:
+    eligibility:
+    - NSTXL membership plus a DD2345 at registration [1719]
+    fees:
+    - tier: Corporate, annual revenue under $10M
+      amount: $250
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Corporate, annual revenue $10M–$50M
+      amount: $1,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Corporate, annual revenue $50M–$100M
+      amount: $5,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Corporate, annual revenue $100M+
+      amount: $10,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Non-profit, annual revenue under $50M
+      amount: $500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Non-profit, annual revenue $50M–$100M
+      amount: $5,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Non-profit, annual revenue $100M+
+      amount: $10,000
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: University
+      amount: $2,500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Laboratory
+      amount: $2,500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Incubator
+      amount: $500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    - tier: Investor
+      amount: $2,500
+      period: annual
+      cite:
+      - 1719
+      - 1720
+      - 1721
+    fees_note: One NSTXL membership covers every OTA NSTXL manages; dues are based on total annual revenue in the
+      previous 12 months [1719] [1723]. "As we manage more OTAs, there is no additional membership fee – just more
+      opportunities for your firm to grow." [1722]
+    how_to_join:
+    - Create an account and submit the new member application; contact membership@nstxl.org [1721]
+    what_it_gives:
+    - '"Members have access to each OTA within the NSTXL network, allowing them to compete for any opportunities
+      that fit their capabilities." [1719]'
+  opportunity_process:
+  - '"SpEC is not publicly released and requires a DD2345 to be completed and membership to access." [1723]'
+  - 'Examples on NSTXL''s list: EWTIP Meadowlands X-Band; GPS Gen4 Ground [1724]'
+  - 'FORGE C2 case study: request for prototype proposal to award in under 8 months; 15 non-traditional sub-performers
+    [1728]'
+  non_member_visibility: 'Not public: membership and a DD2345 are required [1723]; titles and statuses appear on
+    NSTXL''s public opportunity list [1724]'
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: 'None taken from the performer: "NSTXL is paid a management fee by the Government."; NSTXL takes
+    no percentage of the performer''s invoice [1723]'
+  statistics:
+  - 7K+ active innovators; 62 prototyping projects; "over $2 billion in obligated funds"; "40% Faster Time to Award"
+    [1727]
+  - 'December 2020: 441 members, 355 non-traditional; 80 prototype efforts valued at $856 million; 36% shorter award
+    timeline than traditional methods [1729]'
+  - 'GAO: 85% of members are nontraditional defense contractors (534 of 629) [1701]'
+  - Space Force personnel reported about 20 proposals for one requirement against a usual seven [1699]
+  official_url: https://space-enterprise.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1701
+  - 1719
+  - 1720
+  - 1721
+  - 1722
+  - 1723
+  - 1724
+  - 1727
+  - 1728
+  - 1729
+  - 1730
+  conflicts:
+  - 'Sponsor naming: the site says Space Systems Command created SpEC in 2017 [1728]; the 2020 selection was announced
+    by the Space and Missile Systems Center [1729].'
+  - The current government description (SSC's SpEC industry trifold) returned HTTP 403 and was not read [1730].
+- id: jdec
+  name: Joint Directed Energy Consortium
+  acronym: JDEC
+  family: ot-cso
+  kind: consortium
+  manager: 'NSTXL: "JDEC is managed by National Security Technology Accelerator (NSTXL), a proven OTA consortium
+    leader" [1735]'
+  sponsors:
+  - Office of the Under Secretary of War for Research and Engineering, Critical Technologies, Scaled Directed Energy
+    [1735]
+  domain: Seven program areas, including high energy laser and high power microwave technology development [1735]
+  agreement_number: not posted
+  ceiling: not posted on the JDEC site [1735]; a trade-press figure is under conflicts
+  membership:
+    eligibility:
+    - NSTXL membership [1722]
+    fees:
+    - tier: JDEC membership
+      amount: free
+      period: ''
+      note: JDEC membership is currently free
+      cite:
+      - 1719
+    fees_note: ''
+    how_to_join:
+    - Create an account and submit the new member application; contact membership@nstxl.org [1721]
+    what_it_gives:
+    - '"Members have access to each OTA within the NSTXL network, allowing them to compete for any opportunities
+      that fit their capabilities." [1719]'
+  opportunity_process:
+  - 'Listed on NSTXL''s opportunity page; example seen: JIATF-401 DE HEL cUAS Shoot Off [1724]'
+  non_member_visibility: Titles and statuses are visible without login on NSTXL's list; "You must be a member of
+    NSTXL to submit a response to any request." [1724] [1723]
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: 'None taken from the performer: "NSTXL is paid a management fee by the Government."; NSTXL takes
+    no percentage of the performer''s invoice [1723]'
+  statistics:
+  - NSTXL's homepage calls JDEC "recently awarded" [1718]
+  official_url: https://jointdirectedenergy.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1718
+  - 1719
+  - 1721
+  - 1722
+  - 1723
+  - 1724
+  - 1735
+  - 1736
+  conflicts:
+  - 'Secondary only: a ceiling of $500 million including options over five years, awarded by Washington Headquarters
+    Services, is reported by trade press [1736]; no primary source for the ceiling or term was found.'
+  - JDEC is not on the MITRE list (last updated 2025-09-22) [1695] vs [1718].
+- id: trex-ii
+  name: Training and Readiness Accelerator II
+  acronym: TReX II
+  family: ot-cso
+  kind: consortium
+  manager: ATI, as Consortium Management Firm [1743] [1740]
+  sponsors:
+  - U.S. Army PEO Simulation, Training and Instrumentation (PEO STRI) [1742]
+  - Army Contracting Command – Orlando [1743]
+  domain: '"TReX II provides leading-edge modeling, simulation, and training (MS&T) solutions to increase warfighter
+    readiness and enhance national security." [1740]'
+  agreement_number: not posted
+  ceiling: 'not posted: ATI''s release of 2023-01-09 states no ceiling [1743]'
+  membership:
+    eligibility:
+    - U.S. companies or U.S.-based affiliates of foreign companies only [1741]
+    - Signed Consortium Membership Agreement; UEI; active SAM.gov account; active DD2345; FOCI mitigation plan or
+      Export Compliance Acknowledgment Form where relevant [1741]
+    fees:
+    - tier: All members (no tiers)
+      amount: $500
+      period: annual
+      cite:
+      - 1741
+    fees_note: ''
+    how_to_join:
+    - Processing 1–2 business days if complete; several weeks if a DD2345 must be obtained [1741]
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - Requests for Solutions (RFS), each with a statement of need [1744]
+  - The site's navigation offers Solicitations, Awards, RFIs and Teaming Opportunities [1740]
+  non_member_visibility: 'Some TReX II material is public: a statement of need under TReXII-RFS-24-06 is posted
+    on the open site [1744]'
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics: []
+  official_url: https://www.trexii.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1740
+  - 1741
+  - 1742
+  - 1743
+  - 1744
+  conflicts:
+  - 'Manager: TReX II is ATI-managed, not NSTXL-managed. The MITRE list shows it under ATI [1695], the site footer
+    shows ATI [1740], and ATI announced the award on 2023-01-09 [1743].'
+- id: nac-dotc
+  name: National Armaments Consortium / DoD Ordnance Technology Consortium
+  acronym: NAC / DOTC
+  family: ot-cso
+  kind: consortium
+  manager: 'ATI: "DOTC operates under Other Transaction Agreements (OTA) (10 U.S.C. 4022) between the Government
+    and ATI, the acting NAC Consortium management firm." [1746]'
+  sponsors:
+  - 'A DoD program: "DoD Ordnance Technology Consortium (DOTC) serves as the focal point for armaments system technology
+    research and development." [1745]'
+  - Army Contracting Command – New Jersey listed DOTC among its consortium OTAs in an older, undated briefing [1716]
+  domain: Armaments system technology [1745]; NAC calls itself "the largest collaborative organization working with
+    the DoD to develop armament technologies" [1748]
+  agreement_number: not posted
+  ceiling: not posted; an older ACC-NJ briefing gave an estimated value of $1.5B (historical, superseded) [1716]
+  membership:
+    eligibility:
+    - U.S. companies or U.S.-based affiliates of foreign companies; DD2345, SAM.gov registration, UEI and CAGE code
+      required [1749]
+    - U.S. firm or institution; active DD2345; not barred; technically capable [1750]
+    fees:
+    - tier: All members
+      amount: $500
+      period: one-time; no recurring annual dues
+      cite:
+      - 1749
+    fees_note: ''
+    how_to_join:
+    - Processing 1–2 business days with complete documents [1749]
+    what_it_gives:
+    - 'NAC membership serves three OTAs: AMTC, DOTC and NEST [1748]'
+  opportunity_process:
+  - '"DOTC will release a new Request for White Papers (RWP) each month according to the below schedule."; white
+    paper window 21 days from release [1747]'
+  - Technology Collaboration Plans monthly; 45 days to submit technology papers [1747]
+  - '"DOTC, NEST, and AMTC solicitations require NDC participation or 1/3 cost share on each proposed effort." [1750]'
+  non_member_visibility: The schedule is public; "To view complete solicitation information please visit the NAC
+    Members Only site." [1747]
+  award_form: 'ATI is the single-point contracting agent [1746]. General pattern for DoD consortium OTAs, per GAO:
+    DoD awards a base OTA to the consortium management organization, selects the consortium member awardee and typically
+    awards the project to the management organization, which issues a sub-award to the member [1699].'
+  fees_on_awards: 'Assessment effective 2023-10-01: DOTC and NEST 0.5% of all awarded funding (not ceiling); AMTC
+    0.15% [1750]'
+  statistics:
+  - 1,150+ member organizations; 500+ active projects; $2.3B in annual awards and opportunities [1748]
+  - More than 1,100 initiatives awarded to NAC members totaling more than $5.2 billion since 2009 [1746]
+  - 'GAO: 84% of DOTC members are nontraditional defense contractors (890 of 1,058) [1701]'
+  official_url: https://www.nac-dotc.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1701
+  - 1716
+  - 1745
+  - 1746
+  - 1747
+  - 1748
+  - 1749
+  - 1750
+  conflicts:
+  - 'Member count: 1,150+ on NAC''s site [1748]; NAC "consists of over 1000 companies" on the joint site [1745];
+    1,058 in GAO''s count [1701].'
+  - The FAQ's definition of a nontraditional defense contractor, as relayed, omitted the cost-accounting-standards
+    clause; check the live text [1750].
+  - 'Second site: https://www.nacconsortium.org/ [1748].'
+- id: amtc
+  name: Aviation & Missile Technology Consortium
+  acronym: AMTC
+  family: ot-cso
+  kind: consortium
+  manager: ATI is the Consortium Administrative Organization, partnering with NAC and VLC [1751]
+  sponsors:
+  - The Army's Aviation & Missile Center, which set up the OTA [1751]; named AMRDEC, with contracting office ACC-RSA,
+    in the 2018 announcement [1754]
+  domain: Aviation and missile technologies [1754] [1751]
+  agreement_number: not posted
+  ceiling: $2 billion, 10 years (announced 2018-08-27) [1754]
+  membership:
+    eligibility:
+    - 'No separate AMTC membership: a firm joins NAC or VLC; "Both NAC and VLC have open, non-exclusive membership
+      policies." [1752]'
+    - '"membership is open to companies and universities which are capable of making a technical contribution to
+      the advancement of technology that the consortium operates." [1753]'
+    fees:
+    - tier: Through NAC
+      amount: $500
+      period: one-time; no recurring annual dues
+      cite:
+      - 1749
+    - tier: Through VLC
+      amount: $500
+      period: annual, renewed each January
+      cite:
+      - 1759
+    fees_note: ''
+    how_to_join:
+    - Applications are on the NAC and VLC sites [1752]
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - 'FY2019: 8 rounds of solicitations for 101 requirements [1755]'
+  - NDC participation or 1/3 cost share on each proposed effort [1750]
+  - The base OTA itself was competed publicly in 2018; proposals for it were due 2018-05-08 [1756]
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: 0.15% of all awarded funding (not ceiling) [1753] [1750]
+  statistics:
+  - 'FY2019: 925 members [1755]'
+  - 763 member organizations across NAC and VLC in August 2018 [1754]
+  - 'GAO: 83% of AMTC members are nontraditional defense contractors (1,048 of 1,262) [1701]'
+  - 'The Army''s stated reason for the model: "OTAs are not subject to some of the regulations that apply to Federal
+    Acquisition Regulation-based acquisitions, which helps streamline the process." [1755]'
+  official_url: https://www.amtcenterprise.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1701
+  - 1749
+  - 1750
+  - 1751
+  - 1752
+  - 1753
+  - 1754
+  - 1755
+  - 1756
+  - 1759
+  conflicts:
+  - 'Assessment effective date: 2020-10-01 on the AMTC FAQ [1753]; 2023-10-01 on the NAC FAQ [1750].'
+  - The Army article's first-year figure of $4.1 billion is ambiguous (awards or ceilings) and is not used [1755].
+- id: vlc
+  name: Vertical Lift Consortium
+  acronym: VLC
+  family: ot-cso
+  kind: consortium
+  manager: ATI is the administrative organization [1757]
+  sponsors:
+  - Listed under the Under Secretary of Defense for Research and Engineering on the MITRE list, in the sweep's reading
+    [1695]; opportunities run through AMTC [1757]
+  domain: '"To work collaboratively with the U.S. Government to develop and transition innovative vertical lift
+    technologies to rapidly and affordably meet warfighter needs." [1757]'
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - U.S.-based or FOCI-mitigated with facility clearance [1759]
+    - A signed VLC NDA [1758]
+    fees:
+    - tier: All members
+      amount: $500
+      period: annual, renewed each January; pro-rated if joining after March
+      cite:
+      - 1759
+    fees_note: ''
+    how_to_join:
+    - Online form plus a signed NDA; bylaws and the AMTC base agreement are available [1758]
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - Opportunities run through AMTC [1757]
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: An assessment applies to all project awards under VLC Bylaws section 5.6(d); rate not stated [1759]
+  statistics:
+  - Over 300 member organizations [1757]
+  official_url: https://www.verticalliftconsortium.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1757
+  - 1758
+  - 1759
+  conflicts: []
+- id: nest
+  name: Naval Energetic Systems and Technologies
+  acronym: NEST
+  family: ot-cso
+  kind: consortium
+  manager: ATI, with NAC [1790] [1789]
+  sponsors:
+  - Naval Surface Warfare Center Indian Head Division [1789]
+  domain: Energetics and explosive ordnance disposal technologies [1789]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - 'Firms join NAC to take part: "NAC members will have access to opportunities focused on rapid development
+      and research of energetics and explosive ordnance disposal technologies" [1789]'
+    fees:
+    - tier: Through NAC
+      amount: $500
+      period: one-time; no recurring annual dues
+      cite:
+      - 1749
+    fees_note: ''
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - NDC participation or 1/3 cost share on each proposed effort [1750]
+  non_member_visibility: not posted
+  award_form: 'Executed under an OTA; managed by ATI [1790]. General pattern for DoD consortium OTAs, per GAO: DoD
+    awards a base OTA to the consortium management organization, selects the consortium member awardee and typically
+    awards the project to the management organization, which issues a sub-award to the member [1699].'
+  fees_on_awards: 0.5% of all awarded funding (not ceiling), effective 2023-10-01 [1750]
+  statistics: []
+  official_url: https://www.nswcihdnest.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1749
+  - 1750
+  - 1789
+  - 1790
+  conflicts: []
+- id: mtec
+  name: Medical Technology Enterprise Consortium
+  acronym: MTEC
+  family: ot-cso
+  kind: consortium
+  manager: Not stated on MTEC's pages [1760]; see conflicts
+  sponsors:
+  - U.S. Army Medical Research and Development Command [1762]
+  domain: Military medical technologies, in the sweep's draft record [1762]
+  agreement_number: not posted
+  ceiling: not posted; the agreement is "a 10-year renewable Other Transaction Agreement." [1762]
+  membership:
+    eligibility:
+    - International companies may join subject to DoD requirements [1761]
+    fees:
+    - tier: Small business (1–499 employees)
+      amount: $1,000
+      period: per year
+      cite:
+      - 1761
+    - tier: Large business (500+)
+      amount: $5,000
+      period: per year
+      cite:
+      - 1761
+    - tier: Academic institution
+      amount: $1,000
+      period: per year
+      cite:
+      - 1761
+    - tier: Non-profit (non-academic)
+      amount: $5,000
+      period: per year
+      cite:
+      - 1761
+    fees_note: ''
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - '"access to member-only funding opportunities" [1761]'
+    - '"Efficient access to government funding opportunities" [1760]'
+  opportunity_process:
+  - 'Requests for Project Proposals and Requests for Project Information: "Find active, upcoming, and closed solicitations
+    below." [1763]'
+  - 'Open on 2026-10-03: Defense Health Agency Request for Project Information on military injury cause coding (due
+    2026-10-16); National Guard and DHA FY2026 Multi-Topic Request for Project Proposals (due 2026-10-30) [1763]'
+  - 'Basket provision: a proposal may be funded within two years of the original solicitation [1764]'
+  non_member_visibility: The list of solicitations is visible without login [1763]; funding opportunities are member-only
+    [1761]
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: '"Annual Dues and project award assessments pay for consortium activities"; no rate given [1764]'
+  statistics:
+  - $1.6 billion in federal funding; 800+ members; $1.2 billion follow-on funding; 384 projects awarded; 150 products
+    in pipeline [1760]
+  official_url: https://mtec-sc.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1738
+  - 1760
+  - 1761
+  - 1762
+  - 1763
+  - 1764
+  conflicts:
+  - 'Manager: the MITRE list names ATI [1695]; ATI''s current list of collaborations does not include MTEC [1738];
+    MTEC''s own pages name no manager [1760] [1762]. Unresolved; confirm with MTEC.'
+  - The FAQ extraction was thin and one detail (a reference to the Department of Commerce) looks wrong; recheck
+    [1764].
+- id: mcdc
+  name: Medical CBRN Defense Consortium
+  acronym: MCDC
+  family: ot-cso
+  kind: consortium
+  manager: ATI [1765]
+  sponsors:
+  - JPEO-CBRND per the MITRE list; the site footer shows CPE CBRND [1765] [1695]
+  domain: '"Accelerating DoD''s Fielding of Prototypes for Medical Countermeasures" [1765]'
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - U.S. companies or U.S.-based affiliates of foreign companies; DD2345, SAM.gov, UEI, CAGE [1766]
+    fees:
+    - tier: All members
+      amount: $250
+      period: annual, renewed each fiscal year
+      cite:
+      - 1766
+    fees_note: ''
+    how_to_join:
+    - 1–2 business days with complete paperwork [1766]
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics: []
+  official_url: https://www.medcbrn.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1765
+  - 1766
+  conflicts: []
+- id: cwmd
+  name: Countering Weapons of Mass Destruction (CWMD) Consortium
+  acronym: CWMD
+  family: ot-cso
+  kind: consortium
+  manager: ATI [1767]
+  sponsors:
+  - 'JPEO-CBRND: "Through an Other Transaction Agreement with the JPEO-CBRND" [1769] [1767]'
+  domain: Detection, prevention and protection [1767]; scope spans PPE, detection systems, sensors and situational
+    awareness [1769]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - U.S. companies or U.S.-based affiliates; DD2345, SAM.gov, UEI, CAGE; signed Consortium Membership Agreement
+      [1768]
+    - '"Companies that are part of the US Industrial base, as well as new and emerging non-traditional defense contractors,
+      are encouraged to join." [1767]'
+    fees:
+    - tier: All members
+      amount: $250
+      period: annual, renewed each fiscal year
+      cite:
+      - 1768
+    fees_note: ''
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics:
+  - '"The OTA Consortium is an enterprise partnership between the JPEO-CBRND and the CWMD Consortium." [1770]'
+  - In an April 2020 COVID-19 award, requirements development was compressed from 45 days to seven [1770]
+  official_url: https://www.cwmdconsortium.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1767
+  - 1768
+  - 1769
+  - 1770
+  conflicts: []
+- id: dibc
+  name: Defense Industrial Base Consortium
+  acronym: DIBC
+  family: ot-cso
+  kind: consortium
+  manager: ATI [1771]
+  sponsors:
+  - Established by the WIRE (Warfighting, Investments, Resourcing, and Execution) office [1771]
+  domain: Industrial-base projects; the site says it "minimizes barriers to entry for small, non-traditional businesses"
+    [1771]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - U.S.-based, or affiliates in Australia, Canada or the UK [1772]
+    - 'U.S. firms: signed CMA, UEI, active CAGE code, active SAM.gov account; no DD2345 is listed for U.S. companies
+      [1772]'
+    fees:
+    - tier: First year
+      amount: no cost
+      period: first year
+      note: '"There is no cost to join DIBC for the first year!"'
+      cite:
+      - 1772
+    - tier: After the first year
+      amount: up to $250
+      period: annual
+      note: After the first year dues "may increase to $250"
+      cite:
+      - 1772
+    fees_note: ''
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics: []
+  official_url: https://www.dibconsortium.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1771
+  - 1772
+  conflicts:
+  - The sweep's draft record gives example subsectors (gallium, germanium, solid rocket motors) that are not in
+    the source entry's key facts; recheck against the page [1771].
+- id: nstic
+  name: Naval Surface Technology & Innovation Consortium
+  acronym: NSTIC
+  family: ot-cso
+  kind: consortium
+  manager: ATI, named as management firm in the FAQ [1775]
+  sponsors:
+  - NSWC Dahlgren, in the sweep's reading of the MITRE list [1695]
+  domain: Naval surface technology (from the name; the page's purpose statement was not captured) [1773]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - U.S. companies or U.S.-based affiliates; DD2345, SAM.gov, CAGE [1774]
+    - Open to traditional contractors, non-traditionals and academia [1773]
+    fees:
+    - tier: All members
+      amount: no dues
+      period: annual
+      note: '"There are no annual dues to join NSTIC."'
+      cite:
+      - 1774
+    fees_note: ''
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: '"Effective October 1, 2025 the NSTIC Assessment on all initiatives is 0.05% of all awarded funding
+    (not ceiling)."; "There is no annual membership fee. The assessments pay for the operations of the consortium."
+    [1775]'
+  statistics: []
+  official_url: https://www.nstic.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1773
+  - 1774
+  - 1775
+  conflicts: []
+- id: utic
+  name: Undersea Technology Innovation Consortium
+  acronym: UTIC
+  family: ot-cso
+  kind: consortium
+  manager: ATI as manager; UTIC has its own chief executive [1778] [1776]
+  sponsors:
+  - NUWC Division Newport [1778] [1779]
+  domain: '"the consortium for the Department of the Navy Undersea and Maritime Innovative Technology Other Transaction
+    Agreement" [1776]'
+  agreement_number: not posted
+  ceiling: not posted; original OTA June 2018 with options to 10 years [1780]
+  membership:
+    eligibility:
+    - A DD2345 [1777]
+    - '"Small Business Administration (SBA) size standards will be used to determine business size." [1777]'
+    fees:
+    - tier: Large business
+      amount: $1,500
+      period: a year ($750 if joining July–December)
+      cite:
+      - 1777
+    - tier: All others
+      amount: $500
+      period: a year ($250 if joining July–December)
+      cite:
+      - 1777
+    fees_note: ''
+    how_to_join:
+    - 'Steps: obtain DD2345; review the Consortium Membership Agreement; review the Base Agreement; submit the application
+      [1777]'
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - Requests for prototype proposals twice a year (April and October) [1779]
+  - Needs identified twice a year; members submit enhanced white papers; government may award, decline or place
+    in the basket for up to three years [1778]
+  - ATI screens for compliance and the government does source selection [1779]
+  non_member_visibility: not posted
+  award_form: 'The government does source selection; ATI screens proposals for compliance [1779]. General pattern
+    for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management organization, selects the
+    consortium member awardee and typically awards the project to the management organization, which issues a sub-award
+    to the member [1699].'
+  fees_on_awards: not posted
+  statistics:
+  - 'June 2020: 31 awards to 26 members, $230.4 million; over 300 members; 75% non-traditional; 70% small businesses
+    [1778]'
+  - 'Mid-2021: about $300 million awarded; over 200 proposals in the basket and six awards from it; 65% of proposals
+    selected went to non-traditional organizations [1780]'
+  - 'The Navy''s stated reason: "The primary reason for using OT authority is the government needs to obtain leading-edge
+    prototypes and research and development from commercial sources" [1779]'
+  official_url: https://www.underseatech.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1776
+  - 1777
+  - 1778
+  - 1779
+  - 1780
+  conflicts:
+  - 'Non-traditional share in 2020: 75% in UTIC''s release [1778]; 73% in the Navy''s account [1779].'
+- id: iwrp
+  name: Information Warfare Research Project
+  acronym: IWRP
+  family: ot-cso
+  kind: consortium
+  manager: ATI manages the OTA [1784] [1787]
+  sponsors:
+  - NIWC Atlantic, for NAVWAR [1787]
+  domain: '"develop and mature technologies in the field of information warfare that enhance Navy and Marine Corps
+    mission effectiveness" [1784]; IWRP 3 adds quantum, optical communications and electromagnetic spectrum operations
+    [1788]'
+  agreement_number: not posted
+  ceiling: 'IWRP 3: undefined ceiling; ordering period 2024-10-01 to 2034-09-30 [1788]. Earlier agreements: IWRP
+    1 (2018) $100 million, 36 months, raised by $400 million in 2020 [1787] [1786]; IWRP 2 (2021) $500 million ceiling,
+    five years [1787]'
+  membership:
+    eligibility:
+    - not posted
+    fees:
+    - tier: Large businesses
+      amount: $1,500
+      period: annual, payable October 1; $750 if joining April–September
+      cite:
+      - 1785
+    - tier: All others (small businesses, academic institutions, nonprofits)
+      amount: $500
+      period: annual, payable October 1; $250 if joining April–September
+      cite:
+      - 1785
+    fees_note: From the membership agreement conformed 2021-12-22; a later amendment was not read [1785]
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: The consortium runs on dues and project award assessments; no rate given [1785]
+  statistics:
+  - 'GAO: 80% of members are nontraditional defense contractors (650 of 810) [1701]'
+  - '2020: over 580 members; 78% non-traditional [1786]'
+  - '"By June 2020, the IWRP team had allocated 100 percent of the ceiling." [1787]'
+  official_url: https://www.theiwrp.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1701
+  - 1784
+  - 1785
+  - 1786
+  - 1787
+  - 1788
+  conflicts:
+  - 'Manager: IWRP is ATI-managed, not NSTXL-managed [1784] [1787] [1695].'
+  - 'Dues may be superseded: an Amendment 2 to the membership agreement dated 2024-12-19 exists and was not read
+    [1785].'
+  - theiwrp.org returned HTTP 502 on every attempt on 2026-10-03; ATI's page and the membership agreement stand
+    in [1784] [1785].
+- id: mstic
+  name: Maritime Sustainment Technology and Innovation Consortium
+  acronym: MSTIC
+  family: ot-cso
+  kind: consortium
+  manager: ATI [1695] [1738]
+  sponsors:
+  - NSWC Philadelphia Division, which established it [1783]
+  domain: '"Innovative sustainment solutions to effectively address current and future security threats in maritime
+    environments" [1783]'
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - Open to traditional and non-traditional contractors, large and small, for-profit and not-for-profit, and academia
+      [1783]
+    fees: []
+    fees_note: 'not retrieved: the how-to-join page returned HTTP 502 three times [1783]'
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics: []
+  official_url: https://www.mstic.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1738
+  - 1783
+  conflicts: []
+- id: emc2
+  name: Expeditionary Missions Consortium – Crane
+  acronym: EMC2
+  family: ot-cso
+  kind: consortium
+  manager: 'ATI: "Advanced Technology International (ATI), a not-for-profit corporation, is the consortium management
+    firm" [1782]'
+  sponsors:
+  - Established by NSWC Crane Division [1782]
+  domain: Expeditionary missions (from the name; no purpose statement was captured) [1781]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - A current JCP-signed DD2345; FOCI firms need a DCSA-approved mitigation plan or signed Export Compliance Acknowledgment
+      Form [1782]
+    - Welcomes large and small companies and academia, and "Non-traditional Innovators (Companies that don't typically
+      participate in Federal R&D)" [1781]
+    fees: []
+    fees_note: No dues figure on the page read [1782]
+    how_to_join:
+    - Typically 1–2 days if the application is complete [1782]
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics: []
+  official_url: https://www.emccrane.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1781
+  - 1782
+  conflicts: []
+- id: matac
+  name: Maritime Advanced Technology Accelerator Consortium
+  acronym: MATAC
+  family: ot-cso
+  kind: consortium
+  manager: ATI [1791]
+  sponsors:
+  - NSWC Port Hueneme Division [1791]
+  domain: Advanced computing, machine learning, directed energy, autonomous systems, integrated warfare systems
+    [1791]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - not posted
+    fees: []
+    fees_note: 'not retrieved: matac.org returned HTTP 502 [1791]'
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'An OTA for prototyping and production [1791]. General pattern for DoD consortium OTAs, per GAO: DoD
+    awards a base OTA to the consortium management organization, selects the consortium member awardee and typically
+    awards the project to the management organization, which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics: []
+  official_url: https://www.matac.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1791
+  conflicts: []
+- id: daf-tencap
+  name: DAF TENCAP Consortium
+  acronym: DAF TENCAP
+  family: ot-cso
+  kind: consortium
+  manager: ATI [1792]
+  sponsors:
+  - U.S. Air Force [1792]
+  domain: '"developing prototypes that exploit National capabilities to enhance the warfighters'' lethality, survivability,
+    and combat effectiveness." [1793]; areas air, space, cyber, intelligence [1792]'
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - not posted
+    fees: []
+    fees_note: 'unknown: the how-to-join page returned HTTP 502 [1793]'
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - The site has Solicitations and Awards sections [1793]
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics: []
+  official_url: https://www.daftencapconsortium.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1792
+  - 1793
+  conflicts: []
+- id: nsc
+  name: National Spectrum Consortium
+  acronym: NSC
+  family: ot-cso
+  kind: consortium
+  manager: Shown as "Member-led Consortium" on the MITRE list [1695]; see conflicts
+  sponsors:
+  - Office of the Under Secretary of Defense for Research and Engineering, in the sweep's reading of the MITRE list
+    [1695]
+  - 'Earlier agreement: Office of the Deputy Assistant Secretary of Defense for Emerging Capabilities and Prototyping
+    [1799]'
+  domain: '"a spectrum industry Consortium collaborating with multiple government agencies" [1799]'
+  agreement_number: not posted
+  ceiling: 'Spectrum Forward OTA: $2.5 billion, five years (announced 2020-12-16) [1798]; an earlier five-year,
+    $1.25 billion agreement [1799] [1716]'
+  membership:
+    eligibility:
+    - not posted
+    fees: []
+    fees_note: 'not retrieved: the NSC site returned only a JavaScript shell [1798]'
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics:
+  - Nearly 400 members in December 2020 [1798]
+  official_url: https://www.nationalspectrumconsortium.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1716
+  - 1738
+  - 1798
+  - 1799
+  conflicts:
+  - 'Manager: the MITRE list shows NSC as member-led [1695]; ATI stated in 2020 that it managed NSC [1798]; NSC
+    is absent from ATI''s current list of collaborations [1738]. Unresolved.'
+- id: rrpv
+  name: Rapid Response Partnership Vehicle
+  acronym: RRPV
+  family: ot-cso
+  kind: consortium
+  manager: ATI [1795]
+  sponsors:
+  - BARDA (HHS); not a DoD consortium [1795]
+  domain: A BARDA (HHS) consortium; recorded for context [1795]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - International companies may participate with limits [1796]
+    fees:
+    - tier: All members
+      amount: no fee
+      period: initiation and annual
+      note: '"There is no initiation fee and there are no annual membership dues."'
+      cite:
+      - 1796
+    fees_note: ''
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: not posted
+  fees_on_awards: not posted
+  statistics:
+  - 877 current members; 17 awarded projects; $924M+ awarded [1795]
+  official_url: https://www.rrpv.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1795
+  - 1796
+  conflicts: []
+- id: biomap-consortium
+  name: Biopharmaceutical Manufacturing Preparedness Consortium
+  acronym: BioMaP-Consortium
+  family: ot-cso
+  kind: consortium
+  manager: ATI [1794]
+  sponsors:
+  - BARDA (HHS); not a DoD consortium [1794]
+  domain: A BARDA (HHS) consortium; recorded for completeness [1794]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - not posted
+    fees: []
+    fees_note: not posted
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: not posted
+  fees_on_awards: not posted
+  statistics: []
+  official_url: https://www.ati.org/biopharmaceutical-manufacturing-preparedness-consortium/
+  as_of: '2026-10-03'
+  sources:
+  - 1794
+  conflicts:
+  - The consortium's own site (biomap-consortium.org) was not read; official_url is ATI's page [1794].
+- id: hstech
+  name: Homeland Security Technology Consortium
+  acronym: HSTech
+  family: ot-cso
+  kind: consortium
+  manager: 'ATI: "HSTech is managed and operated by Advanced Technology International." [1797]'
+  sponsors:
+  - DHS; not a DoD consortium [1797]
+  domain: Homeland security technology (from the name) [1797]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - not posted
+    fees: []
+    fees_note: No dues stated on the page read [1797]
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: not posted
+  fees_on_awards: not posted
+  statistics: []
+  official_url: https://hstech.ati.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1670
+  - 1738
+  - 1797
+  conflicts:
+  - DHS's other transaction authority reads "Until September 30, 2024" in the statute text read [1670]; how HSTech
+    operates after the lapse was not checked.
+  - HSTech does not appear in ATI's printed list of collaborations [1738].
+- id: c5
+  name: Consortium for Command, Control and Communications in Cyberspace
+  acronym: C5
+  family: ot-cso
+  kind: consortium
+  manager: CMG [1802] [1800]
+  sponsors:
+  - 'Two OTAs: one sponsored by Army PEO IEW&S; one by Marine Corps Systems Command [1802]'
+  - The 2017 base OTA was with U.S. Army Contracting Command – New Jersey [1805]
+  domain: 'In the sweep''s draft record: C4ISR, cyber, software, AI, networks, space systems [1802]'
+  agreement_number: W15QKN-17-9-5555 (2017 base OTA; may have been superseded by the current OTAs) [1805]
+  ceiling: 'Marine Corps Systems Command OTA: stated as having no ceiling [1802]. 2017 base OTA: estimated value
+    $2 billion; ten years from award [1805]'
+  membership:
+    eligibility:
+    - not posted
+    fees:
+    - tier: All members
+      amount: $500
+      period: annual
+      cite:
+      - 1801
+    - tier: Academic institutions
+      amount: waived
+      period: annual
+      cite:
+      - 1801
+    fees_note: ''
+    how_to_join:
+    - Four steps; review within 24–48 hours; membership runs one year from application and renews annually [1801]
+    what_it_gives:
+    - '"Government program sponsors develop project requirements and issue project solicitations through our CMG
+      Networks to our members." [1802]'
+  opportunity_process:
+  - '2017 base OTA (Art. I.E): Request for White Papers to CMG; CMG sends to members; government evaluates and issues
+    a selection notice; Request for Project Proposal with a government statement of work; proposals go through CMG
+    to the government; a bilateral modification obligates funds; a Technical Direction Letter authorizes work [1805]'
+  - 'Art. VI: one-third cost share is required unless an NDC participates to a significant extent or all significant
+    participants are small businesses or NDCs [1805]'
+  non_member_visibility: not posted
+  award_form: CMG issues a Project Agreement to the selected member (the "Project Agreement Holder"); "A bilateral
+    modification to this Agreement will be executed to obligate project funding" [1805]
+  fees_on_awards: '"C5 assesses a small management and administrative fee, expressed as a fixed percentage, on each
+    Prototype Project awarded."; rate not stated on the page [1801]. 2017 base OTA (Art. V.D): "CMG''s administrative
+    and management fee is a percentage of the FFP price of each Prototype Project", fixed for a year; 4.3% from
+    award through government fiscal year 2018 [1805]'
+  statistics:
+  - Formed 2014; more than 1,600 members [1802]
+  official_url: https://cmgnetworks.org/c5-overview/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1716
+  - 1800
+  - 1801
+  - 1802
+  - 1805
+  conflicts:
+  - 'Sponsor wording: Army PEO IEW&S and Marine Corps Systems Command on C5''s page [1802]; Army DEVCOM in the sweep''s
+    reading of the MITRE list [1695].'
+  - An older ACC-NJ briefing gave C5 an estimated value of $100M (historical) [1716]; the 2017 base OTA says $2
+    billion [1805].
+- id: ceed
+  name: Consortium for Energy, Environment and Demilitarization
+  acronym: CEED
+  family: ot-cso
+  kind: consortium
+  manager: CMG [1800] [1804]
+  sponsors:
+  - Agreements with the Army Corps of Engineers and Marine Corps Systems Command [1804]
+  domain: Energy, environment and demilitarization (from the name; the overview page lists the technology areas)
+    [1804]
+  agreement_number: not posted
+  ceiling: The MCSC OTA has no ceiling and is open to Agreements Officers across the department and intelligence
+    community [1804]
+  membership:
+    eligibility:
+    - not posted
+    fees:
+    - tier: All members
+      amount: $500
+      period: annual, non-refundable
+      cite:
+      - 1803
+    - tier: Academic institutions
+      amount: waived
+      period: annual
+      cite:
+      - 1803
+    fees_note: ''
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - '"The project sponsor determines the best approach for their project" [1804]'
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: '"CEED assesses a small management and administrative fee, expressed as a fixed percentage, on
+    each Prototype Project awarded."; rate not stated [1803]'
+  statistics:
+  - Operating since 2010; more than 800 members [1804]
+  official_url: https://cmgnetworks.org/ceed-overview/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1716
+  - 1800
+  - 1803
+  - 1804
+  conflicts:
+  - 'Sponsor wording: Army Corps of Engineers and Marine Corps Systems Command on CEED''s page [1804]; Army DEVCOM
+    in the sweep''s reading of the MITRE list [1695].'
+  - An older ACC-NJ briefing gave CEED an estimated value of $100M (historical) [1716].
+- id: nasc
+  name: Naval Aviation Systems Consortium
+  acronym: NASC
+  family: ot-cso
+  kind: consortium
+  manager: CMG [1800]
+  sponsors:
+  - 'The Navy: "Through its Other Transaction Agreement with the Navy" [1806]'
+  - '"NAWCAD Administers the base OTA and individual project awards" [1808]'
+  domain: Naval aviation systems (from the name) [1806]
+  agreement_number: not posted; an identifier in the form N00421-25-9-0002 appears on the opportunities page [1807]
+  ceiling: not posted; a five-year OTA awarded by the Navy in 2019 [1808]
+  membership:
+    eligibility:
+    - not posted
+    fees:
+    - tier: All members (2022 slides; dues are not on the current site)
+      amount: $500
+      period: annual; first year complimentary (2022)
+      cite:
+      - 1808
+    - tier: Academic institutions (2022 slides)
+      amount: waived
+      period: annual
+      cite:
+      - 1808
+    fees_note: ''
+    how_to_join:
+    - Registration is through nascportal.tech [1806]
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - 'Steps: requirement developed; solicitation; member white paper; government evaluation and selection; statement-of-work
+    collaboration; member proposal; government evaluation and negotiation; award [1808]'
+  non_member_visibility: Opportunity titles and statuses (Coming Soon, Under Evaluation, Awarded) are visible without
+    login [1807]
+  award_form: '"NAWCAD Administers the base OTA and individual project awards" [1808]'
+  fees_on_awards: not posted
+  statistics:
+  - More than 1,000 member companies and institutions [1806]
+  - 'May 2022: 42 awards, $462M; 30 in process; more than 600 members [1808]'
+  official_url: https://nascsolutions.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1800
+  - 1806
+  - 1807
+  - 1808
+  conflicts:
+  - Dues come from 2022 slides hosted by a third party and are not on the current site [1808] [1806].
+  - Sponsor is given as NAVAIR in the sweep's reading of the MITRE list [1695].
+- id: namc
+  name: National Advanced Mobility Consortium
+  acronym: NAMC
+  family: ot-cso
+  kind: consortium
+  manager: 'Itself: "a 501(c)(3) non-profit, member-led consortium" [1809] that "does not employ a Consortium Management
+    Firm (CMF)." [1810]'
+  sponsors:
+  - Ground Vehicle Systems Center; contracting office Army Contracting Command – Detroit Arsenal [1812]
+  domain: Ground vehicle systems; two OTA pathways, GVS and DAI [1809] [1812]
+  agreement_number: W15QKN-17-9-1025 (GVS OTA) [1812]
+  ceiling: '"5 year, $2B ceiling"; competitively awarded [1812]'
+  membership:
+    eligibility:
+    - U.S. companies with a valid DD2345; U.S. subsidiaries of foreign firms allowed [1810]
+    - Application needs FEIN, UEI, CAGE, DD2345 upload, FOCI plan if relevant, and a non-proprietary capability
+      narrative [1811]
+    fees:
+    - tier: Per company (flat)
+      amount: $500
+      period: annual, prorated within the October–September fiscal year; no other membership fees
+      cite:
+      - 1810
+      - 1811
+    fees_note: ''
+    how_to_join:
+    - Review typically 5–7 business days [1811]
+    what_it_gives:
+    - '"These projects are all exclusive to NAMC—perks of the consortia" [1810]'
+  opportunity_process:
+  - 580+ projects competed exclusively through NAMC [1809]
+  non_member_visibility: Projects are exclusive to NAMC members [1810]
+  award_form: 'The GVS OTA allows follow-on production [1812]. General pattern for DoD consortium OTAs, per GAO:
+    DoD awards a base OTA to the consortium management organization, selects the consortium member awardee and typically
+    awards the project to the management organization, which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics:
+  - 570+ members; 70% nontraditional defense contractors; 1 in 4 members has received a project award; over $1.5B
+    in obligated funds; 580+ projects; 18 years of operation [1809]
+  - '"73% of Funding Awarded to NDCs"; expected project funding of $250M per year [1811]'
+  official_url: https://www.namconsortium.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1716
+  - 1809
+  - 1810
+  - 1811
+  - 1812
+  conflicts:
+  - An older ACC-NJ briefing gave Ground Vehicle Systems an estimated value of $700M (historical) [1716]; NAMC's
+    page gives a $2B ceiling [1812].
+- id: sossec-consortium
+  name: SOSSEC Consortium
+  acronym: SOSSEC Consortium
+  family: ot-cso
+  kind: consortium
+  manager: SOSSEC, Inc., as Consortium Administrative Organization [1813]
+  sponsors:
+  - Army (COBRA; ERDC); AFLCMC (PCI 2.0; PCI; ACI); 448th Supply Chain Management Wing (SCCI); AFRL (OTAFI); NGA
+    [1813]
+  domain: '"OTs are a special vehicle used by federal agencies for obtaining or advancing research and development
+    (R&D) or prototypes."; OTAs listed: Army COBRA; Army ERDC; AFLCMC PCI 2.0; AFLCMC PCI; AFLCMC ACI; SCCI; AFRL
+    OTAFI; NGA [1813]'
+  agreement_number: 'not posted: no agreement numbers on the page [1813]'
+  ceiling: 'NGA OTA: stated $30M ceiling; others not posted [1813]'
+  membership:
+    eligibility:
+    - not posted
+    fees: []
+    fees_note: Dues not posted; contact (603) 458-5529, info@sossecinc.com [1814]
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: Opportunities are behind a member login, per the sweep's gap list [1814]
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics:
+  - Over 1,800 member companies across SOSSEC's two consortia; "Nearly 80% of the membership are non-traditional
+    companies." [1814]
+  official_url: https://sossecinc.com/sossec-consortium/
+  as_of: '2026-10-03'
+  sources:
+  - 1699
+  - 1813
+  - 1814
+  conflicts:
+  - 'Record added at assembly: the sweep''s draft folds this consortium into the SOSSEC, Inc. manager record; it
+    is split out so that each consortium has a record [1813].'
+- id: scec
+  name: Sensors, Communications and Electronics Consortium
+  acronym: SCEC
+  family: ot-cso
+  kind: consortium
+  manager: SOSSEC, Inc. [1815] [1695]
+  sponsors:
+  - Army DEVCOM C5ISR Center, in the sweep's reading of the MITRE list [1695]
+  domain: Nine capability areas, including assured PNT, electronic warfare, cyberspace operations, mission command,
+    tactical and deployed power; "leading to technology demonstrations and prototype projects in the sensors, communications
+    and electronics sciences." [1815]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - not posted
+    fees: []
+    fees_note: Dues not posted [1814]
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics: []
+  official_url: https://sossecinc.com/scec-consortium/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1814
+  - 1815
+  conflicts: []
+- id: cornerstone
+  name: Cornerstone Consortium
+  acronym: Cornerstone
+  family: ot-cso
+  kind: consortium
+  manager: 'The Government itself: operated by DEVCOM CBC and ACC Rock Island under the IBAS program manager; "To
+    date, Cornerstone is the only Government-managed OTA Consortium." [1816]'
+  sponsors:
+  - The IBAS (Industrial Base Analysis and Sustainment) program manager [1816]
+  domain: Industrial-base projects [1816]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - not posted
+    fees:
+    - tier: All members
+      amount: free
+      period: ''
+      note: '"Membership to the Cornerstone Consortium is free."'
+      cite:
+      - 1816
+    fees_note: ''
+    how_to_join:
+    - Process takes less than a week; members sign a Cornerstone Management Agreement [1816]
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - Opportunities are emailed to members [1816]
+  non_member_visibility: Opportunities are emailed to members [1816]
+  award_form: Run by government staff with no outside manager [1816]
+  fees_on_awards: not posted; no outside manager is paid [1816]
+  statistics: []
+  official_url: https://cornerstone.army.mil/
+  as_of: '2026-10-03'
+  sources:
+  - 1816
+  conflicts: []
+- id: ucah
+  name: University Consortium for Applied Hypersonics
+  acronym: UCAH
+  family: ot-cso
+  kind: consortium
+  manager: Texas A&M Engineering Experiment Station (TEES) [1817] [1695]
+  sponsors:
+  - Joint Hypersonics Transition Office and the Under Secretary for Research and Engineering [1817]
+  domain: 'Applied hypersonics: "a collaborative network of universities working with government, industry, national
+    laboratories" [1817]'
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - A university-led consortium with industry affiliates [1817]
+    fees: []
+    fees_note: No membership cost on the page [1817]
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - No solicitation procedure on the page [1817]
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics:
+  - 130 universities (11 international); 262 industry partners; 18 UARCs and FFRDCs [1817]
+  official_url: https://hypersonics.tamu.edu/
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  - 1817
+  conflicts: []
+- id: datc
+  name: Defense Automotive Technologies Consortium
+  acronym: DATC
+  family: ot-cso
+  kind: consortium
+  manager: SAE Industry Technologies Consortia (SAE ITC), per the MITRE list [1695]
+  sponsors:
+  - Army Ground Vehicle Systems Center, in the sweep's reading of the MITRE list [1695]
+  domain: Defense automotive technologies (from the name) [1695]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - not posted
+    fees: []
+    fees_note: 'not retrieved: the SAE sites returned no body text [1695]'
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics: []
+  official_url: ''
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  conflicts:
+  - Nothing beyond the MITRE list entry was verified; no official_url was captured [1695].
+- id: dec
+  name: Defense Electronics Consortium
+  acronym: DEC
+  family: ot-cso
+  kind: consortium
+  manager: U.S. Partnership for Assured Electronics with ATI support, via Cornerstone, in the sweep's reading of
+    the MITRE list [1695]
+  sponsors:
+  - Run through Cornerstone, in the sweep's reading of the MITRE list [1695]
+  domain: Defense electronics (from the name) [1695]
+  agreement_number: not posted
+  ceiling: not posted
+  membership:
+    eligibility:
+    - not posted
+    fees: []
+    fees_note: not fetched directly [1695]
+    how_to_join:
+    - not posted
+    what_it_gives:
+    - not posted
+  opportunity_process:
+  - not posted
+  non_member_visibility: not posted
+  award_form: 'General pattern for DoD consortium OTAs, per GAO: DoD awards a base OTA to the consortium management
+    organization, selects the consortium member awardee and typically awards the project to the management organization,
+    which issues a sub-award to the member [1699].'
+  fees_on_awards: not posted
+  statistics: []
+  official_url: ''
+  as_of: '2026-10-03'
+  sources:
+  - 1695
+  - 1699
+  conflicts:
+  - Nothing beyond the MITRE list entry was verified; no official_url was captured [1695].
+- id: diu-cso
+  name: DIU Commercial Solutions Opening
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: DIU's 2026 CSO guidebook and its open-solicitations page, with closing dates in October 2026, were
+    read on 2026-10-03 [1953] [1955].
+  owner: Defense Innovation Unit
+  agency: DoW
+  defense: true
+  what: 'DIU, founded August 2015 as DIUx, works in three portfolios in 2026: Autonomous Warfare, Kill Web and the
+    10x Portfolio [1959]. It posts an Area of Interest and runs a three-phase Commercial Solutions Opening; awards
+    are prototype OT agreements under 10 U.S.C. 4022 with fixed-price milestone payments [1953]. "Any competitively
+    awarded OT for Prototype agreement can result in one or more follow-on production awards without further competition"
+    [1953].
+
+    '
+  funds_or_buys: other-transaction
+  eligibility:
+  - '"Any individual or commercial entity is eligible to respond to a DIU solicitation." [1952]'
+  - Open to traditional and nontraditional contractors, nonprofits, small businesses and foreign-owned firms; SAM
+    registration required before award [1954]
+  - One-third cost share applies where no nontraditional participates significantly [1954]; the statutory conditions
+    are in 10 U.S.C. 4022 subsection (d) [1942]
+  - DIU checks ownership, runway and security before the pitch; the agreements officer verifies nontraditional status
+    in FPDS-NG [1953]
+  - 'An opportunity can add its own terms: CLASS ACT — Investors (PROJ00719) requires nontraditional status, no
+    current or prior facility clearance, and at least $100 million of available capital [1956]'
+  cycle:
+    pattern: An Area of Interest is generally one page and is live on diu.mil "for about 14 days" [1953]; open solicitations
+      are listed on DIU's site [1955].
+    current_solicitations:
+    - id: Low Cost ISR (LC-ISR), Autonomous Warfare portfolio, CSO
+      opens: ''
+      closes: '2026-10-14'
+      note: Closes October 14, 2026 [1955]
+    - id: CLASS ACT — Investors (PROJ00719; solicitation HQ084526SC002)
+      opens: ''
+      closes: '2026-10-13'
+      note: Responses due 2026-10-13; single PDF, 10MB maximum; targets investors, not product firms [1956] [1955]
+    - id: CLASS ACT — Sensors and Effectors (counter-unmanned, maritime)
+      opens: ''
+      closes: '2026-10-13'
+      note: Closes October 13, 2026 [1955]
+  awards:
+  - phase: Prototype OT
+    amount: No per-award ceiling or typical size; the guide gives no award ceilings or typical award sizes
+    duration: Period of performance generally not to exceed 24 months
+    cite:
+    - 1953
+    - 1954
+  - phase: Aggregate, FY2023 (DIU's own figures)
+    amount: 90 prototype contracts, $298M; 1,768 proposals; 33 new solicitations
+    duration: ''
+    cite:
+    - 1958
+  - phase: Aggregate, FY2016–2023
+    amount: 450 prototype agreements, $1.7 billion obligated; 62 transitioned (51% of completed), $5.5 billion combined
+      ceiling (GAO); 451 awards, $1.7B (DIU)
+    duration: Prototype execution typically 12–24 months (GAO)
+    cite:
+    - 1957
+    - 1958
+  - phase: Aggregate as stated in March 2025
+    amount: Over 500 awards in eight years
+    duration: ''
+    cite:
+    - 1919
+  steps:
+  - 'Phase 1: brief "Limited to 5 pages or 15 slides", evaluated in about 10 days on relevance, innovation, technical
+    merit [1953]'
+  - '"Solution Briefs will be evaluated on the basis of merit of proposed concept, not against other submissions."
+    [1954]'
+  - '"Each brief must stand entirely on its own merits—no cross‑references, no assumed context" [1953]'
+  - DIU responds within 30 days if interested [1952]
+  - 'Phase 2: live pitch within about 30 days: "20-minute pitch and 40-minute rapid-fire questioning"; outcomes:
+    advance, portal hold (180 days), or nonselection [1953]; the pitch includes rough-order-of-magnitude price,
+    notional schedule and data-rights assertions [1954]'
+  - 'Phase 3: Request for Prototype Proposal and negotiation, 30–60 days; fixed-price milestone payments [1953]'
+  - Payment by milestone through WAWF; companies generally retain IP and the Department licenses rights [1952]
+  - Follow-on under §4022(f) may be a production OT, a FAR contract, IDIQ, BPA or Schedule listing [1953]
+  portal: https://www.diu.mil/work-with-us/open-solicitations
+  registrations:
+  - sam-uei
+  gates:
+  - sam-registration
+  - ot-agreement-structure
+  - ot-payable-milestones-cost-share
+  - ot-payment-reporting
+  situations:
+  - have-technology
+  modifiers:
+    rd: false
+    product: true
+    service: false
+  pending_changes:
+  - status: final
+    date: '2025-03-07'
+    text: DIU's account, dated March 7, 2025, of the March 2025 Secretary memo scaling its CSO-plus-OT model across
+      the Department for software [1919]; the Software Acquisition pathway page dates the memo March 6, 2025 [1916].
+      The memo PDF was not read.
+  - status: final
+    date: '2025-12-18'
+    text: '10 U.S.C. 4022 after the FY2026 NDAA: slice OC''s reading of the Code records a terminology correction
+      only; slice OD''s reading of the same page records amendment notes only through December 23, 2024 [1942].'
+  distinctive: '"a fast, flexible way that allows us to competitively solicit proposals for DoD projects, often
+    awarding within 60-90 days" [1955]'
+  official_url: https://www.diu.mil/work-with-us/open-solicitations
+  as_of: '2026-10-03'
+  sources:
+  - 1916
+  - 1919
+  - 1942
+  - 1952
+  - 1953
+  - 1954
+  - 1955
+  - 1956
+  - 1957
+  - 1958
+  - 1959
+  conflicts:
+  - 'Time to award: "often awarding within 60-90 days" [1955]; "in as few as 60-90 days, although our current average
+    is closer to 120 days" in March 2025 [1919]; GAO measured an average of 172 days for FY2016–2023, with 85% of
+    awards exceeding the 90-day target [1957].'
+  - 'Cumulative FY2016–2023 count: 450 prototype agreements [1957] vs 451 awards [1958].'
+  - The standing solicitation text cites 10 U.S.C. 2371b, the pre-renumbering section [1954]; the 2026 guidebook
+    cites 10 U.S.C. 4022 [1953].
+- id: diu-onramp-hubs
+  name: Defense Innovation OnRamp Hubs
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: Three hub pages on diu.mil were read on 2026-10-03; they are undated, and the only dated primary
+    source is the December 2024 cooperative-agreement notice [1960] [1961]. The full current hub list is unverified.
+  owner: Defense Innovation Unit, through a recipient under a cooperative agreement
+  agency: DoW
+  defense: true
+  what: 'The hubs are described as "A bridge between the DoD, funders, founders, and universities to accelerate
+    innovative solutions" [1960]. The hub pages describe access, training and events, and none states that a hub
+    funds companies [1960]. The network is operated through a recipient under a cooperative agreement, notice HQ003425NFOEASD04,
+    whose task is to "Design, develop and manage a network of offices, physical and digital hubs, and other collaborative
+    partnerships." [1961]
+
+    '
+  funds_or_buys: null
+  eligibility: []
+  cycle:
+    pattern: No solicitation cycle is described for firms; the hubs are standing locations [1960].
+    current_solicitations: []
+  awards:
+  - phase: Cooperative agreement to operate the network (not an award to firms using a hub)
+    amount: Award minimum shown $40,000,000
+    duration: Notice published 2024-12-19; closed 2025-01-27
+    cite:
+    - 1961
+  steps:
+  - 'Contact for all hubs: onramphub@diu.mil [1960]'
+  - 'Kansas: 334 St Francis Ave, Wichita; advanced manufacturing and aerospace; NIAR and university labs [1960]'
+  - 'Hawaii: 55 Merchant Street, Suite 1825, Honolulu; off-base collaboration space, challenge events [1960]'
+  - 'Kentucky: 300 East Market St., Louisville; University of Louisville; additive manufacturing, robotics, cybersecurity
+    [1960]'
+  portal: null
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: false
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"A bridge between the DoD, funders, founders, and universities to accelerate innovative solutions"
+    [1960]'
+  official_url: https://www.diu.mil/onramp-hub-kansas
+  as_of: '2026-10-03'
+  sources:
+  - 1960
+  - 1961
+  conflicts:
+  - 'Hub list: the December 2024 notice names five hubs at the time (Phoenix, Dayton, Honolulu, Seattle, Wichita)
+    [1961]; the hub pages read are Kansas, Hawaii and Kentucky, and Washington, Arizona and Montana pages were seen
+    in search but not fetched [1960]. The full current list is unverified.'
+- id: blue-uas-cleared-list
+  name: Blue UAS Cleared List (Blue List)
+  family: ot-cso
+  kind: front-door
+  status: unconfirmed
+  status_note: The transfer to DCMA is confirmed by a DIU release dated 2025-12-03 [1962], but the list's own site,
+    bluelist.dcma.mil, could not be fetched on 2026-10-03, so the door itself was not seen.
+  owner: Defense Contract Management Agency since December 3, 2025; previously the Defense Innovation Unit
+  agency: DoW
+  defense: true
+  what: 'DIU announced the transfer of the Blue UAS Cleared List to the Defense Contract Management Agency under
+    the July 2025 "Unleashing U.S. Military Drone Dominance" memo, effective December 3, 2025, ahead of a January
+    1, 2026 deadline [1962]. As of November 19, 2025 the list held 81 companies, 39 Blue UAS systems and 165 components
+    [1962]. The sweep characterises it as a listing and not an award; the release''s own framing is "we need an
+    easy way to buy trusted, cutting-edge drone technology" [1962].
+
+    '
+  funds_or_buys: null
+  eligibility: []
+  cycle:
+    pattern: Not stated in the release read [1962].
+    current_solicitations: []
+  awards: []
+  steps:
+  - Recognized Assessors (third parties) continue to process vendors onto the list [1962]
+  - DIU's /blue-uas page now points to bluelist.dcma.mil, per the sweep's summary [1962]
+  portal: https://bluelist.dcma.mil
+  registrations: []
+  gates: []
+  situations:
+  - have-technology
+  modifiers:
+    rd: false
+    product: true
+    service: false
+  pending_changes:
+  - status: final
+    date: '2025-12-03'
+    text: The Blue UAS Cleared List moved from DIU to DCMA effective December 3, 2025 [1962].
+  distinctive: ''
+  official_url: https://bluelist.dcma.mil
+  as_of: '2026-10-03'
+  sources:
+  - 1962
+  conflicts:
+  - 'Status unconfirmed: the transfer rests on a DIU release dated 2025-12-03 [1962]; bluelist.dcma.mil could not
+    be fetched, so onboarding steps, cost and timing under DCMA are unverified and the official URL given here was
+    not read.'
+- id: tradewinds-solutions-marketplace
+  name: Tradewinds Solutions Marketplace (CDAO)
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: The marketplace page carries statistics dated June 2026 and was read on 2026-10-03 [1963].
+  owner: Chief Digital and Artificial Intelligence Office (CDAO) / Tradewinds
+  agency: DoW
+  defense: true
+  what: 'The marketplace is "the DoD''s digital environment of post-competition, readily awardable, technology solution
+    pitch videos" [1963]. It works in four steps: five-minute pitch video; expert assessment; "awardable" status;
+    government procurement [1963]. The authorities named for awards are Broad Agency Announcement, Commercial Solutions
+    Opening and Other Transactions [1965].
+
+    '
+  funds_or_buys: other-transaction
+  eligibility:
+  - Vendors include industry, academia and individuals, per the sweep's summary of the one-pager [1966]
+  - Buyers need a .gov or .mil email address [1963]; "Agreements are available to all Department of Defense (DOD)
+    and other Federal agencies" [1965]
+  cycle:
+    pattern: 'Monthly collection: the video is due 12:00pm EST on the last day of the month; it is assessed in the
+      first two weeks after the collection period, with feedback by the end of the following month [1964]. Awardable
+      videos stay in the Marketplace for 24 months [1965].'
+    current_solicitations: []
+  awards:
+  - phase: Per award
+    amount: No per-award size published in the sources read
+    duration: ''
+    cite:
+    - 1963
+  - phase: Aggregate, 2025
+    amount: 80 awards, $1.753B
+    duration: Median procurement time 45 days
+    cite:
+    - 1963
+  - phase: Aggregate, June 2026
+    amount: 4,064 solutions submitted; 1,399 awardable; $3.67B in contracts awarded; 186 participating government
+      activities
+    duration: ''
+    cite:
+    - 1963
+  steps:
+  - Video must be 5 minutes; over 5:00 is not assessed; .mp4 under 1GB, 1920x1080; one solution per video [1964]
+  - 'Video elements: problem, solution with TRL, government impact, differentiation [1965]'
+  - Reviewers include technical specialists and acquisition professionals; a standardized rubric is in the announcement
+    [1964]
+  - 'A government customer then buys through its own process: "Purchasing a solution from the TSM is no different
+    than purchasing via other means" [1964]'
+  - '"10 USC 3458 and DFARS 212.7000 authorize Defense Commercial Solutions Opening" [1965]'
+  - Alongside the marketplace CDAO lists a T&E BPA (AI test and evaluation; usable by all USG agencies), a DRAID
+    BOA and an AI Talent BOA; FY2025 on-ramps for these three are marked unavailable [1967]
+  - 'Contact: success@tradewindai.com [1966]'
+  portal: https://www.tradewindai.com/tw-marketplace
+  registrations: []
+  gates:
+  - ot-agreement-structure
+  situations:
+  - have-technology
+  modifiers:
+    rd: false
+    product: true
+    service: false
+  pending_changes:
+  - status: final
+    date: '2025-12-18'
+    text: 'Pub. L. 119-60 §1823 amended 10 U.S.C. 3458, one of the authorities named for this marketplace: the "innovative"
+      definition was removed and follow-on production authority added [1939].'
+  - status: class-deviation
+    date: ''
+    text: DFARS 212.7000 is the codified section named by the marketplace's own Q&A [1965] and stays the primary
+      citation. The DFARS 212.70 text and any overhaul deviation numbering for it were not swept in this slice,
+      so no deviation number or date is recorded.
+  distinctive: '"the DoD''s digital environment of post-competition, readily awardable, technology solution pitch
+    videos" [1963]'
+  official_url: https://www.tradewindai.com/tw-marketplace
+  as_of: '2026-10-03'
+  sources:
+  - 1939
+  - 1963
+  - 1964
+  - 1965
+  - 1966
+  - 1967
+  conflicts: []
+- id: sofwerx
+  name: SOFWERX
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: The SOFWERX home page and events list were read on 2026-10-03 and show events dated October and November
+    2026 [1968].
+  owner: DEFENSEWERX (operator), under a Partnership Intermediary Agreement with USSOCOM
+  agency: DoW
+  defense: true
+  what: 'SOFWERX is a 501(c)(3) nonprofit platform; its legal basis is a Partnership Intermediary Agreement with
+    USSOCOM under 15 U.S.C. 3715, since September 2015, operated by DEFENSEWERX [1968] [1969]. SOFWERX itself is
+    not shown as awarding contracts; it connects USSOCOM and participants [1969]. For an Assessment Event, "If the
+    USSOCOM evaluation panel favorably evaluates a solution brief, negotiations for a follow-on award may immediately
+    begin." [1970]
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - 'Example Assessment Event: U.S. citizens only; industry, academia and national labs [1971]'
+  cycle:
+    pattern: Events are listed on the home page and at events.sofwerx.org [1968]. Prize Challenge and TEAMWERX events
+      have two-month submission windows [1970].
+    current_solicitations:
+    - id: SBIR 26.BZ Release 6
+      opens: ''
+      closes: '2026-10-21'
+      note: Due October 21, 2026 [1968]
+    - id: PEO-FW Group 2 Air-Launched Effects
+      opens: ''
+      closes: '2026-10-27'
+      note: Listed for October 27; the sweep does not say whether this is an event date or a deadline [1968]
+    - id: PEO-SW Distributed Micro Sensors
+      opens: '2026-10-27'
+      closes: '2026-10-29'
+      note: Listed for October 27–29 [1968]
+    - id: OSBP Networking Event
+      opens: ''
+      closes: '2026-11-05'
+      note: Listed for November 5 [1968]
+    - id: PEO-M Unmanned Surface Vehicle
+      opens: '2026-11-02'
+      closes: '2026-11-20'
+      note: Listed for November 2–20 [1968]
+  awards:
+  - phase: Assessment Event
+    amount: No award sizes stated; awards negotiated by USSOCOM as "non-FAR or FAR-based agreements"
+    duration: ''
+    cite:
+    - 1971
+  - phase: Prize Challenge, TEAMWERX, Hackathon
+    amount: Cash prizes; amounts not stated
+    duration: Two-month submission windows (Prize Challenge and TEAMWERX)
+    cite:
+    - 1970
+  steps:
+  - Firms join the "Ecosystem" by web form [1968]
+  - 'Collaboration Event: design sessions whose outcomes "shape future efforts, projects, and events" (no award)
+    [1970]'
+  - 'Assessment Event: submit, down-select, one-on-one session with government stakeholders [1970]'
+  - 'Authorities named in an example Assessment Event notice: 10 U.S.C. 4022 (prototype OT); 10 U.S.C. 4023; 15
+    U.S.C. 3715; 15 U.S.C. 3710a (CRADA); 10 U.S.C. 4025 and 15 U.S.C. 3719 (prizes); FAR-based contracts [1971]'
+  - 'Example timeline: five phases from government collaboration (September 30) to award negotiation after the February
+    event; submissions closed 2025-12-03 and the event ran 2026-02-24 to 26 [1971]'
+  - 'Other event types: Collider, Combat Evaluation, Disrupter, Feasibility Study, Rapid Prototyping Event, Tech
+    Sprint, Tech Talk [1970]'
+  - Tech Tuesday submissions are "currently paused" [1968]
+  portal: https://events.sofwerx.org/
+  registrations: []
+  gates:
+  - ot-agreement-structure
+  - prize-eligibility-rules
+  situations:
+  - have-technology
+  - looking-for-partners
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: '"If the USSOCOM evaluation panel favorably evaluates a solution brief, negotiations for a follow-on
+    award may immediately begin." [1970]'
+  official_url: https://sofwerx.org/
+  as_of: '2026-10-03'
+  sources:
+  - 1968
+  - 1969
+  - 1970
+  - 1971
+  conflicts: []
+- id: ussocom-sof-atl-cso
+  name: USSOCOM SOF AT&L Commercial Solutions Opening
+  family: ot-cso
+  kind: front-door
+  status: unconfirmed
+  status_note: Read only through an aggregator copy of a SAM.gov notice; no primary source was read [1972].
+  owner: USSOCOM Special Operations Forces Acquisition, Technology and Logistics (as named in the notice title;
+    secondary only)
+  agency: DoW
+  defense: true
+  what: 'SECONDARY ONLY: an aggregator copy of a SAM.gov notice, posted 2026-02-24 and updated 2026-03-11, describes
+    a USSOCOM SOF AT&L Innovative Technology and Agile Acquisition Commercial Solutions Opening with 12 Areas of
+    Interest [1972]. The copy gives the authorities as DFARS 212.70, 10 U.S.C. 3458, 10 U.S.C. 4022 and 10 U.S.C.
+    4023, and says awards may be FAR contracts, OT agreements or via partnership intermediary, with noncompetitive
+    follow-on production options [1972]. SAM.gov pages render by script and could not be read, so none of this is
+    verified in a primary source [1972].
+
+    '
+  funds_or_buys: null
+  eligibility: []
+  cycle:
+    pattern: Not verified. Reported as posted 2026-02-24 and updated 2026-03-11 (secondary only) [1972].
+    current_solicitations:
+    - id: USSOCOM_SOFATL_CSO
+      opens: '2026-02-24'
+      closes: ''
+      note: 'SECONDARY ONLY. SAM.gov notice ids from search: b57eb3bbc1ba48fcb528ecff95240f91; d301463c1df546af9ffd4c910a1428ca
+        [1972]'
+  awards: []
+  steps:
+  - 'SECONDARY ONLY, as reported by the aggregator copy: three phases: solution brief; optional pitch or demonstration;
+    request for prototype proposal and award [1972]'
+  portal: https://sam.gov/opp/b57eb3bbc1ba48fcb528ecff95240f91/view
+  registrations: []
+  gates: []
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes:
+  - status: final
+    date: '2025-12-18'
+    text: Pub. L. 119-60 §1823 amended 10 U.S.C. 3458, one of the authorities the aggregator copy names for this
+      CSO [1939] [1972].
+  - status: final
+    date: '2025-12-18'
+    text: Pub. L. 119-60 §863, "SOCOM Urgent Innovative Technologies and Capabilities Initiative", appears in the
+      Act's table of contents; its text was not read and no source connects it to this CSO [1937].
+  - status: class-deviation
+    date: ''
+    text: DFARS 212.70 is the codified section the aggregator copy names [1972]. Its text and any overhaul deviation
+      numbering were not swept in this slice, so no deviation number or date is recorded.
+  distinctive: ''
+  official_url: https://sam.gov/opp/b57eb3bbc1ba48fcb528ecff95240f91/view
+  as_of: '2026-10-03'
+  sources:
+  - 1937
+  - 1939
+  - 1972
+  conflicts:
+  - 'Status unconfirmed: every fact in this record rests on an aggregator copy, a secondary source [1972]. The aggregator''s
+    agency field ("Air Mobility Command") and value estimate are its own and are not relied on. The official URL
+    is the SAM.gov notice, which the fetch could not read. A direct read is needed before publication.'
+- id: navalx-tech-bridges
+  name: NavalX and Tech Bridges; Navy command CSOs
+  family: ot-cso
+  kind: front-door
+  status: unconfirmed
+  status_note: navalx.navy.mil did not resolve on 2026-10-03, and the Tech Bridge descriptions date from 2019, 2020
+    and 2024 [1974] [1973] [1975]. The Navy command CSOs listed in this record are current.
+  owner: Department of the Navy; NavalX was folded into the Naval Rapid Capabilities Office in August 2025
+  agency: DoW
+  defense: true
+  what: 'NavalX launched in February 2019 with five Tech Bridges, and the network doubled from 6 to 12 in May 2020
+    on a regional "franchise" model [1974] [1973]. NavalX was folded into the Naval Rapid Capabilities Office in
+    August 2025; that office consolidates NavalX, the Disruptive Capabilities Office, the Maritime Accelerated Response
+    Capability Cell and Replicator activities, with Tech Bridges among its focus areas [1951]. NavalX''s own 2024
+    account describes a Tech Bridge giving a small firm guidance, coaching and introductions to programmes such
+    as SBIR [1975].
+
+    '
+  funds_or_buys: null
+  eligibility: []
+  cycle:
+    pattern: None stated for Tech Bridges. Navy command CSOs publish Areas of Interest; NIWC Atlantic's are to be
+      published over three years [1976].
+    current_solicitations:
+    - id: NIWC Atlantic RCO CSO, public notice N65236-26-S-0001
+      opens: ''
+      closes: ''
+      note: 'Announced 2026-01-28; three-phase, three-year, open to firms with little government experience; five
+        focus areas: Battlespace Command and Control; Decision Advantage; Battlespace Connectivity; Robotics and
+        Autonomous Systems; Non-Kinetic Effects [1976]'
+    - id: NAVWAR CSO
+      opens: ''
+      closes: ''
+      note: One AOI posted for PEO C4I Undersea Integration Program Office, per a release of 2025-09-22 [1977]
+  awards:
+  - phase: Tech Bridge activity as reported in May 2020
+    amount: $2 million+ in prize challenges to non-traditional partners; $37.5 million in SBIR
+    duration: ''
+    cite:
+    - 1973
+  steps:
+  - 'First five Tech Bridges: Newport RI, Keyport WA, San Diego CA, Orlando FL, Crane IN [1974]'
+  - 'Example: Potomac Tech Bridge at NSWC Dahlgren [1975]'
+  - 'Navy CSOs: "CSOs define a high-level problem statement or broad capability needs, inviting industry to propose
+    viable solutions." [1977]'
+  - The NIWC Atlantic RCO was established October 23, 2025 [1976]
+  - Each Navy PAE organisation gets a Rapid Capability Cell linked to the Department of the Navy RCO to find commercial
+    technology and prototype [1948]
+  portal: null
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  - have-technology
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes:
+  - status: final
+    date: 2025-08
+    text: NavalX was folded into the Naval Rapid Capabilities Office in August 2025, with Tech Bridges among that
+      office's focus areas [1951].
+  - status: final
+    date: '2026-03-16'
+    text: The Navy established five PAE organisations on March 16, 2026, each with a Rapid Capability Cell [1948];
+      three more were added on May 11, 2026, for nine Department of the Navy PAEs [1949].
+  distinctive: '"NavalX wants to connect those people with good ideas about innovation, in and out of the DoN" [1974]'
+  official_url: null
+  as_of: '2026-10-03'
+  sources:
+  - 1948
+  - 1949
+  - 1951
+  - 1973
+  - 1974
+  - 1975
+  - 1976
+  - 1977
+  conflicts:
+  - 'Status unconfirmed: navalx.navy.mil did not resolve on 2026-10-03 and secnav.navy.mil/agility rejected the
+    request, so no official URL is given. The Tech Bridge descriptions are from 2019, 2020 and 2024 [1974] [1973]
+    [1975]; the current number and list of Tech Bridges is unverified.'
+  - No fetched source states in its own words that Tech Bridges do not award contracts; the fetch digest's "does
+    not fund" list was an inference and is not carried [1975].
+- id: afwerx-prime-agility-prime-challenge
+  name: AFWERX Prime, Agility Prime, Autonomy Prime and AFWERX Challenge (non-SBIR)
+  family: ot-cso
+  kind: front-door
+  status: unconfirmed
+  status_note: The latest dated primary source on Prime is 2024-01-30, and Prime does not appear on the current
+    afwerx.com menu [1982] [1978].
+  owner: AFWERX, Department of the Air Force
+  agency: DoW
+  defense: true
+  what: 'AFWERX is "the innovation arm of the Department of the Air Force" [1978]. An undated AFWERX briefing gives
+    Prime''s purpose as to "expand technology transition paths to accelerate emerging technology markets by leveraging
+    government resources for rapid and affordable fielding", through Agility Prime (hybrid/electric vertical lift),
+    Orbital Prime and Autonomy Prime [1980]. The current site menu lists SBIR/STTR, a Vision Program, a fellowship,
+    AFWERX Challenge and SpaceWERX; "Prime", "Agility Prime" and "Spark" do not appear in it [1978].
+
+    '
+  funds_or_buys: null
+  eligibility: []
+  cycle:
+    pattern: 'Not verified for Prime or Challenge. SBIR/STTR topics open on the site on the sweep date: 26.BZ, 26.BX
+      and 26.TZ Release 6 [1978].'
+    current_solicitations: []
+  awards:
+  - phase: Prime
+    amount: The Prime briefing gives no dollar figures or contract tools
+    duration: ''
+    cite:
+    - 1980
+  - phase: What can follow, AFWERX SBIR/STTR Phase I
+    amount: up to $323,000
+    duration: up to 6 months
+    cite:
+    - 1979
+  - phase: What can follow, AFWERX SBIR/STTR Phase II
+    amount: up to $2.1 million
+    duration: up to 24 months
+    cite:
+    - 1979
+  - phase: STRATFI
+    amount: $3–15 million SBIR/STTR plus $6–45 million matched
+    duration: up to 48 months
+    cite:
+    - 1979
+  - phase: TACFI
+    amount: $375,000–$2 million with 1:1 match
+    duration: up to 24 months
+    cite:
+    - 1979
+  steps:
+  - 'Agility Prime, legacy page: entry through an Innovative Capabilities Opening (ICO) for prototype projects;
+    SBIR/STTR; letters of support [1981]'
+  - 'Autonomy Prime: an ICO and topic calls were announced on January 30, 2024 [1982]'
+  - 'Non-SBIR entry points named on the current site: IGNITE (ignite.afwerx.com), AFWERX Portal (portal.afwerx.com),
+    AFWERX Challenge (afwerxchallenge.com) [1978]'
+  - 'AFWERX Challenge: a January 5, 2024 article confirms it exists and ran a Weapons PEO design sprint; process,
+    eligibility and award form were not obtained [1983]'
+  portal: https://afwerx.com/
+  registrations: []
+  gates: []
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: '"This effort seeks to establish a collaborative strategy with industry and investors that accelerates
+    fielding of the most promising technologies." [1981]'
+  official_url: https://afwerx.com/
+  as_of: '2026-10-03'
+  sources:
+  - 1978
+  - 1979
+  - 1980
+  - 1981
+  - 1982
+  - 1983
+  conflicts:
+  - 'Status unconfirmed: the latest dated primary source on Prime is January 30, 2024 [1982]; Prime is absent from
+    the current menu and /divisions/prime/ returned the home page content [1978]; the Prime briefing is undated
+    and the Agility Prime page sits on a legacy subdomain [1980] [1981]. Whether Prime, Agility Prime or Autonomy
+    Prime take submissions in 2026 is unverified.'
+  - AFWERX Challenge is named as an entry point on the current site [1978], but the only article read is from January
+    2024 with a truncated body, and afwerxchallenge.com returned only header metadata [1983].
+- id: army-xtech-fuze-cso
+  name: Army xTech, FUZE and Army CSOs
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: xTech and Army SBIR|STTR pages were read on 2026-10-03 with 2026 competitions open [1985] [1986].
+    The Army CSO part of this record rests on a trade report and is marked secondary only.
+  owner: U.S. Army, ASA(ALT) — Army FUZE portfolio
+  agency: DoW
+  defense: true
+  what: '"The xTech Program manages the Army''s prize competitions to award and accelerate innovative technology
+    solutions." [1985] FUZE is described as the umbrella over xTech, SBIR/STTR, the Technology Maturation Initiative
+    and ManTech, with $750 million projected annual investment [1987]. An Army release of August 27, 2026 has Army
+    Contracting Command using CSOs, OTs and digital marketplaces as standard tools, per the sweep''s summary of
+    the release [1989].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - 'xTech|Inversion: small U.S. for-profit businesses under 500 employees [1986]'
+  - Some competitions admit large businesses and allied foreign companies [1985]
+  cycle:
+    pattern: 'xTech structure: white paper, pitch event, proof of concept [1985]. Army SBIR|STTR: ASA(ALT) topics
+      are released ad hoc and Army Futures Command topics in three solicitation periods a year [1984].'
+    current_solicitations:
+    - id: xTech|Search 10
+      opens: ''
+      closes: ''
+      note: Open on 2026-10-03 [1985]
+    - id: xTech|Disrupt Endurance
+      opens: ''
+      closes: ''
+      note: 'Open on 2026-10-03; active competitions also listed: Apex Intercept; Adaptive Strike; Kinetic Reach
+        [1985]'
+    - id: Army UAS Marketplace CSO
+      opens: ''
+      closes: ''
+      note: 'SECONDARY ONLY: reported open until cancelled; SAM.gov workspace id f71bdf94c86846379f21abc2d73a7b54
+        [1990]'
+  awards:
+  - phase: xTech|Inversion finalists
+    amount: Up to 12 finalists at $20,000
+    duration: White papers June 3–30, 2026; finals August 18–20, 2026
+    cite:
+    - 1986
+  - phase: xTech|Inversion winners
+    amount: Up to 5 winners at $152,000; winners may submit a Phase I SBIR proposal up to $300,000
+    duration: SBIR proposals September 8–25, 2026
+    cite:
+    - 1986
+  - phase: xTech Counter Strike winners
+    amount: $2.5 million
+    duration: ''
+    cite:
+    - 1987
+  - phase: Army SBIR|STTR Phase I
+    amount: up to $300K
+    duration: 1–6 months
+    cite:
+    - 1984
+  - phase: Army SBIR|STTR Phase II
+    amount: up to $2M
+    duration: 12–18 months
+    cite:
+    - 1984
+  steps:
+  - '"Final winners may submit a Phase I Army SBIR proposal worth up to $300,000." [1986]'
+  - Winners are nominated to the Global Tactical Edge Acquisition Directorate (G-TEAD) Marketplace [1987]
+  - 'The landing page pit.army.mil (fuze.army.mil redirects there) lists xTech, SBIR|STTR, TMI and ManTech; related:
+    JIOP, G-TEAD, Army Applications Laboratory, JIATF 401, Catalyst Pathfinder [1988]'
+  - 'Army CSOs, SECONDARY ONLY: for the UAS Marketplace CSO, solution briefs may lead to demonstrations, pitches
+    and commercial proposals; other Army CSOs were seen in search results only (Army Advanced Manufacturing CSO
+    W9124P26SC001; FY2026 ACC-RSA CCAD OIB CSO) [1990]'
+  portal: https://xtech.army.mil/
+  registrations: []
+  gates:
+  - prize-eligibility-rules
+  situations:
+  - have-technology
+  - first-awards
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes:
+  - status: final
+    date: 2025-09
+    text: FUZE launched in September 2025 as the Army's umbrella over xTech, SBIR/STTR, TMI and ManTech, per the
+      sweep's dating of the Army Acquisition Support Center article [1987].
+  distinctive: '"Get a functional solution to the warfighter in months rather than a perfect one in a decade." [1987]'
+  official_url: https://xtech.army.mil/
+  as_of: '2026-10-03'
+  sources:
+  - 1984
+  - 1985
+  - 1986
+  - 1987
+  - 1988
+  - 1989
+  - 1990
+  conflicts:
+  - 'Army CSO authority, phases and award form were not read in a primary source: the UAS Marketplace CSO rests
+    on a trade report, and the SAM.gov notice could not be read [1990].'
+  - The phrase "Army Applied SBIR" does not appear on current pages; the programme is presented as Army SBIR|STTR
+    under the FUZE portfolio [1984].
+  - '"70 days or less" from concept to operational prototype is FUZE''s stated goal, not a measured figure [1987].'
+- id: dhs-svip
+  name: DHS S&T Silicon Valley Innovation Program (SVIP)
+  family: ot-cso
+  kind: front-door
+  status: unconfirmed
+  status_note: The programme page was last updated 2024-04-19 and showed no open topic calls on 2026-10-03 [1991];
+    DHS's OT authority shows a September 30, 2024 sunset with no extension found [2041].
+  owner: DHS Science and Technology Directorate
+  agency: DHS
+  defense: false
+  what: 'SVIP awards other transaction agreements for prototypes, not FAR-based, under Other Transaction Solicitation
+    70RSAT21R00000006 [2037] [1991]. The programme page describes Phases 1-4 (proof-of-concept demo; pilot-ready
+    prototype; functional and red-team testing; pilot in an operational environment) and an optional Phase 5 [1991].
+    DHS''s overview page describes the aim as to "co-invest in and accelerate the transition of technology to the
+    commercial market" [2040].
+
+    '
+  funds_or_buys: other-transaction
+  eligibility:
+  - '"Phase 1 applicants must have fewer than 200 employees or full-time equivalents (FTEs)." [1991]'
+  - 'Phase 1 applicants: no more than $1,000,000 combined FAR-based contracts, grants or cooperative agreements
+    in the past 12 months (slice OD''s reading); slice OC''s reading of the same page names FAR-based contracts
+    only [1991]'
+  - '"Your company must be considered a non-traditional Government performer" [1993]'
+  - U.S. and international startups may apply; UEI in SAM.gov needed before award [1991]
+  cycle:
+    pattern: Topic calls under the standing solicitation; no open topic calls were listed on 2026-10-03 [1991].
+      The earliest call listed is December 2015 (IoT Security) and the most recent December 2023 (Synthetic Data
+      Generator) [2039].
+    current_solicitations: []
+  awards:
+  - phase: Phases 1–4, first figure on the programme page
+    amount: '"Total $200K to 2 Million over 24 months; 3-4 tranches of non-dilutive funding ($50-$500K/3-6 months)."'
+    duration: 24 months
+    cite:
+    - 1991
+  - phase: Second figure on the same page
+    amount: '"Up to $800K in non-dilutive funding available."'
+    duration: ''
+    cite:
+    - 1991
+  - phase: Phase 5
+    amount: Scaled to the mission need; topic calls list funding ranges
+    duration: ''
+    cite:
+    - 2037
+  - phase: Previous solicitation HSHQDC-16-R-B0005 (superseded)
+    amount: Four phases, each up to $200K
+    duration: 3-6 months each
+    cite:
+    - 2038
+  - phase: Aggregate
+    amount: '"SVIP has funded more than 60 companies to date"'
+    duration: ''
+    cite:
+    - 2039
+  steps:
+  - '"You must complete the application form and email it to DHS-Silicon-Valley@hq.dhs.gov" [2037]'
+  - 'Archived how-to page (last updated 01/12/2023): email application; 15-minute oral pitch; SAM registration [1992]'
+  - 'Under the previous solicitation: pitch deck up to 10 slides; application reviews about 4-8 weeks after a deadline;
+    "You will receive a verbal notification with the outcome of your pitch within 24 hours." [2038]'
+  - 'Award timing: "Award timeframe average is 45 days." [1992]; award processing typically in a "30- to 45-day
+    window", longer for non-U.S. entities [1993]'
+  - Only upfront equipment/materials/hardware/software/laboratory costs may be requested at award; "All other costs
+    must be invoiced at the time of milestone/deliverable completion." [2037]
+  - The startup keeps ownership of software; the Government gets license rights [2037]
+  portal: null
+  registrations:
+  - sam-uei
+  gates:
+  - sam-registration
+  - ot-agreement-structure
+  - ot-payable-milestones-cost-share
+  situations:
+  - have-technology
+  - first-awards
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes:
+  - status: proposed
+    date: '2024-12-09'
+    text: 'DHS other transaction authority: the Code text as displayed carries a sunset of September 30, 2024, last
+      extended by Pub. L. 117-263 [2041]. A Senate committee report of December 9, 2024 says the authority "expired
+      on September 30, 2024" and that S. 4024 would extend it "through fiscal year 2027" [2042]. Enactment of an
+      extension was not confirmed in this sweep.'
+  distinctive: '"co-invest in and accelerate the transition of technology to the commercial market" [2040]'
+  official_url: https://www.dhs.gov/science-and-technology/svip
+  as_of: '2026-10-03'
+  sources:
+  - 1991
+  - 1992
+  - 1993
+  - 2037
+  - 2038
+  - 2039
+  - 2040
+  - 2041
+  - 2042
+  conflicts:
+  - 'Status unconfirmed: the programme page was last updated April 19, 2024 and lists no open topic calls [1991];
+    the latest listed call is December 2023 [2039]; the DHS OT authority shows a September 30, 2024 sunset and no
+    extension was found [2041] [2042]. Treat SVIP as dormant until a 2026 source says otherwise.'
+  - 'Funding ceiling: "Total $200K to 2 Million over 24 months" vs "Up to $800K in non-dilutive funding available."
+    on the same page [1991]; the 2020 guide under the earlier solicitation gave each phase up to $200K [2038].'
+  - 'The two slices read the Phase 1 $1,000,000 test differently on the same page: FAR-based contracts only (OC)
+    vs FAR-based contracts, grants or cooperative agreements (OD) [1991].'
+  - The two solicitation FAQ documents were read on a third-party file mirror, not on SAM.gov [2037] [2038]; the
+    how-to-apply page is marked archived and still refers to fbo.gov [1992].
+- id: nga-big-baa
+  name: NGA Boosting Innovative GEOINT BAA (BIG-ST) and industry engagement
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: The BIG-ST general solicitation Rev. 4 is dated 2026-07-30 and is open to 2026-12-14 [1994]. The
+    CSO part of this record dates from 2024 and is not presented as live.
+  owner: National Geospatial-Intelligence Agency
+  agency: NGA
+  defense: true
+  what: 'NGA''s standing research BAA is HM0476-23-BAA-0001, open December 15, 2023 to December 14, 2026 [1994].
+    "No submissions shall be accepted to the general solicitation; abstracts and proposals will only be reviewed
+    in response to Topic Calls." [1994] Its instruments are procurement contracts, grants, cooperative agreements
+    and other transactions (prototype and follow-on production) [1994].
+
+    '
+  funds_or_buys: both
+  eligibility:
+  - No set-asides; each topic states whether non-U.S. participants are allowed [1994]
+  cycle:
+    pattern: Topic calls under the BAA; abstract first, and NGA aims to respond within 30 calendar days [1994].
+    current_solicitations:
+    - id: HM0476-23-BAA-0001 (BIG-ST general solicitation, Rev. 4)
+      opens: '2023-12-15'
+      closes: '2026-12-14'
+      note: Rev. 4 dated 2026-07-30; submissions only against Topic Calls [1994]
+  awards:
+  - phase: BIG-ST BAA
+    amount: No award sizes recorded from the solicitation
+    duration: ''
+    cite:
+    - 1994
+  - phase: Project Aegir CSO (2024)
+    amount: $1.5 million pilot
+    duration: Submissions May 6–24, 2024; pitches June 24–28, 2024
+    cite:
+    - 1996
+  steps:
+  - Submit an abstract against a Topic Call, then a proposal [1994]
+  - 'Older BIG-R BAA (HM0476-20-BAA-0001): three domains (Foundational GEOINT; Advanced Phenomenologies; Analytic
+    Technologies); posted on SAM.gov and Grants.gov; contact BIGRBAA@nga.mil [1995]'
+  - 'Moonshot Labs: 911 Washington Avenue, Suite 300, St. Louis; opened July 2021; contact the Industry Engagements
+    Team [1997]'
+  - The industry landing page lists Commercial GEOINT Activities, Tearline and a Small Business track [1997]
+  portal: null
+  registrations: []
+  gates:
+  - ot-agreement-structure
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"An unclassified innovation hub and collider space for NGA, its partners and customers to meet,
+    create, collaborate, and innovate." [1997]'
+  official_url: https://www.nga.mil/work-with-us/Industry.html
+  as_of: '2026-10-03'
+  sources:
+  - 1994
+  - 1995
+  - 1996
+  - 1997
+  conflicts:
+  - 'CSO: the only NGA CSO found is Project Aegir, announced May 6, 2024 and run with DIU; no later NGA CSO was
+    found [1996]. That source is older than 2025, so an NGA CSO is not presented as a live door.'
+  - The BAA closes December 14, 2026 [1994]; no successor was identified in the sweep.
+- id: darpa-office-wide-baas
+  name: DARPA office-wide BAAs and Disruptioneering
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: The DSO office-wide BAA was published 2026-08-28 and closes 2027-08-27 [2000]. The Disruptioneering
+    announcement closed 2026-09-29 and is not presented as open.
+  owner: DARPA
+  agency: DARPA
+  defense: true
+  what: '"DARPA has multiple entry points for interested proposers." [1998] The Defense Sciences Office office-wide
+    BAA, HR001126S0015, was published 2026-08-28 and closes 2027-08-27 [2000]. DARPA names procurement contracts,
+    grants, cooperative agreements and other transactions as its instruments [1998].
+
+    '
+  funds_or_buys: both
+  eligibility:
+  - '"All responsible sources capable of satisfying the Government''s needs may submit a proposal" [2000]'
+  cycle:
+    pattern: The DSO office-wide BAA runs for a year [2000]. Disruptioneering topics come out under a standing programme
+      announcement, with awards made no more than 120 days from topic publication [1999].
+    current_solicitations:
+    - id: HR001126S0015 (DSO office-wide BAA)
+      opens: '2026-08-28'
+      closes: '2027-08-27'
+      note: 'Instruments listed: cooperative agreement, procurement contract, other; no ceiling stated [2000]'
+    - id: DARPA-PA-25-07 (Disruptioneering)
+      opens: '2025-09-30'
+      closes: '2026-09-29'
+      note: Closed four days before the sweep; successor not seen; 21 topics listed under the announcement [1999]
+    - id: Other office-wide BAAs
+      opens: ''
+      closes: ''
+      note: 'Seen in search only and not read: I2O HR001126S0001; BTO HR001126S003; IPTO HR001126S0011 [2000]'
+  awards:
+  - phase: DSO office-wide BAA
+    amount: No ceiling stated
+    duration: ''
+    cite:
+    - 2000
+  - phase: Disruptioneering
+    amount: The page gives no award ceiling or instrument
+    duration: Awards made no more than 120 days from topic publication
+    cite:
+    - 1999
+  steps:
+  - 'Process: find an opportunity; abstract; full proposal; award through the Contracts Management Office [1998]'
+  - DARPAConnect is named as a free preparation resource, per the sweep's summary of the page [1998]
+  - The Small Business Programs Office runs SBIR/STTR [1998]
+  - Disruptioneering is "the process we use to validate an emerging technology before making a larger investment
+    in prototyping" [1999]
+  portal: null
+  registrations: []
+  gates:
+  - ot-agreement-structure
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"DARPA has multiple entry points for interested proposers." [1998]'
+  official_url: https://www.darpa.mil/work-with-us
+  as_of: '2026-10-03'
+  sources:
+  - 1998
+  - 1999
+  - 2000
+  conflicts:
+  - 'Disruptioneering: announcement DARPA-PA-25-07 closed September 29, 2026 and no successor was seen; its award
+    ceiling and instrument are not on the page [1999].'
+- id: nasa-space-act-agreements
+  name: NASA Space Act Agreements
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: NASA's partnership pages were read on 2026-10-03; the public list of agreements carries data as of
+    2026-06-30 and the centers directory was last updated 2026-09-02 [2024] [2026].
+  owner: NASA
+  agency: NASA
+  defense: false
+  what: '"The most common legal instrument used to formulate partnerships at NASA is called the Space Act Agreement
+    (SAA)." [2020] The authority cited is other transaction authority under the Space Act, 51 U.S.C. § 20113(e),
+    which lets NASA "enter into and perform such contracts, leases, cooperative agreements, or other transactions
+    as may be necessary" [2020] [2027]. Four types are named: nonreimbursable, reimbursable, funded and unfunded
+    [2018].
+
+    '
+  funds_or_buys: other-transaction
+  eligibility:
+  - 'Partners: U.S. companies of all sizes including startups, universities, nonprofits, state/local/federal agencies,
+    foreign entities subject to U.S. law and NASA policy [2018]'
+  - Funded and unfunded agreements are for an Agency objective "where there is no direct benefit to NASA" and require
+    full competition (as summarized by the page extract) [2018]
+  - The agreement manager checks SAM for suspension/debarment of the proposed partner (1.3) [2022]
+  cycle:
+    pattern: No solicitation cycle is described for reimbursable and nonreimbursable agreements; a partner starts
+      with a center's Partnership Office [2018]. Ames gives 3 to 9 months on average for domestic commercial agreements
+      and a minimum of 6 months, routinely over a year, for international ones [2019].
+    current_solicitations: []
+  awards:
+  - phase: Nonreimbursable
+    amount: '"each party bears the cost of its participation on a no-exchange-of-funds basis"'
+    duration: ''
+    cite:
+    - 2018
+  - phase: Reimbursable
+    amount: '"NASA''s costs associated with the activity are reimbursed by the agreement partner"; priced at NASA''s
+      estimated full cost, with some exceptions (Section II.A.3)'
+    duration: ''
+    cite:
+    - 2018
+    - 2021
+  - phase: Funded
+    amount: '"Under a Funded Agreement, NASA provides funding to the Partner."'
+    duration: ''
+    cite:
+    - 2023
+    - 2022
+  steps:
+  - Contact a center Partnership Office; find centers at /partnerships/nasa-locations-capabilities-and-points-of-contact/;
+    search SAM.gov for public announcements [2018]
+  - The centers directory lists ARC, AFRC, GRC, GSFC, Wallops, JPL, JSC, White Sands, KSC, LaRC, MSFC, Michoud and
+    SSC with partnership-office links [2026]
+  - 'Ames: send partner name, partnership description and purpose, and funding structure to the Ames Agreements
+    Office [2019]'
+  - 'Kennedy: inquiries via NASA Front Door, https://frontdoor.nasa.gov/s/; each partner works with a KSC Partnership
+    Integration Manager [2020]'
+  - SAAs are to be issued non-exclusively to the greatest extent practicable (Section II.A.1.a) [2021]
+  - '"NASA must publicly disclose on a NASA Web site and make available in searchable format each Space Act Agreement"
+    [2021]; the lists are posted quarterly under Section 841 of Pub. L. 115-10 [2024]'
+  - The signed agreement is uploaded to the Partnership Agreement Maker (PAM) within 5 business days [2022]
+  - 'The public list''s columns: PAM ID, partner name, title/purpose, signature date, expiration date, type of agreement,
+    total estimated dollar value, center [2025]'
+  portal: https://frontdoor.nasa.gov/s/
+  registrations: []
+  gates:
+  - ot-agreement-structure
+  situations:
+  - have-technology
+  - looking-for-partners
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"NASA offers its unique capabilities and resources for use by commercial industries, academic institutions,
+    U.S. Government agencies and international entities." [2026]'
+  official_url: https://www.nasa.gov/partnerships/how-to-partner/
+  as_of: '2026-10-03'
+  sources:
+  - 2018
+  - 2019
+  - 2020
+  - 2021
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+  - 2027
+  conflicts:
+  - 'Not read: the SAA Guide''s sample clauses (termination, disputes, IP, export) were beyond the fetch cut-off
+    [2022]; the superseded 1050-1D edition was used only to locate their section numbers, including a patent clause
+    in three forms (short form, long form, title-taking) [2023]. The count of active SAAs and the split by type
+    were not reliably extracted [2025].'
+- id: nasa-aco
+  name: NASA Announcement of Collaboration Opportunity (ACO)
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: The standing ACO was released 2025-07-30 for five years, and selections under its first appendix
+    were announced 2026-06-26 [2029] [2028]. The next appendix date was not found.
+  owner: NASA Space Technology Mission Directorate
+  agency: NASA
+  defense: false
+  what: '"The ACO establishes mutually beneficial partnerships between the agency and industry without the exchange
+    of funds." [2028] The standing ACO, solicitation NNH25ZTR002O, "will be available for five years" and was released
+    July 30, 2025 [2030] [2029]. That the instrument is an Unfunded Space Act Agreement under NASA''s other transaction
+    authority is stated only in a repost of the NASA pre-release notice, a secondary source [2031].
+
+    '
+  funds_or_buys: other-transaction
+  eligibility: []
+  cycle:
+    pattern: '"NASA intends to issue appendices every six to 12 months" [2029]; the standing ACO is posted on NSPIRES
+      and SAM.gov [2030].'
+    current_solicitations:
+    - id: NNH25ZTR002O, Appendix A
+      opens: ''
+      closes: '2025-09-24'
+      note: Appendix A proposals were due 24 September 2025 [2030]; no later appendix was found in the sweep.
+  awards:
+  - phase: 2025 appendix selections (announced 2026-06-26)
+    amount: 41 proposals from 37 companies selected; no exchange of funds
+    duration: Expected 12 to 24 months, negotiated per agreement
+    cite:
+    - 2028
+  - phase: Cumulative
+    amount: '"Since launching the first ACO in 2015, NASA has supported more than 110 projects"'
+    duration: ''
+    cite:
+    - 2028
+  steps:
+  - Applied for through NSPIRES, per the sweep's summary of the release [2029]
+  - 'SECONDARY ONLY: contact HQ-STMD-ACO@nasaprs.com; the pre-release notice refers to 187 shortfalls identified
+    by STMD [2031]'
+  portal: null
+  registrations: []
+  gates:
+  - ot-agreement-structure
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"The ACO establishes mutually beneficial partnerships between the agency and industry without the
+    exchange of funds." [2028]'
+  official_url: https://www.nasa.gov/directorates/stmd/nasa-releases-opportunity-to-boost-commercial-space-tech-development/
+  as_of: '2026-10-03'
+  sources:
+  - 2028
+  - 2029
+  - 2030
+  - 2031
+  - 2034
+  conflicts:
+  - A NASA small-spacecraft solicitations page last updated August 20, 2026 lists "ACO for Space Technology Development"
+    as closed [2034], while the standing ACO runs five years from July 30, 2025 with appendices every six to 12
+    months [2029]. NSPIRES pages could not be fetched, so whether an appendix is open is unverified.
+- id: nasa-tipping-point
+  name: NASA Tipping Point
+  family: ot-cso
+  kind: front-door
+  status: unconfirmed
+  status_note: The latest primary source showing awards is 2023-07-25, and a NASA page updated 2026-08-20 lists
+    the solicitation as closed [2032] [2034].
+  owner: NASA Space Technology Mission Directorate
+  agency: NASA
+  defense: false
+  what: 'The most recent Tipping Point selection found is July 25, 2023: 11 U.S. companies and a total expected
+    NASA contribution of $150 million, under milestone-based funded Space Act Agreements lasting up to four years
+    [2032]. "Each company will contribute a minimum percentage – at least 10-25%, based on company size." [2032]
+    A NASA solicitations page last updated August 20, 2026 lists the "Announcement for Partnership Proposals (AFPP)
+    to Advance Tipping Point Technologies" as closed [2034].
+
+    '
+  funds_or_buys: other-transaction
+  eligibility: []
+  cycle:
+    pattern: No open or announced solicitation was found; the solicitation is listed as closed [2034].
+    current_solicitations: []
+  awards:
+  - phase: 2023 selection
+    amount: 11 U.S. companies; total expected NASA contribution $150 million; company contribution at least 10-25%,
+      based on company size
+    duration: Up to four years
+    cite:
+    - 2032
+  - phase: 2015 round (historical; fixed-price contracts at the time, per the sweep's summary)
+    amount: $1 million to $20 million; minimum 25 percent corporate or customer contribution
+    duration: About two-year performance
+    cite:
+    - 2033
+  steps: []
+  portal: null
+  registrations: []
+  gates:
+  - ot-payable-milestones-cost-share
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"Each company will contribute a minimum percentage – at least 10-25%, based on company size." [2032]'
+  official_url: https://www.nasa.gov/news-release/nasa-partners-with-american-companies-on-key-moon-exploration-tech/
+  as_of: '2026-10-03'
+  sources:
+  - 2032
+  - 2033
+  - 2034
+  conflicts:
+  - 'Status unconfirmed: the latest primary source showing awards is the July 25, 2023 selection [2032]; a NASA
+    page updated August 20, 2026 lists the Tipping Point solicitation as closed [2034]. No solicitation since the
+    2023 round was found, and whether the programme continues is unverified.'
+  - 'Company contribution: at least 10-25% by company size in 2023 [2032] vs a minimum 25 percent in the 2015 round
+    [2033]; these are different rounds, both figures kept.'
+- id: dhs-prize-competitions
+  name: DHS S&T prize competitions
+  family: ot-cso
+  kind: front-door
+  status: unconfirmed
+  status_note: The DHS prize page was last updated 2022-05-16 [2044]; the one 2026 item found returned 403 and was
+    not read [2045].
+  owner: DHS Science and Technology Directorate
+  agency: DHS
+  defense: false
+  what: '"DHS Administers prize competitions and challenges under the America COMPETES Act." [2044] The page was
+    last updated 05/16/2022 and features the Cooling Solutions Challenge, with a $195,000 pool [2044]. USA.gov lists
+    DHS S&T prize competitions among the agency-run challenge sites outside its own list [2105].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - Individuals over 18 who are U.S. citizens or lawful permanent residents; U.S.-incorporated entities with primary
+    operations in the U.S. [2044]
+  cycle:
+    pattern: Not stated on the page read [2044].
+    current_solicitations: []
+  awards:
+  - phase: Cooling Solutions Challenge (featured; ended in 2022 per the sweep's summary)
+    amount: $195,000 pool
+    duration: ''
+    cite:
+    - 2044
+  steps:
+  - Contact PrizeAuthority@hq.dhs.gov [2044]
+  portal: null
+  registrations: []
+  gates:
+  - prize-eligibility-rules
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes:
+  - status: final
+    date: '2026-03-30'
+    text: Challenge.gov, where this page still sends entrants, was sunset on March 30, 2026 [2102] [2044].
+  distinctive: ''
+  official_url: https://www.dhs.gov/science-and-technology/prize-competitions
+  as_of: '2026-10-03'
+  sources:
+  - 2044
+  - 2045
+  - 2102
+  - 2105
+  conflicts:
+  - 'Status unconfirmed: the page was last updated May 16, 2022, its featured competition ended in 2022, and it
+    still sends entrants to Challenge.gov [2044]. A September 9, 2026 S&T news item on an AI-assisted biodetection
+    prize challenge returned HTTP 403; its title and date come from the search result only and nothing in it is
+    verified [2045].'
+- id: arpa-e-funding-scaleup-ready
+  name: ARPA-E funding opportunities, including SCALEUP Ready
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: ARPA-E's eXCHANGE portal was read on 2026-10-03 with SCALEUP Ready open, and the first SCALEUP Ready
+    projects were announced in 2026 [2046] [2049].
+  owner: U.S. Department of Energy, ARPA-E
+  agency: DOE
+  defense: false
+  what: '"ARPA-E will provide financial assistance through cooperative agreements, other transactions, and similar
+    agreements." [2048] Its statute lists "grants, contracts, cooperative agreements, cash prizes, and other transactions"
+    among its award forms [2050]. "SCALEUP Ready – a rolling program - is designed to accelerate commercial scale-up
+    of high-impact energy technologies." [2049]
+
+    '
+  funds_or_buys: grants
+  eligibility:
+  - 'SCALEUP Ready: must scale a "subject invention" from a prior ARPA-E award (owner or exclusive licensee); standalone
+    applicants not eligible; universities cannot lead [2047]'
+  cycle:
+    pattern: 'Funding opportunities are listed on ARPA-E eXCHANGE [2046]. SCALEUP Ready is rolling: "Applications
+      will be accepted any time while this NOFO remains open." [2047]'
+    current_solicitations:
+    - id: DE-FOA-0003467 SCALEUP Ready
+      opens: '2024-10-02'
+      closes: ''
+      note: Deadline "TBD"; "This NOFO will remain open until closed or modified. Applications will be accepted
+        any time while this NOFO remains open." [2046]
+    - id: DE-FOA-0003624 IGNIITE 2026
+      opens: ''
+      closes: '2026-08-26'
+      note: Concept paper 5/29/2026; full application 8/26/2026; both dates had passed on the sweep date [2046]
+    - id: HAEJO (DE-FOA-0003536/-0003537 SBIR/STTR) and GRADIENTS (DE-FOA-0003554/-0003555 SBIR/STTR)
+      opens: ''
+      closes: ''
+      note: 2025 concept-paper dates with full-application dates "TBD"; status unclear [2046]
+  awards:
+  - phase: SCALEUP Ready
+    amount: $5 million to $20 million federal share; about $50 million per fiscal year
+    duration: About 36 months
+    cite:
+    - 2047
+  - phase: SCALEUP Ready, first projects (2026)
+    amount: Two projects with up to $40 million in committed support
+    duration: ''
+    cite:
+    - 2049
+  - phase: SCALEUP 2023 (closed predecessor)
+    amount: About $100 million total; awards $5-$20 million
+    duration: About 36 months
+    cite:
+    - 2048
+  steps:
+  - 'Registrations required (SCALEUP 2023 FOA): UEI and SAM, FSRS, FedConnect [2048]'
+  - 'Three stages (SCALEUP 2023 FOA): concept paper, full application, finalist oral presentations [2048]'
+  - 'SCALEUP Ready timing: about 80 days from submission to finalist notice, another 80 days to selection [2047]'
+  - 'SCALEUP Ready cost share: "Prime Recipient must provide at least 33.3% of the Total Project Cost as cost share";
+    20% for small businesses or teams where small businesses do ≥80% of the work; cost share deferred for about
+    the first year [2047]'
+  - 'Teaming partner lists: RFI-0000095, RFI-0000086 [2046]'
+  - DOE's department-wide OT guide says "ARPA-E's OT authority is separate and additional to the DOE authorities";
+    under DOE's own authority at 42 U.S.C. 7256(g), 50% cost share is the standard [2051]
+  portal: https://arpa-e-foa.energy.gov/
+  registrations:
+  - sam-uei
+  - fedconnect
+  gates:
+  - sam-registration
+  - ot-payable-milestones-cost-share
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"SCALEUP Ready – a rolling program - is designed to accelerate commercial scale-up of high-impact
+    energy technologies." [2049]'
+  official_url: https://arpa-e-foa.energy.gov/
+  as_of: '2026-10-03'
+  sources:
+  - 2046
+  - 2047
+  - 2048
+  - 2049
+  - 2050
+  - 2051
+  conflicts:
+  - 'Not verified: the statute subsection for award forms is as returned by the tool [2050]; the share of ARPA-E
+    awards made as other transactions is not recorded; arpa-e.energy.gov budget and FAQ pages returned only navigation,
+    and the SCALEUP Ready news item shows no exact date [2049].'
+- id: barda-baa-ezbaa-drive-ventures
+  name: BARDA BAA, EZ-BAA, DRIVe, BARDA Ventures and consortia
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: BARDA's pages on aspr.gov, bdr.hhs.gov and drive.hhs.gov were read on 2026-10-03 [2053] [2054] [2055].
+    The EZ-BAA is closed to new entrants and the BARDA BAA itself was not read; see conflicts.
+  owner: HHS Administration for Strategic Preparedness and Response — BARDA
+  agency: HHS
+  defense: false
+  what: 'BARDA''s partnering menu lists the BARDA Accelerator Network, DRIVe, the BARDA BAA Toolkit, the DRIVe EZ-BAA,
+    Other Transactions Agreements, Project BioShield, the BioMaP Consortium and the Rapid Response Partnership Vehicle
+    (RRPV) [2053]. "DRIVe (Division of Research, Innovation, and Ventures) funds early stage companies for life
+    saving innovation." [2055] BARDA Ventures "uses venture capital practices, primarily equity investment, to support
+    companies in a manner complementary to traditional government grants or contracts", with the Global Health Investment
+    Corporation (GHIC), an independent nonprofit investment firm, as partner [2059].
+
+    '
+  funds_or_buys: contracts
+  eligibility:
+  - 'EZ-BAA: open to all responsible sources, domestic and international [2057]'
+  - 'RRPV: "Offerors must be RRPV Members to be eligible to submit a proposal" [2067]; membership requires relevant
+    technology and not being barred from doing business with the U.S. Government [2066]'
+  - TechWatch seeks products that have progressed into or beyond clinical trials [2054]
+  - 'BioMaP: work must be done in the United States, per the sweep''s summary of the membership page [2069]'
+  cycle:
+    pattern: The EZ-BAA was issued 18 October 2022 and "This overall EZ-BAA will be open until 18 October 2027,
+      unless otherwise revised" [2057]; the BDR portal states "All EZ-BAA areas of interest are currently closed",
+      except for eligible prior awardees per the sweep's summary [2054].
+    current_solicitations:
+    - id: EZ-BAA BAA-22-100-SOL-00003
+      opens: '2022-10-18'
+      closes: '2027-10-18'
+      note: All areas of interest currently closed per the portal [2054]; solicitation dates from the solicitation
+        text [2057]
+    - id: BARDA BAA BAA-23-100-SOL-00004
+      opens: ''
+      closes: ''
+      note: 'NOT READ: the BAA number is confirmed only by search-result titles; its current amendment and deadlines
+        are unverified [2064]'
+    - id: DRIVe programs
+      opens: ''
+      closes: ''
+      note: 'Open programs listed: Influenza Vaccine Innovation, Digital MCMs, Healing Lungs, IMMUNECHIP+, D-COHRe,
+        Repair; eight programs listed as active but paused [2055]'
+    - id: RRPV Request for Project Proposals 25-06-DxR2 (Amendment 1; archived)
+      opens: ''
+      closes: ''
+      note: Amendment 1 dated 2025-06-23; about $40 million for base project awards; 4 awards anticipated [2067]
+  awards:
+  - phase: EZ-BAA
+    amount: Government funding less than $750,000 per award ("$749,000 limit" on the resources page)
+    duration: ''
+    cite:
+    - 2057
+    - 2058
+  - phase: EZ-BAA "+ Phase"
+    amount: up to $20M
+    duration: ''
+    cite:
+    - 2056
+  - phase: Patch Forward Prize
+    amount: $50M
+    duration: ''
+    cite:
+    - 2055
+  - phase: BARDA Ventures
+    amount: No funding totals or portfolio counts on the page; invests at any stage from seed to growth
+    duration: ''
+    cite:
+    - 2059
+  - phase: Statute
+    amount: OT projects exceeding $100,000,000 need a written determination
+    duration: ''
+    cite:
+    - 2060
+  steps:
+  - 'BARDA Digital Resources portal (bdr.hhs.gov): TechWatch requests; EZ-BAA phase abstracts; BARDA BAA proposals;
+    RFI/RFP/RTOR responses; collaborator portal for deliverables [2054]'
+  - 'EZ-BAA: first step is an inquiry email, then a call [2056]; the abstract is submitted after requesting a portal
+    account, with no limit on number of abstracts or collaborating institutions [2058]'
+  - 'EZ-BAA terms: abstract "no more than 12,500 characters"; respondent resource contributions a minimum of 30-50%
+    of total proposed project value; SAM registration required before proposing; notification target 30-90 days
+    after abstract receipt [2057]'
+  - 'EZ-BAA: grants and cooperative agreements will not be awarded; an other transaction agreement may be used for
+    research efforts [2057]'
+  - 'RRPV: awards are executed as Project Awards by the consortium management firm; cost sharing strongly encouraged,
+    not required [2067]; "There are currently no membership dues." [2066]'
+  - 'BioMaP: "There are NO annual membership fees and there is NO initiation fee to join."; processing in as little
+    as 3-5 business days, final approval up to three weeks [2069]'
+  - Industry Day is "a two-day conference with industry and our government partners to share BARDA's goals and objectives";
+    the 2023 event was November 13-14, 2023, hybrid, open to the public [2061]
+  - 'Other entry points on the ASPR landing page: BARDA Digital Resources, Doing Business with BARDA, TechWatch,
+    DRIVe, BARDA Ventures, CARB-X [2052]'
+  - Contact drive@hhs.gov [2055]
+  portal: https://bdr.hhs.gov/
+  registrations:
+  - sam-uei
+  gates:
+  - sam-registration
+  - consortium-project-agreement
+  - ot-payable-milestones-cost-share
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes:
+  - status: announced
+    date: ''
+    text: EZ-BAA areas of interest are closed, except for eligible prior awardees per the sweep's summary of the
+      portal; the date of closure is not shown [2054].
+  - status: final
+    date: '2028-09-30'
+    text: 'Scheduled sunset of the innovation partner authority behind BARDA Ventures, 42 U.S.C. 247d-7e(c)(4)(E):
+      "This subparagraph shall have no force or effect after September 30, 2028." [2060]'
+  - status: announced
+    date: 2023-11
+    text: 'SECONDARY ONLY: a trade summary of the November 2023 Industry Day reports that "BARDA intends to increasingly
+      rely on OTAs" and reports two new BARDA consortia under OT authority [2065]. The primary slides were not located.'
+  distinctive: '"DRIVe (Division of Research, Innovation, and Ventures) funds early stage companies for life saving
+    innovation." [2055]'
+  official_url: https://www.aspr.gov/about/centers/barda/doing-business-barda
+  as_of: '2026-10-03'
+  sources:
+  - 2052
+  - 2053
+  - 2054
+  - 2055
+  - 2056
+  - 2057
+  - 2058
+  - 2059
+  - 2060
+  - 2061
+  - 2062
+  - 2063
+  - 2064
+  - 2065
+  - 2066
+  - 2067
+  - 2069
+  conflicts:
+  - 'EZ-BAA availability: the solicitation runs to 18 October 2027 [2057]; the EZ-BAA landing page shows one area
+    of interest as open with a September 30, 2024 close date [2056]; the BDR portal says "All EZ-BAA areas of interest
+    are currently closed" [2054].'
+  - 'Not read: BARDA BAA-23-100-SOL-00004 (fetch failed; SAM.gov notices render no content) [2064]; the medicalcountermeasures.gov
+    partnering page, which with /barda/fdaapprovals holds BARDA''s posted counts [2063]; and the 2025 Industry Day
+    page, whose June 30 – July 1, 2025 date comes from a search-result title only [2062]. No 2026 Industry Day page
+    was found.'
+- id: arpa-h-mission-office-isos
+  name: ARPA-H Mission Office ISOs and program solicitations
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: ARPA-H's funding pages were read on 2026-10-03 and list open programs; the agency's OT training deck
+    is dated January 2026 [2072] [2079].
+  owner: ARPA-H
+  agency: ARPA-H
+  defense: false
+  what: 'ARPA-H''s solicitations are Innovative Solutions Openings, found on SAM.gov by searching "ARPA-H" [2070].
+    Four Mission Office ISOs were announced on March 15, 2024, for Health Science Futures, Proactive Health, Resilient
+    Systems and Scalable Solutions, and "Awards made from each Mission Office ISO will generally be in the form
+    of other transactions." [2073] "Most ARPA-H agreements involve milestone-based payments" [2070].
+
+    '
+  funds_or_buys: other-transaction
+  eligibility:
+  - Small businesses and international entities may propose; no awards to entities of covered foreign countries,
+    per the sweep's summary of the Q&A [2076]
+  - The statute directs ARPA-H to "prioritize awarding grants, cooperative agreements, contracts, prizes, and other
+    transaction awards to entities that will conduct funded work in the United States" [2081]
+  - '"All ARPA-H solicitations require a valid UEI to submit a proposal."; not every team member needs a UEI to
+    submit [2077]'
+  cycle:
+    pattern: '"Summaries are required for all Mission Office ISOs submissions" [2071], and "proposers must receive
+      written feedback from ARPA-H before submitting a full proposal" [2072]. Feedback on solution summaries takes
+      a few weeks to a few months [2076].'
+    current_solicitations:
+    - id: ARPA-H-SOL-24-104 (Health Science Futures)
+      opens: ''
+      closes: ''
+      note: Mission Office ISO [2071]
+    - id: ARPA-H-SOL-24-106 (Proactive Health)
+      opens: ''
+      closes: ''
+      note: Mission Office ISO [2071]
+    - id: ARPA-H-SOL-24-103 (Resilient Systems)
+      opens: ''
+      closes: ''
+      note: Mission Office ISO [2071]
+    - id: ARPA-H-SOL-24-105 (Scalable Solutions)
+      opens: ''
+      closes: ''
+      note: Mission Office ISO [2071]
+    - id: Open programs and initiatives
+      opens: ''
+      closes: ''
+      note: 'Programs listed: EHI, FASTPASS, UNIQUE, REST, SURPASS, SPECTRA. Initiatives: ASCENT-IBO, COSMOS [2072]'
+    - id: ARPA-H SBIR/STTR notice 7599226SN106
+      opens: ''
+      closes: '2026-10-01'
+      note: Solution summary due July 17, 2026; full proposals due September 16, 2026 (October 1, 2026 for Topic
+        5) [2078]
+  awards:
+  - phase: Programs
+    amount: No per-award amounts recorded; cost sharing not generally required; fixed or expenditure-based milestone
+      OTs
+    duration: Most programs run two to six years
+    cite:
+    - 2070
+    - 2076
+  - phase: SBIR/STTR
+    amount: Up to $600K Phase 1 and $3.5M Phase 2
+    duration: ''
+    cite:
+    - 2078
+  steps:
+  - UEI typically 1-3 business days; full SAM.gov registration typically 7-10 business days [2077]
+  - Solicitations are posted on SAM.gov; proposals and solution summaries are submitted on the ARPA-H Solutions
+    site [2075]
+  - A sample OT agreement is available; articles vary by program [2075]
+  - '"Funds are typically disbursed after the performer successfully completes milestones" [2077]'
+  - The Government typically seeks a license, not ownership, in inventions; milestones are negotiable; "Reporting
+    requirements are negotiated for each OT based on the needs of the program." [2076]
+  - 'Statute: OTs require competitive procedures to the maximum extent practicable and Director approval of a request
+    explaining why the authority is essential; project reviews not later than 18 months after award, before further
+    disbursement [2081]'
+  - ARPA-H keeps a public OT library and offers comprehensive OT training twice yearly, virtual [2080]
+  portal: https://arpa-h.gov/explore-funding
+  registrations:
+  - sam-uei
+  gates:
+  - sam-registration
+  - ot-agreement-structure
+  - ot-payable-milestones-cost-share
+  - ot-payment-reporting
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: final
+    date: '2024-03-15'
+    text: Four Mission Office ISOs, announced March 15, 2024, replaced the agency-wide Open BAA, per the sweep's
+      summary of the announcement [2073]; the agency-wide Open BAA had been announced March 15, 2023 [2074].
+  distinctive: '"An OT is a type of contracting instrument that is not a procurement contract, grant, or cooperative
+    agreement." [2076]'
+  official_url: https://arpa-h.gov/explore-funding
+  as_of: '2026-10-03'
+  sources:
+  - 2070
+  - 2071
+  - 2072
+  - 2073
+  - 2074
+  - 2075
+  - 2076
+  - 2077
+  - 2078
+  - 2079
+  - 2080
+  - 2081
+  conflicts:
+  - '"There are currently no open small business opportunities." [2072] vs the SBIR/STTR page showing notice 7599226SN106
+    with a full-proposal date of October 1, 2026 for Topic 5 [2078].'
+- id: nih-other-transactions
+  name: NIH other transactions
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: NIH's OT page was read on 2026-10-03; it is undated, the policy guide behind it dates from 2017,
+    and no open announcement was identified [2082] [2083].
+  owner: National Institutes of Health
+  agency: HHS
+  defense: false
+  what: '"An Other Transaction (OT) is a unique type of legal instrument other than a contract, grant, or cooperative
+    agreement." [2082] NIH''s authorities are PHSA § 402(n) (NIH Director; Common Fund, Precision Medicine Initiative,
+    high-impact cutting-edge research), § 421(b)(3) (NHLBI) and § 480(e)(3)(C) (NCATS, limited to 20% of Cures Acceleration
+    Network appropriations) [2082]. NIH''s 2017 policy guide confirms that the FAR, 45 CFR Part 75 and the NIH Grants
+    Policy Statement do not apply, per the sweep''s summary of the guide [2083].
+
+    '
+  funds_or_buys: other-transaction
+  eligibility: []
+  cycle:
+    pattern: Announcements appear on institute sites, the NIH Guide, and SAM.gov [2082]; applications are made against
+      a Research Opportunity Announcement, per the sweep's summary of the page [2082].
+    current_solicitations: []
+  awards:
+  - phase: Milestones
+    amount: '"There are three primary payable milestone options available for OTs: fixed, adjustable (cost reimbursable),
+      and a hybrid approach"'
+    duration: ''
+    cite:
+    - 2083
+  - phase: Cost share and audit
+    amount: Cost sharing optional unless the program's legislation says otherwise; in-kind valued at fair market
+      value (II.J.1); audits normally only when staff determine necessary (II.I)
+    duration: ''
+    cite:
+    - 2083
+  steps:
+  - '"Applications for Other Transactions are required to be submitted through eRA ASSIST." [2082]'
+  portal: null
+  registrations: []
+  gates:
+  - era-commons-assist
+  - ot-agreement-structure
+  - ot-payable-milestones-cost-share
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"An Other Transaction (OT) is a unique type of legal instrument other than a contract, grant, or
+    cooperative agreement." [2082]'
+  official_url: https://grants.nih.gov/funding/funding-categories/other-transactions
+  as_of: '2026-10-03'
+  sources:
+  - 2082
+  - 2083
+  conflicts:
+  - The NIH OT Policy Guide is dated May 22, 2017 and was read in part; whether it is still current was not checked
+    [2083]. Who may apply is set by each announcement and is not stated on the page read [2082].
+- id: dot-arpa-i-faa-ot
+  name: DOT ARPA-I and FAA other transactions
+  family: ot-cso
+  kind: front-door
+  status: unconfirmed
+  status_note: ARPA-I is active per a DOT Volpe item of 2026-08-24 [2089], but no open solicitation or ARPA-I home
+    page was found, and the FAA part rests on an April 2023 guide [2084].
+  owner: U.S. Department of Transportation (ARPA-I); Federal Aviation Administration
+  agency: DOT
+  defense: false
+  what: 'ARPA-I was launched by DOT in 2023 [2089]; its statute names "a grant; a contract; a cooperative agreement;
+    a cash prize; or another, similar form of funding" and makes commercial entities and consortia eligible [2090].
+    The ARPA-I call recorded in the sweep is the Ideas and Innovation Challenge, a two-stage prize whose total purse
+    "will be a maximum of $1,000,000" [2088]. FAA''s guide describes its OT as "a legally binding instrument that
+    is not a standard procurement contract, grant, or cooperative agreement", under 49 U.S.C. 106(l)(6) [2084].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - 'ARPA-I statute: eligible entities include commercial entities and consortia [2090]'
+  - 'Challenge: individuals must be U.S. citizens or permanent residents; federal funds may not be used to develop
+    submissions [2088]'
+  cycle:
+    pattern: No open solicitation for firms is described in the August 24, 2026 status item, per the sweep's summary
+      [2089].
+    current_solicitations:
+    - id: ARPA-I Ideas and Innovation Challenge
+      opens: '2025-08-08'
+      closes: '2025-09-17'
+      note: Deadline September 17, 2025, 5:00 PM ET [2088]; Stage 2 launched February 2026; final four selected
+        May 2026; finals event September 2026 [2089]
+  awards:
+  - phase: ARPA-I Challenge Stage 1
+    amount: Up to 15 prizes of $20,000
+    duration: ''
+    cite:
+    - 2088
+  - phase: ARPA-I Challenge Stage 2
+    amount: Up to five prizes, each at most $300,000; total purse at most $1,000,000
+    duration: ''
+    cite:
+    - 2088
+  - phase: FAA OT
+    amount: 'No amounts stated; payment structures named: milestones, advance payments, cost-reimbursable (V.A)'
+    duration: ''
+    cite:
+    - 2084
+  steps:
+  - 'Challenge: concept paper 5 pages within an 8-page PDF [2088]'
+  - 'FAA: OTAs "are not generally subject to AMS policy and regulations"; prototype OTAs with a follow-on option
+    use AMS competitive procedures to the maximum extent possible (IV.A) [2084]'
+  - ARPA-I's X-BRIDGE runs under a cooperative agreement with the University of Maine [2089]
+  portal: null
+  registrations: []
+  gates:
+  - prize-eligibility-rules
+  - ot-agreement-structure
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: ''
+  official_url: https://www.volpe.dot.gov/news/partnering-arpa-i-advanced-research-projects-agency-infrastructure-accelerate-transformative
+  as_of: '2026-10-03'
+  sources:
+  - 2084
+  - 2088
+  - 2089
+  - 2090
+  conflicts:
+  - 'Status unconfirmed: ARPA-I''s activity is confirmed by a DOT Volpe item of August 24, 2026 [2089], but no ARPA-I
+    home page on transportation.gov was fetched and no open solicitation was found; FAA''s use of OTAs with small
+    firms is not documented beyond the April 2023 guide, a source older than 2025 [2084]. The official URL given
+    is the Volpe news item.'
+- id: tsa-innovation-task-force
+  name: TSA Innovation Task Force
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: The ITF page was read on 2026-10-03; it is undated, states that there is no open solicitation, and
+    invites contact [2086].
+  owner: Transportation Security Administration
+  agency: DHS
+  defense: false
+  what: '"The Innovation Task Force (ITF) is focused on identifying and quickly demonstrating innovative security
+    solutions in an operational environment." [2087] Founded in 2016, it has four tracks: ITF-led demonstration;
+    ITF-enabled demonstration; future checkpoint design; process and information collaboration [2086]. The page
+    describes no funding, per the sweep''s summary [2086].
+
+    '
+  funds_or_buys: null
+  eligibility: []
+  cycle:
+    pattern: '"While the ITF does not currently have an open solicitation, industry partners can contact us" [2086]'
+    current_solicitations: []
+  awards: []
+  steps:
+  - Contact innovationtaskforce@tsa.dhs.gov [2087]
+  - 'TSA''s OT authority is by cross-reference to the FAA''s: the Administrator "shall have the same authority as
+    is provided to the Administrator of the Federal Aviation Administration under subsections (l) and (m) of section
+    106" [2085]'
+  portal: null
+  registrations: []
+  gates: []
+  situations:
+  - have-technology
+  modifiers:
+    rd: false
+    product: true
+    service: false
+  pending_changes: []
+  distinctive: '"While the ITF does not currently have an open solicitation, industry partners can contact us" [2086]'
+  official_url: https://www.tsa.gov/itf
+  as_of: '2026-10-03'
+  sources:
+  - 2085
+  - 2086
+  - 2087
+  - 2127
+  conflicts:
+  - 'No open solicitation on the access date [2086]; the Innovation Task Force''s BAA history (name, number) was
+    not found on the pages read. The only count of TSA OT agreements in the sweep is dated: 637 active in FY2014
+    [2127].'
+- id: nsf-translation-to-practice
+  name: NSF Translation to Practice (successor to Partnerships for Innovation)
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: Solicitation NSF 25-540 was read; it sets deadlines in November 2025 and May 2026 and annually after
+    [2095].
+  owner: U.S. National Science Foundation
+  agency: NSF
+  defense: false
+  what: 'NSF Translation to Practice, solicitation NSF 25-540, has three tracks: TTP-Explore, about $600,000 for
+    up to 24 months; TTP-Translate, up to $1,200,000 for up to 36 months; TTP-Partner, up to $2,000,000 for up to
+    48 months [2095]. The sweep records it as the successor to Partnerships for Innovation, whose solicitation NSF
+    23-538 is archived [2095] [2096]. Universities and nonprofits submit and small businesses join as partners,
+    per the sweep''s summary of the solicitation [2095].
+
+    '
+  funds_or_buys: grants
+  eligibility:
+  - TTP-Explore requires an active NSF research award; TTP-T and TTP-P require no prior NSF funding [2095]
+  cycle:
+    pattern: 'TTP-Explore: submit anytime. TTP-T and TTP-P deadlines: November 18, 2025; May 19, 2026; then "Third
+      Tuesday in November, and May, Annually Thereafter" [2095].'
+    current_solicitations:
+    - id: NSF 25-540
+      opens: ''
+      closes: ''
+      note: The next TTP-T and TTP-P deadline falls on the third Tuesday in November 2026 by the stated rule; the
+        calendar date is not given in the sweep [2095]
+  awards:
+  - phase: TTP-Explore
+    amount: about $600,000
+    duration: up to 24 months
+    cite:
+    - 2095
+  - phase: TTP-Translate
+    amount: up to $1,200,000
+    duration: up to 36 months
+    cite:
+    - 2095
+  - phase: TTP-Partner
+    amount: up to $2,000,000
+    duration: up to 48 months
+    cite:
+    - 2095
+  - phase: Programme total
+    amount: Estimated 29 awards; anticipated funding $30,000,000
+    duration: ''
+    cite:
+    - 2095
+  - phase: Archived PFI (NSF 23-538)
+    amount: PFI-TT up to $550,000; PFI-RP up to $1,000,000 (PFI-RP required an industrial partner)
+    duration: 18-24 months (PFI-TT); 36 months (PFI-RP)
+    cite:
+    - 2096
+  steps: []
+  portal: null
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes:
+  - status: final
+    date: '2025'
+    text: 'Partnerships for Innovation was replaced by NSF Translation to Practice: NSF 25-540 is the successor
+      solicitation and NSF 23-538 is archived [2095] [2096].'
+  distinctive: ''
+  official_url: https://www.nsf.gov/funding/opportunities/nsf-ttp-national-science-foundation-translation-practice/nsf25-540/solicitation
+  as_of: '2026-10-03'
+  sources:
+  - 2095
+  - 2096
+  - 2097
+  conflicts:
+  - The TIP Directorate's December 23, 2025 year-end update does not mention PFI/TTP [2097].
+- id: nsf-i-corps-teams
+  name: NSF I-Corps Teams
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: The current solicitation NSF 25-549 was read in full [2093].
+  owner: U.S. National Science Foundation
+  agency: NSF
+  defense: false
+  what: 'The current solicitation is NSF 25-549, and "Proposals may only be submitted by the following: Institutions
+    of Higher Education (IHEs)" [2093]. Team roles are entrepreneurial lead, technical lead and industrial mentor
+    [2093]. A small firm takes part through a university team or as the industrial mentor, per the sweep''s summary
+    of the solicitation [2093].
+
+    '
+  funds_or_buys: grants
+  eligibility:
+  - 'Eligibility pathways: an NSF award active now or within five years, or a regional I-Corps Hub program with
+    a recommendation letter [2093]'
+  cycle:
+    pattern: Entry is by a two-page executive summary, interview and invitation, per the sweep's summary of the
+      solicitation [2093].
+    current_solicitations:
+    - id: NSF 25-549
+      opens: ''
+      closes: ''
+      note: Current solicitation; no deadline recorded in the sweep [2093]
+  awards:
+  - phase: Current solicitation
+    amount: Estimated 240 awards; anticipated funding $12,000,000
+    duration: Not recorded; the tool's reading of the award duration was inconsistent
+    cite:
+    - 2093
+  - phase: Archived NSF 21-552
+    amount: '"Funding for the Innovation-Corps Teams Program is $50,000 per award."; 200 to 255 awards; $10,000,000
+      to $12,750,000 per year'
+    duration: ''
+    cite:
+    - 2094
+  steps:
+  - Executive summary maximum two pages [2093]
+  portal: null
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"Proposals may only be submitted by the following: Institutions of Higher Education (IHEs)" [2093]'
+  official_url: https://www.nsf.gov/funding/opportunities/nsf-national-innovation-corps-teams-nsf-national-i-corps-tm/nsf25-549/solicitation
+  as_of: '2026-10-03'
+  sources:
+  - 2093
+  - 2094
+  conflicts:
+  - 'Per-award amount: $50,000 is stated only in the archived NSF 21-552 [2094]; the current solicitation gives
+    an estimated 240 awards and $12,000,000 anticipated funding without a per-award figure in the sweep [2093].'
+- id: nsf-convergence-accelerator
+  name: NSF Convergence Accelerator
+  family: ot-cso
+  kind: front-door
+  status: unconfirmed
+  status_note: The programme page, last updated 2026-05-06, showed no open solicitation and its most recent items
+    were from late 2024 [2092]; the sweep records the programme's 2026 status as unverified.
+  owner: U.S. National Science Foundation, TIP Directorate
+  agency: NSF
+  defense: false
+  what: '"The NSF Convergence Accelerator builds upon basic research and discovery to accelerate solutions toward
+    real-world impact." [2092] Phase 1 is nine months with grant funding up to $750,000; Phase 2 is to "Continue
+    solution development through a two-year effort, with cooperative agreement funding of up to $5 million." [2091]
+    Teams mix academia, industry, nonprofits and government [2092].
+
+    '
+  funds_or_buys: grants
+  eligibility: []
+  cycle:
+    pattern: '"The program releases a solicitation featuring research track topics each year" [2091]; no open solicitation
+      was shown on the access date [2092].'
+    current_solicitations: []
+  awards:
+  - phase: Phase 1
+    amount: grant funding up to $750,000
+    duration: nine months
+    cite:
+    - 2091
+  - phase: Phase 2
+    amount: cooperative agreement funding up to $5 million
+    duration: two years
+    cite:
+    - 2091
+  steps: []
+  portal: null
+  registrations: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers:
+    rd: true
+    product: false
+    service: false
+  pending_changes: []
+  distinctive: '"The NSF Convergence Accelerator builds upon basic research and discovery to accelerate solutions
+    toward real-world impact." [2092]'
+  official_url: https://www.nsf.gov/funding/initiatives/convergence-accelerator
+  as_of: '2026-10-03'
+  sources:
+  - 2091
+  - 2092
+  - 2097
+  conflicts:
+  - 'Status unconfirmed: the programme page, last updated May 6, 2026, showed no open national solicitation, and
+    its most recent items were regional-expansion notices dated October and December 2024 [2092]; the TIP Directorate''s
+    December 23, 2025 year-end update does not mention the Convergence Accelerator [2097]. Whether a 2026 solicitation
+    will issue is unverified.'
+- id: federal-prizes-after-challenge-gov
+  name: Federal prize competitions after Challenge.gov
+  family: ot-cso
+  kind: front-door
+  status: live
+  status_note: USA.gov's challenge pages were read on 2026-10-03, two of them last updated in March and April 2026
+    [2105] [2106].
+  owner: Each sponsoring agency; public hub at USAGov; GSA page for federal challenge managers
+  agency: government-wide
+  defense: false
+  what: '"The Challenge.gov platform was sunset on March 30, 2026. The content has moved to other government websites."
+    [2102] USA.gov/challenges is a hub page that does not itself take submissions [2103]; its list offers "select
+    challenges and prize competitions that are active now", fifteen on the access date [2104]. "Federal agencies
+    are allowed to run prize competitions under the America COMPETES Reauthorization Act of 2010" [2107].
+
+    '
+  funds_or_buys: null
+  eligibility:
+  - '15 U.S.C. 3719 subsection (g): register; comply with rules; a private entity must be "incorporated in and maintain
+    a primary place of business in the United States"; an individual must be a "citizen or permanent resident of
+    the United States" [2108]'
+  cycle:
+    pattern: Agencies now promote challenges and manage applications themselves [2102].
+    current_solicitations:
+    - id: NASA TechLeap Prize, Orbital Clarity Challenge
+      opens: ''
+      closes: ''
+      note: One of five open opportunities listed on NASA's prize hub on the access date [2035]
+    - id: NASA Centennial Challenges Deep Space Food Challenge, Mars to Table (registration)
+      opens: '2026-01-12'
+      closes: '2026-07-31'
+      note: '"Registration opens January 12, 2026, and will remain open until July 31, 2026."; closed by the sweep
+        date; kept as a worked example [2036]'
+  awards:
+  - phase: Example, Mars to Table
+    amount: 'Total purse $750,000: first up to $300,000; second up to $200,000; third up to $100,000; three categorical
+      awards up to $50,000 each'
+    duration: ''
+    cite:
+    - 2036
+  - phase: Example, ARPA-I Ideas and Innovation Challenge
+    amount: Total purse at most $1,000,000
+    duration: ''
+    cite:
+    - 2088
+  - phase: Statutory approval thresholds
+    amount: $1,000,000+ needs agency-head approval; $50,000,000+ needs 30-day congressional notice
+    duration: ''
+    cite:
+    - 2108
+  steps:
+  - 'USA.gov''s steps for entrants: find a challenge, read the rules, understand the format, contact organizers,
+    per the sweep''s summary of the page [2106]'
+  - '"Most challenges offer information sessions and provide contact information for points of contact" [2106]'
+  - 'Agency-run sites outside the USA.gov list: HHS (health.gov/grants/challenge-competitions), DHS S&T prize competitions,
+    NASA prizes-challenges-and-crowdsourcing, NIH challenges, U.S. Army xTech, USGS mapping challenges [2105]'
+  - Sponsors on the active list on the access date included DARPA, NASA, DHS, ACL, NIH, CDC and the U.S. Army [2104]
+  - NASA's hub lists open challenges and its two delivery arms, Centennial Challenges (begun in 2005) and CoECI
+    with the NASA Tournament Lab [2035]
+  - Help line 1-844-USAGOV1 [2106]
+  portal: https://www.usa.gov/find-active-challenge
+  registrations: []
+  gates:
+  - prize-eligibility-rules
+  situations:
+  - have-technology
+  - not-registered
+  modifiers:
+    rd: true
+    product: true
+    service: false
+  pending_changes:
+  - status: final
+    date: '2026-03-30'
+    text: Challenge.gov was sunset on March 30, 2026; public listings moved to USA.gov and manager resources to
+      GSA.gov, per the sweep's summary of the notice [2102]. GSA's page points the public to USA.gov/challenges
+      [2107].
+  distinctive: '"Explore prize competitions and learn how individuals and teams can participate to solve government
+    challenges." [2103]'
+  official_url: https://www.usa.gov/challenges
+  as_of: '2026-10-03'
+  sources:
+  - 2035
+  - 2036
+  - 2044
+  - 2088
+  - 2102
+  - 2103
+  - 2104
+  - 2105
+  - 2106
+  - 2107
+  - 2108
+  conflicts:
+  - The statute still names "such as www.challenge.gov" as where notice may be posted [2108], and DHS's prize page
+    still sends entrants to Challenge.gov [2044], although the platform was sunset on March 30, 2026 [2102].

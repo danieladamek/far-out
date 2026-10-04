@@ -1,4 +1,4 @@
-# certifications.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# certifications.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
 - id: 8a-business-development
   name: 8(a) Business Development program
   owner: U.S. Small Business Administration
@@ -705,3 +705,165 @@
   - 557
   - 558
   conflicts: []
+- id: nontraditional-defense-contractor
+  name: Nontraditional defense contractor status (10 U.S.C. 3014)
+  owner: Department of Defense (a statutory status; no certifying body was found)
+  what: 'A nontraditional defense contractor is an entity that is not currently performing and has not performed,
+    for at least the one-year period preceding DoD''s solicitation of sources, "any contract or subcontract for
+    the Department of Defense that is subject to full coverage under the cost accounting standards" [1605] [1628].
+    Small businesses qualify in practice because "Contracts and subcontracts with small businesses" are exempt from
+    the cost accounting standards [1613]; DoD''s 2018 OT guide says "a large number of entities will fall into the
+    NDC category, including nearly all small business concerns" [1628]. This is the effect of the existing definition,
+    not a change made by the FY2026 NDAA: section 3014 shows no Pub. L. 119-60 amendment, and section 1826 of that
+    Act, set out as a note under section 3014, does not contain the words "small business" [1605] [1610].
+
+    '
+  eligibility:
+  - No DoD contract or subcontract subject to full coverage under the cost accounting standards (41 U.S.C. 1502),
+    now or in the one-year period preceding DoD's solicitation of sources [1605] [1628]
+  - The test is full CAS coverage in the prior one-year period, not whether the firm has ever worked for DoD [1605]
+  - The definition applies "with respect to a procurement or with respect to a transaction authorized under section
+    4021(a) or 4022" [1605]
+  - The CAS Board's exemption list has 15 categories, including "Contracts and subcontracts with small businesses"
+    (48 CFR 9903.201-1(b)) [1613]
+  - 'Amendment history of section 3014 as shown: Pub. L. 116-283 section 1806(b) (Jan. 1, 2021; effective Jan. 1,
+    2022) and Pub. L. 117-263 section 1081(a)(4) (Dec. 23, 2022); no Pub. L. 119-60 amendment to the section text
+    [1605]. No section heading in Title VIII or Title XVIII of Pub. L. 119-60 names other transaction authority
+    or redefines "nontraditional defense contractor" [1610]'
+  benefits:
+  - 'Prototype OTs: at least one nontraditional defense contractor participating to a significant extent, or all
+    significant participants being small businesses or nontraditional defense contractors, satisfies 10 U.S.C. 4022(d)(1)
+    without cost share [1601]'
+  - 'Commercial treatment: products and services provided by nontraditional defense contractors "may be treated
+    by the head of an agency as commercial products and commercial services, respectively, for purposes of this
+    chapter" (10 U.S.C. 3457(a)) [1608] [1617]'
+  - DFARS 252.215-7013 (JAN 2023) tells offerors that "supplies and services provided by a nontraditional defense
+    contractor, as defined in DFARS 202.101, may be treated as commercial products or commercial services"; applying
+    commercial procedures does not require a commercial item determination and does not mean the supplies or services
+    are commercial [1617]
+  - Services provided by a business unit that is a nontraditional defense contractor "shall be treated" as commercial
+    services to the extent they use the same pool of employees as for commercial customers and are priced using
+    a similar methodology (10 U.S.C. 3457(b)) [1608]
+  - 'Exemptions since December 18, 2025 (Pub. L. 119-60, section 1826, 139 Stat. 1249, a statutory note under section
+    3014): for DoD contracts, subcontracts, or agreements, "products and services provided by nontraditional defense
+    contractors (as defined in section 3014 of title 10, United States Code) shall be exempt" from ten listed requirements:
+    DFARS 252.242-7006, 252.234-7002, 252.215-7002, 252.242-7004, 252.245-7003, 252.244-7001, 252.242-7005, DFARS
+    215.407, 10 U.S.C. 3702, and FAR Part 31 (each "or successor regulation") [1605] [1610]'
+  - 'Waiver: the exemption may be waived or modified for a product or service by written determination approved
+    by the head of the relevant contracting activity; delegable only to a senior contracting official or higher;
+    partial application needs a written justification that it is in the best interest of the Federal Government;
+    the Secretary of Defense notifies the congressional defense committees not later than 60 days after a waiver
+    is issued [1605]'
+  - The statute behind exemption (9), 10 U.S.C. 3702 (certified cost or pricing data), applies at $10,000,000 for
+    prime contracts entered into after June 30, 2026 and $2,000,000 on or before that date [1609]
+  steps:
+  - No certification, application or SAM representation for nontraditional status was found in this sweep; DFARS
+    252.215-7013 advises offerors and does not create a certification [1617]
+  - 'DoD''s original Part 215 deviation text requires the provision in every solicitation: "Insert the provision
+    at 252.215-7013, Supplies and Services Provided by Nontraditional Defense Contractors, in all solicitations.";
+    no nontraditional self-representation was found in the text read [1624]'
+  - 'In an OT the Government records which condition it relied on: FPDS element 10T takes "NSP" Nontraditional Significant
+    Participation, "CS" Cost Sharing or "DEC" Determination of Exceptional Circumstances [1664]'
+  - In Telesto the court found the Army properly relied on certifications and its own evaluation findings for nontraditional
+    participation [1661]
+  - 'Consortia apply the condition per project: "DOTC, NEST, and AMTC solicitations require NDC participation or
+    1/3 cost share on each proposed effort." [1750]'
+  cost_and_time: 'None stated: the status follows from the definition, and the sweep found no fee, application or
+    processing time [1605] [1617].'
+  recertification: None stated. The definition looks back over the one-year period preceding DoD's solicitation
+    of sources, so it is read against each solicitation [1605].
+  official_url: https://www.law.cornell.edu/uscode/text/10/3014
+  pending_changes:
+  - status: pending-implementation
+    date: '2025-12-18'
+    text: Pub. L. 119-60, section 1826 ("Sec. 1826. Exemptions for nontraditional defense contractors.") was enacted
+      December 18, 2025 [1610]. The note states no effective date and no dollar threshold, and commentators treat
+      it as effective on enactment [1605] [1610] [1687] [1686].
+  - status: class-deviation
+    date: '2026-07-24'
+    text: 'DFARS Part 215: WARU''s entry of July 24, 2026 says Part 215 Revision 1 implements section 1826 (nontraditional
+      defense contractors exempt from certified cost or pricing data unless waived), section 812(c) and section
+      811(a)(5); the entry labels the deviation "2026-O0046, Revision 1" while linking to a file named 2026-O0048
+      Rev 1 [1625]. A law-firm tracker dates 2026-O0048 Rev 1 to July 22, 2026 and says it adds 215.105-5(c) (no
+      make-or-buy plan from nontraditional contractors unless waived) [1625] [1626]. The memo was not fetched. The
+      original deviation 2026-O0048, effective March 16, 2026, does not carry the section 1826 exemption in the
+      portion read [1624].'
+  - status: class-deviation
+    date: '2026-02-01'
+    text: 'DFARS Part 212: class deviation 2026-O0028, effective February 1, 2026, keeps the commercial-treatment
+      rule at 212.001-70(d): "contracting officers may treat supplies and services provided by nontraditional defense
+      contractors as commercial products or commercial services", with the file to be documented [1623].'
+  - status: final
+    date: '2025-12-18'
+    text: 'Related thresholds: Pub. L. 119-60 section 1804(c) changed the date in 10 U.S.C. 3702 from "June 30,
+      2018" to "June 30, 2026" and raised "$2,000,000" to "$10,000,000" and "$750,000" to "$2,000,000" [1609] [1610].
+      The Act also carries "Sec. 1806 Matters related to cost accounting standards" [1610]; 48 CFR 9903.201-1 still
+      showed the $7.5 million trigger-contract exemption as of 2026-09-28 [1613].'
+  situations:
+  - have-technology
+  - first-awards-grow
+  - registered-no-award
+  as_of: '2026-10-03'
+  sources:
+  - 1601
+  - 1605
+  - 1608
+  - 1609
+  - 1610
+  - 1611
+  - 1613
+  - 1617
+  - 1618
+  - 1623
+  - 1624
+  - 1625
+  - 1626
+  - 1628
+  - 1661
+  - 1664
+  - 1673
+  - 1685
+  - 1686
+  - 1687
+  - 1688
+  - 1689
+  - 1690
+  - 1750
+  conflicts:
+  - 'Premise check: a pre-enactment law-firm alert is the source found for the claim that the NDAA "treats all small
+    businesses" as nontraditional [1689], and a bar-journal overview says section 1826 exempts "nontraditional defense
+    contractors and small businesses" [1688]. The enacted text read (10 U.S.C. 3014 and the section 1826 note, on
+    Cornell LII) does not name small businesses [1605], and no section heading of the Act redefines the term [1610].
+    Small firms qualify through the CAS small-business exemption [1613]. The body of Pub. L. 119-60 could not be
+    read on govinfo, so this rests on LII''s rendering.'
+  - 'Older regulatory definition: 32 CFR Part 3 defines "nontraditional Defense contractor" with a second prong
+    (no other contract in excess of $500,000 for prototype or research work under the FAR in the prior year) that
+    is not in 10 U.S.C. 3014 [1611] vs [1605].'
+  - 'Other agency: DOE''s guide defines non-traditional contractors as entities that have not received a Federal
+    prime award for at least five years [1673].'
+  - 'Deviation numbering: WARU labels the Part 215 revision "2026-O0046, Revision 1" while linking to 2026-O0048
+    Rev 1 [1625]; the law-firm tracker lists 2026-O0048 Rev 1 [1626].'
+  - 'Secondary only (tracker; memos not fetched): Part 231, 2026-O0032 Rev 1, new 231.001-70 stating that "neither
+    Part 231 nor FAR Part 31 apply to contracts with nontraditional defense contractors", dated September 11, 2026
+    in the tracker''s table and August 4, 2026 in its narrative; Part 234, 2026-O0011, September 16, 2026, exempting
+    contracts awarded to nontraditional defense contractors from the earned value management subpart unless the
+    head of the contracting activity waives in writing; Part 230, 2026-O0006 Rev 1, August 28, 2026, CAS threshold
+    raised to $100 million per section 1806; 215.403-3(a) setting the $10 million threshold for prime contracts
+    awarded after June 30, 2026 [1626].'
+  - 'Secondary only: full CAS coverage threshold raised from $50 million to $100 million, contract-level threshold
+    to $35 million, and the $7.5 million trigger eliminated (section 1806), per a law-firm summary [1687]; the codified
+    text still showed the $7.5 million trigger on 2026-09-28 [1613].'
+  - 'Secondary only (mirror): a third-party copy of DFARS 252.215-7010 (DEVIATION 2023-O0004, January 2023) shows
+    the offeror claiming the exception by submitting "a statement that the entity is not currently performing and
+    has not performed, for at least the 1-year period preceding the solicitation of sources" by DoD any DoD contract
+    or subcontract subject to full CAS coverage; the official deviation memo could not be fetched [1618].'
+  - 'Secondary only: an accounting-firm summary refers to a 2024 Defense Pricing and Contracting memo instructing
+    contractors to provide statements confirming NDC status, which was not found, and states without a source that
+    more than 90% of the defense industrial base qualifies as nontraditional [1686].'
+  - 'Open points commentators flag: no implementation timeline and no dollar threshold in the statute, and CAS itself
+    is not among the listed exemptions [1685]; the exemptions apply to DoD contracts only, with a question over
+    DoD orders under civilian multiple-award contracts [1689]; a second reader identified no section amending 10
+    U.S.C. 4021, 4022 or 3014 [1690].'
+  - The NAC FAQ's definition of a nontraditional defense contractor, as relayed, omitted the cost-accounting-standards
+    clause; check the live text [1750].
+  - official_url is the Cornell LII page because uscode.house.gov was down on 2026-10-03 [1605].

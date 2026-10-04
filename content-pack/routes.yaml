@@ -1,4 +1,4 @@
-# routes.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# routes.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
 - id: total-small-business-set-aside
   name: Total small-business set-aside (the Rule of Two)
   family: setaside-vehicle
@@ -2127,3 +2127,949 @@
   - 1523
   - 1535
   conflicts: []
+- id: prototype-ot
+  name: Prototype other transaction (10 U.S.C. 4022)
+  family: ot-cso
+  governing_text: 10 U.S.C. 4022 (as amended through Pub. L. 119-60); 10 U.S.C. 3014 (nontraditional defense contractor);
+    32 CFR Part 3 (out of step with the statute); DoD Other Transactions Guide, Version 2.0 (July 2023); USD(A&S)
+    memorandum of August 27, 2025 (approval authority)
+  what: 'A prototype other transaction (OT) is a legally binding instrument other than a standard procurement contract,
+    grant, or cooperative agreement, used by DoD to carry out a prototype project under 10 U.S.C. 4022 [1631] [1601].
+    The FAR and many standard procurement contract requirements do not automatically apply; the Procurement Integrity
+    Act and fiscal law still do [1631]. A "prototype project" includes a proof of concept, model, or process (including
+    a business process); reverse engineering to address obsolescence; a pilot or novel application of commercial
+    technologies for defense purposes; agile development activity; the creation, design, development, or demonstration
+    of operational utility; or any combination [1602] [1637].
+
+    '
+  who_for: 'The DARPA Director, the DIU Director, the Secretary of a military department, or any other official
+    designated by the Secretary of Defense may carry out prototype projects [1601]. Any firm can take part, and
+    the statutory conditions favour nontraditional defense contractors and small businesses: a project needs no
+    cost share when at least one nontraditional defense contractor or nonprofit research institution participates
+    to a significant extent, or when all significant participants are small businesses or nontraditional defense
+    contractors [1601].'
+  how_it_works:
+  - 'One of four conditions must be met (10 U.S.C. 4022(d)(1)): (A) at least one nontraditional defense contractor
+    or nonprofit research institution participating to a significant extent; (B) all significant participants other
+    than the Federal Government are small businesses (including SBIR/STTR participants under 15 U.S.C. 638) or nontraditional
+    defense contractors; (C) at least one third of the total cost paid from non-Federal sources; (D) the agency
+    senior procurement executive determines in writing that exceptional circumstances justify the transaction [1601]'
+  - In the statute "small business" means a small business concern under section 3 of the Small Business Act (15
+    U.S.C. 632), and "nontraditional defense contractor" has the meaning given in 10 U.S.C. 3014 [1602] [1632]
+  - Costs incurred before the transaction's effective date do not count toward cost share, except costs incurred
+    after negotiations began, on a written determination by the responsible official (4022(d)(2)) [1601]
+  - '"Significant extent", in DoD''s superseded 2018 guide: the Agreements Officer judges the totality of the circumstances;
+    examples are supplying a new key technology, product or process; a novel application; a material increase in
+    performance, efficiency, quality or versatility; accomplishing a significant amount of the project; or a material
+    reduction in cost or schedule; "AOs should not establish blanket rules or thresholds for determination of significance"
+    [1628]. The July 2023 guide gives no definition of "significant extent" in the portion read [1627]'
+  - 'Competition: "To the maximum extent practicable, competitive procedures shall be used when entering into agreements
+    to carry out the prototype projects under subsection (a)." [1601]; "Although the Competition in Contracting
+    Act does not apply to OTs, competition should be pursued to the maximum extent practicable." [1632]'
+  - 'The Inspector General restated the point in 2023: "the DoD is required to use competitive procedures to the
+    maximum extent practicable to award OT agreements." [1706]'
+  - 'Evaluation: the FAR, the DFARS, DoD Source Selection Procedures and the Competition in Contracting Act do not
+    apply to OT evaluation [1627]'
+  - 'Guidance in force: WARU''s guide page lists July 2023 as the current edition of the OT Guide, issued by OUSD(A&S),
+    shows no newer one, and links the companion Guide to Research Other Transactions [1629]'
+  - 'Advertising: DoD''s guide says SAM.gov "may not be the most appropriate place" to advertise OT opportunities
+    [1627]'
+  - 'Ways the opportunity reaches firms: a commercial solutions opening structured to award prototype OTs [1636],
+    or a request issued to the members of a consortium through its management organization [1699]; see routes defense-commercial-solutions-opening
+    and ot-consortium-membership'
+  - Payment may be fixed-price, expenditure-based, payable-milestone, or hybrid [1631]; DARPA's training says advance
+    payments are permitted and milestone-based methods are used [1641]
+  - 'Approval (statute): over $100,000,000 but not over $500,000,000 (including all options), a written determination
+    by the head of the contracting activity (or the director, for DARPA, DIU, MDA); over $500,000,000, a written
+    determination by the senior procurement executive (or DARPA/DIU/MDA director) and written notice to the congressional
+    defense committees at least 30 days before the authority is exercised; the determination authority may not be
+    delegated [1601]. See gate ot-approval-thresholds'
+  - 'Audit: a Comptroller General access clause for agreements providing payments over $5,000,000 [1601] [1611];
+    other audit and records access is negotiable, and fixed-amount agreements generally need no audit provisions
+    [1627]'
+  - An agreement under section 4022 is treated as a Federal agency procurement for chapter 21 of title 41 (procurement
+    integrity) [1601] [1627]
+  - 'Does not apply, as DARPA''s training lists it: Competition in Contracting Act; Truth in Negotiations Act; Cost
+    Accounting Standards; Contract Disputes Act; procurement protest process; Pub. L. 85-804 and indemnification;
+    cost-plus-percentage-of-cost prohibition; Buy American Act (in part); Bayh-Dole Act (patents); FAR/DFARS/agency
+    regulations; termination for convenience or default; changes clause; mandatory flowdowns to subcontractors;
+    Uniform Commercial Code [1641]'
+  - 'Does not apply, as ARPA-H''s cross-government training lists it: Buy American Act (partially); CICA; Anti-Kickback
+    Act; Truthful Cost or Pricing Data Act; Service Contract Act; CAS; Contract Disputes Act; FAR; procurement protest
+    processes; Bayh-Dole Act [1645]'
+  - 'Still applies: criminal laws (false claims, false statements); laws of general applicability (Civil Rights
+    Act); laws applicable to U.S. business (environmental, import/export control); Procurement Integrity Act (41
+    U.S.C. 2102–07) [1641]. ARPA-H''s list adds the Antideficiency Act, the Federal Property and Administrative
+    Services Act, NEPA, debarment and suspension, and research misconduct and human subjects protections [1645].
+    DoD''s guide adds FOIA with the five-year protection of 10 U.S.C. 4021(i), classified-information rules (32
+    CFR Part 117), DoDI 5200.48 for CUI, and section 889 of the FY2019 NDAA [1627]'
+  - 'Fiscal law governs OTs: GAO applied the recording statute and the bona fide needs statute to NIH other transactions
+    (B-333150, April 8, 2024) [1656]'
+  - A prototype OT may provide for the award of a follow-on production contract or transaction to the participants
+    [1602] [1632]; see route follow-on-production-ot
+  - 'What a small firm must have: the sweep found no certification prescribed by section 4022; a firm that is a
+    small business or a nontraditional defense contractor meets condition (A) or (B) without cost share [1601].
+    See certification nontraditional-defense-contractor'
+  - 'Registration: "each member serving as the primary performer on an award must obtain a Unique Entity Identifier
+    (UEI) from SAM." [1627]. In Independent Rough Terrain Center the protester''s SAM registration lapsed between
+    May 26 and August 9, 2023, after proposal submission and before award, and its protest was dismissed [1662]'
+  - 'Scale: DoD obligations through prototype and production OTAs grew from $1.8 billion in fiscal year 2016 to
+    over $18 billion in fiscal year 2024; prototype OTAs were $56.3 billion of $62.9 billion obligated in FY2021–FY2024
+    (90 percent) [1649]'
+  - 'Who takes part: companies that typically did not do business with DoD "participated to a significant extent
+    on 88 percent of the transactions awarded during this time" (FY2016–FY2018) [1651]'
+  - 'Policy direction: the November 2025 Acquisition Transformation Strategy says the Department "will direct the
+    use of the other transaction authority (OTA) for prototype and follow-on production efforts" where in the best
+    interest of the warfighter, and commits to "increase engagement with nontraditional defense contractors to educate
+    industry on how to compete for OTAs" [1640]'
+  - 'Installation and facility prototyping pilot (4022(i)): two projects a year, $300,000,000 aggregate, ends September
+    30, 2030 [1601]'
+  gates:
+  - ot-approval-thresholds
+  - ot-ip-rights
+  - ot-protest-gao
+  - ot-protest-cofc
+  - ot-performance-disputes
+  - sam-registration
+  situations:
+  - have-technology
+  - first-awards-grow
+  official_url: https://aaf.waru.edu/aaf/contracting-cone/ot/prototype/
+  pending_changes:
+  - status: proposed
+    date: '2026-06-15'
+    text: 'FY2027 NDAA: the Senate bill S. 4784 as reported (Report No. 119-127) carries "Sec. 817. Other transaction
+      authority reporting."; only the table of contents was read, and it is a reported bill, not law [1693]. One
+      trade article says section 817 would require public reporting of OT transactions on a par with contracts,
+      that House bill H.R. 8800 section 823 would change OT decision criteria toward performance, speed and capability
+      alignment, and that the bills were not reconciled as of July 16, 2026 [1693] [1694].'
+  - status: proposed
+    date: '2024-09-04'
+    text: DoD proposed a rule to update 32 CFR Part 3 for prototype OTs; comments were due 2024-11-04; whether it
+      has been finalized was not checked [1710].
+  as_of: '2026-10-03'
+  sources:
+  - 1601
+  - 1602
+  - 1605
+  - 1611
+  - 1627
+  - 1628
+  - 1629
+  - 1631
+  - 1632
+  - 1636
+  - 1637
+  - 1638
+  - 1640
+  - 1641
+  - 1645
+  - 1649
+  - 1651
+  - 1656
+  - 1662
+  - 1693
+  - 1694
+  - 1699
+  - 1706
+  - 1710
+  conflicts:
+  - 'Approval table: the AAF prototype page shows USD(R&E) or USD(A&S) approval above $500M for all components (slice
+    A''s reading); slice B relays the same page as "up to $100M service secretary or agency director; $100M–$500M
+    USD(R&E) or USD(A&S); over $500M USD approval plus 30-day congressional notification" [1632]. 10 U.S.C. 4022(a)(2)
+    as amended December 23, 2024 gives the $100M–$500M determination to the head of the contracting activity and
+    the over-$500M determination to the senior procurement executive [1601] [1602], and the August 27, 2025 memo
+    follows the statute [1638]. The statute and the memo are used here.'
+  - 32 CFR Part 3 still implements section 845 of the FY1994 NDAA and cites 10 U.S.C. 2371; its section 3.5 lists
+    only three use conditions and omits the all-small-business condition now in 4022(d)(1)(B); its "nontraditional
+    Defense contractor" definition has a second prong (no other contract in excess of $500,000 for prototype or
+    research work under the FAR in the prior year) that is not in 10 U.S.C. 3014 [1611] vs [1601] [1605].
+  - The August 27, 2025 memo cites "Public Law 118-31" as the FY2025 NDAA [1638]; the statute's amendment notes
+    attribute the change to Pub. L. 118-159, section 816 [1602] [1601].
+  - '"Significant extent" and the statement that nearly all small business concerns are nontraditional come from
+    the superseded November 2018 guide [1628]; whether Version 2.0 keeps them is unverified because its appendices
+    were not returned [1627].'
+- id: research-ot
+  name: Research other transaction (10 U.S.C. 4021)
+  family: ot-cso
+  governing_text: 10 U.S.C. 4021; Guide to Research Other Transactions Under 10 U.S.C. 4021 (OUSD(R&E), revised
+    July 2025); 32 CFR Part 37 (Technology Investment Agreements)
+  what: 'The Secretary of Defense and each military department Secretary "may enter into transactions (other than
+    contracts, cooperative agreements, and grants) under the authority of this subsection" in carrying out basic,
+    applied, and advanced research projects [1604] [1603]. Research OTs are focused on validating research results
+    rather than delivering the resulting technology [1630]. They "do not include authority for follow-on production
+    contracts or transactions" [1633].
+
+    '
+  who_for: Performers of basic, applied and advanced research who can share the cost [1630]. Statutory award authority
+    sits with the Secretary of Defense, the military department Secretaries and DARPA; others need delegation [1630].
+    The Secretary of Defense acts through DARPA, DIU, or any other DoD element the Secretary designates; the Defense
+    Innovation Unit was added by Pub. L. 118-31, section 913(a)(2) (Dec. 22, 2023) [1604] [1603].
+  how_it_works:
+  - 'Conditions (4021(e)): the Secretary must ensure, to the maximum extent practicable, no duplication of research
+    under existing DoD programs, and, to the extent the Secretary determines practicable, that Government funds
+    do not exceed the total provided by other parties [1604] [1633]'
+  - Resource share is required and, to the maximum extent practicable, Government funds do not exceed the total
+    provided by the other parties [1630]; DARPA's training says cost share 50/50 is preferred for research [1641]
+  - 'Advance payments: "The authority provided under subsection (a) may be exercised without regard to section 3324
+    of title 31." [1603]'
+  - Proposals, business plans and technical information submitted are protected from disclosure for five years after
+    receipt (4021(i)) [1603]
+  - A research OT structured as an assistance transaction may be a Technology Investment Agreement under 32 CFR
+    Part 37 [1633]
+  - A Comptroller General access clause is not required for Research OTs [1627]
+  - 'Still applicable: fiscal laws, regulations and policies; suspension and debarment; lobbying restrictions; criminal
+    statutes; export laws; industrial security. Not applicable: the Competition in Contracting Act and the DoD Grants
+    and Agreements Regulations [1630]'
+  - '"Laws and regulations of general applicability or unrelated to the award process will generally still apply
+    to Research OTs" [1630]'
+  - 'IP: "OTs are not subject to the statutory regimes of the Bayh-Dole Act (35 U.S.C. 201-212) for patentable inventions
+    or 10 U.S.C. 3771 for technical data"; IP rights are fully negotiable [1630]'
+  - 'Disputes: agreements should set out how either party raises a dispute and favor alternative dispute resolution
+    [1630]'
+  - 'Within consortia the research form is rare: of $24,337.9 million obligated on consortia-based OTAs in FY2019–2021,
+    research was $34.6 million [1699]'
+  - 'What a small firm must have: resource share, with Government funds not exceeding the other parties'' total
+    to the extent practicable [1630]; the sweep found no certification prescribed [1633]'
+  gates:
+  - ot-ip-rights
+  - ot-performance-disputes
+  situations:
+  - have-technology
+  official_url: https://aaf.waru.edu/aaf/contracting-cone/ot/research/
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1603
+  - 1604
+  - 1627
+  - 1630
+  - 1633
+  - 1641
+  - 1647
+  - 1699
+  conflicts:
+  - 'Edition: the guide read is "revised July 2025" (WARU-hosted copy) [1630]; the ARPA-H policy library lists a
+    Research OT Guide (Sep 2023) [1647].'
+- id: follow-on-production-ot
+  name: Follow-on production after a prototype OT (10 U.S.C. 4022(f))
+  family: ot-cso
+  governing_text: 10 U.S.C. 4022(f) and 4022(a)(2)(C); DoD Other Transactions Guide, Version 2.0 (July 2023); USD(A&S)
+    memorandum of August 27, 2025
+  what: 'A follow-on production contract or transaction is one to produce, sustain, or otherwise implement the results
+    of a successfully completed prototype project for continued or expanded use by DoD, and it may be awarded to
+    the prototype participants without further competition [1602] [1632]. DIU puts it this way: a competitively
+    awarded prototype OT "may result in the award of a follow-on production contract or agreement without the use
+    of additional competitive procedures" [1643]. DoD''s guide names Production OTs under 10 U.S.C. 4022(f) as one
+    of three OT types [1627].
+
+    '
+  who_for: Participants in a prototype OT that was competitively awarded and successfully completed [1602] [1632].
+  how_it_works:
+  - 'Two conditions (4022(f)(2)): "competitive procedures were used for the selection of parties for participation
+    in the transaction" and "the participants in the transaction successfully completed the prototype project provided
+    for in the transaction" [1602] [1632]'
+  - 'Notice: the statute as now in force allows the follow-on award "even if explicit notification was not listed
+    within the request for proposal for the transaction" [1602]; it was amended after GAO sustained a 2018 protest
+    in which the prototype agreement had no follow-on provision [1653]. DoD''s 2018 memo says solicitation documents
+    and prototype agreements must include notice of potential follow-on production OTs [1637], and the July 2023
+    guide says the solicitation and the Prototype OT agreement should include it [1627]'
+  - '"Successfully completed" means the performer met the key technical goals, satisfied the success metrics in
+    the Prototype OT, or accomplished a particularly favorable or unexpected result [1627]; successful completion
+    requires a written determination [1637]; it can occur before the whole prototype project ends, so that a useful
+    part can move to production [1628]'
+  - 'Consortia: a follow-on may be awarded when DoD determines that an individual prototype or prototype subproject
+    within a consortium is successfully completed; it is not contingent on completion of all consortium activities
+    (4022(f)(3)) [1602] [1710]'
+  - 'Form: follow-on awards may be made under 4022(a), under chapter 137, or under procedures the Secretary establishes
+    by regulation (4022(f)(5)), so the follow-on may be an OT or a FAR contract [1602] [1643]'
+  - 'Approval: a follow-on production contract or transaction over $100,000,000 (including all options) needs a
+    covered official''s written determination that (d) was met for the prior prototype transaction, that (f) will
+    be met, and that use is essential to meet critical national security objectives, with the congressional defense
+    committees notified at the time the authority is exercised [1601] [1638]'
+  - 'Who approves in DoD: service acquisition executive (military departments); Director (DARPA/DIU/MDA); for defense
+    agencies and combatant commands, Director or commanding officer up to $100M and USD(R&E) or USD(A&S) above [1638]'
+  - A Comptroller General access clause is required for Prototype or follow-on production OTs with payments over
+    $5 million [1627]
+  - Prototypes or follow-on items may be provided to another contractor as Government-furnished equipment (4022(g))
+    [1601]
+  - 'GAO sustained one protest on this route: in Oracle America (B-416061, May 31, 2018) "the Army did not properly
+    exercise the authority granted to it under the statute", because the prototype OTA had no follow-on provision
+    and the prototype project was not complete at award [1653]'
+  - The Court of Federal Claims has held that "nothing in the OT statutes expressly removes OT follow-on contracts
+    from the purview of this Court's jurisdiction" [1662]
+  - 'In practice: production OTA use was $2 billion in fiscal year 2024; ten of 18 weapon-system efforts GAO reviewed
+    have awarded or plan FAR contracts for further development and testing before FAR production; DoD''s manual
+    reporting named 48 FAR production contracts using follow-on authority and only seven (15 percent) actually were
+    [1649]'
+  - 'Within consortia: "Nearly all consortia-based OTA obligations were through prototype OTAs rather than production
+    OTAs." [1702]; NAMC says its GVS OTA allows follow-on production [1812]; ATI describes MATAC''s OTA as for prototyping
+    and production [1791]'
+  - Research OTs carry no follow-on production authority [1633]
+  - Under the amended CSO statute a product, service or item acquired through a commercial solutions opening may
+    also lead to a follow-on production contract or transaction as defined in section 4022 [1606] [1610]
+  - 'What a small firm must have: a prototype OT that was competitively awarded and successfully completed [1602]
+    [1632]; a SAM registration that stays active through award, since a lapse ended one protester''s case [1662]'
+  gates:
+  - ot-approval-thresholds
+  - ot-protest-gao
+  - ot-protest-cofc
+  - sam-registration
+  situations:
+  - have-technology
+  - first-awards-grow
+  official_url: https://aaf.waru.edu/aaf/contracting-cone/ot/prototype/
+  pending_changes:
+  - status: proposed
+    date: '2024-09-04'
+    text: DoD's proposed rule for 32 CFR Part 3 says follow-on production for a consortium subproject "is not contingent
+      upon the successful completion of all activities within a consortium."; final status not checked [1710].
+  as_of: '2026-10-03'
+  sources:
+  - 1601
+  - 1602
+  - 1606
+  - 1610
+  - 1627
+  - 1628
+  - 1632
+  - 1633
+  - 1637
+  - 1638
+  - 1643
+  - 1649
+  - 1653
+  - 1662
+  - 1702
+  - 1710
+  - 1791
+  - 1812
+  conflicts:
+  - 'Notice of a possible follow-on: DoD guidance says the solicitation and the agreement must or should give it
+    [1637] [1627]; the statute allows the award "even if explicit notification was not listed within the request
+    for proposal for the transaction" [1602].'
+  - 'GAO-25-107546 figures: an earlier pass of the fetch tool returned "production OTA use increased from $24 million
+    (FY2021) to $450 million (FY2024)", which conflicts with GAO''s "$2 billion in production OTA use in fiscal
+    year 2024"; treated as an extraction error until rechecked [1649].'
+- id: defense-commercial-solutions-opening
+  name: Commercial Solutions Opening, defense (10 U.S.C. 3458; DFARS 212.70)
+  family: ot-cso
+  governing_text: 10 U.S.C. 3458 as amended by Pub. L. 119-60, section 1823 (Dec. 18, 2025, 139 Stat. 1247); DFARS
+    Subpart 212.70 (88 FR 55937, Aug. 17, 2023; not yet conformed to the amendment); for CSOs that award prototype
+    OTs, 10 U.S.C. 4022
+  what: 'A commercial solutions opening (CSO) is a general solicitation under which the Secretary of Defense and
+    each military department Secretary "may acquire commercial products, commercial services, or nondevelopmental
+    items through a competitive selection of proposals resulting from a general solicitation" and a peer review,
+    technical review, or operational review [1606] [1610]. Until Pub. L. 119-60, section 1823 (enacted December
+    18, 2025) the authority was to "acquire innovative commercial products and commercial services through a competitive
+    selection of proposals" [1607] [1610]. The name covers two authorities: CSOs "may be structured as prototype
+    OTs pursuant to 10 U.S.C. 4022, or as FAR-based contracts or agreements pursuant to 10 U.S.C. 3458/DFARS 212.70"
+    [1636].
+
+    '
+  who_for: 'Firms with commercial or near-commercial solutions: WARU''s Acquipedia article describes a CSO loosely
+    as "a BAA for higher TRL items" [1636]. In the FY2018–FY2022 pilot, 120 contracts were awarded from CSOs, 82
+    (68%) to small entities, 72 unique small entities [1616].'
+  how_it_works:
+  - 'Lifecycle: a CSO is a long-duration solicitation (typically one or more years) seeking solutions to Government-specified
+    problems known as "areas of interest". CSO posted; area of interest posted; industry submits short-form responses;
+    Government reviews against stated factors; award decisions; areas of interest updated, added or deleted; CSO
+    closed [1636]'
+  - 'Codified procedure (DFARS 212.7004): the CSO describes the agency''s interest, evaluation factors, proposal
+    period and instructions; technical merit and importance to agency programs are the primary evaluation factors;
+    it is publicized through the Governmentwide point of entry; proposals are evaluated by scientific, technological
+    or other subject-matter expert peer review; no separate FAR 5.2 synopsis for individual awards [1614]'
+  - '"Proposals need not be evaluated against each other since they are not submitted in response to a common performance
+    work statement" [1616]'
+  - 'The subpart has six sections: 212.7000 Scope; 212.7001 Definition; 212.7002 Policy; 212.7003 Limitations; 212.7004
+    Procedures; 212.7005 Congressional notification [1615]'
+  - Used when meaningful proposals with varying technical or scientific approaches can be reasonably anticipated
+    (DFARS 212.7002) [1614]
+  - 'Award under section 3458: "Contracts or agreements entered into using the authority under subsection (a) shall
+    be fixed-price, including fixed-price incentive contracts."; products and services acquired are treated as commercial
+    products and commercial services [1606] [1614]'
+  - Use of general solicitation competitive procedures counts as use of competitive procedures for chapter 221 (3458(b))
+    [1606] [1634]
+  - 'Follow-on production (new in section 1823): for a product, service, or item acquired under a CSO the Secretary
+    may enter into "a follow-on production contract (including a sole source contract), subject to the approval
+    requirements of section 3204(e) of this title", or a follow-on production contract or transaction as defined
+    in section 4022 [1606] [1610]'
+  - Congressional notification within 45 days of award for contracts exceeding $100,000,000 (3458(e)) [1606] [1614]
+  - 'DIU''s CSO, which awards prototype OTs: step 1, the company sends a short brief about its solution; step 2,
+    DIU invites selected companies to pitch; step 3, proposal and award. Awards are prototype agreements under OT
+    authority (10 U.S.C. 4022), "in as few as 60-90 days" [1643]'
+  - 'DIU solution brief: "Solution Briefs not exceed 5 written pages using 12-point font or 15 briefing slides.";
+    content is company name and history, employee count, CAGE code or UEI if applicable, financing stage; technology
+    in production now; a response to each requirement in the Area of Interest [1644]'
+  - 'DIU Phase 2 pitch factors: relevance to the Area of Interest; technical merit and feasibility; company viability;
+    innovation or uniqueness; rough-order-of-magnitude pricing; notional schedule; data rights implications [1644]'
+  - DIU states that companies retain ownership of IP assets created during the effort [1643]
+  - 'Compared with a BAA: "CSO procedures are similar to Broad Agency Announcement procedures, but CSOs are broader"
+    [1634]; a BAA is for basic and applied research and development not related to a specific system or hardware
+    requirement and "Cannot be used for production" [1635]. See route baa-far-35-016'
+  - 'Compared with a consortium request: a CSO is publicized through the Governmentwide point of entry [1614]; for
+    most consortia, "members pay dues to join the consortium and gain exclusive access to government opportunities"
+    [1650]'
+  - Awards are fixed-price FAR contracts or, when separately authorized, agreements [1634]
+  - 'Small-business responsibility: under DoD''s Part 212 deviation text, if a small business would be selected
+    but is found not responsible, the SBA Certificate of Competency procedure is followed (212.7004(e)) [1623]'
+  - 'Software: a Secretary of Defense memo of March 6, 2025 directs "Commercial Solutions Openings and Other Transactions
+    as the default solicitation and award approaches for acquiring capabilities under the SWP" [1639]'
+  - 'Combatant commands: a statutory note (Pub. L. 118-31, section 813) requires the Secretary to use section 3458
+    at least four times a year for geographic combatant command needs, through September 30, 2027 [1606]'
+  - 'Protest: the Court of Federal Claims took jurisdiction over a CSO that awarded an IDIQ contract (Kinemetrics,
+    Inc. v. United States, 155 Fed. Cl. 777 (2021)) [1659]'
+  - 'Small-business record: FY2020, FY2021 and FY2022 each saw 19 unique small entities awarded a CSO contract [1616]'
+  - 'Civilian agencies: the overhauled FAR Part 12 text read contains no CSO procedure [1622]; civilian CSO authority
+    was not swept, so there is no civilian CSO route in this slice (todo)'
+  - 'Further resources linked from the AAF page: AFWERX CSO resources, DIU CSO process video, GSA Procurement Innovation
+    Resource Center [1634]'
+  - 'What a small firm must have: the sweep found no certification prescribed; DIU''s brief asks for a CAGE code
+    or UEI if applicable [1644]'
+  gates:
+  - ot-ip-rights
+  - ot-protest-cofc
+  - ot-approval-thresholds
+  situations:
+  - have-technology
+  - registered-no-award
+  - first-awards-grow
+  official_url: https://aaf.waru.edu/aaf/contracting-cone/defense-cso/
+  pending_changes:
+  - status: pending-implementation
+    date: '2025-12-18'
+    text: Pub. L. 119-60, section 1823 (Dec. 18, 2025, 139 Stat. 1247) removed "innovative" from 10 U.S.C. 3458(a),
+      added nondevelopmental items and the technical/operational review options, added follow-on production in (c),
+      struck the former definition of "innovative" and removed the prior approval requirement; there is no separate
+      effective-date note [1606] [1610]. Codified DFARS Subpart 212.70 (DFARS Change 05/07/2026) still covers only
+      "innovative commercial products or commercial services" and still requires senior procurement executive approval
+      to award a contract in excess of $100 million (212.7003); no deviation notice appears on the page [1614].
+      No DFARS implementation of section 1823 was found as of 2026-10-03 [1614] [1626].
+  - status: class-deviation
+    date: '2026-02-01'
+    text: 'DoD class deviation 2026-O0028 (Revolutionary FAR Overhaul Part 12, DFARS Part 212), effective February
+      1, 2026 and issued December 18, 2025 per a law-firm tracker, keeps Subpart 212.70: 212.7000–212.7002 retain
+      "innovative commercial products or commercial services" and fixed-price type contracts, and 212.7004(e) carries
+      the Certificate of Competency step [1623] [1626]. It does not reflect section 1823 [1623].'
+  - status: class-deviation
+    date: '2026-09-28'
+    text: 'FAR overhaul: the overhauled FAR Part 12 model deviation text (page last updated 2026-09-28) has no "commercial
+      solutions opening" section or term in the text read; 12.201-1 covers simplified procedures up to $9 million
+      (or $15 million in specified circumstances) and 12.201-2 covers larger acquisitions [1622].'
+  as_of: '2026-10-03'
+  sources:
+  - 1606
+  - 1607
+  - 1610
+  - 1614
+  - 1615
+  - 1616
+  - 1622
+  - 1623
+  - 1626
+  - 1634
+  - 1635
+  - 1636
+  - 1639
+  - 1643
+  - 1644
+  - 1650
+  - 1659
+  - 1688
+  - 1691
+  - 1692
+  conflicts:
+  - 'Statute vs regulation: 10 U.S.C. 3458(a) as amended no longer says "innovative" [1606]; codified DFARS 212.7000
+    and class deviation 2026-O0028 still do [1614] [1623]; the AAF CSO page and the Acquipedia article do not mention
+    the change [1634] [1636]. The section heading on the LII page itself still contains "innovative" [1606].'
+  - 'Approval above $100 million: the pre-amendment statute required a written determination of efficacy by USD(A&S)
+    [1607]; DFARS 212.7003 and the AAF CSO page say senior procurement executive approval [1614] [1634]; the AAF
+    BAA-v-CSO page says USD(A&S) or service acquisition executive approval [1635]; the amended statute as read on
+    LII removed the prior approval requirement [1606].'
+  - 'Authority cited: the AAF BAA-v-CSO page gives section 879 of the FY2017 NDAA and describes the CSO as for innovative
+    commercial items [1635]; the final rule implements section 803 of the FY2022 NDAA (Pub. L. 117-81) and section
+    814 of the FY2023 NDAA (Pub. L. 117-263) [1616].'
+  - 'Federal Register page: the final rule is recorded as 88 FR 55937 [1616]; eCFR gives the subpart''s source as
+    88 FR 55939, Aug. 17, 2023 [1615].'
+  - 'Secondary only: law-firm commentary describes section 1823 as expanding CSO authority to any commercial product
+    or service and creating sole-source follow-on production authority [1688] [1691] [1692]; one explainer puts
+    the removed written determination at "$10 million", which appears to be a slip for $100 million [1692] vs [1607].'
+- id: baa-far-35-016
+  name: Broad Agency Announcement (FAR 35.016)
+  family: ot-cso
+  governing_text: FAR 35.016 (FAC 2026-01, effective 2026-03-13)
+  what: 'Under FAR 35.016, broad agency announcements (BAAs) "may be used by agencies to fulfill their requirements
+    for scientific study and experimentation directed toward advancing the state-of-the-art", and only when meaningful
+    proposals with varying technical/scientific approaches can be reasonably anticipated [1620]. A BAA is for basic
+    and applied research and development not related to a specific system or hardware requirement [1635] [1620].
+
+    '
+  who_for: Firms and institutions offering research and development approaches to an agency's stated research interest
+    [1620]. The sweep found nothing specific to small firms prescribed in 35.016 [1620].
+  how_it_works:
+  - The BAA describes the agency's research interest, the selection criteria and their relative importance, the
+    proposal period, and submission instructions (35.016(b)) [1620]
+  - Publicized through the Governmentwide point of entry; "The notice must be published no less frequently than
+    annually." (35.016(c)) [1620]
+  - Evaluated by peer or scientific review; written evaluation required; proposals need not be evaluated against
+    each other (35.016(d)) [1620]
+  - Primary bases for selection are technical merit, importance to agency programs, and fund availability (35.016(e))
+    [1620]
+  - No separate subpart 5.2 synopsis for individual awards (35.016(f)) [1620]
+  - 'As DoD''s comparison page puts it: budget activities 6.1–6.4; "Cannot be used for production"; must be funded
+    with RDT&E funds; may result in FAR contracts or non-FAR agreements [1635]'
+  - 'Relation to the CSO: "CSO procedures are similar to Broad Agency Announcement procedures, but CSOs are broader"
+    [1634]'
+  - A DARPA BAA Guide (Nov 2016) is listed in the ARPA-H policy library; it was not read [1647]
+  gates: []
+  situations:
+  - have-technology
+  official_url: https://www.acquisition.gov/far/35.016
+  pending_changes:
+  - status: class-deviation
+    date: ''
+    text: 'FAR-overhaul numbering: in the overhauled Part 35 model deviation text the BAA provision sits at 35.102
+      under Subpart 35.1 (Presolicitation), not 35.016; the technique "must only be used when meaningful proposals
+      with varying technical/scientific approaches are reasonably expected". No date for the model text was visible,
+      and it does not mention CSOs [1621].'
+  as_of: '2026-10-03'
+  sources:
+  - 1620
+  - 1621
+  - 1634
+  - 1635
+  - 1647
+  conflicts: []
+- id: ot-consortium-membership
+  name: 'Consortium membership: join a consortium, respond to its requests'
+  family: ot-cso
+  governing_text: 10 U.S.C. 4022 (prototype OTs; a transaction includes all individual prototype subprojects awarded
+    under it to a consortium); each consortium's base agreement and membership agreement; DoD Other Transactions
+    Guide, Version 2.0, Appendix F (not read)
+  what: 'For most OT consortia, "members pay dues to join the consortium and gain exclusive access to government
+    opportunities" [1650]. DoD awards a base OTA to a consortium management organization; "DOD selects the consortium
+    member awardee and typically awards the project to the CMO.", which issues a sub-award to the member [1700]
+    [1699]. Consortia-based OTAs account for half of DoD''s prototype OTA obligations, FY2021–FY2024 [1649] [1701].
+
+    '
+  who_for: 'Traditional and nontraditional firms alike: consortium pages say "Companies that are part of the US
+    Defense Industrial base as well as new and emerging non-traditional defense contractors are encouraged to join"
+    [1751] [1773]. Membership is mostly nontraditional: 80% to 85% at the four consortia GAO examined [1701]; NSTXL
+    states 83% non-traditional members [1719]; NAMC 70% [1809]; SOSSEC "Nearly 80% of the membership are non-traditional
+    companies." [1814]; ATI says "80% of our members are small or emerging innovators" [1738].'
+  how_it_works:
+  - 'Find the consortium: MITRE''s AiDA page lists 36 OT consortia grouped by sponsor (9 OSD-sponsored, 6 Air Force/Space
+    Force, 10 Army, 8 Navy, 3 non-DoD), each with focus, sponsoring office, manager and URL; last updated 2025-09-22
+    [1695]. A DoD notice of 2024-04-24 (HQ0102240001), read only through a commercial mirror, points to that page
+    as the fiscal year 2024 DoD consortia list maintained under Section 833 of Public Law 116-283 [1696] [1697]'
+  - 'Join: one NSTXL membership covers every OTA NSTXL manages [1719] [1722]; ATI consortia are joined one by one
+    in three steps: find a consortium, apply, then access solicitations once accepted [1737]; CMG''s C5 and CEED
+    each take their own application [1801] [1803]'
+  - 'Documents commonly asked for: a signed Consortium Membership Agreement; a UEI; an active SAM.gov account; an
+    active DD2345; a CAGE code; for firms under foreign ownership, a FOCI mitigation plan or Export Compliance Acknowledgment
+    Form [1741] [1749] [1766] [1768] [1782]'
+  - Dues as posted run from nothing (NSTIC, RRPV, Cornerstone; DIBC in the first year) [1774] [1796] [1816] [1772],
+    through $250 a year (MCDC, CWMD) [1766] [1768] and $500 a year (TReX II, VLC, C5, CEED, NAMC) [1741] [1759]
+    [1801] [1803] [1810], to $1,000 or $5,000 a year at MTEC [1761] and up to $10,000 at NSTXL for corporate members
+    with annual revenue of $100M+ [1719]; NAC charges a one-time $500 [1749]. Exact tables are in programs.yaml
+  - 'Fees on awards: NSTIC assesses 0.05% of all awarded funding; AMTC 0.15%; DOTC and NEST 0.5% [1775] [1750] [1753].
+    C5 and CEED each assess "a small management and administrative fee, expressed as a fixed percentage" with no
+    rate on the page [1801] [1803]. NSTXL says "NSTXL is paid a management fee by the Government." and takes no
+    percentage of the performer''s invoice [1723]'
+  - 'Requests: the sponsor issues a request to members through the manager (a Request for White Papers at C5 and
+    DOTC, a Request for Solutions or Request for Prototype Proposal at NSTXL, a Request for Project Proposals at
+    MTEC); members answer; the Government evaluates and selects; a full proposal follows for selected concepts [1805]
+    [1747] [1724] [1763] [1808]'
+  - 'Who may respond: "You must be a member of NSTXL to submit a response to any request." [1723]; NAMC says "These
+    projects are all exclusive to NAMC—perks of the consortia" [1810]'
+  - 'Who may look: S²MARTS requests are posted publicly while SpEC requests need membership and a DD2345 [1723];
+    DOTC''s schedule is public but "To view complete solicitation information please visit the NAC Members Only
+    site." [1747]; MTEC, NASC and NSTXL list solicitation titles or statuses without login [1763] [1807] [1724]'
+  - 'The statutory condition is applied project by project: "DOTC, NEST, and AMTC solicitations require NDC participation
+    or 1/3 cost share on each proposed effort." [1750]; the 2017 C5 base agreement requires one-third cost share
+    unless an NDC participates to a significant extent or all significant participants are small businesses or NDCs
+    [1805]; NSWC Crane briefed the same condition for S²MARTS [1733]'
+  - '"A transaction includes all individual prototype subprojects awarded under the transaction to a consortium
+    of United States industry and academic institutions." [1602]'
+  - 'Award: under the 2017 C5 base agreement a bilateral modification obligates project funding, a Technical Direction
+    Letter authorizes work, and the manager issues a Project Agreement to the selected member [1805]; at NSTXL agreement
+    finalization takes about 3–5 business days after selection notice [1723]'
+  - 'Registration: "each member serving as the primary performer on an award must obtain a Unique Entity Identifier
+    (UEI) from SAM." [1627]; the Inspector General found in 2021 that there was no DoD requirement for consortium
+    members to register in SAM [1704]'
+  - 'Time to award as managers state it: NSTXL "just over 100 days" on average [1725]; SpEC reports one request-to-award
+    in under 8 months [1728]; UTIC issues requests for prototype proposals twice a year [1779]; DOTC releases a
+    Request for White Papers each month [1747]'
+  - 'Why agencies use consortia, per officials GAO interviewed: a ready pool of vendors including nontraditional
+    ones; government–industry collaboration before solicitation; administrative support through a single point of
+    contact; faster execution using standard templates [1699]. NSWC Crane''s reasons for one broad consortium: avoid
+    a proliferation of OTAs and "Limit burden to small vendors, no need to join several consortia" [1733]'
+  - 'Criticisms on record, dues and overlap: "Officials from one company told us their firm has joined 20 different
+    consortia and pays about $30,000 a year in membership dues."; several consortia cover the same technology areas;
+    a DARPA official said dues may exclude innovative companies [1699]'
+  - 'Criticisms on record, manager pay: consortium management organization compensation ranged from 0.7% to 21.3%
+    of obligated dollars on 12 OTAs GAO reviewed, at least $332 million in FY2019–2021, paid by seven methods [1699];
+    the Inspector General found fees of 1.55% to 6% of project value and no guidance for negotiating them [1704]
+    [1703]'
+  - 'Criticisms on record, competition: "DoD contracting personnel did not always compete base OTs to the maximum
+    extent practicable" [1704]; CRS records the argument that consortia "reduce competition, since only members
+    of the consortium under contract can participate." alongside GAO''s finding that members gain exclusive access
+    [1658] [1650]'
+  - 'What a small firm must have: membership in the consortium that carries the sponsor''s work; for most defense
+    consortia read, a DD2345; a UEI from SAM to be primary performer [1741] [1749] [1777] [1627]'
+  gates:
+  - sam-registration
+  - ot-ip-rights
+  - ot-protest-gao
+  situations:
+  - have-technology
+  - looking-for-partners
+  - first-awards-grow
+  official_url: https://aida.mitre.org/ota/existing-ota-consortia/
+  pending_changes:
+  - status: pending-implementation
+    date: '2025-12-18'
+    text: Pub. L. 119-60 carries a section headed "Sec. 1845 Facility clearance acceleration for members of defense
+      industrial consortiums"; only the heading was read [1610].
+  - status: announced
+    date: '2022-09-20'
+    text: GAO recommended in GAO-22-105357 that DoD maintain and regularly update a comprehensive list of DoD consortia
+      with active OTA awards (recommendation 5); DoD agreed with the report's six recommendations, which the product
+      page shows as three "Open – Partially Addressed" and three "Open" (status noted as of January 2025) [1699]
+      [1650].
+  as_of: '2026-10-03'
+  sources:
+  - 1602
+  - 1610
+  - 1627
+  - 1649
+  - 1650
+  - 1658
+  - 1695
+  - 1696
+  - 1697
+  - 1698
+  - 1699
+  - 1700
+  - 1701
+  - 1703
+  - 1704
+  - 1707
+  - 1718
+  - 1719
+  - 1722
+  - 1723
+  - 1724
+  - 1725
+  - 1728
+  - 1733
+  - 1737
+  - 1738
+  - 1741
+  - 1747
+  - 1749
+  - 1750
+  - 1751
+  - 1753
+  - 1759
+  - 1760
+  - 1761
+  - 1763
+  - 1766
+  - 1768
+  - 1772
+  - 1773
+  - 1774
+  - 1775
+  - 1777
+  - 1779
+  - 1782
+  - 1796
+  - 1801
+  - 1803
+  - 1805
+  - 1807
+  - 1808
+  - 1809
+  - 1810
+  - 1814
+  - 1816
+  conflicts:
+  - 'The list lags the managers'' own pages: the MITRE list does not show JDEC [1695] vs [1718]; it shows MTEC under
+    ATI and NSC as member-led, which ATI''s and MTEC''s own pages do not confirm [1695] vs [1738] [1760].'
+  - 'Official status of the list: the MITRE page carries no statement of official status [1695]; the DoD notice
+    naming it was read only on a commercial mirror because the SAM.gov original would not render [1696] [1697];
+    no 2025 or 2026 notice was found.'
+  - 'Share of OT money through consortia differs by period and base: nearly two-thirds of prototype OTA dollars
+    in FY2019–2021 [1650]; about half of prototype OTA obligations in FY2021–2024 [1701]; "roughly half of DOD''s
+    OT obligations are awarded to consortia." [1707].'
+  - 'Manager compensation: 0.7% to 21.3% of obligated dollars on GAO''s 12 OTAs [1699]; 1.55% to 6% of project value
+    in the Inspector General''s sample [1704]. Different samples and bases.'
+  - 'Secondary only: MITRE''s explainer describes a consortium manager awarding agreements to member organizations,
+    defines the form ("An OT Consortium is a relationship between a government sponsor and a collection of traditional
+    and non-traditional vendors") and says "Many consortia do not award follow-on production activities." [1698].'
+  - (Synthesis flagged by the sweep) A traditional contractor can take a consortium project by teaming with a nontraditional
+    defense contractor that participates significantly or by paying a third of the cost; this is the sweep's reading
+    of the statute and the NAC FAQ, not a statement in either [1602] [1750].
+- id: nasa-space-act-agreement
+  name: NASA Space Act Agreement (51 U.S.C. 20113(e))
+  family: ot-cso
+  governing_text: 51 U.S.C. 20113(e); NASA Partnerships Guide, NAII 1050-3D (original 2016-12-21; last updated 2026-04-07)
+  what: 'NASA may enter into and perform contracts, leases, cooperative agreements, or other transactions as necessary,
+    on terms it deems appropriate [1668]; NASA''s Partnerships Guide cites 51 U.S.C. 20113(e) as the Other Transactions
+    Authority of the Space Act [1669]. The same subsection directs that, to the maximum extent practicable, these
+    be allocated "in a manner which will enable small-business concerns to participate equitably and proportionately
+    in the conduct of the work of the Administration" [1668].
+
+    '
+  who_for: Partners of NASA; a funded agreement goes to a domestic partner [1669].
+  how_it_works:
+  - 'Three kinds. Reimbursable: the partner reimburses NASA''s costs. Nonreimbursable: each party bears its own
+    costs with no exchange of funds. Funded: NASA transfers appropriated funds to a domestic partner and does not
+    take ownership of deliverables as it would under a procurement contract [1669]'
+  - Funded agreements may be used only "when the Agency cannot accomplish its objectives through the use of a procurement
+    contract, grant, or cooperative agreement, and only after full and open competition" [1669]
+  - The authority is exercised without regard to 31 U.S.C. 3324(a) and (b) [1668]
+  - 'Scale (dated): NASA used about 2,220 other transaction agreements in 2010 and about 3,220 in 2014 [1652]'
+  gates: []
+  situations:
+  - have-technology
+  - looking-for-partners
+  official_url: https://nodis3.gsfc.nasa.gov/OPD_Docs/NAII_1050_3D_.pdf
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1647
+  - 1652
+  - 1668
+  - 1669
+  conflicts:
+  - The ARPA-H policy library lists a NASA Space Act Agreements Guide (Dec 2023), which was not read [1647]; the
+    guide read is NAII 1050-3D, last updated 2026-04-07 [1669].
+- id: doe-other-transaction
+  name: DOE other transaction (42 U.S.C. 7256)
+  family: ot-cso
+  governing_text: 42 U.S.C. 7256(a) and (g); Energy Policy Act of 2005, sections 988 and 1007; 2 CFR Part 930 (Technology
+    Investment Agreements issued on or after January 3, 2025; formerly 10 CFR 603); DOE Guide to Other Transactions
+    (August 2023)
+  what: 'The Secretary of Energy "may exercise the same authority to enter into transactions (other than contracts,
+    cooperative agreements, and grants), subject to the same terms and conditions" as the Secretary of Defense under
+    10 U.S.C. 2371 [now 4021], other than subsections (b) and (f) [1672]. DOE''s guide distinguishes the general
+    authority in section 7256(a) from the R&D authority in section 7256(g) [1673]. DOE names the DOE Organization
+    Act, 42 U.S.C. 7256, and the Energy Policy Act of 2005 as the authority [1674].
+
+    '
+  who_for: Research and development partners of DOE; DOE's guide defines non-traditional contractors as entities
+    that have not received a Federal prime award for at least five years [1673]. Unsolicited proposals go to the
+    National Energy Technology Laboratory [1674].
+  how_it_works:
+  - 'Conditions in the statute: competitive, merit-based selection procedures as practicable; a written determination
+    that a standard contract, grant or cooperative agreement is not feasible or appropriate; delegable only to a
+    presidentially appointed, Senate-confirmed officer [1672]'
+  - 'Approval: section 7256(g) agreements need approval by a Senate-confirmed officer with delegated authority;
+    all OTs go through Office of Acquisition Management business clearance and Senior Procurement Executive approval
+    [1673]'
+  - 'Cost share: the EPAct section 1007 standard is that Government funds do not exceed the total from other parties;
+    EPAct section 988 allows reduction or elimination for applied R&D [1673]'
+  - 'Patents: without Bayh-Dole, title to inventions would vest in DOE under its title-vesting statutes unless the
+    agreement provides otherwise; section 7256(g) allows negotiation of patent and data rights [1673]'
+  - '"U.S. manufacturing clauses should almost always be included to the extent feasible and practicable" [1673]'
+  - 'Consortia: "Consortium arrangements are commercial agreements and DOE is not party to the consortium"; a consortium
+    may be run by a lead member or by a consortium manager [1673]'
+  - Technology Investment Agreements are governed by 2 CFR Part 930 for agreements issued on or after January 3,
+    2025, replacing 10 CFR 603 [1674]
+  - 'ARPA-E, inside DOE, has its own award authority: "the Director may provide awards in the form of grants, contracts,
+    cooperative agreements, cash prizes, and other transactions" (42 U.S.C. 16538(f)); no public ARPA-E OT guide
+    was found [1680]'
+  gates:
+  - ot-ip-rights
+  situations:
+  - have-technology
+  official_url: https://www.energy.gov/management/other-transaction-authority
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1605
+  - 1672
+  - 1673
+  - 1674
+  - 1680
+  conflicts:
+  - '"Non-traditional" differs by agency: DOE''s guide uses no Federal prime award for at least five years [1673];
+    DoD''s 10 U.S.C. 3014 uses no DoD contract or subcontract under full cost accounting standards coverage in the
+    prior year [1605].'
+  - 'Expiry: the fetch tool reported a "September 30, 2030" date in 42 U.S.C. 7256(g) without clear context [1672];
+    DOE''s guide states no expiration [1673]. Unresolved.'
+- id: faa-other-transaction
+  name: FAA other transaction (49 U.S.C. 106(l)(6))
+  family: ot-cso
+  governing_text: 49 U.S.C. 106(l)(6); FAA Other Transaction Guide, Version 6.0 (April 2023); for TSA by cross-reference,
+    49 U.S.C. 114(m)
+  what: 'The FAA Administrator may enter into and perform "such contracts, leases, cooperative agreements, or other
+    transactions as may be necessary to carry out the functions of the Administrator and the Administration" [1681].
+    FAA''s guide traces the authority to the FAA Reauthorization Act of 1996 [1682].
+
+    '
+  who_for: 'Uses the guide lists: prototype projects with potential follow-on production; R&D partnerships; unmanned
+    aircraft system initiatives; reimbursable agreements with non-federal entities; arrangements with state and
+    local governments, nonprofits and foreign entities [1682].'
+  how_it_works:
+  - Competition to the maximum extent possible for prototype OTs [1682]
+  - 'TSA has the same authority by cross-reference: the TSA Administrator "shall have the same authority as is provided
+    to the Administrator of the Federal Aviation Administration under subsections (l) and (m) of section 106" [1683].
+    The words "other transactions" do not appear in section 114(m) itself, the FAA guide does not address TSA, and
+    no public TSA OT guide was found [1683] [1682]'
+  - 'Scale (dated): TSA used about 400 other transaction agreements in 2010 and about 640 in 2014 [1652]'
+  - ARPA-H's cross-government table lists FAA at 49 U.S.C. 106(l)(6) and TSA at 49 U.S.C. 114(m) [1645]
+  gates: []
+  situations:
+  - have-technology
+  official_url: https://arpa-h.gov/sites/default/files/2025-02/FAA%20OT%20Guide%20-%20Apr%202023.pdf
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1645
+  - 1652
+  - 1681
+  - 1682
+  - 1683
+  conflicts:
+  - official_url is the ARPA-H-hosted copy of the FAA guide, the only address swept; no FAA-hosted address was captured
+    [1682].
+- id: nih-other-transaction
+  name: NIH other transaction (42 U.S.C. 282(n))
+  family: ot-cso
+  governing_text: 42 U.S.C. 282(n) (PHS Act section 402(n)); PHS Act section 421(b)(3) (NHLBI) and section 480(e)(3)(C)
+    (NCATS); NIH "Other Transactions" (OT) Policy Guide (May 22, 2017)
+  what: 'The NIH Director may approve requests by institutes and centers "to engage in transactions other than a
+    contract, grant, or cooperative agreement" for projects that carry out the Precision Medicine Initiative; Common
+    Fund research, limited to 50 percent of Common Fund amounts available for that purpose in a fiscal year; or
+    high impact cutting-edge research or research urgently required to respond to a public health threat [1677].
+    NIH describes an OT as "a unique type of legal instrument other than a contract, grant, or cooperative agreement"
+    [1678].
+
+    '
+  who_for: NIH says OTs are used to reach nontraditional recipients such as patient advocacy organizations, pharmaceutical
+    companies and foreign entities [1678]. Its 2017 policy guide names small businesses, patient advocacy organizations,
+    educational institutions, pharmaceutical companies, foreign entities, consortia, nonprofits and individuals
+    as possible partners [1679].
+  how_it_works:
+  - 'Authorities NIH names: PHS Act section 402(n) (NIH Director); section 421(b)(3) (NHLBI); section 480(e)(3)(C)
+    (NCATS, capped at 20 percent of annual appropriations) [1678]'
+  - Applications go through eRA ASSIST under each opportunity announcement [1678]
+  - 'IP: "Flexibility in the negotiation of IP rights is one of the rationales for using an OT."; Agreements Officers
+    can negotiate IP terms that differ from other funding instruments [1679]'
+  - The policy guide's Appendix 1 lists authorities and Appendix 2 lists laws that may not apply, including CICA
+    and the Contract Disputes Act [1679]
+  - 'Fiscal law applies: GAO found that NHLBI "violated the recording statute when it recorded obligations for three
+    Other Transaction Agreements (OTAs) at the time it issued the respective Notices of Award", and did not violate
+    the bona fide needs statute (B-333150, April 8, 2024) [1656]'
+  gates:
+  - era-commons-assist
+  situations:
+  - have-technology
+  official_url: https://grants.nih.gov/funding/funding-categories/other-transactions
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1645
+  - 1647
+  - 1656
+  - 1677
+  - 1678
+  - 1679
+  conflicts:
+  - 'Citation: ARPA-H''s training table gives NIH''s statute as 42 U.S.C. 284(n) [1645]; the U.S. Code text is at
+    42 U.S.C. 282(n), which NIH calls PHS Act section 402(n) [1677] [1678]. 282(n) is used here.'
+  - The guide read is the OT Policy Guide dated May 22, 2017 [1679]; the ARPA-H policy library lists an NIH OT Authority
+    Training Guide (2018), which was not read [1647].
+- id: arpa-h-other-transaction
+  name: ARPA-H other transaction (42 U.S.C. 290c)
+  family: ot-cso
+  governing_text: 42 U.S.C. 290c(g)(1)(D) and (g)(2); 42 U.S.C. 247d-7e(a)(3) (definition of other transactions)
+  what: 'ARPA-H may enter into other transactions, as defined by 42 U.S.C. 247d-7e(a)(3), subject to 290c(g)(2)
+    [1676]. That definition reads: "The term ''other transactions'' means transactions, other than procurement contracts,
+    grants, and cooperative agreements." [1675]. ARPA-H describes an OT as a legally binding contractual instrument
+    that is not a procurement contract, grant, or cooperative agreement [1646].
+
+    '
+  who_for: Performers of ARPA-H programs; resource sharing depends on the authority, and ARPA-H and several others
+    are not required to use it [1646].
+  how_it_works:
+  - '"To the maximum extent practicable, competitive procedures shall be used when entering into other transactions
+    under this section." [1676]'
+  - A program manager's written request and the Director's approval are required; annual report [1676]
+  - CICA does not apply; most OT authorities require competitive procedures to the maximum extent practicable [1646]
+  - 'IP: "OTs allow for complete flexibility and freedom in negotiating rights" [1645]'
+  - 'Protests: "OTs can be protested, but what can be protested and where protests must be filed is more complicated
+    and less established"; GAO has limited jurisdiction [1646]'
+  - 'Public guidance: ARPA-H''s Other Transaction Community pages (FAQs; policies and guidance from several agencies;
+    legal and protest decisions) and a cross-government OT training deck dated 2025-06-25 [1646] [1647] [1648] [1645]'
+  - 'BARDA, also in HHS, holds the underlying authority at 42 U.S.C. 247d-7e(c)(5): competitive procedures to the
+    maximum extent practicable, and a written determination by the Assistant Secretary for Financial Resources for
+    projects expected to cost HHS more than $100,000,000; no public BARDA OT guide was found [1675]. Two BARDA consortia
+    managed by ATI are recorded in programs.yaml [1795] [1794]'
+  gates:
+  - ot-ip-rights
+  - ot-protest-gao
+  situations:
+  - have-technology
+  official_url: https://arpa-h.gov/engage-and-transition/other-transaction-community/faqs
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1645
+  - 1646
+  - 1647
+  - 1648
+  - 1675
+  - 1676
+  - 1794
+  - 1795
+  conflicts: []
+- id: dhs-other-transaction
+  name: 'DHS other transaction authority (6 U.S.C. 391): expired in the text read; current status unverified'
+  family: ot-cso
+  governing_text: 6 U.S.C. 391 (pilot; the text read carries a September 30, 2024 sunset); DHS OTA Directive (July
+    2005; not read)
+  what: 'DHS''s other transaction authority is a pilot that borrows DoD''s: "Until September 30, 2024, and subject
+    to subsection (d), the Secretary may carry out a pilot program" exercising the same authority, with the same
+    limits and conditions, as the Secretary of Defense under 10 U.S.C. 4021, and for prototype projects [1670].
+    ARPA-H''s June 2025 authority table lists it as a pilot whose authority expired 9/30/2024 [1645]. A House floor
+    debate in March 2025 confirms the lapse; whether the authority has since been restored was not verified [1671].
+
+    '
+  who_for: 'Not established for this pack: the authority had lapsed in the text read [1670].'
+  how_it_works:
+  - 'Sunset history: Pub. L. 117-263 section 7227(b)(1)(A) moved the sunset from September 30, 2017 to September
+    30, 2024 [1670]'
+  - Annual report to the Appropriations and homeland security committees on projects, rationale, funds spent, outcomes
+    and audits (391(c)) [1670]
+  - 'House floor statement, March 10, 2025: "DHS lost its OTA authority last year because one Senator allowed it
+    to lapse"; since the September 2024 lapse, 50 projects have been disrupted [1671]'
+  - 'Data: "The only agencies that can access an OT are DoD and DHS." in FPDS [1665]'
+  - 'A DHS consortium exists: "HSTech is managed and operated by Advanced Technology International." [1797]'
+  - 'Public guide: the ARPA-H policy library lists a DHS OTA Directive (Jul 2005); it was not read [1647]'
+  gates: []
+  situations:
+  - have-technology
+  official_url: https://www.govinfo.gov/link/uscode/6/391
+  pending_changes:
+  - status: proposed
+    date: '2025-03-10'
+    text: H.R. 1692 (Producing Advanced Technologies for Homeland Security Act) would extend 6 U.S.C. 391 authority
+      to September 30, 2028; proceedings were postponed on a quorum objection on March 10, 2025; final passage and
+      enactment were not confirmed [1671].
+  as_of: '2026-10-03'
+  sources:
+  - 1645
+  - 1647
+  - 1665
+  - 1670
+  - 1671
+  - 1797
+  conflicts:
+  - 'Status: the statute text reads "Until September 30, 2024" on both govinfo and LII [1670]; the lapse is stated
+    on the House floor in March 2025 [1671] and in ARPA-H''s June 2025 table [1645]; whether H.R. 1692 or another
+    vehicle later restored the authority is unverified. Flagged expired/unverified: not to be shown as a usable
+    route until rechecked.'

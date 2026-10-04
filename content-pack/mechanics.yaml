@@ -1,4 +1,4 @@
-# mechanics.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# mechanics.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
 - id: reading-sam-gov
   name: Reading SAM.gov contract opportunities
   what:
@@ -511,3 +511,137 @@
   - 'Identifier: both the NIH template and the HHS how-to page still say DUNS / D-U-N-S, not UEI [1417] [1418].'
   - The HHS sample capability statement (a sibling page) was not fetched [1418]; a search for SBA, GSA, DLA or VA
     guidance returned only commercial results, none used.
+- id: ots-in-public-data
+  name: Other transactions in public data (FPDS, USAspending)
+  what:
+  - OT awards are recorded in FPDS under their own award types; the FPDS data dictionary for Other Transactions
+    (Version 1.5.0, 2025-06-28) defines the award type codes, the code for which statutory condition was relied
+    on, and the consortium fields [1664]
+  - '"The only agencies that can access an OT are DoD and DHS." [1665]'
+  - OTAs are not among the awards agencies must report to USAspending.gov; GAO asked Congress to "include OTAs in
+    the list of federal awards that agencies must report to USAspending.gov." [1709]
+  - 'For consortium awards the record often names the manager, not the firm doing the work: "For consortia-based
+    OTAs, the consortium management organization, rather than the awardees performing the work, is reflected in
+    the FPDS data." [1701]'
+  fpds_codes:
+  - 'Element 12B Award Type: "R" Other Transaction Agreement; "O" Other Transaction Order [1664]'
+  - Element OT8C Type of Agreement allows "Prototype" and "Production" [1664]; FPDS got an option to identify OTAs
+    for prototype or production in June 2019 [1649]
+  - 'Element 10T Non-Traditional Government Entity Participation: "NSP" Nontraditional Significant Participation;
+    "CS" Cost Sharing; "DEC" Determination of Exceptional Circumstances [1664]'
+  - Entry fields include action obligation, base and all options value, non-Government dollars, UEI, extent competed,
+    solicitation procedures, and a system-generated Type of Agreement ("Prototype" or "Production") [1665]
+  - A separate Other Transaction IDV record exists, with a dropdown that records nontraditional government entity
+    participation [1713]
+  consortia_flag:
+  - 'Element 9N Consortia (Yes/No, whether the entity awarded is a member of a consortium); Element 9O Primary Consortia
+    Member''s UEI: "Report the Unique Entity ID for the Primary Consortia Member for this Award" [1664]'
+  - 'On the OT IDV record: "If the ''Consortia'' value is selected as ''Yes'', this field will be opened and required."
+    [1713]'
+  - The consortium-awardee fields were added in June 2022 [1649]; before that, "FPDS did not, for example, capture
+    whether an OTA is consortium-based or not." [1699]
+  - 'Accuracy: of 2,431 applicable FY2023–2024 records, DoD completed 2,036 accurately (84%); "395 records inaccurately
+    list the consortium management organization as the vendor performing work.", about $911 million, or 6% of consortia-based
+    OTA obligations in the period [1701]'
+  - 'Why the performer is hidden: modification-based structures auto-populate the base award''s vendor into later
+    modifications, so the performing member cannot be named [1702]; under the 2017 C5 base agreement, "A bilateral
+    modification to this Agreement will be executed to obligate project funding" [1805]'
+  - 'DoD''s guide: "OTs awarded to a consortium should be reported in accordance with Appendix F." (Appendix F was
+    not read) and "each member serving as the primary performer on an award must obtain a Unique Entity Identifier
+    (UEI) from SAM." [1627]'
+  usaspending_gaps:
+  - 'USAspending''s live award-type reference has no code or label for other transactions: contracts A–D, IDVs IDV_A–IDV_E,
+    and the grant, direct-payment, loan and other-financial-assistance groups only [1666]'
+  - '"About the Data" (last updated November 19, 2025) describes File D1 as procurement data from FPDS covering
+    contracts and contract indefinite delivery vehicles, and neither it nor the Analyst''s Guide mentions Other
+    Transactions in the text returned [1667]'
+  - The Data Sources document describes FPDS as "the database where federal contracting officers submit transaction-level
+    data for contracts and contract indefinite delivery vehicles (IDV)." and does not mention Other Transactions
+    [1714]
+  - 'GAO-24-106214: over $40 billion in OTAs were not reported to USAspending.gov, including more than $10 billion
+    tied to COVID-19 relief; "agencies used different approaches to report billions of dollars in OTA spending.";
+    the matter for Congress is shown as open as of February 2026 [1709]'
+  gao_findings:
+  - 'GAO-25-107546 (September 3, 2025): DoD "lacks a reliable method for tracking FAR production contracts that
+    used follow-on production authority when transitioned from prototype OTAs"; its manual reporting named 48 such
+    contracts and only seven (15 percent) actually were [1649]'
+  - DoD collects one data point on nontraditional engagement, an FPDS field for whether there is "a significant
+    extent" of participation [1649]; it lacks aggregated data on whether OTA awardees are NDCs [1702]
+  - Two recommendations (track FAR production contracts that used follow-on authority; report consortium member
+    data fully and accurately); DoD concurred; both open [1649]
+  - 'GAO-22-105357 (September 20, 2022): DoD "does not have a systematic approach for tracking which consortia receive
+    awards"; six recommendations, DoD agreed; three "Open – Partially Addressed" and three "Open" as shown on the
+    product page (status noted as of January 2025) [1650]'
+  - 'Obligations: "From fiscal year 2021 to 2024, DOD obligations on prototype and production OTAs increased from
+    nearly $17 billion to over $18 billion."; $1.8 billion in fiscal year 2016; FY2021–FY2024 total $62.9 billion,
+    of which prototype OTAs $56.3 billion (90 percent) [1649] [1701]'
+  - 'Per-year totals as read from GAO''s Figure 2 by the fetch tool (approximate; recheck): FY2021 ~$17B; FY2022
+    ~$10.7B; FY2023 ~$16.2B; FY2024 ~$18.1B [1649]'
+  - 'Consortia: $24,337.9 million on consortia-based OTAs in FY2019–2021 (prototype $24,273.4 million, research
+    $34.6 million, production $29.9 million); by year FY2019 $5,218.5M, FY2020 $12,644.6M, FY2021 $6,474.8M [1699].
+    Consortia-based OTAs were about half of prototype OTA obligations in FY2021–2024 [1701]'
+  - 'Nontraditional share of membership at four consortia: AMTC 83% (1,048 of 1,262); DOTC 84% (890 of 1,058); IWRP
+    80% (650 of 810); SpEC 85% (534 of 629) [1701]'
+  - 'Earlier baseline: "Congress has authorized 11 federal agencies to use other transaction agreements" (January
+    2016) [1652]; companies that typically did not do business with DoD "participated to a significant extent on
+    88 percent of the transactions awarded during this time" (FY2016–FY2018) [1651]'
+  other_findings:
+  - 'DoD Inspector General, DODIG-2021-077 (April 21, 2021): "The DoD did not properly track and did not have an
+    accurate count of all OTs awarded through consortiums in FPDS-NG." [1704]'
+  - The 13 base OTs it audited ($24.6 billion in FPDS-NG) were actually 718 projects worth $8.7 billion; one no-ceiling
+    agreement was reported as $999,999,999 against an actual value of $41.6M [1704]. A base OT's FPDS value is therefore
+    a ceiling, not spending [1704]
+  - 'Four of the audit''s recommendations are shown open: 1.e (approval levels), 1.g (Agreements Officer training),
+    1.j (vetting members at joining), 1.m (security reviews of solicitation material) [1705]'
+  - 'A 2021 Defense Acquisition magazine article (authored analysis, not policy): "Most if not all of the inner
+    details on OTs awarded to consortia or CMFs are not publicly available" [1712]'
+  - 'CRS (December 2024): OT actions rose from 496 (FY2017) to 4,391 (FY2022); Congress might consider new reporting
+    requirements on consortia use [1707]'
+  search_implications:
+  - (Synthesis flagged by the sweep) A member's consortium project may not be findable under the member's own name,
+    because the record can show the consortium manager as the vendor [1701]
+  - FPDS help says only DoD and DHS can access the OT record, which bears on what a public data search can show
+    for other agencies [1665]
+  - 'Not verified in this sweep: where OT award records can be searched publicly in October 2026. The FPDS help
+    page for OT agreements still loaded on 2026-10-03 [1665]; whether the beta.fpds.gov help site is current was
+    not checked [1713]. See todo'
+  official_url: https://www.fpds.gov/help/Create_an_OTAgreement.htm
+  pending_changes:
+  - status: proposed
+    date: '2026-06-15'
+    text: The Senate's FY2027 NDAA as reported (S. 4784) carries "Sec. 817. Other transaction authority reporting."
+      [1693]; one trade article says it would require public reporting of OT transactions on a par with contracts
+      [1693] [1694]. Reported bill, not law.
+  as_of: '2026-10-03'
+  sources:
+  - 1627
+  - 1649
+  - 1650
+  - 1651
+  - 1652
+  - 1664
+  - 1665
+  - 1666
+  - 1667
+  - 1693
+  - 1694
+  - 1699
+  - 1701
+  - 1702
+  - 1704
+  - 1705
+  - 1707
+  - 1709
+  - 1712
+  - 1713
+  - 1714
+  - 1715
+  - 1805
+  conflicts:
+  - 'GAO-25-107546 production figures: an earlier pass of the fetch tool returned "production OTA use increased
+    from $24 million (FY2021) to $450 million (FY2024)", which conflicts with GAO''s "$2 billion in production OTA
+    use in fiscal year 2024"; treated as an extraction error until rechecked [1649].'
+  - Whether OT records appear in USAspending searches or downloads, and under what label, is not verified; only
+    the absence of an OT award-type code is [1666] [1709].
+  - A journalist's note reports that anonymous access to OTA summaries on FPDS was removed and then restored in
+    January 2025; secondary only [1715].

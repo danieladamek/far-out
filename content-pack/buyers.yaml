@@ -1,4 +1,4 @@
-# buyers.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# buyers.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
 - id: buyer-usda
   agency: Department of Agriculture
   office_name: Office of Small and Disadvantaged Business Utilization (OSDBU)
@@ -442,3 +442,1071 @@
   what_else: []
   as_of: '2026-10-03'
   sources: []
+- id: aaf-urgent-capability-acquisition
+  name: Urgent Capability Acquisition (AAF pathway)
+  kind: buyer-pathway
+  governing_text: DoDI 5000.81, Urgent Capability Acquisition, and DoDD 5000.71, as named on the pathway page [1907];
+    framework instruction 5000.02, Operation of the Adaptive Acquisition Framework [1902]. The DoDI 5000.81 PDF
+    returned 403 and was not read; this record rests on the WarU pathway pages.
+  date: '2019-12-31'
+  date_note: DoDI 5000.81 effective December 31, 2019 per the pathway page [1907]; listed as Dec 2019 on the official
+    policy list [1902].
+  what: '"Field capabilities to fulfill urgent existing and/or emerging operational needs or quick reactions in
+    less than 2 years." [1907] It is one of the six pathways of the Adaptive Acquisition Framework [1901].
+
+    '
+  timelines:
+  - '"in less than 2 years" [1907]'
+  - 'Ceiling: below $525M RDT&E and $3.065B procurement (FY2020 constant dollars) [1907]'
+  - Letter contracts are definitized "by 180 days or before completion of 40% of work" [1908]
+  decision_authority:
+  - The program manager recommends the pathway and the milestone decision authority or decision authority approves
+    it; pathways may be combined or used in sequence [1903]
+  - The MDA decides which deficiencies must be resolved and acceptable risk [1907]
+  - Since December 18, 2025 the statute has program managers report to a portfolio acquisition executive, who reports
+    to the component or service acquisition executive and may "modify, discontinue, or terminate" underperforming
+    efforts [1938]
+  industry_entry:
+  - The pathway's contracting page names Federal Supply Schedules (FAR 8.4), letter contracts (FAR 16.603) and orders
+    under existing IDIQ, multiple-award and GWAC contracts (FAR 16.5) [1908]
+  - It also names research OTs (10 U.S.C. 4021), prototype OTs (10 U.S.C. 4022) and procurement for experimental
+    purposes (10 U.S.C. 4023) [1908]
+  - 'Prototype OT conditions as restated on the page: nontraditional participation, all small or nontraditional
+    participants, one-third cost share, or a senior procurement executive determination [1908]'
+  - '"competition should be pursued to the maximum extent practicable to incentivize high quality and competitive
+    pricing" [1908]'
+  - The sweep's draft record adds that small-business set-aside is named as a fair-opportunity exception for IDIQ
+    and GWAC orders and that the pathway page itself states no small-business provision; neither point is among
+    the extracted key facts [1908] [1907]
+  official_url: https://aaf.waru.edu/aaf/uca/
+  pending_changes:
+  - status: announced
+    date: 2025-11
+    text: The Acquisition Transformation Strategy sets a goal of delivering kill chains "within 24 months of an
+      operational demand signal using commercial-off-the-shelf products" (p. 32) [1928]. The sweep's draft record
+      describes this as a proposal to explore a new or amended pathway; that wording is not among the extracted
+      key facts.
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, primary and read: the Acquisition Transformation Strategy was announced on November
+      7, 2025 together with three Secretary of War memoranda [1927]. The strategy gives portfolio acquisition executives
+      "expanded authorities for resourcing, requirements, and acquisition decisions within prescribed portfolios"
+      (p. 15), directs OT authority "for prototype and follow-on production efforts where in the best interest of
+      the warfighter and the taxpayer" (p. 10), and proposes portfolio scorecards to track delivery, production
+      scale and use of commercial solutions (p. 21) [1928].'
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, SECONDARY ONLY: the memorandum on transforming the Defense Acquisition System
+      into the Warfighting Acquisition System is named in the official release [1927], but its PDF returned 403
+      and its content is known only from a third-party-hosted copy or digest and from law-firm digests. Reported:
+      PAEs with single accountability over portfolios and four-year terms with a possible two-year extension; commercial
+      products and offerings as the preferred approach; USW(A&S) implementing guidance in 30 days, Military Department
+      PAE implementation plans in 60 days, commercial-first guidance in 90 days, modularity and other reforms in
+      180 days [1929]; 150–180 days for regulatory updates [1930]; full PAE transition within 2 years [1931]. None
+      of this is confirmed against the memo.'
+  - status: final
+    date: 2026-04
+    text: 'April 2026 change to 5000.02, TEXT UNREAD: the official policy list shows "DoWI 5000.02, Operation of
+      the Adaptive Acquisition Framework — April 2026" [1902]. A secondary tracking site, the only source for the
+      day and for calling it a change and not a reissue, records "DoWI 5000.02 ''Operation of the Adaptive Acquisition
+      Framework'' (23 January 2020 with 8 April 2026 Change)" [1906]. The fetch of the instruction returned the
+      January 23, 2020 text with Change 1 of June 8, 2022, so what the April 2026 change says is not known [1905].
+      The six pathway instructions are still listed under their DoDI numbers [1902].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1802, verified in the U.S. Code: adds 10 U.S.C. 1732, the portfolio acquisition
+      executive, the "senior acquisition official designated by the component acquisition executive or the service
+      acquisition executive"; program managers report to the PAE, and the PAE is to "prioritize the use of transactions
+      for prototype projects" [1938]. The section heading is in the Act''s table of contents [1937].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1823, verified in the U.S. Code: amends 10 U.S.C. 3458, the defense CSO
+      statute. The definition of "innovative" and the prior $100M approval requirement are removed and a follow-on
+      production authority is added; contracts or agreements "shall be fixed-price, including fixed-price incentive
+      contracts"; awards above $100,000,000 require notice to the congressional defense committees within 45 days
+      [1939].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1804(c), verified in the U.S. Code: 10 U.S.C. 3702 sets the certified cost
+      or pricing data threshold at $10,000,000 for prime contracts entered after June 30, 2026, replacing $2,000,000;
+      the nontraditional defense contractor subcontract alternative figure shown is $5,000,000 [1940].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1822, SECONDARY ONLY: the heading "commercial products and services" is in the Act''s table
+      of contents [1937]. Its content is reported by digests only: a written memorandum is required before noncommercial
+      procurement methods are used [1943], from the contracting officer and the PAE in one digest [1945]. Statute
+      text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1824, SECONDARY ONLY: the heading "flowdown limits" is in the Act''s table of contents [1937].
+      The sweep''s findings describe it as flowdown limits for commercial subcontracts on the strength of the secondary
+      digests taken together, with no source-level detail recorded [1943] [1944] [1945]. Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1826, SECONDARY ONLY for its content: the heading "exemptions for nontraditional defense
+      contractors" is in the Act''s table of contents [1937], and a Pub. L. 119-60 note on such exemptions, with
+      waiver and congressional-notice provisions, appears at 10 U.S.C. 3014 [1941]. What the exemptions are comes
+      from one digest only: exemption from FAR Part 31 cost principles and certified cost or pricing data [1943].
+      Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §824, SECONDARY ONLY for its content: the heading "increasing competition in defense contracting"
+      is in the Act''s table of contents [1937]. Its content comes from one digest only: guidance to accept nongovernment
+      past performance references [1943]. Statute text not read.'
+  as_of: '2026-10-03'
+  sources:
+  - 1901
+  - 1902
+  - 1903
+  - 1905
+  - 1906
+  - 1907
+  - 1908
+  - 1927
+  - 1928
+  - 1929
+  - 1930
+  - 1931
+  - 1933
+  - 1937
+  - 1938
+  - 1939
+  - 1940
+  - 1941
+  - 1943
+  - 1944
+  - 1945
+  - 1947
+  - 2008
+  conflicts:
+  - 'DoDI 5000.81 was not read: both esd.whs.mil URLs and the DAF copy returned 403. Its date and content rest on
+    the pathway page [1907] and the policy list [1902].'
+  - '5000.02: listed as a DoWI dated April 2026 [1902] vs "23 January 2020 with 8 April 2026 Change" on a secondary
+    site [1906] vs the text returned by fetch, January 23, 2020 with Change 1 of June 8, 2022 [1905]. The April
+    2026 text is unread.'
+  - 'Certified cost or pricing data threshold before §1804: $2,000,000 in 10 U.S.C. 3702 [1940] and $2 million in
+    two digests [1943] [1945] vs $2.5 million in one digest [1944] and in FAR 15.403-4 as fetched [2008].'
+  - '§1823: read as extending CSOs to all commercial products and services [1943] [1945] [1939] vs sole-source follow-on
+    production after a competitive CSO selection [1944] vs a production OT directly from a CSO [1947]. The Code
+    text supports the first two; the third is unconfirmed.'
+  - 'WAS memo deadlines differ between secondary sources: 30, 60, 90 and 180 days [1929]; 30, 60 and 150–180 days
+    [1930]; 30, 60, 150 and 180 days and 2 years [1931]; 60, 90, 150 and 180 days [1933]. None is confirmed against
+    the memo.'
+- id: aaf-middle-tier-of-acquisition
+  name: Middle Tier of Acquisition (AAF pathway)
+  kind: buyer-pathway
+  governing_text: 10 U.S.C. 3602, enacted by Pub. L. 118-159, December 23, 2024 [1913]; DoD Instruction 5000.80,
+    Operation of the Middle Tier of Acquisition (MTA), which implements section 804 of Pub. L. 114-92 [1912].
+  date: '2019-12-30'
+  date_note: DoDI 5000.80 as returned is dated December 30, 2019 [1912]; the official policy list dates it Nov 2024
+    [1902]. The statute was enacted December 23, 2024, and LII shows no Pub. L. 119-60 amendment to it [1913].
+  what: '"Rapidly develop fieldable prototypes within an acquisition program to demonstrate new capabilities and/or
+    rapidly field production quantities of systems with proven technologies that require minimal development." [1909]
+    It has two paths, rapid prototyping and rapid fielding, each with Planning, Execution and Completion phases
+    [1909].
+
+    '
+  timelines:
+  - 'Rapid prototyping: residual operational capability "within 5 years of the MTA program start date" (§1.2.c)
+    [1912]'
+  - 'Rapid fielding: "begin production within 6 months and complete fielding within 5 years" (§1.2.d) [1912]'
+  - 'Statute: rapid prototyping within five years; rapid fielding with production within six months and completion
+    within five years; the requirements process is to complete "in a period of not more than six months" [1913]'
+  - '"MTA programs may not be planned to exceed 5 years to completion" [1911]; the 5-year limit runs from program
+    start, with a DAE waiver to exceed [1910]'
+  - 'Residual operational capability: "any military utility for an operational user that can be fielded" [1911]'
+  decision_authority:
+  - The program manager recommends the pathway and the milestone decision authority or decision authority approves
+    it; pathways may be combined or used in sequence [1903]
+  - Component Acquisition Executives are decision authorities unless delegated (§2.6.a) [1912]
+  - Programs expected to exceed the MDAP threshold need a written USD(A&S) decision before obligating funds (§4.1.c)
+    [1912]
+  - '"MTA program production start date will not exceed 6 months after MTA program start date without DAE waiver."
+    [1912]'
+  - Since December 18, 2025 the statute has program managers report to a portfolio acquisition executive, who reports
+    to the component or service acquisition executive and may "modify, discontinue, or terminate" underperforming
+    efforts [1938]
+  industry_entry:
+  - As returned, DoDI 5000.80 contains no OT, industry, commercial or small-business language [1912]
+  - The WarU overview page names Other Transactions and "Procurement for Experimental Purposes (10 USC 2373)" as
+    ways small and nontraditional firms compete; 10 USC 2373 is the old section number, now 10 U.S.C. 4023 [1910]
+  - The overview page says MTA encourages small business and nontraditional contractors and that prototyping can
+    lead to follow-on production, per the sweep's summary of the page [1910]
+  - The rapid prototyping path page names no contracting vehicle [1911]
+  - The selecting-a-pathway page mentions OT agreements as a contracting vehicle for MTA [1903]
+  - Technologies demonstrated via rapid prototyping "may be transitioned to major capability acquisition programs"
+    (DoDI 5000.85 §3.2.c) [1915]
+  official_url: https://aaf.waru.edu/aaf/mta/
+  pending_changes:
+  - status: announced
+    date: 2025-11
+    text: 'Acquisition Transformation Strategy, primary and read: MTA approvals are delegated "to the lowest permissible
+      levels"; MTA Advisory Boards are eliminated and replaced with a digitized system (p. 20). MTA is not eliminated
+      [1928].'
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, primary and read: the Acquisition Transformation Strategy was announced on November
+      7, 2025 together with three Secretary of War memoranda [1927]. The strategy gives portfolio acquisition executives
+      "expanded authorities for resourcing, requirements, and acquisition decisions within prescribed portfolios"
+      (p. 15), directs OT authority "for prototype and follow-on production efforts where in the best interest of
+      the warfighter and the taxpayer" (p. 10), and proposes portfolio scorecards to track delivery, production
+      scale and use of commercial solutions (p. 21) [1928].'
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, SECONDARY ONLY: the memorandum on transforming the Defense Acquisition System
+      into the Warfighting Acquisition System is named in the official release [1927], but its PDF returned 403
+      and its content is known only from a third-party-hosted copy or digest and from law-firm digests. Reported:
+      PAEs with single accountability over portfolios and four-year terms with a possible two-year extension; commercial
+      products and offerings as the preferred approach; USW(A&S) implementing guidance in 30 days, Military Department
+      PAE implementation plans in 60 days, commercial-first guidance in 90 days, modularity and other reforms in
+      180 days [1929]; 150–180 days for regulatory updates [1930]; full PAE transition within 2 years [1931]. None
+      of this is confirmed against the memo.'
+  - status: final
+    date: 2026-04
+    text: 'April 2026 change to 5000.02, TEXT UNREAD: the official policy list shows "DoWI 5000.02, Operation of
+      the Adaptive Acquisition Framework — April 2026" [1902]. A secondary tracking site, the only source for the
+      day and for calling it a change and not a reissue, records "DoWI 5000.02 ''Operation of the Adaptive Acquisition
+      Framework'' (23 January 2020 with 8 April 2026 Change)" [1906]. The fetch of the instruction returned the
+      January 23, 2020 text with Change 1 of June 8, 2022, so what the April 2026 change says is not known [1905].
+      The six pathway instructions are still listed under their DoDI numbers [1902].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1802, verified in the U.S. Code: adds 10 U.S.C. 1732, the portfolio acquisition
+      executive, the "senior acquisition official designated by the component acquisition executive or the service
+      acquisition executive"; program managers report to the PAE, and the PAE is to "prioritize the use of transactions
+      for prototype projects" [1938]. The section heading is in the Act''s table of contents [1937].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1823, verified in the U.S. Code: amends 10 U.S.C. 3458, the defense CSO
+      statute. The definition of "innovative" and the prior $100M approval requirement are removed and a follow-on
+      production authority is added; contracts or agreements "shall be fixed-price, including fixed-price incentive
+      contracts"; awards above $100,000,000 require notice to the congressional defense committees within 45 days
+      [1939].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1804(c), verified in the U.S. Code: 10 U.S.C. 3702 sets the certified cost
+      or pricing data threshold at $10,000,000 for prime contracts entered after June 30, 2026, replacing $2,000,000;
+      the nontraditional defense contractor subcontract alternative figure shown is $5,000,000 [1940].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1822, SECONDARY ONLY: the heading "commercial products and services" is in the Act''s table
+      of contents [1937]. Its content is reported by digests only: a written memorandum is required before noncommercial
+      procurement methods are used [1943], from the contracting officer and the PAE in one digest [1945]. Statute
+      text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1824, SECONDARY ONLY: the heading "flowdown limits" is in the Act''s table of contents [1937].
+      The sweep''s findings describe it as flowdown limits for commercial subcontracts on the strength of the secondary
+      digests taken together, with no source-level detail recorded [1943] [1944] [1945]. Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1826, SECONDARY ONLY for its content: the heading "exemptions for nontraditional defense
+      contractors" is in the Act''s table of contents [1937], and a Pub. L. 119-60 note on such exemptions, with
+      waiver and congressional-notice provisions, appears at 10 U.S.C. 3014 [1941]. What the exemptions are comes
+      from one digest only: exemption from FAR Part 31 cost principles and certified cost or pricing data [1943].
+      Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §824, SECONDARY ONLY for its content: the heading "increasing competition in defense contracting"
+      is in the Act''s table of contents [1937]. Its content comes from one digest only: guidance to accept nongovernment
+      past performance references [1943]. Statute text not read.'
+  as_of: '2026-10-03'
+  sources:
+  - 1902
+  - 1903
+  - 1905
+  - 1906
+  - 1909
+  - 1910
+  - 1911
+  - 1912
+  - 1913
+  - 1915
+  - 1927
+  - 1928
+  - 1929
+  - 1930
+  - 1931
+  - 1933
+  - 1937
+  - 1938
+  - 1939
+  - 1940
+  - 1941
+  - 1943
+  - 1944
+  - 1945
+  - 1947
+  - 2008
+  conflicts:
+  - 'DoDI 5000.80 date: Nov 2024 on the official policy list [1902] vs December 30, 2019 with no change line in
+    the text returned [1912].'
+  - A law-firm digest speaks of "eliminating Middle Tier Acquisition" [1933]; the strategy text delegates approvals
+    and removes the advisory boards and does not eliminate MTA [1928]. The primary is followed.
+  - The overview page cites CJCSI 5123.01H [1910]; the official policy list shows CJCSM 5123.01 and CJCSI 5123.01J
+    dated Jan 2026 [1902].
+  - '5000.02: listed as a DoWI dated April 2026 [1902] vs "23 January 2020 with 8 April 2026 Change" on a secondary
+    site [1906] vs the text returned by fetch, January 23, 2020 with Change 1 of June 8, 2022 [1905]. The April
+    2026 text is unread.'
+  - 'Certified cost or pricing data threshold before §1804: $2,000,000 in 10 U.S.C. 3702 [1940] and $2 million in
+    two digests [1943] [1945] vs $2.5 million in one digest [1944] and in FAR 15.403-4 as fetched [2008].'
+  - '§1823: read as extending CSOs to all commercial products and services [1943] [1945] [1939] vs sole-source follow-on
+    production after a competitive CSO selection [1944] vs a production OT directly from a CSO [1947]. The Code
+    text supports the first two; the third is unconfirmed.'
+  - 'WAS memo deadlines differ between secondary sources: 30, 60, 90 and 180 days [1929]; 30, 60 and 150–180 days
+    [1930]; 30, 60, 150 and 180 days and 2 years [1931]; 60, 90, 150 and 180 days [1933]. None is confirmed against
+    the memo.'
+- id: aaf-major-capability-acquisition
+  name: Major Capability Acquisition (AAF pathway)
+  kind: buyer-pathway
+  governing_text: DoD Instruction 5000.85, Major Capability Acquisition [1915].
+  date: '2020-08-06'
+  date_note: August 6, 2020, with Change 1 of November 4, 2021 [1915]; listed as Nov 2021 on the official policy
+    list [1902].
+  what: 'The pathway for military-unique, enduring programs, run through phases and milestones under a milestone
+    decision authority, as the sweep summarises the pathway page [1914].
+
+    '
+  timelines:
+  - 'Phases: MSA, TMRR, EMD, P&D, O&S; decisions: MDD, Milestones A, B, C [1914]'
+  - 'ACAT I: above $525M RDT&E or $3.065B procurement (FY2020 dollars); ACAT II: $200M RDT&E / $920M procurement
+    [1915]'
+  - No fixed duration is recorded for this pathway in the sweep [1914]
+  decision_authority:
+  - The program manager recommends the pathway and the milestone decision authority or decision authority approves
+    it; pathways may be combined or used in sequence [1903]
+  - The MDA is "the sole and final decision authority" [1914]
+  - 'MDA: DAE for ACAT ID; SAE for IB; CAE for II–III [1915]'
+  - Since December 18, 2025 the statute has program managers report to a portfolio acquisition executive, who reports
+    to the component or service acquisition executive and may "modify, discontinue, or terminate" underperforming
+    efforts [1938]
+  industry_entry:
+  - '"capitalize on commercial solutions and non-traditional suppliers" [1914]; the sweep''s draft record places
+    this wording at DoDI 5000.85 §3.1.a(1), which is not among the instruction''s extracted key facts'
+  - The acquisition strategy must reflect a small business strategy (§3C.3.a(1)(c)) [1915]
+  - Competition strategies include "competitive prototyping, dual sourcing, and modular open systems approach" and
+    opportunities for small business (§3C.3.a(4)(b)) [1915]
+  - '"Create and sustain a competitive environment, from program inception through sustainment" [1915]'
+  - Technology proven in MTA prototyping may transition into MCA at decision points [1914]
+  - For combined MCA and Software efforts the selecting-a-pathway page mentions modular contracting (FAR 39.103)
+    [1903]
+  official_url: https://aaf.waru.edu/aaf/mca/
+  pending_changes:
+  - status: announced
+    date: '2025-11-07'
+    text: 'SECONDARY ONLY: a "Two-to-production" standard and module-level competition via MOSA are reported from
+      the WAS memo [1929], with 180 days reported for MOSA and "two-to-production" guidance [1931]. Not confirmed
+      against the memo.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1832: the heading "MOSA" is in the Act''s table of contents; the section text was not read,
+      so what it changes is not known [1937].'
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, primary and read: the Acquisition Transformation Strategy was announced on November
+      7, 2025 together with three Secretary of War memoranda [1927]. The strategy gives portfolio acquisition executives
+      "expanded authorities for resourcing, requirements, and acquisition decisions within prescribed portfolios"
+      (p. 15), directs OT authority "for prototype and follow-on production efforts where in the best interest of
+      the warfighter and the taxpayer" (p. 10), and proposes portfolio scorecards to track delivery, production
+      scale and use of commercial solutions (p. 21) [1928].'
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, SECONDARY ONLY: the memorandum on transforming the Defense Acquisition System
+      into the Warfighting Acquisition System is named in the official release [1927], but its PDF returned 403
+      and its content is known only from a third-party-hosted copy or digest and from law-firm digests. Reported:
+      PAEs with single accountability over portfolios and four-year terms with a possible two-year extension; commercial
+      products and offerings as the preferred approach; USW(A&S) implementing guidance in 30 days, Military Department
+      PAE implementation plans in 60 days, commercial-first guidance in 90 days, modularity and other reforms in
+      180 days [1929]; 150–180 days for regulatory updates [1930]; full PAE transition within 2 years [1931]. None
+      of this is confirmed against the memo.'
+  - status: final
+    date: 2026-04
+    text: 'April 2026 change to 5000.02, TEXT UNREAD: the official policy list shows "DoWI 5000.02, Operation of
+      the Adaptive Acquisition Framework — April 2026" [1902]. A secondary tracking site, the only source for the
+      day and for calling it a change and not a reissue, records "DoWI 5000.02 ''Operation of the Adaptive Acquisition
+      Framework'' (23 January 2020 with 8 April 2026 Change)" [1906]. The fetch of the instruction returned the
+      January 23, 2020 text with Change 1 of June 8, 2022, so what the April 2026 change says is not known [1905].
+      The six pathway instructions are still listed under their DoDI numbers [1902].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1802, verified in the U.S. Code: adds 10 U.S.C. 1732, the portfolio acquisition
+      executive, the "senior acquisition official designated by the component acquisition executive or the service
+      acquisition executive"; program managers report to the PAE, and the PAE is to "prioritize the use of transactions
+      for prototype projects" [1938]. The section heading is in the Act''s table of contents [1937].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1823, verified in the U.S. Code: amends 10 U.S.C. 3458, the defense CSO
+      statute. The definition of "innovative" and the prior $100M approval requirement are removed and a follow-on
+      production authority is added; contracts or agreements "shall be fixed-price, including fixed-price incentive
+      contracts"; awards above $100,000,000 require notice to the congressional defense committees within 45 days
+      [1939].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1804(c), verified in the U.S. Code: 10 U.S.C. 3702 sets the certified cost
+      or pricing data threshold at $10,000,000 for prime contracts entered after June 30, 2026, replacing $2,000,000;
+      the nontraditional defense contractor subcontract alternative figure shown is $5,000,000 [1940].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1822, SECONDARY ONLY: the heading "commercial products and services" is in the Act''s table
+      of contents [1937]. Its content is reported by digests only: a written memorandum is required before noncommercial
+      procurement methods are used [1943], from the contracting officer and the PAE in one digest [1945]. Statute
+      text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1824, SECONDARY ONLY: the heading "flowdown limits" is in the Act''s table of contents [1937].
+      The sweep''s findings describe it as flowdown limits for commercial subcontracts on the strength of the secondary
+      digests taken together, with no source-level detail recorded [1943] [1944] [1945]. Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1826, SECONDARY ONLY for its content: the heading "exemptions for nontraditional defense
+      contractors" is in the Act''s table of contents [1937], and a Pub. L. 119-60 note on such exemptions, with
+      waiver and congressional-notice provisions, appears at 10 U.S.C. 3014 [1941]. What the exemptions are comes
+      from one digest only: exemption from FAR Part 31 cost principles and certified cost or pricing data [1943].
+      Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §824, SECONDARY ONLY for its content: the heading "increasing competition in defense contracting"
+      is in the Act''s table of contents [1937]. Its content comes from one digest only: guidance to accept nongovernment
+      past performance references [1943]. Statute text not read.'
+  as_of: '2026-10-03'
+  sources:
+  - 1902
+  - 1903
+  - 1905
+  - 1906
+  - 1914
+  - 1915
+  - 1927
+  - 1928
+  - 1929
+  - 1930
+  - 1931
+  - 1933
+  - 1937
+  - 1938
+  - 1939
+  - 1940
+  - 1941
+  - 1943
+  - 1944
+  - 1945
+  - 1947
+  - 2008
+  conflicts:
+  - '5000.02: listed as a DoWI dated April 2026 [1902] vs "23 January 2020 with 8 April 2026 Change" on a secondary
+    site [1906] vs the text returned by fetch, January 23, 2020 with Change 1 of June 8, 2022 [1905]. The April
+    2026 text is unread.'
+  - 'Certified cost or pricing data threshold before §1804: $2,000,000 in 10 U.S.C. 3702 [1940] and $2 million in
+    two digests [1943] [1945] vs $2.5 million in one digest [1944] and in FAR 15.403-4 as fetched [2008].'
+  - '§1823: read as extending CSOs to all commercial products and services [1943] [1945] [1939] vs sole-source follow-on
+    production after a competitive CSO selection [1944] vs a production OT directly from a CSO [1947]. The Code
+    text supports the first two; the third is unconfirmed.'
+  - 'WAS memo deadlines differ between secondary sources: 30, 60, 90 and 180 days [1929]; 30, 60 and 150–180 days
+    [1930]; 30, 60, 150 and 180 days and 2 years [1931]; 60, 90, 150 and 180 days [1933]. None is confirmed against
+    the memo.'
+- id: aaf-software-acquisition
+  name: Software Acquisition (AAF pathway)
+  kind: buyer-pathway
+  governing_text: DoD Instruction 5000.87, Operation of the Software Acquisition Pathway [1918]; FY2020 NDAA §800
+    and the Secretary's memo "Directing Modern Software Acquisition to Maximize Lethality", March 6, 2025, as cited
+    on the pathway page [1916].
+  date: '2020-10-02'
+  date_note: DoDI 5000.87 is dated October 2, 2020 [1918]; listed as Oct 2020 on the official policy list [1902].
+    The March 6, 2025 memo PDF returned 403 and was not read.
+  what: '"This pathway is for the timely acquisition of custom software capabilities developed for the DoD" [1916].
+    It has two paths, applications and embedded software, is not subject to JCIDS and is not treated as an MDAP
+    [1916].
+
+    '
+  timelines:
+  - Demonstrate viability within 1 year of first obligation; deliver at least annually [1916]
+  - MVP and MVCR deployed within 1 year of first obligation (applications path); deliveries at least annually after
+    [1918]
+  decision_authority:
+  - The program manager recommends the pathway and the milestone decision authority or decision authority approves
+    it; pathways may be combined or used in sequence [1903]
+  - CAEs are decision authorities unless USD(A&S) designates special interest [1918]
+  - The PM approves any commercial or proprietary software before insertion (§3.2.e.5) [1918]
+  - Since December 18, 2025 the statute has program managers report to a portfolio acquisition executive, who reports
+    to the component or service acquisition executive and may "modify, discontinue, or terminate" underperforming
+    efforts [1938]
+  industry_entry:
+  - Services may come "from the DoD, the DoD components, other government agencies, or commercial providers" (§1.2.h)
+    [1918]
+  - '"Leveraging existing enterprise services, if available, is preferred over creating unique software services
+    for individual programs." [1918]'
+  - The instruction requires a flexible, modular contract strategy and an IP strategy and is silent on small business
+    and OTs, per the sweep's summary of the instruction [1918]
+  - CSOs and OTs "as the default solicitation and award approaches for acquiring capabilities under the SWP" (strategy
+    p. 2, restating the March 6, 2025 memo) [1928]
+  - 'DIU''s account of the memo: "After a successful prototype, any interested DoD entity has the authority to enter
+    into non-competitive follow-on production contracts" [1919]'
+  - The develop-strategies page lists five strategy documents (acquisition, contracting, IP, test, product support)
+    and, as returned, does not mention CSOs, OTs, small business or the March 2025 memo [1917]
+  official_url: https://aaf.waru.edu/aaf/software/
+  pending_changes:
+  - status: final
+    date: '2025-03-06'
+    text: 'In force: the pathway page cites the Secretary''s memo "Directing Modern Software Acquisition to Maximize
+      Lethality", March 6, 2025 [1916]; the strategy restates it as making CSOs and OTs the default solicitation
+      and award approaches under this pathway (p. 2) [1928]; DIU''s account is dated March 7, 2025 [1919]. The memo
+      PDF itself returned 403 and was not read.'
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, primary and read: the Acquisition Transformation Strategy was announced on November
+      7, 2025 together with three Secretary of War memoranda [1927]. The strategy gives portfolio acquisition executives
+      "expanded authorities for resourcing, requirements, and acquisition decisions within prescribed portfolios"
+      (p. 15), directs OT authority "for prototype and follow-on production efforts where in the best interest of
+      the warfighter and the taxpayer" (p. 10), and proposes portfolio scorecards to track delivery, production
+      scale and use of commercial solutions (p. 21) [1928].'
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, SECONDARY ONLY: the memorandum on transforming the Defense Acquisition System
+      into the Warfighting Acquisition System is named in the official release [1927], but its PDF returned 403
+      and its content is known only from a third-party-hosted copy or digest and from law-firm digests. Reported:
+      PAEs with single accountability over portfolios and four-year terms with a possible two-year extension; commercial
+      products and offerings as the preferred approach; USW(A&S) implementing guidance in 30 days, Military Department
+      PAE implementation plans in 60 days, commercial-first guidance in 90 days, modularity and other reforms in
+      180 days [1929]; 150–180 days for regulatory updates [1930]; full PAE transition within 2 years [1931]. None
+      of this is confirmed against the memo.'
+  - status: final
+    date: 2026-04
+    text: 'April 2026 change to 5000.02, TEXT UNREAD: the official policy list shows "DoWI 5000.02, Operation of
+      the Adaptive Acquisition Framework — April 2026" [1902]. A secondary tracking site, the only source for the
+      day and for calling it a change and not a reissue, records "DoWI 5000.02 ''Operation of the Adaptive Acquisition
+      Framework'' (23 January 2020 with 8 April 2026 Change)" [1906]. The fetch of the instruction returned the
+      January 23, 2020 text with Change 1 of June 8, 2022, so what the April 2026 change says is not known [1905].
+      The six pathway instructions are still listed under their DoDI numbers [1902].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1802, verified in the U.S. Code: adds 10 U.S.C. 1732, the portfolio acquisition
+      executive, the "senior acquisition official designated by the component acquisition executive or the service
+      acquisition executive"; program managers report to the PAE, and the PAE is to "prioritize the use of transactions
+      for prototype projects" [1938]. The section heading is in the Act''s table of contents [1937].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1823, verified in the U.S. Code: amends 10 U.S.C. 3458, the defense CSO
+      statute. The definition of "innovative" and the prior $100M approval requirement are removed and a follow-on
+      production authority is added; contracts or agreements "shall be fixed-price, including fixed-price incentive
+      contracts"; awards above $100,000,000 require notice to the congressional defense committees within 45 days
+      [1939].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1804(c), verified in the U.S. Code: 10 U.S.C. 3702 sets the certified cost
+      or pricing data threshold at $10,000,000 for prime contracts entered after June 30, 2026, replacing $2,000,000;
+      the nontraditional defense contractor subcontract alternative figure shown is $5,000,000 [1940].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1822, SECONDARY ONLY: the heading "commercial products and services" is in the Act''s table
+      of contents [1937]. Its content is reported by digests only: a written memorandum is required before noncommercial
+      procurement methods are used [1943], from the contracting officer and the PAE in one digest [1945]. Statute
+      text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1824, SECONDARY ONLY: the heading "flowdown limits" is in the Act''s table of contents [1937].
+      The sweep''s findings describe it as flowdown limits for commercial subcontracts on the strength of the secondary
+      digests taken together, with no source-level detail recorded [1943] [1944] [1945]. Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1826, SECONDARY ONLY for its content: the heading "exemptions for nontraditional defense
+      contractors" is in the Act''s table of contents [1937], and a Pub. L. 119-60 note on such exemptions, with
+      waiver and congressional-notice provisions, appears at 10 U.S.C. 3014 [1941]. What the exemptions are comes
+      from one digest only: exemption from FAR Part 31 cost principles and certified cost or pricing data [1943].
+      Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §824, SECONDARY ONLY for its content: the heading "increasing competition in defense contracting"
+      is in the Act''s table of contents [1937]. Its content comes from one digest only: guidance to accept nongovernment
+      past performance references [1943]. Statute text not read.'
+  as_of: '2026-10-03'
+  sources:
+  - 1902
+  - 1903
+  - 1905
+  - 1906
+  - 1916
+  - 1917
+  - 1918
+  - 1919
+  - 1927
+  - 1928
+  - 1929
+  - 1930
+  - 1931
+  - 1933
+  - 1937
+  - 1938
+  - 1939
+  - 1940
+  - 1941
+  - 1943
+  - 1944
+  - 1945
+  - 1947
+  - 2008
+  conflicts:
+  - '5000.02: listed as a DoWI dated April 2026 [1902] vs "23 January 2020 with 8 April 2026 Change" on a secondary
+    site [1906] vs the text returned by fetch, January 23, 2020 with Change 1 of June 8, 2022 [1905]. The April
+    2026 text is unread.'
+  - 'Certified cost or pricing data threshold before §1804: $2,000,000 in 10 U.S.C. 3702 [1940] and $2 million in
+    two digests [1943] [1945] vs $2.5 million in one digest [1944] and in FAR 15.403-4 as fetched [2008].'
+  - '§1823: read as extending CSOs to all commercial products and services [1943] [1945] [1939] vs sole-source follow-on
+    production after a competitive CSO selection [1944] vs a production OT directly from a CSO [1947]. The Code
+    text supports the first two; the third is unconfirmed.'
+  - 'WAS memo deadlines differ between secondary sources: 30, 60, 90 and 180 days [1929]; 30, 60 and 150–180 days
+    [1930]; 30, 60, 150 and 180 days and 2 years [1931]; 60, 90, 150 and 180 days [1933]. None is confirmed against
+    the memo.'
+- id: aaf-defense-business-systems
+  name: Defense Business Systems (AAF pathway)
+  kind: buyer-pathway
+  governing_text: DoD Instruction 5000.75, Business Systems Requirements and Acquisition [1922]; 10 U.S.C. 2222,
+    as named on the pathway page [1920].
+  date: '2017-02-02'
+  date_note: February 2, 2017, with Change 2 of January 24, 2020 [1922]; listed as Jan 2020 on the official policy
+    list [1902]. The bare URL returned 403; the dated URL from the policy list worked [1922].
+  what: 'The pathway runs business systems through the Business Capability Acquisition Cycle with a commercial-first
+    stance, as the sweep summarises the pathway page [1920]. "DoD reduces risk and maximizes benefits by using commercial-off-the-shelf
+    software successfully demonstrated in commercial marketplace." [1920]
+
+    '
+  timelines:
+  - 'Five BCAC phases: Capability Need Identification; Solution Analysis; Functional Requirements and Acquisition
+    Planning; Acquisition, Testing and Deployment; Capability Support [1920]'
+  - Authority-to-proceed points between each BCAC phase [1922]
+  decision_authority:
+  - The program manager recommends the pathway and the milestone decision authority or decision authority approves
+    it; pathways may be combined or used in sequence [1903]
+  - 'Category I: FYDP above $250M (MDA is the DAE); Category II: above $50M (CAE); Category III: below $50M [1922]'
+  - Since December 18, 2025 the statute has program managers report to a portfolio acquisition executive, who reports
+    to the component or service acquisition executive and may "modify, discontinue, or terminate" underperforming
+    efforts [1938]
+  industry_entry:
+  - PMs must "engage further with industry (e.g., market research, benchmarking, requests for information, industry
+    days)" (§4.2.c.1.b) [1922]
+  - The acquisition strategy must describe "use of COTS or reasons not to use COTS" (App. 4B.2.i.1) [1922]
+  - The instruction "will minimize the need for customization of commercial products to the maximum extent practicable"
+    [1922]
+  - The pathway's contracting page names FAR Part 12, Part 15, IDIQ/GWAC orders and prototype OTs with possible
+    follow-on production; a commercial item determination is required for FAR Part 12 use; contracting officers
+    may set aside orders under IDIQ contracts (FAR Part 19) [1921]
+  official_url: https://aaf.waru.edu/aaf/dbs/
+  pending_changes:
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, primary and read: the Acquisition Transformation Strategy was announced on November
+      7, 2025 together with three Secretary of War memoranda [1927]. The strategy gives portfolio acquisition executives
+      "expanded authorities for resourcing, requirements, and acquisition decisions within prescribed portfolios"
+      (p. 15), directs OT authority "for prototype and follow-on production efforts where in the best interest of
+      the warfighter and the taxpayer" (p. 10), and proposes portfolio scorecards to track delivery, production
+      scale and use of commercial solutions (p. 21) [1928].'
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, SECONDARY ONLY: the memorandum on transforming the Defense Acquisition System
+      into the Warfighting Acquisition System is named in the official release [1927], but its PDF returned 403
+      and its content is known only from a third-party-hosted copy or digest and from law-firm digests. Reported:
+      PAEs with single accountability over portfolios and four-year terms with a possible two-year extension; commercial
+      products and offerings as the preferred approach; USW(A&S) implementing guidance in 30 days, Military Department
+      PAE implementation plans in 60 days, commercial-first guidance in 90 days, modularity and other reforms in
+      180 days [1929]; 150–180 days for regulatory updates [1930]; full PAE transition within 2 years [1931]. None
+      of this is confirmed against the memo.'
+  - status: final
+    date: 2026-04
+    text: 'April 2026 change to 5000.02, TEXT UNREAD: the official policy list shows "DoWI 5000.02, Operation of
+      the Adaptive Acquisition Framework — April 2026" [1902]. A secondary tracking site, the only source for the
+      day and for calling it a change and not a reissue, records "DoWI 5000.02 ''Operation of the Adaptive Acquisition
+      Framework'' (23 January 2020 with 8 April 2026 Change)" [1906]. The fetch of the instruction returned the
+      January 23, 2020 text with Change 1 of June 8, 2022, so what the April 2026 change says is not known [1905].
+      The six pathway instructions are still listed under their DoDI numbers [1902].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1802, verified in the U.S. Code: adds 10 U.S.C. 1732, the portfolio acquisition
+      executive, the "senior acquisition official designated by the component acquisition executive or the service
+      acquisition executive"; program managers report to the PAE, and the PAE is to "prioritize the use of transactions
+      for prototype projects" [1938]. The section heading is in the Act''s table of contents [1937].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1823, verified in the U.S. Code: amends 10 U.S.C. 3458, the defense CSO
+      statute. The definition of "innovative" and the prior $100M approval requirement are removed and a follow-on
+      production authority is added; contracts or agreements "shall be fixed-price, including fixed-price incentive
+      contracts"; awards above $100,000,000 require notice to the congressional defense committees within 45 days
+      [1939].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1804(c), verified in the U.S. Code: 10 U.S.C. 3702 sets the certified cost
+      or pricing data threshold at $10,000,000 for prime contracts entered after June 30, 2026, replacing $2,000,000;
+      the nontraditional defense contractor subcontract alternative figure shown is $5,000,000 [1940].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1822, SECONDARY ONLY: the heading "commercial products and services" is in the Act''s table
+      of contents [1937]. Its content is reported by digests only: a written memorandum is required before noncommercial
+      procurement methods are used [1943], from the contracting officer and the PAE in one digest [1945]. Statute
+      text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1824, SECONDARY ONLY: the heading "flowdown limits" is in the Act''s table of contents [1937].
+      The sweep''s findings describe it as flowdown limits for commercial subcontracts on the strength of the secondary
+      digests taken together, with no source-level detail recorded [1943] [1944] [1945]. Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1826, SECONDARY ONLY for its content: the heading "exemptions for nontraditional defense
+      contractors" is in the Act''s table of contents [1937], and a Pub. L. 119-60 note on such exemptions, with
+      waiver and congressional-notice provisions, appears at 10 U.S.C. 3014 [1941]. What the exemptions are comes
+      from one digest only: exemption from FAR Part 31 cost principles and certified cost or pricing data [1943].
+      Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §824, SECONDARY ONLY for its content: the heading "increasing competition in defense contracting"
+      is in the Act''s table of contents [1937]. Its content comes from one digest only: guidance to accept nongovernment
+      past performance references [1943]. Statute text not read.'
+  as_of: '2026-10-03'
+  sources:
+  - 1902
+  - 1903
+  - 1905
+  - 1906
+  - 1920
+  - 1921
+  - 1922
+  - 1927
+  - 1928
+  - 1929
+  - 1930
+  - 1931
+  - 1933
+  - 1937
+  - 1938
+  - 1939
+  - 1940
+  - 1941
+  - 1943
+  - 1944
+  - 1945
+  - 1947
+  - 2008
+  conflicts:
+  - '5000.02: listed as a DoWI dated April 2026 [1902] vs "23 January 2020 with 8 April 2026 Change" on a secondary
+    site [1906] vs the text returned by fetch, January 23, 2020 with Change 1 of June 8, 2022 [1905]. The April
+    2026 text is unread.'
+  - 'Certified cost or pricing data threshold before §1804: $2,000,000 in 10 U.S.C. 3702 [1940] and $2 million in
+    two digests [1943] [1945] vs $2.5 million in one digest [1944] and in FAR 15.403-4 as fetched [2008].'
+  - '§1823: read as extending CSOs to all commercial products and services [1943] [1945] [1939] vs sole-source follow-on
+    production after a competitive CSO selection [1944] vs a production OT directly from a CSO [1947]. The Code
+    text supports the first two; the third is unconfirmed.'
+  - 'WAS memo deadlines differ between secondary sources: 30, 60, 90 and 180 days [1929]; 30, 60 and 150–180 days
+    [1930]; 30, 60, 150 and 180 days and 2 years [1931]; 60, 90, 150 and 180 days [1933]. None is confirmed against
+    the memo.'
+- id: aaf-acquisition-of-services
+  name: Acquisition of Services (AAF pathway)
+  kind: buyer-pathway
+  governing_text: DoD Instruction 5000.74, Defense Acquisition of Services [1925].
+  date: '2020-01-10'
+  date_note: January 10, 2020, with Change 1 of June 24, 2021 [1925]; listed as June 2021 on the official policy
+    list [1902].
+  what: 'The pathway applies to "Contracted services with a total estimated value at or above the simplified acquisition
+    threshold (SAT)." [1923] It uses seven steps: form the team; review current strategy; market research; define
+    requirements; develop acquisition strategy; execute strategy; manage performance [1923].
+
+    '
+  timelines:
+  - Seven steps, with no fixed duration recorded in the sweep [1923]
+  - 'S-CAT I: $1B+ or $300M+/year; II: $250M–$1B; III: $100M–$250M; IV: $10M–$100M; V: SAT–$10M [1925]'
+  decision_authority:
+  - The program manager recommends the pathway and the milestone decision authority or decision authority approves
+    it; pathways may be combined or used in sequence [1903]
+  - S-CAT I–II decided by SAE/CAE or designee; III–V by the component Senior Services Manager or designee [1925]
+  - Since December 18, 2025 the statute has program managers report to a portfolio acquisition executive, who reports
+    to the component or service acquisition executive and may "modify, discontinue, or terminate" underperforming
+    efforts [1938]
+  industry_entry:
+  - '"increase small business participation as prime and subcontractors" (§3.2.b.3) [1925]'
+  - OSBP reviews decisions to convert work performed by a small business (§1.2.c.4) [1925]
+  - '"Existing government-wide contracts should be used to maximum extent practicable" (§1.2.d.3) [1925]'
+  - '"Market research to collect information to maximize reliance on the commercial marketplace" [1925]'
+  - Step 3 describes sources-sought notices, RFIs and one-on-one meetings as normal practice and links market research
+    to small-business set-aside decisions, per the sweep's summary of the page [1924]
+  - '"One-on-one meetings with industry leaders are not only permissible (ref FAR15.201 (c)(4)) they are highly
+    encouraged." [1924]'
+  official_url: https://aaf.waru.edu/aaf/services/
+  pending_changes:
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, primary and read: the Acquisition Transformation Strategy was announced on November
+      7, 2025 together with three Secretary of War memoranda [1927]. The strategy gives portfolio acquisition executives
+      "expanded authorities for resourcing, requirements, and acquisition decisions within prescribed portfolios"
+      (p. 15), directs OT authority "for prototype and follow-on production efforts where in the best interest of
+      the warfighter and the taxpayer" (p. 10), and proposes portfolio scorecards to track delivery, production
+      scale and use of commercial solutions (p. 21) [1928].'
+  - status: announced
+    date: '2025-11-07'
+    text: 'November 2025 reforms, SECONDARY ONLY: the memorandum on transforming the Defense Acquisition System
+      into the Warfighting Acquisition System is named in the official release [1927], but its PDF returned 403
+      and its content is known only from a third-party-hosted copy or digest and from law-firm digests. Reported:
+      PAEs with single accountability over portfolios and four-year terms with a possible two-year extension; commercial
+      products and offerings as the preferred approach; USW(A&S) implementing guidance in 30 days, Military Department
+      PAE implementation plans in 60 days, commercial-first guidance in 90 days, modularity and other reforms in
+      180 days [1929]; 150–180 days for regulatory updates [1930]; full PAE transition within 2 years [1931]. None
+      of this is confirmed against the memo.'
+  - status: final
+    date: 2026-04
+    text: 'April 2026 change to 5000.02, TEXT UNREAD: the official policy list shows "DoWI 5000.02, Operation of
+      the Adaptive Acquisition Framework — April 2026" [1902]. A secondary tracking site, the only source for the
+      day and for calling it a change and not a reissue, records "DoWI 5000.02 ''Operation of the Adaptive Acquisition
+      Framework'' (23 January 2020 with 8 April 2026 Change)" [1906]. The fetch of the instruction returned the
+      January 23, 2020 text with Change 1 of June 8, 2022, so what the April 2026 change says is not known [1905].
+      The six pathway instructions are still listed under their DoDI numbers [1902].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1802, verified in the U.S. Code: adds 10 U.S.C. 1732, the portfolio acquisition
+      executive, the "senior acquisition official designated by the component acquisition executive or the service
+      acquisition executive"; program managers report to the PAE, and the PAE is to "prioritize the use of transactions
+      for prototype projects" [1938]. The section heading is in the Act''s table of contents [1937].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1823, verified in the U.S. Code: amends 10 U.S.C. 3458, the defense CSO
+      statute. The definition of "innovative" and the prior $100M approval requirement are removed and a follow-on
+      production authority is added; contracts or agreements "shall be fixed-price, including fixed-price incentive
+      contracts"; awards above $100,000,000 require notice to the congressional defense committees within 45 days
+      [1939].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA, Pub. L. 119-60 §1804(c), verified in the U.S. Code: 10 U.S.C. 3702 sets the certified cost
+      or pricing data threshold at $10,000,000 for prime contracts entered after June 30, 2026, replacing $2,000,000;
+      the nontraditional defense contractor subcontract alternative figure shown is $5,000,000 [1940].'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1822, SECONDARY ONLY: the heading "commercial products and services" is in the Act''s table
+      of contents [1937]. Its content is reported by digests only: a written memorandum is required before noncommercial
+      procurement methods are used [1943], from the contracting officer and the PAE in one digest [1945]. Statute
+      text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1824, SECONDARY ONLY: the heading "flowdown limits" is in the Act''s table of contents [1937].
+      The sweep''s findings describe it as flowdown limits for commercial subcontracts on the strength of the secondary
+      digests taken together, with no source-level detail recorded [1943] [1944] [1945]. Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §1826, SECONDARY ONLY for its content: the heading "exemptions for nontraditional defense
+      contractors" is in the Act''s table of contents [1937], and a Pub. L. 119-60 note on such exemptions, with
+      waiver and congressional-notice provisions, appears at 10 U.S.C. 3014 [1941]. What the exemptions are comes
+      from one digest only: exemption from FAR Part 31 cost principles and certified cost or pricing data [1943].
+      Statute text not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'FY2026 NDAA §824, SECONDARY ONLY for its content: the heading "increasing competition in defense contracting"
+      is in the Act''s table of contents [1937]. Its content comes from one digest only: guidance to accept nongovernment
+      past performance references [1943]. Statute text not read.'
+  as_of: '2026-10-03'
+  sources:
+  - 1902
+  - 1903
+  - 1905
+  - 1906
+  - 1923
+  - 1924
+  - 1925
+  - 1927
+  - 1928
+  - 1929
+  - 1930
+  - 1931
+  - 1933
+  - 1937
+  - 1938
+  - 1939
+  - 1940
+  - 1941
+  - 1943
+  - 1944
+  - 1945
+  - 1947
+  - 2008
+  conflicts:
+  - The Step 3 page still refers to "FedBizOps.gov" [1924].
+  - '5000.02: listed as a DoWI dated April 2026 [1902] vs "23 January 2020 with 8 April 2026 Change" on a secondary
+    site [1906] vs the text returned by fetch, January 23, 2020 with Change 1 of June 8, 2022 [1905]. The April
+    2026 text is unread.'
+  - 'Certified cost or pricing data threshold before §1804: $2,000,000 in 10 U.S.C. 3702 [1940] and $2 million in
+    two digests [1943] [1945] vs $2.5 million in one digest [1944] and in FAR 15.403-4 as fetched [2008].'
+  - '§1823: read as extending CSOs to all commercial products and services [1943] [1945] [1939] vs sole-source follow-on
+    production after a competitive CSO selection [1944] vs a production OT directly from a CSO [1947]. The Code
+    text supports the first two; the third is unconfirmed.'
+  - 'WAS memo deadlines differ between secondary sources: 30, 60, 90 and 180 days [1929]; 30, 60 and 150–180 days
+    [1930]; 30, 60, 150 and 180 days and 2 years [1931]; 60, 90, 150 and 180 days [1933]. None is confirmed against
+    the memo.'
+- id: civilian-procurement-model
+  name: Civilian procurement model (FAR Parts 7, 10, 12, 13, 15 and 19)
+  kind: buyer-pathway
+  governing_text: Codified FAR Part 7 [2004], Part 10 [2005], Part 12 [2006], Part 13 [2007], Part 15 [2008], Subpart
+    19.2 [2009] and Subpart 19.4 [2010], with acquisition.gov showing FAC 2026-01, effective 03/13/2026 [2004];
+    15 U.S.C. 637(a)(12)(C) [2011]; 15 U.S.C. 644(g) and (k) [2012]. The codified sections are the primary citations;
+    overhaul deviation numbering is recorded under pending_changes.
+  date: '2026-03-13'
+  date_note: FAC 2026-01, effective 03/13/2026, as shown on FAR pages [2004].
+  what: '"Agencies shall perform acquisition planning and conduct market research for all acquisitions." [2004]
+    If commercial items can meet the need, Part 12 procedures shall be used (10.002(d)(1)), on a firm-fixed-price
+    or fixed-price with economic price adjustment basis (12.207(a)) [2005] [2006]. Small purchases run under Part
+    13 and negotiated buys under Part 15, by tradeoff or lowest price technically acceptable, per the sweep''s summaries
+    of those Parts [2007] [2008]. The sweep found no pathway framework on the civilian side comparable to the AAF;
+    that framing is the sweep''s and is not a quoted statement.
+
+    '
+  timelines:
+  - Market research is required before new requirements documents, before soliciting above the SAT, and before bundling
+    or consolidation [2005]
+  - 'Written plan required for cost-reimbursement and other high-risk contracts (7.103(e)); consolidation determination
+    above $2 million (7.107-2); substantial bundling: $8 million DoD; $6 million NASA, GSA, DOE; $2.5 million other
+    agencies (7.107-4) [2004]'
+  - Acquisition package to the SBA PCR at least 30 days before solicitation for specified large or consolidated
+    buys (19.202-1(e)(1)) [2009]
+  - PCR recommendation due within 15 days of receiving the package (19.402(c)(2)) [2010]
+  - Micro-purchase threshold $15,000 (FAR 2.101, fetched separately); Subpart 13.5 commercial simplified procedures
+    up to $9 million ($15 million in specified cases) [2007]
+  - Part 12 takes precedence over inconsistent FAR policy (12.102(c)) [2006]
+  - Past performance is evaluated in competitive buys above the simplified acquisition threshold (15.304(c)(3));
+    the FAR text gives the term, not a dollar figure [2008]
+  decision_authority:
+  - Each agency has an OSDBU (Office of Small Business Programs in DoD); the Director reports to the agency head
+    or deputy (19.201(c)) [2009]; the statute has the Director "report directly and exclusively to, the head of
+    such agency or to the deputy of such head" [2012]
+  - The small business specialist is part of the planning team, per the sweep's summary of Part 7 [2004]
+  - Contracting officers must make every reasonable effort to find additional small business sources (19.202-2(a))
+    [2009]
+  - The SBA procurement center representative's role includes "Reviewing proposed acquisitions to recommend–the
+    set-aside or sole-source award to a small business"; the PCR may recommend new small business sources and component
+    breakout and may appeal a rejected recommendation [2010]
+  - The OSDBU Director identifies bundled solicitations, assigns a small business technical adviser to each office
+    and makes recommendations to contracting officers [2012]
+  industry_entry:
+  - 'Agency forecasts: the duty applies to executive agencies reporting more than $50 million in annual contract
+    actions; the forecast includes number of opportunities, dollar-value ranges, anticipated quarter of solicitation
+    and responsible activity, and "such forecasts shall be available to small business concerns" [2011]'
+  - acquisition.gov keeps a directory of agency forecast pages, 22 listed in the fetch, at https://www.acquisition.gov/procurement-forecasts
+    [2013]; DOI's page covers anticipated contracts above the simplified acquisition threshold, is updated annually
+    in October, and gives projections, not commitments [2014]
+  - 'Exchanges with industry before the RFP (15.201): industry conferences, one-on-one meetings, presolicitation
+    notices, draft RFPs, RFIs, site visits [2008]'
+  - 'Market research techniques: contacting industry, RFIs, database queries, catalogs, presolicitation conferences
+    (10.002(b)) [2005]'
+  - Acquisitions above the micro-purchase threshold, but at or below the simplified acquisition threshold, "shall
+    be set aside for small business concerns" [2007]
+  - '"It is the policy of the Government to provide maximum practicable opportunities in its acquisitions to small
+    business" [2009]'
+  - 'Governmentwide goals: small business not less than 23 percent; SDVOSB 5 percent; HUBZone 3 percent; SDB 5 percent;
+    WOSB 5 percent [2012]'
+  - Small-business subcontracting participation is an evaluation factor in bundled or consolidated buys (15.304(c)(4))
+    [2008]
+  official_url: https://www.acquisition.gov/far/part-7
+  pending_changes:
+  - status: class-deviation
+    date: '2025-09-04'
+    text: FAR-overhaul numbering for Part 7 was not swept in this slice. The merged pack already holds the overhaul
+      model deviation text for Part 7 dated 2025-09-04 (merged-pack reference 617, key RFOPart7Text), not re-read
+      here; the overhaul sections matching codified 7.103, 7.107-2 and 7.107-4 were not looked up. No overhaul Part
+      10 deviation text is held in the merged pack. Codified FAR Parts 7 and 10 stay the primary citations [2004]
+      [2005].
+  - status: class-deviation
+    date: '2025-08-14'
+    text: FAR-overhaul numbering for Part 12 was not swept in this slice. The merged pack holds the overhaul model
+      deviation text for Part 12 dated 2025-08-14 (merged-pack references 618 and 806), not re-read here. Codified
+      FAR Part 12 stays the primary citation [2006].
+  - status: class-deviation
+    date: '2025-09-18'
+    text: FAR-overhaul numbering for Part 13 was not swept in this slice. The merged pack holds the overhaul model
+      deviation text for Part 13 dated 2025-09-18 (merged-pack reference 619), not re-read here. Codified FAR Part
+      13 stays the primary citation [2007].
+  - status: class-deviation
+    date: '2025-09-30'
+    text: FAR-overhaul numbering for Part 15 was not swept in this slice. The merged pack holds the overhaul model
+      deviation text for Part 15 dated 2025-09-30 (merged-pack reference 807), which it records as putting early
+      exchanges with industry at 15.101; not re-read here. Codified FAR 15.201 stays the primary citation [2008].
+  - status: class-deviation
+    date: '2025-09-26'
+    text: FAR-overhaul numbering for Part 19 was not swept in this slice. The merged pack holds the overhaul model
+      deviation text for Part 19 dated 2025-09-26 (merged-pack reference 614), not re-read here; the overhaul sections
+      matching codified 19.201, 19.202 and 19.402 were not looked up. Codified FAR Subparts 19.2 and 19.4 stay the
+      primary citations [2009] [2010].
+  - status: final
+    date: '2024-09-17'
+    text: 'Civilian CSO authority is a pilot: the authorised agencies are DHS and GSA [2002]. GSA''s guide of September
+      17, 2024 gives the authority as §880 of the FY2017 NDAA (Pub. L. 114-328) as amended by §7227 of the FY2023
+      NDAA (Pub. L. 117-263), a $25 million award limit and a sunset of September 30, 2027 [2001]. The DHS pilot
+      guide returned 403 and was not read.'
+  - status: final
+    date: '2025-12-18'
+    text: 'Contrast with defense: Pub. L. 119-60 §1823 removed the "innovative" limit from the defense CSO statute,
+      10 U.S.C. 3458 [1939], while GSA''s civilian pilot is described as created "to provide opportunities for start-up
+      companies to fulfill new innovative commercial products and/or services." [2001]'
+  as_of: '2026-10-03'
+  sources:
+  - 1939
+  - 1940
+  - 2001
+  - 2002
+  - 2004
+  - 2005
+  - 2006
+  - 2007
+  - 2008
+  - 2009
+  - 2010
+  - 2011
+  - 2012
+  - 2013
+  - 2014
+  conflicts:
+  - 'Certified cost or pricing data: FAR 15.403-4 prints $2.5 million as returned [2008]; 10 U.S.C. 3702 now gives
+    $10,000,000 for defense prime contracts entered after June 30, 2026 [1940]. The civilian-side figure was not
+    rechecked.'
+  - 'Fetch-extraction error caught in the sweep: a Part 15 digest printed the SAT as $250,000, where the FAR text
+    gives only the term [2008].'
+  - 15 U.S.C. 644(l) on procurement center representatives was beyond the fetched portion [2012]; FAR 19.402 is
+    used instead [2010].
+- id: grants-cooperative-agreements-model
+  name: Grants and cooperative agreements model (31 U.S.C. 6303–6305; 2 CFR Part 200)
+  kind: buyer-pathway
+  governing_text: 31 U.S.C. 6303, 6304 and 6305 [2015]; 2 CFR Part 200, Uniform Administrative Requirements, Cost
+    Principles, and Audit Requirements for Federal Awards [2016].
+  date: '2026-10-01'
+  date_note: eCFR section pages up to date as of 2026-10-01 [2016]; the statutory test dates from Pub. L. 97-258,
+    1982 (from Pub. L. 95-224, 1978) [2015].
+  what: 'A procurement contract is the instrument when the principal purpose is "to acquire (by purchase, lease,
+    or barter) property or services for the direct benefit or use of the United States Government" [2015]. A grant
+    or cooperative agreement instead transfers a thing of value "to carry out a public purpose of support or stimulation
+    authorized by a law of the United States"; a grant is used when "substantial involvement is not expected" and
+    a cooperative agreement when "substantial involvement is expected" [2015]. "A grant is a way the government
+    funds your ideas and projects to provide public services and stimulate the economy." [2017]
+
+    '
+  timelines:
+  - NOFOs are posted on Grants.gov; generally open at least 60 calendar days, no fewer than 30 with justification
+    (200.204) [2016]
+  - Merit review (200.205) and risk review (200.206) before award [2016]
+  - 'Lifecycle: pre-award (announcement, application review); award; post-award (implementation, reporting, closeout)
+    [2017]'
+  - 'De minimis indirect rate: "up to 15 percent of modified total direct costs" (200.414(f)) [2016]'
+  - Single audit at $1,000,000 or more in federal awards expended in a fiscal year (200.501(a)) [2016]
+  decision_authority:
+  - The awarding agency picks the instrument by the statutory test in 31 U.S.C. 6303–6305 [2015]
+  - The agency conducts merit review and risk review before award [2016]
+  industry_entry:
+  - Register in SAM.gov first (free; "Allow up to 10 business days"; renew yearly); the UEI flows into applications;
+    the EBiz POC creates the Grants.gov profile and assigns roles such as Authorized Organization Representative
+    [2017]
+  - 'Front doors in this pack that list assistance instruments beside contracts and OTs: NGA''s BIG-ST BAA (procurement
+    contracts, grants, cooperative agreements, other transactions) [1994]; DARPA''s DSO office-wide BAA (cooperative
+    agreement, procurement contract, other) [2000]'
+  - The DIU OnRamp Hub network is itself run under a cooperative agreement [1961]
+  official_url: https://www.grants.gov/learn-grants/grants-101
+  pending_changes: []
+  as_of: '2026-10-03'
+  sources:
+  - 1961
+  - 1994
+  - 2000
+  - 2015
+  - 2016
+  - 2017
+  conflicts:
+  - 'Fetch-extraction error caught in the sweep: the part-level digest of 2 CFR Part 200 returned a 10 percent de
+    minimis rate and a $750,000 audit threshold; sections 200.414 and 200.501 fetched individually give 15 percent
+    and $1,000,000, which are the figures recorded [2016].'

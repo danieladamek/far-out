@@ -1,4 +1,4 @@
-# todo.yaml — FAR Out content pack · assembled 2026-10-03 from the SBIR/STTR, set-asides/vehicles and partnering sweeps. Every reference carries recheck: true until quotes are verified against live pages.
+# todo.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
 - id: t-A001
   kind: gap
   about: references/PL119-83
@@ -3599,4 +3599,1208 @@
   kind: conflict
   about: references
   text: 'Same URL in two slices: n [593, 1399] — merge into one entry and repoint citations. https://www.va.gov/osdbu'
+  owner: builder
+- id: t-OA001
+  kind: conflict
+  about: certifications/nontraditional-defense-contractor
+  text: 'The brief''s premise is wrong on the enacted text read: the FY2026 NDAA did not redefine small businesses
+    as nontraditional defense contractors. 10 U.S.C. 3014 shows no Pub. L. 119-60 amendment, and section 1826 (set
+    out as a note under section 3014) does not contain "small business" [1605]; no section heading of the Act redefines
+    the term [1610]. Small firms are nontraditional by operation of the CAS small-business exemption, which predates
+    the NDAA [1613] [1628]. Two secondary sources say otherwise (Haynes Boone, pre-enactment; ABA) [1689] [1688].
+    The record and the chapter notes are written on the statute; confirm the framing.'
+  owner: author
+- id: t-OA002
+  kind: recheck
+  about: references
+  text: uscode.house.gov was down on 2026-10-03 and the govinfo copy of Pub. L. 119-60 was truncated before Title
+    XVIII (only the table of contents was read) [1610]. The body of sections 1823 and 1826, the amended 10 U.S.C.
+    3458, the definitions and follow-on text of 10 U.S.C. 4022(e)-(f), and 10 U.S.C. 3457, 3702 and 4021(b)-(h)
+    were read on Cornell LII only [1605] [1606] [1602] [1608] [1609] [1604]. Re-read each on uscode.house.gov and
+    the public law on govinfo before publication.
+  owner: builder
+- id: t-OA003
+  kind: conflict
+  about: references
+  text: 'Source-kind rule for mirrors. Slice A records Cornell LII statute pages and the EveryCRSReport copy of
+    CRS R45521 as kind: secondary; slice B records the same three URLs as kind: primary [1602] [1605] [1658], and
+    records another CRS product on the same mirror as primary [1707]. The merged pack is itself inconsistent on
+    LII. Slice A''s "secondary" is kept here. Consequence: 11 citation group(s) in the record files rest on LII
+    statute text alone (listed by _build/validate.py); where a primary page states the same point it is cited alongside.
+    Decide whether verbatim statute text on LII counts as primary, then re-run the check.'
+  owner: author
+- id: t-OA004
+  kind: conflict
+  about: gates/ot-approval-thresholds
+  text: AAF prototype approval table vs statute. The AAF prototype OT page shows USD(R&E) or USD(A&S) approval above
+    $500M for all components, and the two slices relay its table differently [1632]. 10 U.S.C. 4022(a)(2) as amended
+    December 23, 2024 puts the $100M–$500M determination with the head of the contracting activity and the over-$500M
+    determination with the senior procurement executive [1601] [1602], and the August 27, 2025 memo follows the
+    statute [1638]. Records use the statute and the memo; the page is quoted only under conflicts.
+  owner: author
+- id: t-OA005
+  kind: conflict
+  about: routes/prototype-ot
+  text: '32 CFR Part 3 is stale: it still implements section 845 of the FY1994 NDAA and cites 10 U.S.C. 2371; section
+    3.5 lists three use conditions and omits the all-small-business condition; its nontraditional definition has
+    a $500,000 prong not in 10 U.S.C. 3014 [1611]. It is cited for what it says (audit access at 3.7 and 3.8) and
+    under conflicts, never as the current rule. A proposed rule to update it was published 2024-09-04 [1710].'
+  owner: author
+- id: t-OA006
+  kind: conflict
+  about: routes/defense-commercial-solutions-opening
+  text: DFARS 212.70 still says "innovative". Codified DFARS Subpart 212.70 (DFARS Change 05/07/2026) and DoD class
+    deviation 2026-O0028 both still limit CSOs to innovative commercial products or commercial services [1614] [1623];
+    10 U.S.C. 3458 as amended on December 18, 2025 no longer does [1606]. No DFARS implementation of section 1823
+    was found; whether a later deviation or PGI change exists on acq.osd.mil could not be checked. The record cites
+    the codified DFARS as primary and carries the statute change as pending-implementation.
+  owner: author
+- id: t-OA007
+  kind: conflict
+  about: routes/defense-commercial-solutions-opening
+  text: 'CSO approval above $100 million is stated four ways: USD(A&S) written determination (pre-amendment statute)
+    [1607]; senior procurement executive (DFARS 212.7003; AAF CSO page) [1614] [1634]; USD(A&S) or service acquisition
+    executive (AAF BAA-v-CSO page, which also cites section 879 of the FY2017 NDAA) [1635]; removed (amended statute
+    as read on LII) [1606]. A law-firm explainer''s "$10 million" appears to be a slip for $100 million [1692].'
+  owner: author
+- id: t-OA008
+  kind: gap
+  about: references
+  text: 'acq.osd.mil was unreachable. Not read: the official OT Guide file ("508 Update_11Jul2025") [1711]; the
+    FY2024 Report to Congress on prototype OTs; the class deviation memos 2026-O0048 Rev 1, 2026-O0032 Rev 1 and
+    2026-O0011; the DFARS overhaul deviations index; PGI 212.70. Facts about the 2026 revisions rest on WARU''s
+    announcement page and a law-firm tracker [1625] [1626].'
+  owner: builder
+- id: t-OA009
+  kind: conflict
+  about: certifications/nontraditional-defense-contractor
+  text: Deviation numbering and dates disagree. WARU labels the Part 215 revision "2026-O0046, Revision 1" but links
+    to a file named 2026-O0048 Rev 1 [1625]; the law-firm tracker gives both August 4, 2026 and September 11, 2026
+    for the Part 231 revision [1626]. pending_changes dates the Part 215 revision 2026-07-24 (WARU's entry date);
+    the tracker says July 22, 2026.
+  owner: builder
+- id: t-OA010
+  kind: unverified
+  about: certifications/nontraditional-defense-contractor
+  text: 'Secondary-only statements kept out of the record body and listed under conflicts: the Part 231 (2026-O0032
+    Rev 1), Part 234 (2026-O0011) and Part 230 (2026-O0006 Rev 1) deviations implementing sections 1826 and 1806
+    [1626]; the new CAS thresholds ($100 million full coverage; $35 million contract level; $7.5 million trigger
+    eliminated) [1687], which eCFR 48 CFR 9903.201-1 did not yet show on 2026-09-28 [1613]. Read the memos and the
+    public law to promote them.'
+  owner: builder
+- id: t-OA011
+  kind: gap
+  about: certifications/nontraditional-defense-contractor
+  text: 'Self-certification mechanics are thin. Found: the section 3014-worded statement under DFARS 252.215-7010
+    (deviation 2023-O0004), read on a third-party mirror [1618], and the advisory provision 252.215-7013 [1617].
+    Not found: any SAM representation for nontraditional status, the 2024 Defense Pricing and Contracting memo an
+    accounting firm mentions [1686], or section 1826-specific representation language [1624].'
+  owner: builder
+- id: t-OA012
+  kind: unverified
+  about: certifications/nontraditional-defense-contractor
+  text: 'Effective date and reach of section 1826: the note states no effective date and no dollar threshold [1605];
+    commentators say it took effect on enactment [1687] [1686] and question its reach to DoD orders under civilian
+    multiple-award contracts [1689]. An unsourced claim that more than 90% of the defense industrial base qualifies
+    as nontraditional is not used [1686].'
+  owner: builder
+- id: t-OA013
+  kind: gap
+  about: references/DodOtGuide2023
+  text: 'OT Guide Version 2.0 appendices were not read: the glossary after "NDC", Appendix C (comparison table),
+    Appendix D (myths and facts), Appendix E and Appendix F (Use of Consortia in Prototype and Production OT Agreements)
+    [1627]. The "nearly all small business concerns" and "significant extent" passages come from the superseded
+    November 2018 edition [1628]; whether Version 2.0 keeps them is unverified.'
+  owner: builder
+- id: t-OA014
+  kind: gap
+  about: gates/ot-ip-rights
+  text: 'IP guidance for small firms: Table 9 of the DoD IP Guidebook ("Other Transactions Issue Topics and Considerations
+    for IP", p. 54) and its glossary were cut off [1642]. No official how-to on protecting background IP in an OT
+    was read, so the gate''s steps field carries only that absence. FY2026 NDAA sections 805 and 843–850 on technical
+    data are known from a law-firm alert only [1690].'
+  owner: builder
+- id: t-OA015
+  kind: recheck
+  about: mechanics/ots-in-public-data
+  text: GAO-25-107546 per-year figures (FY2021 ~$17B; FY2022 ~$10.7B; FY2023 ~$16.2B; FY2024 ~$18.1B) were read
+    from Figure 2 by the fetch tool and are approximate. An earlier pass returned "production OTA use increased
+    from $24 million (FY2021) to $450 million (FY2024)", which conflicts with GAO's "$2 billion in production OTA
+    use in fiscal year 2024"; treated as an extraction error until rechecked [1649].
+  owner: builder
+- id: t-OA016
+  kind: unverified
+  about: mechanics/ots-in-public-data
+  text: 'USAspending: only the absence of an OT award-type code is verified [1666]. Whether OT records appear in
+    USAspending searches or downloads, and under what label, is not [1667].'
+  owner: builder
+- id: t-OA017
+  kind: unverified
+  about: routes/dhs-other-transaction
+  text: DHS OT authority status. The text of 6 U.S.C. 391 reads "Until September 30, 2024" [1670]; the lapse is
+    confirmed by a March 2025 floor statement and ARPA-H's June 2025 table [1671] [1645]. Whether H.R. 1692 or another
+    vehicle later restored it is unverified. The route is flagged expired/unverified; the DHS OTA Directive (July
+    2005) listed on arpa-h.gov was not read [1647].
+  owner: builder
+- id: t-OA018
+  kind: conflict
+  about: routes/doe-other-transaction
+  text: 'DOE 42 U.S.C. 7256(g): the fetch tool reported a "September 30, 2030" date in the subsection without clear
+    context [1672]; DOE''s guide states no expiration [1673]. Unresolved.'
+  owner: builder
+- id: t-OA019
+  kind: conflict
+  about: routes/nih-other-transaction
+  text: 'NIH citation: ARPA-H''s table gives 42 U.S.C. 284(n) [1645]; govinfo shows the text at 42 U.S.C. 282(n)
+    (PHS Act section 402(n)) [1677]. 282(n) is used.'
+  owner: builder
+- id: t-OA020
+  kind: gap
+  about: routes
+  text: 'Civilian authorities without a route record because no public guide was found: BARDA (42 U.S.C. 247d-7e)
+    [1675]; TSA (49 U.S.C. 114(m)) [1683]; DOT / Federal Transit research (49 U.S.C. 5312, which says "other agreements")
+    [1684]; ARPA-E (42 U.S.C. 16538(f)) [1680]. BARDA is noted inside the ARPA-H route, TSA inside the FAA route
+    and ARPA-E inside the DOE route. ARPA-H''s table also lists NSF, CDC, NHLBI, NCATS, IARPA, PHMSA, the Administrative
+    Office of the U.S. Courts and AgARDA (pilot terminated), none swept [1645]. NASA''s December 2023 Space Act
+    Agreements Guide and the NSF OT Guide (Apr 2024) are listed on arpa-h.gov and were not read [1647].'
+  owner: builder
+- id: t-OA021
+  kind: gap
+  about: routes
+  text: No civilian CSO route was written. Slice A did not sweep civilian CSO authority (GSA and DHS); the overhauled
+    FAR Part 12 text contains no CSO procedure in what was read [1622], and the only trace is a link to GSA's Procurement
+    Innovation Resource Center on the AAF CSO page [1634]. Sweep the civilian CSO pilot before adding the record.
+  owner: author
+- id: t-OA022
+  kind: recheck
+  about: gates/ot-protest-cofc
+  text: Court citations. The reporter citation for Independent Rough Terrain Center (172 Fed. Cl. 250) and Raytheon's
+    Westlaw citation come from a law-firm alert [1663]. Raytheon was read on Justia; the official ecf.cofc.uscourts.gov
+    link is on the ARPA-H decisions page [1660] [1648]. Hydraulics, Kinemetrics and SpaceX were not read directly
+    [1659]. No Federal Circuit decision on OT protest jurisdiction was found; none was ruled out either.
+  owner: builder
+- id: t-OA023
+  kind: gap
+  about: references/CrsR45521
+  text: CRS R45521 was read in its February 22, 2019 version on a mirror; later versions on congress.gov (R45521.3,
+    R45521.5) are blocked [1658]. Its statement that the Tucker Act still applies to OTs is the only source on where
+    a performance dispute is heard and is kept under conflicts in gate ot-performance-disputes.
+  owner: builder
+- id: t-OA024
+  kind: gap
+  about: sections-notes
+  text: 'SBA / DoD Office of Small Business Programs: business.defense.gov loaded once and said nothing about OTs,
+    CSOs or nontraditional contractors. No SBA statement on whether OT dollars count toward small-business goals
+    was found. The only official small-business figures found are for CSO contracts (82 of 120, FY2018–FY2022) [1616].'
+  owner: builder
+- id: t-OA025
+  kind: unverified
+  about: references/Usc103702Lii
+  text: '10 U.S.C. 3702: no verbatim quote was recorded and the figures were taken from the fetch tool''s extraction
+    of the section and its amendment notes; the tool also reported a "$5,000,000" figure for nontraditional defense
+    contractor subcontracts that was not confirmed and is not used [1609].'
+  owner: builder
+- id: t-OA026
+  kind: recheck
+  about: references
+  text: Quote fidelity, slice OA. Every quote was returned by the fetch tool's extraction model as verbatim; statute
+    and regulation quotes were cross-checked between two fetches where possible, guide and report quotes were not.
+    Confirm wording and the 25-word limit against the live pages. No quote in this slice exceeds the 25-word limit.
+  owner: builder
+- id: t-OA027
+  kind: unverified
+  about: routes/prototype-ot
+  text: FY2027 NDAA. Only the Senate bill's table of contents was read [1693]; House section 823 and the content
+    of Senate section 817 come from one trade article [1694]. pending_changes marks these as proposed.
+  owner: builder
+- id: t-OA028
+  kind: conflict
+  about: gates/ot-approval-thresholds
+  text: The August 27, 2025 approval memo cites "Public Law 118-31" as the FY2025 NDAA; the statute's amendment
+    notes give Pub. L. 118-159 [1638] [1602].
+  owner: builder
+- id: t-OA029
+  kind: gap
+  about: routes/baa-far-35-016
+  text: 'Class-deviation date missing: the FAR-overhaul Part 35 model text (BAA at 35.102) showed no date, so pending_changes
+    carries an empty date [1621]. The DoD Part 235 deviation, if any, was not swept. Note for the merge: the pack
+    already has a programs record with id broad-agency-announcement and a programs record diu-cso; the routes here
+    are baa-far-35-016 and defense-commercial-solutions-opening.'
+  owner: builder
+- id: t-OA030
+  kind: gap
+  about: references
+  text: 'Fetch failures to carry into the refresh routine''s blocked-host list (2026-10-03): uscode.house.gov (maintenance
+    page); acq.osd.mil (every PDF and the class-deviation index refused; one HTML page loaded with an empty "Other
+    Transactions" heading); congress.gov (robots-disallowed); oldcc.gov (TLS/robots failure); governmentcontractslaw.com
+    (too many redirects); govinfo PLAW-119publ60 and COMPS-18412 (truncated before Title XVIII); the DoD OT Guide
+    (July 2023), DoD IP Guidebook (April 2025) and DoD OT Guide (Nov 2018) PDFs (each truncated before its appendices).'
+  owner: builder
+- id: t-OA031
+  kind: gap
+  about: references/Dodig2022127
+  text: DODIG-2022-127 was read only for its summary of DODIG-2021-077 as prior coverage; its own title was not
+    captured, and its date is taken from the URL path [1657].
+  owner: builder
+- id: t-OA032
+  kind: gap
+  about: routes
+  text: 'official_url fields that point at copies, because the issuing site could not be fetched or no issuing-site
+    address was swept: the FAA OT Guide (ARPA-H copy) [1682]; the DoD IP Guidebook and the August 27, 2025 approval
+    memo (ARPA-H copies) [1642] [1638]; 10 U.S.C. 3014 (Cornell LII) [1605].'
+  owner: builder
+- id: t-OA033
+  kind: recheck
+  about: references
+  text: 'Tiering judgments to confirm: court decisions of 2024–2025 and the 2024 GAO appropriations decision are
+    tiered current, GAO protest decisions of 2018–2019 classic (the schema''s seminal list does not name decisions)
+    [1661] [1653] [1656]; the July 2023 DoD OT Guide is tiered classic because it predates the 2024–2026 window
+    although it is the edition in force [1627]; DARPA, ARPA-H and DAU training decks are tiered background as tutorials
+    [1641] [1645] [1659].'
+  owner: author
+- id: t-OA034
+  kind: gap
+  about: references
+  text: 'Merge notes, slice OA and OB against the pack as merged so far. URLs in this file that the merged pack
+    already holds under another number: [1610] = merged 1136; [1619] = merged 1470; [1620] = merged 482; [1622]
+    = merged 618, 806; [1625] = merged 633; [1643] = merged 97; [1667] = merged 1046; [1714] = merged 1047. One
+    key was suffixed to avoid a collision with the merged pack: DiuWorkWithUsOt. Every reference in this file is
+    cited by at least one record, note or todo line (0 uncited). Record ids here do not collide with merged ids;
+    gates named in routes that live in the merged pack, not here: sam-registration, era-commons-assist. The merged
+    pack''s route gao-bid-protest and gate data-rights-marking are the FAR-side counterparts of ot-protest-gao and
+    ot-ip-rights and should be cross-linked.'
+  owner: builder
+- id: t-OB001
+  kind: conflict
+  about: programs/trex-ii
+  text: 'TReX II and IWRP are ATI-managed, not NSTXL-managed. TReX II: the MITRE list shows it under ATI, the site
+    footer shows ATI, and ATI announced the award on 2023-01-09 [1695] [1740] [1743]. IWRP: ATI manages the OTA,
+    awarded to ATI by NIWC Atlantic [1784] [1787]. NSTXL''s own homepage names only S²MARTS, SpEC and JDEC [1718].
+    Correct the brief''s grouping.'
+  owner: author
+- id: t-OB002
+  kind: conflict
+  about: programs
+  text: AIRC is not a consortium. The Acquisition Innovation Research Center calls itself "an applied academic research
+    arm of DoD", funded through University-Affiliated Research Center contracts; nothing on its page offers company
+    membership or OT project awards [1717]. No programs record was written for it.
+  owner: author
+- id: t-OB003
+  kind: conflict
+  about: programs/mtec
+  text: 'MTEC and NSC manager conflict. MTEC: the MITRE list names ATI [1695]; ATI''s current list of collaborations
+    does not include MTEC [1738]; MTEC''s pages name no manager [1760] [1762]. NSC: the MITRE list shows it as member-led
+    [1695]; ATI said in 2020 that it managed NSC [1798]; NSC is absent from ATI''s current list [1738]. Both records
+    carry the conflict and leave the manager unresolved; confirm with each consortium.'
+  owner: author
+- id: t-OB004
+  kind: gap
+  about: routes/ot-consortium-membership
+  text: OT Guide Appendix F unread. Appendix F, "Use of Consortia in Prototype and Production Other Transaction
+    Agreements" (table of contents, p. 46), which the guide says governs how consortium awards are reported, was
+    beyond what the fetch returned [1627]; the official copy on acq.osd.mil could not be fetched at all [1711].
+    The guide gives no definition of "significant extent" in the portion read.
+  owner: builder
+- id: t-OB005
+  kind: gap
+  about: references/SamConsortiaNotice
+  text: 'Not fetched: the SAM.gov notice HQ0102240001 (2024 DoD Consortia List for Other Transactions) returned
+    only a JavaScript shell [1697]; its content is known only through a commercial mirror [1696]. Open it in a browser
+    at recheck. No 2025 or 2026 edition of the notice was found.'
+  owner: builder
+- id: t-OB006
+  kind: gap
+  about: references/CongressIf12856
+  text: 'Not fetched: the congress.gov original of CRS IF12856 is blocked by robots.txt [1708]; the content was
+    read on the EveryCRSReport mirror [1707].'
+  owner: builder
+- id: t-OB007
+  kind: gap
+  about: references/DodOtGuideAcq
+  text: 'Not fetched: the official copy of the DoD OT Guide (July 2023; 508 update 2025-07-11) on acq.osd.mil [1711],
+    and on the same host the FY2024 prototype OT report to Congress and the Section 824 report. The guide was read
+    from a DIU-hosted copy [1627].'
+  owner: builder
+- id: t-OB008
+  kind: gap
+  about: references/SscSpecTrifold
+  text: 'Not fetched: the Space Systems Command SpEC industry trifold returned HTTP 403 [1730]; it likely holds
+    the current government description of SpEC.'
+  owner: builder
+- id: t-OB009
+  kind: gap
+  about: references
+  text: 'Other pages unreadable or blocked on 2026-10-03, with no reference entry: media.defense.gov DODIG-2025-096
+    (HTTP 403; subject unknown, surfaced in an OT consortia search); files.gao.gov HTML of GAO-22-105357 (HTTP 403;
+    the PDF was read); the oldcc.gov copy of the DPCAP OT briefing of July 2024 (certificate error); the acc.army.mil
+    ACC-NJ page (timeout); nationalspectrumconsortium.org, sae-gt.org and sae-itc.com (script-rendered; no body
+    text); theiwrp.org, mstic.org/how-to-join, matac.org and daftencapconsortium.org/how-to-join (HTTP 502 on every
+    attempt; other ATI-hosted sites began failing the same way late in the session); the sossecinc.com membership
+    agreement PDF (robots.txt) and SOSSEC opportunities (login); aaf.waru.edu/ot-guide and mtec-sc.org/faq (HTTP
+    404).'
+  owner: builder
+- id: t-OB010
+  kind: unverified
+  about: programs
+  text: Current dues were not verified for MSTIC, EMC2, MATAC, DAF TENCAP, NSC, DATC, SOSSEC and SCEC, and UCAH
+    [1783] [1782] [1791] [1793] [1798] [1814] [1817]; the NASC figure is from 2022 slides [1808]; IWRP dues are
+    from the 2021 conformed agreement, and an Amendment 2 dated 2024-12-19 was not read [1785].
+  owner: builder
+- id: t-OB011
+  kind: unverified
+  about: programs
+  text: Award assessment rates are not posted for VLC, MTEC and IWRP [1759] [1764] [1785]; the current CMG fee rate
+    is not posted, and the only figure found (4.3%) is from the 2017 C5 base agreement [1801] [1805].
+  owner: builder
+- id: t-OB012
+  kind: gap
+  about: programs
+  text: 'Agreement numbers and ceilings are missing for most consortia. Found only: C5 W15QKN-17-9-5555 (2017) [1805];
+    GVS W15QKN-17-9-1025 [1812]; SpEC $12B (2020) [1729]; S²MARTS no ceiling [1732]; AMTC $2B [1754]; NSC $2.5B
+    [1798]; IWRP 3 undefined [1788]; NGA $30M under SOSSEC [1813].'
+  owner: builder
+- id: t-OB013
+  kind: unverified
+  about: programs/jdec
+  text: JDEC ceiling and term ($500 million including options; five years; awarded by Washington Headquarters Services)
+    rest on trade press only and are recorded under conflicts, not as a fact [1736]; the JDEC site states neither
+    [1735]. Find the award notice.
+  owner: builder
+- id: t-OB014
+  kind: gap
+  about: references/Gao22105357Pdf
+  text: GAO-22-105357 Appendix II (the 28 consortia with managers and dollars) was not reliably extracted; the fetch
+    tool's reconstruction contradicted other sources and is not used [1699]. Read the PDF directly at recheck. GAO's
+    six recommendations were relayed three times with different wording; only recommendation 5 is cited, and its
+    text should be checked.
+  owner: builder
+- id: t-OB015
+  kind: unverified
+  about: routes/prototype-ot
+  text: Whether the 32 CFR Part 3 proposed rule of 2024-09-04 has been finalized was not checked [1710].
+  owner: builder
+- id: t-OB016
+  kind: conflict
+  about: routes/ot-consortium-membership
+  text: The consortia list lags and its status is unstated. The MITRE page listed 36 consortia and was last updated
+    2025-09-22; it carries no statement of official status [1695]. It does not show JDEC [1718], and it names managers
+    for MTEC and NSC that the managers' own pages do not confirm [1738]. No DAU-hosted list was found. Records here
+    cover 33 consortia and four managers; the list's own count and the records' count were not reconciled entry
+    by entry.
+  owner: builder
+- id: t-OB017
+  kind: unverified
+  about: mechanics/ots-in-public-data
+  text: Where OT award records can be searched publicly in October 2026 was not verified. The project requirements
+    doc records FPDS ezSearch as decommissioned on 2026-02-24; that was not rechecked in this sweep. Whether the
+    beta.fpds.gov help site is current was not checked [1713]; a journalist's note says anonymous access to OTA
+    summaries on FPDS was removed and restored in January 2025 [1715].
+  owner: builder
+- id: t-OB018
+  kind: gap
+  about: programs
+  text: 'Not found: any DTRA-, MDA- or microelectronics-specific consortium beyond those listed; no consortium by
+    the acronyms CDMC, BAMTC or DFC appeared on the MITRE list, ATI''s list or in search [1695] [1738].'
+  owner: builder
+- id: t-OB019
+  kind: gap
+  about: programs/ati
+  text: 'ATI collaborations named on its pages with no record here because nothing beyond the name was swept: CNM,
+    CMTC, LEAN Power, LETHALITY, NSRP, NSAM, ADC, AMC, CWX, FDMC, RISE [1738]. The first extraction of ATI''s directory
+    gave invented acronym expansions; names in the records come from the second ATI page and each consortium''s
+    own site [1737].'
+  owner: builder
+- id: t-OB020
+  kind: conflict
+  about: programs/amtc
+  text: 'AMTC: the assessment''s effective date is 2020-10-01 on the AMTC FAQ and 2023-10-01 on the NAC FAQ [1753]
+    [1750]; the "$4.1 billion" first-year figure in the Army article is ambiguous (awards or ceilings) and is not
+    used [1755].'
+  owner: builder
+- id: t-OB021
+  kind: conflict
+  about: programs/nstxl
+  text: 'NSTXL pages disagree with each other: three OTAs on the homepage, two in one FAQ item [1718] [1722]; 19K
+    "innovators" against "over 600" members [1719] [1726]; submission-to-award stated as 120 average days, "just
+    over 100 days" and "under 120 days" [1719] [1725] [1726].'
+  owner: builder
+- id: t-OB022
+  kind: conflict
+  about: programs/c5
+  text: 'Sponsor wording differs between a consortium''s page and the MITRE list for C5 and CEED (Army PEO IEW&S,
+    Marine Corps Systems Command and the Army Corps of Engineers against Army DEVCOM) [1802] [1804] [1695]. Other
+    small conflicts carried in records: SOSSEC''s SCCI against the list''s SSCI [1813]; UTIC''s 75% against the
+    Navy''s 73% non-traditional in 2020 [1778] [1779]; C5''s nearly 1,600 against more than 1,600 members [1800]
+    [1802].'
+  owner: builder
+- id: t-OB023
+  kind: recheck
+  about: programs
+  text: 'Extractions flagged as unreliable by the sweep: the NAC FAQ''s definition of a nontraditional defense contractor
+    omitted the cost-accounting-standards clause [1750]; the MTEC FAQ extraction was thin and one detail looks wrong
+    [1764]; the S²MARTS "$2B+ total obligated funding" figure has unclear scope [1731].'
+  owner: builder
+- id: t-OB024
+  kind: recheck
+  about: programs
+  text: 'Statements that rest on the sweep''s draft records, not on a key fact of the cited source, and so need
+    a look at the page: sponsors read off the MITRE list for VLC, NSTIC, NSC, SCEC, DATC, DEC, NASC, C5 and CEED,
+    and the "S²MARTS Research" vehicle [1695]; domains for SpEC, C5, MTEC and DIBC [1728] [1802] [1762] [1771];
+    SOSSEC opportunities being behind a login [1814]. DATC and DEC rest on the MITRE list alone and have no official_url.'
+  owner: builder
+- id: t-OB025
+  kind: gap
+  about: programs/sossec-consortium
+  text: 'Assembly choices to confirm: a separate sossec-consortium record was split out of the SOSSEC, Inc. manager
+    record so that each consortium has one [1813]; NAC and DOTC are one record (nac-dotc), as in the sweep''s draft
+    [1745]; the three non-DoD consortia (RRPV, BioMaP-Consortium, HSTech) have records for context [1795] [1794]
+    [1797]. HSTech''s sponsor authority (6 U.S.C. 391) reads as expired in the text read [1670].'
+  owner: author
+- id: t-OB026
+  kind: unverified
+  about: routes/ot-consortium-membership
+  text: 'Sweep lines marked "(synthesis)" are carried under conflicts or flagged in place, not as sourced facts:
+    that a traditional contractor can take a consortium project by teaming with a nontraditional contractor or paying
+    a third of the cost [1602] [1750]; that a member''s consortium project may not be findable under the member''s
+    own name [1701]; that FPDS values for base OTs are ceilings, not spending [1704].'
+  owner: builder
+- id: t-OB027
+  kind: recheck
+  about: references
+  text: Quote fidelity, slice OB. Every page was read through WebFetch, which returns a model-written extraction,
+    not the raw text; each quote needs a check against the live page. No quote in this slice exceeds the 25-word
+    limit.
+  owner: builder
+- id: t-OC001
+  kind: recheck
+  about: references
+  text: 'Every quote and figure in slice OC came through the WebFetch digest, a model-written summary and not the
+    raw page; quotes "may not be verbatim" (sweep Gaps 1). Recheck all quotes and figures against the live pages
+    before publication. Quotes longer than the 25-word limit: [1909] (26 words), [1989] (29), [1991] (30), [2007]
+    (31).'
+  owner: builder
+- id: t-OC002
+  kind: recheck
+  about: references/Ecfr2cfr200
+  text: 'Fetch-extraction error 1 of 3 caught in the sweep: the part-level digest of 2 CFR Part 200 returned a 10
+    percent de minimis rate and a $750,000 single-audit threshold; sections 200.414 and 200.501 fetched individually
+    give 15 percent and $1,000,000, which are the figures recorded [2016]. Confirm on eCFR.'
+  owner: builder
+- id: t-OC003
+  kind: recheck
+  about: references/Far15
+  text: 'Fetch-extraction error 2 of 3: a digest of FAR Part 15 printed the simplified acquisition threshold as
+    $250,000, where the FAR text gives only the term [2008]. No SAT dollar figure is carried from this slice; take
+    it from FAR 2.101 in the merged pack. The $2.5 million figure at 15.403-4 is "as returned" and also needs checking.'
+  owner: builder
+- id: t-OC004
+  kind: recheck
+  about: references
+  text: 'Fetch-extraction error 3 of 3: one digest expanded the acronym "MSA" wrongly. The sweep does not say which
+    page; the acronym appears in the Major Capability Acquisition phase list [1914]. This pack carries the acronym
+    unexpanded; expand it only from the page itself.'
+  owner: builder
+- id: t-OC005
+  kind: conflict
+  about: changes/chg-awrs-2026
+  text: 'AWRS cover-date correction: the Acquisition Workforce Reform Strategy has a cover date of February 3, 2026;
+    "2026-06" appears only in the hosting path [1936]. The project''s sketch dates it June 2026. This pack uses
+    February 3, 2026; correct the sketch and the status doc.'
+  owner: author
+- id: t-OC006
+  kind: unverified
+  about: buyers (all six AAF pathways); changes/chg-dowi-5000-02-april-2026
+  text: 'The April 2026 5000.02 text is unread. The official list shows 5000.02 as a DoWI dated April 2026 [1902];
+    a secondary site says "23 January 2020 with 8 April 2026 Change" [1906]; the bare URL served the January 23,
+    2020 text with Change 1 of June 8, 2022 and the dated URL from the policy list returned 403 [1905]. Not verified:
+    what the change says, whether it is a change or a reissue, and whether it mentions portfolio acquisition executives,
+    small business, OTs or CSOs. The WarU strategy page did not surface the change text [1935].'
+  owner: author
+- id: t-OC007
+  kind: gap
+  about: buyers/aaf-urgent-capability-acquisition
+  text: DoDI 5000.81 returned 403 on both esd.whs.mil URLs and on the DAF copy; no reference exists for it. The
+    Urgent Capability Acquisition record rests on the WarU pathway pages [1907] [1908] and the policy list [1902].
+  owner: builder
+- id: t-OC008
+  kind: gap
+  about: changes/chg-was-memo
+  text: The WAS memo PDF (media.defense.gov/2025/Nov/10/2003819439/…) returned 403 twice, and the March 2025 software
+    memo PDF on media.defense.gov was also unreadable. The memo's deadlines, PAE term lengths, "two-to-production"
+    and the Wartime Production Unit rest on a third-party-hosted copy or digest and on law-firm digests [1929] [1930]
+    [1931] [1933] [1934]; a trade digest holds the direct links [1932]. Read both memos directly.
+  owner: builder
+- id: t-OC009
+  kind: gap
+  about: references/NdaaFy26Toc
+  text: 'Pub. L. 119-60 body text was out of reach (congress.gov blocked by robots; govinfo readable only to the
+    table of contents; uscode.house.gov under maintenance) [1937]. Not verified in the statute: §§1822, 1824, 1826,
+    1831, 1832, 1833, 1845, 824, 861, 863, 875, 1806 and 1807; any SAT or micro-purchase change in §1804 beyond
+    the certified-cost-or-pricing-data figure; any SBIR provision in Titles VIII or XVIII; OT authority for construction
+    projects, which only the committee summary states [1946].'
+  owner: builder
+- id: t-OC010
+  kind: unverified
+  about: changes/chg-ndaa-fy26-1822, chg-ndaa-fy26-1824, chg-ndaa-fy26-1826, chg-ndaa-fy26-824
+  text: 'Secondary-only NDAA items carried and marked: §1822 written memorandum [1943] [1945]; §1824 flowdown limits,
+    for which no digest''s recorded key facts give the terms; §1826 exemptions from FAR Part 31 cost principles
+    and certified cost or pricing data [1943]; §824 nongovernment past performance references [1943]. Also reported
+    and not carried into records: §1806 full CAS coverage $50M to $100M [1943] [1944]; CAS applicability $2.5M to
+    $35M [1944]; §875 protest withholding up to 5% [1943]; §1828 review within 180 days [1944]. Do not publish any
+    of these as fact until the statute is read.'
+  owner: author
+- id: t-OC011
+  kind: conflict
+  about: changes/chg-ndaa-fy26-1804-tina
+  text: 'Prior certified cost or pricing data threshold: $2,000,000 in 10 U.S.C. 3702 [1940] and $2 million in two
+    digests [1943] [1945] vs $2.5 million in one digest [1944] and in FAR 15.403-4 as fetched [2008]. Both figures
+    kept; the statute is followed for the defense side.'
+  owner: author
+- id: t-OC012
+  kind: conflict
+  about: changes/chg-ndaa-fy26-1823-cso
+  text: '§1823 is framed three ways: CSOs extended to all commercial products and services [1943] [1945] [1939];
+    sole-source follow-on production after a competitive CSO selection [1944]; a production OT directly from a CSO
+    [1947]. The Code digest supports the first two; the third is unconfirmed and is not carried as fact.'
+  owner: author
+- id: t-OC013
+  kind: conflict
+  about: buyers/aaf-middle-tier-of-acquisition
+  text: A law-firm digest speaks of "eliminating Middle Tier Acquisition" [1933]; the strategy text delegates MTA
+    approvals and removes the advisory boards (p. 20) and does not eliminate MTA [1928]. The primary is followed.
+  owner: author
+- id: t-OC014
+  kind: conflict
+  about: buyers/aaf-middle-tier-of-acquisition
+  text: 'DoDI 5000.80 date: Nov 2024 on the official policy list [1902] vs December 30, 2019 with no change line
+    in the text returned by the fetch [1912]. A Nov 2024 version may exist and be unread. Also on that pathway:
+    the overview page cites CJCSI 5123.01H and the old section number 10 USC 2373 [1910], while the policy list
+    shows CJCSI 5123.01J of Jan 2026 [1902].'
+  owner: author
+- id: t-OC015
+  kind: conflict
+  about: programs/diu-cso
+  text: 'DIU time to award: "often awarding within 60-90 days" [1955]; "closer to 120 days" in March 2025 [1919];
+    172 days measured by GAO for FY2016–2023 [1957]. Also 450 prototype agreements [1957] vs 451 awards [1958] for
+    FY2016–2023. All figures kept with their sources.'
+  owner: author
+- id: t-OC016
+  kind: conflict
+  about: changes/chg-was-memo
+  text: 'WAS memo deadlines differ between secondary sources: 30/60/90/180 days [1929]; 30, 60 and 150–180 days
+    [1930]; 30 and 60 days, 150 and 180 days, 2 years [1931]; 60, 90, 150 and 180 days [1933]. None is confirmed
+    against the memo.'
+  owner: author
+- id: t-OC017
+  kind: conflict
+  about: references/Usc104022
+  text: 'The two slices read 10 U.S.C. 4022 on the same Cornell LII page differently: slice OC records it as amended
+    through Pub. L. 119-60, a terminology correction only; slice OD records amendment notes only through Pub. L.
+    118-159 (December 23, 2024) and says FY2026 NDAA changes were not checked [1942]. The two slices also returned
+    the same passage as quotes differing only in capitalisation ("at least one…" and "At least one…"), which shows
+    the quotes are not character-exact. Re-read on uscode.house.gov.'
+  owner: builder
+- id: t-OC018
+  kind: gap
+  about: references
+  text: 'Not readable in slice OC (403, robots, DNS or script-rendered), so no reference exists: DoDI 5000.81; the
+    WAS memo and March 2025 software memo PDFs; Pub. L. 119-60 body text; uscode.house.gov; all SAM.gov notices;
+    bluelist.dcma.mil; navalx.navy.mil (DNS) and secnav.navy.mil/agility (rejected); navytechtransfer.navy.mil;
+    the af.mil PAE article; afrl.af.mil and support.afwerx.com Prime pages; the DHS CSO pilot guide; the nga.mil/partners
+    page; the highergov SVIP copy (paywall page).'
+  owner: builder
+- id: t-OC019
+  kind: unverified
+  about: programs/afwerx-prime-agility-prime-challenge
+  text: 'Whether AFWERX Prime, Agility Prime and Autonomy Prime still operate in 2026 is unverified: the latest
+    dated primary source is January 30, 2024 [1982] and Prime is absent from the current menu [1978]. AFWERX Challenge
+    process, eligibility and award form were not obtained; afwerxchallenge.com returned only header metadata [1983].
+    Record carries status: unconfirmed.'
+  owner: author
+- id: t-OC020
+  kind: unverified
+  about: programs/navalx-tech-bridges
+  text: 'NavalX: no current URL (navalx.navy.mil did not resolve); the current number and list of Tech Bridges is
+    unverified (12 in May 2020 [1973]); no source states in its own words that Tech Bridges do not award contracts,
+    and the digest''s "does not fund" list was an inference [1975]. Record carries status: unconfirmed.'
+  owner: author
+- id: t-OC021
+  kind: unverified
+  about: programs/blue-uas-cleared-list
+  text: 'Blue List onboarding steps, cost and timing under DCMA are unverified; bluelist.dcma.mil could not be fetched
+    and the sweep does not record why [1962]. Assembly judgement call: the record is marked status: unconfirmed
+    although its latest primary source is dated 2025-12-03, because the door''s own site was not seen; change to
+    live if the site resolves on recheck.'
+  owner: author
+- id: t-OC022
+  kind: unverified
+  about: programs/ussocom-sof-atl-cso
+  text: 'The USSOCOM SOF AT&L CSO is known only from an aggregator copy of a SAM.gov notice [1972]. Authority, phases,
+    award form and the 12 Areas of Interest need a direct read of the notice (SAM.gov ids b57eb3bbc1ba48fcb528ecff95240f91
+    and d301463c1df546af9ffd4c910a1428ca). Record carries status: unconfirmed.'
+  owner: builder
+- id: t-OC023
+  kind: unverified
+  about: programs/army-xtech-fuze-cso
+  text: Army CSO terms (authority, phases, award form) were not read in a primary source; the UAS Marketplace CSO
+    rests on a trade report [1990], and two further Army CSOs were seen in search results only. The Army's six initial
+    PAEs are reported only by a trade digest [1932]; the primary source read covers PAE Fires [1950]. "Army Applied
+    SBIR" was not found as a current programme name [1984].
+  owner: builder
+- id: t-OC024
+  kind: unverified
+  about: programs/diu-cso
+  text: 'DIU publishes only aggregates: no typical award size per agreement was found [1953], and no FY2024 or FY2025
+    annual report was found [1958].'
+  owner: builder
+- id: t-OC025
+  kind: gap
+  about: programs/diu-onramp-hubs
+  text: 'The full current OnRamp Hub list is unverified: Washington, Arizona and Montana pages were seen in search
+    but not fetched [1960]; the 2024 notice names Phoenix, Dayton, Honolulu, Seattle and Wichita [1961]. The operating
+    recipient is not named in the sweep. Assembly judgement call: marked status: live on the strength of undated
+    hub pages read on the sweep date; the only dated primary source is December 2024.'
+  owner: builder
+- id: t-OC026
+  kind: unverified
+  about: programs/darpa-office-wide-baas
+  text: 'DARPA: Disruptioneering''s award ceiling and instrument are not on the page, and the successor to DARPA-PA-25-07
+    (closed September 29, 2026) was not seen [1999]; three other office-wide BAA numbers were seen in search only
+    [2000].'
+  owner: builder
+- id: t-OC027
+  kind: unverified
+  about: programs/nga-big-baa
+  text: 'NGA: no CSO after Project Aegir (May 2024) was found [1996]; the NGA Accelerator was not found; the BIG-ST
+    BAA closes December 14, 2026 with no successor identified [1994].'
+  owner: builder
+- id: t-OC028
+  kind: gap
+  about: buyers/civilian-procurement-model
+  text: 15 U.S.C. 644(l) on procurement center representatives was beyond the fetched portion [2012]; FAR 19.402
+    is used instead [2010]. The DHS civilian CSO pilot guide (dhs.gov, January 2025) returned 403; the civilian
+    CSO rests on GSA's guide [2001] and the FAI page [2002].
+  owner: builder
+- id: t-OC029
+  kind: gap
+  about: buyers/civilian-procurement-model
+  text: FAR-overhaul deviation numbering for Parts 7, 10, 12, 13, 15 and 19 was not swept in this slice. The civilian-procurement-model
+    record cites the codified FAR as primary and carries class-deviation entries that point to model deviation texts
+    already held in the merged pack (merged-pack references 617, 618/806, 619, 807, 614) without section-level mapping;
+    no Part 10 text is held. Map the sections at merge. DFARS 212.70 text and its deviation numbering were also
+    not swept; two front-door records carry a class-deviation entry with an empty date.
+  owner: author
+- id: t-OC030
+  kind: gap
+  about: programs
+  text: 'Not swept in slice OC: APFIT and other transition funds; Space Force and SpaceWERX front doors; Marine
+    Corps front doors. The sweep''s draft "Civilian CSO (GSA, DHS)" front-door block was not made a programs.yaml
+    record (it is not in the requested list); its facts are in the civilian-procurement-model record [2001] [2002].'
+  owner: author
+- id: t-OC031
+  kind: unverified
+  about: buyers (AAF pathway records)
+  text: 'Statements carried from the sweep''s draft records that are not among the extracted key facts or quotes,
+    each marked in the record: the fair-opportunity exception and the absence of a small-business provision for
+    UCA [1908] [1907]; the placing of "capitalize on commercial solutions and non-traditional suppliers" at DoDI
+    5000.85 §3.1.a(1) [1914]; the "new or amended pathway" reading of the 24-month kill-chain goal [1928]. Draft
+    claims left out because no source-level fact supports them: DoDI 5000.85 §3C.5 on sole-source lock-in; source-code
+    delivery under DoDI 5000.87; the DBS market-research quote.'
+  owner: builder
+- id: t-OC032
+  kind: gap
+  about: references
+  text: 'Thin references in slice OC: [1983] and [2003] were read in part and yielded no key facts; [1989] has a
+    quote and no key facts; [1935] was read in part. The software-memo, WAS-memo and requirements-memo links are
+    known only through a trade digest [1932].'
+  owner: builder
+- id: t-OC033
+  kind: gap
+  about: merge
+  text: 'Merge notes for slices OC/OD: record ids diu-cso, diu-onramp-hubs, tradewinds-solutions-marketplace, sofwerx
+    and navalx-tech-bridges already exist in the merged pack and are re-issued here with family ot-cso and fuller
+    content; army-xtech-fuze-cso overlaps merged army-xtech, and federal-prizes-after-challenge-gov overlaps merged
+    prize-competitions. 28 URLs in these slices are already references in the merged pack (noted in each role_note)
+    and 13 keys carry an Oc or Od suffix to stay unique. Gate ids used from the merged pack: sam-registration, era-commons-assist.'
+  owner: builder
+- id: t-OD001
+  kind: recheck
+  about: references
+  text: Every quote in slice OD is the string the WebFetch tool returned inside quotation marks and must be checked
+    character-for-character against the live page. Subsection letters for 42 U.S.C. 16538 [2050], 42 U.S.C. 290c
+    [2081], 49 U.S.C. 119 [2090] and 15 U.S.C. 3719 [2108] are as the tool reported them. Slide and page numbers
+    for the ARPA-H training deck [2079] and the OT guides are as returned.
+  owner: builder
+- id: t-OD002
+  kind: unverified
+  about: programs/dhs-svip; changes/chg-dhs-ot-authority-sunset
+  text: 'SVIP dormancy and DHS OT authority expiry: 6 U.S.C. 391 as displayed carries a September 30, 2024 sunset
+    [2041] and S. Rept. 118-273 says the authority "expired on September 30, 2024" [2042]. No extension was found
+    (the tool saw only part of the FY2026 appropriations text; uscode.house.gov was under maintenance; congress.gov
+    blocks fetch). The SVIP page was last updated April 19, 2024 and shows no open topic calls [1991]; the latest
+    listed call is December 2023 [2039]. SVIP''s legal footing in 2026 is unverified; the record carries status:
+    unconfirmed and must not be published as live.'
+  owner: author
+- id: t-OD003
+  kind: conflict
+  about: programs/dhs-svip
+  text: 'SVIP funding ceiling: "Total $200K to 2 Million over 24 months" and "Up to $800K in non-dilutive funding
+    available." on the same page [1991]; the 2020 guide gave $200K per phase under the earlier solicitation [2038].
+    The current solicitation 70RSAT21R00000006 on SAM.gov was not readable, and the two FAQ PDFs are copies on a
+    third-party mirror [2037] [2038]. The slices also differ on whether the Phase 1 $1,000,000 test covers grants
+    and cooperative agreements [1991], and on whether the pitch is a 15-minute oral pitch [1992] or by video (the
+    sweep''s draft record).'
+  owner: author
+- id: t-OD004
+  kind: gap
+  about: programs/barda-baa-ezbaa-drive-ventures
+  text: 'BARDA pages blocked: medicalcountermeasures.gov disallows automated fetch (partnering, Industry Day, FDA
+    approvals) and the BARDA BAA PDF and SAM.gov notices could not be read. Three references are not-fetched and
+    verified: false: [2063], [2062], [2064]. Not verified: the current BAA amendment and deadlines, BAA white-paper
+    rules, a 2026 Industry Day date, and BARDA and BARDA Ventures counts or totals. The BAA number and the June
+    30 – July 1, 2025 Industry Day date come from search-result titles only.'
+  owner: builder
+- id: t-OD005
+  kind: gap
+  about: gates/ot-agreement-structure; gates/consortium-project-agreement
+  text: 'The DoD OT Guide was truncated by the tool at about page 35: body and glossary were read on a DIU-hosted
+    copy; Appendix D (myths and facts) and Appendix F (consortia) were not [2109]. The official acq.osd.mil copy
+    blocks fetch and is a not-fetched reference [2110]; aaf.dau.edu OT-guide sub-pages returned 404. Whether the
+    "508 Update 11 Jul 2025" differs from the July 2023 text is unverified. The NASA SAA Guide was likewise cut
+    off before its sample clauses [2022].'
+  owner: builder
+- id: t-OD006
+  kind: unverified
+  about: gates/ot-payment-reporting
+  text: 'CPARS and OTs is verified only by absence: FAR 42.1502 [2118] and the CPARS guidance [2119] do not mention
+    other transactions, and the OT Guide portion read does not mention past performance [2109]. No official sentence
+    stating that CPARS does not cover OTs was found. The CPARS thresholds in the reference are "as extracted; verify".'
+  owner: author
+- id: t-OD007
+  kind: unverified
+  about: gates/ot-cybersecurity
+  text: 'CMMC and NIST SP 800-171 in OTs: the only official statement is the January 15, 2025 memo expectation [2115].
+    Its signers were not reliably extracted; whether it remains in force, and how it interacts with the July 2026
+    CMMC phase suspension recorded elsewhere in the project, was not verified. No DoD CIO FAQ entry covers OTs [2116];
+    a law-firm note calls the question unclear [2117]. The memo was read on dodprocurementtoolbox.com, not a government
+    host.'
+  owner: author
+- id: t-OD008
+  kind: gap
+  about: gates/ot-agreement-structure
+  text: 'Export controls and foreign access: no official page states the rule for OTs directly; the pack rests on
+    one sentence of the OT Guide [2109] and on agreement clauses [2068] [2066]. NASA SAA Guide sample clauses (export,
+    termination, disputes, IP, funded-agreement conditions in § 1.8) were beyond the cut-off [2022]. The sweep''s
+    draft blocks on IP in OTs and on export controls were folded into the ot-agreement-structure gate, not made
+    separate records.'
+  owner: builder
+- id: t-OD009
+  kind: gap
+  about: gates/ot-financial-systems-audit-access
+  text: No DCAA page on OT audits was found; audit rules rest on 32 CFR 3.8 [2113] and the OT Guide [2109].
+  owner: builder
+- id: t-OD010
+  kind: gap
+  about: gates/ot-payment-reporting
+  text: 'WAWF/PIEE: the requirement comes from the OT Guide [2109] and one posted agreement [2120]; no PIEE page
+    specific to OT invoicing was fetched, and piee.eb.mil, given as the gate''s official URL, appeared in search
+    results only.'
+  owner: builder
+- id: t-OD011
+  kind: gap
+  about: gates/ot-payment-reporting; changes/chg-pl-119-106-ot-reporting
+  text: How an OT record currently appears on USAspending.gov (award type label, search filter) was not checked.
+    FPDS help says only DoD and DHS can create OT records [2124], so how NASA, HHS, DOE and others report is unverified;
+    the FPDS help page may be legacy because FPDS ezSearch has been decommissioned per the project's requirements
+    doc. Pub. L. 119-106's enactment date (2026-09-11) is "as extracted" [2131]; the sponsor's release is dated
+    2026-09-15 [2132].
+  owner: builder
+- id: t-OD012
+  kind: gap
+  about: sections
+  text: No current GAO or agency report gives OT obligations by civilian agency; the latest cross-agency GAO count
+    is FY2014 [2127]. Five-year DHS and Interior figures come from a senator's press release, a secondary source,
+    and are not carried as fact [2132].
+  owner: author
+- id: t-OD013
+  kind: conflict
+  about: programs/arpa-h-mission-office-isos
+  text: 'ARPA-H: "There are currently no open small business opportunities." [2072] vs the SBIR/STTR page showing
+    notice 7599226SN106 with a full-proposal date of October 1, 2026 for Topic 5 [2078]. No agency-posted count
+    or total of ARPA-H awards was found.'
+  owner: author
+- id: t-OD014
+  kind: unverified
+  about: programs/arpa-e-funding-scaleup-ready
+  text: 'ARPA-E: arpa-e.energy.gov budget and FAQ pages returned only navigation. Unverified: the statute subsection
+    for award forms [2050]; the share of awards made as OTs; the status of HAEJO and GRADIENTS, which show 2025
+    concept-paper dates and "TBD" full-application dates [2046]; the exact date of the SCALEUP Ready news item [2049].'
+  owner: builder
+- id: t-OD015
+  kind: unverified
+  about: programs/nasa-tipping-point; programs/nasa-aco; programs/nasa-space-act-agreements
+  text: 'NASA: no Tipping Point solicitation since the 2023 round was found and the programme''s continuation is
+    unverified (record status: unconfirmed) [2032] [2034]. NSPIRES pages could not be fetched, so the next ACO appendix
+    is unknown, and a NASA page lists "ACO for Space Technology Development" as closed [2034]. The Unfunded-SAA
+    instrument for ACO is stated only in a repost [2031]. The count of active SAAs and the split by type were not
+    reliably extracted [2025]; conditions for funded SAAs (§ 1.8) were not read.'
+  owner: author
+- id: t-OD016
+  kind: unverified
+  about: programs/nsf-convergence-accelerator; programs/nsf-i-corps-teams
+  text: 'NSF: no open national Convergence Accelerator solicitation was found and the programme''s 2026 status is
+    unverified (record status: unconfirmed, an assembly judgement call, since the page itself was updated May 6,
+    2026) [2092] [2097]. The I-Corps per-award amount is stated only in the archived solicitation [2094]; the tool''s
+    reading of the current award duration was inconsistent and is not recorded [2093].'
+  owner: author
+- id: t-OD017
+  kind: gap
+  about: programs/dot-arpa-i-faa-ot; programs/tsa-innovation-task-force
+  text: 'DOT/FAA/TSA: no ARPA-I home page or open solicitation was fetched [2089]; FAA''s current use of OTAs with
+    small firms is not documented beyond the 2023 guide [2084]; the TSA Innovation Task Force BAA history (name,
+    number) was not found [2086]. Assembly judgement call: dot-arpa-i-faa-ot is marked status: unconfirmed because
+    the FAA half rests on a 2023 source and no open door was found, although ARPA-I activity is confirmed for August
+    2026.'
+  owner: builder
+- id: t-OD018
+  kind: unverified
+  about: gates/ot-agreement-structure
+  text: FY2026 NDAA effects on OTs are known in slice OD only from a law-firm summary, which as read cites §1823
+    and §§ 811-812 and 826 [1944]; slice OC's table of contents shows §1826, not §826, as the nontraditional defense
+    contractor exemptions [1937]. The section numbers disagree between the two readings; follow the statute once
+    read. No newer DoD OT Guide than Version 2.0 was found [2141].
+  owner: author
+- id: t-OD019
+  kind: conflict
+  about: gates/consortium-project-agreement
+  text: Consortium fees are posted only for NAC/DOTC/NEST/AMTC [2134], NSTIC [2136], RRPV [2066] and BioMaP [2069].
+    MTEC's assessment and NSTXL's membership price were not on the pages read [2138] [2137]. The AMTC 0.15% rate
+    carries an October 1, 2020 effective date on the AMTC page [2135] and October 1, 2023 on the NAC page [2134].
+  owner: builder
+- id: t-OD020
+  kind: gap
+  about: references
+  text: 'Hosts that refused automated fetch in slice OD: medicalcountermeasures.gov, acq.osd.mil, congress.gov,
+    nspires.nasaprs.com, sam.gov notice pages (no content), uscode.house.gov (maintenance), several dhs.gov news
+    and PDF URLs (HTTP 403), and the drive.hhs.gov BAA PDF.'
+  owner: builder
+- id: t-OD021
+  kind: unverified
+  about: programs/dhs-prize-competitions
+  text: 'DHS prizes: the September 9, 2026 S&T news item on an AI-assisted biodetection prize challenge is a not-fetched
+    reference (HTTP 403; title and URL date only; verified: false) [2045]; the challenge page also returned 403.
+    The DHS prize page is stale (last updated May 16, 2022) [2044]. Record status: unconfirmed.'
+  owner: builder
+- id: t-OD022
+  kind: recheck
+  about: references
+  text: 'Sources read on a host other than the issuing body''s and to be replaced with the original at recheck:
+    NASA SAA Guide [2022], FAA OT Guide [2084], NSF OA/T Guide [2098], DoD Research OT Guide [2111] and GAO-21-501
+    [2128], all on arpa-h.gov; the DoD OT Guide on a DIU bucket [2109]; two SVIP documents on a third-party mirror
+    [2037] [2038]; the CMMC memo on dodprocurementtoolbox.com [2115]; the standing ACO notice as a repost [2031].'
+  owner: builder
+- id: t-OD023
+  kind: unverified
+  about: programs/barda-baa-ezbaa-drive-ventures
+  text: 'BARDA: the EZ-BAA is shown three ways (open to October 18, 2027 [2057]; one area open with a September
+    30, 2024 close date [2056]; all areas closed [2054]). BARDA''s stated intent to rely more on OTs and consortia
+    is from a trade summary only [2065]. Assembly judgement call: the record is marked status: live because BARDA''s
+    own pages resolved, though the EZ-BAA is closed to new entrants and the BARDA BAA was not read.'
+  owner: author
+- id: t-OD024
+  kind: unverified
+  about: programs/nih-other-transactions
+  text: 'NIH: the OT Policy Guide dates from May 22, 2017 and was read in part [2083]; no open Research Opportunity
+    Announcement was identified, and who may apply is not stated on the page read [2082].'
+  owner: builder
+- id: t-OD025
+  kind: gap
+  about: programs
+  text: 'Sweep OD draft blocks not made programs.yaml records because they are not in the requested list: NIST partnerships
+    (CRADA and related) [2099] and SBA innovation support (FAST partners; Growth Accelerator Fund Competition) [2101]
+    [2100]. Their sources are in references.yaml, and the same URLs are already references in the merged pack. The
+    sweep''s separate "OT cost share" and "OT registration, public visibility and past performance" blocks are folded
+    into the gates ot-payable-milestones-cost-share and ot-payment-reporting.'
+  owner: author
+- id: t-OD026
+  kind: gap
+  about: references
+  text: 'Dated or thin sources carried for context only in slice OD: the FY2014 cross-agency OT counts [2127]; the
+    2019 DHS OIG audit [2043]; the Army Corps civil-works OT report, which found four agreements [2130]; the governmentwide
+    obligation figures in S. Rept. 118-301 [2133]; the FFRDC explainer [2140].'
+  owner: builder
+- id: t-M113
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [63, 1978] — merge into one entry and repoint citations. https://afwerx.com'
+  owner: builder
+- id: t-M114
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [64, 1979] — merge into one entry and repoint citations. https://afwerx.com/get-funded'
+  owner: builder
+- id: t-M115
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [80, 1984] — merge into one entry and repoint citations. https://armysbir.army.mil'
+  owner: builder
+- id: t-M116
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [357, 2046] — merge into one entry and repoint citations. https://arpa-e-foa.energy.gov'
+  owner: builder
+- id: t-M117
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1682, 2084] — merge into one entry and repoint citations. https://arpa-h.gov/sites/default/files/2025-02/faa%20ot%20guide%20-%20apr%202023.pdf'
+  owner: builder
+- id: t-M118
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [110, 2003] — merge into one entry and repoint citations. https://business.defense.gov'
+  owner: builder
+- id: t-M119
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1500, 2119] — merge into one entry and repoint citations. https://cpars.gov/cparsweb/assets/documents/cpars-guidance.pdf'
+  owner: builder
+- id: t-M120
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1701, 2125] — merge into one entry and repoint citations. https://files.gao.gov/reports/gao-25-107546/index.html'
+  owner: builder
+- id: t-M121
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1678, 2082] — merge into one entry and repoint citations. https://grants.nih.gov/funding/funding-categories/other-transactions'
+  owner: builder
+- id: t-M122
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [313, 2101] — merge into one entry and repoint citations. https://legacy.sba.gov/article/2026/09/22/sba-awards-more-8-million-fast-grants-fuel-next-generation-breakthrough-innovators'
+  owner: builder
+- id: t-M123
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1722, 2137] — merge into one entry and repoint citations. https://nstxl.org/faq-items/can-my-firm-join-a-specific-ota-consortium'
+  owner: builder
+- id: t-M124
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1679, 2083] — merge into one entry and repoint citations. https://oamp.od.nih.gov/sites/default/files/dapedocs/ot_policy_guide-final.pdf'
+  owner: builder
+- id: t-M125
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [98, 1954] — merge into one entry and repoint citations. https://s3.us-gov-west-1.amazonaws.com/publicdocs.diu.mil/diu_cso_hq0845-20-s-c001.pdf'
+  owner: builder
+- id: t-M126
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1627, 2109] — merge into one entry and repoint citations. https://s3.us-gov-west-1.amazonaws.com/publicdocs.diu.mil/dod_ot_guide_jul_2023_final+(1).pdf'
+  owner: builder
+- id: t-M127
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1711, 2110] — merge into one entry and repoint citations. https://www.acq.osd.mil/asda/dpc/cp/policy/docs/guidebook/dod%20ot%20guide%20(july%202023)%20-%20508%20update_11jul2025.pdf'
+  owner: builder
+- id: t-M128
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1470, 1619] — merge into one entry and repoint citations. https://www.acquisition.gov/dfars/252.227-7013-rights-technical-data%e2%80%94other-commercial-products-and-commercial-services.'
+  owner: builder
+- id: t-M129
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [618, 806, 1622] — merge into one entry and repoint citations. https://www.acquisition.gov/far-overhaul/far-part-deviation-guide/far-overhaul-part-12'
+  owner: builder
+- id: t-M130
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [482, 1620] — merge into one entry and repoint citations. https://www.acquisition.gov/far/35.016'
+  owner: builder
+- id: t-M131
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [837, 1501, 2118] — merge into one entry and repoint citations. https://www.acquisition.gov/far/42.1502'
+  owner: builder
+- id: t-M132
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [835, 2006] — merge into one entry and repoint citations. https://www.acquisition.gov/far/part-12'
+  owner: builder
+- id: t-M133
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [836, 2007] — merge into one entry and repoint citations. https://www.acquisition.gov/far/part-13'
+  owner: builder
+- id: t-M134
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [813, 2013] — merge into one entry and repoint citations. https://www.acquisition.gov/procurement-forecasts'
+  owner: builder
+- id: t-M135
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1688, 1943] — merge into one entry and repoint citations. https://www.americanbar.org/groups/public_contract_law/resources/procurement-lawyer/2026-winter/national-defense-authorization-act-fiscal-year-2026'
+  owner: builder
+- id: t-M136
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1753, 2135] — merge into one entry and repoint citations. https://www.amtcenterprise.org/ota-faqs'
+  owner: builder
+- id: t-M137
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [487, 2102] — merge into one entry and repoint citations. https://www.challenge.gov'
+  owner: builder
+- id: t-M138
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1690, 1944] — merge into one entry and repoint citations. https://www.crowell.com/en/insights/client-alerts/the-fy-2026-national-defense-authorization-act'
+  owner: builder
+- id: t-M139
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [388, 2040] — merge into one entry and repoint citations. https://www.dhs.gov/science-and-technology/funding-innovation'
+  owner: builder
+- id: t-M140
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [95, 1952] — merge into one entry and repoint citations. https://www.diu.mil/work-with-us/commercial'
+  owner: builder
+- id: t-M141
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [96, 1955] — merge into one entry and repoint citations. https://www.diu.mil/work-with-us/open-solicitations'
+  owner: builder
+- id: t-M142
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [914, 2014] — merge into one entry and repoint citations. https://www.doi.gov/pmb/osdbu/forecast'
+  owner: builder
+- id: t-M143
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1611, 2113] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-32/subtitle-a/chapter-i/subchapter-a/part-3'
+  owner: builder
+- id: t-M144
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [861, 2114] — merge into one entry and repoint citations. https://www.ecfr.gov/current/title-32/subtitle-a/chapter-i/subchapter-g/part-170/subpart-a/section-170.3'
+  owner: builder
+- id: t-M145
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1673, 2051] — merge into one entry and repoint citations. https://www.energy.gov/sites/default/files/2023-09/ot%20guide%20final%20sept%202023.pdf'
+  owner: builder
+- id: t-M146
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1665, 2124] — merge into one entry and repoint citations. https://www.fpds.gov/help/create_an_otagreement.htm'
+  owner: builder
+- id: t-M147
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1699, 2126] — merge into one entry and repoint citations. https://www.gao.gov/assets/gao-22-105357.pdf'
+  owner: builder
+- id: t-M148
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1709, 2129] — merge into one entry and repoint citations. https://www.gao.gov/products/gao-24-106214'
+  owner: builder
+- id: t-M149
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1136, 1610, 1937] — merge into one entry and repoint citations. https://www.govinfo.gov/content/pkg/plaw-119publ60/html/plaw-119publ60.htm'
+  owner: builder
+- id: t-M150
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [486, 2107] — merge into one entry and repoint citations. https://www.gsa.gov/technology/government-it-initiatives/prize-competitions'
+  owner: builder
+- id: t-M151
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1605, 1941] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/10/3014'
+  owner: builder
+- id: t-M152
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1606, 1939] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/10/3458'
+  owner: builder
+- id: t-M153
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1609, 1940] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/10/3702'
+  owner: builder
+- id: t-M154
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1604, 2112] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/10/4021'
+  owner: builder
+- id: t-M155
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1602, 1942] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/10/4022'
+  owner: builder
+- id: t-M156
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [811, 2011] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/15/637'
+  owner: builder
+- id: t-M157
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [597, 1489, 2012] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/15/644'
+  owner: builder
+- id: t-M158
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1536, 2015] — merge into one entry and repoint citations. https://www.law.cornell.edu/uscode/text/31/6303'
+  owner: builder
+- id: t-M159
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1750, 2134] — merge into one entry and repoint citations. https://www.nacconsortium.org/faq'
+  owner: builder
+- id: t-M160
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1517, 2099] — merge into one entry and repoint citations. https://www.nist.gov/tpo/partnering/overview'
+  owner: builder
+- id: t-M161
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1775, 2136] — merge into one entry and repoint citations. https://www.nstic.org/membership/faqs'
+  owner: builder
+- id: t-M162
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [316, 2100] — merge into one entry and repoint citations. https://www.sbir.gov/community/gafc'
+  owner: builder
+- id: t-M163
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [102, 1964] — merge into one entry and repoint citations. https://www.tradewindai.com/faqs'
+  owner: builder
+- id: t-M164
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [103, 1963] — merge into one entry and repoint citations. https://www.tradewindai.com/tw-marketplace'
+  owner: builder
+- id: t-M165
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1046, 1667] — merge into one entry and repoint citations. https://www.usaspending.gov/data/about-the-data-download.pdf'
+  owner: builder
+- id: t-M166
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [1047, 1714] — merge into one entry and repoint citations. https://www.usaspending.gov/data/data-sources-download.pdf'
+  owner: builder
+- id: t-M167
+  kind: conflict
+  about: references
+  text: 'Same URL in two slices: n [633, 1625] — merge into one entry and repoint citations. https://www.waru.edu/revolutionary-far-overhaul/announcements'
   owner: builder

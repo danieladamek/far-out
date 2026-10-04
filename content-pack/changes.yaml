@@ -1,0 +1,402 @@
+# changes.yaml — FAR Out content pack · assembled 2026-10-03 from all four family sweeps (SBIR/STTR; set-asides and vehicles; primes and partnering; OTs, consortia and CSOs). Every reference carries recheck: true until quotes are verified against live pages.
+- id: chg-arpa-h-isos-replace-open-baa
+  date: '2024-03-15'
+  status: final
+  basis: primary
+  what: 'ARPA-H announced four Mission Office Innovative Solutions Openings on March 15, 2024: "Awards made from
+    each Mission Office ISO will generally be in the form of other transactions." [2073] Per the sweep''s summary
+    of the announcement they replaced the agency-wide Open BAA [2073], which had been announced March 15, 2023 [2074].
+
+    '
+  affects:
+  - arpa-h-mission-office-isos
+  sources:
+  - 2073
+  - 2074
+- id: chg-dhs-ot-authority-sunset
+  date: '2024-09-30'
+  status: proposed
+  basis: primary
+  what: 'DHS''s other transaction authority at 6 U.S.C. 391 shows, in the text as displayed, a sunset of September
+    30, 2024 [2041]. A Senate committee report says the authority "expired on September 30, 2024" and that S. 4024
+    would extend it through fiscal year 2027 [2042]. No enacted extension was found in the sweep, so the status
+    recorded is that of the proposed extension.
+
+    '
+  affects:
+  - dhs-svip
+  sources:
+  - 2041
+  - 2042
+- id: chg-software-memo-2025-03
+  date: '2025-03-06'
+  status: final
+  basis: primary-partial
+  what: 'The Secretary''s memo "Directing Modern Software Acquisition to Maximize Lethality" is dated March 6, 2025
+    on the Software Acquisition pathway page [1916]. The November 2025 strategy restates it as making CSOs and OTs
+    "the default solicitation and award approaches for acquiring capabilities under the SWP" (p. 2) [1928], and
+    DIU''s account of it is dated March 7, 2025 [1919]. The memo PDF returned 403 and was not read.
+
+    '
+  affects:
+  - aaf-software-acquisition
+  - diu-cso
+  sources:
+  - 1916
+  - 1919
+  - 1928
+- id: chg-eo-14265
+  date: '2025-04-09'
+  status: final
+  basis: primary
+  what: 'Executive Order 14265, Modernizing Defense Acquisitions and Spurring Innovation in the Defense Industrial
+    Base, was signed April 9, 2025 and published April 15, 2025 (90 FR 15621) [1926]. It set a reform plan due within
+    60 days (Sec. 3), an MDAP review within 90 days with programs more than 15% behind schedule or over cost considered
+    for cancellation (Sec. 6), and a workforce plan within 120 days, including field training teams (Sec. 5) [1926].
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1926
+- id: chg-navalx-into-nrco
+  date: 2025-08
+  status: final
+  basis: primary
+  what: 'NavalX was folded into the Naval Rapid Capabilities Office in August 2025; the office consolidates NavalX,
+    the Disruptive Capabilities Office, the Maritime Accelerated Response Capability Cell and Replicator activities,
+    with Tech Bridges among its focus areas [1951].
+
+    '
+  affects:
+  - navalx-tech-bridges
+  sources:
+  - 1951
+- id: chg-acquisition-transformation-strategy
+  date: '2025-11-07'
+  status: announced
+  basis: primary
+  what: 'On November 7, 2025 the Secretary of War announced three memoranda and the Acquisition Transformation Strategy
+    [1927]. The 39-page strategy, posted November 10, 2025 and read in full, has five pillars, gives portfolio acquisition
+    executives "expanded authorities for resourcing, requirements, and acquisition decisions within prescribed portfolios"
+    (p. 15), directs OT authority "for prototype and follow-on production efforts where in the best interest of
+    the warfighter and the taxpayer" (p. 10), keeps MTA while eliminating its Advisory Boards (p. 20), and proposes
+    portfolio scorecards (p. 21) [1928].
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1927
+  - 1928
+- id: chg-was-memo
+  date: '2025-11-07'
+  status: announced
+  basis: secondary-only
+  what: 'SECONDARY ONLY: the memorandum "Transforming the Defense Acquisition System into the Warfighting Acquisition
+    System to Accelerate Fielding of Urgently Needed Capabilities to Our Warriors" is named in the official release
+    [1927]; its PDF returned 403 twice. A third-party-hosted copy or digest reports implementing guidance in 30
+    days, Military Department PAE implementation plans in 60 days, commercial-first guidance in 90 days and other
+    reforms in 180 days, with PAE terms of four years and a possible two-year extension [1929]. Law-firm digests
+    give differing day counts [1930] [1931] [1933] [1934]. None is confirmed against the memo.
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1927
+  - 1929
+  - 1930
+  - 1931
+  - 1933
+  - 1934
+- id: chg-blue-uas-to-dcma
+  date: '2025-12-03'
+  status: final
+  basis: primary
+  what: 'The Blue UAS Cleared List moved from DIU to the Defense Contract Management Agency effective December 3,
+    2025, ahead of a January 1, 2026 deadline, with 81 companies, 39 Blue UAS systems and 165 components as of November
+    19, 2025 [1962].
+
+    '
+  affects:
+  - blue-uas-cleared-list
+  sources:
+  - 1962
+- id: chg-ndaa-fy26-1802-pae
+  date: '2025-12-18'
+  status: final
+  basis: primary
+  what: 'FY2026 NDAA, Pub. L. 119-60 §1802, verified in the U.S. Code: 10 U.S.C. 1732 creates the portfolio acquisition
+    executive; program managers report to the PAE and the PAE reports to the CAE/SAE; 10 U.S.C. 1737(a)(4) now defines
+    PAE by reference to §1732(a), and the "program executive officer" definition was replaced [1938]. The Act''s
+    body text was not readable; section headings come from its table of contents [1937].
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1937
+  - 1938
+- id: chg-ndaa-fy26-1823-cso
+  date: '2025-12-18'
+  status: final
+  basis: primary
+  what: 'FY2026 NDAA, Pub. L. 119-60 §1823, verified in the U.S. Code: 10 U.S.C. 3458 now covers "commercial products,
+    commercial services, or nondevelopmental items through a competitive selection of proposals resulting from a
+    general solicitation"; the definition of "innovative" and the prior $100M approval requirement were removed
+    and follow-on production authority was added; awards are fixed-price; awards above $100,000,000 require congressional
+    notice within 45 days [1939].
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  - civilian-procurement-model
+  - tradewinds-solutions-marketplace
+  - ussocom-sof-atl-cso
+  - ot-agreement-structure
+  sources:
+  - 1939
+- id: chg-ndaa-fy26-1804-tina
+  date: '2025-12-18'
+  status: final
+  basis: primary
+  what: 'FY2026 NDAA, Pub. L. 119-60 §1804(c), verified in the U.S. Code: the certified cost or pricing data threshold
+    in 10 U.S.C. 3702 is $10,000,000 for prime contracts entered after June 30, 2026, replacing $2,000,000; modifications
+    $10,000,000 [1940]. One digest gives the prior figure as $2.5 million [1944], and FAR 15.403-4 prints $2.5 million
+    as fetched [2008].
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  - civilian-procurement-model
+  sources:
+  - 1940
+  - 1944
+  - 2008
+- id: chg-ndaa-fy26-1822
+  date: '2025-12-18'
+  status: final
+  basis: secondary-only
+  what: 'SECONDARY ONLY: FY2026 NDAA §1822, headed "commercial products and services" in the Act''s table of contents
+    [1937], is reported to require a written memorandum before noncommercial procurement methods are used [1943],
+    from the contracting officer and the PAE in one digest [1945]. Statute text not read.
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1937
+  - 1943
+  - 1945
+- id: chg-ndaa-fy26-1824
+  date: '2025-12-18'
+  status: final
+  basis: secondary-only
+  what: 'SECONDARY ONLY: FY2026 NDAA §1824, headed "flowdown limits" in the Act''s table of contents [1937], is
+    described in the sweep''s findings as flowdown limits for commercial subcontracts on the strength of the secondary
+    digests taken together [1943] [1944] [1945]; no digest''s recorded key facts give its terms. Statute text not
+    read.
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1937
+  - 1943
+  - 1944
+  - 1945
+- id: chg-ndaa-fy26-1826
+  date: '2025-12-18'
+  status: final
+  basis: secondary-only
+  what: 'SECONDARY ONLY for its content: FY2026 NDAA §1826 is headed "exemptions for nontraditional defense contractors"
+    in the Act''s table of contents [1937], and a Pub. L. 119-60 note on such exemptions, with waiver and congressional-notice
+    provisions, appears at 10 U.S.C. 3014 [1941]. One digest reports the exemptions as covering FAR Part 31 cost
+    principles and certified cost or pricing data [1943]. Another digest, as slice OD read it, cites §§ 811-812
+    and 826 for nontraditional defense contractors [1944]. Statute text not read.
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  - diu-cso
+  - ot-payable-milestones-cost-share
+  sources:
+  - 1937
+  - 1941
+  - 1943
+  - 1944
+- id: chg-ndaa-fy26-824
+  date: '2025-12-18'
+  status: final
+  basis: secondary-only
+  what: 'SECONDARY ONLY for its content: FY2026 NDAA §824 is headed "increasing competition in defense contracting"
+    in the Act''s table of contents [1937]. One digest reports it as guidance to accept nongovernment past performance
+    references [1943]. Statute text not read.
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1937
+  - 1943
+- id: chg-nsf-pfi-to-ttp
+  date: '2025'
+  status: final
+  basis: primary
+  what: 'NSF Translation to Practice (NSF 25-540) succeeded Partnerships for Innovation; the PFI solicitation NSF
+    23-538 is archived [2095] [2096]. The first TTP-T and TTP-P deadline was November 18, 2025 [2095].
+
+    '
+  affects:
+  - nsf-translation-to-practice
+  sources:
+  - 2095
+  - 2096
+- id: chg-awrs-2026
+  date: '2026-02-03'
+  status: announced
+  basis: primary
+  what: 'The Acquisition Workforce Reform Strategy carries a cover date of February 3, 2026; "2026-06" appears only
+    in its hosting path [1936]. It has four pillars and Field Training Teams, gives no numeric targets or deadlines,
+    and says almost nothing on industry entry [1936]. This corrects the project''s sketch, which dated it June 2026.
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1936
+- id: chg-pae-stand-up-2026
+  date: '2026-03-16'
+  status: final
+  basis: primary
+  what: 'PAE organisations stood up in 2026: Army Portfolio Acquisition Fires activated three Capability Program
+    Executives on February 17, 2026 [1950]; the Navy established five PAE organisations on March 16, 2026, PAE Robotics
+    and Autonomous Systems having been created in December 2025 [1948]; three more on May 11, 2026 made nine Department
+    of the Navy PAEs [1949]. The Air Force article returned 403.
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  - navalx-tech-bridges
+  sources:
+  - 1948
+  - 1949
+  - 1950
+- id: chg-challenge-gov-sunset
+  date: '2026-03-30'
+  status: final
+  basis: primary
+  what: '"The Challenge.gov platform was sunset on March 30, 2026. The content has moved to other government websites."
+    [2102] The public hub is now USA.gov/challenges, whose list shows only "select challenges and prize competitions
+    that are active now" [2103] [2104]; agencies promote challenges and manage applications themselves [2102].
+
+    '
+  affects:
+  - federal-prizes-after-challenge-gov
+  - dhs-prize-competitions
+  - prize-eligibility-rules
+  - dot-arpa-i-faa-ot
+  sources:
+  - 2102
+  - 2103
+  - 2104
+- id: chg-dowi-5000-02-april-2026
+  date: 2026-04
+  status: final
+  basis: unread
+  what: 'TEXT UNREAD: the official policy list shows "DoWI 5000.02, Operation of the Adaptive Acquisition Framework
+    — April 2026" [1902]. A secondary tracking site gives the day and calls it a change: the 23 January 2020 instruction
+    "with 8 April 2026 Change" [1906]. The fetch returned the January 23, 2020 text with Change 1 of June 8, 2022,
+    so the content of the April 2026 change is not known [1905].
+
+    '
+  affects:
+  - aaf-urgent-capability-acquisition
+  - aaf-middle-tier-of-acquisition
+  - aaf-major-capability-acquisition
+  - aaf-software-acquisition
+  - aaf-defense-business-systems
+  - aaf-acquisition-of-services
+  sources:
+  - 1902
+  - 1905
+  - 1906
+- id: chg-pl-119-106-ot-reporting
+  date: '2026-09-11'
+  status: pending-implementation
+  basis: primary
+  what: 'Pub. L. 119-106, the Stop Secret Spending Act of 2025 (enactment date as extracted by the fetch), amends
+    the Federal Funding Accountability and Transparency Act so that other transaction agreements are reported on
+    USAspending.gov: a compilation report within 1 year; "data relating to other transaction agreements is automatically
+    transmitted to the website" within 3 years; an implementation plan to Congress within 2 years if not compliant;
+    inspector general reports within 1 year and at least every 2 years for 10 years [2131]. GAO had found over $40
+    billion in OTAs not reported to USAspending.gov [2129].
+
+    '
+  affects:
+  - ot-payment-reporting
+  - consortium-project-agreement
+  sources:
+  - 2129
+  - 2131
