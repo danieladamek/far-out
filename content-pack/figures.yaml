@@ -1,0 +1,529 @@
+# figures.yaml — FAR Out · topic mode · written 2026-10-03
+# Eight figures. synthesis: data figures carry a CSV with a ref column on every row; conceptual figures carry
+# nodes/edges JSON. Paths are relative to the pack root. Scripts read the data file and write
+# figures/out/<id>.svg and .pdf. Refs are [n] numbers in references.yaml.
+- id: thresholds-2025
+  label: Figure 1
+  title: Dollar thresholds in force since October 1, 2025, and the text that sets each
+  kind: table
+  synthesis: data
+  refs: [331, 338, 339, 340, 417, 418, 438, 439, 562, 644, 650, 651, 653, 654, 692, 704, 947, 1036, 1325]
+  columns:
+  - field: threshold
+    label: Threshold
+  - field: governing_text
+    label: Governing text
+  - field: source_type
+    label: Kind of text
+  - field: amount_as_published
+    label: Figure as published
+  - field: amount_usd
+    label: Figure (US dollars)
+  - field: prior_as_published
+    label: Prior figure as published
+  - field: prior_usd
+    label: Prior figure (US dollars)
+  - field: effective
+    label: Effective
+  - field: status
+    label: Status
+  - field: note
+    label: Note
+  - field: ref
+    label: References
+  data: figures/data/thresholds-2025.csv
+  script: figures/scripts/thresholds-2025.py
+  caption: >-
+    Final rule 90 FR 41872 raised six thresholds on October 1, 2025 and left the bond, wage-rate and trade-agreements
+    figures alone [340] [417]. Each row gives the figure now in the text named, the figure it replaced where the
+    rule states one, and the text that prints it. Where two official texts disagree the table gives both. 13 CFR
+    125.3 still prints $750,000 and $1,500,000 for subcontracting plans against $900,000 and $2 million in FAR 19.702
+    [704] [692]. 13 CFR 124.506 prints $7,000,000, $4,500,000 and $25,000,000 for 8(a) awards against $8.5 million,
+    $5.5 million and $30 million in the FAR [331] [338] [339]. 10 U.S.C. 3702 reads $10,000,000 for defense prime
+    contracts entered into after June 30, 2026, against $2.5 million in FAR 15.403-4 [1036] [1325]. Construction
+    bonds start above $150,000 in the FAR and above $100,000 in the statute as read [644] [947]. Other dollar gates,
+    such as the $25,000 notice line [562] and the trafficking compliance plan [654], are in the gate records and
+    are not repeated here.
+  how_to_read: >-
+    Read across a row: the threshold, the figure in force, the figure before October 1, 2025, and the text that
+    prints it. Where you see the same threshold on two rows, two official texts disagree; the status column tells
+    you whether one text lags, or whether the second figure applies only to defense contracts. A blank in the prior
+    column means the references read do not state an earlier figure. It does not mean there was none. The governing
+    text named in each row is where the figure is printed.
+  explain:
+  - 'on': 'status: raised'
+    text: >-
+      The figure was changed by the inflation-adjustment rule, FAR Case 2024-001, published August 27, 2025 and
+      effective October 1, 2025 [417] [340].
+  - 'on': 'status: sources differ'
+    text: >-
+      Two official texts print different figures for the same threshold. The table shows both and does not pick
+      one. For subcontracting plans and the 8(a) figures the second text is an SBA regulation in Title 13 [704]
+      [331].
+  - 'on': 'status: not adjusted on 2025-10-01'
+    text: >-
+      The rule names these thresholds as left out of the adjustment: Construction Wage Rate Requirements, Service
+      Contract Labor Standards, performance and payment bonds, and trade agreements [340].
+  - 'on': Certified cost or pricing data, 10 U.S.C. 3702
+    text: >-
+      A later change in statute for defense contracts. Section 1804(c) of Pub. L. 119-60 raised the figure to $10,000,000
+      for prime contracts entered into after June 30, 2026; $2,000,000 applies on or before that date [1036].
+  - 'on': amount_usd and prior_usd
+    text: >-
+      The published figure written out as a whole number of dollars so that rows can be sorted and drawn. "$8.5
+      million" becomes 8500000. Nothing else was converted.
+  concepts: [how-a-buy-happens, what-a-set-aside-is, where-the-numbers-live]
+  discussed_in: [1-why-this-matters, 2-how-the-government-buys, 4-being-small, 7-the-gates, 8-what-changed, 9-how-to-read]
+  source: >-
+    Values are as published in the Federal Register rule, the codified FAR (FAC 2026-01), the eCFR text of 13 CFR
+    and the U.S. Code as read on October 1 to 4, 2026; each row names its text and carries its reference numbers.
+    The amount_usd and prior_usd columns restate the published figure as an integer; no inflation adjustment or
+    other conversion was made. The script draws the table as a before-and-after chart on a log scale.
+- id: sbir-amounts-by-agency
+  label: Figure 2
+  title: SBIR/STTR Phase I and Phase II amounts as posted, by agency and source
+  kind: chart
+  synthesis: data
+  refs: [5, 11, 12, 14, 31, 35, 37, 57, 58, 64, 67, 68, 71, 80, 81, 82, 86, 90, 92, 94, 126, 137, 146, 163, 169,
+    170, 172, 183, 185, 191, 193, 196, 206, 217]
+  chart:
+    type: grouped-bar
+    x:
+      field: label
+      label: Agency or component, and source
+    y:
+      field: amount_usd
+      label: Posted amount (US dollars; upper bound where a range is posted)
+    series:
+      field: phase
+      label: Phase
+  data: figures/data/sbir-amounts-by-agency.csv
+  script: figures/scripts/sbir-amounts-by-agency.py
+  caption: >-
+    Phase I and Phase II amounts as each source posted them when read on October 3, 2026, one row per source. The
+    SBA Policy Directive sets base guidelines of $150,000 and $1,000,000 [5], and SBIR.gov says that as of April
+    2026 agencies may go to $323,090 and $2,153,927 without seeking SBA approval [11]. Agency pages differ from
+    SBA's agency cards and from each other. The Army's How It Works page gives Phase I up to $300,000 and its Phases
+    page gives up to $250K [81] [82]. AFWERX's Get Funded page gives up to $323,000 and $2.1 million; its Open Topic
+    page gives $75K and $1.25M for SBIR [64] [67]. DHS limits Phase I to $100,000 on its own page where SBA's card
+    says $175,000 [196] [12]. NASA's solicitation gives $225,000 and its Phase II page $1,275,000 where SBA's card
+    says $150,000 and $1 Million [169] [172] [12]. Rows labelled SBA tutorial are older SBIR.gov tutorial pages;
+    they are kept because the Navy's amounts appear nowhere else in the references read [57]. The Missile Defense
+    Agency's page posts durations but no amounts and is not plotted [90].
+  how_to_read: >-
+    Each row is one source for one agency or component; the two bars are its Phase I and Phase II figures. Compare
+    rows that share an agency name to see where sources disagree. A bar shows a ceiling or a typical figure as the
+    source words it, not what any one award paid; the qualifier column tells you which. Where a source posts a range,
+    the bar is drawn at the upper end. A missing bar means that source did not give a figure for that phase.
+  explain:
+  - 'on': 'series: Phase I and Phase II'
+    text: >-
+      Phase I tests feasibility and Phase II continues the work. The directive gives base guidelines of $150,000
+      and $1,000,000, including modifications, and lets agencies go higher within limits [5].
+  - 'on': 'rows: SBA agency card'
+    text: >-
+      The card SBIR.gov shows for each participating agency. Its figures are often older or rounder than the agency's
+      own page or solicitation [12].
+  - 'on': 'rows: SBA tutorial'
+    text: >-
+      Individual-agency tutorial pages on SBIR.gov. They are undated and the records treat them as historical [57]
+      [58] [126].
+  - 'on': 'NIH: PA-27-100 component budget tables'
+    text: >-
+      NIH components may set budgets above the guideline. The parent announcement tables run from the SBA guideline
+      up to $700,000 for Phase I and $3,000,000 for Phase II [137].
+  - 'on': amount_usd
+    text: >-
+      The published figure in whole dollars. For a range it is the upper bound; where a page gives separate SBIR
+      and STTR figures it is the SBIR figure; where a base and an option are given it is the base. The amount_as_published
+      column keeps the original wording.
+  concepts: [sbir-phases-101, where-the-numbers-live]
+  discussed_in: [5-getting-funded-for-rd, 9-how-to-read]
+  source: >-
+    Amounts are as published on the page, card or solicitation named in each row, read October 3, 2026, with units
+    and wording kept in amount_as_published. The amount_usd column restates one figure per row in whole dollars
+    for plotting (upper bound of a range; SBIR figure where SBIR and STTR differ; base where an option is listed).
+    No other conversion; no averaging across sources.
+- id: ot-obligations
+  label: Figure 3
+  title: DoD other transaction obligations by fiscal year, as GAO reports them
+  kind: chart
+  synthesis: data
+  refs: [1070, 1071, 1119, 1121]
+  chart:
+    type: grouped-bar
+    x:
+      field: fiscal_year
+      label: Fiscal year
+    y:
+      field: obligations_usd_billion
+      label: Obligations (US dollars, billions, as GAO reports them)
+    series:
+      field: measure
+      label: Measure and GAO report
+  data: figures/data/ot-obligations.csv
+  script: figures/scripts/ot-obligations.py
+  caption: >-
+    GAO puts DoD's obligations through prototype and production other transactions at over $18 billion in fiscal
+    year 2024, with prototype agreements over $16 billion and production through follow-on authority $2 billion
+    [1121] [1070]. For fiscal years 2021 to 2024 together it reports $62.9 billion, of which prototype agreements
+    were $56.3 billion, or 90 percent [1121]. The consortia-based part is the only one reported year by year in
+    the references read: $5,218.5 million, $12,644.6 million and $6,474.8 million for fiscal years 2019 to 2021
+    in the 2022 report [1119], and $8.1 billion, $6.0 billion, $7.1 billion and $7.0 billion for fiscal years 2021
+    to 2024 in the 2025 report [1121]. The two reports give different figures for fiscal year 2021 and neither reference
+    says why. As shares, GAO gives consortia nearly two-thirds of prototype dollars in fiscal years 2019 to 2021
+    and about half of prototype obligations in 2021 to 2024; both are period figures, not yearly ones [1071] [1121].
+    Not plotted: GAO's totals for fiscal years 2016 and 2021, and the yearly totals the sweep read off the report's
+    Figure 2, because the recheck could not confirm them on the page read [1070].
+  how_to_read: >-
+    Each bar is one figure from one GAO report for one fiscal year; the legend tells you which report and which
+    measure. Only fiscal year 2024 has a total, and it is published as "over $18 billion", so that bar marks a floor
+    and not an exact value. The other years show only the part that ran through consortia. Where you see two consortia
+    bars for fiscal year 2021, the two reports disagree. You cannot read a trend in total obligations from this
+    chart, because the earlier totals are not in it.
+  explain:
+  - 'on': 'series: Consortia-based OTs'
+    text: >-
+      Obligations on other transactions awarded through a consortium, where DoD awards a base agreement to a management
+      organization and the manager issues a sub-award to the member chosen [1119].
+  - 'on': bars labelled "over"
+    text: >-
+      GAO states these as lower bounds ("over $18 billion", "over $16 billion"). The bar is drawn at the stated
+      floor; the true figure is higher by an amount the references do not give [1121] [1070].
+  - 'on': 'FY2021: two bars'
+    text: >-
+      The 2022 report gives $6,474.8 million and the 2025 report $8.1 billion for consortia-based obligations in
+      the same year. Both are shown as published [1119] [1121].
+  - 'on': consortia_share_as_published
+    text: >-
+      The share is stated for a span of years, not per year: nearly two-thirds of prototype dollars for fiscal years
+      2019 to 2021, and about half of prototype obligations for 2021 to 2024 [1071] [1121].
+  - 'on': read_off_figure
+    text: >-
+      Whether the reference says a value was read off a chart in the report. None of the plotted rows is marked
+      that way; the values that were read off GAO's Figure 2 failed the recheck and are left out [1070].
+  concepts: [other-transactions-101, where-the-numbers-live]
+  discussed_in: [1-why-this-matters, 2-how-the-government-buys, 6-working-through-others]
+  source: >-
+    Values are as published in GAO-22-105357 (Table 1) and GAO-25-107546, kept in the as_published column. Figures
+    given in millions of dollars were divided by 1,000 to put every bar on one axis in billions; no inflation adjustment
+    and no other conversion was made. Figures published as "over" are plotted at the stated floor and flagged in
+    the qualifier column.
+- id: consortia-dues
+  label: Figure 4
+  title: Posted membership dues and fees on awards, by consortium
+  kind: table
+  synthesis: data
+  refs: [1115, 1119, 1138, 1142, 1147, 1150, 1151, 1154, 1160, 1161, 1162, 1164, 1165, 1168, 1169, 1170, 1172, 1173,
+    1178, 1180, 1181, 1183, 1184, 1185, 1186, 1187, 1190, 1191, 1193, 1194, 1196, 1197, 1203, 1204, 1206, 1208,
+    1209, 1214, 1215, 1220, 1221, 1222, 1223, 1224, 1225, 1227, 1228, 1229, 1230, 1231, 1235]
+  columns:
+  - field: consortium
+    label: Consortium
+  - field: acronym
+    label: Short name
+  - field: manager
+    label: Manager
+  - field: sponsor
+    label: Sponsor
+  - field: dues_as_posted
+    label: Dues as posted
+  - field: dues_period
+    label: Period
+  - field: fee_on_awards_as_posted
+    label: Fee on awards as posted
+  - field: note
+    label: Note
+  - field: record
+    label: Record
+  - field: ref
+    label: References
+  data: figures/data/consortia-dues.csv
+  script: figures/scripts/consortia-dues.py
+  caption: >-
+    Posted dues and fees on awards for the 21 consortia whose pages gave a figure when read on October 3 and 4,
+    2026, with the manager and sponsor each names. Dues run from nothing (JDEC, NSTIC, RRPV, Cornerstone, and DIBC
+    in its first year) to $10,000 a year at the top of NSTXL's revenue scale [1138] [1193] [1215] [1235] [1191].
+    Where a rate on awards is posted it runs from 0.05% of awarded funding at NSTIC to 0.15% at AMTC and 0.5% at
+    DOTC and NEST [1194] [1169]. The CMG consortia state a fixed-percentage fee without a rate; the only rate found,
+    4.3%, is from C5's 2017 base agreement [1220] [1222] [1224]. NSTXL says it takes nothing from the performer
+    and is paid a management fee by the Government [1142]. On the 12 agreements GAO reviewed, managers' compensation
+    ran from 0.7% to 21.3% of obligated dollars [1119]. A blank cell means no figure was posted on the pages read.
+    Consortia with no posted figure at all are left out (MSTIC, EMC2, MATAC, DAF TENCAP, NSC, BioMaP, HSTech, SOSSEC,
+    SCEC, UCAH, DATC and DEC); their records say what was and was not found.
+  how_to_read: >-
+    Each row is one consortium. Read the dues column for what you would pay to belong and the fee column for what
+    is taken when a project is awarded; the two are separate charges and a consortium may post one, both or neither.
+    A blank is not a zero: it means the pages read gave no figure. Where the manager or sponsor cell is blank, the
+    note says what the sources disagreed on.
+  explain:
+  - 'on': 'column: Manager'
+    text: >-
+      The organization that runs the consortium under a base agreement with the government. GAO names four main
+      ones: ATI, CMG, NSTXL and SOSSEC [1119].
+  - 'on': 'column: Dues as posted'
+    text: >-
+      What the consortium's own join or membership page states, in its words. NSTXL charges one membership for every
+      agreement it manages, scaled by annual revenue [1138] [1142].
+  - 'on': 'column: Fee on awards as posted'
+    text: >-
+      A charge assessed on project awards, stated as a percentage of awarded funding where a rate is given. Several
+      consortia state that an assessment applies without giving the rate [1178] [1183] [1204].
+  - 'on': AMTC
+    text: >-
+      The 0.15% assessment appears on two pages with different effective dates: October 1, 2020 on the AMTC FAQ
+      and October 1, 2023 on the NAC FAQ [1172] [1169].
+  - 'on': NASC
+    text: >-
+      The dues figure comes from 2022 industry-day slides hosted by a third party and is not on the current site
+      [1227].
+  concepts: [other-transactions-101, partnering-forms-101]
+  discussed_in: [2-how-the-government-buys, 6-working-through-others]
+  source: >-
+    Dues and fees are as posted on each consortium's or manager's own page or agreement, in the wording of the source,
+    read October 3 and 4, 2026; the IWRP figures come from a membership agreement conformed in 2021 and the NASC
+    figure from 2022 slides, as the notes say. Nothing was converted, annualised or averaged. The script draws the
+    table as a figure.
+- id: goals-vs-results
+  label: Figure 5
+  title: Statutory small-business goals and reported results, fiscal years 2024 and 2025
+  kind: chart
+  synthesis: data
+  refs: [317, 374, 378, 381, 382]
+  chart:
+    type: grouped-bar
+    x:
+      field: category
+      label: Category of firm
+    y:
+      field: percent
+      label: Share of prime contract dollars (percent)
+    series:
+      field: measure
+      label: Goal or reported result
+  data: figures/data/goals-vs-results.csv
+  script: figures/scripts/goals-vs-results.py
+  caption: >-
+    The statute sets governmentwide goals of not less than 23 percent of prime contract awards for small business,
+    5 percent each for small disadvantaged, women-owned and service-disabled veteran-owned firms, and 3 percent
+    for HUBZone firms [374]. SBA's January 2025 release, described there as preliminary, put fiscal year 2024 at
+    28.78, 12.26, 4.97, 5.15 and 2.74 percent [381]. For fiscal year 2025 the Congressional Research Service's table
+    gives 27.58, 11.60, 4.52, 5.01 and 2.66 percent [378]. SBA's June 2026 release gives nearly 28 percent for small
+    business (27.9 as extracted) and 11.6 percent for small disadvantaged firms, says service-disabled veteran-owned
+    firms were over the 5 percent target, and gives no women-owned or HUBZone figure [382]. The sources differ in
+    small ways and both are shown: the 2026 release restates the fiscal year 2024 small disadvantaged figure as
+    12.27 percent against 12.26, and its small business share for 2025 is above the CRS figure [382] [381] [378].
+    The two SBA releases were not re-read in the recheck pass.
+  how_to_read: >-
+    Each group of bars is one category of firm. The grey bar is the floor the statute sets; the coloured bars are
+    what was reported for fiscal years 2024 and 2025. A coloured bar taller than the grey one means the reported
+    share was above the goal. Where you see two bars for the same year, two sources gave different figures. There
+    is no SBA bar for women-owned or HUBZone firms in 2025 because the release did not give one.
+  explain:
+  - 'on': 'series: Statutory goal'
+    text: >-
+      The governmentwide floors in 15 U.S.C. 644(g): small business not less than 23 percent of prime contract awards;
+      the statute states the service-disabled veteran goal as a share of prime and subcontract awards [374].
+  - 'on': 'series: FY2024 result'
+    text: >-
+      From SBA's release of January 10, 2025, which called the numbers preliminary prime contracting figures. The
+      final scorecard for that year was not among the references read [381].
+  - 'on': 'series: FY2025 result (CRS)'
+    text: >-
+      From a Congressional Research Service Insight dated June 30, 2026; the five percentages were confirmed against
+      its Table 2 on recheck. It is the only reference with women-owned and HUBZone figures for the year [378].
+  - 'on': 'series: FY2025 result (SBA release)'
+    text: >-
+      The release words the small business share as "nearly 28%"; the 27.9 plotted is the figure as extracted from
+      the same release, which was not re-read on recheck [382].
+  - 'on': Small disadvantaged (SDB)
+    text: >-
+      SBA's February 2025 release says the SDB goal was returned to its statutory level of 5 percent; the statute's
+      floor is the grey bar [317] [374].
+  concepts: [what-a-set-aside-is, where-the-numbers-live]
+  discussed_in: [1-why-this-matters, 4-being-small, 8-what-changed]
+  source: >-
+    Percentages are as published in 15 U.S.C. 644(g), SBA News Releases 25-24 and 26-64 and CRS Insight IN12018,
+    each row naming its source; none was rounded, averaged or recomputed from dollar figures. Where two sources
+    give different figures for the same year both rows are kept.
+- id: route-decision
+  label: Figure 6
+  title: From where a firm stands to the routes that fit
+  kind: pathway
+  synthesis: conceptual
+  refs: [1, 3, 5, 128, 129, 225, 271, 300, 303, 331, 338, 339, 349, 357, 368, 374, 384, 418, 438, 439, 440, 442,
+    451, 477, 608, 692, 704, 730, 761, 770, 773, 785, 787, 992, 1028, 1029, 1031, 1033, 1040, 1119]
+  data: figures/data/route-decision.json
+  script: figures/scripts/route-decision.py
+  caption: >-
+    A decision flow built from the situation tags on the route and program records. A firm starts from one of five
+    situations; each leads to the route families that hold at least one route tagged for it, and each family opens
+    onto its main routes with the text that governs them. A firm that is not yet registered meets the SAM.gov gate
+    first, because registration is required when submitting an offer and at award [303]. Set-asides and the certified
+    programs rest on FAR Part 19 and 15 U.S.C. 644 [384] [374] [338] [349] [368] [357]. SBIR and STTR rest on 15
+    U.S.C. 638, the SBA Policy Directive and Pub. L. 119-83 [3] [5] [1]. Other transactions and commercial solutions
+    openings rest on 10 U.S.C. 4021, 4022 and 3458 [1031] [1028] [1033]. Partnering routes rest on FAR subpart 9.6,
+    13 CFR Parts 121 and 125, and 10 U.S.C. 4902 [761] [770] [773] [785] [451]. This is a conceptual figure: it
+    shows which routes the records tag for each situation, not which routes any one firm qualifies for.
+  how_to_read: >-
+    Start at the left with the situation closest to yours and follow its lines to the route families; a thicker
+    line means more of the routes shown carry that situation tag. Each family box fans out to its main routes on
+    the right. A route box names the record to open, and the record names the governing text. If you are not yet
+    registered, the gate box above that situation comes before any route.
+  explain:
+  - 'on': 'nodes: situation'
+    text: >-
+      The five starting points the pathfinder asks about: not yet registered, registered with no award, first awards
+      and growing, holding a technology that needs funding, and looking for partners. They are the situations tags
+      on the records.
+  - 'on': 'nodes: family'
+    text: >-
+      The four families of routes the guide is organised by: set-asides and vehicles, SBIR/STTR and innovation front
+      doors, other transactions and commercial solutions openings, and primes and partnering.
+  - 'on': 'edges: situation to family'
+    text: >-
+      Drawn where at least one of the routes shown is tagged for that situation in routes.yaml or programs.yaml.
+      The routes list on each edge in the data file names them.
+  - 'on': 'node: SAM.gov gate'
+    text: >-
+      An offeror is required to be registered in SAM when submitting an offer or quotation and at time of award;
+      registration generates the Unique Entity ID [303] [608].
+  - 'on': 'nodes: route'
+    text: >-
+      One route or program record each, with its governing text. The 26 shown are the main routes of each family;
+      the records hold the rest, including the agency programs and the individual consortia.
+  concepts: [how-a-buy-happens, what-a-set-aside-is, sbir-phases-101, other-transactions-101, partnering-forms-101]
+  discussed_in: [1-why-this-matters, 2-how-the-government-buys, 9-how-to-read]
+  source: >-
+    Conceptual figure drawn by the builder. Nodes and edges are in figures/data/route-decision.json; the situation
+    and family of each route are taken from the situations and family fields of routes.yaml and programs.yaml as
+    of October 3, 2026, and the governing texts from the governing_text field or the cited statute or regulation.
+    No values were converted. Which 26 routes count as main is an editorial choice.
+- id: changes-timeline
+  label: Figure 7
+  title: What changed, December 2024 to October 2026, by status
+  kind: chart
+  synthesis: data
+  refs: [1, 2, 3, 5, 7, 24, 25, 27, 28, 29, 35, 59, 61, 140, 142, 143, 227, 228, 233, 276, 291, 292, 312, 313, 314,
+    317, 318, 319, 321, 322, 323, 325, 340, 374, 377, 380, 382, 386, 389, 391, 392, 400, 401, 402, 403, 404, 405,
+    406, 407, 408, 409, 410, 417, 418, 436, 484, 486, 487, 488, 489, 490, 502, 503, 504, 509, 510, 513, 519, 521,
+    522, 546, 547, 548, 549, 575, 584, 622, 623, 625, 627, 630, 631, 697, 699, 700, 701, 704, 720, 721, 723, 724,
+    728, 765, 806, 828, 829, 1032, 1033, 1036, 1040, 1046, 1047, 1048, 1108, 1110, 1129, 1238, 1241, 1242, 1252,
+    1255, 1262, 1263, 1264, 1265, 1266, 1267, 1269, 1270, 1272, 1273, 1274, 1277, 1278, 1279, 1280, 1288, 1295,
+    1303, 1311, 1325, 1344, 1398, 1401, 1405, 1406, 1421]
+  chart:
+    type: scatter
+    x:
+      field: plot_date
+      label: Date of the change
+      unit: date
+    y:
+      field: status
+      label: Status
+    series:
+      field: basis
+      label: How the change is sourced
+  data: figures/data/changes-timeline.csv
+  script: figures/scripts/changes-timeline.py
+  caption: >-
+    The 51 dated changes recorded between December 2024 and October 2026, placed by date and by status: final, class
+    deviation, pending implementation, proposed or announced. The series says how each is sourced. Most of the anchors
+    of this guide moved inside the window: the order for the FAR overhaul (April 15, 2025) [386], the threshold
+    rise (October 1, 2025) [417], the fiscal year 2026 defense authorization act (December 18, 2025) [1273] [1033],
+    the SBIR and STTR reauthorization (April 13, 2026) [1], the CMMC Phase II suspension (announced July 13, 2026)
+    [625] and the 8(a) rule (final August 11, 2026, effective September 10, 2026) [314]. Eight items are known here
+    only from secondary sources or from texts that could not be read, and they are marked as such. Left off the
+    chart: one record dated only to the year 2025, NSF Translation to Practice [1401], and three records dated outside
+    the window.
+  how_to_read: >-
+    Time runs left to right and each row is a status, so you can see at a glance what is law (final), what is in
+    use by deviation, what is enacted but not yet implemented, and what is only proposed or announced. Each point
+    is one change record; points stacked at one date happened on the same day. Check the series before you rely
+    on a point: anything not marked as read from a primary text is reported, not confirmed. A point shows when a
+    change was made or announced, which is not always when it takes effect.
+  explain:
+  - 'on': 'y: status'
+    text: >-
+      The status word on the change record. Final means a law, final rule or completed action; class-deviation means
+      agencies follow new text while the codified text stays in force; pending-implementation means enacted with
+      no implementing document found; proposed and announced carry no legal effect yet.
+  - 'on': 'series: basis'
+    text: >-
+      How the record is sourced: primary (the governing text or official page was read), primary-partial (read in
+      part), secondary-only (reported by commentary only), unread (the text is listed but could not be read) or
+      unconfirmed (not confirmed as live).
+  - 'on': points at 2025-12-18
+    text: >-
+      Ten records share December 18, 2025: nine on the fiscal year 2026 defense authorization act and one on DoD
+      class deviations dated the same day. Sections 1802, 1823 and 1804 were verified in the U.S. Code [1273] [1033]
+      [1036]; sections 1822, 1824 and 824 were read as headings only and their content comes from digests [806]
+      [1108].
+  - 'on': plot_date
+    text: >-
+      The date field of the record. Three records give only a month and are placed on its first day; the date_precision
+      column marks them.
+  - 'on': class-deviation row
+    text: >-
+      The FAR overhaul reaches contracts this way for now: model text is issued part by part and adopted agency
+      by agency. Part 19 was taken up by GSA from November 3, 2025 and by DoD from February 1, 2026 [400] [402].
+  concepts: [where-the-numbers-live, how-a-buy-happens]
+  discussed_in: [8-what-changed, 1-why-this-matters, 9-how-to-read]
+  source: >-
+    One row per record in changes.yaml dated from December 2024 to October 2026; date, status, basis and sources
+    are copied from the record and the short title is the builder's. Month-only dates are plotted on the first of
+    the month (plot_date) with the original kept in date. Nothing else was converted.
+- id: sbir-phases
+  label: Figure 8
+  title: SBIR/STTR from Phase I to Phase III, with the branches around it
+  kind: pathway
+  synthesis: conceptual
+  refs: [1, 5, 10, 11, 20, 29, 31, 35, 55, 64, 108, 109, 149, 225, 235, 236, 239]
+  data: figures/data/sbir-phases.json
+  script: figures/scripts/sbir-phases.py
+  caption: >-
+    SBIR and STTR run in three phases. Phase I tests feasibility, with a base guideline of $150,000; Phase II continues
+    the work, with a base guideline of $1,000,000; Phase III is work that derives from, extends or completes the
+    earlier work and is paid from other funds, with no limit on number, duration, type or dollar value [5]. As of
+    April 2026 agencies may go to $323,090 and $2,153,927 without seeking SBA approval [11]. Around that line sit
+    the branches. Direct to Phase II skips Phase I on a written determination of demonstrated feasibility and now
+    runs until September 30, 2031 at NIH, DoD, Education, DOE and NASA [5] [1]. Fast-Track, at NSF, joins a $400,000
+    Phase I component to a Phase II of up to $1,155,000 in one award [35]. One sequential Phase II may follow the
+    first [5]. The Strategic Breakthrough award is not more than $30,000,000 over not more than 48 months and needs
+    at least one prior Phase II award and not less than 100 percent matching funds [1]. After Phase II, agency transition
+    programs add money or help: TACFI and STRATFI [236], Army CATALYST [239], the Navy's STP [235], ART [55], APFIT
+    [108] [109], NIH's Commercialization Readiness Pilot [31] and NSF's Phase IIB supplement [35]. An agency may
+    award Phase III sole source under 15 U.S.C. 638(r)(4) [225].
+  how_to_read: >-
+    Follow the heavy line left to right for the standard path: Phase I, Phase II, Phase III. The boxes above and
+    below Phase I are other ways in, and both arrive at Phase II. The boxes after Phase II are what can follow it
+    before or alongside Phase III; the list under the transition box names the agency programs. Open a box in the
+    app to see its amounts, time limits and the text behind them. The figure shows what the rules allow, not what
+    any agency will fund in a given year.
+  explain:
+  - 'on': 'node: Phase III'
+    text: >-
+      Not a third award from the SBIR budget. It is any work that derives from, extends or completes Phase I or
+      II work, funded from other sources, and the size limits for Phases I and II do not apply to it [5].
+  - 'on': 'node: Direct to Phase II'
+    text: >-
+      The posted directive still lists only NIH, DoD and Education and an expired date; Pub. L. 119-83 extended
+      the authority to September 30, 2031 and added DOE, NASA and STTR [5] [1].
+  - 'on': 'node: Strategic Breakthrough award'
+    text: >-
+      A new tier in the 2026 act for agencies whose required SBIR spending exceeds $100,000,000. Defense awards
+      carry extra conditions, including a commitment from a senior acquisition official [1].
+  - 'on': 'node: Fast-Track'
+    text: >-
+      NIH also offers Fast-Track and counts those applications in its per-firm limit of nine a fiscal year [31]
+      [29].
+  - 'on': 'nodes: transition programs'
+    text: >-
+      Each has its own eligibility and matching rule. APFIT is procurement funding that only a government organisation
+      can request on a firm's behalf; the firm must be a small business, a nontraditional defense contractor, or
+      one with no more than $400,000,000 in contracts in the prior year [109].
+  concepts: [sbir-phases-101]
+  discussed_in: [5-getting-funded-for-rd]
+  source: >-
+    Conceptual figure drawn by the builder. Nodes and edges are in figures/data/sbir-phases.json. Amounts and durations
+    in the node details are as the cited statute, directive and agency pages give them; nothing was converted. The
+    transition programs shown are those with a program record in this pack and are not a complete list.

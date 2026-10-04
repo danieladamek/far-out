@@ -12,6 +12,8 @@ Each route carries the gates a firm must clear first, from registration in SAM.g
 <!-- section: 1-why-this-matters -->
 ## Why this matters: several systems, not one
 
+<!-- figure: route-decision -->
+
 A first look at federal contracting suggests one enormous customer with one rulebook. It is closer to the truth to say there are several customers with several rulebooks, and that the door a firm walks through decides which one applies. A firm that wins a set-aside contract lives under the Federal Acquisition Regulation, with its representations, clauses and thresholds; a firm that wins a prototype agreement from a defense consortium does not, and the department's own guide says the FAR, the Cost Accounting Standards and the Contract Disputes Act are not applicable to such an agreement [1053] [1063]. The same firm, with the same product, can be a contractor, an awardee, a subcontractor or a consortium member, and each word carries a different set of obligations and protections.
 
 The money is real and the share reserved for small firms is set in law. The statute sets a governmentwide goal of not less than 23 percent of prime contract dollars for small businesses, with 5 percent each for small disadvantaged, women-owned and service-disabled veteran-owned firms and 3 percent for HUBZone firms [374]. SBA's release for fiscal year 2025 reports nearly 28 percent of prime contract dollars, $179 billion, going to small businesses [382]. The research side is reserved too: agencies with large extramural research budgets must spend not less than 3.2 percent on SBIR and 0.45 percent on STTR, programs only small firms may hold [3] [10]. Outside the FAR, defense obligations through Other Transactions passed $18 billion in fiscal year 2024, about half of the prototype money moving through consortia [1121].
@@ -26,6 +28,8 @@ The chapters that follow move from the buyer's side of the table to the firm's: 
 
 <!-- section: 2-how-the-government-buys -->
 ## How the government buys: FAR and non-FAR
+
+<!-- figure: ot-obligations -->
 
 Taken together, the rules below describe a sequence: an agency plans a purchase, forecasts it, researches the market, and only then picks a buying method [1323] [579] [1324]. <!-- synthesis -->
 Most methods sit in the Federal Acquisition Regulation (FAR); a few defense instruments rest on statutes outside it, and a rewritten FAR is now in use beside the codified one [1053] [400].
@@ -100,6 +104,8 @@ The Middle Tier and framework instructions, as returned, are silent [1251] [1261
 <!-- section: 4-being-small -->
 ## Being small: size standards, affiliation, certifications
 
+<!-- figure: goals-vs-results -->
+
 Small, in federal contracting, is a measured status. A firm is small when it sits under the ceiling for the industry a purchase is assigned to, with the firms it is tied to counted in. The certifications sit on top of that test, each with its own rules. [278] [297]
 
 The ceiling is set per NAICS industry, in employees or in average annual receipts (13 CFR 121.201). Receipts are averaged over five completed fiscal years; employees over the preceding 24 calendar months. SBA's Size Standards Tool is at sba.gov/size-standards. [284] [281] [282] [280]
@@ -131,6 +137,9 @@ Size protests, and HUBZone, WOSB and SDVOSB status protests, are due by the fift
 <!-- section: 5-getting-funded-for-rd -->
 ## Getting funded for R&D: SBIR/STTR end to end
 
+<!-- figure: sbir-amounts-by-agency -->
+<!-- figure: sbir-phases -->
+
 SBIR and STTR pay small firms to research and develop their own technology, in phases. Only small firms can hold the awards, and large research agencies must spend 3.2 percent or more (SBIR) and 0.45 percent (STTR) of extramural research budgets on them, which makes this the route built for a small firm with a technology [10][3]. Eleven agencies take part, six with STTR, each differently [12].
 
 The authority is 15 U.S.C. 638 and the SBA Policy Directive effective May 3, 2023 [3][5]. The codified statute ended SBIR authority on September 30, 2025; NIH's notice dates the expiry to October 1, 2025 [3][27]. Pub. L. 119-83, approved April 13, 2026, restored the programs through September 30, 2031, after what the Congressional Research Service calls a six-month lapse [1][59].
@@ -155,6 +164,8 @@ Beside SBIR, a broad agency announcement under FAR 35.016 selects research propo
 
 <!-- section: 6-working-through-others -->
 ## Working through others: subcontracting, teaming, joint ventures, mentor-protégé, consortia
+
+<!-- figure: consortia-dues -->
 
 A small firm can do federal work without holding a federal contract.
 Taken together, the rules below show each form answering three questions differently: who counts as small, who does the work, who gets paid when. <!-- synthesis -->
@@ -186,6 +197,8 @@ CPARS says "Evaluations are not completed for subcontractors." [985], but a smal
 
 <!-- section: 7-the-gates -->
 ## The gates: what stands between a firm and an award
+
+<!-- figure: thresholds-2025 -->
 
 A gate is anything a firm needs in place before the government can award to it or pay it: a registration, a statement about itself, or a rule that switches on with a contract's size or subject.
 Taken together, the gate records sort four ways: nearly every route, above a dollar threshold, by what the work touches, and by contract type. <!-- synthesis -->
@@ -222,6 +235,8 @@ CMMC, the suspension: on July 13, 2026 the Department of War announced the immed
 
 <!-- section: 8-what-changed -->
 ## What changed in 2025–26, and what is still pending
+
+<!-- figure: changes-timeline -->
 
 Many figures and systems in this guide changed recently, and an agency page may still show the older one.
 Taken together, the dated items below show that nearly every anchor of this field moved in the twelve months before October 3, 2026, and that official pages lag. <!-- synthesis -->

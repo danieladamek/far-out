@@ -1,0 +1,11 @@
+fiscal_year,measure,obligations_usd_billion,as_published,qualifier,consortia_share_as_published,read_off_figure,note,ref
+FY2019,Consortia-based OTs (GAO-22-105357),5.2185,"$5,218.5M",exact,"nearly two-thirds of prototype OT dollars, FY2019-FY2021 (period figure)",not stated,"Table 1, p. 11.",1119;1071
+FY2020,Consortia-based OTs (GAO-22-105357),12.6446,"$12,644.6M",exact,"nearly two-thirds of prototype OT dollars, FY2019-FY2021 (period figure)",not stated,"Table 1, p. 11.",1119;1071
+FY2021,Consortia-based OTs (GAO-22-105357),6.4748,"$6,474.8M",exact,"nearly two-thirds of prototype OT dollars, FY2019-FY2021 (period figure)",not stated,"Table 1, p. 11. The 2025 report gives a different FY2021 figure.",1119;1071
+FY2021,Consortia-based OTs (GAO-25-107546),8.1,$8.1B,exact,"about half of prototype OT obligations, FY2021-FY2024 (period figure)",not stated,The 2022 report gives a different FY2021 figure; neither reference says why.,1121
+FY2022,Consortia-based OTs (GAO-25-107546),6.0,$6.0B,exact,"about half of prototype OT obligations, FY2021-FY2024 (period figure)",not stated,,1121
+FY2023,Consortia-based OTs (GAO-25-107546),7.1,$7.1B,exact,"about half of prototype OT obligations, FY2021-FY2024 (period figure)",not stated,,1121
+FY2024,Consortia-based OTs (GAO-25-107546),7.0,$7.0B,exact,"about half of prototype OT obligations, FY2021-FY2024 (period figure)",not stated,,1121
+FY2024,All DoD prototype and production OTs (GAO-25-107546),18,over $18 billion,over (lower bound),,not stated,"Published as ""over""; the bar is drawn at the stated floor.",1121
+FY2024,Prototype OTs (GAO-25-107546),16,over $16 billion,over (lower bound),,not stated,"Published as ""over""; the bar is drawn at the stated floor.",1070
+FY2024,Production OTs (GAO-25-107546),2,$2 billion,as stated,,not stated,Production through follow-on authority.,1070;1121

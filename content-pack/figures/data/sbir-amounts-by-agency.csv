@@ -1,0 +1,78 @@
+label,agency,component,source_label,basis,phase,amount_as_published,amount_usd,qualifier,note,ref
+All agencies · SBA Policy Directive (May 2023),Government-wide,All agencies,SBA Policy Directive (May 2023),governing-text,Phase I,"$150,000",150000,guideline,"Base guideline, including modifications.",5
+All agencies · SBA Policy Directive (May 2023),Government-wide,All agencies,SBA Policy Directive (May 2023),governing-text,Phase II,"$1,000,000",1000000,guideline,"Base guideline, including modifications.",5
+All agencies · SBIR.gov About page (as of April 2026),Government-wide,All agencies,SBIR.gov About page (as of April 2026),sba-page,Phase I,"$323,090",323090,up to,"Up to this amount, including modifications, without seeking SBA approval.",11
+All agencies · SBIR.gov About page (as of April 2026),Government-wide,All agencies,SBIR.gov About page (as of April 2026),sba-page,Phase II,"$2,153,927",2153927,up to,"Up to this amount, including modifications, without seeking SBA approval.",11
+All agencies · SBIR.gov Apply page,Government-wide,All agencies,SBIR.gov Apply page,sba-page,Phase I,"$50,000-$275,000",275000,typical range,Typical range shown on the page; upper bound plotted.,14
+All agencies · SBIR.gov Apply page,Government-wide,All agencies,SBIR.gov Apply page,sba-page,Phase II,"$400,000-$1.8 million",1800000,typical range,Typical range shown on the page; upper bound plotted.,14
+DoW (department-wide) · SBA agency card,DoW,DoW (department-wide),SBA agency card,sba-agency-card,Phase I,"$50,000 - $250,000",250000,range,Range; upper bound plotted.,12
+DoW (department-wide) · SBA agency card,DoW,DoW (department-wide),SBA agency card,sba-agency-card,Phase II,"$800,000 - $1.83 Million",1830000,range,Range; upper bound plotted.,12
+AFWERX (Air Force) · AFWERX Get Funded page,DoW,AFWERX (Air Force),AFWERX Get Funded page,agency-page,Phase I,"Up to $323,000",323000,up to,Up to six months; up to 24 months.,64
+AFWERX (Air Force) · AFWERX Get Funded page,DoW,AFWERX (Air Force),AFWERX Get Funded page,agency-page,Phase II,Up to $2.1 million,2100000,up to,Up to six months; up to 24 months.,64
+AFWERX (Air Force) · AFWERX Open Topic page,DoW,AFWERX (Air Force),AFWERX Open Topic page,agency-page,Phase I,$75K (SBIR) and $110K (STTR),75000,fixed,SBIR figure plotted; STTR figure in the published text.,67
+AFWERX (Air Force) · AFWERX Open Topic page,DoW,AFWERX (Air Force),AFWERX Open Topic page,agency-page,Phase II,$1.25M (SBIR) and $1.8M (STTR),1250000,fixed,SBIR figure plotted; STTR figure in the published text.,67
+"AFWERX (Air Force) · Ventures overview, Specific Topic (Dec 2024)",DoW,AFWERX (Air Force),"Ventures overview, Specific Topic (Dec 2024)",agency-document,Phase I,up to $180K,180000,up to,File dated 2024-12-27.,68
+"AFWERX (Air Force) · Ventures overview, Specific Topic (Dec 2024)",DoW,AFWERX (Air Force),"Ventures overview, Specific Topic (Dec 2024)",agency-document,Phase II,up to $1.8M,1800000,up to,File dated 2024-12-27.,68
+AFWERX (Air Force) · SBA tutorial (older),DoW,AFWERX (Air Force),SBA tutorial (older),sba-tutorial,Phase I,"$50,000",50000,fixed,"SBIR.gov tutorial, undated; the record treats it as historical.",57
+AFWERX (Air Force) · SBA tutorial (older),DoW,AFWERX (Air Force),SBA tutorial (older),sba-tutorial,Phase II,"up to $750,000",750000,up to,"SBIR.gov tutorial, undated; the record treats it as historical.",57
+SpaceWERX (Space Force) · SpaceWERX Get Funded page,DoW,SpaceWERX (Space Force),SpaceWERX Get Funded page,agency-page,Phase I,$75K-$180K,180000,range,Range; upper bound plotted.,71
+SpaceWERX (Space Force) · SpaceWERX Get Funded page,DoW,SpaceWERX (Space Force),SpaceWERX Get Funded page,agency-page,Phase II,$1.25M-$1.8M,1800000,range,Range; upper bound plotted.,71
+Army · Army SBIR How It Works and home pages,DoW,Army,Army SBIR How It Works and home pages,agency-page,Phase I,"up to $300,000",300000,up to,,81;80
+Army · Army SBIR How It Works and home pages,DoW,Army,Army SBIR How It Works and home pages,agency-page,Phase II,up to $2 million,2000000,up to,,81;80
+Army · Army SBIR Phases page,DoW,Army,Army SBIR Phases page,agency-page,Phase I,Up to $250K,250000,up to,Same site as the row above; the Phase I figure differs.,82
+Army · Army SBIR Phases page,DoW,Army,Army SBIR Phases page,agency-page,Phase II,Up to $2 Million,2000000,up to,Same site as the row above; the Phase I figure differs.,82
+Army · SBA tutorial (older),DoW,Army,SBA tutorial (older),sba-tutorial,Phase I,"up to $111,500 with $56,000 option",111500,up to,"Base figure plotted; option not added. SBIR.gov tutorial, undated; the record treats it as historical.",57
+Army · SBA tutorial (older),DoW,Army,SBA tutorial (older),sba-tutorial,Phase II,"up to $1,100,000",1100000,up to,"Base figure plotted; option not added. SBIR.gov tutorial, undated; the record treats it as historical.",57
+Navy · SBA tutorial (undated),DoW,Navy,SBA tutorial (undated),sba-tutorial,Phase I,$140K Base and $100K Option,140000,base,Base figure plotted for Phase I; no amount on a Navy page was in the references read.,57
+Navy · SBA tutorial (undated),DoW,Navy,SBA tutorial (undated),sba-tutorial,Phase II,up to $1.7M (Base + up to 2 options),1700000,up to,Base figure plotted for Phase I; no amount on a Navy page was in the references read.,57
+DARPA · DARPA SBIR/STTR Overview,DoW,DARPA,DARPA SBIR/STTR Overview,agency-page,Phase I,Typical funding is $250K,250000,typical,,86
+DARPA · DARPA SBIR/STTR Overview,DoW,DARPA,DARPA SBIR/STTR Overview,agency-page,Phase II,"Typical funding, which may include co-funding, is $1.8M",1800000,typical,,86
+USSOCOM · USSOCOM SBIR page,DoW,USSOCOM,USSOCOM SBIR page,agency-page,Phase I,$175K (SBIR) or $210K (STTR),175000,fixed,SBIR figure plotted; up to two Phase II awards can be made per awardee.,92
+USSOCOM · USSOCOM SBIR page,DoW,USSOCOM,USSOCOM SBIR page,agency-page,Phase II,$1.3M,1300000,fixed,SBIR figure plotted; up to two Phase II awards can be made per awardee.,92
+USSOCOM · SBA tutorial (older),DoW,USSOCOM,SBA tutorial (older),sba-tutorial,Phase I,"$150,000",150000,fixed,"SBIR.gov tutorial, undated; the record treats it as historical.",58
+USSOCOM · SBA tutorial (older),DoW,USSOCOM,SBA tutorial (older),sba-tutorial,Phase II,"up to $1,000,000",1000000,up to,"SBIR.gov tutorial, undated; the record treats it as historical.",58
+Defense Health Agency · DHA SBIR/STTR page,DoW,Defense Health Agency,DHA SBIR/STTR page,agency-page,Phase I,"$300,000",300000,fixed,6-month period; 24-month period.,94
+Defense Health Agency · DHA SBIR/STTR page,DoW,Defense Health Agency,DHA SBIR/STTR page,agency-page,Phase II,up to $1.4 million,1400000,up to,6-month period; 24-month period.,94
+NIH · NIH SEED page,HHS,NIH,NIH SEED page,agency-page,Phase I,"$323,090",323090,fixed,,31
+NIH · NIH SEED page,HHS,NIH,NIH SEED page,agency-page,Phase II,"$2,153,927",2153927,fixed,,31
+NIH · PA-27-100 component budget tables,HHS,NIH,PA-27-100 component budget tables,solicitation,Phase I,"SBA guideline to $700,000",700000,range,Upper end of the component budget tables plotted.,137
+NIH · PA-27-100 component budget tables,HHS,NIH,PA-27-100 component budget tables,solicitation,Phase II,"SBA guideline to $3,000,000",3000000,range,Upper end of the component budget tables plotted.,137
+HHS (department) · SBA agency card,HHS,HHS (department),SBA agency card,sba-agency-card,Phase I,"$275,000+",275000,at least,"Card prints ""$275,000+""; the printed figure is plotted.",12
+HHS (department) · SBA agency card,HHS,HHS (department),SBA agency card,sba-agency-card,Phase II,$1.83 Million,1830000,fixed,"Card prints ""$275,000+""; the printed figure is plotted.",12
+CDC · CDC SBIR page,HHS,CDC,CDC SBIR page,agency-page,Phase I,"up to $323,090",323090,up to,,146
+CDC · CDC SBIR page,HHS,CDC,CDC SBIR page,agency-page,Phase II,"up to $2,153,927",2153927,up to,,146
+NSF · NSF 26-510 solicitation,NSF,NSF,NSF 26-510 solicitation,solicitation,Phase I,"up to $305,000",305000,up to,,35
+NSF · NSF 26-510 solicitation,NSF,NSF,NSF 26-510 solicitation,solicitation,Phase II,"up to $1,250,000",1250000,up to,,35
+NSF · SBA agency card,NSF,NSF,SBA agency card,sba-agency-card,Phase I,"$300,000",300000,fixed,,12
+NSF · SBA agency card,NSF,NSF,SBA agency card,sba-agency-card,Phase II,$1.25 Million,1250000,fixed,,12
+DOE · DOE application hub resources,DOE,DOE,DOE application hub resources,agency-page,Phase I,"up to $250,000",250000,up to,"Phase I total up to $256,500 with TABA.",163
+DOE · DOE application hub resources,DOE,DOE,DOE application hub resources,agency-page,Phase II,"up to $2,000,000",2000000,up to,"Phase I total up to $256,500 with TABA.",163
+DOE · SBA agency card,DOE,DOE,SBA agency card,sba-agency-card,Phase I,"$200,000 - $300,000",300000,range,Range; upper bound plotted.,12
+DOE · SBA agency card,DOE,DOE,SBA agency card,sba-agency-card,Phase II,$1.1 Million - $2 Million,2000000,range,Range; upper bound plotted.,12
+NASA · BAA Appendix 26B (SBIR) and Phase II page,NASA,NASA,BAA Appendix 26B (SBIR) and Phase II page,solicitation,Phase I,"does not exceed $225,000",225000,up to,"STTR Phase I also does not exceed $225,000 (Appendix 26B, STTR).",169;170
+NASA · BAA Appendix 26B (SBIR) and Phase II page,NASA,NASA,BAA Appendix 26B (SBIR) and Phase II page,solicitation,Phase II,"Up to $1,275,000",1275000,up to,"STTR Phase I also does not exceed $225,000 (Appendix 26B, STTR).",172
+NASA · SBA agency card,NASA,NASA,SBA agency card,sba-agency-card,Phase I,"$150,000",150000,fixed,,12
+NASA · SBA agency card,NASA,NASA,SBA agency card,sba-agency-card,Phase II,$1 Million,1000000,fixed,,12
+USDA NIFA · SBA agency card,USDA,USDA NIFA,SBA agency card,sba-agency-card,Phase I,"$125,000 - $175,000",175000,range,Range; upper bound plotted for Phase I.,12
+USDA NIFA · SBA agency card,USDA,USDA NIFA,SBA agency card,sba-agency-card,Phase II,"$600,000",600000,fixed,Range; upper bound plotted for Phase I.,12
+USDA NIFA · NIFA FAQ (with TABA),USDA,USDA NIFA,NIFA FAQ (with TABA),agency-page,Phase I,"$181,500 ($131,500 for topics 8.6 and 8.12)",181500,with TABA,Figures include technical and business assistance (TABA).,185
+USDA NIFA · NIFA FAQ (with TABA),USDA,USDA NIFA,NIFA FAQ (with TABA),agency-page,Phase II,"should not exceed $650,000",650000,with TABA,Figures include technical and business assistance (TABA).,185
+USDA NIFA · FY 2026 Phase II funding opportunity,USDA,USDA NIFA,FY 2026 Phase II funding opportunity,solicitation,Phase II,"$600,000 - $650,000",650000,range,Award range; upper bound plotted.,183
+DOT (Volpe Center) · FY 2026 solicitation,DOT,DOT (Volpe Center),FY 2026 solicitation,solicitation,Phase II,"up to $1,500,000 unless otherwise noted",1500000,up to,Phase I figure not in the reference extract.,191
+DOT (Volpe Center) · About SBIR page,DOT,DOT (Volpe Center),About SBIR page,agency-page,Phase I,"normally do not exceed $150,000",150000,normally,,193
+DOT (Volpe Center) · About SBIR page,DOT,DOT (Volpe Center),About SBIR page,agency-page,Phase II,"normally do not exceed $1,000,000",1000000,normally,,193
+DOT (Volpe Center) · SBA agency card,DOT,DOT (Volpe Center),SBA agency card,sba-agency-card,Phase I,"$200,000",200000,fixed,,12
+DOT (Volpe Center) · SBA agency card,DOT,DOT (Volpe Center),SBA agency card,sba-agency-card,Phase II,$1 Million,1000000,fixed,,12
+DHS S&T · DHS S&T page,DHS,DHS S&T,DHS S&T page,agency-page,Phase I,"limited to $100,000",100000,up to,The record marks this page stale.,196
+DHS S&T · DHS S&T page,DHS,DHS S&T,DHS S&T page,agency-page,Phase II,"limited to $750,000",750000,up to,The record marks this page stale.,196
+DHS S&T · SBA agency card,DHS,DHS S&T,SBA agency card,sba-agency-card,Phase I,"$175,000",175000,fixed,,12
+DHS S&T · SBA agency card,DHS,DHS S&T,SBA agency card,sba-agency-card,Phase II,$1 Million,1000000,fixed,,12
+DHS S&T · SBA tutorial (dated),DHS,DHS S&T,SBA tutorial (dated),sba-tutorial,Phase I,"$150,000",150000,fixed,S&T figure plotted for Phase II.,126
+DHS S&T · SBA tutorial (dated),DHS,DHS S&T,SBA tutorial (dated),sba-tutorial,Phase II,"S&T up to $750,000; DNDO up to $1,000,000",750000,up to,S&T figure plotted for Phase II.,126
+EPA · EPA How to Apply page,EPA,EPA,EPA How to Apply page,agency-page,Phase I,"$100,000",100000,fixed,SBA agency card prints the same figures.,37;12
+EPA · EPA How to Apply page,EPA,EPA,EPA How to Apply page,agency-page,Phase II,"$400,000",400000,fixed,SBA agency card prints the same figures.,37;12
+ED/IES · FY 2026 solicitation page,ED,ED/IES,FY 2026 solicitation page,solicitation,Phase I,"$250,000",250000,fixed,Phase IA and IB; Phase II in FY2027 for FY2026 Phase IA and IB awardees. SBA agency card prints the same figures.,206;12
+ED/IES · FY 2026 solicitation page,ED,ED/IES,FY 2026 solicitation page,solicitation,Phase II,"$1,000,000",1000000,fixed,Phase IA and IB; Phase II in FY2027 for FY2026 Phase IA and IB awardees. SBA agency card prints the same figures.,206;12
+"DOC (NIST, NOAA) · SBA agency card",DOC,"DOC (NIST, NOAA)",SBA agency card,sba-agency-card,Phase I,"$100,000",100000,fixed,No amount on the current NIST pages read.,12
+"DOC (NIST, NOAA) · SBA agency card",DOC,"DOC (NIST, NOAA)",SBA agency card,sba-agency-card,Phase II,"$400,000",400000,fixed,No amount on the current NIST pages read.,12
+NOAA · NOAA SBIR news (FY25 Phase I),DOC,NOAA,NOAA SBIR news (FY25 Phase I),agency-page,Phase I,"up to $190,000",190000,up to,"Announced November 15, 2024, for six months.",217
