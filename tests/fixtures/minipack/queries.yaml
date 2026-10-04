@@ -1,0 +1,10 @@
+- text: sbir phase i
+  engine: WebSearch
+  hits: 9
+  date: '2026-10-03'
+  slice: A
+- text: nothing here
+  engine: WebSearch
+  hits: 0
+  date: '2026-10-03'
+  slice: B

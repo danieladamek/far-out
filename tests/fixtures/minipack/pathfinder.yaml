@@ -1,0 +1,80 @@
+version: '0.1'
+as_of: '2026-10-03'
+rule: 'deterministic: score = matched situation tags (2 each) + matched modifiers (1 each); routes with score 0 are hidden; the page shows why each route matched; no route is ever recommended over another,
+  only ranked by match count'
+questions:
+- id: situation
+  prompt: Where is the firm now?
+  type: single
+  options:
+  - tag: not-yet-registered
+    label: Not yet registered with the government
+  - tag: registered-no-award
+    label: Registered in SAM, no federal award yet
+  - tag: first-awards-grow
+    label: Has first awards and wants to grow
+  - tag: have-technology
+    label: Has a technology that needs funding
+  - tag: looking-for-partners
+    label: Looking for partners, primes or teams
+- id: offer
+  prompt: What does the firm sell?
+  type: single
+  modifier: offer
+  options:
+  - value: product
+    label: A product
+  - value: service
+    label: A service
+  - value: rd
+    label: Research and development
+- id: customer
+  prompt: Which side of government?
+  type: single
+  modifier: defense
+  options:
+  - value: true
+    label: Defense
+  - value: false
+    label: Civilian
+  - value: null
+    label: Either
+- id: certifications
+  prompt: Which certifications does the firm hold or could it qualify for?
+  type: multi
+  modifier: certs
+  options:
+  - value: 8a
+    label: 8(a)
+  - value: hubzone
+    label: HUBZone
+  - value: wosb
+    label: WOSB / EDWOSB
+  - value: sdvosb
+    label: VOSB / SDVOSB
+  - value: none
+    label: None
+routes:
+- id: route-one
+  family: sbir-sttr
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    defense: false
+  certs: []
+- id: route-two
+  family: partnering
+  situations:
+  - looking-for-partners
+  modifiers: {}
+  certs:
+  - 8a
+families:
+  sbir-sttr: SBIR/STTR and innovation front doors
+  setaside-vehicle: Set-asides, certifications and contract vehicles
+  partnering: Primes and partnering
+  ot-cso: Other Transactions, consortia and CSOs
+always_show:
+- sam-registration
+note: Personal answers stay in the browser; nothing is sent anywhere.

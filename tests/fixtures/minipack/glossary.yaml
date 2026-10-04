@@ -1,0 +1,39 @@
+- id: phase-ii
+  term: Phase II
+  kind: methods
+  domain: program
+  variants: []
+  short: The second SBIR phase.
+  definition: The second phase [1].
+  see:
+  - phase-ii-requirements
+  sources: []
+- id: phase-ii-requirements
+  term: Phase II requirements
+  kind: methods
+  domain: process
+  variants: []
+  short: What Phase II asks for.
+  definition: The requirements [1].
+  see: []
+  sources: []
+- id: sam
+  term: SAM
+  kind: methods
+  domain: process
+  variants:
+  - System for Award Management
+  short: The registration system.
+  definition: SAM [2].
+  concept: mini-concept
+  see: []
+  sources: []
+- id: sam-gov
+  term: SAM.gov
+  kind: methods
+  domain: organisation
+  variants: []
+  short: The website.
+  definition: The site [2].
+  see: []
+  sources: []

@@ -1,0 +1,10 @@
+- id: mech-one
+  name: Reading SAM
+  what:
+  - Notices [2].
+  official_url: https://sam.gov
+  sources:
+  - 2
+  pending_changes: []
+  as_of: '2026-10-03'
+  conflicts: []

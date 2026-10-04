@@ -1,0 +1,69 @@
+mode: topic
+slug: mini-far
+title: 'Mini FAR: a fixture pack'
+short_title: Mini FAR
+question: For a small business that wants federal work, what routes exist (direct contracts and set-asides, contract vehicles, SBIR/STTR and other R&D funding, Other Transactions and Commercial Solutions
+  Openings, and work through primes and partners), what does each require, how does the government on the other side of the table actually buy, and what has changed in 2025-26 that the official pages have
+  not caught up with?
+purpose: orientation
+as_of: '2026-10-03'
+authors:
+- Manuscript Interrogator (commissioned guide)
+venue: Commissioned guide — NOT PEER REVIEWED, NOT LEGAL OR COMPLIANCE ADVICE. Written by an AI research builder from public government sources for a public audience; every record links to its governing
+  text. No affiliation with any firm or agency.
+year: 2026
+plain_abstract: 'FAR Out is a map for a small business trying to sell to the United States government. It starts by asking where you are, not yet registered, registered with no award, growing, holding a
+  technology that needs funding, or looking for partners, and leads you to the routes that fit: set-asides and sole-source awards, the GSA Schedule and the big contract vehicles, SBIR and STTR and the other
+  research programs, Other Transactions through consortia and the innovation front doors, and subcontracting, teaming, joint ventures and mentor-protégé arrangements. Each route carries what it requires,
+  the gates you must clear first, the official text that governs it, and a saved search into a daily feed of open opportunities. A buyer''s map explains how defense and civilian agencies plan and buy, and
+  a dated page tracks what changed in 2025 and 2026, because much of it has. Written by an AI research builder from 1,427 public sources read as of 3 October 2026; not peer reviewed; not advice.'
+reading_minutes: 180
+audience: the owner or business-development lead of a small business with no prior federal work, with a second layer for the experienced contractor; assumes no acquisition vocabulary
+palette:
+  groups:
+    sbir-sttr: '#1f7a63'
+    setaside-vehicle: '#2a5aa6'
+    partnering: '#a85a1f'
+    ot-cso: '#7b2c5e'
+    buyer: '#4a4a4a'
+    gate: '#8a6d00'
+permissions:
+  text: builder-authored; no third-party text reproduced beyond quotations of 25 words or fewer, each attributed and cited; US government works are public domain and are summarised, not reproduced
+  figures: synthesised by the builder from cited data; no published figure images reproduced
+delivery: pages
+notes_storage: browser
+builder:
+  name: Manuscript Interrogator
+  version: '0.9'
+  date: '2026-10-03'
+github_account: danieladamek
+extensions:
+  record_files:
+  - routes.yaml
+  - programs.yaml
+  - certifications.yaml
+  - gates.yaml
+  - buyers.yaml
+  - help.yaml
+  - primes.yaml
+  - mechanics.yaml
+  - changes.yaml
+  - queries.yaml
+  schema: source/far-out-pack-schema.md
+  pathfinder: pathfinder.yaml
+  families:
+    sbir-sttr: SBIR/STTR and innovation front doors
+    setaside-vehicle: Set-asides, certifications and contract vehicles
+    partnering: Primes and partnering
+    ot-cso: Other Transactions, consortia and Commercial Solutions Openings
+opportunity_search:
+  harvest:
+  - SAM.gov contract opportunities daily CSV (public, no key)
+  - Grants.gov search2 API (no key)
+  live:
+  - USAspending API (no key, CORS open)
+  links_only:
+  - SBIR.gov (403 to automated fetch)
+  - DoD SBIR/STTR portal (robots.txt)
+  note: Harvested data is built into the Pages deployment nightly, never committed.
+disclaimer: Not legal, financial or compliance advice. Rules, thresholds and dates change; every record shows its own as-of date and links to the governing text. Nothing here is tailored to any firm.

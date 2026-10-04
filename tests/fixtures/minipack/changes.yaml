@@ -1,0 +1,10 @@
+- id: chg-one
+  date: '2026-07-13'
+  status: announced
+  basis: primary
+  what: CMMC suspended [3].
+  affects:
+  - cmmc
+  - route-one
+  sources:
+  - 3

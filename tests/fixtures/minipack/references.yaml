@@ -1,0 +1,135 @@
+- n: 1
+  key: Ref1
+  tier: seminal
+  citation: Agency. Page 1. 2026. https://example.gov/1
+  url: https://example.gov/1
+  year: 2026
+  published: '2026-01-01'
+  accessed: '2026-10-03'
+  publisher: Agency
+  source_kind: primary
+  read: full
+  summary: Summary 1.
+  key_facts:
+  - Fact 1.
+  quotes: []
+  role_here: support
+  role_note: ''
+  cited_in: []
+  verified: true
+  recheck: false
+  rechecked: '2026-10-03'
+  prev_n: 1
+  why_it_mattered: It governs.
+- n: 2
+  key: Ref2
+  tier: current
+  citation: Agency. Page 2. 2026. https://example.gov/2
+  url: https://example.gov/2
+  year: 2026
+  published: '2026-01-01'
+  accessed: '2026-10-03'
+  publisher: Agency
+  source_kind: primary
+  read: full
+  summary: Summary 2.
+  key_facts:
+  - Fact 2.
+  quotes: []
+  role_here: support
+  role_note: ''
+  cited_in: []
+  verified: true
+  recheck: false
+  rechecked: '2026-10-03'
+  prev_n: 2
+- n: 3
+  key: Ref3
+  tier: current
+  citation: Agency. Page 3. 2026. https://example.gov/3
+  url: https://example.gov/3
+  year: 2026
+  published: '2026-01-01'
+  accessed: '2026-10-03'
+  publisher: Agency
+  source_kind: primary
+  read: full
+  summary: Summary 3.
+  key_facts:
+  - '[CONTRADICTED on recheck 2026-10-03; page says: 9] It says 8.'
+  quotes: []
+  role_here: support
+  role_note: ''
+  cited_in: []
+  verified: true
+  recheck: false
+  rechecked: '2026-10-03'
+  prev_n: 3
+- n: 4
+  key: Ref4
+  tier: current
+  citation: Agency. Page 4. 2026. https://example.gov/4
+  url: https://example.gov/4
+  year: 2026
+  published: '2026-01-01'
+  accessed: '2026-10-03'
+  publisher: Agency
+  source_kind: primary
+  read: full
+  summary: Summary 4.
+  key_facts:
+  - Fact 4.
+  quotes: []
+  role_here: support
+  role_note: ''
+  cited_in: []
+  verified: true
+  recheck: false
+  rechecked: '2026-10-03'
+  prev_n: 4
+  dropped_quotes:
+  - quote: not on page
+    verdict: PARAPHRASE
+- n: 5
+  key: Ref5
+  tier: current
+  citation: Agency. Page 5. 2026. https://example.gov/5
+  url: https://example.gov/5
+  year: 2026
+  published: '2026-01-01'
+  accessed: '2026-10-03'
+  publisher: Agency
+  source_kind: primary
+  read: full
+  summary: Summary 5.
+  key_facts:
+  - Fact 5.
+  quotes: []
+  role_here: support
+  role_note: ''
+  cited_in: []
+  verified: true
+  recheck: false
+  rechecked: '2026-10-03'
+  prev_n: 5
+- n: 6
+  key: Ref6
+  tier: current
+  citation: Agency. Page 6. 2026. https://example.gov/6
+  url: https://example.gov/6
+  year: 2026
+  published: '2026-01-01'
+  accessed: '2026-10-03'
+  publisher: Agency
+  source_kind: primary
+  read: full
+  summary: Summary 6.
+  key_facts:
+  - Fact 6.
+  quotes: []
+  role_here: support
+  role_note: ''
+  cited_in: []
+  verified: true
+  recheck: true
+  prev_n: 6

@@ -32,10 +32,18 @@ const end = new Date(); const start = new Date(end.getTime() - 30 * 86400000);
 const iso = (d) => d.toISOString().slice(0, 10);
 await probe('usaspending_count', 'https://api.usaspending.gov/api/v2/search/spending_by_award_count/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ filters: { award_type_codes: ['A', 'B', 'C', 'D'], time_period: [{ start_date: iso(start), end_date: iso(end) }], set_aside_type_codes: ['SBA'] } }) }, (t) => ({ contracts: j(t)?.results?.contracts }));
 
+// A probe passes on any 2xx (206 included, for the ranged GET); anything else, or a network error, fails the run.
+const passed = (v) => v && !v.error && typeof v.status === 'number' && v.status >= 200 && v.status < 300;
+const failedProbes = Object.entries(out).filter(([k, v]) => k !== 'ranAt' && !passed(v)).map(([k]) => k);
+out.failed = failedProbes;
 const report = JSON.stringify(out, null, 2);
 console.log(report);
 await (await import('node:fs/promises')).writeFile('probe-results.json', report);
 if (process.env.GITHUB_STEP_SUMMARY) {
-  const rows = Object.entries(out).filter(([k]) => k !== 'ranAt').map(([k, v]) => `| ${k} | ${v.status ?? 'ERR'} | ${v.ms} | ${v.error ?? v.records ?? v.hitCount ?? v.contracts ?? v.contentLength ?? ''} |`).join('\n');
-  await (await import('node:fs/promises')).appendFile(process.env.GITHUB_STEP_SUMMARY, `## Source probe ${out.ranAt}\n\n| source | status | ms | note |\n|---|---|---|---|\n${rows}\n`);
+  const rows = Object.entries(out).filter(([k]) => k !== 'ranAt' && k !== 'failed').map(([k, v]) => `| ${k} | ${passed(v) ? 'ok' : '**FAIL**'} | ${v.status ?? 'ERR'} | ${v.ms} | ${v.error ?? v.records ?? v.hitCount ?? v.contracts ?? v.contentLength ?? ''} |`).join('\n');
+  await (await import('node:fs/promises')).appendFile(process.env.GITHUB_STEP_SUMMARY, `## Source probe ${out.ranAt}\n\n| source | result | status | ms | note |\n|---|---|---|---|---|\n${rows}\n\n${failedProbes.length ? `**Failed:** ${failedProbes.join(', ')}` : 'All probes returned 2xx.'}\n`);
+}
+if (failedProbes.length) {
+  console.error(`probe failures: ${failedProbes.join(', ')}`);
+  process.exitCode = 1;
 }

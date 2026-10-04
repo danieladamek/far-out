@@ -1,0 +1,8 @@
+- id: prime-one
+  name: Prime one
+  supplier_portal_url: https://example.com/p
+  registration_asks:
+  - NAICS [6]
+  as_of: '2026-10-03'
+  sources:
+  - 6

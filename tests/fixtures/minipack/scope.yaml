@@ -1,0 +1,52 @@
+topic: mini
+question: Mini?
+purpose: orientation
+boundary:
+  in:
+  - a
+  out:
+  - b
+  rationale: r
+level: l
+time_window:
+  current_from: 2024
+  seminal: any
+stance: s
+depth: standard
+anchors:
+- citation: SBIR.gov
+  why: named
+excluded: []
+assumed: false
+interview:
+- q: Q?
+  answer: A.
+  asked: '2026-10-03'
+search_strategy:
+  run_on: '2026-10-03'
+  sources:
+  - web search
+  queries:
+  - q: sbir phase i
+    source: WebSearch
+    hits: 9
+  snowball: []
+  inclusion:
+  - public
+  exclusion:
+  - paywalled
+  known_gaps:
+  - one PDF
+corpus_profile:
+  by_tier:
+    seminal: 1
+    current: 5
+  by_source_kind:
+    primary: 6
+  year_range:
+  - 2026
+  - 2026
+  concentration: c
+  dissent_represented: true
+  dissent_note: d
+  recheck: r

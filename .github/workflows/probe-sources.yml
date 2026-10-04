@@ -12,12 +12,14 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
+      # Exits non-zero when any probe is not 2xx (206 counts) or errors, so a blocked feed shows red.
       - run: node scripts/probe-sources.mjs
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
+        if: always()
         with:
           name: probe-results
           path: probe-results.json

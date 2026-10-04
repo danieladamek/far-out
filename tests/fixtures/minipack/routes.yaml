@@ -1,0 +1,51 @@
+- id: route-one
+  name: Route one
+  family: sbir-sttr
+  governing_text: 15 U.S.C. 638
+  what: A route [1].
+  who_for: Firms [1].
+  how_it_works:
+  - It works [1].
+  steps:
+  - Apply [2].
+  gates:
+  - sam-registration
+  programs:
+  - consortium-one
+  situations:
+  - have-technology
+  modifiers:
+    rd: true
+    defense: false
+  find_filter:
+    feed: grants
+    keywords:
+    - SBIR
+  official_url: https://example.gov/r1
+  sources:
+  - 1
+  - 2
+  pending_changes:
+  - status: class-deviation
+    date: '2026-01-01'
+    text: Deviation [1].
+  as_of: '2026-10-03'
+  conflicts:
+  - FAR says $8.5M [1] vs 13 CFR says $7M [2]
+- id: route-two
+  name: Route two
+  family: partnering
+  governing_text: FAR 9.6
+  what: Teaming [2].
+  who_for: ''
+  how_it_works: []
+  gates: []
+  situations:
+  - looking-for-partners
+  modifiers: {}
+  official_url: https://example.gov/r2
+  sources:
+  - 2
+  pending_changes: []
+  as_of: '2026-10-03'
+  conflicts: []

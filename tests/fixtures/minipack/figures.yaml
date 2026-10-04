@@ -1,0 +1,43 @@
+- id: mini-table
+  label: Figure 1
+  title: Thresholds
+  kind: table
+  synthesis: data
+  refs:
+  - 1
+  - 2
+  columns:
+  - field: threshold
+    label: Threshold
+  - field: amount
+    label: Amount
+  - field: ref
+    label: References
+  data: figures/data/mini-table.csv
+  script: figures/scripts/mini.py
+  caption: Thresholds [1].
+  how_to_read: Read across.
+  explain:
+  - 'on': 'column: Amount'
+    text: As published [2].
+  concepts:
+  - mini-concept
+  discussed_in:
+  - 1-intro
+  source: Assembled by the builder [1].
+- id: mini-path
+  label: Figure 2
+  title: Paths
+  kind: pathway
+  synthesis: conceptual
+  refs:
+  - 1
+  data: figures/data/mini-path.json
+  script: figures/scripts/mini.py
+  caption: Paths.
+  how_to_read: Follow arrows.
+  explain: []
+  concepts: []
+  discussed_in:
+  - 1-intro
+  source: Drawn by the builder.

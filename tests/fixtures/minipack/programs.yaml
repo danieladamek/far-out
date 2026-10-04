@@ -1,0 +1,20 @@
+- id: consortium-one
+  name: Consortium one
+  family: ot-cso
+  kind: consortium
+  status: unconfirmed
+  status_note: Site did not resolve [4].
+  what: A consortium [4].
+  membership:
+    fees:
+    - tier: Small
+      amount: $500
+      period: annual
+      cite:
+      - 4
+  official_url: https://example.gov/c1
+  sources:
+  - 4
+  pending_changes: []
+  as_of: '2026-10-03'
+  conflicts: []

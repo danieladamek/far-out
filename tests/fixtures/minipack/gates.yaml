@@ -1,0 +1,33 @@
+- id: sam-registration
+  name: SAM registration
+  what: Register [2].
+  applies_when: Before any award [2].
+  steps:
+  - Register [2].
+  official_url: https://sam.gov
+  sources:
+  - 2
+  pending_changes: &id001 []
+  as_of: '2026-10-03'
+  conflicts: &id002 []
+- id: cmmc
+  name: CMMC
+  what: Cyber rule [3].
+  applies_when: DoD contracts with CUI [3].
+  rule:
+    levels:
+    - Level 1 [3]
+  suspension:
+    announced: '2026-07-13'
+    primary:
+    - Suspended [3]
+    secondary_only:
+    - A deviation [5]
+  steps: []
+  official_url: https://example.gov/cmmc
+  sources:
+  - 3
+  - 5
+  pending_changes: *id001
+  as_of: '2026-10-03'
+  conflicts: *id002

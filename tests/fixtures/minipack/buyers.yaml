@@ -1,0 +1,18 @@
+- id: buyer-one
+  kind: buyer-pathway
+  name: Pathway one
+  governing_text: DoDI 5000.80 [5]
+  date: '2020-01-01'
+  what: A pathway [5].
+  timelines:
+  - Fast [5]
+  decision_authority:
+  - MDA [5]
+  industry_entry:
+  - OTs [5]
+  official_url: https://example.gov/b
+  sources:
+  - 5
+  pending_changes: []
+  as_of: '2026-10-03'
+  conflicts: []

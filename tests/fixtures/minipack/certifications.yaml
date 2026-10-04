@@ -1,0 +1,18 @@
+- id: cert-one
+  name: Cert one
+  owner: SBA
+  what: A certification [1].
+  eligibility:
+  - Small [1].
+  benefits:
+  - Sole source [1].
+  steps:
+  - Apply [1].
+  situations:
+  - first-awards-grow
+  official_url: https://example.gov/c
+  sources:
+  - 1
+  pending_changes: []
+  as_of: '2026-10-03'
+  conflicts: []
