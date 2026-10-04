@@ -3,3 +3,7 @@ dist/
 test-results/
 probe-results.json
 .DS_Store
+public/data/opportunities/
+scripts/.cache/
+playwright-report/
+tsconfig.tsbuildinfo

@@ -1,0 +1,913 @@
+{
+ "id": "route-decision",
+ "note": "Conceptual. Situation-to-family edges exist where at least one of the route nodes shown carries that situation tag in routes.yaml or programs.yaml; the routes list on each edge names them. Family follows the family field of the record. Refs are the governing texts of each route.",
+ "nodes": [
+  {
+   "id": "start",
+   "kind": "question",
+   "label": "Where is the firm now?",
+   "col": 0,
+   "row": 2,
+   "refs": []
+  },
+  {
+   "id": "sit-not-yet-registered",
+   "kind": "situation",
+   "label": "Not yet registered",
+   "situation": "not-yet-registered",
+   "col": 1,
+   "row": 0,
+   "refs": []
+  },
+  {
+   "id": "sit-registered-no-award",
+   "kind": "situation",
+   "label": "Registered, no award yet",
+   "situation": "registered-no-award",
+   "col": 1,
+   "row": 1,
+   "refs": []
+  },
+  {
+   "id": "sit-first-awards-grow",
+   "kind": "situation",
+   "label": "First awards, growing",
+   "situation": "first-awards-grow",
+   "col": 1,
+   "row": 2,
+   "refs": []
+  },
+  {
+   "id": "sit-have-technology",
+   "kind": "situation",
+   "label": "Have a technology that needs funding",
+   "situation": "have-technology",
+   "col": 1,
+   "row": 3,
+   "refs": []
+  },
+  {
+   "id": "sit-looking-for-partners",
+   "kind": "situation",
+   "label": "Looking for partners",
+   "situation": "looking-for-partners",
+   "col": 1,
+   "row": 4,
+   "refs": []
+  },
+  {
+   "id": "gate-sam",
+   "kind": "gate",
+   "label": "Register in SAM.gov and get a Unique Entity ID first",
+   "record": "gates/sam-registration-uei",
+   "governing_text": "FAR 52.204-7",
+   "col": 1,
+   "row": -1,
+   "refs": [
+    303,
+    608,
+    300
+   ]
+  },
+  {
+   "id": "fam-setaside-vehicle",
+   "kind": "family",
+   "label": "Set-asides, certifications and contract vehicles",
+   "family": "setaside-vehicle",
+   "col": 2,
+   "row": 0,
+   "refs": []
+  },
+  {
+   "id": "fam-sbir-sttr",
+   "kind": "family",
+   "label": "SBIR/STTR and innovation front doors",
+   "family": "sbir-sttr",
+   "col": 2,
+   "row": 1,
+   "refs": []
+  },
+  {
+   "id": "fam-ot-cso",
+   "kind": "family",
+   "label": "Other Transactions, consortia and Commercial Solutions Openings",
+   "family": "ot-cso",
+   "col": 2,
+   "row": 2,
+   "refs": []
+  },
+  {
+   "id": "fam-partnering",
+   "kind": "family",
+   "label": "Primes and partnering",
+   "family": "partnering",
+   "col": 2,
+   "row": 3,
+   "refs": []
+  },
+  {
+   "id": "route-simplified-acquisition-and-micro-purchase",
+   "kind": "route",
+   "label": "Micro-purchases and simplified acquisitions",
+   "family": "setaside-vehicle",
+   "record": "routes/simplified-acquisition-and-micro-purchase",
+   "governing_text": "FAR 13.003; FAR 13.201; FAR 2.101; 15 U.S.C. 644(j)(1)",
+   "situations": [
+    "not-yet-registered",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 0,
+   "refs": [
+    438,
+    440,
+    418,
+    374
+   ]
+  },
+  {
+   "id": "route-total-small-business-set-aside",
+   "kind": "route",
+   "label": "Total small business set-aside (rule of two)",
+   "family": "setaside-vehicle",
+   "record": "routes/total-small-business-set-aside",
+   "governing_text": "FAR 19.502-2; 15 U.S.C. 644(j)(1)",
+   "situations": [
+    "first-awards-grow",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 1,
+   "refs": [
+    384,
+    374
+   ]
+  },
+  {
+   "id": "route-8a-sole-source-and-competition",
+   "kind": "route",
+   "label": "8(a) sole source and competition",
+   "family": "setaside-vehicle",
+   "record": "routes/8a-sole-source-and-competition",
+   "governing_text": "FAR 19.805-1; FAR 19.808-1; 13 CFR 124.506",
+   "situations": [
+    "first-awards-grow",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 2,
+   "refs": [
+    338,
+    339,
+    331
+   ]
+  },
+  {
+   "id": "route-hubzone-sole-source-and-price-preference",
+   "kind": "route",
+   "label": "HUBZone sole source and price preference",
+   "family": "setaside-vehicle",
+   "record": "routes/hubzone-sole-source-and-price-preference",
+   "governing_text": "FAR 19.1306; FAR 19.1307",
+   "situations": [
+    "first-awards-grow",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 3,
+   "refs": [
+    349
+   ]
+  },
+  {
+   "id": "route-sdvosb-sole-source-and-va-veterans-first",
+   "kind": "route",
+   "label": "SDVOSB sole source and VA Veterans First",
+   "family": "setaside-vehicle",
+   "record": "routes/sdvosb-sole-source-and-va-veterans-first",
+   "governing_text": "FAR 19.1406",
+   "situations": [
+    "first-awards-grow",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 4,
+   "refs": [
+    368
+   ]
+  },
+  {
+   "id": "route-wosb-edwosb-sole-source",
+   "kind": "route",
+   "label": "WOSB and EDWOSB sole source",
+   "family": "setaside-vehicle",
+   "record": "routes/wosb-edwosb-sole-source",
+   "governing_text": "FAR 19.1506",
+   "situations": [
+    "first-awards-grow",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 5,
+   "refs": [
+    357
+   ]
+  },
+  {
+   "id": "route-commercial-product-or-service-buy",
+   "kind": "route",
+   "label": "Commercial product or service buy",
+   "family": "setaside-vehicle",
+   "record": "routes/commercial-product-or-service-buy",
+   "governing_text": "FAR 12.101; FAR 13.500",
+   "situations": [
+    "first-awards-grow",
+    "have-technology",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 6,
+   "refs": [
+    442,
+    439
+   ]
+  },
+  {
+   "id": "route-gsa-mas",
+   "kind": "route",
+   "label": "GSA Multiple Award Schedule",
+   "family": "setaside-vehicle",
+   "record": "programs/gsa-mas",
+   "governing_text": "GSA Multiple Award Schedule program (GSA program page; no regulation cited here)",
+   "situations": [
+    "first-awards-grow",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 7,
+   "refs": [
+    477
+   ]
+  },
+  {
+   "id": "route-subcontracting-under-prime-plan",
+   "kind": "route",
+   "label": "Subcontracting under a prime's plan",
+   "family": "setaside-vehicle",
+   "record": "routes/subcontracting-under-prime-plan",
+   "governing_text": "FAR 19.702; FAR 19.704; 13 CFR 125.3",
+   "situations": [
+    "looking-for-partners",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 8,
+   "refs": [
+    692,
+    704
+   ]
+  },
+  {
+   "id": "route-sbir-sttr-governmentwide",
+   "kind": "route",
+   "label": "SBIR/STTR Phase I and Phase II",
+   "family": "sbir-sttr",
+   "record": "programs/sbir-sttr-governmentwide",
+   "governing_text": "15 U.S.C. 638; SBA SBIR/STTR Policy Directive (May 2023); Pub. L. 119-83",
+   "situations": [
+    "have-technology"
+   ],
+   "col": 3,
+   "row": 9,
+   "refs": [
+    3,
+    5,
+    1
+   ]
+  },
+  {
+   "id": "route-direct-to-phase-ii",
+   "kind": "route",
+   "label": "Direct to Phase II",
+   "family": "sbir-sttr",
+   "record": "programs/direct-to-phase-ii",
+   "governing_text": "15 U.S.C. 638(cc) as amended by Pub. L. 119-83 section 10(a); Policy Directive section 4(b)(1)(ii)",
+   "situations": [
+    "have-technology"
+   ],
+   "col": 3,
+   "row": 10,
+   "refs": [
+    1,
+    5
+   ]
+  },
+  {
+   "id": "route-phase-iii-award",
+   "kind": "route",
+   "label": "SBIR/STTR Phase III award",
+   "family": "sbir-sttr",
+   "record": "programs/phase-iii-award",
+   "governing_text": "15 U.S.C. 638(r)(4); Policy Directive section 4(c)",
+   "situations": [
+    "first-awards-grow",
+    "have-technology"
+   ],
+   "col": 3,
+   "row": 11,
+   "refs": [
+    225,
+    5
+   ]
+  },
+  {
+   "id": "route-sttr-vs-sbir",
+   "kind": "route",
+   "label": "STTR with a research institution partner",
+   "family": "sbir-sttr",
+   "record": "programs/sttr-vs-sbir",
+   "governing_text": "Policy Directive section 6(a)(2) and section 8(d)(1)",
+   "situations": [
+    "have-technology",
+    "looking-for-partners"
+   ],
+   "col": 3,
+   "row": 12,
+   "refs": [
+    5
+   ]
+  },
+  {
+   "id": "route-fast-partnership-program",
+   "kind": "route",
+   "label": "FAST partner help for a first proposal",
+   "family": "sbir-sttr",
+   "record": "programs/fast-partnership-program",
+   "governing_text": "SBA FAST Partnership Program (program page and FY 2026 notice)",
+   "situations": [
+    "have-technology",
+    "not-yet-registered",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 13,
+   "refs": [
+    128,
+    129
+   ]
+  },
+  {
+   "id": "route-prototype-ot",
+   "kind": "route",
+   "label": "Prototype Other Transaction",
+   "family": "ot-cso",
+   "record": "routes/prototype-ot",
+   "governing_text": "10 U.S.C. 4022",
+   "situations": [
+    "first-awards-grow",
+    "have-technology"
+   ],
+   "col": 3,
+   "row": 14,
+   "refs": [
+    1028
+   ]
+  },
+  {
+   "id": "route-research-ot",
+   "kind": "route",
+   "label": "Research Other Transaction",
+   "family": "ot-cso",
+   "record": "routes/research-ot",
+   "governing_text": "10 U.S.C. 4021",
+   "situations": [
+    "have-technology"
+   ],
+   "col": 3,
+   "row": 15,
+   "refs": [
+    1031
+   ]
+  },
+  {
+   "id": "route-follow-on-production-ot",
+   "kind": "route",
+   "label": "Follow-on production Other Transaction",
+   "family": "ot-cso",
+   "record": "routes/follow-on-production-ot",
+   "governing_text": "10 U.S.C. 4022(f)",
+   "situations": [
+    "first-awards-grow",
+    "have-technology"
+   ],
+   "col": 3,
+   "row": 16,
+   "refs": [
+    1028,
+    1029
+   ]
+  },
+  {
+   "id": "route-defense-commercial-solutions-opening",
+   "kind": "route",
+   "label": "Defense Commercial Solutions Opening",
+   "family": "ot-cso",
+   "record": "routes/defense-commercial-solutions-opening",
+   "governing_text": "10 U.S.C. 3458 as amended by Pub. L. 119-60 section 1823; DFARS Subpart 212.70",
+   "situations": [
+    "first-awards-grow",
+    "have-technology",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 17,
+   "refs": [
+    1033,
+    1040
+   ]
+  },
+  {
+   "id": "route-ot-consortium-membership",
+   "kind": "route",
+   "label": "OT consortium membership",
+   "family": "ot-cso",
+   "record": "routes/ot-consortium-membership",
+   "governing_text": "10 U.S.C. 4022; each consortium's base and membership agreements",
+   "situations": [
+    "first-awards-grow",
+    "have-technology",
+    "looking-for-partners"
+   ],
+   "col": 3,
+   "row": 18,
+   "refs": [
+    1028,
+    1119
+   ]
+  },
+  {
+   "id": "route-baa-far-35-016",
+   "kind": "route",
+   "label": "Broad Agency Announcement",
+   "family": "ot-cso",
+   "record": "routes/baa-far-35-016",
+   "governing_text": "FAR 35.016",
+   "situations": [
+    "have-technology"
+   ],
+   "col": 3,
+   "row": 19,
+   "refs": [
+    271
+   ]
+  },
+  {
+   "id": "route-finding-subcontract-work",
+   "kind": "route",
+   "label": "Finding subcontract work",
+   "family": "partnering",
+   "record": "routes/finding-subcontract-work",
+   "governing_text": "No regulation governs the directories; 13 CFR 125.3(e) for Commercial Market Representatives",
+   "situations": [
+    "looking-for-partners",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 20,
+   "refs": [
+    704,
+    730
+   ]
+  },
+  {
+   "id": "route-teaming-contractor-team-arrangements",
+   "kind": "route",
+   "label": "Teaming and contractor team arrangements",
+   "family": "partnering",
+   "record": "routes/teaming-contractor-team-arrangements",
+   "governing_text": "FAR 9.601 to 9.604",
+   "situations": [
+    "first-awards-grow",
+    "looking-for-partners",
+    "registered-no-award"
+   ],
+   "col": 3,
+   "row": 21,
+   "refs": [
+    761
+   ]
+  },
+  {
+   "id": "route-joint-venture-set-aside",
+   "kind": "route",
+   "label": "Joint venture on a set-aside",
+   "family": "partnering",
+   "record": "routes/joint-venture-set-aside",
+   "governing_text": "13 CFR 121.103(h); 13 CFR 125.8",
+   "situations": [
+    "first-awards-grow",
+    "looking-for-partners"
+   ],
+   "col": 3,
+   "row": 22,
+   "refs": [
+    770,
+    773
+   ]
+  },
+  {
+   "id": "route-sba-mentor-protege-program",
+   "kind": "route",
+   "label": "SBA Mentor-Protege Program",
+   "family": "partnering",
+   "record": "routes/sba-mentor-protege-program",
+   "governing_text": "15 U.S.C. 657r; 13 CFR 125.9",
+   "situations": [
+    "first-awards-grow",
+    "looking-for-partners"
+   ],
+   "col": 3,
+   "row": 23,
+   "refs": [
+    787,
+    785
+   ]
+  },
+  {
+   "id": "route-dod-mentor-protege-program",
+   "kind": "route",
+   "label": "DoD Mentor-Protege Program",
+   "family": "partnering",
+   "record": "routes/dod-mentor-protege-program",
+   "governing_text": "10 U.S.C. 4902",
+   "situations": [
+    "first-awards-grow",
+    "looking-for-partners"
+   ],
+   "col": 3,
+   "row": 24,
+   "refs": [
+    451
+   ]
+  },
+  {
+   "id": "route-crada",
+   "kind": "route",
+   "label": "CRADA with a federal laboratory",
+   "family": "partnering",
+   "record": "routes/crada",
+   "governing_text": "15 U.S.C. 3710a",
+   "situations": [
+    "have-technology",
+    "looking-for-partners"
+   ],
+   "col": 3,
+   "row": 25,
+   "refs": [
+    992
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "kind": "choice",
+   "from": "start",
+   "to": "sit-not-yet-registered"
+  },
+  {
+   "kind": "choice",
+   "from": "start",
+   "to": "sit-registered-no-award"
+  },
+  {
+   "kind": "choice",
+   "from": "start",
+   "to": "sit-first-awards-grow"
+  },
+  {
+   "kind": "choice",
+   "from": "start",
+   "to": "sit-have-technology"
+  },
+  {
+   "kind": "choice",
+   "from": "start",
+   "to": "sit-looking-for-partners"
+  },
+  {
+   "kind": "gate",
+   "label": "required at offer and at award",
+   "from": "sit-not-yet-registered",
+   "to": "gate-sam"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-setaside-vehicle",
+   "to": "route-simplified-acquisition-and-micro-purchase"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-setaside-vehicle",
+   "to": "route-total-small-business-set-aside"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-setaside-vehicle",
+   "to": "route-8a-sole-source-and-competition"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-setaside-vehicle",
+   "to": "route-hubzone-sole-source-and-price-preference"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-setaside-vehicle",
+   "to": "route-sdvosb-sole-source-and-va-veterans-first"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-setaside-vehicle",
+   "to": "route-wosb-edwosb-sole-source"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-setaside-vehicle",
+   "to": "route-commercial-product-or-service-buy"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-setaside-vehicle",
+   "to": "route-gsa-mas"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-setaside-vehicle",
+   "to": "route-subcontracting-under-prime-plan"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-sbir-sttr",
+   "to": "route-sbir-sttr-governmentwide"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-sbir-sttr",
+   "to": "route-direct-to-phase-ii"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-sbir-sttr",
+   "to": "route-phase-iii-award"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-sbir-sttr",
+   "to": "route-sttr-vs-sbir"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-sbir-sttr",
+   "to": "route-fast-partnership-program"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-ot-cso",
+   "to": "route-prototype-ot"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-ot-cso",
+   "to": "route-research-ot"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-ot-cso",
+   "to": "route-follow-on-production-ot"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-ot-cso",
+   "to": "route-defense-commercial-solutions-opening"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-ot-cso",
+   "to": "route-ot-consortium-membership"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-ot-cso",
+   "to": "route-baa-far-35-016"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-partnering",
+   "to": "route-finding-subcontract-work"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-partnering",
+   "to": "route-teaming-contractor-team-arrangements"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-partnering",
+   "to": "route-joint-venture-set-aside"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-partnering",
+   "to": "route-sba-mentor-protege-program"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-partnering",
+   "to": "route-dod-mentor-protege-program"
+  },
+  {
+   "kind": "contains",
+   "from": "fam-partnering",
+   "to": "route-crada"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-simplified-acquisition-and-micro-purchase"
+   ],
+   "from": "sit-not-yet-registered",
+   "to": "fam-setaside-vehicle"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-fast-partnership-program"
+   ],
+   "from": "sit-not-yet-registered",
+   "to": "fam-sbir-sttr"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-simplified-acquisition-and-micro-purchase",
+    "route-total-small-business-set-aside",
+    "route-8a-sole-source-and-competition",
+    "route-hubzone-sole-source-and-price-preference",
+    "route-sdvosb-sole-source-and-va-veterans-first",
+    "route-wosb-edwosb-sole-source",
+    "route-commercial-product-or-service-buy",
+    "route-gsa-mas",
+    "route-subcontracting-under-prime-plan"
+   ],
+   "from": "sit-registered-no-award",
+   "to": "fam-setaside-vehicle"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-fast-partnership-program"
+   ],
+   "from": "sit-registered-no-award",
+   "to": "fam-sbir-sttr"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-defense-commercial-solutions-opening"
+   ],
+   "from": "sit-registered-no-award",
+   "to": "fam-ot-cso"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-finding-subcontract-work",
+    "route-teaming-contractor-team-arrangements"
+   ],
+   "from": "sit-registered-no-award",
+   "to": "fam-partnering"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-total-small-business-set-aside",
+    "route-8a-sole-source-and-competition",
+    "route-hubzone-sole-source-and-price-preference",
+    "route-sdvosb-sole-source-and-va-veterans-first",
+    "route-wosb-edwosb-sole-source",
+    "route-commercial-product-or-service-buy",
+    "route-gsa-mas"
+   ],
+   "from": "sit-first-awards-grow",
+   "to": "fam-setaside-vehicle"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-phase-iii-award"
+   ],
+   "from": "sit-first-awards-grow",
+   "to": "fam-sbir-sttr"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-prototype-ot",
+    "route-follow-on-production-ot",
+    "route-defense-commercial-solutions-opening",
+    "route-ot-consortium-membership"
+   ],
+   "from": "sit-first-awards-grow",
+   "to": "fam-ot-cso"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-teaming-contractor-team-arrangements",
+    "route-joint-venture-set-aside",
+    "route-sba-mentor-protege-program",
+    "route-dod-mentor-protege-program"
+   ],
+   "from": "sit-first-awards-grow",
+   "to": "fam-partnering"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-commercial-product-or-service-buy"
+   ],
+   "from": "sit-have-technology",
+   "to": "fam-setaside-vehicle"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-sbir-sttr-governmentwide",
+    "route-direct-to-phase-ii",
+    "route-phase-iii-award",
+    "route-sttr-vs-sbir",
+    "route-fast-partnership-program"
+   ],
+   "from": "sit-have-technology",
+   "to": "fam-sbir-sttr"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-prototype-ot",
+    "route-research-ot",
+    "route-follow-on-production-ot",
+    "route-defense-commercial-solutions-opening",
+    "route-ot-consortium-membership",
+    "route-baa-far-35-016"
+   ],
+   "from": "sit-have-technology",
+   "to": "fam-ot-cso"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-crada"
+   ],
+   "from": "sit-have-technology",
+   "to": "fam-partnering"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-subcontracting-under-prime-plan"
+   ],
+   "from": "sit-looking-for-partners",
+   "to": "fam-setaside-vehicle"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-sttr-vs-sbir"
+   ],
+   "from": "sit-looking-for-partners",
+   "to": "fam-sbir-sttr"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-ot-consortium-membership"
+   ],
+   "from": "sit-looking-for-partners",
+   "to": "fam-ot-cso"
+  },
+  {
+   "kind": "leads-to",
+   "routes": [
+    "route-finding-subcontract-work",
+    "route-teaming-contractor-team-arrangements",
+    "route-joint-venture-set-aside",
+    "route-sba-mentor-protege-program",
+    "route-dod-mentor-protege-program",
+    "route-crada"
+   ],
+   "from": "sit-looking-for-partners",
+   "to": "fam-partnering"
+  }
+ ]
+}

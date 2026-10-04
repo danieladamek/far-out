@@ -1,0 +1,365 @@
+{
+ "id": "sbir-phases",
+ "note": "Conceptual. Amounts and durations in node details are as the cited references give them. The transition programs shown are those with a program record in this pack; the list is not exhaustive.",
+ "nodes": [
+  {
+   "id": "start",
+   "kind": "start",
+   "label": "Small firm with a technology",
+   "col": 0,
+   "row": 1,
+   "refs": [
+    10
+   ],
+   "detail": "Not more than 500 employees with affiliates; ownership per 13 CFR 121.702."
+  },
+  {
+   "id": "phase-1",
+   "kind": "phase",
+   "label": "Phase I",
+   "col": 1,
+   "row": 1,
+   "refs": [
+    5,
+    11
+   ],
+   "record": "programs/sbir-sttr-governmentwide",
+   "detail": "Feasibility. Base guideline $150,000; normally not more than 6 months (SBIR) or 1 year (STTR). Up to $323,090 without SBA approval as of April 2026."
+  },
+  {
+   "id": "phase-2",
+   "kind": "phase",
+   "label": "Phase II",
+   "col": 3,
+   "row": 1,
+   "refs": [
+    5,
+    11
+   ],
+   "record": "programs/sbir-sttr-governmentwide",
+   "detail": "Continues the Phase I effort. Base guideline $1,000,000; normally not more than 2 years. Up to $2,153,927 without SBA approval as of April 2026."
+  },
+  {
+   "id": "phase-3",
+   "kind": "phase",
+   "label": "Phase III",
+   "col": 5,
+   "row": 1,
+   "refs": [
+    5,
+    225,
+    1
+   ],
+   "record": "programs/phase-iii-award",
+   "detail": "Work that derives from, extends or completes earlier SBIR/STTR work, paid from non-SBIR/STTR funds. No limit on number, duration, type or dollar value; sole source under 15 U.S.C. 638(r)(4)."
+  },
+  {
+   "id": "direct-to-phase-2",
+   "kind": "branch",
+   "label": "Direct to Phase II",
+   "col": 1,
+   "row": 0,
+   "refs": [
+    5,
+    1
+   ],
+   "record": "programs/direct-to-phase-ii",
+   "detail": "A Phase II without a prior Phase I, on a written determination of demonstrated feasibility. Until September 30, 2031; NIH, DoD and Education, with DOE and NASA and STTR added by Pub. L. 119-83."
+  },
+  {
+   "id": "fast-track",
+   "kind": "branch",
+   "label": "Fast-Track",
+   "col": 1,
+   "row": 2,
+   "refs": [
+    35,
+    149,
+    31
+   ],
+   "record": "programs/nsf-sbir-sttr",
+   "detail": "One award with a Phase I component followed by a Phase II component. NSF 26-510: $400,000 over 6 to 12 months plus up to $1,155,000 over a further 18 to 24 months. Also available at NIH."
+  },
+  {
+   "id": "sequential-phase-2",
+   "kind": "branch",
+   "label": "Sequential (second) Phase II",
+   "col": 3,
+   "row": 0,
+   "refs": [
+    5,
+    20
+   ],
+   "record": "programs/sequential-phase-ii",
+   "detail": "One additional, sequential Phase II to continue the work of an initial Phase II, on the same terms."
+  },
+  {
+   "id": "strategic-breakthrough",
+   "kind": "branch",
+   "label": "Strategic Breakthrough award",
+   "col": 4,
+   "row": 0,
+   "refs": [
+    1
+   ],
+   "record": "programs/strategic-breakthrough-awards",
+   "detail": "Not more than $30,000,000 over not more than 48 months; not less than 1 prior Phase II award; not less than 100 percent matching funds. Authority ends September 30, 2031."
+  },
+  {
+   "id": "transition",
+   "kind": "group",
+   "label": "Transition programs after Phase II",
+   "col": 4,
+   "row": 2,
+   "refs": [],
+   "detail": "Agency programs that add money or help between Phase II and Phase III."
+  },
+  {
+   "id": "tacfi",
+   "kind": "transition",
+   "label": "TACFI (Air Force)",
+   "col": 4,
+   "row": 3,
+   "refs": [
+    236,
+    64
+   ],
+   "record": "programs/af-tacfi",
+   "detail": "$375,000 to $2 million, up to 24 months, 1:1 match."
+  },
+  {
+   "id": "stratfi",
+   "kind": "transition",
+   "label": "STRATFI (Air Force)",
+   "col": 4,
+   "row": 4,
+   "refs": [
+    236,
+    64
+   ],
+   "record": "programs/af-stratfi",
+   "detail": "$3 million to $15 million of SBIR/STTR funds, up to 48 months, with matching funds."
+  },
+  {
+   "id": "catalyst",
+   "kind": "transition",
+   "label": "Army SBIR CATALYST",
+   "col": 4,
+   "row": 5,
+   "refs": [
+    239
+   ],
+   "record": "programs/army-sbir-catalyst",
+   "detail": "Base award $1 million; enhancement up to $7 million additional SBIR funds; match 2:1:1 (Army SBIR : Army customer : integrator)."
+  },
+  {
+   "id": "navy-stp",
+   "kind": "transition",
+   "label": "Navy STP",
+   "col": 4,
+   "row": 6,
+   "refs": [
+    235
+   ],
+   "record": "programs/navy-stp",
+   "detail": "An 11-month assistance program for Navy Phase II awardees who have not elected TABA."
+  },
+  {
+   "id": "art",
+   "kind": "transition",
+   "label": "ART (DoW)",
+   "col": 4,
+   "row": 7,
+   "refs": [
+    55
+   ],
+   "record": "programs/dow-art",
+   "detail": "1:1 matching of a DoW agency or component's funding for Phase II projects; the sponsor signs a Technology Transition Agreement."
+  },
+  {
+   "id": "apfit",
+   "kind": "transition",
+   "label": "APFIT (DoW)",
+   "col": 4,
+   "row": 8,
+   "refs": [
+    108,
+    109
+   ],
+   "record": "programs/apfit",
+   "detail": "Procurement funding only, $10 million to $50 million per project; only government organisations submit on behalf of companies."
+  },
+  {
+   "id": "nih-crp",
+   "kind": "transition",
+   "label": "NIH Commercialization Readiness Pilot",
+   "col": 4,
+   "row": 9,
+   "refs": [
+    31
+   ],
+   "record": "programs/nih-sbir-sttr-grants",
+   "detail": "$4,191,495 for a project timeline of up to 3 years."
+  },
+  {
+   "id": "nsf-phase-2b",
+   "kind": "transition",
+   "label": "NSF Phase IIB supplement",
+   "col": 4,
+   "row": 10,
+   "refs": [
+    35
+   ],
+   "record": "programs/nsf-sbir-sttr",
+   "detail": "$50,000 to $500,000."
+  }
+ ],
+ "edges": [
+  {
+   "kind": "main",
+   "label": "proposal to an agency solicitation",
+   "from": "start",
+   "to": "phase-1"
+  },
+  {
+   "kind": "branch",
+   "label": "feasibility already shown",
+   "refs": [
+    5,
+    1
+   ],
+   "from": "start",
+   "to": "direct-to-phase-2"
+  },
+  {
+   "kind": "branch",
+   "label": "Phase I and Phase II in one award",
+   "refs": [
+    35,
+    149
+   ],
+   "from": "start",
+   "to": "fast-track"
+  },
+  {
+   "kind": "main",
+   "label": "continues the Phase I effort",
+   "refs": [
+    5
+   ],
+   "from": "phase-1",
+   "to": "phase-2"
+  },
+  {
+   "kind": "branch",
+   "label": "awarded as a Phase II",
+   "refs": [
+    5
+   ],
+   "from": "direct-to-phase-2",
+   "to": "phase-2"
+  },
+  {
+   "kind": "branch",
+   "label": "Phase II component",
+   "refs": [
+    35
+   ],
+   "from": "fast-track",
+   "to": "phase-2"
+  },
+  {
+   "kind": "branch",
+   "label": "one more Phase II",
+   "refs": [
+    5,
+    20
+   ],
+   "from": "phase-2",
+   "to": "sequential-phase-2"
+  },
+  {
+   "kind": "branch",
+   "label": "with 100 percent matching funds",
+   "refs": [
+    1
+   ],
+   "from": "phase-2",
+   "to": "strategic-breakthrough"
+  },
+  {
+   "kind": "branch",
+   "label": "agency transition programs",
+   "from": "phase-2",
+   "to": "transition"
+  },
+  {
+   "kind": "member",
+   "from": "transition",
+   "to": "tacfi"
+  },
+  {
+   "kind": "member",
+   "from": "transition",
+   "to": "stratfi"
+  },
+  {
+   "kind": "member",
+   "from": "transition",
+   "to": "catalyst"
+  },
+  {
+   "kind": "member",
+   "from": "transition",
+   "to": "navy-stp"
+  },
+  {
+   "kind": "member",
+   "from": "transition",
+   "to": "art"
+  },
+  {
+   "kind": "member",
+   "from": "transition",
+   "to": "apfit"
+  },
+  {
+   "kind": "member",
+   "from": "transition",
+   "to": "nih-crp"
+  },
+  {
+   "kind": "member",
+   "from": "transition",
+   "to": "nsf-phase-2b"
+  },
+  {
+   "kind": "main",
+   "label": "non-SBIR/STTR funds",
+   "refs": [
+    5
+   ],
+   "from": "phase-2",
+   "to": "phase-3"
+  },
+  {
+   "kind": "branch",
+   "label": "Phase III may follow Phase I work",
+   "refs": [
+    5
+   ],
+   "from": "phase-1",
+   "to": "phase-3"
+  },
+  {
+   "kind": "branch",
+   "from": "strategic-breakthrough",
+   "to": "phase-3"
+  },
+  {
+   "kind": "branch",
+   "from": "transition",
+   "to": "phase-3"
+  }
+ ]
+}
